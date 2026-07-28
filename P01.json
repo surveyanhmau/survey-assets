@@ -6100,7 +6100,7 @@
                 {
                   "id": "PR4",
                   "type": "RANKING",
-                  "text": "Đâu là ưu đãi/ chính sách giá sẽ ảnh hưởng nhất đến quyết định mua xe của bạn?\nVui lòng chọn tối đa 5 yếu tố theo thứ tự\n 1-là quan trọng nhất cho đến 5 là ít quan trọng nhất",
+                  "text": "Đâu là ưu đãi/ chính sách giá sẽ ảnh hưởng nhất đến quyết định mua xe của bạn?\nVui lòng chọn 5 yếu tố theo thứ tự\n 1-là quan trọng nhất cho đến 5 là ít quan trọng nhất",
                   "note": "PVV vuốt cho đáp viên xem toàn bộ các yếu tố ở bên trái trước khi xếp hạng",
                   "media": "",
                   "record": false,
@@ -6296,8 +6296,8 @@
                       "is_other": false
                     }
                   ],
-                  "min": "3",
-                  "max": "3",
+                  "min": "5",
+                  "max": "5",
                   "unit": "",
                   "display_columns": 1,
                   "no_answer": false,
