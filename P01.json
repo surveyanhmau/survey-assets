@@ -4064,7 +4064,7 @@
                 "two_state": false
               },
               "logic": {
-                "on_enter": "if(Contains(O2,[1])){TopicVisible(CurrentQuestion(),[101,102,103,104,105])};\nif(Contains(O2,[2])){TopicVisible(CurrentQuestion(),[201,202,203,204,205,206,207,208])};\nif(Contains(O2,[3])){TopicVisible(CurrentQuestion(),[301,302,303,304,305,306,307,308,309,310,311])};\nif(Contains(O2,[4])){TopicVisible(CurrentQuestion(),[401,402,403,404,405,406,407,408,409,410])};\nif(Contains(O2,[5])){TopicVisible(CurrentQuestion(),[501,502,503,504,505,506,507,508,509,510])};\nif(Contains(O2,[6])){TopicVisible(CurrentQuestion(),[601,602,603,604,605])};\nif(Contains(O2,[7])){TopicVisible(CurrentQuestion(),[701])};\nif(Contains(O2,[8])){TopicVisible(CurrentQuestion(),[801,802,803,804,805])};\nSetQuestionText(CurrentQuestion(),[AnswerText(O2)]);",
+                "on_enter": "if(Contains(O2,[1])){TopicVisible(CurrentQuestion(),[101,102,103,104])};\nif(Contains(O2,[2])){TopicVisible(CurrentQuestion(),[201,202,203,204,205,206,207,208,209])};\nif(Contains(O2,[3])){TopicVisible(CurrentQuestion(),[301,302,303,304,305,306,307,308,309])};\nif(Contains(O2,[4])){TopicVisible(CurrentQuestion(),[401,402,403,404,405,406,407,408,409])};\nif(Contains(O2,[5])){TopicVisible(CurrentQuestion(),[501,502,503,504,505,506,507,508])};\nif(Contains(O2,[6])){TopicVisible(CurrentQuestion(),[601,602,603,604,605])};\nif(Contains(O2,[7])){TopicVisible(CurrentQuestion(),[701])};\nif(Contains(O2,[8])){TopicVisible(CurrentQuestion(),[801,802,803,804,805])};\nSetQuestionText(CurrentQuestion(),[AnswerText(O2)]);",
                 "on_next": "",
                 "rules": []
               },
