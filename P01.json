@@ -42,7 +42,7 @@
             {
               "id": "S0",
               "type": "SINGLE",
-              "text": "Xin chào, tôi đến từ công ty Sun Flower. Chúng tôi đang tiến hành một nghiên cứu thị trường về xe hơi. Tất cả những thông tin bạn cung cấp sẽ không được tiết lộ dưới bất kỳ hình thức nào và luôn tuân thủ theo quy tắc bảo mật (GDPR).\nTất cả các thông tin của chị cung cấp vô cùng quý giá đối với chúng tôi và sẽ được giữ bí mật, chúng tôi tuân thủ các quy tắc ứng xử của Hiệp hội Nghiên cứu thị trường (ESOMAR).\n\nBạn có đồng ý khảo sát?",
+              "text": "Xin chào, tôi đến từ công ty Sun Flower. Chúng tôi đang tiến hành một nghiên cứu thị trường về xe hơi. Tất cả những thông tin bạn cung cấp sẽ không được tiết lộ dưới bất kỳ hình thức nào và luôn tuân thủ theo quy tắc bảo mật (GDPR).\nTất cả các thông tin của Anh/Chị cung cấp vô cùng quý giá đối với chúng tôi và sẽ được giữ bí mật, chúng tôi tuân thủ các quy tắc ứng xử của Hiệp hội Nghiên cứu thị trường (ESOMAR).\n\nBạn có đồng ý khảo sát?",
               "note": "",
               "media": "",
               "record": false,
@@ -1636,7 +1636,7 @@
               "id": "A1",
               "type": "SINGLE_GRID",
               "text": "Dưới đây là các mục tiêu/giá trị trong cuộc sống.\nHãy cho biết...",
-              "note": "",
+              "note": "Chỉ chọn 1 đáp án mỗi hàng",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1657,7 +1657,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "Tôi không có định hướng này",
+                  "text": "Không định hướng",
                   "code": "99",
                   "is_other": false
                 }
@@ -1953,7 +1953,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "if(!Contains(O3,[1])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -3775,36 +3775,31 @@
             {
               "id": "N5",
               "type": "SINGLE_GRID",
-              "text": "Đối với các tính năng dưới đây, vui lòng cho biết tần suất sử dụng của bạn: \n{0}",
-              "note": "",
+              "text": "Đối với các tính năng dưới đây, vui lòng cho biết mức độ cần thiết của các tính năng này\n{0}",
+              "note": "Chỉ chọn 1 đáp án mỗi hàng",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "ít khi sử dụng",
+                  "text": "ít khi sử dụng/Dư thừa",
                   "code": "1",
                   "is_other": false
                 },
                 {
-                  "text": "Bình thường",
+                  "text": "Cần thiết phải có",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "Sử dụng thường xuyên",
+                  "text": "Điểm cộng khi có",
                   "code": "3",
-                  "is_other": false
-                },
-                {
-                  "text": "Không quan tâm/không sử dụng",
-                  "code": "4",
                   "is_other": false
                 }
               ],
               "topics": [
                 {
-                  "text": "lốp phụ full size alloy",
+                  "text": "Lốp phụ full size vành hợp kim",
                   "code": "101",
                   "is_other": false
                 },
@@ -3819,37 +3814,32 @@
                   "is_other": false
                 },
                 {
-                  "text": "Cách nhiệt mui",
+                  "text": "Ghế hàng 2 gập 60:40",
                   "code": "104",
                   "is_other": false
                 },
                 {
-                  "text": "Ghế hàng 2 gập 60:40",
-                  "code": "105",
-                  "is_other": false
-                },
-                {
-                  "text": "lốp phụ full size",
+                  "text": "Lốp phụ full size",
                   "code": "201",
                   "is_other": false
                 },
                 {
-                  "text": "đèn Mood 1 màu",
+                  "text": "Đèn Mood 1 màu",
                   "code": "202",
                   "is_other": false
                 },
                 {
-                  "text": "gạt mưa không xương",
+                  "text": "Gạt mưa không xương",
                   "code": "203",
                   "is_other": false
                 },
                 {
-                  "text": "sấy kính sau",
+                  "text": "Sấy kính sau",
                   "code": "204",
                   "is_other": false
                 },
                 {
-                  "text": "giá nóc",
+                  "text": "Giá nóc",
                   "code": "205",
                   "is_other": false
                 },
@@ -3859,7 +3849,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "camera 360",
+                  "text": "Camera 360",
                   "code": "207",
                   "is_other": false
                 },
@@ -3869,58 +3859,53 @@
                   "is_other": false
                 },
                 {
-                  "text": "lốp phụ full size alloy",
+                  "text": "Gói an toàn chủ động Hyundai Smartsense (Hỗ trợ tránh va chạm phía trước, tránh va chạm điểm mù, giữ và duy trì làn đường, hệ thống đèn pha thích ứng, v.v.)",
+                  "code": "209",
+                  "is_other": false
+                },
+                {
+                  "text": "Lốp phụ full size vành hợp kim",
                   "code": "301",
                   "is_other": false
                 },
                 {
-                  "text": "Cách nhiệt mui",
+                  "text": "Kính riêng tư hàng 2",
                   "code": "302",
                   "is_other": false
                 },
                 {
-                  "text": "Kính riêng tư hàng 2",
+                  "text": "Sưởi vô lăng",
                   "code": "303",
                   "is_other": false
                 },
                 {
-                  "text": "sưởi vô lăng",
+                  "text": "Sấy kính sau",
                   "code": "304",
                   "is_other": false
                 },
                 {
-                  "text": "sấy kính sau",
+                  "text": "Camera 360",
                   "code": "305",
                   "is_other": false
                 },
                 {
-                  "text": "camera 360",
+                  "text": "Kiểm soát hành trình thích ứng (Smart Cruise Control",
                   "code": "306",
                   "is_other": false
                 },
                 {
-                  "text": "SCC",
+                  "text": "Phòng tránh va chạm trước",
                   "code": "307",
                   "is_other": false
                 },
                 {
-                  "text": "Phòng tránh va chạm trước",
+                  "text": "Sạc không dây",
                   "code": "308",
                   "is_other": false
                 },
                 {
-                  "text": "Sạc không dây",
-                  "code": "309",
-                  "is_other": false
-                },
-                {
-                  "text": "kính solar",
-                  "code": "310",
-                  "is_other": false
-                },
-                {
                   "text": "Cảm biến đỗ xe bên",
-                  "code": "311",
+                  "code": "309",
                   "is_other": false
                 },
                 {
@@ -3929,7 +3914,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "sưởi vô lăng",
+                  "text": "Sưởi vô lăng",
                   "code": "402",
                   "is_other": false
                 },
@@ -3939,7 +3924,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "sấy kính sau",
+                  "text": "Sấy kính sau",
                   "code": "404",
                   "is_other": false
                 },
@@ -3949,17 +3934,17 @@
                   "is_other": false
                 },
                 {
-                  "text": "camera 360",
+                  "text": "Camera 360",
                   "code": "406",
                   "is_other": false
                 },
                 {
-                  "text": "SCC",
+                  "text": "Kiểm soát hành trình thích ứng (Smart Cruise Control",
                   "code": "407",
                   "is_other": false
                 },
                 {
-                  "text": "Phòng tránh va chạm trước",
+                  "text": "Gói an toàn chủ động Hyundai Smartsense (Hỗ trợ tránh va chạm phía trước, tránh va chạm điểm mù, giữ và duy trì làn đường, hệ thống đèn pha thích ứng, v.v.)",
                   "code": "408",
                   "is_other": false
                 },
@@ -3969,12 +3954,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "Cách nhiệt mui",
-                  "code": "410",
-                  "is_other": false
-                },
-                {
-                  "text": "lốp phụ full size alloy",
+                  "text": "Lốp phụ full size alloy",
                   "code": "501",
                   "is_other": false
                 },
@@ -3984,43 +3964,33 @@
                   "is_other": false
                 },
                 {
-                  "text": "kính solar",
+                  "text": "Sấy kính sau",
                   "code": "503",
                   "is_other": false
                 },
                 {
-                  "text": "sấy kính sau",
+                  "text": "Sưởi vô lăng",
                   "code": "504",
                   "is_other": false
                 },
                 {
-                  "text": "sưởi vô lăng",
+                  "text": "Camera 360",
                   "code": "505",
                   "is_other": false
                 },
                 {
-                  "text": "camera 360",
+                  "text": "Kiểm soát hành trình thích ứng (Smart Cruise Control",
                   "code": "506",
                   "is_other": false
                 },
                 {
-                  "text": "SCC",
+                  "text": "Gói an toàn chủ động Hyundai Smartsense (Hỗ trợ tránh va chạm phía trước, tránh va chạm điểm mù, giữ và duy trì làn đường, hệ thống đèn pha thích ứng, v.v.)",
                   "code": "507",
                   "is_other": false
                 },
                 {
-                  "text": "Phòng tránh va chạm trước",
-                  "code": "508",
-                  "is_other": false
-                },
-                {
-                  "text": "Cách nhiệt mui",
-                  "code": "509",
-                  "is_other": false
-                },
-                {
                   "text": "Trần Da Lộn",
-                  "code": "510",
+                  "code": "508",
                   "is_other": false
                 },
                 {
@@ -4034,17 +4004,17 @@
                   "is_other": false
                 },
                 {
-                  "text": "Cách nhiệt mui",
+                  "text": "Đèn Mood 1 màu",
                   "code": "603",
                   "is_other": false
                 },
                 {
-                  "text": "đèn Mood 1 màu",
+                  "text": "Lốp phụ full size",
                   "code": "604",
                   "is_other": false
                 },
                 {
-                  "text": "lốp phụ full size",
+                  "text": "Gói an toàn chủ động Hyundai Smartsense (Hỗ trợ tránh va chạm phía trước, tránh va chạm điểm mù, giữ và duy trì làn đường, hệ thống đèn pha thích ứng, v.v.)",
                   "code": "605",
                   "is_other": false
                 },
@@ -4054,12 +4024,12 @@
                   "is_other": false
                 },
                 {
-                  "text": "lốp phụ full size",
+                  "text": "Lốp phụ full size",
                   "code": "801",
                   "is_other": false
                 },
                 {
-                  "text": "đèn pha tự động",
+                  "text": "Đèn pha tự động",
                   "code": "802",
                   "is_other": false
                 },
@@ -4069,7 +4039,7 @@
                   "is_other": false
                 },
                 {
-                  "text": "đèn Mood 1 màu",
+                  "text": "Đèn Mood 1 màu",
                   "code": "804",
                   "is_other": false
                 },
@@ -4587,7 +4557,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "BYD",
+                  "text": "Thương hiệu xe Trung Quốc (Geely, BYD, Omoda Jaecoo)",
                   "code": "10",
                   "media": "",
                   "is_other": false,
@@ -4595,23 +4565,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "Geely",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Omoda & Jaeco",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Khác1 (ghi rõ)",
+                  "text": "Khác1",
                   "code": "97",
                   "media": "",
                   "is_other": true,
@@ -4619,7 +4573,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "Khác2 (ghi rõ)",
+                  "text": "Khác2",
                   "code": "98",
                   "media": "",
                   "is_other": true,
@@ -4627,7 +4581,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "Khác3 (ghi rõ)",
+                  "text": "Khác3",
                   "code": "99",
                   "media": "",
                   "is_other": true,
@@ -4730,22 +4684,8 @@
                   "is_header": false
                 },
                 {
-                  "text": "BYD",
+                  "text": "Thương hiệu xe Trung Quốc (Geely, BYD, Omoda Jaecoo)",
                   "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Geely",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Omoda & Jaeco",
-                  "code": "12",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -4830,7 +4770,7 @@
               "id": "B2",
               "type": "SINGLE_GRID",
               "text": "Khả năng bạn sẽ lựa chọn mua xe của các nhãn hiệu sau đây là như thế nào cho lần tiếp theo?",
-              "note": "",
+              "note": "Chỉ chọn 1 đáp án mỗi hàng",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4903,32 +4843,22 @@
                   "is_other": false
                 },
                 {
-                  "text": "BYD",
+                  "text": "Thương hiệu xe Trung Quốc (Geely, BYD, Omoda Jaecoo)",
                   "code": "10",
                   "is_other": false
                 },
                 {
-                  "text": "Geely",
-                  "code": "11",
-                  "is_other": false
-                },
-                {
-                  "text": "Omoda & Jaeco",
-                  "code": "12",
-                  "is_other": false
-                },
-                {
-                  "text": "Khác1 (ghi rõ)",
+                  "text": "Khác1",
                   "code": "97",
                   "is_other": false
                 },
                 {
-                  "text": "Khác2 (ghi rõ)",
+                  "text": "Khác2",
                   "code": "98",
                   "is_other": false
                 },
                 {
-                  "text": "Khác3 (ghi rõ)",
+                  "text": "Khác3",
                   "code": "99",
                   "is_other": false
                 }
@@ -5043,56 +4973,36 @@
                     "index": 1
                   },
                   {
-                    "name": "Có lịch sử lâu đời",
+                    "name": "Trẻ trung",
                     "index": 2
                   },
                   {
-                    "name": "Trẻ trung",
+                    "name": "Liên tục đổi mới",
                     "index": 3
                   },
                   {
-                    "name": "Thời thượng",
+                    "name": "Cao cấp",
                     "index": 4
                   },
                   {
-                    "name": "Liên tục đổi mới",
+                    "name": "Có phong cách khác biệt",
                     "index": 5
                   },
                   {
-                    "name": "Dẫn đầu về công nghệ",
+                    "name": "Giá hợp lý",
                     "index": 6
                   },
                   {
-                    "name": "Cao cấp",
+                    "name": "Phổ biến",
                     "index": 7
                   },
                   {
-                    "name": "Có phong cách khác biệt",
+                    "name": "Bền bỉ",
                     "index": 8
                   },
                   {
-                    "name": "Giá hợp lý",
-                    "index": 9
-                  },
-                  {
-                    "name": "Phổ biến",
-                    "index": 10
-                  },
-                  {
-                    "name": "Bền bỉ",
-                    "index": 11
-                  },
-                  {
                     "name": "Giá trị bán lại cao",
-                    "index": 12
-                  },
-                  {
-                    "name": "Thiếu ổn định",
-                    "index": 13
-                  },
-                  {
-                    "name": "Nhanh mất giá",
-                    "index": 14
+                    "index": 9
                   }
                 ]
               },
@@ -5179,7 +5089,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "BYD",
+                      "text": "Thương hiệu xe Trung Quốc (Geely, BYD, Omoda Jaecoo)",
                       "code": "10",
                       "media": "",
                       "is_other": false,
@@ -5187,23 +5097,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Geely",
-                      "code": "11",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Omoda & Jaeco",
-                      "code": "12",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Khác1 (ghi rõ)",
+                      "text": "Khác1",
                       "code": "97",
                       "media": "",
                       "is_other": false,
@@ -5211,7 +5105,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Khác2 (ghi rõ)",
+                      "text": "Khác2",
                       "code": "98",
                       "media": "",
                       "is_other": false,
@@ -5219,7 +5113,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Khác3 (ghi rõ)",
+                      "text": "Khác3",
                       "code": "99",
                       "media": "",
                       "is_other": false,
@@ -5275,7 +5169,7 @@
                     "index": 3
                   },
                   {
-                    "name": "Hiệu suất nhiên liệu tốt.",
+                    "name": "Hiệu suất nhiên liệu tốt",
                     "index": 4
                   },
                   {
@@ -5387,7 +5281,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "BYD",
+                      "text": "Thương hiệu xe Trung Quốc (Geely, BYD, Omoda Jaecoo)",
                       "code": "10",
                       "media": "",
                       "is_other": false,
@@ -5395,23 +5289,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Geely",
-                      "code": "11",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Omoda & Jaeco",
-                      "code": "12",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Khác1 (ghi rõ)",
+                      "text": "Khác1",
                       "code": "97",
                       "media": "",
                       "is_other": false,
@@ -5419,7 +5297,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Khác2 (ghi rõ)",
+                      "text": "Khác2",
                       "code": "98",
                       "media": "",
                       "is_other": false,
@@ -5427,7 +5305,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "Khác3 (ghi rõ)",
+                      "text": "Khác3",
                       "code": "99",
                       "media": "",
                       "is_other": false,
@@ -5476,7 +5354,7 @@
                   "id": "B6",
                   "type": "SINGLE_GRID",
                   "text": "Nếu bạn mua những thương hiệu dưới đây, bạn sẽ chi trả thêm hay giảm đi bao nhiêu % so với giá trị chiếc xe bạn đang sở hữu",
-                  "note": "",
+                  "note": "Chỉ chọn 1 đáp án mỗi hàng",
                   "media": "",
                   "record": false,
                   "readonly": false,
@@ -5688,6 +5566,38 @@
                       }
                     ]
                   },
+                  "form": {}
+                },
+                {
+                  "id": "PR0",
+                  "type": "EMPTY",
+                  "text": "Sau đây tôi sẽ hỏi bạn về các chương trình khuyến mại & chính sách giá",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
                   "form": {}
                 },
                 {
@@ -7057,7 +6967,7 @@
                   "id": "EV2",
                   "type": "MULTI_GRID",
                   "text": "Đâu là rào càn khiến bạn không sử dụng xe thân thiện môi trường",
-                  "note": "",
+                  "note": "Chọn tất cả đáp án phù hợp mỗi cột",
                   "media": "",
                   "record": false,
                   "readonly": false,
@@ -9636,7 +9546,7 @@
                     },
                     {
                       "text": "Đi bar, clb khiêu vũ",
-                      "code": "7",
+                      "code": "6",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9644,7 +9554,7 @@
                     },
                     {
                       "text": "Đi Karaoke",
-                      "code": "8",
+                      "code": "7",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9652,7 +9562,7 @@
                     },
                     {
                       "text": "Học hát, chơi nhạc cụ",
-                      "code": "9",
+                      "code": "8",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9660,7 +9570,7 @@
                     },
                     {
                       "text": "Tập thể dục, thể thao, bơi lội",
-                      "code": "10",
+                      "code": "9",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9668,7 +9578,7 @@
                     },
                     {
                       "text": "Đi chùa, nhà thờ",
-                      "code": "11",
+                      "code": "10",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9676,7 +9586,7 @@
                     },
                     {
                       "text": "Du lịch, dã ngoại",
-                      "code": "12",
+                      "code": "11",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9684,15 +9594,7 @@
                     },
                     {
                       "text": "Câu cá",
-                      "code": "13",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Dạo phố bằng xe máy",
-                      "code": "14",
+                      "code": "12",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9700,7 +9602,7 @@
                     },
                     {
                       "text": "Đi chụp hình",
-                      "code": "15",
+                      "code": "13",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9708,7 +9610,7 @@
                     },
                     {
                       "text": "Làm từ thiện",
-                      "code": "16",
+                      "code": "14",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9716,7 +9618,7 @@
                     },
                     {
                       "text": "Thăm bạn bè người thân",
-                      "code": "17",
+                      "code": "15",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9724,7 +9626,7 @@
                     },
                     {
                       "text": "Đi nhậu với bạn bè",
-                      "code": "18",
+                      "code": "16",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9732,7 +9634,7 @@
                     },
                     {
                       "text": "Chơi với con cái",
-                      "code": "19",
+                      "code": "17",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9740,7 +9642,7 @@
                     },
                     {
                       "text": "Đọc sách, tạp chí",
-                      "code": "20",
+                      "code": "18",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9748,7 +9650,7 @@
                     },
                     {
                       "text": "Lướt web",
-                      "code": "21",
+                      "code": "19",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9756,15 +9658,15 @@
                     },
                     {
                       "text": "Sử dụng mạng xã hội",
-                      "code": "22",
+                      "code": "20",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
                       "is_header": false
                     },
                     {
-                      "text": "Xem TV, DVD",
-                      "code": "23",
+                      "text": "Xem TV",
+                      "code": "21",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9772,23 +9674,7 @@
                     },
                     {
                       "text": "Nghe nhạc",
-                      "code": "24",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Nghe đài",
-                      "code": "25",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Làm việc",
-                      "code": "26",
+                      "code": "22",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9796,7 +9682,7 @@
                     },
                     {
                       "text": "Nấu ăn",
-                      "code": "27",
+                      "code": "23",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9804,7 +9690,7 @@
                     },
                     {
                       "text": "Ăn tại nhà",
-                      "code": "28",
+                      "code": "24",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9812,7 +9698,7 @@
                     },
                     {
                       "text": "Làm việc nhà, làm vườn",
-                      "code": "29",
+                      "code": "25",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9820,23 +9706,7 @@
                     },
                     {
                       "text": "Học một thứ gì mới",
-                      "code": "30",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Tìm kiếm thông tin thời trang",
-                      "code": "31",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "Dđi làm tóc",
-                      "code": "32",
+                      "code": "26",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9844,7 +9714,7 @@
                     },
                     {
                       "text": "Chăm sóc da tại nhà",
-                      "code": "33",
+                      "code": "27",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9852,7 +9722,7 @@
                     },
                     {
                       "text": "Đi spa làm đẹp",
-                      "code": "34",
+                      "code": "28",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -9860,7 +9730,7 @@
                     },
                     {
                       "text": "Chơi game online",
-                      "code": "35",
+                      "code": "29",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
