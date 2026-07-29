@@ -3782,17 +3782,17 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "ít khi sử dụng/Dư thừa",
+                  "text": "Không sử dụng",
                   "code": "1",
                   "is_other": false
                 },
                 {
-                  "text": "Cần thiết phải có",
+                  "text": "ít khi/Thỉnh thoảng sử dụng",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "Điểm cộng khi có",
+                  "text": "Thường xuyên sử dụng",
                   "code": "3",
                   "is_other": false
                 }
