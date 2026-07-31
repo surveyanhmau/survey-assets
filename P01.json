@@ -7427,7 +7427,7 @@
                       "text": "Khác",
                       "code": "99",
                       "media": "",
-                      "is_other": true,
+                      "is_other": false,
                       "is_exclusive": false,
                       "is_header": false
                     },
@@ -7454,7 +7454,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "",
+                    "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),PT1);",
                     "on_next": "",
                     "rules": []
                   },
