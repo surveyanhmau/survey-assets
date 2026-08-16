@@ -443,28 +443,103 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1",
+              "text": "Answer 1",
               "code": "1",
               "is_other": false
             },
             {
-              "text": "2",
+              "text": "Answer 2",
               "code": "2",
               "is_other": false
             },
             {
-              "text": "3",
+              "text": "Answer 3",
               "code": "3",
               "is_other": false
             },
             {
-              "text": "4",
+              "text": "Answer 4",
               "code": "4",
               "is_other": false
             },
             {
-              "text": "5",
+              "text": "Answer 5",
               "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "Answer 6",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "Answer 7",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "Answer 8",
+              "code": "8",
+              "is_other": false
+            },
+            {
+              "text": "Answer 9",
+              "code": "9",
+              "is_other": false
+            },
+            {
+              "text": "Answer 10",
+              "code": "10",
+              "is_other": false
+            },
+            {
+              "text": "Answer 11",
+              "code": "11",
+              "is_other": false
+            },
+            {
+              "text": "Answer 12",
+              "code": "12",
+              "is_other": false
+            },
+            {
+              "text": "Answer 13",
+              "code": "13",
+              "is_other": false
+            },
+            {
+              "text": "Answer 14",
+              "code": "14",
+              "is_other": false
+            },
+            {
+              "text": "Answer 15",
+              "code": "15",
+              "is_other": false
+            },
+            {
+              "text": "Answer 16",
+              "code": "16",
+              "is_other": false
+            },
+            {
+              "text": "Answer 17",
+              "code": "17",
+              "is_other": false
+            },
+            {
+              "text": "Answer 18",
+              "code": "18",
+              "is_other": false
+            },
+            {
+              "text": "Answer 19",
+              "code": "19",
+              "is_other": false
+            },
+            {
+              "text": "Answer 20",
+              "code": "20",
               "is_other": false
             }
           ],
@@ -550,18 +625,103 @@
           ],
           "topics": [
             {
-              "text": "topic 1^^^Topic10",
+              "text": "Trái 1^^^Phải 1",
               "code": "1",
               "is_other": false
             },
             {
-              "text": "topic 2^^^Topic20",
+              "text": "Trái 2^^^Phải 2",
               "code": "2",
               "is_other": false
             },
             {
-              "text": "topic 3^^^Topic30",
+              "text": "Trái 3^^^Phải 3",
               "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "Trái 4^^^Phải 4",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "Trái 5^^^Phải 5",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "Trái 6^^^Phải 6",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "Trái 7^^^Phải 7",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "Trái 8^^^Phải 8",
+              "code": "8",
+              "is_other": false
+            },
+            {
+              "text": "Trái 9^^^Phải 9",
+              "code": "9",
+              "is_other": false
+            },
+            {
+              "text": "Trái 10^^^Phải 10",
+              "code": "10",
+              "is_other": false
+            },
+            {
+              "text": "Trái 11^^^Phải 11",
+              "code": "11",
+              "is_other": false
+            },
+            {
+              "text": "Trái 12^^^Phải 12",
+              "code": "12",
+              "is_other": false
+            },
+            {
+              "text": "Trái 13^^^Phải 13",
+              "code": "13",
+              "is_other": false
+            },
+            {
+              "text": "Trái 14^^^Phải 14",
+              "code": "14",
+              "is_other": false
+            },
+            {
+              "text": "Trái 15^^^Phải 15",
+              "code": "15",
+              "is_other": false
+            },
+            {
+              "text": "Trái 16^^^Phải 16",
+              "code": "16",
+              "is_other": false
+            },
+            {
+              "text": "Trái 17^^^Phải 17",
+              "code": "17",
+              "is_other": false
+            },
+            {
+              "text": "Trái 18^^^Phải 18",
+              "code": "18",
+              "is_other": false
+            },
+            {
+              "text": "Trái 19^^^Phải 19",
+              "code": "19",
+              "is_other": false
+            },
+            {
+              "text": "Trái 20^^^Phải 20",
+              "code": "20",
               "is_other": false
             }
           ],
@@ -762,34 +922,124 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1",
+              "text": "Answer 1",
               "code": "1",
               "is_other": false,
               "is_exclusive": false
             },
             {
-              "text": "2",
+              "text": "Answer 2",
               "code": "2",
               "is_other": false,
               "is_exclusive": false
             },
             {
-              "text": "3",
+              "text": "Answer 3",
               "code": "3",
               "is_other": false,
               "is_exclusive": false
             },
             {
-              "text": "4",
+              "text": "Answer 4",
               "code": "4",
               "is_other": false,
               "is_exclusive": false
             },
             {
-              "text": "5",
+              "text": "Answer 5",
               "code": "5",
               "is_other": false,
-              "is_exclusive": true
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 6",
+              "code": "6",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 7",
+              "code": "7",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 8",
+              "code": "8",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 9",
+              "code": "9",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 10",
+              "code": "10",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 11",
+              "code": "11",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 12",
+              "code": "12",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 13",
+              "code": "13",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 14",
+              "code": "14",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 15",
+              "code": "15",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 16",
+              "code": "16",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 17",
+              "code": "17",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 18",
+              "code": "18",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 19",
+              "code": "19",
+              "is_other": false,
+              "is_exclusive": false
+            },
+            {
+              "text": "Answer 20",
+              "code": "20",
+              "is_other": false,
+              "is_exclusive": false
             }
           ],
           "topics": [
