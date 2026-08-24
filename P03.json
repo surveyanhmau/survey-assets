@@ -27,7 +27,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_header": true
+              "is_header": false
             },
             {
               "text": "b",
@@ -81,7 +81,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Answer(CurrentQuestion())==1",
+                "action": "Goto",
+                "message": "",
+                "goto": "Q4"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
