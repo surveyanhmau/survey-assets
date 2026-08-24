@@ -911,7 +911,7 @@
             "flip_table": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "QuestionHide()",
             "on_next": "",
             "rules": []
           },
