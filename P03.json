@@ -327,7 +327,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "var age=2026-Answer(NamSinh);\nif(age<=29){SetAnswer(CurrentQuestion(),2)};\nif((age>=30)&&(age<=34)){SetAnswer(CurrentQuestion(),3)};\nif((age>=35)&&(age<=39)){SetAnswer(CurrentQuestion(),4)};\nif(age>=40){SetAnswer(CurrentQuestion(),5)};",
+            "on_enter": "var age=2026-Answer(NamSinh);\nif(age<=29){SetAnswer(CurrentQuestion(),[2])};\nif((age>=30)&&(age<=34)){SetAnswer(CurrentQuestion(),[3])};\nif((age>=35)&&(age<=39)){SetAnswer(CurrentQuestion(),[4])};\nif(age>=40){SetAnswer(CurrentQuestion(),[5])};",
             "on_next": "",
             "rules": []
           },
