@@ -115,6 +115,218 @@
           "conjoint": {},
           "number_grid": {},
           "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết Anh/Chị đang sinh sống ở đâu?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Hồ Chí Minh",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác (vui lòng ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3",
+          "type": "SINGLE",
+          "text": "Vui lòng lựa chọn giới tính của Anh/Chị",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4#NamSinh",
+          "type": "NUMBER",
+          "text": "Vui lòng cho biết anh/chị sinh năm nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(Answered(CurrentQuestion())>2001)||(Answered(CurrentQuestion())<1982)",
+                "action": "Hard",
+                "message": "Không thỏa điều kiện dự án",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4",
+          "type": "SINGLE",
+          "text": "Ghi nhận nhóm tuổi tương ứng dựa vào tuổi tính được?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "Dưới 25 tuổi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "25 – 29 tuổi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "30 – 34 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "35 – 39 tuổi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "40 – 44 tuổi",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Trên 44 tuổi",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "var age=2026-Answer(S4#NamSinh);\nif(age<=29){SetAnswer(CurrentQuestion(),2)};\nif((age>=30)&&(age<=34)){SetAnswer(CurrentQuestion(),3)};\nif((age>=35)&&(age<=39)){SetAnswer(CurrentQuestion(),4)};\nif(age>=40){SetAnswer(CurrentQuestion(),5)};",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
       "children": []
