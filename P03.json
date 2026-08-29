@@ -14,38 +14,6 @@
       },
       "questions": [
         {
-          "id": "00",
-          "type": "EMPTY",
-          "text": "Với mong muốn là cầu nối để các doanh nghiệp lắng nghe phản hồi từ phía khách hàng để có thể cung cấp những sản phẩm, dịch vụ phù hợp với thị hiếu khách hàng, GCOMM thực hiện khảo sát này và rất mong nhận được sự chia sẻ, những ý kiến đóng góp của các anh/chị/các bạn bằng cách tham gia khảo sát này.\nSẽ không có câu trả lời đúng hay sai trong cuộc khảo sát này. Tất cả thông tin bạn cung cấp sẽ hoàn toàn được bảo mật.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "S0",
           "type": "NUMBER",
           "text": "Vui lòng cho biết số điện thoại của Anh/Chị?",
@@ -816,9 +784,2088 @@
           "conjoint": {},
           "number_grid": {},
           "form": {}
+        },
+        {
+          "id": "Q100a",
+          "type": "OPEN",
+          "text": "Khi nhắc đến ô tô, thương hiệu nào xuất hiện đầu tiên trong suy nghĩ của Anh/Chị?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q100b",
+          "type": "OPEN",
+          "text": "Ngoài thương hiệu vừa nêu, Anh/Chị còn biết những thương hiệu ô tô nào khác?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q100c",
+          "type": "MULTI",
+          "text": "Anh/Chị biết đến những thương hiệu ô tô nào sau đây?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Ford[img]ford.png",
+              "code": "1",
+              "media": "ford.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vinfast[img]vinfast.png",
+              "code": "2",
+              "media": "vinfast.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Geely[img]geely.png",
+              "code": "3",
+              "media": "geely.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Toyota[img]toyota.png",
+              "code": "4",
+              "media": "toyota.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Honda[img]honda.png",
+              "code": "5",
+              "media": "honda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Huyndai[img]huyndai.png",
+              "code": "6",
+              "media": "huyndai.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mazda[img]mazda.png",
+              "code": "7",
+              "media": "mazda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Kia[img]kia.png",
+              "code": "8",
+              "media": "kia.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mitsubishi[img]mitsu.png",
+              "code": "9",
+              "media": "mitsu.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Skoda[img]skoda.png",
+              "code": "10",
+              "media": "skoda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Suzuki[img]suzuki.png",
+              "code": "11",
+              "media": "suzuki.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "MG[img]mg.png",
+              "code": "12",
+              "media": "mg.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "BYD[img]byd.png",
+              "code": "13",
+              "media": "byd.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác (ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": true,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q100d",
+          "type": "MULTI",
+          "text": "Trong số những thương hiệu dưới đây, đâu là thương hiệu Anh/Chị yêu thích?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Ford[img]ford.png",
+              "code": "1",
+              "media": "ford.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vinfast[img]vinfast.png",
+              "code": "2",
+              "media": "vinfast.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Geely[img]geely.png",
+              "code": "3",
+              "media": "geely.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Toyota[img]toyota.png",
+              "code": "4",
+              "media": "toyota.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Honda[img]honda.png",
+              "code": "5",
+              "media": "honda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Huyndai[img]huyndai.png",
+              "code": "6",
+              "media": "huyndai.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mazda[img]mazda.png",
+              "code": "7",
+              "media": "mazda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Kia[img]kia.png",
+              "code": "8",
+              "media": "kia.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mitsubishi[img]mitsu.png",
+              "code": "9",
+              "media": "mitsu.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Skoda[img]skoda.png",
+              "code": "10",
+              "media": "skoda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Suzuki[img]suzuki.png",
+              "code": "11",
+              "media": "suzuki.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "MG[img]mg.png",
+              "code": "12",
+              "media": "mg.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "BYD[img]byd.png",
+              "code": "13",
+              "media": "byd.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác (ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": true,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q100c)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q100e",
+          "type": "SINGLE",
+          "text": "Trong số những thương hiệu Anh/Chị yêu thích, đâu là thương hiệu Anh/Chị yêu thích nhất?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Ford[img]ford.png",
+              "code": "1",
+              "media": "ford.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Vinfast[img]vinfast.png",
+              "code": "2",
+              "media": "vinfast.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Geely[img]geely.png",
+              "code": "3",
+              "media": "geely.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Toyota[img]toyota.png",
+              "code": "4",
+              "media": "toyota.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Honda[img]honda.png",
+              "code": "5",
+              "media": "honda.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Huyndai[img]huyndai.png",
+              "code": "6",
+              "media": "huyndai.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Mazda[img]mazda.png",
+              "code": "7",
+              "media": "mazda.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Kia[img]kia.png",
+              "code": "8",
+              "media": "kia.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Mitsubishi[img]mitsu.png",
+              "code": "9",
+              "media": "mitsu.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Skoda[img]skoda.png",
+              "code": "10",
+              "media": "skoda.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Suzuki[img]suzuki.png",
+              "code": "11",
+              "media": "suzuki.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "MG[img]mg.png",
+              "code": "12",
+              "media": "mg.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "BYD[img]byd.png",
+              "code": "13",
+              "media": "byd.png",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác (ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": true,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q100d)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q100f",
+          "type": "SINGLE_GRID",
+          "text": "Câu nào sau đây mô tả đúng nhất ý định mua của Anh/Chị đối với thương hiệu ô tô này trong vòng 2 năm tới?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Chắc chắn sẽ không mua",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "Có thể sẽ không mua",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "Có thể mua hoặc không mua",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "Có thể sẽ mua",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "Chắc chắn sẽ mua",
+              "code": "5",
+              "is_other": false
+            }
+          ],
+          "topics": [
+            {
+              "text": "Ford",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "Vinfast",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "Geely",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "Toyota",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "Honda",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "Huyndai",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "Mazda",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "Kia",
+              "code": "8",
+              "is_other": false
+            },
+            {
+              "text": "Mitsubishi",
+              "code": "9",
+              "is_other": false
+            },
+            {
+              "text": "Skoda",
+              "code": "10",
+              "is_other": false
+            },
+            {
+              "text": "Suzuki",
+              "code": "11",
+              "is_other": false
+            },
+            {
+              "text": "MG",
+              "code": "12",
+              "is_other": false
+            },
+            {
+              "text": "BYD",
+              "code": "13",
+              "is_other": false
+            },
+            {
+              "text": "Khác",
+              "code": "99",
+              "is_other": false
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": true,
+            "flip_table": false,
+            "two_state": false
+          },
+          "logic": {
+            "on_enter": "FilterTopicByAnswer(CurrentQuestion(),Q100c)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q101a",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết Anh/Chị có hiện đang sở hữu ô tô không?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q101b",
+          "type": "MULTI",
+          "text": "Anh/Chị hiện đang sở hữu những thương hiệu ô tô nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Ford[img]ford.png",
+              "code": "1",
+              "media": "ford.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vinfast[img]vinfast.png",
+              "code": "2",
+              "media": "vinfast.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Geely[img]geely.png",
+              "code": "3",
+              "media": "geely.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Toyota[img]toyota.png",
+              "code": "4",
+              "media": "toyota.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Honda[img]honda.png",
+              "code": "5",
+              "media": "honda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Huyndai[img]huyndai.png",
+              "code": "6",
+              "media": "huyndai.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mazda[img]mazda.png",
+              "code": "7",
+              "media": "mazda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Kia[img]kia.png",
+              "code": "8",
+              "media": "kia.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mitsubishi[img]mitsu.png",
+              "code": "9",
+              "media": "mitsu.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Skoda[img]skoda.png",
+              "code": "10",
+              "media": "skoda.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Suzuki[img]suzuki.png",
+              "code": "11",
+              "media": "suzuki.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "MG[img]mg.png",
+              "code": "12",
+              "media": "mg.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "BYD[img]byd.png",
+              "code": "13",
+              "media": "byd.png",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác (ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": true,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(Q101a,[2])){QuestionHide()};\nFilterAnswerByAnswer(CurrentQuestion(),Q100c);",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
-      "children": []
+      "children": [
+        {
+          "id": "Chapter1",
+          "name": "Chapter1",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "FilterLoopByAnswer(CurrentChapter(),Q100c)",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "Toyota",
+                "index": 4
+              },
+              {
+                "name": "Honda",
+                "index": 5
+              },
+              {
+                "name": "Huyndai",
+                "index": 6
+              },
+              {
+                "name": "Kia",
+                "index": 8
+              },
+              {
+                "name": "Skoda",
+                "index": 10
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "Q102",
+              "type": "MULTI",
+              "text": "Dưới đây là một số tính từ/đặc điểm mô tả thương hiệu. Theo Anh/Chị, 3 tính từ/đặc điểm nào phù hợp nhất với thương hiệu ô tô này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "An toàn",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Đáng tin cậy, bền bỉ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chất lượng cao",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Vận hành mạnh mẽ",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thiết kế đẹp, hiện đại",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Sang trọng / Cao cấp",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tiện nghi, thoải mái",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Rộng rãi, phù hợp với gia đình",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Công nghệ tiên tiến",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thông minh và tiện dụng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tiết kiệm nhiên liệu",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Đáng giá / Giá trị tốt",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác biệt",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Trẻ trung",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chững chạc",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thương hiệu uy tín",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác (ghi rõ: …)",
+                  "code": "99",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "3",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter2",
+          "name": "Chapter2",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "FilterLoopByAnswer(CurrentChapter(),Q100c)",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "Toyota",
+                "index": 4
+              },
+              {
+                "name": "Honda",
+                "index": 5
+              },
+              {
+                "name": "Huyndai",
+                "index": 6
+              },
+              {
+                "name": "Kia",
+                "index": 8
+              },
+              {
+                "name": "Skoda",
+                "index": 10
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "Q103",
+              "type": "SINGLE_GRID",
+              "text": "Vui lòng cho biết mức độ đồng ý của Anh/Chị với các nhận định sau về thương hiệu {0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Hoàn toàn không đồng ý",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Không đồng ý",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Bình thường",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Đồng ý",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Hoàn toàn đồng ý",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "An toàn cho người lái, gia đình",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Chất lượng cao, bền bỉ",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Tiết kiệm nhiên liệu, chi phí",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Giá trị bán lại tốt",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Trải nghiệm lái xe thoải mái",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "Đại lý và hậu mãi thuận tiện",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "Trang bị an toàn đầy đủ",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Không gian nội thất rộng rãi, tiện dụng",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Thiết kế ngoại thất đẹp, thu hút",
+                  "code": "9",
+                  "is_other": false
+                },
+                {
+                  "text": "Nội thất hiện đại, cao cấp",
+                  "code": "10",
+                  "is_other": false
+                },
+                {
+                  "text": "Công nghệ giải trí, kết nối tiên tiến",
+                  "code": "11",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhiều phiên bản và màu sắc",
+                  "code": "12",
+                  "is_other": false
+                },
+                {
+                  "text": "Thương hiệu uy tín, đáng tin cậy",
+                  "code": "13",
+                  "is_other": false
+                },
+                {
+                  "text": "Phù hợp với phong cách sống của tôi",
+                  "code": "14",
+                  "is_other": false
+                },
+                {
+                  "text": "Xuất xứ từ một quốc gia tôi yêu thích",
+                  "code": "15",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhiều người nổi tiếng sử dụng",
+                  "code": "16",
+                  "is_other": false
+                },
+                {
+                  "text": "Thường xuyên xuất hiện trên truyền thông",
+                  "code": "17",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1)])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter3",
+          "name": "Chapter3",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "Q104",
+              "type": "MULTI",
+              "text": "Trong 3 tháng gần đây, Anh/Chị biết đến/ nghe đến thông tin của Škoda qua những nguồn nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Quảng cáo trên TV phát giữa các chương trình, không có tùy chọn bỏ qua (skip) (VTV, HTV,…)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo ngoài trời (biển quảng cáo, màn hình LED ngoài trời, quảng cáo tại đường phố, tòa nhà, sân bay…)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trong nhà (biển/màn hình quảng cáo trong trung tâm thương mại, thang máy, sảnh tòa nhà…)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Facebook",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Instagram",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên TikTok",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Youtube",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên nền tảng truyền hình trực tuyến, có thể bỏ qua (skip) (VieON, VTVGo, FPTPlay, TV360,…)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên báo điện tử/trang tin tức (VnExpress, Tuổi Trẻ, Dân trí, Thanh Niên,...)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên ứng dụng Grab",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Website chính thức của Škoda/đại lý",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Công cụ tìm kiếm (ví dụ: Google, Bing,...)",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Người có ảnh hưởng trên mạng xã hội (KOL/KOC/Influencer…)",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Các website/ diễn đàn đánh giá ô tô",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Bạn bè, người thân, đồng nghiệp giới thiệu",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác (ghi rõ:…)",
+                  "code": "99",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q100c,[10])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q105a",
+              "type": "OPEN",
+              "text": "Anh / Chị biết đến những dòng xe nào của Škoda?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Quảng cáo trên TV phát giữa các chương trình, không có tùy chọn bỏ qua (skip) (VTV, HTV,…)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo ngoài trời (biển quảng cáo, màn hình LED ngoài trời, quảng cáo tại đường phố, tòa nhà, sân bay…)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trong nhà (biển/màn hình quảng cáo trong trung tâm thương mại, thang máy, sảnh tòa nhà…)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Facebook",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Instagram",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên TikTok",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên Youtube",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên nền tảng truyền hình trực tuyến, có thể bỏ qua (skip) (VieON, VTVGo, FPTPlay, TV360,…)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên báo điện tử/trang tin tức (VnExpress, Tuổi Trẻ, Dân trí, Thanh Niên,...)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Quảng cáo trên ứng dụng Grab",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Website chính thức của Škoda/đại lý",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Công cụ tìm kiếm (ví dụ: Google, Bing,...)",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Người có ảnh hưởng trên mạng xã hội (KOL/KOC/Influencer…)",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Các website/ diễn đàn đánh giá ô tô",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Bạn bè, người thân, đồng nghiệp giới thiệu",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác (ghi rõ:…)",
+                  "code": "99",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q100c,[10])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q105b",
+              "type": "MULTI",
+              "text": "Trong 3 tháng gần đây, Anh/Chị biết đến/ nghe đến thông tin của Škoda qua những nguồn nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Slavia",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Kushaq",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Karoq",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Kodiaq",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Octavia",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Không biết/không nhớ dòng xe nào",
+                  "code": "98",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác (ghi rõ:...)",
+                  "code": "99",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q100c,[10])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q106a",
+              "type": "SINGLE_GRID",
+              "text": "Vui lòng cho biết mức độ đồng ý của Anh/Chị với các nhận định sau về Škoda Slavia",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Hoàn toàn không đồng ý",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Không đồng ý",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Bình thường",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Đồng ý",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Hoàn toàn đồng ý",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Chế tạo chắc chắn, chất lượng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Cảm giác lái ổn định, mạnh mẽ",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Chi tiết thông minh, thực dụng",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Công nghệ an toàn tiên tiến",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Thiết kế thể hiện gu riêng",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "Phù hợp cho những chuyến đi xa cùng gia đình",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "Bền bỉ, sử dụng lâu dài",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Giữ giá tốt khi bán lại",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Xứng đáng với mức giá",
+                  "code": "9",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[1]))){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q106b",
+              "type": "SINGLE",
+              "text": "Anh/Chị có cân nhắc lựa chọn Škoda Slavia khi mua ô tô trong thời gian tới không?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Chế tạo chắc chắn, chất lượng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Cảm giác lái ổn định, mạnh mẽ",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Chi tiết thông minh, thực dụng",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Công nghệ an toàn tiên tiến",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Thiết kế thể hiện gu riêng",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "Phù hợp cho những chuyến đi xa cùng gia đình",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "Bền bỉ, sử dụng lâu dài",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Giữ giá tốt khi bán lại",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Xứng đáng với mức giá",
+                  "code": "9",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[1]))){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q107a",
+              "type": "SINGLE_GRID",
+              "text": "Vui lòng cho biết mức độ đồng ý của Anh/Chị với các nhận định sau về Škoda Kushaq",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Hoàn toàn không đồng ý",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Không đồng ý",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Bình thường",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Đồng ý",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Hoàn toàn đồng ý",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Chế tạo chắc chắn, chất lượng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Cảm giác lái ổn định, mạnh mẽ",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Chi tiết thông minh, thực dụng",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Công nghệ an toàn tiên tiến",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Thiết kế thể hiện gu riêng",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "Phù hợp cho những chuyến đi xa cùng gia đình",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "Bền bỉ, sử dụng lâu dài",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Giữ giá tốt khi bán lại",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Xứng đáng với mức giá",
+                  "code": "9",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[2]))){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q107b",
+              "type": "SINGLE",
+              "text": "Anh/Chị có cân nhắc lựa chọn Škoda Kushaq khi mua ô tô trong thời gian tới không?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Chế tạo chắc chắn, chất lượng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Cảm giác lái ổn định, mạnh mẽ",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Chi tiết thông minh, thực dụng",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Công nghệ an toàn tiên tiến",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Thiết kế thể hiện gu riêng",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "Phù hợp cho những chuyến đi xa cùng gia đình",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "Bền bỉ, sử dụng lâu dài",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Giữ giá tốt khi bán lại",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Xứng đáng với mức giá",
+                  "code": "9",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[2]))){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "End",
+              "type": "EMPTY",
+              "text": "CẢM ƠN ANH/CHỊ ĐÃ HOÀN THÀNH KHẢO SÁT",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        }
+      ]
     }
   ]
 }
