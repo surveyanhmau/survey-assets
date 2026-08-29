@@ -1657,7 +1657,7 @@
             {
               "id": "Q102",
               "type": "MULTI",
-              "text": "Dưới đây là một số tính từ/đặc điểm mô tả thương hiệu. Theo Anh/Chị, 3 tính từ/đặc điểm nào phù hợp nhất với thương hiệu ô tô này?",
+              "text": "Dưới đây là một số tính từ/đặc điểm mô tả thương hiệu. Theo Anh/Chị, 3 tính từ/đặc điểm nào phù hợp nhất với thương hiệu ô tô này {0}?",
               "note": "",
               "media": "",
               "record": false,
@@ -1814,7 +1814,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1)])",
                 "on_next": "",
                 "rules": []
               },
@@ -2523,7 +2523,7 @@
                 "two_state": false
               },
               "logic": {
-                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[1]))){QuestionHide()}",
+                "on_enter": "if((!Contains(Q100c,[10]))||(!Contains(Q105b,[1]))){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -2636,7 +2636,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[1]))){QuestionHide()}",
+                "on_enter": "if((!Contains(Q100c,[10]))||(!Contains(Q105b,[1]))){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -2741,7 +2741,7 @@
                 "two_state": false
               },
               "logic": {
-                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[2]))){QuestionHide()}",
+                "on_enter": "if((!Contains(Q100c,[10]))||(!Contains(Q105b,[2]))){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -2854,7 +2854,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if((!Contains(Q100c,[10]))&&(!Contains(Q105b,[2]))){QuestionHide()}",
+                "on_enter": "if((!Contains(Q100c,[10]))||(!Contains(Q105b,[2]))){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
