@@ -163,7 +163,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[99])",
+                "action": "Hard",
+                "message": "Không thỏa điều kiện dự án",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -323,6 +330,73 @@
             "on_enter": "var age=2026-Answer(NamSinh);\nif(age<=29){SetAnswer(CurrentQuestion(),2)};\nif((age>=30)&&(age<=34)){SetAnswer(CurrentQuestion(),3)};\nif((age>=35)&&(age<=39)){SetAnswer(CurrentQuestion(),4)};\nif(age>=40){SetAnswer(CurrentQuestion(),5)};",
             "on_next": "",
             "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S5",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết mức thu nhập trung bình hàng tháng của gia đình anh/chị trong 6 tháng gần đây?\nĐịnh nghĩa Thu nhập hộ gia đình: Thu nhập hộ gia đình là tổng thu nhập của tất cả các thành viên trong gia đình đang cùng sinh sống trong một hộ, bao gồm lương doanh nghiệp, thu nhập từ kinh doanh buôn bán và các nguồn thu nhập khác nếu có (Ví dụ:cho thuê bất động sản,,...), trước khi trừ các chi phí sinh hoạt.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Thu nhập hộ gia đình dưới 20,000,000 VND/Tháng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Thu nhập hộ gia đình từ 20,000,000 VND – 30,000,000 VND/Tháng",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Thu nhập hộ gia đình 30,000,001 VND – 40,000,000 VND/Tháng",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Thu nhập hộ gia đình Trên 40,000,000 VND/Tháng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "Không thỏa điều kiện dự án",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
