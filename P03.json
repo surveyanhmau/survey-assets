@@ -14,6 +14,38 @@
       },
       "questions": [
         {
+          "id": "00",
+          "type": "EMPTY",
+          "text": "Với mong muốn là cầu nối để các doanh nghiệp lắng nghe phản hồi từ phía khách hàng để có thể cung cấp những sản phẩm, dịch vụ phù hợp với thị hiếu khách hàng, GCOMM thực hiện khảo sát này và rất mong nhận được sự chia sẻ, những ý kiến đóng góp của các anh/chị/các bạn bằng cách tham gia khảo sát này.\n\nSẽ không có câu trả lời đúng hay sai trong cuộc khảo sát này. Tất cả thông tin bạn cung cấp sẽ hoàn toàn được bảo mật.\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "S0",
           "type": "NUMBER",
           "text": "Vui lòng cho biết số điện thoại của Anh/Chị?",
