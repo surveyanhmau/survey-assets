@@ -875,7 +875,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "AnswerChoice(CurrentQuestion(),1)==\"\"",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận ít nhất 1 phương án khác ở ô đầu tiên",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
