@@ -876,7 +876,7 @@
           "max": "",
           "unit": "",
           "display_columns": 1,
-          "no_answer": true,
+          "no_answer": false,
           "integer_only": true,
           "realtime": false,
           "realcam": false,
@@ -886,14 +886,7 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": [
-              {
-                "condition": "AnswerChoice(CurrentQuestion(),1)==\"\"",
-                "action": "Hard",
-                "message": "Vui lòng ghi nhận ít nhất 1 phương án khác ở ô đầu tiên",
-                "goto": ""
-              }
-            ]
+            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
