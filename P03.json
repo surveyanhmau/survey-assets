@@ -167,7 +167,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[99])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -252,7 +252,7 @@
               {
                 "condition": "(Answer(CurrentQuestion())>2001)||(Answer(CurrentQuestion())<1982)",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -393,7 +393,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[1])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -480,7 +480,7 @@
               {
                 "condition": "!Contains(CurrentQuestion(),[99])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -533,7 +533,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[1])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -607,7 +607,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3,4,5])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -674,7 +674,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[4])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -734,7 +734,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -808,7 +808,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[5])",
                 "action": "Hard",
-                "message": "Không thỏa điều kiện dự án",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
                 "goto": ""
               }
             ]
@@ -1443,7 +1443,7 @@
         {
           "id": "Q101a",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết Anh/Chị có hiện đang sở hữu ô tô không?",
+          "text": "Vui lòng cho biết \"Anh/Chị hiện có đang sỡ hữu ô không?",
           "note": "",
           "media": "",
           "record": false,
@@ -1989,6 +1989,11 @@
                   "text": "Thường xuyên xuất hiện trên truyền thông",
                   "code": "17",
                   "is_other": false
+                },
+                {
+                  "text": "Đánh giá sự chú ý của đáp viên - Anh/Chị hãy chọn \"Bình thường\"",
+                  "code": "18",
+                  "is_other": false
                 }
               ],
               "min": "",
@@ -2352,7 +2357,7 @@
             {
               "id": "Q105b",
               "type": "MULTI",
-              "text": "Trong 3 tháng gần đây, Anh/Chị biết đến/ nghe đến thông tin của Škoda qua những nguồn nào?",
+              "text": "Anh/Chị biết đến những dòng xe nào của Škoda sau đây?",
               "note": "",
               "media": "",
               "record": false,
@@ -2866,6 +2871,38 @@
               },
               "logic": {
                 "on_enter": "if((!Contains(Q100c,[10]))||(!Contains(Q105b,[2]))){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HinhAnh",
+              "type": "MEDIA",
+              "text": "Anh chị vui lòng chọn hình ảnh bằng lái / cà vẹt xe / hình xe đang sở hữu",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "10",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
