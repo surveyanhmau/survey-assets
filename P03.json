@@ -5,7 +5,7 @@
       "id": "Root",
       "name": "Root",
       "record": false,
-      "hide_back": false,
+      "hide_back": true,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -2898,6 +2898,38 @@
               "topics": [],
               "min": "1",
               "max": "10",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "PVV",
+              "type": "OPEN",
+              "text": "Ghi nhận tên PVV giới thiệu",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
