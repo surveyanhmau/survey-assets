@@ -884,7 +884,7 @@
           "max": "",
           "unit": "",
           "display_columns": 1,
-          "no_answer": false,
+          "no_answer": true,
           "integer_only": true,
           "realtime": false,
           "realcam": false,
