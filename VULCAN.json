@@ -1,0 +1,19 @@
+{
+  "functions": "",
+  "chapters": [
+    {
+      "id": "Root",
+      "name": "Root",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [],
+      "children": []
+    }
+  ]
+}
