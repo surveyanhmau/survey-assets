@@ -137,9 +137,1827 @@
             ]
           },
           "form": {}
+        },
+        {
+          "id": "Q3",
+          "type": "MULTI",
+          "text": "Top 3 - 5 khu vực tuyển dụng nhân công chính của công ty là ở đâu?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Thái Nguyên - chung và khu vực Yên Bình",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vĩnh Phúc",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Bắc Giang",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Bắc Ninh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Hải Phòng",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Hưng Yên",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Hải Dương",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác, vui lòng ghi rõ:…",
+              "code": "9",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "3",
+          "max": "5",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q4",
+          "type": "MULTI",
+          "text": "Các kênh tuyển dụng nhân công hiện nay của công ty là gì?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Đội ngũ tuyển dụng nội bộ của công ty",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Được giới thiệu từ công nhân hiện hữu (employee referral)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Quản đốc / chỉ huy công trường giới thiệu trực tiếp",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Website tuyển dụng (VietnamWorks, TopCV,...)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Trang mạng xã hội chính thức của công ty (Facebook, Zalo, TikTok, LinkedIn,...)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Hội nhóm ngành xây dựng trên mạng xã hội",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Trường nghề / trung tâm đào tạo nghề",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Trung tâm giới thiệu việc làm địa phương",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Đội nhân công quen biết / mạng lưới lao động truyền thống",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác, vui lòng ghi rõ:…",
+              "code": "10",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q5",
+          "type": "SINGLE",
+          "text": "Kênh nào mang lại hiệu quả cao nhất?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Đội ngũ tuyển dụng nội bộ của công ty",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Được giới thiệu từ công nhân hiện hữu (employee referral)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Quản đốc / chỉ huy công trường giới thiệu trực tiếp",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Website tuyển dụng (VietnamWorks, TopCV,...)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Trang mạng xã hội chính thức của công ty (Facebook, Zalo, TikTok, LinkedIn,...)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Hội nhóm ngành xây dựng trên mạng xã hội",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Trường nghề / trung tâm đào tạo nghề",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Trung tâm giới thiệu việc làm địa phương",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Đội nhân công quen biết / mạng lưới lao động truyền thống",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác, vui lòng ghi rõ:…",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q4)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q5b",
+          "type": "OPEN",
+          "text": "Tại sao kênh {0} lại mang lại hiệu quả cao nhất?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q5a)])",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q6",
+          "type": "SINGLE_GRID",
+          "text": "Khi nhận một dự án mới, công ty thường cần bao lâu để huy động đủ số lượng công nhân yêu cầu?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Dưới 1 tuần",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "1-2 tuần",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "2-4 tuần",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "1-2 tháng",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "Trên 2 tháng",
+              "code": "5",
+              "is_other": false
+            }
+          ],
+          "topics": [
+            {
+              "text": "Dưới 100",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "100 - 300",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "300 - 500",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "Trên 500",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "Khác (nếu có)",
+              "code": "5",
+              "is_other": true
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "flip_table": false,
+            "two_state": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q7",
+          "type": "MULTI",
+          "text": "Top 3 yếu tố chính ảnh hưởng đến thời gian huy động nhân công là gì?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Tay nghề/chứng chỉ yêu cầu",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Địa điểm dự án",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mức lương và chế độ đãi ngộ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thời điểm thị trường (cao điểm/ thấp điểm xây dựng)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Quy mô dự án",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tiến độ yêu cầu của chủ đầu tư",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác, vui lòng ghi rõ:…",
+              "code": "7",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "3",
+          "max": "3",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
-      "children": []
+      "children": [
+        {
+          "id": "Chapter1",
+          "name": "Chapter1",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "A. Common Temp. Works - Hạng mục công trình tạm",
+                "index": 1
+              },
+              {
+                "name": "B. Civil Works - Hạng mục xây dựng dân dụng",
+                "index": 2
+              },
+              {
+                "name": "C. Architectural Works - Hạng mục kết cấu",
+                "index": 3
+              },
+              {
+                "name": "D. Mechanical Works - Hạng mục cơ khí",
+                "index": 4
+              },
+              {
+                "name": "E. Electrical Works - Hạng mục điện",
+                "index": 5
+              },
+              {
+                "name": "F. Control Works - Hạng mục điều khiển",
+                "index": 6
+              },
+              {
+                "name": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC",
+                "index": 7
+              },
+              {
+                "name": "H. Fire Protection Electrical Works - Hạng mục điện PCCC",
+                "index": 8
+              },
+              {
+                "name": "J. Other Construction Works - Hạng mục khác",
+                "index": 9
+              }
+            ]
+          },
+          "questions": [],
+          "children": [
+            {
+              "id": "Chapter2",
+              "name": "Chapter2",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": false,
+                "iterations": [
+                  {
+                    "name": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+                    "index": 1
+                  },
+                  {
+                    "name": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+                    "index": 2
+                  },
+                  {
+                    "name": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                    "index": 3
+                  },
+                  {
+                    "name": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                    "index": 4
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "Q8a#1",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu giờ/ngày?\n{0}\nI. Nhóm nhân công xây dựng\n{1}",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "24",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1),LoopName(2)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "Chapter2#1",
+              "name": "Chapter2#1",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": false,
+                "iterations": [
+                  {
+                    "name": "Nhân công vận hành máy, điều khiển máy",
+                    "index": 1
+                  },
+                  {
+                    "name": "Lái xe",
+                    "index": 2
+                  },
+                  {
+                    "name": "Thủy thủ, thợ máy, thợ điện.",
+                    "index": 3
+                  },
+                  {
+                    "name": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+                    "index": 4
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "Q8a#2",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu giờ/ngày?\n{0}\nII. Nhóm nhân công vận hành, điều khiển máy\n{1}",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "24",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1),LoopName(2)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "Chapter2#2",
+              "name": "Chapter2#2",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": false,
+                "loop_random": false,
+                "iterations": []
+              },
+              "questions": [
+                {
+                  "id": "Q8a#3",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu giờ/ngày?\n{0}\nIII. Nhóm nhân công thực hiện các công tác khác\nKỹ sư thực hiện khảo sát, thí nghiệm",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "24",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "giờ/ngày"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "Chapter1#1",
+          "name": "Chapter1#1",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "A. Common Temp. Works - Hạng mục công trình tạm",
+                "index": 1
+              },
+              {
+                "name": "B. Civil Works - Hạng mục xây dựng dân dụng",
+                "index": 2
+              },
+              {
+                "name": "C. Architectural Works - Hạng mục kết cấu",
+                "index": 3
+              },
+              {
+                "name": "D. Mechanical Works - Hạng mục cơ khí",
+                "index": 4
+              },
+              {
+                "name": "E. Electrical Works - Hạng mục điện",
+                "index": 5
+              },
+              {
+                "name": "F. Control Works - Hạng mục điều khiển",
+                "index": 6
+              },
+              {
+                "name": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC",
+                "index": 7
+              },
+              {
+                "name": "H. Fire Protection Electrical Works - Hạng mục điện PCCC",
+                "index": 8
+              },
+              {
+                "name": "J. Other Construction Works - Hạng mục khác",
+                "index": 9
+              }
+            ]
+          },
+          "questions": [],
+          "children": [
+            {
+              "id": "Chapter2#3",
+              "name": "Chapter2#3",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": false,
+                "iterations": [
+                  {
+                    "name": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+                    "index": 1
+                  },
+                  {
+                    "name": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+                    "index": 2
+                  },
+                  {
+                    "name": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                    "index": 3
+                  },
+                  {
+                    "name": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                    "index": 4
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "Q8b#1",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu ngày/tuần?\n{0}\nI. Nhóm nhân công xây dựng\n{1}",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "7",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1),LoopName(2)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "Chapter2#4",
+              "name": "Chapter2#4",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": false,
+                "iterations": [
+                  {
+                    "name": "Nhân công vận hành máy, điều khiển máy",
+                    "index": 1
+                  },
+                  {
+                    "name": "Lái xe",
+                    "index": 2
+                  },
+                  {
+                    "name": "Thủy thủ, thợ máy, thợ điện.",
+                    "index": 3
+                  },
+                  {
+                    "name": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+                    "index": 4
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "Q8b#2",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu ngày/tuần?\n{0}\nII. Nhóm nhân công vận hành, điều khiển máy\n{1}",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "7",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1),LoopName(2)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "Chapter2#5",
+              "name": "Chapter2#5",
+              "record": false,
+              "hide_back": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": false,
+                "loop_random": false,
+                "iterations": []
+              },
+              "questions": [
+                {
+                  "id": "Q8b#3",
+                  "type": "NUMBER_GRID",
+                  "text": "Thời gian làm việc thực tế của công nhân hiện nay là bao nhiêu ngày/tuần?\n{0}\nIII. Nhóm nhân công thực hiện các công tác khác\nKỹ sư thực hiện khảo sát, thí nghiệm",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "0",
+                  "max": "7",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(1)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "Phụ trợ (Thợ phụ)",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 3: Thấp (Thợ mới biết nghề)",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 2: Trung (Thợ chính)",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      },
+                      {
+                        "topic": "Bậc 1: Cao (Thợ cả)",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "ngày/tuần"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "Chapter3",
+          "name": "Chapter3",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "A. Common Temp. Works - Hạng mục công trình tạm",
+                "index": 1
+              },
+              {
+                "name": "B. Civil Works - Hạng mục xây dựng dân dụng",
+                "index": 2
+              },
+              {
+                "name": "C. Architectural Works - Hạng mục kết cấu",
+                "index": 3
+              },
+              {
+                "name": "D. Mechanical Works - Hạng mục cơ khí",
+                "index": 4
+              },
+              {
+                "name": "E. Electrical Works - Hạng mục điện",
+                "index": 5
+              },
+              {
+                "name": "F. Control Works - Hạng mục điều khiển",
+                "index": 6
+              },
+              {
+                "name": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC",
+                "index": 7
+              },
+              {
+                "name": "H. Fire Protection Electrical Works - Hạng mục điện PCCC",
+                "index": 8
+              },
+              {
+                "name": "J. Other Construction Works - Hạng mục khác",
+                "index": 9
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "Q9a",
+              "type": "MULTI",
+              "text": "Năng suất lao động được (a) đo lường bằng cách nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi công nhân/ngày(VD: m² xây dựng/người/ngày)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi giờ công (VD: m² xây dựng/giờ)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Sản lượng thực tế so với kế hoạch (VD: % hoàn thành kế hoạch)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Doanh thu/giá trị thi công trên mỗi lao động (VD: m² xây dựng/người)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chi phí lao động trên một đơn vị công việc hoàn thành (VD: VNĐ/hạng mục)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Không có KPI chính thức, chủ yếu đánh giá theo tiến độ dự án",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác, vui lòng ghi rõ:…",
+                  "code": "7",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter3#1",
+          "name": "Chapter3#1",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "A. Common Temp. Works - Hạng mục công trình tạm",
+                "index": 1
+              },
+              {
+                "name": "B. Civil Works - Hạng mục xây dựng dân dụng",
+                "index": 2
+              },
+              {
+                "name": "C. Architectural Works - Hạng mục kết cấu",
+                "index": 3
+              },
+              {
+                "name": "D. Mechanical Works - Hạng mục cơ khí",
+                "index": 4
+              },
+              {
+                "name": "E. Electrical Works - Hạng mục điện",
+                "index": 5
+              },
+              {
+                "name": "F. Control Works - Hạng mục điều khiển",
+                "index": 6
+              },
+              {
+                "name": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC",
+                "index": 7
+              },
+              {
+                "name": "H. Fire Protection Electrical Works - Hạng mục điện PCCC",
+                "index": 8
+              },
+              {
+                "name": "J. Other Construction Works - Hạng mục khác",
+                "index": 9
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "Q9b#1",
+              "type": "MULTI_GRID",
+              "text": "Năng suất lao động được đo lường bằng cách nào\n Áp dụng cho phạm vi công việc {0}\n\nI. Nhóm nhân công xây dựng",
+              "note": "Mỗi nhóm (cột) có thể chọn nhiều đáp án",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi công nhân/ngày(VD: m² xây dựng/người/ngày)",
+                  "code": "1",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi giờ công (VD: m² xây dựng/giờ)",
+                  "code": "2",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Sản lượng thực tế so với kế hoạch (VD: % hoàn thành kế hoạch)",
+                  "code": "3",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Doanh thu/giá trị thi công trên mỗi lao động (VD: m² xây dựng/người)",
+                  "code": "4",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Chi phí lao động trên một đơn vị công việc hoàn thành (VD: VNĐ/hạng mục)",
+                  "code": "5",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Không có KPI chính thức, chủ yếu đánh giá theo tiến độ dự án",
+                  "code": "6",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Khác",
+                  "code": "7",
+                  "is_other": false,
+                  "is_exclusive": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                  "code": "4",
+                  "is_other": false
+                }
+              ],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "flip_table": true
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q9b#2",
+              "type": "MULTI_GRID",
+              "text": "Năng suất lao động được đo lường bằng cách nào\n Áp dụng cho phạm vi công việc {0}\n\nII. Nhóm nhân công vận hành, điều khiển máy",
+              "note": "Mỗi nhóm (cột) có thể chọn nhiều đáp án",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi công nhân/ngày(VD: m² xây dựng/người/ngày)",
+                  "code": "1",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi giờ công (VD: m² xây dựng/giờ)",
+                  "code": "2",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Sản lượng thực tế so với kế hoạch (VD: % hoàn thành kế hoạch)",
+                  "code": "3",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Doanh thu/giá trị thi công trên mỗi lao động (VD: m² xây dựng/người)",
+                  "code": "4",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Chi phí lao động trên một đơn vị công việc hoàn thành (VD: VNĐ/hạng mục)",
+                  "code": "5",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Không có KPI chính thức, chủ yếu đánh giá theo tiến độ dự án",
+                  "code": "6",
+                  "is_other": false,
+                  "is_exclusive": false
+                },
+                {
+                  "text": "Khác",
+                  "code": "7",
+                  "is_other": false,
+                  "is_exclusive": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Nhân công vận hành máy, điều khiển máy",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Lái xe",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Thủy thủ, thợ máy, thợ điện.",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+                  "code": "4",
+                  "is_other": false
+                }
+              ],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "flip_table": true
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q9b#3",
+              "type": "MULTI",
+              "text": "Năng suất lao động được đo lường bằng cách nào\n Áp dụng cho phạm vi công việc {0}\n\nI. Nhóm nhân công xây dựng\nKỹ sư thực hiện khảo sát, thí nghiệm\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi công nhân/ngày(VD: m² xây dựng/người/ngày)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khối lượng công việc hoàn thành (output) trên mỗi giờ công (VD: m² xây dựng/giờ)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Sản lượng thực tế so với kế hoạch (VD: % hoàn thành kế hoạch)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Doanh thu/giá trị thi công trên mỗi lao động (VD: m² xây dựng/người)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chi phí lao động trên một đơn vị công việc hoàn thành (VD: VNĐ/hạng mục)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Không có KPI chính thức, chủ yếu đánh giá theo tiến độ dự án",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác, vui lòng ghi rõ:…",
+                  "code": "7",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                  "code": "4",
+                  "is_other": false
+                }
+              ],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter4",
+          "name": "Chapter4",
+          "record": false,
+          "hide_back": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "Q10",
+              "type": "MULTI",
+              "text": "Yếu tố nào phản ánh chính xác sự thay đổi về năng suất lao động?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Giảm sản lượng/người/ngày",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tăng số giờ công cần thiết để hoàn thành cùng một khối lượng công việc",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tăng tỷ lệ rework/sửa chữa",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Kéo dài tiến độ dự án",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tăng chi phí nhân công trên một đơn vị sản lượng",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác, vui lòng ghi rõ:…",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        }
+      ]
     }
   ]
 }
