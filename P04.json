@@ -480,7 +480,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q5a)])",
+            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q5)])",
             "on_next": "",
             "rules": []
           },
