@@ -45,7 +45,7 @@
             "headers": {
               "topic": "",
               "before": [],
-              "code": "Code",
+              "code": "",
               "after": []
             },
             "rows": [
@@ -60,6 +60,79 @@
                 "before": [],
                 "code": 2,
                 "after": []
+              }
+            ]
+          },
+          "form": {}
+        },
+        {
+          "id": "Q2",
+          "type": "NUMBER_GRID",
+          "text": "Trong đó, tỷ lệ lao động tay nghề cao, trung bình và lao động phổ thông là bao nhiêu?\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "100",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "AnswerChoice(CurrentQuestion(),1)+AnswerChoice(CurrentQuestion(),2)+AnswerChoice(CurrentQuestion(),3)!=100",
+                "action": "Hard",
+                "message": "Tổng phải bằng 100%",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {
+            "headers": {
+              "topic": "",
+              "before": [],
+              "code": "",
+              "after": [
+                ""
+              ]
+            },
+            "rows": [
+              {
+                "topic": "Thấp",
+                "before": [],
+                "code": 1,
+                "after": [
+                  "%"
+                ]
+              },
+              {
+                "topic": "Trung bình / Phổ thông",
+                "before": [],
+                "code": 2,
+                "after": [
+                  "%"
+                ]
+              },
+              {
+                "topic": "Cao",
+                "before": [],
+                "code": 3,
+                "after": [
+                  "%"
+                ]
               }
             ]
           },
