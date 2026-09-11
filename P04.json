@@ -1,0 +1,51 @@
+{
+  "functions": "",
+  "chapters": [
+    {
+      "id": "Root",
+      "name": "Root",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "SINGLE",
+          "text": "123123",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    }
+  ]
+}
