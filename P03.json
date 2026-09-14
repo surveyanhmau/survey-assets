@@ -1038,7 +1038,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[10])",
+                "action": "Hard",
+                "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -2444,7 +2451,14 @@
               "logic": {
                 "on_enter": "if(!Contains(Q100c,[10])){QuestionHide()}",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[1,2,3,4,5])",
+                    "action": "Hard",
+                    "message": "Dựa trên những thông tin bạn đã cung cấp, hiện tại bạn không thuộc nhóm đối tượng phù hợp cho nghiên cứu này. Xin cảm ơn bạn đã dành thời gian tham gia khảo sát.\n",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
