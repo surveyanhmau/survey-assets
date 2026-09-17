@@ -2243,14 +2243,31 @@
         },
         {
           "id": "Q14a#1",
-          "type": "NUMBER_GRID",
+          "type": "OPEN_GRID",
           "text": "Tỷ lệ nghỉ việc của công nhân trong quá trình thi công thường ở mức nào?\na) Chia theo nhóm nhân công\nI. Nhóm nhân công xây dựng",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+              "code": "1"
+            },
+            {
+              "text": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+              "code": "2"
+            },
+            {
+              "text": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+              "code": "3"
+            },
+            {
+              "text": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+              "code": "4"
+            }
+          ],
           "min": "0",
           "max": "100",
           "unit": "",
@@ -2260,8 +2277,7 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "",
@@ -2317,14 +2333,31 @@
         },
         {
           "id": "Q14a#2",
-          "type": "NUMBER_GRID",
+          "type": "OPEN_GRID",
           "text": "Tỷ lệ nghỉ việc của công nhân trong quá trình thi công thường ở mức nào?\na) Chia theo nhóm nhân công\nII. Nhóm nhân công vận hành, điều khiển máy",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "Nhân công vận hành máy, điều khiển máy",
+              "code": "1"
+            },
+            {
+              "text": "Lái xe",
+              "code": "2"
+            },
+            {
+              "text": "Thủy thủ, thợ máy, thợ điện.",
+              "code": "3"
+            },
+            {
+              "text": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+              "code": "4"
+            }
+          ],
           "min": "0",
           "max": "100",
           "unit": "",
@@ -2334,8 +2367,7 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "",
@@ -2391,14 +2423,19 @@
         },
         {
           "id": "Q14a#3",
-          "type": "NUMBER_GRID",
+          "type": "OPEN_GRID",
           "text": "Tỷ lệ nghỉ việc của công nhân trong quá trình thi công thường ở mức nào?\na) Chia theo nhóm nhân công\nIII. Nhóm nhân công thực hiện các công tác khác",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "Kỹ sư thực hiện khảo sát, thí nghiệm",
+              "code": "1"
+            }
+          ],
           "min": "0",
           "max": "100",
           "unit": "",
@@ -2408,8 +2445,7 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "",
@@ -2441,14 +2477,43 @@
         },
         {
           "id": "Q14b",
-          "type": "NUMBER_GRID",
+          "type": "OPEN_GRID",
           "text": "Tỷ lệ nghỉ việc của công nhân trong quá trình thi công thường ở mức nào?\nb) Chia theo cấp bậc nhân công",
           "note": "(Theo Cấp bậc nhân công xây dựng tại Thông tư 15/2019/TT-BXD ngày 26/12/2019 - Đã hết hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "Bậc 1/7",
+              "code": "1"
+            },
+            {
+              "text": "Bậc 2/7",
+              "code": "2"
+            },
+            {
+              "text": "Bậc 3/7",
+              "code": "3"
+            },
+            {
+              "text": "Bậc 4/7",
+              "code": "4"
+            },
+            {
+              "text": "Bậc 5/7",
+              "code": "5"
+            },
+            {
+              "text": "Bậc 6/7",
+              "code": "6"
+            },
+            {
+              "text": "Bậc 7/7",
+              "code": "7"
+            }
+          ],
           "min": "0",
           "max": "100",
           "unit": "",
@@ -2458,8 +2523,7 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "",
@@ -2539,14 +2603,51 @@
         },
         {
           "id": "Q14c",
-          "type": "NUMBER_GRID",
+          "type": "OPEN_GRID",
           "text": "Tỷ lệ nghỉ việc của công nhân trong quá trình thi công thường ở mức nào?\nc) Chia theo hạng mục công trình",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "A. Common Temp. Works - Hạng mục công trình tạm",
+              "code": "1"
+            },
+            {
+              "text": "B. Civil Works - Hạng mục xây dựng dân dụng",
+              "code": "2"
+            },
+            {
+              "text": "C. Architectural Works - Hạng mục kết cấu",
+              "code": "3"
+            },
+            {
+              "text": "D. Mechanical Works - Hạng mục cơ khí",
+              "code": "4"
+            },
+            {
+              "text": "E. Electrical Works - Hạng mục điện",
+              "code": "5"
+            },
+            {
+              "text": "F. Control Works - Hạng mục điều khiển",
+              "code": "6"
+            },
+            {
+              "text": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC",
+              "code": "7"
+            },
+            {
+              "text": "H. Fire Protection Electrical Works - Hạng mục điện PCCC",
+              "code": "8"
+            },
+            {
+              "text": "J. Other Construction Works - Hạng mục khác",
+              "code": "9"
+            }
+          ],
           "min": "0",
           "max": "100",
           "unit": "",
@@ -2556,8 +2657,7 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "FilterTopicByAnswer(CurrentQuestion(),Q0)",
