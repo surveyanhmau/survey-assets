@@ -3007,7 +3007,7 @@
         },
         {
           "id": "Q18a",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Nhóm thợ nào hiện nay khó tuyển dụng nhất (VD: thợ cốp pha, cốt thép, xây tô, hoàn thiện, điện nước, vận hành máy móc, v.v.)?\na) Chia theo nhóm nhân công",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
@@ -3019,6 +3019,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3026,6 +3027,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3033,6 +3035,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3040,6 +3043,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3047,6 +3051,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3054,6 +3059,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3061,6 +3067,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3068,6 +3075,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3075,6 +3083,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3082,6 +3091,7 @@
               "code": "10",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3089,6 +3099,7 @@
               "code": "11",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3096,12 +3107,13 @@
               "code": "12",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -3123,7 +3135,7 @@
         },
         {
           "id": "Q18b",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Nhóm thợ nào hiện nay khó tuyển dụng nhất (VD: thợ cốp pha, cốt thép, xây tô, hoàn thiện, điện nước, vận hành máy móc, v.v.)?\nb) Chia theo cấp bậc nhân công\n",
           "note": "(Theo Cấp bậc nhân công xây dựng tại Thông tư 15/2019/TT-BXD ngày 26/12/2019 - Đã hết hiệu lực)",
           "media": "",
@@ -3135,6 +3147,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3142,6 +3155,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3149,6 +3163,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3156,6 +3171,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3163,6 +3179,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3170,6 +3187,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3177,12 +3195,13 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -3204,7 +3223,7 @@
         },
         {
           "id": "Q18c",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Nhóm thợ nào hiện nay khó tuyển dụng nhất (VD: thợ cốp pha, cốt thép, xây tô, hoàn thiện, điện nước, vận hành máy móc, v.v.)?\nc) Chia theo hạng mục công trình\n",
           "note": "",
           "media": "",
@@ -3216,6 +3235,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3223,6 +3243,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3230,6 +3251,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3237,6 +3259,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3244,6 +3267,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3251,6 +3275,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3258,6 +3283,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3265,6 +3291,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3272,12 +3299,13 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -3805,7 +3833,7 @@
         },
         {
           "id": "Q25a",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Theo anh/chị, nhóm lao động nào được dự báo thiếu hụt nhiều nhất trong giai đoạn 2027-2028?\na) Chia theo nhóm nhân công\n",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
@@ -3817,6 +3845,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3824,6 +3853,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3831,6 +3861,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3838,6 +3869,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3845,6 +3877,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3852,6 +3885,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3859,6 +3893,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3866,6 +3901,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3873,6 +3909,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3880,6 +3917,7 @@
               "code": "10",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3887,6 +3925,7 @@
               "code": "11",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": true
             },
             {
@@ -3894,12 +3933,13 @@
               "code": "12",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -3921,7 +3961,7 @@
         },
         {
           "id": "Q25b",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Theo anh/chị, nhóm lao động nào được dự báo thiếu hụt nhiều nhất trong giai đoạn 2027-2028?\nb) Chia theo cấp bậc nhân công\n",
           "note": "(Theo Cấp bậc nhân công xây dựng tại Thông tư 15/2019/TT-BXD ngày 26/12/2019 - Đã hết hiệu lực)",
           "media": "",
@@ -3933,6 +3973,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3940,6 +3981,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3947,6 +3989,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3954,6 +3997,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3961,6 +4005,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3968,6 +4013,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3975,12 +4021,13 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -4002,7 +4049,7 @@
         },
         {
           "id": "Q25c",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Theo anh/chị, nhóm lao động nào được dự báo thiếu hụt nhiều nhất trong giai đoạn 2027-2028?\nc) Chia theo hạng mục công trình\n",
           "note": "(Theo Cấp bậc nhân công xây dựng tại Thông tư 15/2019/TT-BXD ngày 26/12/2019 - Đã hết hiệu lực)",
           "media": "",
@@ -4014,6 +4061,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4021,6 +4069,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4028,6 +4077,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4035,6 +4085,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4042,6 +4093,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4049,6 +4101,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4056,6 +4109,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4063,6 +4117,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4070,12 +4125,13 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
