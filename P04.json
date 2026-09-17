@@ -4245,7 +4245,7 @@
         },
         {
           "id": "Q28",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Các yếu tố nào sẽ tác động mạnh nhất đến chi phí lao động trong giai đoạn 2027-2028?",
           "note": "",
           "media": "",
@@ -4257,6 +4257,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4264,6 +4265,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4271,6 +4273,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4278,6 +4281,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4285,6 +4289,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4292,6 +4297,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4299,6 +4305,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4306,12 +4313,13 @@
               "code": "8",
               "media": "",
               "is_other": true,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
