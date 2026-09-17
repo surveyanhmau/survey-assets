@@ -1144,7 +1144,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "FilterTopicByAnswer(CurrentQuestion(),Q0)",
             "on_next": "",
             "rules": []
           },
@@ -1578,7 +1578,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "FilterTopicByAnswer(CurrentQuestion(),Q0)",
             "on_next": "",
             "rules": []
           },
@@ -2553,7 +2553,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "FilterTopicByAnswer(CurrentQuestion(),Q0)",
             "on_next": "",
             "rules": []
           },
