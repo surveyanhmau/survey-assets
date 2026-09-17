@@ -828,7 +828,7 @@
         {
           "id": "Q7b1#1",
           "type": "NUMBER_GRID",
-          "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nI. Nhóm nhân công xây dựng",
+          "text": "Trong những nhóm công việc nào dưới đây có giờ làm thêm / tăng ca. Vui lòng cho biết số giờ cụ thể\nChia theo nhóm nhân công\nI. Nhóm nhân công xây dựng",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
@@ -902,7 +902,7 @@
         {
           "id": "Q7b1#2",
           "type": "NUMBER_GRID",
-          "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nII. Nhóm nhân công vận hành, điều khiển máy",
+          "text": "Trong những nhóm công việc nào dưới đây có giờ làm thêm / tăng ca. Vui lòng cho biết số giờ cụ thể\nChia theo nhóm nhân công\nII. Nhóm nhân công vận hành, điều khiển máy",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
@@ -976,7 +976,7 @@
         {
           "id": "Q7b1#3",
           "type": "NUMBER_GRID",
-          "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nIII. Nhóm nhân công thực hiện các công tác khác",
+          "text": "Trong những nhóm công việc nào dưới đây có giờ làm thêm / tăng ca. Vui lòng cho biết số giờ cụ thể\nChia theo nhóm nhân công\nIII. Nhóm nhân công thực hiện các công tác khác",
           "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
@@ -1026,7 +1026,7 @@
         {
           "id": "Q7b2",
           "type": "NUMBER_GRID",
-          "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo cấp bậc nhân công",
+          "text": "Trong những bậc nhân công nào dưới đây có giờ làm thêm / tăng ca. Vui lòng cho biết số giờ cụ thể\nChia theo cấp bậc nhân công",
           "note": "(Theo Cấp bậc nhân công xây dựng tại Thông tư 15/2019/TT-BXD ngày 26/12/2019 - Đã hết hiệu lực)",
           "media": "",
           "record": false,
