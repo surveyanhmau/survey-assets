@@ -1819,13 +1819,86 @@
         },
         {
           "id": "Q10a",
-          "type": "OPEN_GRID",
+          "type": "RANKING",
           "text": "Top 3 - 5 vị trí ở mỗi nhóm lao động nào có tốc độ tăng lương nhanh nhất, theo các mốc thời gian như sau:\na) 3 tháng đầu năm 2026 (Tháng 1-3/2026) so với cuối năm 2025 (T10-12/2025)",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
-          "answers": [],
+          "answers": [
+            {
+              "text": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhân công vận hành máy, điều khiển máy",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Lái xe",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thủy thủ, thợ máy, thợ điện.",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Kỹ sư thực hiện khảo sát, thí nghiệm",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
           "topics": [
             {
               "text": "Top1",
@@ -1848,8 +1921,8 @@
               "code": "5"
             }
           ],
-          "min": "",
-          "max": "",
+          "min": "3",
+          "max": "5",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -1857,7 +1930,8 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false
+            "answer_random": false,
+            "search": false
           },
           "logic": {
             "on_enter": "",
@@ -1870,13 +1944,86 @@
         },
         {
           "id": "Q10b",
-          "type": "OPEN_GRID",
+          "type": "RANKING",
           "text": "Top 3 - 5 vị trí ở mỗi nhóm lao động nào có tốc độ tăng lương nhanh nhất, theo các mốc thời gian như sau:\nb) Tháng 4/2026 tới nay",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
-          "answers": [],
+          "answers": [
+            {
+              "text": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhân công vận hành máy, điều khiển máy",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Lái xe",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thủy thủ, thợ máy, thợ điện.",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Máy trưởng, máy I, máy II, điện trưởng, kỹ thuật viên cuốc I, kỹ thuật viên cuốc II",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Kỹ sư thực hiện khảo sát, thí nghiệm",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
           "topics": [
             {
               "text": "Top1",
@@ -1899,8 +2046,8 @@
               "code": "5"
             }
           ],
-          "min": "",
-          "max": "",
+          "min": "3",
+          "max": "5",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -1908,7 +2055,8 @@
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false
+            "answer_random": false,
+            "search": false
           },
           "logic": {
             "on_enter": "",
