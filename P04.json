@@ -14,6 +14,110 @@
       },
       "questions": [
         {
+          "id": "Q0",
+          "type": "MULTI",
+          "text": "Công ty anh / chị đang thực hiện những hạng mục công trình nào trong số những hạn mục dưới đây",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "A. Common Temporary Works - Hạng mục công trình tạm (VD: công trình/ CSVC tạm thời, điện nước tạm thời, kiểm soát môi trường, giấy phép lệ phí, v.v.)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "B. Civil Works - Hạng mục xây dựng dân dụng (VD: phá dỡ, chắn đất, lấp nền, lắp đặt đường ống, v.v.)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "C. Architectural Works - Hạng mục kết cấu / kiến trúc (VD: kết cấu thép, bê tông, cốp pha, sàn, xây trát, sơn, ốp lát, v.v.)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "D. Mechanical Works - Hạng mục cơ khí (VD: hệ thống HVAC, điều hòa, thải nhiệt, thoát nước, đường ống vệ sinh, hệ thống trần, cấp nước, đường ống PCW/UPW, v.v.)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "E. Electrical Works - Hạng mục điện (VD: hệ thống tiếp nhận điện và trạm biến áp, hệ thống chiếu sáng, thang máy, tiếp địa/ chống sét, CCTV, điện thoại/LAN, máng cáp, v.v.)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "F. Control Works - Hạng mục điều khiển (VD: điều khiển thiết bị, FFU, hệ thống điện, v.v.)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "G. Fire Protection Mechanical Works - Hạng mục cơ khí PCCC (VD: đường ống, họng nước chữa cháy, sprinkler, ống khói, thiết bị PCCC ngoài trời, v.v.)",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "H. Fire Protection Electrical Works - Hạng mục điện PCCC (VD: hệ thống điện PCCC ngoài trời, biển báo lối thoát hiểm, báo cháy tự động, v.v.)",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "J. Other Construction Works - Hạng mục khác",
+              "code": "9",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q1",
           "type": "NUMBER_GRID",
           "text": "Công ty hiện đang quản lý khoảng bao nhiêu công nhân xây dựng (bao gồm công nhân thường xuyên và công nhân hợp đồng thời vụ)?",
@@ -645,7 +749,7 @@
         {
           "id": "Q7a",
           "type": "NUMBER_GRID",
-          "text": "a) Trong các dự án gần đây, thời gian làm việc thực tế của công nhân thông thường là:",
+          "text": "Trong các dự án gần đây, thời gian làm việc thực tế của công nhân thông thường là:",
           "note": "",
           "media": "",
           "record": false,
@@ -653,7 +757,7 @@
           "answers": [],
           "topics": [],
           "min": "1",
-          "max": "999999999",
+          "max": "31",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -667,7 +771,20 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "AnswerChoice(CurrentQuestion(),1)>24",
+                "action": "Hard",
+                "message": "Ghi nhận tối đa 24 giờ / ngày",
+                "goto": ""
+              },
+              {
+                "condition": "AnswerChoice(CurrentQuestion(),2)>7",
+                "action": "Hard",
+                "message": "Ghi nhận tối đa 7 ngày / tuần",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {
@@ -1955,8 +2072,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "0",
+          "max": "100",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -2029,8 +2146,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "0",
+          "max": "100",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -2103,8 +2220,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "0",
+          "max": "100",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -2153,8 +2270,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "0",
+          "max": "100",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -2251,8 +2368,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "0",
+          "max": "100",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
