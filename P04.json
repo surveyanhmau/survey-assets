@@ -3379,12 +3379,33 @@
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
+          "topics": [
+            {
+              "text": "Công ty 1",
+              "code": "1"
+            },
+            {
+              "text": "Công ty 2",
+              "code": "2"
+            },
+            {
+              "text": "Công ty 3",
+              "code": "3"
+            },
+            {
+              "text": "Công ty 4",
+              "code": "4"
+            },
+            {
+              "text": "Công ty 5",
+              "code": "5"
+            }
+          ],
           "min": "",
           "max": "",
           "unit": "",
           "display_columns": 1,
-          "no_answer": false,
+          "no_answer": true,
           "integer_only": true,
           "realtime": false,
           "realcam": false,
