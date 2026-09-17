@@ -3915,6 +3915,49 @@
           "form": {}
         },
         {
+          "id": "TTDV",
+          "type": "OPEN_GRID",
+          "text": "Ghi nhận thông tin đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [
+            {
+              "text": "Tên đáp viên",
+              "code": "1"
+            },
+            {
+              "text": "Tên công ty",
+              "code": "2"
+            },
+            {
+              "text": "Chức vụ",
+              "code": "3"
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "topic_random": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q5",
           "type": "EMPTY",
           "text": "CẢM ƠN ANH CHỊ ĐÃ CHIA SẺ",
