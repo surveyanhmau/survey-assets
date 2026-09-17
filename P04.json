@@ -1124,7 +1124,7 @@
         {
           "id": "Q7b3",
           "type": "NUMBER_GRID",
-          "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo hạng mục công trình",
+          "text": "Trong những hạng mục công trình nào dưới đây có giờ làm thêm / tăng ca. Vui lòng cho biết số giờ cụ thể\nChia theo hạng mục công trình",
           "note": "",
           "media": "",
           "record": false,
@@ -1250,7 +1250,7 @@
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": true,
+          "integer_only": false,
           "realtime": false,
           "realcam": false,
           "options": {
@@ -1340,7 +1340,7 @@
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": true,
+          "integer_only": false,
           "realtime": false,
           "realcam": false,
           "options": {
@@ -1414,7 +1414,7 @@
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": true,
+          "integer_only": false,
           "realtime": false,
           "realcam": false,
           "options": {
@@ -1464,7 +1464,7 @@
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": true,
+          "integer_only": false,
           "realtime": false,
           "realcam": false,
           "options": {
@@ -1570,7 +1570,7 @@
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": true,
+          "integer_only": false,
           "realtime": false,
           "realcam": false,
           "options": {
