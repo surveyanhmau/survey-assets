@@ -829,7 +829,7 @@
           "id": "Q7b1#1",
           "type": "NUMBER_GRID",
           "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nI. Nhóm nhân công xây dựng",
-          "note": "",
+          "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
@@ -903,7 +903,7 @@
           "id": "Q7b1#2",
           "type": "NUMBER_GRID",
           "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nII. Nhóm nhân công vận hành, điều khiển máy",
-          "note": "",
+          "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
@@ -977,7 +977,7 @@
           "id": "Q7b1#3",
           "type": "NUMBER_GRID",
           "text": "Nhóm công việc nào có giờ làm thêm hoặc mức tăng ca khác biệt đáng kể không?\nChia theo nhóm nhân công\nIII. Nhóm nhân công thực hiện các công tác khác",
-          "note": "",
+          "note": "(Theo phân loại Nhóm nhân công tại Thông tư 37/2026/TT-BXD ngày 26/06/2026 - Còn hiệu lực)",
           "media": "",
           "record": false,
           "readonly": false,
@@ -1131,7 +1131,7 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
+          "min": "0",
           "max": "999999999",
           "unit": "",
           "display_columns": 1,
@@ -1274,23 +1274,23 @@
             },
             "rows": [
               {
-                "topic": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.)",
+                "topic": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.) (theo tháng)",
                 "before": [],
                 "code": 1,
                 "after": [
-                  "/ tháng hoặc công nhật (ngày công)"
+                  "/ tháng"
                 ]
               },
               {
-                "topic": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.)",
+                "topic": "Nhóm 1 (Chuẩn bị mặt bằng, bốc xếp, giàn giáo, đất, đá, cát, v.v.) (theo công nhật)",
                 "before": [],
                 "code": 2,
                 "after": [
-                  "/ tháng hoặc công nhật (ngày công)"
+                  "/ công nhật (ngày công)"
                 ]
               },
               {
-                "topic": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                "topic": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.) (theo tháng)",
                 "before": [],
                 "code": 3,
                 "after": [
@@ -1298,9 +1298,25 @@
                 ]
               },
               {
-                "topic": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                "topic": "Nhóm 2 (Thi công cọc, khoan, bê tông, cốt thép, v.v.) (theo công nhật)",
                 "before": [],
                 "code": 4,
+                "after": [
+                  "/ công nhật (ngày công)"
+                ]
+              },
+              {
+                "topic": "Nhóm 3 (Hệ thống kỹ thuật công trình, kết cấu gỗ, kết cấu thép, ốp, lát, sơn, bả, khảo sát xây dựng, v.v.)",
+                "before": [],
+                "code": 5,
+                "after": [
+                  "/ tháng"
+                ]
+              },
+              {
+                "topic": "Nhóm 4 (Hệ thống điện và trạm biến áp, thiết bị CNTT, tín hiệu, v.v.)",
+                "before": [],
+                "code": 6,
                 "after": [
                   "/ tháng"
                 ]
@@ -1472,23 +1488,23 @@
             },
             "rows": [
               {
-                "topic": "Bậc 1/7",
+                "topic": "Bậc 1/7 (theo tháng)",
                 "before": [],
                 "code": 1,
-                "after": [
-                  "/ tháng hoặc công nhật (ngày công)"
-                ]
-              },
-              {
-                "topic": "Bậc 2/7",
-                "before": [],
-                "code": 2,
                 "after": [
                   "/ tháng"
                 ]
               },
               {
-                "topic": "Bậc 3/7",
+                "topic": "Bậc 1/7 (theo công nhật)",
+                "before": [],
+                "code": 2,
+                "after": [
+                  "/ công nhật (ngày công)"
+                ]
+              },
+              {
+                "topic": "Bậc 2/7",
                 "before": [],
                 "code": 3,
                 "after": [
@@ -1496,7 +1512,7 @@
                 ]
               },
               {
-                "topic": "Bậc 4/7",
+                "topic": "Bậc 3/7",
                 "before": [],
                 "code": 4,
                 "after": [
@@ -1504,7 +1520,7 @@
                 ]
               },
               {
-                "topic": "Bậc 5/7",
+                "topic": "Bậc 4/7",
                 "before": [],
                 "code": 5,
                 "after": [
@@ -1512,7 +1528,7 @@
                 ]
               },
               {
-                "topic": "Bậc 6/7",
+                "topic": "Bậc 5/7",
                 "before": [],
                 "code": 6,
                 "after": [
@@ -1520,9 +1536,17 @@
                 ]
               },
               {
-                "topic": "Bậc 7/7",
+                "topic": "Bậc 6/7",
                 "before": [],
                 "code": 7,
+                "after": [
+                  "/ tháng"
+                ]
+              },
+              {
+                "topic": "Bậc 7/7",
+                "before": [],
+                "code": 8,
                 "after": [
                   "/ tháng"
                 ]
@@ -1541,7 +1565,7 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
+          "min": "0",
           "max": "999999999",
           "unit": "",
           "display_columns": 1,
