@@ -143,7 +143,7 @@
         {
           "id": "Q201a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh cho gia đình, Anh/Chị cân nhắc những yếu tố nào?\nChọn tất cả các phương án phù hợp",
+          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh cho gia đình, Anh/Chị cân nhắc những yếu tố nào?\nChọn ít nhất 3 phương án phù hợp",
           "note": "",
           "media": "",
           "record": false,
@@ -4107,7 +4107,7 @@
         {
           "id": "Q620",
           "type": "NUMBER_GRID",
-          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này để tạo nên mức chênh lệch giá này. ",
+          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này.",
           "note": "",
           "media": "",
           "record": false,
