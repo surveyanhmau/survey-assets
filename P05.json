@@ -2506,9 +2506,9 @@
           "form": {}
         },
         {
-          "id": "HD2",
+          "id": "HD2a",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPVV nói với đáp viên:\n“Anh/Chị vui lòng xem kỹ mẫu tủ lạnh này, bao gồm cả việc mở tủ và quan sát cẩn thận thiết kế bên trong. Sau đó, em sẽ hỏi Anh/Chị một vài câu hỏi về mẫu tủ lạnh này nhé.”\n",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -2526,6 +2526,37 @@
           "options": {
             "answer_random": false,
             "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD2b",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n-\tBước 1: Đưa đáp viên đọc thông tin giới thiệu về sản phẩm thông quan SHOWPHOTO để họ nắm thông tin và tính năng sản phẩm. PVV nói: \"Mời anh chị tham khảo thông tin về mẫu tủ lạnh A này thông qua bản giới thiệu sau đây\"\n-\tBước 2: Quan sát ngoại thất tủ lạnh - PVV nói: \"Mời anh chị quan sát bên ngoài của mẫu tủ lạnh A này\n-\tBước 3: Quan sát nội thất KHÔNG CÓ thực phẩm mẫu - PVV nói: \"Tiếp theo em sẽ mở chiếc tủ lạnh này ra, anh chị quan sát bên trong tủ lạnh dùm em nhé\" \n-\tBước 4: Quan sát nội thất CÓ thực phẩm mẫu - PVV nói: \"Tiếp theo, em sẽ đặt 1 vài món thực phẩm vào tủ lạnh để anh chị quan sát thêm nhé\"\nPVV lấy 1 số thực phẩm mẫu đã được chuẩn bị sẵn đặt vào tủ lạnh cho đáp viên quan sát.\n-\tPVV tiếp tục nói: \"Dạ rồi, bây giờ em sẽ hỏi anh chị 1 vài câu hỏi về mẫu tủ lạnh A này nhé ạ\"",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
             "search": false
           },
           "logic": {
@@ -2948,23 +2979,133 @@
           "form": {}
         },
         {
-          "id": "Q607",
+          "id": "HD2c",
+          "type": "EMPTY",
+          "text": "Hướng dẫn: PVV dắt đáp viên đến trước mẫu tủ lạnh B, sau đó nói: “Em mời anh chị quán sát mẫu tủ lạnh B này bao gồm bên ngoài và bên trong luôn. Sau đó em sẽ hỏi anh chị vài câu hỏi nhé ạ”.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q606A",
           "type": "SINGLE",
-          "text": "[SHOWCARD TABLET]\nSau khi xem tủ lạnh được trưng bày trong phòng tối với thực phẩm mẫu, Anh/Chị thích điều kiện ánh sáng nào hơn?",
+          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh chị thích mẫu tủ lạnh nào hơn?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Sản phẩm A (ánh sáng giúp làm nổi bật thực phẩm trong bóng tối và làm sáng cả không gian phòng)",
+              "text": "Mẫu A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Sản phẩm B (ánh sáng tạo độ tương phản cho thực phẩm, khó nhìn rõ hơn, nhưng có dải đèn LED lớn, hiện đại ở vách sau)",
+              "text": "Mẫu B",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD2d",
+          "type": "EMPTY",
+          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa rồi cả 2 mẫu tủ lạnh này nhen ạ”",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q607",
+          "type": "SINGLE",
+          "text": "[SHOWCARD TABLET]\nSau khi xem tủ lạnh được trưng bày trong phòng tối với thực phẩm mẫu, Anh/chị thích sản phẩm nào hơn? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Mẫu A",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Mẫu B",
               "code": "2",
               "media": "",
               "is_other": false,
