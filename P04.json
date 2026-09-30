@@ -4453,6 +4453,38 @@
           "form": {}
         },
         {
+          "id": "MaSo",
+          "type": "NUMBER",
+          "text": "PVV chọn id đã recruit",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "0",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "Recall(SurveyID,TTDV#Topic1)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q5",
           "type": "EMPTY",
           "text": "CẢM ƠN ANH CHỊ ĐÃ CHIA SẺ",
