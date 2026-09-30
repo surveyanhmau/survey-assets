@@ -111,7 +111,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "1==1",
+                "action": "Goto",
+                "message": "",
+                "goto": "MaSo"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -4476,7 +4483,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "Recall(SurveyID,TTDV#Topic1)",
+            "on_enter": "Recall(SurveyID,\"TTDV#Topic1\")",
             "on_next": "",
             "rules": []
           },
