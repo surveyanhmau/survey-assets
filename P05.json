@@ -111,7 +111,7 @@
         {
           "id": "GioiThieu",
           "type": "EMPTY",
-          "text": "Chào Anh/Chị, hôm nay em mời Anh/Chị đến đây để hỏi Anh/Chị một số câu hỏi về các sản phẩm tủ lạnh hoàn toàn mới. Ở đây không có câu trả lời nào đúng hay sai, em chỉ muốn biết ý kiến của Anh/Chị về sản phẩm tủ lạnh mà Anh/Chị có thể cân nhắc sử dụng. Do đó, Anh/Chị nghĩ gì thì cứ chia sẻ như vậy nhé.",
+          "text": "Chào anh/chị, hôm nay em mời anh chị đến đây để nhờ các anh chị trả lời một số câu hỏi về không gian nhà bếp và các thiết bị điện gia dụng sử dụng trong nhà bếp. Sẽ không có câu trả lời đúng hay sai, em chỉ muốn ghi nhận ý kiến, quan điểm của các anh chị. Vậy nên anh chị thoải mái chia sẻ cùng em nhé.",
           "note": "",
           "media": "",
           "record": false,
@@ -150,7 +150,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Dung tích tủ lạnh",
+              "text": "1. Dung tích tủ lạnh",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -158,7 +158,7 @@
               "is_header": false
             },
             {
-              "text": "Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
+              "text": "2. Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -166,7 +166,7 @@
               "is_header": false
             },
             {
-              "text": "Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
+              "text": "3. Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -174,7 +174,7 @@
               "is_header": false
             },
             {
-              "text": "Giá/ngân sách",
+              "text": "4. Giá/ngân sách",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -182,7 +182,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc",
+              "text": "5. Màu sắc",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -190,7 +190,7 @@
               "is_header": false
             },
             {
-              "text": "Chất liệu cửa",
+              "text": "6. Chất liệu cửa",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -198,7 +198,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu",
+              "text": "7. Thương hiệu",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -206,7 +206,7 @@
               "is_header": false
             },
             {
-              "text": "Xuất xứ",
+              "text": "8. Xuất xứ",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -214,7 +214,7 @@
               "is_header": false
             },
             {
-              "text": "Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
+              "text": "9. Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -222,7 +222,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế tổng thể",
+              "text": "10. Thiết kế tổng thể",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -230,7 +230,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...:…)",
+              "text": "11. Khác (vui lòng ghi rõ:...:…)",
               "code": "11",
               "media": "",
               "is_other": true,
@@ -270,7 +270,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Dung tích tủ lạnh",
+              "text": "1. Dung tích tủ lạnh",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -278,7 +278,7 @@
               "is_header": false
             },
             {
-              "text": "Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
+              "text": "2. Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -286,7 +286,7 @@
               "is_header": false
             },
             {
-              "text": "Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
+              "text": "3. Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -294,7 +294,7 @@
               "is_header": false
             },
             {
-              "text": "Giá/ngân sách",
+              "text": "4. Giá/ngân sách",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -302,7 +302,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc",
+              "text": "5. Màu sắc",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -310,7 +310,7 @@
               "is_header": false
             },
             {
-              "text": "Chất liệu cửa",
+              "text": "6. Chất liệu cửa",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -318,7 +318,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu",
+              "text": "7. Thương hiệu",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -326,7 +326,7 @@
               "is_header": false
             },
             {
-              "text": "Xuất xứ",
+              "text": "8. Xuất xứ",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -334,7 +334,7 @@
               "is_header": false
             },
             {
-              "text": "Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
+              "text": "9. Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -342,7 +342,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế tổng thể",
+              "text": "10. Thiết kế tổng thể",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -350,7 +350,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...:…)",
+              "text": "11. Khác (vui lòng ghi rõ:...:…)",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -390,56 +390,56 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Dưới 400L",
+              "text": "1. Dưới 400L",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "400 - 450L",
+              "text": "2. 400 - 450L",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "450 - 500L",
+              "text": "3. 450 - 500L",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "500 - 550L",
+              "text": "4. 500 - 550L",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "550 - 600L",
+              "text": "5. 550 - 600L",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "600 - 650L",
+              "text": "6. 600 - 650L",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "650 - 700L",
+              "text": "7. 650 - 700L",
               "code": "7",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Trên 700L",
+              "text": "8. Trên 700L",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -478,56 +478,56 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Dưới 400L",
+              "text": "1. Dưới 400L",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "400 - 450L",
+              "text": "2. 400 - 450L",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "450 - 500L",
+              "text": "3. 450 - 500L",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "500 - 550L",
+              "text": "4. 500 - 550L",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "550 - 600L",
+              "text": "5. 550 - 600L",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "600 - 650L",
+              "text": "6. 600 - 650L",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "650 - 700L",
+              "text": "7. 650 - 700L",
               "code": "7",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Trên 700L",
+              "text": "8. Trên 700L",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -566,7 +566,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Muốn đi mua sắm/đi chợ ít lần hơn và lưu trữ nhiều thực phẩm hơn mỗi lần",
+              "text": "1. Muốn đi mua sắm/đi chợ ít lần hơn và lưu trữ nhiều thực phẩm hơn mỗi lần",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -574,7 +574,7 @@
               "is_header": false
             },
             {
-              "text": "Lên kế hoạch/chuẩn bị cho tương lai (có con, bố mẹ chuyển đến ở cùng, gia đình đông hơn)",
+              "text": "2. Lên kế hoạch/chuẩn bị cho tương lai (có con, bố mẹ chuyển đến ở cùng, gia đình đông hơn)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -582,7 +582,7 @@
               "is_header": false
             },
             {
-              "text": "Các mẫu tủ lạnh lớn có thiết kế đẹp hơn và phù hợp với không gian bếp hơn",
+              "text": "3. Các mẫu tủ lạnh lớn có thiết kế đẹp hơn và phù hợp với không gian bếp hơn",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -590,7 +590,7 @@
               "is_header": false
             },
             {
-              "text": "Cần lưu trữ thực phẩm/đồ đông lạnh do người thân từ quê gửi lên",
+              "text": "4. Cần lưu trữ thực phẩm/đồ đông lạnh do người thân từ quê gửi lên",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -598,7 +598,7 @@
               "is_header": false
             },
             {
-              "text": "Giá tủ lạnh lớn không còn là rào cản như trước",
+              "text": "5. Giá tủ lạnh lớn không còn là rào cản như trước",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -606,7 +606,7 @@
               "is_header": false
             },
             {
-              "text": "Mọi người đều đang sử dụng tủ lạnh Multi-Door",
+              "text": "6. Mọi người đều đang sử dụng tủ lạnh Multi-Door",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -614,7 +614,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "7. Khác (vui lòng ghi rõ:...)",
               "code": "7",
               "media": "",
               "is_other": true,
@@ -622,7 +622,7 @@
               "is_header": false
             },
             {
-              "text": "Không có lý do cụ thể",
+              "text": "8. Không có lý do cụ thể",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -662,35 +662,35 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tương phản nổi bật - màu tủ lạnh khác biệt, nổi bật so với tủ bếp",
+              "text": "1. Tương phản nổi bật - màu tủ lạnh khác biệt, nổi bật so với tủ bếp",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hài hòa/đồng bộ - màu tủ lạnh gần với màu tủ bếp, tạo cảm giác hòa vào tổng thể",
+              "text": "2. Hài hòa/đồng bộ - màu tủ lạnh gần với màu tủ bếp, tạo cảm giác hòa vào tổng thể",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Thể hiện phong cách cá nhân - màu tủ lạnh độc đáo, khác biệt, mang dấu ấn cá nhân",
+              "text": "3. Thể hiện phong cách cá nhân - màu tủ lạnh độc đáo, khác biệt, mang dấu ấn cá nhân",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Phong cách truyền thống (tủ gỗ, tủ lạnh màu bạc hoặc đen)",
+              "text": "4. Phong cách truyền thống (tủ gỗ, tủ lạnh màu bạc hoặc đen)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không thích cách nào trong số những cách này",
+              "text": "5. Không thích cách nào trong số những cách này",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -729,56 +729,56 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đen",
+              "text": "1. Đen",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Trắng ngà",
+              "text": "2. Trắng ngà",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bạc/Kim loại",
+              "text": "3. Bạc/Kim loại",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Pastel (hồng, xanh nhạt...)",
+              "text": "4. Pastel (hồng, xanh nhạt...)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bespoke - có thể tùy chỉnh, nhiều màu sắc",
+              "text": "5. Bespoke - có thể tùy chỉnh, nhiều màu sắc",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Vân gỗ",
+              "text": "6. Vân gỗ",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "7. Khác (vui lòng ghi rõ:...)",
               "code": "7",
               "media": "",
               "is_other": true,
               "is_header": false
             },
             {
-              "text": "Không có màu yêu thích cụ thể",
+              "text": "8. Không có màu yêu thích cụ thể",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -817,28 +817,28 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đặt độc lập, không lắp vào hệ tủ bếp",
+              "text": "1. Đặt độc lập, không lắp vào hệ tủ bếp",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Đặt trong ô tủ nhưng vẫn có khe hở nhìn thấy ở bên trái, bên phải hoặc phía sau",
+              "text": "2. Đặt trong ô tủ nhưng vẫn có khe hở nhìn thấy ở bên trái, bên phải hoặc phía sau",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Vừa hoàn toàn trong hệ tủ bếp, gần như không có khe hở",
+              "text": "3. Vừa hoàn toàn trong hệ tủ bếp, gần như không có khe hở",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "4. Khác (vui lòng ghi rõ:...)",
               "code": "4",
               "media": "",
               "is_other": true,
@@ -877,28 +877,28 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Bếp mở thông với phòng khách/phòng ăn (không gian mở)",
+              "text": "1. Bếp mở thông với phòng khách/phòng ăn (không gian mở)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bếp tách biệt hoàn toàn với phòng khách/phòng ăn (ngăn bằng tường/cửa)",
+              "text": "2. Bếp tách biệt hoàn toàn với phòng khách/phòng ăn (ngăn bằng tường/cửa)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bếp mở một phần (đảo bếp/quầy bar hoặc vách ngăn thấp)",
+              "text": "3. Bếp mở một phần (đảo bếp/quầy bar hoặc vách ngăn thấp)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "4. Khác (vui lòng ghi rõ:...)",
               "code": "4",
               "media": "",
               "is_other": true,
@@ -937,7 +937,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Một thiết bị thực tế để bảo quản thực phẩm",
+              "text": "1. Một thiết bị thực tế để bảo quản thực phẩm",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -945,7 +945,7 @@
               "is_header": false
             },
             {
-              "text": "Một công cụ giúp gia đình tôi khỏe mạnh",
+              "text": "2. Một thiết bị giúp bảo vệ sức khỏe của gia đình tôi",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -953,7 +953,7 @@
               "is_header": false
             },
             {
-              "text": "Một cách giúp giảm lãng phí thực phẩm",
+              "text": "3. Một cách giúp giảm lãng phí thực phẩm",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -961,7 +961,7 @@
               "is_header": false
             },
             {
-              "text": "Một công cụ giúp tôi tiết kiệm thời gian",
+              "text": "4. Một công cụ giúp tôi tiết kiệm thời gian",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -969,7 +969,7 @@
               "is_header": false
             },
             {
-              "text": "Là trung tâm của căn bếp",
+              "text": "5. Là trung tâm của căn bếp",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -977,7 +977,7 @@
               "is_header": false
             },
             {
-              "text": "Phản ánh phong cách sống của tôi",
+              "text": "6. Phản ánh phong cách sống của tôi",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -985,7 +985,7 @@
               "is_header": false
             },
             {
-              "text": "Biểu tượng của chất lượng và thành công",
+              "text": "7. Biểu tượng của chất lượng và thành công",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -993,7 +993,7 @@
               "is_header": false
             },
             {
-              "text": "Một sản phẩm giúp tôi tận hưởng việc nấu ăn",
+              "text": "8. Một sản phẩm giúp tôi tận hưởng việc nấu ăn",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -1001,7 +1001,7 @@
               "is_header": false
             },
             {
-              "text": "Một sản phẩm giúp cải thiện cuộc sống hằng ngày",
+              "text": "9. Một sản phẩm giúp cải thiện cuộc sống hằng ngày",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -1009,7 +1009,7 @@
               "is_header": false
             },
             {
-              "text": "Khoản đầu tư dài hạn cho gia đình",
+              "text": "10. Khoản đầu tư dài hạn cho gia đình",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -1017,7 +1017,7 @@
               "is_header": false
             },
             {
-              "text": "Trợ lý thông minh giúp quản lý thực phẩm và nhu cầu gia đình",
+              "text": "11. Trợ lý thông minh giúp quản lý thực phẩm và nhu cầu gia đình",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -1025,7 +1025,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết bị được cá nhân hóa, thích ứng với nhu cầu của gia đình",
+              "text": "12. Thiết bị được cá nhân hóa, thích ứng với nhu cầu của gia đình",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -1065,21 +1065,21 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Có, tôi biết chính xác con số",
+              "text": "1. Có, tôi biết chính xác con số",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Tôi biết ước chừng nhưng không nhớ chính xác",
+              "text": "2. Tôi biết ước chừng nhưng không nhớ chính xác",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không biết/Chưa từng để ý",
+              "text": "3. Không biết/Chưa từng để ý",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1199,35 +1199,35 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tôi và gia đình tự đề xuất dựa trên nhu cầu của mình",
+              "text": "1. Tôi và gia đình tự đề xuất dựa trên nhu cầu của mình",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Tôi đề xuất dựa trên các ý tưởng cải tạo nhà trên Facebook hoặc TikTok",
+              "text": "2. Tôi đề xuất dựa trên các ý tưởng cải tạo nhà trên Facebook hoặc TikTok",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Kiến trúc sư/nhà thiết kế đề xuất, tôi đồng ý với kích thước tiêu chuẩn",
+              "text": "3. Kiến trúc sư/nhà thiết kế đề xuất, tôi đồng ý với kích thước tiêu chuẩn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Thợ mộc/xưởng làm theo kích thước thông thường của họ",
+              "text": "4. Thợ mộc/xưởng làm theo kích thước thông thường của họ",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không nhớ/Không chắc chắn",
+              "text": "5. Không nhớ/Không chắc chắn",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1266,43 +1266,43 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Không nhô ra chút nào, hoàn toàn phẳng với tủ bếp",
+              "text": "1. Không nhô ra chút nào, hoàn toàn phẳng với tủ bếp",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra một chút, không đáng kể",
+              "text": "2. Nhô ra một chút, không đáng kể",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra ở mức vừa phải, có thể chấp nhận",
+              "text": "3. Nhô ra ở mức vừa phải, có thể chấp nhận",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra khá nhiều",
+              "text": "4. Nhô ra khá nhiều",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra nhiều, gây vướng và trông không đẹp",
+              "text": "5. Nhô ra nhiều, gây vướng và trông không đẹp",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không áp dụng (tủ lạnh được đặt độc lập, không đặt cạnh tủ bếp)",
-              "code": "6",
+              "text": "99. Không áp dụng (tủ lạnh được đặt độc lập, không đặt cạnh tủ bếp)",
+              "code": "99",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -1340,35 +1340,35 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Không thể chấp nhận nhô ra (phải hoàn toàn phẳng với tủ bếp)",
+              "text": "1. Không thể chấp nhận nhô ra (phải hoàn toàn phẳng với tủ bếp)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra dưới 5cm",
+              "text": "2. Nhô ra dưới 5cm",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra 5-10cm",
+              "text": "3. Nhô ra 5-10cm",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhô ra hơn 10cm cũng được",
+              "text": "4. Nhô ra hơn 10cm cũng được",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không quan tâm đến điều này",
+              "text": "5. Không quan tâm đến điều này",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1407,7 +1407,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tìm kiếm trên Google bằng từ khóa cụ thể (tên thương hiệu, loại tủ lạnh, “tủ lạnh 4 cửa”...)",
+              "text": "1. Tìm kiếm trên Google bằng từ khóa cụ thể (tên thương hiệu, loại tủ lạnh, “tủ lạnh 4 cửa”...)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1415,7 +1415,7 @@
               "is_header": false
             },
             {
-              "text": "Đọc thông số trên website của thương hiệu/cửa hàng điện máy",
+              "text": "2. Đọc thông số trên website của thương hiệu/cửa hàng điện máy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1423,7 +1423,7 @@
               "is_header": false
             },
             {
-              "text": "Xem video của KOL/người đánh giá",
+              "text": "3. Xem video của KOL/người đánh giá",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1431,7 +1431,7 @@
               "is_header": false
             },
             {
-              "text": "Tham gia các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...) để hỏi/đọc kinh nghiệm",
+              "text": "4. Tham gia các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...) để hỏi/đọc kinh nghiệm",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1439,7 +1439,7 @@
               "is_header": false
             },
             {
-              "text": "Nhắn tin trực tiếp cho người dùng thực tế để hỏi",
+              "text": "5. Nhắn tin trực tiếp cho người dùng thực tế để hỏi",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1447,7 +1447,7 @@
               "is_header": false
             },
             {
-              "text": "Hỏi ý kiến kiến trúc sư/nhà thiết kế nội thất",
+              "text": "6. Hỏi ý kiến kiến trúc sư/nhà thiết kế nội thất",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1455,7 +1455,7 @@
               "is_header": false
             },
             {
-              "text": "Sử dụng công cụ AI (ChatGPT, Claude, Gemini...) để hỏi gợi ý tủ lạnh phù hợp",
+              "text": "7. Sử dụng công cụ AI (ChatGPT, Claude, Gemini...) để hỏi gợi ý tủ lạnh phù hợp",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1463,7 +1463,7 @@
               "is_header": false
             },
             {
-              "text": "Đến trực tiếp cửa hàng điện máy để xem sản phẩm/hỏi nhân viên",
+              "text": "8. Đến trực tiếp cửa hàng điện máy để xem sản phẩm/hỏi nhân viên",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -1471,7 +1471,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "9. Khác (vui lòng ghi rõ:...)",
               "code": "9",
               "media": "",
               "is_other": true,
@@ -1511,35 +1511,35 @@
           "readonly": false,
           "answers": [
             {
-              "text": "CÓ, thuê kiến trúc sư hoặc công ty thiết kế nội thất để được tư vấn chính thức (có trả phí)",
+              "text": "1. CÓ, thuê kiến trúc sư hoặc công ty thiết kế nội thất để được tư vấn chính thức (có trả phí)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "CÓ, hỏi Anh/Chị bè/người thân có kinh nghiệm để được tư vấn không chính thức (không trả phí)",
+              "text": "2. Có, hỏi Anh/Chị, bạn bè/người thân có kinh nghiệm để được tư vấn không chính thức (không trả phí)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "KHÔNG, chỉ có thợ/nhà thầu thi công theo yêu cầu, không tư vấn thiết kế",
+              "text": "3. KHÔNG, chỉ có thợ/nhà thầu thi công theo yêu cầu, không tư vấn thiết kế",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "KHÔNG, tôi và gia đình tự lên ý tưởng và quyết định mọi thứ",
+              "text": "4. KHÔNG, tôi và gia đình tự lên ý tưởng và quyết định mọi thứ",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "KHÔNG, bếp đã được chủ đầu tư/chủ nhà trước thiết kế sẵn, không cải tạo/thiết kế lại",
+              "text": "5. KHÔNG, bếp đã được chủ đầu tư/chủ nhà trước thiết kế sẵn, không cải tạo/thiết kế lại",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1578,35 +1578,35 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Chuỗi bán lẻ điện máy (Điện Máy Xanh, Nguyễn Kim, HC, Điện Máy Chợ Lớn...)",
+              "text": "1. Chuỗi bán lẻ điện máy (Điện Máy Xanh, Nguyễn Kim, HC, Điện Máy Chợ Lớn...)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Sàn thương mại điện tử/nền tảng mua sắm online (Shopee, TikTok Shop, Lazada...)",
+              "text": "2. Sàn thương mại điện tử/nền tảng mua sắm online (Shopee, TikTok Shop, Lazada...)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nhà bán hàng trên mạng xã hội (Social Commerce)",
+              "text": "3. Nhà bán hàng trên mạng xã hội (Social Commerce)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Cửa hàng điện máy độc lập/đại lý tại địa phương",
+              "text": "4. Cửa hàng điện máy độc lập/đại lý tại địa phương",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "5. Khác (vui lòng ghi rõ:...)",
               "code": "5",
               "media": "",
               "is_other": true,
@@ -1645,21 +1645,21 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Chọn/chốt tủ lạnh (thương hiệu, mẫu mã, kích thước) TRƯỚC, sau đó làm tủ bếp theo kích thước đó",
+              "text": "1. Chọn/chốt tủ lạnh (thương hiệu, mẫu mã, kích thước) TRƯỚC, sau đó làm tủ bếp theo kích thước đó",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Tủ bếp đã được làm/có sẵn TRƯỚC, sau đó chọn tủ lạnh phù hợp với không gian",
+              "text": "2. Tủ bếp đã được làm/có sẵn TRƯỚC, sau đó chọn tủ lạnh phù hợp với không gian",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Cả hai diễn ra gần như đồng thời, có điều chỉnh qua lại giữa thiết kế bếp và lựa chọn tủ lạnh",
+              "text": "3. Cả hai diễn ra gần như đồng thời, có điều chỉnh qua lại giữa thiết kế bếp và lựa chọn tủ lạnh",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1698,7 +1698,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Chiều rộng",
+              "text": "1. Chiều rộng",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1706,7 +1706,7 @@
               "is_header": false
             },
             {
-              "text": "Chiều cao",
+              "text": "2. Chiều cao",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1714,7 +1714,7 @@
               "is_header": false
             },
             {
-              "text": "Chiều sâu",
+              "text": "3. Chiều sâu",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1722,7 +1722,7 @@
               "is_header": false
             },
             {
-              "text": "Không ưu tiên yếu tố nào cụ thể/tuân theo kích thước tiêu chuẩn",
+              "text": "4. Không ưu tiên yếu tố nào cụ thể/tuân theo kích thước tiêu chuẩn",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1746,7 +1746,14 @@
           "logic": {
             "on_enter": "if(!Contains(Q303,[2])){QuestionHide()}",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])&&Contains(CurrentQuestion(),[2])&&Contains(CurrentQuestion(),[3])\n",
+                "action": "Hard",
+                "message": "Nếu tick cả 3 đáp án (Rộng, Cao, Sâu) có nghĩa là không ưu tiên yếu tố nào",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -1762,57 +1769,50 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không ảnh hưởng",
+              "text": "1. Hoàn toàn không ảnh hưởng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng rất ít",
+              "text": "2. Ảnh hưởng rất ít",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng ít",
+              "text": "3. Ảnh hưởng ít",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng ở mức vừa phải",
+              "text": "4. Ảnh hưởng ở mức vừa phải",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khá ảnh hưởng",
+              "text": "5. Khá ảnh hưởng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng nhiều",
+              "text": "6. Ảnh hưởng nhiều",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng rất nhiều",
+              "text": "7. Ảnh hưởng rất nhiều",
               "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "Không sử dụng/thuê nhà thiết kế",
-              "code": "99",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -1850,7 +1850,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tư vấn về kích thước/độ vừa vặn với không gian bếp",
+              "text": "1. Tư vấn về kích thước/độ vừa vặn với không gian bếp",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1858,7 +1858,7 @@
               "is_header": false
             },
             {
-              "text": "Tư vấn về phối màu với tủ bếp",
+              "text": "2. Tư vấn về phối màu với tủ bếp",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1866,7 +1866,7 @@
               "is_header": false
             },
             {
-              "text": "Đề xuất/giới thiệu một thương hiệu hoặc mẫu cụ thể",
+              "text": "3. Đề xuất/giới thiệu một thương hiệu hoặc mẫu cụ thể",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1874,7 +1874,7 @@
               "is_header": false
             },
             {
-              "text": "Truyền cảm hứng, giúp tôi hình dung lựa chọn phù hợp",
+              "text": "4. Truyền cảm hứng, giúp tôi hình dung lựa chọn phù hợp",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1882,7 +1882,7 @@
               "is_header": false
             },
             {
-              "text": "Lựa chọn thương hiệu và mẫu cụ thể",
+              "text": "5. Lựa chọn thương hiệu và mẫu cụ thể",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1890,7 +1890,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "6. Khác (vui lòng ghi rõ:...)",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -1930,49 +1930,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không ảnh hưởng",
+              "text": "1. Hoàn toàn không ảnh hưởng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng rất ít",
+              "text": "2. Ảnh hưởng rất ít",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng ít",
+              "text": "3. Ảnh hưởng ít",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng ở mức vừa phải",
+              "text": "4. Ảnh hưởng ở mức vừa phải",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khá ảnh hưởng",
+              "text": "5. Khá ảnh hưởng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng nhiều",
+              "text": "6. Ảnh hưởng nhiều",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Ảnh hưởng rất nhiều",
+              "text": "7. Ảnh hưởng rất nhiều",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2011,21 +2011,21 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đã quyết định rõ thương hiệu và mẫu cụ thể trước khi đến cửa hàng",
+              "text": "1. Đã quyết định rõ thương hiệu và mẫu cụ thể trước khi đến cửa hàng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Có 2-3 lựa chọn để so sánh, chưa quyết định hoàn toàn",
+              "text": "2. Có 2-3 lựa chọn để so sánh, chưa quyết định hoàn toàn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Chưa có lựa chọn cụ thể, cần được tư vấn tại cửa hàng",
+              "text": "3. Chưa có lựa chọn cụ thể, cần được tư vấn tại cửa hàng",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2064,49 +2064,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không đồng ý",
+              "text": "1. Hoàn toàn không đồng ý",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không đồng ý",
+              "text": "2. Không đồng ý",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không đồng ý",
+              "text": "3. Hơi không đồng ý",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi đồng ý",
+              "text": "5. Hơi đồng ý",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Đồng ý",
+              "text": "6. Đồng ý",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn đồng ý",
+              "text": "7. Hoàn toàn đồng ý",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2177,49 +2177,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không thích",
+              "text": "1. Hoàn toàn không thích",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất không thích",
+              "text": "2. Rất không thích",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không thích",
+              "text": "3. Hơi không thích",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không thích cũng không ghét",
+              "text": "4. Không thích cũng không ghét",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi thích",
+              "text": "5. Hơi thích",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất thích",
+              "text": "6. Rất thích",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn yêu thích",
+              "text": "7. Hoàn toàn yêu thích",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2258,7 +2258,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tìm kiếm thông tin về nhà bếp/nhà ở trên Internet (Google, Pinterest, TikTok...) khi có nhu cầu xây mới hoặc cải tạo nhà",
+              "text": "1. Tìm kiếm thông tin về nhà bếp/nhà ở trên Internet (Google, Pinterest, TikTok...) khi có nhu cầu xây mới hoặc cải tạo nhà",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2266,7 +2266,7 @@
               "is_header": false
             },
             {
-              "text": "Quảng cáo/website của thương hiệu hoặc cửa hàng điện máy",
+              "text": "2. Quảng cáo/website của thương hiệu hoặc cửa hàng điện máy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2274,7 +2274,7 @@
               "is_header": false
             },
             {
-              "text": "Video của KOL, các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...)",
+              "text": "3. Video của KOL, các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2282,7 +2282,7 @@
               "is_header": false
             },
             {
-              "text": "Tận mắt nhìn thấy tại nhà bạn bè/dự án nhà mẫu/trong phim",
+              "text": "4.  Tận mắt nhìn thấy tại nhà bạn bè/dự án nhà mẫu/trong phim",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2290,7 +2290,7 @@
               "is_header": false
             },
             {
-              "text": "Được kiến trúc sư/nhà thiết kế giới thiệu",
+              "text": "5.  Được kiến trúc sư/nhà thiết kế giới thiệu",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2298,7 +2298,7 @@
               "is_header": false
             },
             {
-              "text": "Được nhân viên bán hàng tại cửa hàng giới thiệu",
+              "text": "6. Được nhân viên bán hàng tại cửa hàng giới thiệu",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2306,11 +2306,11 @@
               "is_header": false
             },
             {
-              "text": "Chưa từng nghe đến khái niệm này trước khi tham gia khảo sát này",
+              "text": "7. Chưa từng nghe đến khái niệm này trước khi tham gia khảo sát này",
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -2346,7 +2346,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
+              "text": "1. Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2354,7 +2354,7 @@
               "is_header": false
             },
             {
-              "text": "Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
+              "text": "2. Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2362,7 +2362,7 @@
               "is_header": false
             },
             {
-              "text": "Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
+              "text": "3. Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2370,7 +2370,7 @@
               "is_header": false
             },
             {
-              "text": "Khó vệ sinh khu vực khe hở",
+              "text": "4. Khó vệ sinh khu vực khe hở",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2378,7 +2378,7 @@
               "is_header": false
             },
             {
-              "text": "Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
+              "text": "5. Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2386,7 +2386,7 @@
               "is_header": false
             },
             {
-              "text": "Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
+              "text": "6. Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2394,11 +2394,11 @@
               "is_header": false
             },
             {
-              "text": "Không có lo ngại thực sự",
+              "text": "7. Không có lo ngại thực sự",
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -2434,49 +2434,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
+              "text": "1. Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
+              "text": "2. Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
+              "text": "3. Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khó vệ sinh khu vực khe hở",
+              "text": "4. Khó vệ sinh khu vực khe hở",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
+              "text": "5. Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
+              "text": "6. Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không có lo ngại thực sự",
+              "text": "7. Không có lo ngại thực sự",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2497,7 +2497,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q504a)",
+            "on_enter": "if(!Contains(Q504a,[1,2,3,4,5,6])){QuestionHide();};\nFilterAnswerByAnswer(CurrentQuestion(),Q504a);\n",
             "on_next": "",
             "rules": []
           },
@@ -2578,49 +2578,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không thích",
+              "text": "1. Hoàn toàn không thích",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất không thích",
+              "text": "2. Rất không thích",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không thích",
+              "text": "3. Hơi không thích",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không thích cũng không ghét",
+              "text": "4. Không thích cũng không ghét",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi thích",
+              "text": "5. Hơi thích",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất thích",
+              "text": "6. Rất thích",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn yêu thích",
+              "text": "7. Hoàn toàn yêu thích",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2691,7 +2691,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Cảm giác tối và u ám, khiến thực phẩm trông kém tươi",
+              "text": "1. Cảm giác tối và u ám, khiến thực phẩm trông kém tươi",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2699,7 +2699,7 @@
               "is_header": false
             },
             {
-              "text": "Cảm giác độc đáo và hiện đại hơn",
+              "text": "2. Cảm giác độc đáo và hiện đại hơn",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2707,7 +2707,7 @@
               "is_header": false
             },
             {
-              "text": "Cảm thấy đây là thiết kế dẫn đầu trong phân khúc cao cấp",
+              "text": "3. Cảm thấy đây là thiết kế dẫn đầu trong phân khúc cao cấp",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2715,7 +2715,7 @@
               "is_header": false
             },
             {
-              "text": "Khó nhìn thấy bụi/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vệ sinh",
+              "text": "4. Khó nhìn thấy bụi/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vệ sinh",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2723,7 +2723,7 @@
               "is_header": false
             },
             {
-              "text": "Có cảm giác hấp thụ nhiều nhiệt hơn, có thể tiêu thụ nhiều điện hơn",
+              "text": "5. Có cảm giác hấp thụ nhiều nhiệt hơn, có thể tiêu thụ nhiều điện hơn",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2731,7 +2731,7 @@
               "is_header": false
             },
             {
-              "text": "Cảm giác độc đáo, hiện đại và cao cấp hơn nội thất trắng thông thường",
+              "text": "6. Cảm giác độc đáo, hiện đại và cao cấp hơn nội thất trắng thông thường",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2739,7 +2739,7 @@
               "is_header": false
             },
             {
-              "text": "Nội thất màu đen sẽ ít bị ố vàng/phai màu theo thời gian hơn màu trắng",
+              "text": "7. Nội thất màu đen sẽ ít bị ố vàng/phai màu theo thời gian hơn màu trắng",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2747,7 +2747,7 @@
               "is_header": false
             },
             {
-              "text": "Đồng bộ với màu bên ngoài của tủ lạnh",
+              "text": "8. Đồng bộ với màu bên ngoài của tủ lạnh",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -2755,7 +2755,7 @@
               "is_header": false
             },
             {
-              "text": "Không có nhận xét cụ thể",
+              "text": "9. Không có nhận xét cụ thể",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -2795,49 +2795,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Chắc chắn sẽ không mua",
+              "text": "1. Chắc chắn sẽ không mua",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất có thể sẽ không mua",
+              "text": "2. Rất có thể sẽ không mua",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Có thể sẽ không mua",
+              "text": "3. Có thể sẽ không mua",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Có thể mua hoặc không",
+              "text": "4. Có thể mua hoặc không",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Có thể sẽ mua",
+              "text": "5. Có thể sẽ mua",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Rất có thể sẽ mua",
+              "text": "6. Rất có thể sẽ mua",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Chắc chắn sẽ mua",
+              "text": "7. Chắc chắn sẽ mua",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2876,7 +2876,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Dark Elegance",
+              "text": "1. Dark Elegance",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2884,7 +2884,7 @@
               "is_header": false
             },
             {
-              "text": "Food gallery",
+              "text": "2. Food gallery",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2892,7 +2892,7 @@
               "is_header": false
             },
             {
-              "text": "Food Showcase",
+              "text": "3. Food Showcase",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2900,7 +2900,7 @@
               "is_header": false
             },
             {
-              "text": "Kuro View",
+              "text": "4. Kuro View",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2908,7 +2908,7 @@
               "is_header": false
             },
             {
-              "text": "Noir View",
+              "text": "5. Noir View",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2916,8 +2916,16 @@
               "is_header": false
             },
             {
-              "text": "LUMA",
+              "text": "6. LUMA",
               "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Food Atelier",
+              "code": "7",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -3020,14 +3028,14 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Mẫu A",
+              "text": "1. Mẫu A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Mẫu B",
+              "text": "2. Mẫu B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3098,14 +3106,14 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Mẫu A",
+              "text": "1. Mẫu A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Mẫu B",
+              "text": "2. Mẫu B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3208,49 +3216,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3321,14 +3329,14 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Sau khi rã đông, ngăn chuyển sang giữ nhiệt độ/trạng thái Prime Fresh (ngăn đông mềm), khoảng -3°C. Thực phẩm được giữ tươi ngon đến 7 ngày, dễ dàng cắt thái và chế biến ngay.",
+              "text": "1. Sau khi rã đông, ngăn chuyển sang giữ nhiệt độ/trạng thái Prime Fresh (ngăn đông mềm), khoảng -3°C. Thực phẩm được giữ tươi ngon đến 7 ngày, dễ dàng cắt thái và chế biến ngay.",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Sau khi rã đông, nếu Anh/Chị vẫn để thịt trong ngăn mà không lấy ra, thịt sẽ dần trở lại trạng thái đông đá sau 12–24 giờ.",
+              "text": "2. Sau khi rã đông, nếu Anh/Chị vẫn để thịt trong ngăn mà không lấy ra, thịt sẽ dần trở lại trạng thái đông đá sau 12–24 giờ.",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3367,7 +3375,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Thịt sống (thịt bò, thịt heo, thịt gà/gia cầm, thịt cừu, thịt dê)",
+              "text": "1. Thịt sống (thịt bò, thịt heo, thịt gà/gia cầm, thịt cừu, thịt dê)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3375,7 +3383,7 @@
               "is_header": false
             },
             {
-              "text": "Hải sản tươi sống (cá, tôm, mực/bạch tuộc/các loại có vỏ như nghêu, sò, ốc)",
+              "text": "2. Hải sản tươi sống (cá, tôm, mực/bạch tuộc/các loại có vỏ như nghêu, sò, ốc)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3383,7 +3391,7 @@
               "is_header": false
             },
             {
-              "text": "Rau củ & trái cây",
+              "text": "3. Rau củ & trái cây",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3391,7 +3399,7 @@
               "is_header": false
             },
             {
-              "text": "Thực phẩm đã sơ chế nhưng chưa nấu chín",
+              "text": "4. Thực phẩm đã sơ chế nhưng chưa nấu chín",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3399,7 +3407,7 @@
               "is_header": false
             },
             {
-              "text": "Thức ăn đã nấu chín",
+              "text": "5. Thức ăn đã nấu chín",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3407,7 +3415,7 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ): ________",
+              "text": "6. Khác (vui lòng ghi rõ): ________",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -3447,7 +3455,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Khi tôi mua thịt/cá tươi và muốn bảo quản vài ngày trước khi nấu",
+              "text": "1. Khi tôi mua thịt/cá tươi và muốn bảo quản vài ngày trước khi nấu",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3455,7 +3463,7 @@
               "is_header": false
             },
             {
-              "text": "Khi tôi rã đông thực phẩm từ trước để chuẩn bị cho bữa ăn ngày hôm sau",
+              "text": "2. Khi tôi rã đông thực phẩm từ trước để chuẩn bị cho bữa ăn ngày hôm sau",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3463,7 +3471,7 @@
               "is_header": false
             },
             {
-              "text": "Khi tôi lên kế hoạch bữa ăn cho cả tuần và muốn sơ chế trước",
+              "text": "3. Khi tôi lên kế hoạch bữa ăn cho cả tuần và muốn sơ chế trước",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3471,7 +3479,7 @@
               "is_header": false
             },
             {
-              "text": "Khi tôi nấu ăn cho những buổi họp mặt gia đình, tiệc tùng hoặc khi có khách",
+              "text": "4. Khi tôi nấu ăn cho những buổi họp mặt gia đình, tiệc tùng hoặc khi có khách",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3479,7 +3487,7 @@
               "is_header": false
             },
             {
-              "text": "Vào những ngày thường bận rộn, khi tôi cần nấu nhanh sau giờ làm",
+              "text": "5. Vào những ngày thường bận rộn, khi tôi cần nấu nhanh sau giờ làm",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3487,7 +3495,7 @@
               "is_header": false
             },
             {
-              "text": "Khi tôi chưa biết sẽ nấu món gì và muốn có thêm lựa chọn",
+              "text": "6. Khi tôi chưa biết sẽ nấu món gì và muốn có thêm lựa chọn",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3495,7 +3503,7 @@
               "is_header": false
             },
             {
-              "text": "Khi tôi rã đông quá nhiều và không thể dùng hết một lần",
+              "text": "7. Khi tôi rã đông quá nhiều và không thể dùng hết một lần",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3503,10 +3511,10 @@
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ): _______",
+              "text": "8. Khác (vui lòng ghi rõ): _______",
               "code": "8",
               "media": "",
-              "is_other": false,
+              "is_other": true,
               "is_exclusive": false,
               "is_header": false
             }
@@ -3543,7 +3551,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Yên tâm (thực phẩm luôn an toàn và tươi ngon)",
+              "text": "1. Yên tâm (thực phẩm luôn an toàn và tươi ngon)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3551,7 +3559,7 @@
               "is_header": false
             },
             {
-              "text": "Tiện lợi (không cần chờ rã đông hay rã đông lại)",
+              "text": "2. Tiện lợi (không cần chờ rã đông hay rã đông lại)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3559,7 +3567,7 @@
               "is_header": false
             },
             {
-              "text": "Tiết kiệm thời gian (tôi có thể nấu ngay)",
+              "text": "3. Tiết kiệm thời gian (tôi có thể nấu ngay)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3567,7 +3575,7 @@
               "is_header": false
             },
             {
-              "text": "Linh hoạt (tôi có thể quyết định nấu món gì sau)",
+              "text": "4. Linh hoạt (tôi có thể quyết định nấu món gì sau)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3575,7 +3583,7 @@
               "is_header": false
             },
             {
-              "text": "Tự tin mang đến cho gia đình những bữa ăn tươi ngon, chất lượng",
+              "text": "5. Tự tin mang đến cho gia đình những bữa ăn tươi ngon, chất lượng",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3583,7 +3591,7 @@
               "is_header": false
             },
             {
-              "text": "Giảm lãng phí thực phẩm, tiết kiệm chi phí hơn",
+              "text": "6. Giảm lãng phí thực phẩm, tiết kiệm chi phí hơn",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3591,7 +3599,7 @@
               "is_header": false
             },
             {
-              "text": "Chủ động trong việc lên kế hoạch bữa ăn",
+              "text": "7. Chủ động trong việc lên kế hoạch bữa ăn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3599,7 +3607,7 @@
               "is_header": false
             },
             {
-              "text": "Hiện đại và cao cấp (như một thiết bị thông minh, sang trọng)",
+              "text": "8. Hiện đại và cao cấp (như một thiết bị thông minh, sang trọng)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -3607,15 +3615,15 @@
               "is_header": false
             },
             {
-              "text": "Không có cảm nhận gì đặc biệt",
+              "text": "9. Không có cảm nhận gì đặc biệt",
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ): ________",
+              "text": "10. Khác (vui lòng ghi rõ): ________",
               "code": "10",
               "media": "",
               "is_other": true,
@@ -3655,49 +3663,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3736,49 +3744,49 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3817,7 +3825,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Cảnh báo khi cửa bị mở (ngăn thất thoát hơi lạnh/thực phẩm bị hỏng)",
+              "text": "1. Cảnh báo khi cửa bị mở (ngăn thất thoát hơi lạnh/thực phẩm bị hỏng)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3825,7 +3833,7 @@
               "is_header": false
             },
             {
-              "text": "Theo dõi mức tiêu thụ điện hàng tháng",
+              "text": "2. Theo dõi mức tiêu thụ điện hàng tháng",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3833,7 +3841,7 @@
               "is_header": false
             },
             {
-              "text": "Theo dõi từ xa đối với nhà nhiều tầng, không cần đi đến kiểm tra trực tiếp",
+              "text": "3. Theo dõi từ xa đối với nhà nhiều tầng, không cần đi đến kiểm tra trực tiếp",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3841,11 +3849,11 @@
               "is_header": false
             },
             {
-              "text": "Không có lợi ích nào thực sự hữu ích",
+              "text": "4. Không có lợi ích nào thực sự hữu ích",
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -3881,7 +3889,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "VHF (rã đông nhanh)",
+              "text": "1. VHF (rã đông nhanh)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3889,7 +3897,7 @@
               "is_header": false
             },
             {
-              "text": "Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
+              "text": "2. Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3897,7 +3905,7 @@
               "is_header": false
             },
             {
-              "text": "Kết nối thông minh / IoT",
+              "text": "3. Kết nối thông minh / IoT",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3905,7 +3913,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế nội thất",
+              "text": "4. Thiết kế nội thất màu đen",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3913,7 +3921,7 @@
               "is_header": false
             },
             {
-              "text": "Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
+              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3946,14 +3954,14 @@
         {
           "id": "Q618b",
           "type": "RANKING",
-          "text": "[SHOWCARD]\n5 tính năng hấp dẫn nhất là gì? 1 = hấp dẫn nhất, 2 = hấp dẫn thứ 2, 3 = hấp dẫn thứ 3, 4 = hấp dẫn thứ 4, 5 = ít hấp dẫn nhất ",
+          "text": "[SHOWCARD]\nVui lòng xếp hạng mức độ hấp dẫn của các tính năng trên với anh chị, với 1 là hấp dẫn nhất, 2 là hấp dẫn thứ 2, 3 là hấp dẫn thứ 3, 4 là hấp dẫn thứ 4, 5 là ít hấp dẫn nhất",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "VHF (rã đông nhanh)",
+              "text": "1. VHF (rã đông nhanh)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3961,7 +3969,7 @@
               "is_header": false
             },
             {
-              "text": "Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
+              "text": "2. Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3969,7 +3977,7 @@
               "is_header": false
             },
             {
-              "text": "Kết nối thông minh / IoT",
+              "text": "3. Kết nối thông minh / IoT",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3977,7 +3985,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế nội thất",
+              "text": "4. Thiết kế nội thất màu đen",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3985,7 +3993,7 @@
               "is_header": false
             },
             {
-              "text": "Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
+              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4018,56 +4026,56 @@
         {
           "id": "Q619",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị cả 4 tính năng này, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm?",
-          "note": "Người phỏng vấn cần tính phần chênh lệch giữa giá tủ lạnh hiện tại (câu trả lời S6) và mức giá trên. Đồng thời cho người trả lời biết mức chênh lệch giá. ",
+          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị cả 4 tính năng này, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm? ",
+          "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Dưới 50 triệu VND",
+              "text": "1. Dưới 50 triệu VND",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "50-60 triệu VND",
+              "text": "2. 50-60 triệu VND",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "61-70 triệu VND",
+              "text": "3. 61-70 triệu VND",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "71-80 triệu VND",
+              "text": "4. 71-80 triệu VND",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "81-90 triệu VND",
+              "text": "5. 81-90 triệu VND",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "91-100 triệu VND",
+              "text": "6. 91-100 triệu VND",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Trên 100 triệu VND",
+              "text": "7. Trên 100 triệu VND",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4099,7 +4107,7 @@
         {
           "id": "Q620",
           "type": "NUMBER_GRID",
-          "text": "Hãy giải thích Anh/Chị định giá trị bao nhiêu cho chức năng “VHF (Rã đông nhanh)” trong phần chênh lệch giá này.",
+          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này để tạo nên mức chênh lệch giá này. ",
           "note": "",
           "media": "",
           "record": false,
@@ -4188,7 +4196,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đáng tin cậy, bền bỉ",
+              "text": "1. Đáng tin cậy, bền bỉ",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4196,7 +4204,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
+              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4204,7 +4212,7 @@
               "is_header": false
             },
             {
-              "text": "Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4212,7 +4220,7 @@
               "is_header": false
             },
             {
-              "text": "Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4220,7 +4228,7 @@
               "is_header": false
             },
             {
-              "text": "Công nghệ/tính năng hiện đại",
+              "text": "5. Công nghệ/tính năng hiện đại",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4228,7 +4236,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế đẹp, hợp xu hướng",
+              "text": "6. Thiết kế đẹp, hợp xu hướng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4236,7 +4244,7 @@
               "is_header": false
             },
             {
-              "text": "Giá cao hơn mức trung bình",
+              "text": "7. Giá cao hơn mức trung bình",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4244,7 +4252,7 @@
               "is_header": false
             },
             {
-              "text": "Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
+              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -4252,7 +4260,7 @@
               "is_header": false
             },
             {
-              "text": "Không có ấn tượng cụ thể",
+              "text": "9. Không có ấn tượng cụ thể",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -4292,7 +4300,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đáng tin cậy, bền bỉ",
+              "text": "1. Đáng tin cậy, bền bỉ",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4300,7 +4308,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
+              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4308,7 +4316,7 @@
               "is_header": false
             },
             {
-              "text": "Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4316,7 +4324,7 @@
               "is_header": false
             },
             {
-              "text": "Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4324,7 +4332,7 @@
               "is_header": false
             },
             {
-              "text": "Công nghệ/tính năng hiện đại",
+              "text": "5. Công nghệ/tính năng hiện đại",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4332,7 +4340,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế đẹp, hợp xu hướng",
+              "text": "6. Thiết kế đẹp, hợp xu hướng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4340,7 +4348,7 @@
               "is_header": false
             },
             {
-              "text": "Giá cao hơn mức trung bình",
+              "text": "7. Giá cao hơn mức trung bình",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4348,7 +4356,7 @@
               "is_header": false
             },
             {
-              "text": "Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
+              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -4356,7 +4364,7 @@
               "is_header": false
             },
             {
-              "text": "Không có ấn tượng cụ thể",
+              "text": "9. Không có ấn tượng cụ thể",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -4396,7 +4404,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đáng tin cậy, bền bỉ",
+              "text": "1. Đáng tin cậy, bền bỉ",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4404,7 +4412,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu Hàn Quốc lâu đời, đáng tin cậy",
+              "text": "2. Thương hiệu Hàn Quốc lâu đời, đáng tin cậy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4412,7 +4420,7 @@
               "is_header": false
             },
             {
-              "text": "Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4420,7 +4428,7 @@
               "is_header": false
             },
             {
-              "text": "Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4428,7 +4436,7 @@
               "is_header": false
             },
             {
-              "text": "Công nghệ/tính năng hiện đại",
+              "text": "5. Công nghệ/tính năng hiện đại",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4436,7 +4444,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế đẹp, hợp xu hướng",
+              "text": "6. Thiết kế đẹp, hợp xu hướng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4444,7 +4452,7 @@
               "is_header": false
             },
             {
-              "text": "Giá cao hơn mức trung bình",
+              "text": "7. Giá cao hơn mức trung bình",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4452,7 +4460,7 @@
               "is_header": false
             },
             {
-              "text": "Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
+              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -4460,11 +4468,11 @@
               "is_header": false
             },
             {
-              "text": "Không có ấn tượng cụ thể",
+              "text": "9. Không có ấn tượng cụ thể",
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -4500,7 +4508,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Đáng tin cậy, bền bỉ",
+              "text": "1. Đáng tin cậy, bền bỉ",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4508,7 +4516,7 @@
               "is_header": false
             },
             {
-              "text": "Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
+              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4516,7 +4524,7 @@
               "is_header": false
             },
             {
-              "text": "Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4524,7 +4532,7 @@
               "is_header": false
             },
             {
-              "text": "Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4532,7 +4540,7 @@
               "is_header": false
             },
             {
-              "text": "Công nghệ/tính năng hiện đại",
+              "text": "5. Công nghệ/tính năng hiện đại",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4540,7 +4548,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế đẹp, hợp xu hướng",
+              "text": "6. Thiết kế đẹp, hợp xu hướng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4548,7 +4556,7 @@
               "is_header": false
             },
             {
-              "text": "Giá cao hơn mức trung bình",
+              "text": "7. Giá cao hơn mức trung bình",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4556,7 +4564,7 @@
               "is_header": false
             },
             {
-              "text": "Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
+              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -4564,11 +4572,11 @@
               "is_header": false
             },
             {
-              "text": "Không có ấn tượng cụ thể",
+              "text": "9. Không có ấn tượng cụ thể",
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -4629,56 +4637,56 @@
         {
           "id": "Q801",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nDựa trên các tính năng Smart Function được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nDựa trên các tính năng Smart Function được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4710,56 +4718,56 @@
         {
           "id": "Q802",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nNếu có các tính năng Smart Function này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nNếu có các tính năng Smart Function này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không sẵn lòng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không sẵn lòng",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không sẵn lòng",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi sẵn lòng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Sẵn lòng",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn sẵn lòng",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4823,14 +4831,14 @@
         {
           "id": "Q804",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nAnh/Chị có lo ngại nào về việc sử dụng các tính năng Smart Function kết nối với điện thoại thông minh không?\nChọn tất cả các phương án phù hợp ",
+          "text": "[SHOWCARD][SHOWPHOTO]\nAnh/Chị có lo ngại nào về việc sử dụng các tính năng Smart Function kết nối với điện thoại thông minh không?\nChọn tất cả các phương án phù hợp ",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Tôi không thấy đủ lợi ích",
+              "text": "1. Tôi không thấy đủ lợi ích",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4838,7 +4846,7 @@
               "is_header": false
             },
             {
-              "text": "Việc thiết lập có thể phức tạp",
+              "text": "2. Việc thiết lập có thể phức tạp",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4846,7 +4854,7 @@
               "is_header": false
             },
             {
-              "text": "Tôi không thích điều khiển thiết bị gia dụng qua điện thoại thông minh",
+              "text": "3. Tôi không thích điều khiển thiết bị gia dụng qua điện thoại thông minh",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4854,7 +4862,7 @@
               "is_header": false
             },
             {
-              "text": "Lo ngại về quyền riêng tư hoặc bảo mật dữ liệu",
+              "text": "4. Lo ngại về quyền riêng tư hoặc bảo mật dữ liệu",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4862,7 +4870,7 @@
               "is_header": false
             },
             {
-              "text": "Lo ngại về độ tin cậy hoặc vấn đề kỹ thuật",
+              "text": "5. Lo ngại về độ tin cậy hoặc vấn đề kỹ thuật",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4870,7 +4878,7 @@
               "is_header": false
             },
             {
-              "text": "Có thể tôi sẽ không sử dụng các chức năng thường xuyên",
+              "text": "6. Có thể tôi sẽ không sử dụng các chức năng thường xuyên",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4878,15 +4886,15 @@
               "is_header": false
             },
             {
-              "text": "Không có lo ngại",
+              "text": "7. Không có lo ngại",
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:...)",
+              "text": "8. Khác (vui lòng ghi rõ:...)",
               "code": "8",
               "media": "",
               "is_other": true,
@@ -4950,56 +4958,56 @@
         {
           "id": "Q901",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị thấy Chương trình Tích Điểm Đổi Quà của Panasonic hấp dẫn ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nAnh/Chị thấy Chương trình Tích Điểm Đổi Quà của Panasonic hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không hấp dẫn",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không hấp dẫn",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không hấp dẫn",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi hấp dẫn",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hấp dẫn",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn hấp dẫn",
+              "text": "7. Hoàn toàn hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -5031,56 +5039,56 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nNếu Panasonic triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nNếu Panasonic triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Hoàn toàn không sẵn lòng",
+              "text": "1. Hoàn toàn không sẵn lòng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Không sẵn lòng",
+              "text": "2. Không sẵn lòng",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi không sẵn lòng",
+              "text": "3. Hơi không sẵn lòng",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Bình thường",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hơi sẵn lòng",
+              "text": "5. Hơi sẵn lòng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Sẵn lòng",
+              "text": "6. Sẵn lòng",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Hoàn toàn sẵn lòng",
+              "text": "7. Hoàn toàn sẵn lòng",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -5144,49 +5152,49 @@
         {
           "id": "Q904",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
+          "text": "[SHOWCARD][SHOWPHOTO]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "Cơ hội tiết kiệm tiền cho các lần mua sắm trong tương lai",
+              "text": "1. Cơ hội tiết kiệm tiền cho các lần mua sắm trong tương lai",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Giảm chi phí sửa chữa và bảo trì",
+              "text": "2. Giảm chi phí sửa chữa và bảo trì",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Cảm giác được nhận thưởng khi sử dụng thiết bị",
+              "text": "3. Cảm giác được nhận thưởng khi sử dụng thiết bị",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Giá trị gia tăng từ các tính năng Smart Function",
+              "text": "4. Giá trị gia tăng từ các tính năng Smart Function",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Niềm tin vào hệ sinh thái Panasonic",
+              "text": "5. Niềm tin vào hệ sinh thái Panasonic",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Khác (vui lòng ghi rõ:…)",
+              "text": "6. Khác (vui lòng ghi rõ:…)",
               "code": "6",
               "media": "",
               "is_other": true,
