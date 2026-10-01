@@ -2508,7 +2508,7 @@
         {
           "id": "HD2a",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên\nLúc này PVV mở [SHOWPHOTO Q502-Q503], trong đó có phần giới thiệu về khái niệm tủ âm tường\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -4002,7 +4002,7 @@
             }
           ],
           "topics": [],
-          "min": "5",
+          "min": "1",
           "max": "5",
           "unit": "",
           "display_columns": 1,
@@ -4015,7 +4015,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q618a)",
             "on_next": "",
             "rules": []
           },
@@ -4151,7 +4151,7 @@
                 ]
               },
               {
-                "topic": "Auto Ice",
+                "topic": "Auto Ice (Làm đá nhanh 45 phút)",
                 "before": [],
                 "code": 2,
                 "after": [
@@ -4605,7 +4605,7 @@
         {
           "id": "HD4",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các tính năng Smart Function của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các tính năng Smart Function được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\n",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các tính năng Smart Function của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các tính năng Smart Function được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\nLúc này PVV mở [SHOWPHOTO Q801-Q804] để đáp viên đọc",
           "note": "",
           "media": "",
           "record": false,
@@ -4927,7 +4927,7 @@
         {
           "id": "HD5",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung Panasonic có một Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Panasonic Smart và sử dụng các tính năng Smart Function, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n•\tLinh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n•\tGia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n•\tCác quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm Panasonic mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung Panasonic có một Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Panasonic Smart và sử dụng các tính năng Smart Function, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n•\tLinh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n•\tGia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n•\tCác quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm Panasonic mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc",
           "note": "",
           "media": "",
           "record": false,
