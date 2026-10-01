@@ -1137,8 +1137,8 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Contains(CurrentQuestion(),[5,6,7])){SetAnswer(S20,[1])}",
-            "on_next": "",
+            "on_enter": "",
+            "on_next": "if(Contains(CurrentQuestion(),[5,6,7])){SetAnswer(S20,[1])}",
             "rules": [
               {
                 "condition": "Contains(CurrentQuestion(),[8])",
@@ -1559,8 +1559,8 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Contains(CurrentQuestion(),[5,6])){SetAnswer(S20,[2])}",
-            "on_next": "",
+            "on_enter": "",
+            "on_next": "if(Contains(CurrentQuestion(),[5,6])){SetAnswer(S20,[2])}",
             "rules": [
               {
                 "condition": "Contains(CurrentQuestion(),[1,2,3,4,7])",
