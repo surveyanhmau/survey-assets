@@ -255,7 +255,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "var age = 2026-Answer(S3a);\nSetAnswer(S3b,age);\nif(age<=35){SetAnswer(S3c,2);}\nif(age>35){SetAnswer(S3c,3);}",
+            "on_next": "var age = 2026-Answer(S3a);\nSetAnswer(S3b,age);\nif(age<=35){SetAnswer(S3c,[2]);}\nif(age>35){SetAnswer(S3c,[3]);}",
             "rules": []
           },
           "conjoint": {},
