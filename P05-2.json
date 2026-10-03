@@ -977,6 +977,38 @@
           "form": {}
         },
         {
+          "id": "S11b",
+          "type": "MEDIA",
+          "text": "PVV chụp hình ảnh Model tủ lạnh",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "2",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "S12",
           "type": "SINGLE",
           "text": "Anh/chị mua tủ lạnh hiện tại vào thời điểm nào?",
