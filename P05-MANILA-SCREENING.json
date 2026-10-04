@@ -1,0 +1,2210 @@
+{
+  "functions": "",
+  "chapters": [
+    {
+      "id": "Root",
+      "name": "Root",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "MSBCH",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận mã số bảng câu hỏi",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "0",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "TTDV",
+          "type": "FORM",
+          "text": "PVV ghi nhận thông tin đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận chính xác số điện thoại đáp viên",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {
+            "fields": [
+              {
+                "code": "1",
+                "text": "Họ tên đáp viên",
+                "type": "text"
+              },
+              {
+                "code": "2",
+                "text": "Địa chỉ",
+                "type": "text"
+              },
+              {
+                "code": "3",
+                "text": "Số điện thoại",
+                "type": "number",
+                "unit": ""
+              },
+              {
+                "code": "4",
+                "text": "Tên PVV",
+                "type": "text"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HD1",
+          "type": "EMPTY",
+          "text": "Xin chào anh/chị. Tên tôi là______từ công ty GCOMM. GCOMM là một công ty nghiên cứu thị trường độc lập, chúng tôi chuyên thực hiện các cuộc khảo sát về nhiều sản phẩm/ngành hàng khác nhau. Hiện chúng tôi đang tiến hành một nghiên cứu về ngành hàng tủ lạnh. Rất mong nhận được sự giúp đỡ của anh/chị bằng cách trả lời các câu hỏi sau. Xin cám ơn anh/chị.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S1",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận thành phố của người dự phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hồ Chí Minh",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Khác",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[3])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "OPEN",
+          "text": "Vui lòng cho biết họ và tên đầy đủ của anh/chị?",
+          "note": "PVV ghi nhận đầy đủ họ và tên của người dự phỏng vấn",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "SetAnswer(CurrentQuestion(),AnswerChoice(TTDV,1))",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3a",
+          "type": "NUMBER",
+          "text": "Vui lòng cho biết anh/chị sinh năm nào?",
+          "note": "PVV:GHI NHẬN NĂM SINH THEO CMND/ CCCD",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1981",
+          "max": "2001",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "var age = 2026-Answer(S3a);\nSetAnswer(S3b,age);\nif(age<=35){SetAnswer(S3c,[2]);}\nif(age>35){SetAnswer(S3c,[3]);}",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3b",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận tuổi của đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [],
+          "topics": [],
+          "min": "0",
+          "max": "999999999",
+          "unit": "tuổi",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3c",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận nhóm tuổi tương ứng dựa vào câu S3b",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. Từ 18–24 tuổi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 25–35 tuổi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 36–45 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 45–55 tuổi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 56–65 tuổi",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 65 tuổi",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận Giới tính của người dự phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S5a",
+          "type": "OPEN",
+          "text": "Vui lòng cho biết nghề nghiệp hiện tại của anh/chị?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S5b",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận nghề nghiệp của đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nhân viên văn phòng/nhân viên công ty",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Tự kinh doanh/chủ doanh nghiệp",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Cán bộ/công chức nhà nước",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Nội trợ",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Đã nghỉ hưu",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "6",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S6",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết tổng thu nhập trung bình hàng tháng của GIA ĐÌNH anh/chị?\n(tính tổng thu nhập của tất cả các thành viên)?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 60 triệu VNĐ",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 60 đến dưới 80 triệu VNĐ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 80 đến dưới 100 triệu VNĐ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Trên 100 triệu VNĐ",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Không biết/Từ chối trả lời",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,5])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S7",
+          "type": "SINGLE",
+          "text": "Hiện gia đình anh/chị đang sống trong loại hình nhà ở nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Căn hộ chung cư",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nhà phố/nhà đất",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S8",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết vai trò của anh/chị trong việc lựa chọn/quyết định mua tủ lạnh cho gia đình?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Người ra quyết định chính (đưa ra quyết định cuối cùng)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Đồng quyết định (cùng thảo luận, có tiếng nói quan trọng)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Có tham gia nhưng không phải người ra quyết định chính",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Hoàn toàn không tham gia, không có ý kiến",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[3,4])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S9",
+          "type": "SINGLE",
+          "text": "[SHOWPHOTO]\nTủ lạnh chính gia đình anh/chị đang sử dụng hiện tại thuộc thương hiệu nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Panasonic",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hitachi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Sharp",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Aqua",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Toshiba",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Samsung",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. LG",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Xiaomi",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Electrolux",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "10. Casper",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "11. BOSCH",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "12. HAIER",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "13. SMEG",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "14. Miele",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "15. Liebherr",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "16. Siemens",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "17. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "17",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S10",
+          "type": "SINGLE",
+          "text": "[SHOWPHOTO]\nTủ lạnh chính của gia đình anh/chị thuộc loại nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Tủ 2 cửa Side-by-Side",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Tủ 3 cánh",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tủ 4 cánh Cross French",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Các loại tủ 4 cánh loại khác",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Tủ 5 cánh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Tủ 6 cánh",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "7",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[7])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S11",
+          "type": "OPEN",
+          "text": "Vui lòng cho biết model/mã sản phẩm của tủ lạnh anh/chị đang sử dụng?\n(Có thể kiểm tra trên tem ở mặt sau hoặc bên trong tủ lạnh)",
+          "note": "PVV ghĩ rõ model và xác nhận bằng hình ảnh",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Model",
+          "type": "MEDIA",
+          "text": "PVV chụp hình ảnh Model tủ lạnh",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "2",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S12",
+          "type": "SINGLE",
+          "text": "Anh/chị mua tủ lạnh hiện tại vào thời điểm nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Trong vòng 1 năm qua",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 2–3 năm trước",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 4–5 năm trước",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. 6–7 năm trước",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 7–10 năm trước",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 10 năm trước",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[4,5,6])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S13",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết khoảng tiền gia đình anh/chị đã chi trả cho chiếc tủ lạnh hiện tại?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 20 triệu VNĐ",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 20–30 triệu VNĐ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 31–40 triệu VNĐ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. 41–44 triệu VNĐ",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 45–54 triệu VNĐ",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. 55–64 triệu VNĐ",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Trên 65 triệu VNĐ",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Không nhớ/Không biết",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "if(Contains(CurrentQuestion(),[5,6,7])){SetAnswer(S20,[1])}",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[8])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              },
+              {
+                "condition": "Contains(CurrentQuestion(),[5,6,7])",
+                "action": "Goto",
+                "message": "",
+                "goto": "S20"
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S14",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết dự định mua tủ lạnh mới của anh/chị trong 12 tháng tới?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Chắc chắn sẽ mua",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Có thể sẽ mua",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Chưa chắc chắn/Không có ý định",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[3])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S15",
+          "type": "SINGLE",
+          "text": "Lý do chính khiến anh/chị cần mua tủ lạnh trong thời gian tới là gì? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Cải tạo/sửa sang nhà",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Xây nhà mới/chuyển sang nhà mới",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tủ lạnh hiện tại bị hỏng/xuống cấp",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Gia đình có thêm thành viên, cần dung tích lớn hơn",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Muốn nâng cấp lên công nghệ/tính năng mới",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Khác (vui lòng ghi rõ):…………………………………",
+              "code": "6",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S16",
+          "type": "SINGLE",
+          "text": "Anh/chị đã tìm hiểu thông tin về tủ lạnh cho nhu cầu này ở mức độ như thế nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Đã tìm hiểu kỹ (biết rõ thương hiệu/model/giá)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Đã tìm hiểu một số thông tin",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Chưa tìm hiểu gì",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[3])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S17",
+          "type": "MULTI",
+          "text": "Anh/chị đã tìm hiểu thông tin thông qua những nguồn nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Website/ứng dụng của thương hiệu (Samsung, LG, Electrolux, Panasonic, Toshiba...)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Website của các nhà bán lẻ điện máy (Điện Máy Xanh, Nguyễn Kim, Điện Máy Chợ Lớn...)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Mạng xã hội (Facebook, TikTok, các video review trên YouTube)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Đến trực tiếp cửa hàng/showroom để xem và được tư vấn",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Hỏi người thân/bạn bè đã từng mua",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Sàn thương mại điện tử (Shopee, Lazada, Tiki)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không nhớ nguồn nào",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            },
+            {
+              "text": "8. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "8",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[7])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S18",
+          "type": "OPEN",
+          "text": "Vui lòng cho biết thương hiệu và model/dòng sản phẩm mà anh/chị đang cân nhắc. ",
+          "note": "PVV ghi tên thương hiệu + tên model",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S19",
+          "type": "SINGLE",
+          "text": "Anh/chị đang cân nhắc/thu hẹp lựa chọn tủ lạnh dự định mua trong khoảng giá nào? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 15 triệu VNĐ",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 15–25 triệu VNĐ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 25–35 triệu VNĐ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 35–45 triệu VNĐ",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 45–55 triệu VNĐ",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 55 triệu VNĐ",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không biết/Chưa xác định",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "if(Contains(CurrentQuestion(),[5,6])){SetAnswer(S20,[2])}",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,3,4,7])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S20",
+          "type": "SINGLE",
+          "text": "PVV xác nhận quota phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. User",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Intender",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S21",
+          "type": "MULTI",
+          "text": "Vui lòng cho biết những ai hiện đang sống cùng hộ gia đình anh/chị?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Tôi sống một mình",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Vợ/chồng của tôi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. (Các) Con tôi từ 0-5 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. (Các) Con tôi từ 6-12 tuổi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. (Các) Con tôi từ 13-18 tuổi",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. (Các) Con tôi từ 19 tuổi trở lên",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Bố/mẹ tôi",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Bố/mẹ chồng/vợ tôi",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Họ hàng khác",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "10. Người giúp việc/người chăm sóc sống cùng nhà",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "11. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "11",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S22",
+          "type": "SINGLE_GRID",
+          "text": "[SHOWCARD THANG ĐIỂM]\nVui lòng cho biết MỨC ĐỘ ĐỒNG Ý của anh/chị với từng phát biểu dưới đây.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1- Hoàn toàn không đồng ý",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "2- Không đồng ý",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "3- Phần nào không đồng ý",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "4- Trung lập",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "5- Phần nào đồng ý",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "6- Đồng ý",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "7- Hoàn toàn đồng ý",
+              "code": "7",
+              "is_other": false
+            }
+          ],
+          "topics": [
+            {
+              "text": "1. Nấu ăn là một phần quan trọng trong cuộc sống hằng ngày của tôi",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "2. Ăn uống lành mạnh là điều quan trọng đối với tôi",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "3. Thực phẩm đóng vai trò quan trọng trong việc gắn kết gia đình tôi",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "4. Tôi quan tâm đến diện mạo của căn bếp",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "5. Tôi thích các thiết bị gia dụng kết hợp được giữa thiết kế đẹp với tính năng thực tế",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "6. Tôi cố gắng giảm thiểu lãng phí thực phẩm bất cứ khi nào có thể",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "7. Tôi quan tâm đến các công nghệ mới cho ngôi nhà",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "8. Tôi tin tưởng công nghệ thông minh khi chúng giúp cuộc sống hằng ngày trở nên dễ dàng hơn",
+              "code": "8",
+              "is_other": false
+            },
+            {
+              "text": "9. Tôi thích các thiết bị có thể tự động tối ưu cài đặt cho tôi",
+              "code": "9",
+              "is_other": false
+            },
+            {
+              "text": "10. Tôi sẵn sàng trả thêm tiền cho những sản phẩm mang lại đổi mới có ý nghĩa",
+              "code": "10",
+              "is_other": false
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "flip_table": false,
+            "two_state": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S23",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết tình trạng hiện tại của ngôi nhà anh/chị đang sống? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Sở hữu bởi Anh/chị hoặc thành viên gia đình (không vay thế chấp)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Sở hữu bởi Anh/chị hoặc thành viên gia đình (vẫn đang trả khoản vay thế chấp)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Thuê",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Khác (vui lòng ghi rõ): …………………………………",
+              "code": "4",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S24",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết giá trị thị trường hiện tại của ngôi nhà anh/chị? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 2 tỷ VNĐ",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 2 đến dưới 4 tỷ VNĐ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 4 đến dưới 6 tỷ VNĐ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 6 đến dưới 8 tỷ VNĐ",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 8 đến dưới 10 tỷ VNĐ",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 10 tỷ VNĐ",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không biết/ Từ chối trả lời",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S25",
+          "type": "SINGLE",
+          "text": "Hộ gia đình anh/chị có sở hữu ô tô không? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Không muốn trả lời",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S26a",
+          "type": "OPEN",
+          "text": "Vui lòng cho biết ô tô anh/chị đang sở hữu thuộc loại/thương hiệu nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(S25,[2,3])){QuestionHide()}",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S26b",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận phân khúc ô tô",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Phân khúc phổ thông/tầm trung (ví dụ KIA, Hyundai, Toyota, Mazda, Ford, Suzuki,…)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Phân khúc cao cấp (ví dụ Mercedes-Benz, BMW, Audi, Lexus,…)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Phân khúc hạng sang (ví dụ Porsche, Land Rover, Bentley hoặc thương hiệu cao cấp khác)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(S25,[2,3])){QuestionHide()}",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "End",
+          "type": "EMPTY",
+          "text": "PHỎNG VẤN VIÊN CẢM ƠN ĐÁP VIÊN",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    }
+  ]
+}
