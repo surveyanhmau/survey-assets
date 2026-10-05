@@ -979,7 +979,39 @@
         {
           "id": "Model",
           "type": "MEDIA",
-          "text": "PVV chụp hình ảnh Model tủ lạnh",
+          "text": "PVV chụp hình Model tủ lạnh",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "2",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Tem",
+          "type": "MEDIA",
+          "text": "PVV chụp hình tem tủ lạnh",
           "note": "",
           "media": "",
           "record": false,
