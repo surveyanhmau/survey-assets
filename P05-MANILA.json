@@ -16,7 +16,7 @@
         {
           "id": "MSBCH",
           "type": "NUMBER",
-          "text": "PVV ghi nhận mã số bảng câu hỏi",
+          "text": "Naitala ng interviewer ang code ng talatanungan. (Interviewer logged the questionnaire code.)",
           "note": "",
           "media": "",
           "record": false,
@@ -48,7 +48,7 @@
         {
           "id": "TTDV",
           "type": "FORM",
-          "text": "PVV ghi nhận thông tin đáp viên",
+          "text": "Naitala ng interviewer ang impormasyon ng respondent. (Interviewer logged the respondent's information.)",
           "note": "",
           "media": "",
           "record": false,
@@ -71,14 +71,7 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": [
-              {
-                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
-                "action": "Hard",
-                "message": "Vui lòng ghi nhận chính xác số điện thoại đáp viên",
-                "goto": ""
-              }
-            ]
+            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
@@ -86,23 +79,23 @@
             "fields": [
               {
                 "code": "1",
-                "text": "Họ tên đáp viên",
+                "text": "Pangalan ng respondent (Respondent's full name)",
                 "type": "text"
               },
               {
                 "code": "2",
-                "text": "Địa chỉ",
+                "text": "Tirahan (Address)",
                 "type": "text"
               },
               {
                 "code": "3",
-                "text": "Số điện thoại",
+                "text": "Numero ng telepono (Phone number)",
                 "type": "number",
                 "unit": ""
               },
               {
                 "code": "4",
-                "text": "Tên PVV",
+                "text": "Pangalan ng interviewer (Interviewer name)",
                 "type": "text"
               }
             ]
