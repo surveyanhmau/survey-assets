@@ -3692,7 +3692,7 @@
         {
           "id": "Q630",
           "type": "SINGLE",
-          "text": "Kung may refrigerator na may apat na feature na ito, magkano ang handa ninyong bayaran? Kailangang kunin ng interviewer ang diperensya sa presyong ito at sa kasalukuyang presyo na sinabi ng respondent sa S6, at ipaalam sa respondent ang diperensya.\n[If there were a refrigerator equipped with all these 4 features, how much would you be willing to pay for it?\nInterviewer need to calculate the differece betweeen current ref price (Answer of S6) and above price. Also, tell the price difference to the customers.]",
+          "text": "Kung may refrigerator na may apat na feature na ito, magkano ang handa ninyong bayaran?\n[If there were a refrigerator equipped with all these 4 features, how much would you be willing to pay for it?",
           "note": "",
           "media": "",
           "record": false,
@@ -3773,7 +3773,7 @@
         {
           "id": "Q631",
           "type": "OPEN_GRID",
-          "text": "Aling mga feature ang nagbibigay ng halaga sa dagdag na presyong handa ninyong bayaran?\n[Please explain which functional elements, value in this price difference.]",
+          "text": "Pakitala ang presyo para sa bawat feature. (Please list out the price for each function.)",
           "note": "",
           "media": "",
           "record": false,
@@ -3781,7 +3781,7 @@
           "answers": [],
           "topics": [
             {
-              "text": "1. VFF Quick Defrost/ [1. VFF Quick Defrost]",
+              "text": "1. VHF Quick Defrost/ [1. VHF Quick Defrost]",
               "code": "1"
             },
             {
@@ -4405,7 +4405,7 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nKung Panasonic ang mag-aalok ng Smart Rewards Program na ito, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf Panasonic offered this Smart Rewards Program, how willing would you be to connect your refrigerator to your smartphone and actively use these functions?]",
+          "text": "[IPAKITA ANG LARAWAN]\nKung isang brand ang mag-aalok ng Smart Rewards Program na ito, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf a brand offered this Smart Rewards Program, how willing would you be to connect your refrigerator to your smartphone and actively use these functions?]",
           "note": "",
           "media": "",
           "record": false,
