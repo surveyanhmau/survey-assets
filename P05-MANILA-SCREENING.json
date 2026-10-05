@@ -71,14 +71,7 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": [
-              {
-                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
-                "action": "Hard",
-                "message": "Vui lòng ghi nhận chính xác số điện thoại đáp viên",
-                "goto": ""
-              }
-            ]
+            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
