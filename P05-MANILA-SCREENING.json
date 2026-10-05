@@ -143,29 +143,22 @@
         {
           "id": "S1",
           "type": "SINGLE",
-          "text": "PVV ghi nhận thành phố của người dự phỏng vấn",
+          "text": "\"Itala ang lungsod kung saan isinasagawa ang interview.\n[Interviewer records the city]\"",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hồ Chí Minh",
+              "text": "\"1. Manila (Manila)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Hà Nội",
+              "text": "2. Iba pa (Other)\"",
               "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Khác",
-              "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -189,9 +182,9 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[3])",
+                "condition": "Contains(CurrentQuestion(),[2])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -203,8 +196,8 @@
         {
           "id": "S2",
           "type": "OPEN",
-          "text": "Vui lòng cho biết họ và tên đầy đủ của anh/chị?",
-          "note": "PVV ghi nhận đầy đủ họ và tên của người dự phỏng vấn",
+          "text": "\"Ano po ang buong pangalan ninyo?\n[Please tell us your full name.]\"",
+          "note": "[Isulat ang buong pangalan. Gagamitin ito para sa quality checking lamang at hindi sa pagsusuri ng mga sagot.] ([Write full name] - Used for sample management (QC), not used in analysis.)",
           "media": "",
           "record": false,
           "readonly": true,
@@ -234,8 +227,8 @@
         {
           "id": "S3a",
           "type": "NUMBER",
-          "text": "Vui lòng cho biết anh/chị sinh năm nào?",
-          "note": "PVV:GHI NHẬN NĂM SINH THEO CMND/ CCCD",
+          "text": "Anong taon ka ipinanganak? (What year were you born?)",
+          "note": "",
           "media": "",
           "record": false,
           "readonly": false,
@@ -265,7 +258,7 @@
         {
           "id": "S3b",
           "type": "NUMBER",
-          "text": "PVV ghi nhận tuổi của đáp viên",
+          "text": "Naitala ang edad ng respondent. (Respondent's age was logged.)",
           "note": "",
           "media": "",
           "record": false,
@@ -296,49 +289,49 @@
         {
           "id": "S3c",
           "type": "SINGLE",
-          "text": "PVV ghi nhận nhóm tuổi tương ứng dựa vào câu S3b",
+          "text": "Ilang taon na po kayo?\n[Which age group do you belong to?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": true,
           "answers": [
             {
-              "text": "1. Từ 18–24 tuổi",
+              "text": "1. 18–24 (18-24 years old)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 25–35 tuổi",
+              "text": "2. 25–35 (25-35 years old)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 36–45 tuổi",
+              "text": "3. 36–45 (36-45 years old)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 45–55 tuổi",
+              "text": "4. 45–55 (45-55 years old)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 56–65 tuổi",
+              "text": "5. 56–65 (56-65 years old)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Trên 65 tuổi",
+              "text": "6. 66 pataas (Over 65 years old)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -370,21 +363,21 @@
         {
           "id": "S4",
           "type": "SINGLE",
-          "text": "PVV ghi nhận Giới tính của người dự phỏng vấn",
+          "text": "Ano po ang kasarian ninyo?\n[What is your gender?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Nam",
+              "text": "1. Lalaki (Male)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Nữ",
+              "text": "2. Babae (Female)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -416,7 +409,7 @@
         {
           "id": "S5a",
           "type": "OPEN",
-          "text": "Vui lòng cho biết nghề nghiệp hiện tại của anh/chị?",
+          "text": "Ano ang iyong trabaho? \n[What is your occupation?]",
           "note": "",
           "media": "",
           "record": false,
@@ -448,49 +441,49 @@
         {
           "id": "S5b",
           "type": "SINGLE",
-          "text": "PVV ghi nhận nghề nghiệp của đáp viên",
+          "text": "Ano po ang kasalukuyan ninyong trabaho?\n[Which group does your current job belong to?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Nhân viên văn phòng/nhân viên công ty",
+              "text": "1. Empleyado sa opisina/kumpanya (Office staff/company employee)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Tự kinh doanh/chủ doanh nghiệp",
+              "text": "2. May sariling negosyo o self-employed (Self-employed/business owner)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Cán bộ/công chức nhà nước",
+              "text": "3. Kawani ng gobyerno (Government official/civil servant)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Nội trợ",
+              "text": "4. Namamahala sa bahay (Homemaker)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Đã nghỉ hưu",
+              "text": "5. Retirado (Retired)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "6. Iba pa (pakitukoy) (Other (please specify))",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -522,43 +515,64 @@
         {
           "id": "S6",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết tổng thu nhập trung bình hàng tháng của GIA ĐÌNH anh/chị?\n(tính tổng thu nhập của tất cả các thành viên)?",
+          "text": "Magkano po ang pinagsamang buwanang kita ng lahat ng nakatira sa inyong bahay?\n[What is the average total monthly income of your HOUSEHOLD (adding up income of all members)?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 60 triệu VNĐ",
+              "text": "1. Mas mababa sa PHP 50,000 (Under 50,000 PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 60 đến dưới 80 triệu VNĐ",
+              "text": "2. PHP 50,000–99,999 (50,000 – 99,999 PHP)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 80 đến dưới 100 triệu VNĐ",
+              "text": "3. PHP 100,000–149,999 (100,000 – 149,999 PHP)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Trên 100 triệu VNĐ",
+              "text": "4. PHP 150,000–199,999 (150,000 – 199,999 PHP)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Không biết/Từ chối trả lời",
+              "text": "5. PHP 200,000–249,999 (200,000 – 249,999 PHP)",
               "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. PHP 250,000–299,999 (250,000 – 299,999 PHP)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. PHP 300,000 pataas (300,000 PHP and above)",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Hindi alam / Ayaw sumagot (Don't know/Refuse to answer)",
+              "code": "8",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -582,9 +596,9 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[1,5])",
+                "condition": "Contains(CurrentQuestion(),[1,2,3,4,5,8])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -596,21 +610,21 @@
         {
           "id": "S7",
           "type": "SINGLE",
-          "text": "Hiện gia đình anh/chị đang sống trong loại hình nhà ở nào?",
+          "text": "Anong uri ng bahay po ang tinitirhan ng inyong pamilya?\n[What type of home does your family currently live in?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Căn hộ chung cư",
+              "text": "1. Apartment (Apartment)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Nhà phố/nhà đất",
+              "text": "2. Townhouse o bahay na may sariling lote (Townhouse/landed house)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -642,35 +656,35 @@
         {
           "id": "S8",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết vai trò của anh/chị trong việc lựa chọn/quyết định mua tủ lạnh cho gia đình?",
+          "text": "Kayo po ba ang nagpapasya kung anong refrigerator ang bibilhin para sa pamilya?\n[What is your role in choosing/deciding to buy a refrigerator for your family?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Người ra quyết định chính (đưa ra quyết định cuối cùng)",
+              "text": "1. Ako ang pangunahing nagpapasya (Main decision maker (makes the final call))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Đồng quyết định (cùng thảo luận, có tiếng nói quan trọng)",
+              "text": "2. Magkasama kaming nagpapasya ng ibang kapamilya (Co-decision maker (discusses together, has an important say))",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Có tham gia nhưng không phải người ra quyết định chính",
+              "text": "3. Nakikibahagi ako sa pagpili pero hindi ako ang pangunahing nagpapasya (Takes part but is not the main decision maker)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Hoàn toàn không tham gia, không có ý kiến",
+              "text": "4. Hindi ako kasali sa pagpili (Does not take part at all, no opinion)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -697,7 +711,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3,4])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -709,7 +723,7 @@
         {
           "id": "S9",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO]\nTủ lạnh chính gia đình anh/chị đang sử dụng hiện tại thuộc thương hiệu nào?",
+          "text": "[IPAKITA ANG LOGO]\nAnong brand ng refrigerator ang pangunahing ginagamit ng inyong pamilya ngayon?\n[[SHOWLOGO]\nWhat brand of refrigerator does your family mainly use now?]",
           "note": "",
           "media": "",
           "record": false,
@@ -737,7 +751,7 @@
               "is_header": false
             },
             {
-              "text": "4. Aqua",
+              "text": "4. Fujidenzo",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -828,7 +842,7 @@
               "is_header": false
             },
             {
-              "text": "17. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "17. Iba pa (pakitukoy) (Other (please specify))",
               "code": "17",
               "media": "",
               "is_other": true,
@@ -860,56 +874,56 @@
         {
           "id": "S10",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO]\nTủ lạnh chính của gia đình anh/chị thuộc loại nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nAnong uri ng refrigerator ang pangunahing ginagamit ninyo?\n[[SHOW PHOTO]\nWhat is the type of your main refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tủ 2 cửa Side-by-Side",
+              "text": "1. 2-door Side-by-Side (2-door Side by side)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Tủ 3 cánh",
+              "text": "2. 3-door (3-Door)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Tủ 4 cánh Cross French",
+              "text": "3. 4-door Cross French (4-Door Cross French)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Các loại tủ 4 cánh loại khác",
+              "text": "4. Iba pang uri ng 4-door (4-Door other)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Tủ 5 cánh",
+              "text": "5. 5-door (5-Door)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Tủ 6 cánh",
+              "text": "6. 6-door (6-Door)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "7. Iba pa (pakitukoy) (Other (please specify))",
               "code": "7",
               "media": "",
               "is_other": true,
@@ -936,7 +950,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[7])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -948,8 +962,8 @@
         {
           "id": "S11",
           "type": "OPEN",
-          "text": "Vui lòng cho biết model/mã sản phẩm của tủ lạnh anh/chị đang sử dụng?\n(Có thể kiểm tra trên tem ở mặt sau hoặc bên trong tủ lạnh)",
-          "note": "PVV ghĩ rõ model và xác nhận bằng hình ảnh",
+          "text": "Ano ang model o product code ng refrigerator ninyo? Makikita ito sa label sa likod o loob ng refrigerator. Kung maaari, tulungan ang respondent na hanapin ito.\n[What is the model/product code of the refrigerator you are using? (You can check the label on the back or inside the fridge)\n[Interviewer helps confirm with a photo if possible.]]",
+          "note": "[Isulat nang malinaw ang model/product code] ([Write clearly])",
           "media": "",
           "record": false,
           "readonly": false,
@@ -979,49 +993,49 @@
         {
           "id": "S12",
           "type": "SINGLE",
-          "text": "Anh/chị mua tủ lạnh hiện tại vào thời điểm nào?",
+          "text": "Kailan po ninyo binili ang refrigerator na ginagamit ninyo ngayon?\n[When did you purchase your current refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Trong vòng 1 năm qua",
+              "text": "1. Sa loob ng nakaraang 1 taon (Within 1 year)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. 2–3 năm trước",
+              "text": "2. 2–3 taon na ang nakalipas (2-3 years ago)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. 4–5 năm trước",
+              "text": "3. 4–5 taon na ang nakalipas (4-5 years ago)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. 6–7 năm trước",
+              "text": "4. 6–7 taon na ang nakalipas (6-7 years ago)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. 7–10 năm trước",
+              "text": "5. 7–10 taon na ang nakalipas (7-10 years ago)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Trên 10 năm trước",
+              "text": "6. Mahigit 10 taon na ang nakalipas (>10 years ago)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1048,7 +1062,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[4,5,6])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -1060,64 +1074,57 @@
         {
           "id": "S13",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết khoảng tiền gia đình anh/chị đã chi trả cho chiếc tủ lạnh hiện tại?",
+          "text": "Mga magkano po ang nagastos ninyo sa refrigerator na ginagamit ninyo ngayon?\n[About how much did your family pay for your current refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 20 triệu VNĐ",
+              "text": "1. Mas mababa sa PHP 40,000 (Under 40,000 PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. 20–30 triệu VNĐ",
+              "text": "2. PHP 40,000–59,999",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. 31–40 triệu VNĐ",
+              "text": "3. PHP 60,000–79,999",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. 41–44 triệu VNĐ",
+              "text": "4. PHP 80,000–99,999",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. 45–54 triệu VNĐ",
+              "text": "5. PHP 100,000–119,999",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. 55–64 triệu VNĐ",
+              "text": "6. PHP 120,000 pataas",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Trên 65 triệu VNĐ",
+              "text": "7. Hindi maalala / Hindi alam (Don't remember/Don't know)",
               "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Không nhớ/Không biết",
-              "code": "8",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -1138,16 +1145,16 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "if(Contains(CurrentQuestion(),[5,6,7])){SetAnswer(S20,[1])}",
+            "on_next": "if(Contains(CurrentQuestion(),[4,5,6])){SetAnswer(S20,[1])}",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[8])",
+                "condition": "Contains(CurrentQuestion(),[1,7])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               },
               {
-                "condition": "Contains(CurrentQuestion(),[5,6,7])",
+                "condition": "Contains(CurrentQuestion(),[4,5,6])",
                 "action": "Goto",
                 "message": "",
                 "goto": "S20"
@@ -1161,28 +1168,28 @@
         {
           "id": "S14",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết dự định mua tủ lạnh mới của anh/chị trong 12 tháng tới?",
+          "text": "May plano po ba kayong bumili ng bagong refrigerator sa susunod na 12 buwan?\n[In the next 12 months, do you intend to buy a new refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Chắc chắn sẽ mua",
+              "text": "1. Siguradong bibili (Definitely will buy)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Có thể sẽ mua",
+              "text": "2. Posibleng bumili (Might buy)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Chưa chắc chắn/Không có ý định",
+              "text": "3. Hindi pa sigurado / Walang plano (Not sure/No intention)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1209,7 +1216,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -1221,49 +1228,49 @@
         {
           "id": "S15",
           "type": "SINGLE",
-          "text": "Lý do chính khiến anh/chị cần mua tủ lạnh trong thời gian tới là gì? ",
+          "text": "Ano po ang pangunahing dahilan kung bakit kailangan ninyong bumili ng refrigerator sa susunod na mga panahon?\n[What is the main reason you need to buy a refrigerator in the near future?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Cải tạo/sửa sang nhà",
+              "text": "1. Magpapa-renovate o magpapabago ng bahay (Renovating/remodeling the house)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Xây nhà mới/chuyển sang nhà mới",
+              "text": "2. Magpapatayo o lilipat sa bagong bahay (Building a new house/moving to a new house)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Tủ lạnh hiện tại bị hỏng/xuống cấp",
+              "text": "3. Sira na o hindi na maayos ang refrigerator ngayon (Current refrigerator is broken/deteriorating)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Gia đình có thêm thành viên, cần dung tích lớn hơn",
+              "text": "4. Lumaki ang pamilya at kailangan ng mas malaking refrigerator (Family size has increased, need larger capacity)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Muốn nâng cấp lên công nghệ/tính năng mới",
+              "text": "5. Gusto ng mas bagong teknolohiya o dagdag na features (Want to upgrade to new technology/features)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ):…………………………………",
+              "text": "6. Iba pa (pakitukoy) (Other (please specify))",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -1295,28 +1302,28 @@
         {
           "id": "S16",
           "type": "SINGLE",
-          "text": "Anh/chị đã tìm hiểu thông tin về tủ lạnh cho nhu cầu này ở mức độ như thế nào?",
+          "text": "Nagsaliksik na po ba kayo tungkol sa mga refrigerator na puwede ninyong bilhin?\n[Have you researched information about refrigerators for this need?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đã tìm hiểu kỹ (biết rõ thương hiệu/model/giá)",
+              "text": "1. Oo, marami na akong sinaliksik at may alam na akong brand/model/presyo (Have researched thoroughly (know brand/model/price clearly))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Đã tìm hiểu một số thông tin",
+              "text": "2. May kaunti na akong sinaliksik (Have researched some information)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Chưa tìm hiểu gì",
+              "text": "3. Hindi pa ako nagsasaliksik (Have not researched at all)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1343,7 +1350,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -1355,14 +1362,14 @@
         {
           "id": "S17",
           "type": "MULTI",
-          "text": "Anh/chị đã tìm hiểu thông tin thông qua những nguồn nào?",
+          "text": "Saan po kayo naghanap ng impormasyon tungkol sa refrigerator?\n[Which sources have you researched through?]\"",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Website/ứng dụng của thương hiệu (Samsung, LG, Electrolux, Panasonic, Toshiba...)",
+              "text": "1. Website o app ng brand (Brand website/app (Samsung, LG, Fujidenzo, Panasonic, Toshiba...))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1370,7 +1377,7 @@
               "is_header": false
             },
             {
-              "text": "2. Website của các nhà bán lẻ điện máy (Điện Máy Xanh, Nguyễn Kim, Điện Máy Chợ Lớn...)",
+              "text": "2. Website ng appliance store (hal. Abenson, Western Appliance, SM Appliance Center) (Electronics retailer website (Abenson, Western Appliance, SM Appliance Center...))",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1378,7 +1385,7 @@
               "is_header": false
             },
             {
-              "text": "3. Mạng xã hội (Facebook, TikTok, các video review trên YouTube)",
+              "text": "3. Social media (Facebook, TikTok, YouTube reviews) (Social media (Facebook, TikTok, YouTube reviews))",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1386,7 +1393,7 @@
               "is_header": false
             },
             {
-              "text": "4. Đến trực tiếp cửa hàng/showroom để xem và được tư vấn",
+              "text": "4. Pumunta sa tindahan o showroom para tumingin at magtanong (Visited a store/showroom directly to view and ask for advice)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1394,7 +1401,7 @@
               "is_header": false
             },
             {
-              "text": "5. Hỏi người thân/bạn bè đã từng mua",
+              "text": "5. Nagtanong sa kamag-anak o kaibigang nakabili na (Asked relatives/friends who have purchased)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1402,7 +1409,7 @@
               "is_header": false
             },
             {
-              "text": "6. Sàn thương mại điện tử (Shopee, Lazada, Tiki)",
+              "text": "6. Online shopping apps (Shopee, Lazada) (E-commerce platforms (Shopee, Lazada,...))",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1410,7 +1417,7 @@
               "is_header": false
             },
             {
-              "text": "7. Không nhớ nguồn nào",
+              "text": "7. Wala akong maalalang source (Don't remember any source)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1418,7 +1425,7 @@
               "is_header": false
             },
             {
-              "text": "8. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "8. Iba pa (pakitukoy) (Other (please specify))",
               "code": "8",
               "media": "",
               "is_other": true,
@@ -1446,7 +1453,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[7])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -1458,8 +1465,8 @@
         {
           "id": "S18",
           "type": "OPEN",
-          "text": "Vui lòng cho biết thương hiệu và model/dòng sản phẩm mà anh/chị đang cân nhắc. ",
-          "note": "PVV ghi tên thương hiệu + tên model",
+          "text": "Kung naaalala ninyo, anong brand at model ang pinag-iisipan ninyong bilhin?\n[Please specify the brand and model/product line (if remembered) you are considering.]",
+          "note": "[Isulat ang brand at model kung naaalala] ([Write the brand name + model name (if remembered)])",
           "media": "",
           "record": false,
           "readonly": false,
@@ -1489,56 +1496,56 @@
         {
           "id": "S19",
           "type": "SINGLE",
-          "text": "Anh/chị đang cân nhắc/thu hẹp lựa chọn tủ lạnh dự định mua trong khoảng giá nào? ",
+          "text": "Magkano po ang budget ninyo para sa refrigerator na balak ninyong bilhin?\n[What price range are you considering/narrowing down for the refrigerator you plan to buy?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 15 triệu VNĐ",
+              "text": "1. Mas mababa sa PHP 40,000 (Under 40,000 PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 15–25 triệu VNĐ",
+              "text": "2. PHP 40,000–59,999",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 25–35 triệu VNĐ",
+              "text": "3. PHP 60,000–79,999",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 35–45 triệu VNĐ",
+              "text": "4. PHP 80,000–99,999",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 45–55 triệu VNĐ",
+              "text": "5. PHP 100,000–119,999",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Trên 55 triệu VNĐ",
+              "text": "6. PHP 120,000 pataas (120,000 PHP and above)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Không biết/Chưa xác định",
+              "text": "7. Hindi pa alam / Hindi pa napagpapasyahan (Don't know/Not yet determined)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1563,9 +1570,9 @@
             "on_next": "if(Contains(CurrentQuestion(),[5,6])){SetAnswer(S20,[2])}",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[1,2,3,4,7])",
+                "condition": "Contains(CurrentQuestion(),[1,2,3,7])",
                 "action": "Hard",
-                "message": "ĐÓNG",
+                "message": "CLOSE",
                 "goto": ""
               }
             ]
@@ -1577,21 +1584,21 @@
         {
           "id": "S20",
           "type": "SINGLE",
-          "text": "PVV xác nhận quota phỏng vấn",
+          "text": "Kumpirmahin kung saang grupo kabilang ang respondent.\n[Confirm Interview Quota]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": true,
           "answers": [
             {
-              "text": "1. User",
+              "text": "1. Kasalukuyang gumagamit (User)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Intender",
+              "text": "2. May planong bumili (Intender)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1623,14 +1630,14 @@
         {
           "id": "S21",
           "type": "MULTI",
-          "text": "Vui lòng cho biết những ai hiện đang sống cùng hộ gia đình anh/chị?",
+          "text": "Sino-sino po ang kasalukuyang kasama ninyo sa bahay? Piliin ang lahat ng naaangkop.\n[Which of the following people currently live in your household?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tôi sống một mình",
+              "text": "1. Ako lang (I live alone)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1638,7 +1645,7 @@
               "is_header": false
             },
             {
-              "text": "2. Vợ/chồng của tôi",
+              "text": "2. Asawa/partner (My spouse / partner)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1646,7 +1653,7 @@
               "is_header": false
             },
             {
-              "text": "3. (Các) Con tôi từ 0-5 tuổi",
+              "text": "3. Anak na 0–5 taong gulang (My child(ren) aged 0-5 years)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1654,7 +1661,7 @@
               "is_header": false
             },
             {
-              "text": "4. (Các) Con tôi từ 6-12 tuổi",
+              "text": "4. Anak na 6–12 taong gulang (My child(ren) aged 6-12 years)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1662,7 +1669,7 @@
               "is_header": false
             },
             {
-              "text": "5. (Các) Con tôi từ 13-18 tuổi",
+              "text": "5. Anak na 13–18 taong gulang (My child(ren) aged 13-18 years)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1670,7 +1677,7 @@
               "is_header": false
             },
             {
-              "text": "6. (Các) Con tôi từ 19 tuổi trở lên",
+              "text": "6. Anak na 19 pataas (My child(ren) aged 19 years or older)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1678,7 +1685,7 @@
               "is_header": false
             },
             {
-              "text": "7. Bố/mẹ tôi",
+              "text": "7. Magulang (My parent(s))",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1686,7 +1693,7 @@
               "is_header": false
             },
             {
-              "text": "8. Bố/mẹ chồng/vợ tôi",
+              "text": "8. Biyenan (My parent(s)-in-law)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -1694,7 +1701,7 @@
               "is_header": false
             },
             {
-              "text": "9. Họ hàng khác",
+              "text": "9. Iba pang kamag-anak (Other relative(s))",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -1702,7 +1709,7 @@
               "is_header": false
             },
             {
-              "text": "10. Người giúp việc/người chăm sóc sống cùng nhà",
+              "text": "10. Kasambahay o caregiver na nakatira sa bahay (Domestic helper / live-in caregiver)",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -1710,7 +1717,7 @@
               "is_header": false
             },
             {
-              "text": "11. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "11. Iba pa (pakitukoy) (Others (please specify: ______))",
               "code": "11",
               "media": "",
               "is_other": true,
@@ -1743,96 +1750,96 @@
         {
           "id": "S22",
           "type": "SINGLE_GRID",
-          "text": "[SHOWCARD THANG ĐIỂM]\nVui lòng cho biết MỨC ĐỘ ĐỒNG Ý của anh/chị với từng phát biểu dưới đây.",
+          "text": "Sabihin kung gaano kayo sumasang-ayon o hindi sumasang-ayon sa bawat pahayag.\n[Please indicate how strongly you agree or disagree with each of the following statements.]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1- Hoàn toàn không đồng ý",
+              "text": "1. Lubos na hindi sumasang-ayon (Strongly disagree)",
               "code": "1",
               "is_other": false
             },
             {
-              "text": "2- Không đồng ý",
+              "text": "2. Hindi sumasang-ayon (Disagree)",
               "code": "2",
               "is_other": false
             },
             {
-              "text": "3- Phần nào không đồng ý",
+              "text": "3. Medyo hindi sumasang-ayon (Somewhat disagree)",
               "code": "3",
               "is_other": false
             },
             {
-              "text": "4- Trung lập",
+              "text": "4. Hindi tiyak / Neutral (Neutral)",
               "code": "4",
               "is_other": false
             },
             {
-              "text": "5- Phần nào đồng ý",
+              "text": "5. Medyo sumasang-ayon (Somewhat argee)",
               "code": "5",
               "is_other": false
             },
             {
-              "text": "6- Đồng ý",
+              "text": "6. Sumasang-ayon (Agree)",
               "code": "6",
               "is_other": false
             },
             {
-              "text": "7- Hoàn toàn đồng ý",
+              "text": "7. Lubos na sumasang-ayon (Strongly agree)",
               "code": "7",
               "is_other": false
             }
           ],
           "topics": [
             {
-              "text": "1. Nấu ăn là một phần quan trọng trong cuộc sống hằng ngày của tôi",
+              "text": "Mahalagang bahagi ng araw-araw kong buhay ang pagluluto.[Cooking is an important part of my daily life.]",
               "code": "1",
               "is_other": false
             },
             {
-              "text": "2. Ăn uống lành mạnh là điều quan trọng đối với tôi",
+              "text": "Mahalaga sa akin ang pagkain ng masustansyang pagkain.[Eating healthy food is important to me.]",
               "code": "2",
               "is_other": false
             },
             {
-              "text": "3. Thực phẩm đóng vai trò quan trọng trong việc gắn kết gia đình tôi",
+              "text": "Mahalaga sa pamilya namin ang pagsasalo-salo sa pagkain.[Food plays an important role in bringing my family together.]",
               "code": "3",
               "is_other": false
             },
             {
-              "text": "4. Tôi quan tâm đến diện mạo của căn bếp",
+              "text": "Mahalaga sa akin ang itsura ng kusina namin.[I care about how my kitchen looks.]",
               "code": "4",
               "is_other": false
             },
             {
-              "text": "5. Tôi thích các thiết bị gia dụng kết hợp được giữa thiết kế đẹp với tính năng thực tế",
+              "text": "Mas gusto ko ang mga appliance na maganda na, kapaki-pakinabang pa.[I prefer appliances that combine good design with practical functionality.]",
               "code": "5",
               "is_other": false
             },
             {
-              "text": "6. Tôi cố gắng giảm thiểu lãng phí thực phẩm bất cứ khi nào có thể",
+              "text": "Sinisikap kong hindi masayang ang pagkain.[I try to minimize food waste whenever possible.]",
               "code": "6",
               "is_other": false
             },
             {
-              "text": "7. Tôi quan tâm đến các công nghệ mới cho ngôi nhà",
+              "text": "Interesado ako sa mga bagong teknolohiya para sa bahay.[I am interested in new technologies for the home.]",
               "code": "7",
               "is_other": false
             },
             {
-              "text": "8. Tôi tin tưởng công nghệ thông minh khi chúng giúp cuộc sống hằng ngày trở nên dễ dàng hơn",
+              "text": "Pinagkakatiwalaan ko ang smart technology kung napapadali nito ang araw-araw na buhay.[I trust smart technologies when they help make daily life easier.]",
               "code": "8",
               "is_other": false
             },
             {
-              "text": "9. Tôi thích các thiết bị có thể tự động tối ưu cài đặt cho tôi",
+              "text": "Mas gusto ko ang mga appliance na kusang nag-a-adjust ng settings para sa akin.[I prefer appliances that can automatically optimize settings for me.]",
               "code": "9",
               "is_other": false
             },
             {
-              "text": "10. Tôi sẵn sàng trả thêm tiền cho những sản phẩm mang lại đổi mới có ý nghĩa",
+              "text": "Handa akong gumastos nang mas malaki para sa mga produktong may kapaki-pakinabang na bagong features o teknolohiya.[I am willing to pay more for products that offer meaningful innovation.]",
               "code": "10",
               "is_other": false
             }
@@ -1863,35 +1870,35 @@
         {
           "id": "S23",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết tình trạng hiện tại của ngôi nhà anh/chị đang sống? ",
+          "text": "Ano po ang katayuan ng bahay na tinitirhan ninyo ngayon?\n[What is the current status of the home you live in?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Sở hữu bởi Anh/chị hoặc thành viên gia đình (không vay thế chấp)",
+              "text": "1. Sariling bahay at wala nang binabayaran (Owned by you or a family member (no mortgage))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Sở hữu bởi Anh/chị hoặc thành viên gia đình (vẫn đang trả khoản vay thế chấp)",
+              "text": "2. Sariling bahay pero may binabayarang mortgage (Owned by you or a family member (still paying mortgage))",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Thuê",
+              "text": "3. Inuupahan (Rented)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Khác (vui lòng ghi rõ): …………………………………",
+              "text": "4. Iba pa (pakitukoy) (Other (please specify))",
               "code": "4",
               "media": "",
               "is_other": true,
@@ -1923,56 +1930,56 @@
         {
           "id": "S24",
           "type": "SINGLE",
-          "text": "Vui lòng cho biết giá trị thị trường hiện tại của ngôi nhà anh/chị? ",
+          "text": "Mga magkano po ang tinatayang halaga ng bahay ninyo ngayon?\n[Approximately what is the current market value of your home?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 2 tỷ VNĐ",
+              "text": "1. Mas mababa sa PHP 4.5 milyon (Under 4.5 million PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 2 đến dưới 4 tỷ VNĐ",
+              "text": "2. PHP 4.5 milyon hanggang mas mababa sa PHP 9 milyon (4.5 to under 9 million PHP)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 4 đến dưới 6 tỷ VNĐ",
+              "text": "3. PHP 9 milyon hanggang mas mababa sa PHP 14 milyon (9 to under 14 million PHP)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 6 đến dưới 8 tỷ VNĐ",
+              "text": "4. PHP 14 milyon hanggang mas mababa sa PHP 18 milyon (14 to under 18 million PHP)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 8 đến dưới 10 tỷ VNĐ",
+              "text": "5. PHP 18 milyon hanggang mas mababa sa PHP 23 milyon (18 to under 23 million PHP)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Trên 10 tỷ VNĐ",
+              "text": "6. Higit sa PHP 23 milyon (Over 23 million PHP)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Không biết/ Từ chối trả lời",
+              "text": "7. Hindi alam / Ayaw sumagot (Don't know/Refuse to answer)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2004,28 +2011,28 @@
         {
           "id": "S25",
           "type": "SINGLE",
-          "text": "Hộ gia đình anh/chị có sở hữu ô tô không? ",
+          "text": "May sariling sasakyan po ba ang pamilya ninyo?\n[Does your household own a car?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Có",
+              "text": "1. Oo (Yes)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không",
+              "text": "2. Wala (No)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Không muốn trả lời",
+              "text": "3. Hindi alam / Ayaw sumagot (Don't know/Refuse to answer)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2057,7 +2064,7 @@
         {
           "id": "S26a",
           "type": "OPEN",
-          "text": "Vui lòng cho biết ô tô anh/chị đang sở hữu thuộc loại/thương hiệu nào?",
+          "text": "Anong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2089,28 +2096,28 @@
         {
           "id": "S26b",
           "type": "SINGLE",
-          "text": "PVV ghi nhận phân khúc ô tô",
+          "text": "Anong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Phân khúc phổ thông/tầm trung (ví dụ KIA, Hyundai, Toyota, Mazda, Ford, Suzuki,…)",
+              "text": "1. Economy/mid-range (hal. Kia, Hyundai, Toyota, Mazda) (Economy/mid-range (e.g., Kia, Hyundai, Toyota, Mazda))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Phân khúc cao cấp (ví dụ Mercedes-Benz, BMW, Audi, Lexus,…)",
+              "text": "2. Premium (hal. Mercedes-Benz, BMW, Audi, Lexus) (Premium (e.g., Mercedes-Benz, BMW, Audi, Lexus))",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Phân khúc hạng sang (ví dụ Porsche, Land Rover, Bentley hoặc thương hiệu cao cấp khác)",
+              "text": "3. Luxury (hal. Porsche, Land Rover, Bentley o iba pang high-end na sasakyan) (Luxury (e.g., Porsche, Land Rover, Bentley, other high-end))",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2142,7 +2149,7 @@
         {
           "id": "End",
           "type": "EMPTY",
-          "text": "PHỎNG VẤN VIÊN CẢM ƠN ĐÁP VIÊN",
+          "text": "THANK YOU!",
           "note": "",
           "media": "",
           "record": false,
