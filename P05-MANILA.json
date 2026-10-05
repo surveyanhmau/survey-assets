@@ -104,7 +104,7 @@
         {
           "id": "GioiThieu",
           "type": "EMPTY",
-          "text": "Chào anh/chị, hôm nay em mời anh chị đến đây để nhờ các anh chị trả lời một số câu hỏi về không gian nhà bếp và các thiết bị điện gia dụng sử dụng trong nhà bếp. Sẽ không có câu trả lời đúng hay sai, em chỉ muốn ghi nhận ý kiến, quan điểm của các anh chị. Vậy nên anh chị thoải mái chia sẻ cùng em nhé.",
+          "text": "IPALIWANAG ANG LAYUNIN AT KUNG PAANO ITO SASAGUTAN\nPANUTO PARA SA INTERVIEWER:\nSabihin sa respondent: “Hello po. Ngayon, magtatanong ako tungkol sa ilang bagong refrigerator products. Walang tama o maling sagot. Gusto ko lang malaman ang mga iniisip at opinyon ninyo tungkol sa mga refrigerator na maaari ninyong gamitin. Kaya malaya ninyong sabihin kung ano ang unang pumapasok sa isip ninyo.”\n[INTRODUCE THE PURPOSE AND HOW TO DO IT\nINTERVIEWER INSTRUCTIONS\nInterviewer says to respondent: “Hello, today I’d like to ask you a few questions about some completely new refrigerator products.\nThere are no right or wrong answers. I simply want to know your thoughts and opinions about refrigerator products that you might consider using. So, please feel free to share whatever comes to mind.”]",
           "note": "",
           "media": "",
           "record": false,
@@ -136,35 +136,35 @@
         {
           "id": "Q101",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO]\nTủ lạnh hiện tại của Anh/Chị được lắp đặt như thế nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nPaano nakalagay o nakakabit ang refrigerator ninyo ngayon?\n[[SHOWPHOTO]\nHow is your current refrigerator installed?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đặt độc lập, không lắp vào hệ tủ bếp",
+              "text": "1. Nakahiwalay at hindi nakapaloob sa kitchen cabinets (Stands alone, not built into the kitchen cabinets)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Đặt trong ô tủ nhưng vẫn có khe hở nhìn thấy ở bên trái, bên phải hoặc phía sau",
+              "text": "2. Nasa puwang ng cabinet pero may nakikitang pagitan sa gilid o likod (Sits in a cabinet slot but there is a visible gap on the left, right, or back)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Vừa hoàn toàn trong hệ tủ bếp, gần như không có khe hở",
+              "text": "3. Nakalagay sa loob ng kitchen cabinets at halos walang pagitan (Fits fully into the kitchen cabinets, almost no gap)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Khác (vui lòng ghi rõ:...)",
+              "text": "4. Iba pa (pakitukoy) (Other (please specify))",
               "code": "4",
               "media": "",
               "is_other": true,
@@ -196,14 +196,14 @@
         {
           "id": "Q201",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nĐiều nào dưới đây mô tả đúng nhất ý nghĩa của một chiếc tủ lạnh đối với Anh/Chị?\nChọn tối đa 3 phương án phù hợp nhất ",
+          "text": "Alin sa mga sumusunod ang pinakaangkop na paglalarawan sa kahulugan ng refrigerator para sa inyo? Pumili ng hanggang 3.\n[Which of the following best describes what a refrigerator means to you? - Choose up to 3 best]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Một thiết bị thực tế để bảo quản thực phẩm",
+              "text": "1. Gamit sa pag-iimbak ng pagkain (A practical appliance for storing food)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -211,7 +211,7 @@
               "is_header": false
             },
             {
-              "text": "2. Một thiết bị giúp bảo vệ sức khỏe của gia đình tôi",
+              "text": "2. Nakakatulong para manatiling malusog ang pamilya (A tool that helps keep my family healthy)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -219,7 +219,7 @@
               "is_header": false
             },
             {
-              "text": "3. Một cách giúp giảm lãng phí thực phẩm",
+              "text": "3. Nakakatulong para mabawasan ang nasasayang na pagkain (A way to reduce food waste)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -227,7 +227,7 @@
               "is_header": false
             },
             {
-              "text": "4. Một công cụ giúp tôi tiết kiệm thời gian",
+              "text": "4. Nakakatipid ng oras (A tool that helps me save time)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -235,7 +235,7 @@
               "is_header": false
             },
             {
-              "text": "5. Là trung tâm của căn bếp",
+              "text": "5. Mahalagang bahagi ng kusina (The center of my kitchen)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -243,7 +243,7 @@
               "is_header": false
             },
             {
-              "text": "6. Phản ánh phong cách sống của tôi",
+              "text": "6. Bahagi ng lifestyle ko (A reflection of my lifestyle)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -251,7 +251,7 @@
               "is_header": false
             },
             {
-              "text": "7. Biểu tượng của chất lượng và thành công",
+              "text": "7. Simbolo ng kalidad at tagumpay (A symbol of quality and success)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -259,7 +259,7 @@
               "is_header": false
             },
             {
-              "text": "8. Một sản phẩm giúp tôi tận hưởng việc nấu ăn",
+              "text": "8. Mas napapasaya ako nito sa pagluluto (A product that helps me enjoy cooking)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -267,7 +267,7 @@
               "is_header": false
             },
             {
-              "text": "9. Một sản phẩm giúp cải thiện cuộc sống hằng ngày",
+              "text": "9. Nakakapagpagaan ng araw-araw na buhay (A product that improves everyday life)",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -275,7 +275,7 @@
               "is_header": false
             },
             {
-              "text": "10. Khoản đầu tư dài hạn cho gia đình",
+              "text": "10. Pangmatagalang gamit para sa pamilya (A long-term investment for my family)",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -283,7 +283,7 @@
               "is_header": false
             },
             {
-              "text": "11. Trợ lý thông minh giúp quản lý thực phẩm và nhu cầu gia đình",
+              "text": "11. Smart na katulong sa pag-aasikaso ng pagkain at pangangailangan sa bahay (A smart assistant that helps manage my food and household needs)",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -291,7 +291,7 @@
               "is_header": false
             },
             {
-              "text": "12. Thiết bị được cá nhân hóa, thích ứng với nhu cầu của gia đình",
+              "text": "12. Appliance na naaayon sa pangangailangan ng pamilya (A personalized appliance that adapts to my family's needs)",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -324,14 +324,14 @@
         {
           "id": "Q301",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong quá trình tìm hiểu để mua tủ lạnh, Anh/Chị đã thực hiện những hoạt động nào dưới đây?\nChọn tất cả các phương án phù hợp",
+          "text": "Habang naghahanap kayo ng refrigerator na bibilhin, alin sa mga sumusunod ang ginawa ninyo? Piliin ang lahat ng naaangkop.\n[While researching to buy a refrigerator, which of the following did you do? - Select all that apply]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tìm kiếm trên Google bằng từ khóa cụ thể (tên thương hiệu, loại tủ lạnh, “tủ lạnh 4 cửa”...)",
+              "text": "1. Nag-Google gamit ang mga salitang may kaugnayan sa hinahanap ko (Searched Google with specific keywords (brand name, fridge type, \"4-door fridge\"...))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -339,7 +339,7 @@
               "is_header": false
             },
             {
-              "text": "2. Đọc thông số trên website của thương hiệu/cửa hàng điện máy",
+              "text": "2. Nagbasa ng specifications sa website ng brand o appliance store (Read specs on the brand/electronics store website)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -347,7 +347,7 @@
               "is_header": false
             },
             {
-              "text": "3. Xem video của KOL/người đánh giá",
+              "text": "3. Nanood ng reviews o videos ng mga content creator (Watched KOL/reviewer videos)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -355,7 +355,7 @@
               "is_header": false
             },
             {
-              "text": "4. Tham gia các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...) để hỏi/đọc kinh nghiệm",
+              "text": "4. Nagbasa o nagtanong sa Facebook groups (Joined Facebook groups (Kitchen Lovers, Home Lovers...) to ask/read experiences)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -363,7 +363,7 @@
               "is_header": false
             },
             {
-              "text": "5. Hỏi ý kiến bạn bè/ gia đình/ đồng nghiệp",
+              "text": "5. Nagtanong sa kaibigan, pamilya o katrabaho (Ask friends/families/co-workers)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -371,7 +371,7 @@
               "is_header": false
             },
             {
-              "text": "6. Hỏi ý kiến kiến trúc sư/nhà thiết kế nội thất",
+              "text": "6. Humingi ng payo sa architect o interior designer (Asked an architect/interior designer for advice)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -379,7 +379,7 @@
               "is_header": false
             },
             {
-              "text": "7. Sử dụng công cụ AI (ChatGPT, Claude, Gemini...) để hỏi gợi ý tủ lạnh phù hợp",
+              "text": "7. Gumamit ng AI tulad ng ChatGPT, Claude o Gemini para maghanap ng rekomendasyon (Used an AI tool (ChatGPT, Claude, Gemini...) to ask for suitable fridge suggestions)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -387,7 +387,7 @@
               "is_header": false
             },
             {
-              "text": "8. Đến trực tiếp cửa hàng điện máy để xem sản phẩm/hỏi nhân viên",
+              "text": "8. Pumunta sa appliance store para tumingin o magtanong sa staff (Went to an electronics store in person to look/ask staff)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -395,7 +395,7 @@
               "is_header": false
             },
             {
-              "text": "9. Khác (vui lòng ghi rõ:...)",
+              "text": "9. Iba pa (pakitukoy) (Other (please specify))",
               "code": "9",
               "media": "",
               "is_other": true,
@@ -428,21 +428,21 @@
         {
           "id": "Q202",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nKhi cải tạo/xây dựng bếp mới cho ngôi nhà hiện tại, Anh/Chị có nhận tư vấn từ kiến trúc sư/nhà thiết kế nội thất (cá nhân hoặc công ty) không?",
+          "text": "Noong nagpagawa o nagpa-renovate kayo ng kusina, humingi ba kayo ng tulong o payo sa interior designer (tao o kumpanya)?\n[When renovating/building a new kitchen for your current home, did you get advice from an interior designer (person or company)?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Có",
+              "text": "1. Oo (Yes)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không",
+              "text": "2. Hindi (No)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -474,35 +474,35 @@
         {
           "id": "Q203",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nAi là người quyết định hoặc đề xuất kích thước tủ bếp, bao gồm cả khu vực đặt tủ lạnh?",
+          "text": "Sino ang nagpasya sa sukat ng kitchen cabinets, kasama ang puwang para sa refrigerator?\n[Who decided/suggest dimension of your kitchen cabinet including fridge area?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tôi tìm kiếm các mẫu tủ bếp phổ biến trên Facebook, TikTok hoặc AI",
+              "text": "1. Ako ang naghanap ng ideas sa Facebook, TikTok o AI (I search for popular model on Facebook or TikTok or AI)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Tôi thuê đơn vị thiết kế/thợ mộc và làm theo thiết kế của họ",
+              "text": "2. Nagpagawa ako sa designer o karpintero at sinunod ang plano nila (I hire designer/carpenter and follow their design)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Tôi dựa vào kích thước tiêu chuẩn của tủ bếp theo kinh nghiệm của bản thân",
+              "text": "3. Ako ang nagpasya gamit ang karaniwang sukat at sarili kong karanasan (I follow the kitchen cabinet standard size base on my own experience)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Không nhớ/Không chắc",
+              "text": "4. Hindi maalala / Hindi sigurado (Don't remember/Not sure)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -534,42 +534,42 @@
         {
           "id": "Q302",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nAnh/Chị đã mua tủ lạnh ở đâu?",
+          "text": "Saan po ninyo binili ang refrigerator ninyo?\n[Where did you purchase your fridge?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Chuỗi bán lẻ điện máy (Điện Máy Xanh, Nguyễn Kim, HC, Điện Máy Chợ Lớn...)",
+              "text": "1. Appliance stores (Abenson, SM Appliance Center, Western Appliances) (Electronics retail chains (Abenson, SM Appliance Center, Western Appliances...))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Sàn thương mại điện tử/nền tảng mua sắm online (Shopee, TikTok Shop, Lazada...)",
+              "text": "2. Online shopping apps (Shopee, TikTok Shop, Lazada) (Online marketplaces / e-commerce platforms (Shopee, TikTok Shop, Lazada...))",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Nhà bán hàng trên mạng xã hội (Social Commerce)",
+              "text": "3. Seller sa social media (Social media / social commerce sellers)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Cửa hàng điện máy độc lập/đại lý tại địa phương",
+              "text": "4. Maliit na appliance store o local dealer (Independent electronics stores / local dealers)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Khác (vui lòng ghi rõ:...)",
+              "text": "5. Iba pa (pakitukoy) (Other (please specify))",
               "code": "5",
               "media": "",
               "is_other": true,
@@ -601,28 +601,28 @@
         {
           "id": "Q303",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nThứ tự nào dưới đây mô tả đúng nhất tình huống của gia đình Anh/Chị?",
+          "text": "Alin dito ang nangyari sa bahay ninyo?\n[Which order best describes your family's situation?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Chọn/chốt tủ lạnh (thương hiệu, mẫu mã, kích thước) TRƯỚC, sau đó làm tủ bếp theo kích thước đó",
+              "text": "1. Pinili muna namin ang refrigerator bago ginawa ang kitchen cabinets na babagay dito (Chose/finalized the refrigerator (brand, model, size) FIRST, then built the kitchen cabinets to match that size)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Tủ bếp đã được làm/có sẵn TRƯỚC, sau đó chọn tủ lạnh phù hợp với không gian",
+              "text": "2. Nauna ang kitchen cabinets, saka kami pumili ng refrigerator na kasya sa puwang (Kitchen cabinets were already built/existing FIRST, then chose a refrigerator that fits the space)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Cả hai diễn ra gần như đồng thời, có điều chỉnh qua lại giữa thiết kế bếp và lựa chọn tủ lạnh",
+              "text": "3. Halos sabay ang pagpaplano at may ilang pagbabago sa sukat o disenyo habang ginagawa (Both happened at almost the same time, with back-and-forth adjustments between kitchen design and refrigerator choice)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -654,56 +654,56 @@
         {
           "id": "Q401",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nNếu Anh/Chị có sử dụng kiến trúc sư/nhà thiết kế nội thất, họ ảnh hưởng đến lựa chọn tủ lạnh của Anh/Chị ở mức độ nào?",
+          "text": "Kung may architect o interior designer kayo, gaano kalaki ang naging epekto ng payo nila sa pagpili ninyo ng refrigerator?\n[If you used an architect/interior designer, how much did they influence your refrigerator choice?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không ảnh hưởng",
+              "text": "1. Walang epekto (No influence at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Ảnh hưởng rất ít",
+              "text": "2. Kaunti lang ang epekto (Very little influence)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Ảnh hưởng ít",
+              "text": "3. Medyo may epekto (Some influence)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Ảnh hưởng ở mức vừa phải",
+              "text": "4. Katamtaman ang epekto (Moderate influence)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Khá ảnh hưởng",
+              "text": "5. Malaki-laki ang epekto (Quite a lot of influence)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Ảnh hưởng nhiều",
+              "text": "6. Malaki ang epekto (A lot of influence)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Ảnh hưởng rất nhiều",
+              "text": "7. Napakalaki ng epekto (Very strong influence)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -735,14 +735,14 @@
         {
           "id": "Q402",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKiến trúc sư/nhà thiết kế đã ảnh hưởng đến quyết định của Anh/Chị theo cách nào?\nChọn tất cả các phương án phù hợp",
+          "text": "Paano nakaapekto ang architect o designer sa desisyon ninyo?\n[In what way did the architect/designer influence your decision?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tư vấn về kích thước/độ vừa vặn với không gian bếp",
+              "text": "1. Nagpayo tungkol sa sukat at kung magkakasya sa kusina (Advised on size/fit with the kitchen space)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -750,7 +750,7 @@
               "is_header": false
             },
             {
-              "text": "2. Tư vấn về phối màu với tủ bếp",
+              "text": "2. Nagpayo tungkol sa kulay na babagay sa cabinets (Advised on color matching with the kitchen cabinets)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -758,7 +758,7 @@
               "is_header": false
             },
             {
-              "text": "3. Đề xuất/giới thiệu một thương hiệu hoặc mẫu cụ thể",
+              "text": "3. Nagrekomenda ng brand o model (Suggested/recommended a specific brand or model)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -766,7 +766,7 @@
               "is_header": false
             },
             {
-              "text": "4. Truyền cảm hứng, giúp tôi hình dung lựa chọn phù hợp",
+              "text": "4. Nagbigay ng ideas at tumulong pumili (Inspired me, helped me picture the right choice)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -774,7 +774,7 @@
               "is_header": false
             },
             {
-              "text": "5. Lựa chọn thương hiệu và mẫu cụ thể",
+              "text": "5. Sila ang pumili ng brand at model (Selected the specific brand and model.)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -782,7 +782,7 @@
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ:...)",
+              "text": "6. Iba pa (pakitukoy) (Other (please specify))",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -815,56 +815,56 @@
         {
           "id": "Q403",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nNhân viên bán hàng tại cửa hàng ảnh hưởng đến QUYẾT ĐỊNH CUỐI CÙNG của Anh/Chị ở mức độ nào?",
+          "text": "Gaano kalaki ang naging epekto ng salesperson sa tindahan sa huli ninyong desisyon?\n[How much did the store salesperson influence your FINAL decision?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không ảnh hưởng",
+              "text": "1. Walang epekto (No influence at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Ảnh hưởng rất ít",
+              "text": "2. Kaunti lang ang epekto (Very little influence)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Ảnh hưởng ít",
+              "text": "3. Medyo may epekto (Some influence)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Ảnh hưởng ở mức vừa phải",
+              "text": "4. Katamtaman ang epekto (Moderate influence)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Khá ảnh hưởng",
+              "text": "5. Malaki-laki ang epekto (Quite a lot of influence)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Ảnh hưởng nhiều",
+              "text": "6. Malaki ang epekto (A lot of influence)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Ảnh hưởng rất nhiều",
+              "text": "7. Napakalaki ng epekto (Very strong influence)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -896,28 +896,28 @@
         {
           "id": "Q404",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrước khi đến cửa hàng, Anh/Chị đã quyết định rõ đến mức nào về mẫu mã/thương hiệu tủ lạnh muốn mua?",
+          "text": "Bago kayo pumunta sa tindahan, gaano na kayo kasigurado sa refrigerator na gusto ninyong bilhin?\n[Before going to the store, how clearly had you already decided on the model/brand you wanted to buy?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đã quyết định rõ thương hiệu và mẫu cụ thể trước khi đến cửa hàng",
+              "text": "1. Napili ko na ang brand at model (Had clearly decided on the specific brand and model before going to the store)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Có 2-3 lựa chọn để so sánh, chưa quyết định hoàn toàn",
+              "text": "2. May 2–3 pagpipilian pa akong pinagkukumpara (Had 2-3 options to compare, not fully decided yet)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Chưa có lựa chọn cụ thể, cần được tư vấn tại cửa hàng",
+              "text": "3. Wala pa akong napipili at kailangan ko ng payo sa tindahan (Had no specific choice yet, needed advice at the store)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -949,7 +949,7 @@
         {
           "id": "HD0",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên. Lúc này PVV mở [SHOWPHOTO Q501], trong đó có phần giới thiệu về khái niệm tủ âm tường.\nSau đó, PVV nói:\n“Bây giờ em muốn hỏi Anh/Chị một vài câu hỏi về tủ lạnh âm tường. Đây là phần mô tả về dòng sản phẩm này. Em sẽ đọc qua một lần, Anh/Chị vui lòng đọc theo và xem kỹ nội dung cùng em nhé.”\nSau khi đọc xong, PVV xác nhận rằng đáp viên đã hiểu đầy đủ thông tin trước khi tiếp tục hỏi các câu hỏi tiếp theo.",
+          "text": "PANUTO PARA SA INTERVIEWER:\nMaghanda ng dalawang kopya ng concept sheet na nagpapakilala sa built-in/slot-in refrigerator—isa para sa interviewer at isa para sa respondent.\nPagkatapos, sabihin ng interviewer: “Ngayon, nais ko kayong tanungin ng ilang katanungan tungkol sa konsepto ng built-in/slot-in refrigerator.”\n[INTERVIEWER INSTRUCTION: The interviewer prepares two copies of the concept sheet introducing the built-in/ slot-in refrigerator - one for themselves and one for the respondent.\nThen, the interviewer say: \" Now I would  like to ask you a few questions about the built-in/ slot-in refrigerator concept; here is a description of this product line. I will read it through once, and I would like you to follow along and read it carefully with me.\"\nOnce finished, the interviewer confirms that the respondent has fully understood the information before proceeding with the questions. ]",
           "note": "",
           "media": "",
           "record": false,
@@ -981,14 +981,14 @@
         {
           "id": "Q501",
           "type": "MULTI",
-          "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp\n",
+          "text": "[IPAKITA ANG LARAWAN]\nSaan ninyo unang narinig o nakita ang tungkol sa built-in/slot-in refrigerator—refrigerator na halos eksaktong kasya sa kitchen cabinets at halos walang pagitan?\n[[SHOW PHOTO]\nWhere did you first learn about the \"built-in/slot-in\" refrigerator concept (a refrigerator that fits fully into the kitchen cabinets, almost no gap)?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tìm kiếm thông tin về nhà bếp/nhà ở trên Internet (Google, Pinterest, TikTok...) khi có nhu cầu xây mới hoặc cải tạo nhà",
+              "text": "1. Habang naghahanap online ng ideas para sa bahay o kusina (Google, Pinterest, TikTok) (Searched online for home/kitchen info (Google, Pinterest, TikTok...) while needing to renovate/build a house)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -996,7 +996,7 @@
               "is_header": false
             },
             {
-              "text": "2. Quảng cáo/website của thương hiệu hoặc cửa hàng điện máy",
+              "text": "2. Sa advertisement o website ng brand/appliance store (Ads/website of the brand or an electronics store)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1004,7 +1004,7 @@
               "is_header": false
             },
             {
-              "text": "3. Video của KOL, các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...)",
+              "text": "3. Sa videos ng content creators o sa Facebook groups (KOL videos, Facebook groups (Home Lovers, Kitchen Lovers...))",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1012,7 +1012,7 @@
               "is_header": false
             },
             {
-              "text": "4. Tận mắt nhìn thấy tại nhà bạn bè/dự án nhà mẫu/trong phim",
+              "text": "4. Nakita sa bahay ng kaibigan, model house o pelikula (Saw it in person at a friend's home/a model project/in a movie)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1020,7 +1020,7 @@
               "is_header": false
             },
             {
-              "text": "5. Được kiến trúc sư/nhà thiết kế giới thiệu",
+              "text": "5. Ipinakilala ng architect o designer (An architect/designer introduced it)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1028,7 +1028,7 @@
               "is_header": false
             },
             {
-              "text": "6. Được nhân viên bán hàng tại cửa hàng giới thiệu",
+              "text": "6. Ipinakilala ng salesperson sa tindahan (A store salesperson introduced it)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1036,7 +1036,7 @@
               "is_header": false
             },
             {
-              "text": "7. Chưa từng nghe đến khái niệm này trước khi tham gia khảo sát này",
+              "text": "7. Ngayon ko lang narinig ang konseptong ito (Never heard of this concept before joining this survey)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1069,7 +1069,7 @@
         {
           "id": "HD1",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của 2 mẫu tủ lạnh A và B.”",
+          "text": "PANUTO PARA SA INTERVIEWER – PHOTO OBSERVATION:\nSabihin ng interviewer: “Ngayon ay magpapakita ako sa inyo ng ilang larawan ng isang bagong-bagong refrigerator model at magtatanong ako ng ilang katanungan tungkol dito.”\nHakbang 1: Obserbahan ang exterior [IPAKITA ANG LARAWAN].\nIpakita ang exterior photos ng Refrigerator Models A at B.\n[INTERVIEWER INSTRUCTION - PHOTO OBSERVATION\nInterviewer says: \"I would now like to show you some photos of a brand-new refrigerator model and ask you a few questions.\"\nStep 1: Observe the exterior [SHOW PHOTO]\nInterviewer shows the exterior photos of Refrigerator Models A and B. Interviewer says: \"Please take a look at the exterior of the 2 refrigerator models, A and B, in these photos.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -1101,56 +1101,56 @@
         {
           "id": "Q601",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh A hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang itsura ng Model A?\n[[SHOW PHOTO]\nDo you find the design of Model A appealing?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1182,56 +1182,56 @@
         {
           "id": "Q602",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh B hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang itsura ng Model B?\n[[SHOW PHOTO]\nDo you find the design of Model B appealing?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1263,21 +1263,21 @@
         {
           "id": "Q603",
           "type": "SINGLE",
-          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh chị thích mẫu tủ lạnh nào hơn?",
+          "text": "[IPAKITA ANG LARAWAN]\nSa dalawang refrigerator na ito, Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO]\nComparing the two refrigerator models A and B, which one do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Mẫu A",
+              "text": "1. Model A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Mẫu B",
+              "text": "2. Model B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1309,7 +1309,7 @@
         {
           "id": "HD2",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN – QUAN SÁT MOCK-UP SẢN PHẨM:\nPVV hướng dẫn đáp viên đứng đối diện với mẫu tủ lạnh A, sau đó thực hiện các bước sau:\n\nBước 2: Giới thiệu thông tin sản phẩm. Lúc này, PVV mở [SHOWPHOTO trước Q604] để đáp viên nắm được thông tin và các tính năng của sản phẩm. PVV nói: “Anh/chị vui lòng xem qua thông tin về mẫu tủ lạnh A trong phần giới thiệu sau đây nhé.”\nSau khi đáp viên đọc xong, PVV chuyển sang Bước 3.\n\nBước 3: Quan sát bên trong tủ lạnh, tủ lạnh KHÔNG CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU bên trong. PVV nói: “Tiếp theo, em sẽ mở tủ lạnh ra. Anh/chị vui lòng quan sát bên trong giúp em nhé.”",
+          "text": "PANUTO PARA SA INTERVIEWER – PHOTO OBSERVATION: MODEL A\nIpagpatuloy ang pagpapakita ng mga larawan ng Refrigerator Model A.\nHakbang 2: Product introduction [IPAKITA ANG LARAWAN].\nIpakita ang product introduction upang maunawaan ng respondent ang impormasyon at mga feature ng produkto.\n[INTERVIEWER INSTRUCTION - PHOTO OBSERVATION: MODEL A\nThe interviewer continues with the photos of Refrigerator Model A, then:\nStep 2: Product introduction [SHOW PHOTO]\nInterviewer shows the product introduction so the respondent understands the product information and features. Interviewer says: \"Please take a look at the information about this Refrigerator Model A in the following introduction.\"\nOnce the respondent has finished reading, the interviewer moves to Step 3.\nStep 3: Observe the interior, UNPLUGGED and WITHOUT sample food [SHOW PHOTO]\nInterviewer shows the interior photo of Model A (unplugged, no food). Interviewer says: \"Next, I will show you a photo of the inside of this refrigerator. Please take a look inside for me.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -1341,56 +1341,56 @@
         {
           "id": "Q604",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design ng refrigerator na ito?\n[[SHOW PHOTO]\nDo you find the dark-inner design of this refrigerator appealing?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1422,7 +1422,7 @@
         {
           "id": "Q605",
           "type": "OPEN",
-          "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
+          "text": "[IPAKITA ANG LARAWAN]\nBakit po iyon ang naging sagot ninyo?\n[[SHOW PHOTO]\nWhy do you feel that way?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1510,7 +1510,7 @@
         {
           "id": "HD2b",
           "type": "EMPTY",
-          "text": "Bước 4: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ cắm điện cho tủ lạnh. Anh/chị vui lòng quan sát nhé.”",
+          "text": "Hakbang 4: Obserbahan ang interior, NAKASAKSAK at WALANG sample na pagkain [IPAKITA ANG LARAWAN].\nIpakita ang interior photo ng Model A (nakasaksak, walang pagkain). Sabihin: “Ngayon ay magpapakita ako ng larawan ng refrigerator na ito habang nakasaksak. Pakitingnan ang loob nito.”\n[Step 4: Observe the interior, PLUGGED and WITHOUT sample food [SHOW PHOTO]\nInterviewer shows the interior photo of Model A (plugged in, no food). Interviewer says: \"Next, I will show you a photo of this refrigerator when it is plugged in. Please take a look.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -1542,56 +1542,56 @@
         {
           "id": "Q606",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design habang nakasaksak ang refrigerator?\n[[SHOW PHOTO]\nDo you find the dark-inner design of this refrigerator after being plugged appealing?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1623,7 +1623,7 @@
         {
           "id": "HD2c",
           "type": "EMPTY",
-          "text": "Bước 5: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ đặt một số thực phẩm mẫu vào trong tủ lạnh để anh/chị có thể quan sát kỹ hơn nhé.”\n\nPVV đặt các thực phẩm mẫu đã được chuẩn bị sẵn vào trong tủ lạnh để đáp viên quan sát\n",
+          "text": "Hakbang 5: Obserbahan ang interior, NAKASAKSAK at MAY sample na pagkain [IPAKITA ANG LARAWAN].\nIpakita ang interior photo ng Model A (nakasaksak, may sample na pagkain). Sabihin: “Ngayon ay magpapakita ako ng larawan ng refrigerator na ito na may ilang pagkain sa loob para masuri ninyo nang mabuti.”\n[Step 5: Observe the interior, PLUGGED and WITH sample food [SHOW PHOTO]\nInterviewer shows the interior photo of Model A (plugged in, with sample food items). Interviewer says: \"Next, I will show you a photo of this refrigerator with some food items inside so you can take a closer look.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -1655,56 +1655,56 @@
         {
           "id": "Q607",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện và đặt thực phẩm bên trong hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design kapag nakasaksak ang refrigerator at may pagkain sa loob?\n[[SHOW PHOTO]\nDo you find the Dark-Inner design of this refrigerator after being plugged with some food displayed appealing?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1736,14 +1736,14 @@
         {
           "id": "Q608",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nAnh/Chị ĐỒNG Ý với những phát biểu nào dưới đây về chiếc tủ lạnh có nội thất tối màu mà Anh/Chị vừa xem?\nChọn tất cả các phương án phù hợp",
+          "text": "Alin sa mga pahayag na ito ang sang-ayon kayo tungkol sa refrigerator na may dark inner design?\n[Which of the following statements do you AGREE with about the Dark-Inner refrigerator you just saw?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Cảm giác độc đáo, hiện đại hơn",
+              "text": "1. Mukhang kakaiba at moderno (Feels more unique, modern)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1751,7 +1751,7 @@
               "is_header": false
             },
             {
-              "text": "2. Mang cảm giác là một thiết kế dẫn đầu trong phân khúc cao cấp",
+              "text": "2. Mukhang premium ang disenyo (Feels like a leading design for premium segment)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1759,7 +1759,7 @@
               "is_header": false
             },
             {
-              "text": "3. Cảm giác độc đáo, hiện đại và cao cấp hơn so với nội thất màu trắng thông thường",
+              "text": "3. Mas moderno at premium kaysa sa karaniwang puting loob (Feels more unique, modern, and premium than a regular white interior)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1767,7 +1767,7 @@
               "is_header": false
             },
             {
-              "text": "4. Màu sắc bên trong đồng bộ với màu sắc bên ngoài của tủ lạnh",
+              "text": "4. Bagay ang kulay sa labas ng refrigerator (It matches the outer color of the refrigerator)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1775,7 +1775,7 @@
               "is_header": false
             },
             {
-              "text": "5. Mang cảm giác “old-money”: tinh tế, cổ điển và sang trọng",
+              "text": "5. Mukhang elegante, simple at de-kalidad (Gives the refrigerator an old-money feel: refined, classic, high-class)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1783,7 +1783,7 @@
               "is_header": false
             },
             {
-              "text": "6. Nội thất màu đen sẽ ít bị ngả vàng/phai màu theo thời gian hơn so với màu trắng",
+              "text": "6. Hindi agad halata ang paninilaw o pagbabago ng kulay kumpara sa puti (Black interior will yellow/fade less over time than white)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1791,7 +1791,7 @@
               "is_header": false
             },
             {
-              "text": "7. Cảm giác tối và u ám, khiến thực phẩm trông kém tươi ngon hơn",
+              "text": "7. Mukhang madilim at baka hindi makita kung sariwa pa ang pagkain (Feels dark and gloomy, makes food look less fresh)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1799,7 +1799,7 @@
               "is_header": false
             },
             {
-              "text": "8. Khó nhìn thấy bụi bẩn/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vấn đề vệ sinh",
+              "text": "8. Baka mahirap mapansin ang dumi o mantsa kaya mag-alala ako sa kalinisan (Harder to spot dust/stains than a white interior, makes me worried about hygiene)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -1807,7 +1807,7 @@
               "is_header": false
             },
             {
-              "text": "9. Có cảm giác nội thất màu đen hấp thụ nhiệt nhiều hơn, có thể tiêu tốn nhiều điện hơn",
+              "text": "9. Baka mas uminit ang loob at gumamit ng mas maraming kuryente (Feels like it absorbs more heat, could use more electricity)",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -1815,7 +1815,7 @@
               "is_header": false
             },
             {
-              "text": "10. Không có nhận xét cụ thể",
+              "text": "10. Wala akong partikular na opinyon (No particular comment)",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -1848,7 +1848,7 @@
         {
           "id": "Q609",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nDưới đây là một số tên gọi đề xuất cho dòng tủ lạnh có nội thất tối màu. Anh/Chị vui lòng chọn 2 tên mà Anh/Chị cảm thấy phù hợp nhất với dòng tủ lạnh này.\n[Chọn 2 tên]",
+          "text": "Alin sa mga pangalan ang pinakabagay sa Dark-Inner concept? Pumili ng 2.\n[Please find following Name Concept for Dark inner. Choose 2 names you feel most similar to this Dark inner concept. - Choose 2 answers]",
           "note": "",
           "media": "",
           "record": false,
@@ -1871,7 +1871,7 @@
               "is_header": false
             },
             {
-              "text": "3. Food gallery",
+              "text": "3. Food Gallery",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1919,11 +1919,11 @@
               "is_header": false
             },
             {
-              "text": "9. Tôi không hiểu / Tôi không thích tên gọi nào",
+              "text": "9. Wala akong maintindihan o mapiling pangalan (I don't understand/ I don't prefer any names)",
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": true,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
@@ -1952,7 +1952,7 @@
         {
           "id": "Q610",
           "type": "OPEN",
-          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "text": "Bakit po ang dalawang pangalang iyon ang pinili ninyo?\n[Please explain why did you choose that 2 names?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1984,7 +1984,7 @@
         {
           "id": "HD3",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên đứng trước mẫu tủ lạnh B (tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU bên trong), sau đó nói: “Bây giờ em sẽ mở tủ lạnh này. Anh/chị vui lòng quan sát phần nội thất bên trong mẫu tủ này nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi nhé ạ”",
+          "text": "PANUTO PARA SA INTERVIEWER – PHOTO OBSERVATION: MODEL B\nIpagpatuloy ang pagpapakita ng mga larawan ng Refrigerator Model B na NAKASAKSAK at MAY sample na pagkain sa loob. [IPAKITA ANG LARAWAN]\nIpakita ang interior photo ng Model B. Sabihin: “Ngayon ay magpapakita ako ng larawan ng loob ng refrigerator na ito. Pakitingnan ang interior ng model na ito. Pagkatapos, magtatanong ako ng ilang katanungan.”\n[INTERVIEWER INSTRUCTION - PHOTO OBSERVATION: MODEL B\nThe interviewer continues with the photos of Refrigerator Model B, which is shown PLUGGED and WITH sample food inside. [SHOW PHOTO]\nInterviewer shows the interior photo of Model B (plugged in, with sample food items). Interviewer says: \"Now I will show you a photo of the inside of this refrigerator. Please take a look at the interior of this model. After that, I will ask you a few questions.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -2016,21 +2016,21 @@
         {
           "id": "Q611",
           "type": "SINGLE",
-          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh/chị thích mẫu tủ lạnh nào hơn?",
+          "text": "[IPAKITA ANG LARAWAN]\nSa dalawang refrigerator na Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO]\nComparing the two refrigerator models A and B, which one do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Mẫu A",
+              "text": "1. Model A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Mẫu B",
+              "text": "2. Model B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2062,7 +2062,7 @@
         {
           "id": "HD3b",
           "type": "EMPTY",
-          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa cho cả 2 mẫu tủ lạnh này nhen ạ”",
+          "text": "PANUTO PARA SA INTERVIEWER:\nIpakita ang mga larawan ng parehong refrigerator models na kinunan habang patay ang ilaw sa kuwarto. [IPAKITA ANG LARAWAN]\nSabihin: “Ngayon ay magpapakita ako ng mga larawan ng parehong refrigerator models habang patay ang mga ilaw. Pakitingnan muli ang dalawang model.”\n[INTERVIEWER INSTRUCTION: Interviewer shows the photos of both refrigerator models taken with the room lights off. [SHOW PHOTO]\nInterviewer says: \"Now I will show you photos of both refrigerator models with the lights turned off. Please take another look at both models.\"]",
           "note": "",
           "media": "",
           "record": false,
@@ -2093,21 +2093,21 @@
         {
           "id": "Q612",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nSau khi xem tủ lạnh được trưng bày trong phòng tối với thực phẩm mẫu, anh/chị thích mẫu sản phẩm nào hơn?",
+          "text": "[IPAKITA ANG LARAWAN]\nKapag madilim ang kuwarto at may pagkain sa loob ng refrigerator, alin ang mas gusto ninyong lighting?\n[[SHOW PHOTO]\nAfter seeing this fridge condition in dark room with fake food, which lightning condition do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Mẫu A",
+              "text": "1. Model A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Mẫu B",
+              "text": "2. Model B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2139,7 +2139,7 @@
         {
           "id": "Q613",
           "type": "OPEN",
-          "text": "Vì sao anh/chị thích sản phẩm đó hơn? ",
+          "text": "[IPAKITA ANG LARAWAN]\nBakit iyon ang pinili ninyo?\n[[SHOW PHOTO]\nPlease explain why did you choose that product?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2170,7 +2170,7 @@
         {
           "id": "HD3c",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên quay lại bàn phỏng vấn và tiếp tục thực hiện các nội dung phỏng vấn còn lại.\nPVV nói: “Tiếp theo, em mời Anh/Chị quay lại bàn phỏng vấn để tiếp tục phần phỏng vấn còn lại nhé.”\nHƯỚNG DẪN PHỎNG VẤN VIÊN: PVV giới thiệu cho đáp viên về tính năng VHF. Lúc này, PVV mở [SHOWPHOTO Q614].\nPVV nói: “Bây giờ, em xin giới thiệu với anh/chị một tính năng có tên là VHF (Rã đông nhanh). Tính năng này giúp rã đông thực phẩm (thịt, cá) trong khoảng 15 phút, giữ được màu sắc tươi ngon của thực phẩm, không làm thực phẩm bị đọng nước và có thể chế biến ngay sau khi rã đông. Anh/chị vui lòng dành chút thời gian đọc kỹ thông tin về tính năng này trong hình ảnh được hiển thị ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài ý kiến về tính năng này.”\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
+          "text": "PANUTO PARA SA INTERVIEWER:\nIpakilala sa respondent ang VHF feature.\nSabihin: “Ngayon, ipakikilala ko sa inyo ang isang feature na tinatawag na VHF (High-Frequency Defrost): nade-defrost nito ang pagkain (karne, isda) sa loob ng humigit-kumulang 15 minuto, napapanatili ang sariwang kulay nito, walang naiiwang tubig sa pagkain, at maaari na kayong magluto agad. Maglaan muna ng sandali upang basahin ang konseptong ipinapakita sa larawan. Pagkatapos, tatanungin ko kayo tungkol sa inyong mga opinyon dito.”\nKapag tapos na, tiyakin ng interviewer na lubos na naunawaan ng respondent ang impormasyon bago magpatuloy.\n[INTERVIEWER INSTRUCTION: Interview introduces to respondent VHF feature. \nInterviewer says: \"Now, let me introduce a feature called VHF (High-Frequency Defrost): it defrosts food (meat, fish) in about 15 minutes, keeps the fresh color, leaves no water on the food, and let you cook right away. Please take a moment to read through the concept in the photo shown here. Then, I’ll ask you for your opinions about it.”\nOnce finished, the interviewer confirms that the respondent has fully understood the information before proceeding with the questions. ]",
           "note": "",
           "media": "",
           "record": false,
@@ -2201,56 +2201,56 @@
         {
           "id": "Q614",
           "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nAnh/Chị thấy tính năng VHF (Rã đông nhanh) này HẤP DẪN ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nHow APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2282,7 +2282,7 @@
         {
           "id": "Q615",
           "type": "OPEN",
-          "text": "Vì sao Anh/Chị cảm thấy như vậy về tính năng VHF (Rã đông nhanh)?",
+          "text": "Bakit iyon ang pakiramdam ninyo tungkol sa VHF feature?\n[Why do you feel that way about the VHF feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2314,7 +2314,7 @@
         {
           "id": "HD4",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị [SHOWPHOTO Q616] thể hiện vị trí ngăn VHF.\nPVV nói: “Bây giờ, em muốn hỏi anh/chị về vị trí ngăn VHF mà anh/chị ưu tiên. Có 2 phương án được thể hiện trong hình ảnh này, anh/chị vui lòng xem qua nhé.”\nSau khi đáp viên xem xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.",
+          "text": "PANUTO PARA SA INTERVIEWER:\nIhanda ang larawan na nagpapakita ng lokasyon ng VHF compartment.\nSabihin: “Ngayon ay nais ko kayong tanungin tungkol sa lokasyon ng VHF compartment na mas gusto ninyo. May 2 konsepto na ipinapakita sa larawang ito; pakitingnan ito.”\nKapag tapos na, tiyakin ng interviewer na lubos na naunawaan ng respondent ang impormasyon bago magpatuloy.\n[INTERVIEWER INSTRUCTION: Interviewer prepare the showphoto of VHF compartment location.\nInterviewer says: \"Now I would like to ask you about the location of VHF compartment you prefer. There are 2 concepts shown in this photo, please take a look at it.\nOnce finished, the interviewer confirms that the respondent has fully understood the information before proceeding with the questions. ]",
           "note": "",
           "media": "",
           "record": false,
@@ -2346,21 +2346,21 @@
         {
           "id": "Q616",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD]\nAnh/chị muốn ngăn VHF (Rã đông nhanh) được đặt tại vị trí nào trong tủ lạnh?",
+          "text": "[IPAKITA ANG LARAWAN]\nSaan ninyo mas gustong ilagay ang VHF compartment?\n[[SHOWPHOTO]\nWhere do you want VHF compartment to be placed?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Ngăn VHF được đặt trong ngăn Prime Fresh / ngăn đông mềm",
+              "text": "1. Sa Prime Fresh / soft-freezing compartment (VHF compartment located in the Prime Fresh / soft-freezing compartment)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Ngăn VHF được đặt trong ngăn đông",
+              "text": "2. Sa freezer compartment (VHF compartment located in the freezer compartment)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2392,14 +2392,14 @@
         {
           "id": "Q617",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nAnh/chị sẽ sử dụng chức năng VHF (Rã đông nhanh) cho những loại thực phẩm nào?",
+          "text": "Anong mga pagkain ang gagamitin ninyo sa VHF function? Piliin ang lahat ng naaangkop.\n[For which types of food would you use this VHF function? (Select all that apply)]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Thịt sống (thịt bò, thịt heo, thịt gà/gia cầm, thịt cừu, thịt dê)",
+              "text": "1. Hilaw na karne (baka, baboy, manok at iba pa) (Raw meat (beef, pork, chicken/poultry, other meat such as lamb or goat))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2407,7 +2407,7 @@
               "is_header": false
             },
             {
-              "text": "2. Hải sản tươi sống (cá, tôm, mực/bạch tuộc/các loại có vỏ như nghêu, sò, ốc)",
+              "text": "2. Hilaw na seafood (isda, hipon, pusit at shellfish) (Raw seafood (fish, shrimp/prawns, squid/octopus/shellfish))",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2415,7 +2415,7 @@
               "is_header": false
             },
             {
-              "text": "3. Rau củ & trái cây",
+              "text": "3. Gulay at prutas (Vegetables & fruits (leafy greens, vegetables, fruits))",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2423,7 +2423,7 @@
               "is_header": false
             },
             {
-              "text": "4. Thực phẩm đã sơ chế nhưng chưa nấu chín",
+              "text": "4. Mga pagkaing inihanda pero hindi pa niluluto (marinated na karne/isda, ready-to-cook meals, sausage, ham, meatballs, dumplings) (Prepared but not yet cooked food (marinated/pre-seasoned meat or fish, ready-to-cook meal kits, processed food such as sausages, ham, meatballs, dumplings))",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2431,7 +2431,7 @@
               "is_header": false
             },
             {
-              "text": "5. Thức ăn đã nấu chín",
+              "text": "5. Lutong pagkain o tira-tirang ulam, sopas at sabaw (Cooked food (cooked dishes/leftovers, soups, stews, broths))",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2439,7 +2439,7 @@
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ)",
+              "text": "6. Iba pa (pakitukoy) (Other (please specify): ________)",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -2472,14 +2472,14 @@
         {
           "id": "Q618",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nào anh/chị sẽ dùng đến tính năng này?",
+          "text": "Kailan ninyo gagamitin ang function na ito? Piliin ang lahat ng naaangkop.\n[When would you use this function?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Khi tôi mua thịt/cá tươi và muốn bảo quản vài ngày trước khi nấu",
+              "text": "1. Kapag bumili ako ng sariwang karne o isda na lulutuin ko pa makalipas ang ilang araw (When I buy fresh meat/fish and want to store it for a few days before cooking)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2487,7 +2487,7 @@
               "is_header": false
             },
             {
-              "text": "2. Khi tôi rã đông thực phẩm từ trước để chuẩn bị cho bữa ăn ngày hôm sau",
+              "text": "2. Kapag gusto kong ihanda nang maaga ang frozen food para sa susunod na araw (When I defrost frozen food in advance for the next day's meals)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2495,7 +2495,7 @@
               "is_header": false
             },
             {
-              "text": "3. Khi tôi lên kế hoạch bữa ăn cho cả tuần và muốn sơ chế trước",
+              "text": "3. Kapag nagpaplano ako ng mga lulutuin para sa buong linggo (When I plan meals for the whole week and want to prep ahead)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2503,7 +2503,7 @@
               "is_header": false
             },
             {
-              "text": "4. Khi tôi nấu ăn cho những buổi họp mặt gia đình, tiệc tùng hoặc khi có khách",
+              "text": "4. Kapag may handaan, party o bisita (When I cook for family gatherings, parties, or guests)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2511,7 +2511,7 @@
               "is_header": false
             },
             {
-              "text": "5. Vào những ngày thường bận rộn, khi tôi cần nấu nhanh sau giờ làm",
+              "text": "5. Kapag abala sa trabaho at gusto kong makapagluto agad pag-uwi (On busy weekdays when I need to cook quickly after work)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2519,7 +2519,7 @@
               "is_header": false
             },
             {
-              "text": "6. Khi tôi chưa biết sẽ nấu món gì và muốn có thêm lựa chọn",
+              "text": "6. Kapag hindi pa ako sigurado kung ano ang lulutuin (When I am not sure what to cook yet and want to keep options open)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2527,7 +2527,7 @@
               "is_header": false
             },
             {
-              "text": "7. Khi tôi rã đông quá nhiều và không thể dùng hết một lần",
+              "text": "7. Kapag sobra ang na-defrost at hindi ko magagamit lahat agad (When I defrost too much and cannot use it all at once)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2535,7 +2535,7 @@
               "is_header": false
             },
             {
-              "text": "8. Khác (vui lòng ghi rõ)",
+              "text": "8. Iba pa (pakitukoy) (Other (please specify): ________)",
               "code": "8",
               "media": "",
               "is_other": true,
@@ -2568,14 +2568,14 @@
         {
           "id": "Q619",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nVui lòng cho biết các cảm nhận của anh/chị về tính năng này?\nChọn tất cả các phương án phù hợp ",
+          "text": "Ano ang magiging pakinabang sa inyo ng function na ito? Pumili ng hanggang 3.\n[What feelings would you get from using this function? (Select up to 3)]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Yên tâm (thực phẩm luôn an toàn và tươi ngon)",
+              "text": "1. Panatag ako na sariwa at ligtas ang pagkain (Peace of mind (food stays safe and fresh))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2583,7 +2583,7 @@
               "is_header": false
             },
             {
-              "text": "2. Tiện lợi (không cần chờ rã đông hay rã đông lại)",
+              "text": "2. Hindi ko na kailangang maghintay nang matagal para matunaw ang frozen food (Convenience (no need to wait for defrosting or thaw again))",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2591,7 +2591,7 @@
               "is_header": false
             },
             {
-              "text": "3. Tiết kiệm thời gian (tôi có thể nấu ngay)",
+              "text": "3. Mas mabilis akong makakapagluto (Time-saving (I can cook right away))",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2599,7 +2599,7 @@
               "is_header": false
             },
             {
-              "text": "4. Linh hoạt (tôi có thể quyết định nấu món gì sau)",
+              "text": "4. May oras pa akong magpasya kung ano ang lulutuin (Flexibility (I can decide what to cook later))",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2607,7 +2607,7 @@
               "is_header": false
             },
             {
-              "text": "5. Tự tin mang đến cho gia đình những bữa ăn tươi ngon, chất lượng",
+              "text": "5. Mas kampante akong maghain ng sariwa at de-kalidad na pagkain sa pamilya (Confidence in serving my family fresh, quality food)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2615,7 +2615,7 @@
               "is_header": false
             },
             {
-              "text": "6. Giảm lãng phí thực phẩm, tiết kiệm chi phí hơn",
+              "text": "6. Mas kaunting pagkain ang masasayang (Less food waste, more economical)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2623,7 +2623,7 @@
               "is_header": false
             },
             {
-              "text": "7. Chủ động trong việc lên kế hoạch bữa ăn",
+              "text": "7. Mas madali kong mapaplano ang mga lulutuin (In control of my meal planning)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2631,7 +2631,7 @@
               "is_header": false
             },
             {
-              "text": "8. Hiện đại và cao cấp (như một thiết bị thông minh, sang trọng)",
+              "text": "8. Moderno at high-end ang dating (Modern and premium (like a smart, high-end appliance))",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -2639,7 +2639,7 @@
               "is_header": false
             },
             {
-              "text": "9. Không có cảm nhận gì đặc biệt",
+              "text": "9. Wala akong partikular na mararamdaman (No particular feeling)",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -2647,7 +2647,7 @@
               "is_header": false
             },
             {
-              "text": "10. Khác (vui lòng ghi rõ)",
+              "text": "10. Iba pa (pakitukoy) (Other (please specify): ________)",
               "code": "10",
               "media": "",
               "is_other": true,
@@ -2657,7 +2657,7 @@
           ],
           "topics": [],
           "min": "1",
-          "max": "999",
+          "max": "3",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -2680,14 +2680,14 @@
         {
           "id": "Q620a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nAnh/chị cảm thấy thông điệp nào dưới đây phù hợp với bản thân?\nChọn tất cả các phương án phù hợp ",
+          "text": "Narito ang ilang mensahe tungkol sa VHF.\nAlin sa mga mensahe ang madaling maiugnay sa inyong pangangailangan? Piliin ang lahat ng naaangkop.\n[Below are several communication messages about VHF. ]\nWhich communication messages you find relatable to you? - select all that apply ",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. VHF – Tiết kiệm thời gian mà vẫn đảm bảo chất lượng",
+              "text": "1. Mas mabilis ang paghahanda ng pagkain nang hindi nababawasan ang kalidad. (VHF Saves Time Without Sacrificing Quality.)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -2695,7 +2695,7 @@
               "is_header": false
             },
             {
-              "text": "2. VHF – Thưởng thức độ tươi ngon mà không cần chờ đợi",
+              "text": "2. Sariwa at de-kalidad ang pagkain nang hindi na kailangang maghintay nang matagal. (VHF Delivers Fresh Quality Without the Wait.)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -2703,7 +2703,7 @@
               "is_header": false
             },
             {
-              "text": "3. VHF – Rã đông theo nhu cầu mà vẫn giữ trọn độ tươi ngon",
+              "text": "3. Mabilis na nade-defrost ang pagkain habang napapanatili ang freshness. (VHF Defrosts on Demand While Preserving Freshness.)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -2711,7 +2711,7 @@
               "is_header": false
             },
             {
-              "text": "4. VHF – Tiện lợi tức thì, giữ trọn độ tươi ngon",
+              "text": "4. Mas madali at mabilis ang paghahanda ng sariwa at de-kalidad na pagkain. (VHF Brings Instant Convenience with Fresh Quality.‌)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2719,7 +2719,7 @@
               "is_header": false
             },
             {
-              "text": "5. VHF – Tươi ngon như vừa mới mua, ngay cả sau khi rã đông",
+              "text": "5. Kahit na-defrost na, nananatiling sariwa ang pagkain na parang bagong bili. (VHF Delivers Just-Bought Freshness, Even After Defrosting.)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2727,7 +2727,7 @@
               "is_header": false
             },
             {
-              "text": "6. VHF – Rã đông như một Đầu bếp chuyên nghiệp",
+              "text": "6. Para kang professional chef sa pagde-defrost ng pagkain. (VHF - the way to defrost as a Professional Chief)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2735,7 +2735,7 @@
               "is_header": false
             },
             {
-              "text": "7. Không có thông điệp nào phù hợp với tôi",
+              "text": "7. Wala sa mga mensaheng ito ang angkop sa akin (None of these messages are relatable to me)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2768,49 +2768,49 @@
         {
           "id": "Q620b",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong số đó, anh/chị cảm thấy thông điệp nào PHÙ HỢP VỚI BẢN THÂN NHẤT?\nChọn 1 phương án",
+          "text": "Narito ang ilang mensahe tungkol sa VHF.\nSa mga pinili ninyo, alin ang pinakaangkop sa inyo? Pumili ng isa.\n[Below are several communication messages about VHF. ]\nIn which, which communication messages you find THE MOST relatable to you? -select ONE answer",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. VHF – Tiết kiệm thời gian mà vẫn đảm bảo chất lượng",
+              "text": "1. Mas mabilis ang paghahanda ng pagkain nang hindi nababawasan ang kalidad. (VHF Saves Time Without Sacrificing Quality.)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. VHF – Thưởng thức độ tươi ngon mà không cần chờ đợi",
+              "text": "2. Sariwa at de-kalidad ang pagkain nang hindi na kailangang maghintay nang matagal. (VHF Delivers Fresh Quality Without the Wait.)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. VHF – Rã đông theo nhu cầu mà vẫn giữ trọn độ tươi ngon",
+              "text": "3. Mabilis na nade-defrost ang pagkain habang napapanatili ang freshness. (VHF Defrosts on Demand While Preserving Freshness.)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. VHF – Tiện lợi tức thì, giữ trọn độ tươi ngon",
+              "text": "4. Mas madali at mabilis ang paghahanda ng sariwa at de-kalidad na pagkain. (VHF Brings Instant Convenience with Fresh Quality.‌)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. VHF – Tươi ngon như vừa mới mua, ngay cả sau khi rã đông",
+              "text": "5. Kahit na-defrost na, nananatiling sariwa ang pagkain na parang bagong bili. (VHF Delivers Just-Bought Freshness, Even After Defrosting.)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. VHF – Rã đông như một Đầu bếp chuyên nghiệp",
+              "text": "6. Para kang professional chef sa pagde-defrost ng pagkain. (VHF - the way to defrost as a Professional Chief)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -2842,57 +2842,64 @@
         {
           "id": "Q621",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nAnh/chị sẵn sàng chi thêm bao nhiêu cho tính năng VHF (Rã đông nhanh) này?",
+          "text": "Magkano ang dagdag na handa ninyong bayaran para sa VHF feature na ito?\n[How much extra would you be willing to pay for this VHF feature?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Từ 3.5 – 4 triệu đồng",
+              "text": "1. Mas mababa sa PHP 10,000 (Less than 10,000 PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 4 – 5 triệu đồng",
+              "text": "2. PHP 10,000–15,000",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 5 – 6 triệu đồng",
+              "text": "3. PHP 15,000–20,000",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 6 – 7 triệu đồng",
+              "text": "4. PHP 20,000–25,000",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 7 – 10 triệu đồng",
+              "text": "5. PHP 25,000–30,000",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Trên 10 triệu đồng",
+              "text": "6. PHP 30,000–35,000",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Tôi không sẵn sàng chi thêm",
+              "text": "7. PHP 35,000–40,000",
               "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Ayaw kong magbayad ng dagdag (I'm not willing to pay extra)",
+              "code": "8",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -2923,56 +2930,56 @@
         {
           "id": "Q622",
           "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng Tự động làm đá nhanh: tính năng có thể tạo ra một mẻ đá trong khoảng 45 phút (so với khoảng 120 phút của chu trình làm đá thông thường). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nAng Auto Ice ay kayang gumawa ng isang batch ng yelo sa loob ng mga 45 minuto, kumpara sa karaniwang 120 minuto. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nAuto Ice feature: a feature that can produce a batch of ice in approximately 45 minutes (compared to around 120 minutes for a typical ice-making cycle). How APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3004,49 +3011,49 @@
         {
           "id": "Q623",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nAnh/chị sẵn sàng chi thêm bao nhiêu cho tính năng Tự động làm đá nhanh này? ",
+          "text": "Magkano ang dagdag na handa ninyong bayaran para sa feature na ito?\n[How much extra would you be willing to pay for this feature?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 500 nghìn đồng",
+              "text": "1. Mas mababa sa PHP 1,000 (Less than PHP 1,000)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 500 nghìn – 1 triệu đồng",
+              "text": "2. PHP 1,000–2,500",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 1 – 2 triệu đồng",
+              "text": "3. PHP 2,500–5,000",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 2 – 3 triệu đồng",
+              "text": "4. PHP 5,000–7,000",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 3 – 4 triệu đồng",
+              "text": "5. PHP 7,000–9,000",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Tôi không sẵn sàng chi thêm",
+              "text": "6. Ayaw kong magbayad ng dagdag (I'm not willing to pay extra)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3078,7 +3085,7 @@
         {
           "id": "HD5",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên: “Bây giờ, em muốn hỏi anh/chị về các ý tưởng truyền thông cho tính năng Tự động làm đá nhanh này. Anh/chị vui lòng dành chút thời gian đọc kỹ nội dung và thông điệp trong 3 hình ảnh được thể hiện ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi về các nội dung này.” Lúc này, PVV chuẩn bị [SHOWPHOTO Q624] gồm 3 trang.\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
+          "text": "PANUTO PARA SA INTERVIEWER:\nSabihin sa respondent: “Ngayon, nais ko kayong tanungin tungkol sa communication concepts ng Auto Ice feature.\nMaglaan muna ng sandali upang basahin ang konsepto at mga nakasulat sa 3 larawang ito. Pagkatapos, tatanungin ko kayo tungkol sa inyong mga opinyon.”\nKapag tapos na, tiyakin ng interviewer na lubos na naunawaan ng respondent ang impormasyon bago magpatuloy.\n[INTERVIEWER INSTRUCTION: \nInterviewers say to respondent: \n“Now, I’d like to ask you about the communication concepts of the Auto Ice feature.\nPlease take a moment to read through the concept and writing in these 3 pictures shown here. Then, I’ll ask you for your opinions about them.”\nOnce finished, the interviewer confirms that the respondent has fully understood the information before proceeding with the questions. ]",
           "note": "",
           "media": "",
           "record": false,
@@ -3110,28 +3117,28 @@
         {
           "id": "Q624",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD]\nTrong 3 ý tưởng truyền thông về tính năng tự động làm đá nhanh được thể hiện trong 3 hình ảnh trên, anh/chị thích thông điệp nào nhất?",
+          "text": "[IPAKITA ANG LARAWAN (3 konsepto)]\nSa 3 communication messages tungkol sa Auto Ice feature na ipinapakita sa 3 larawan, aling konsepto ang mas gusto ninyo?\n[[SHOW PHOTO (3 concept)]\nAmong 3 communication messages about Auto Ice feature shown in 3 pictures, which concept do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Ý tưởng A",
+              "text": "1. Concept A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Ý tưởng B",
+              "text": "2. Concept B",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Ý tưởng C",
+              "text": "3. Concept C",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3163,14 +3170,14 @@
         {
           "id": "Q625a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong các thông điệp dưới đây về tính năng làm đá, thông điệp nào anh/chị thấy hấp dẫn?\nChọn TẤT CẢ các phương án phù hợp.",
+          "text": "Alin sa mga pahayag tungkol sa ice maker ang gusto ninyo? Piliin ang lahat ng naaangkop.\n[Which of the following statements about the ice maker appeal to you? Select ALL that apply. ]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đá được làm từ nguồn nước sạch (nước đã được lọc)",
+              "text": "1. Gawa sa malinis na tubig (filtered water) ang yelo (Ice comes from a clean source (filtered water))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3178,7 +3185,7 @@
               "is_header": false
             },
             {
-              "text": "2. Hệ thống làm đá có khả năng tự làm sạch",
+              "text": "2. Kusang nililinis ng ice maker ang sarili nito (The ice maker cleans itself)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3186,7 +3193,7 @@
               "is_header": false
             },
             {
-              "text": "3. Đá không có mùi",
+              "text": "3. Walang amoy ang yelo (Ice is odour-free)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3194,7 +3201,7 @@
               "is_header": false
             },
             {
-              "text": "4. Lấy đá không cần chạm tay",
+              "text": "4. Puwedeng kumuha ng yelo nang hindi kailangang hawakan ang loob ng ice maker (Touch-free: no hands needed to get ice)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3202,7 +3209,7 @@
               "is_header": false
             },
             {
-              "text": "5. Mang lại sự an tâm cho gia đình tôi",
+              "text": "5. Panatag ang loob ko para sa pamilya ko (Peace of mind for my family)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3210,7 +3217,7 @@
               "is_header": false
             },
             {
-              "text": "6. Đảm bảo vệ sinh đã được kiểm chứng (thông qua thử nghiệm hoặc chứng nhận)",
+              "text": "6. May test o certification na nagpapatunay na malinis ito (Proven hygiene (backed by tests or certification))",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3218,7 +3225,7 @@
               "is_header": false
             },
             {
-              "text": "7. Không có thông điệp nào hấp dẫn tôi",
+              "text": "7. Wala sa mga ito ang gusto ko (None of these appeal to me)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3251,49 +3258,49 @@
         {
           "id": "Q625b",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong số các thông điệp anh/chị đã chọn, thông điệp nào hấp dẫn anh/chị NHẤT?\nChọn MỘT phương án.",
+          "text": "Sa mga pinili ninyo, alin ang pinakagusto ninyo? Pumili ng isa.\n[Of the statements you selected, which ONE appeals to you the MOST?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đá được làm từ nguồn nước sạch (nước đã được lọc)",
+              "text": "1. Gawa sa malinis na tubig (filtered water) ang yelo (Ice comes from a clean source (filtered water))",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Hệ thống làm đá có khả năng tự làm sạch",
+              "text": "2. Kusang nililinis ng ice maker ang sarili nito (The ice maker cleans itself)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Đá không có mùi",
+              "text": "3. Walang amoy ang yelo (Ice is odour-free)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Lấy đá không cần chạm tay",
+              "text": "4. Puwedeng kumuha ng yelo nang hindi kailangang hawakan ang loob ng ice maker (Touch-free: no hands needed to get ice)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Mang lại sự an tâm cho gia đình tôi",
+              "text": "5. Panatag ang loob ko para sa pamilya ko (Peace of mind for my family)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Đảm bảo vệ sinh đã được kiểm chứng (thông qua thử nghiệm hoặc chứng nhận)",
+              "text": "6. May test o certification na nagpapatunay na malinis ito (Proven hygiene (backed by tests or certification))",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3325,28 +3332,28 @@
         {
           "id": "Q626",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong các điểm dưới đây, điểm nào khiến anh/chị tin tưởng NHẤT rằng đá được làm ra đảm bảo vệ sinh?",
+          "text": "Alin dito ang pinakakapani-paniwala sa inyo bilang patunay na malinis ang yelo? Pumili ng isa.\n[Which ONE point of the following points make you most believe the ice is hygienic? - select one answer]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Bộ lọc than hoạt tính",
+              "text": "1. Hygiene Carbon Filter (Hygiene Carbon Filter)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Hộp chứa nước kháng khuẩn",
+              "text": "2. BPA-Free Water Tank (BPA-Free Water Tank)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Tự động vệ sinh hệ thống làm đá",
+              "text": "3. Auto Cleaning System (Auto Cleaning System)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3378,14 +3385,14 @@
         {
           "id": "Q627a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nói về đá được làm từ tủ lạnh, cách diễn đạt nào dưới đây khiến anh/chị cảm thấy đáng tin cậy hơn?\nChọn TẤT CẢ các phương án phù hợp",
+          "text": "Kapag yelo sa refrigerator ang pinag-uusapan, alin sa mga salitang ito ang mas kapani-paniwala para sa inyo? Piliin ang lahat ng naaangkop.\n[When talking about ice in the refrigerator, which of the following expressions do you find more believable? Select ALL that apply]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Sạch khuẩn",
+              "text": "1. Walang bacteria (Bacteria-free)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3393,7 +3400,7 @@
               "is_header": false
             },
             {
-              "text": "2. Kháng khuẩn",
+              "text": "2. Antibacterial (Antibacterial)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3401,7 +3408,7 @@
               "is_header": false
             },
             {
-              "text": "3. Tinh khiết",
+              "text": "3. Purong-puro (Pure)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3409,7 +3416,7 @@
               "is_header": false
             },
             {
-              "text": "4. Hợp vệ sinh",
+              "text": "4. Malinis at hygienic (Hygienic)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3417,7 +3424,7 @@
               "is_header": false
             },
             {
-              "text": "5. An toàn",
+              "text": "5. Ligtas (Safe)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3425,7 +3432,7 @@
               "is_header": false
             },
             {
-              "text": "6. Không mùi",
+              "text": "6. Walang amoy (Odour-free)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3433,7 +3440,7 @@
               "is_header": false
             },
             {
-              "text": "7. Không có cách diễn đạt nào đáng tin cậy",
+              "text": "7. Wala sa mga ito ang kapani-paniwala (None of these are credible)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3466,49 +3473,49 @@
         {
           "id": "Q627b",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong số những cách diễn đạt anh/chị vừa chọn, cách diễn đạt nào khiến anh/chị tin tưởng NHẤT?\nChọn MỘT phương án.",
+          "text": "Sa mga pinili ninyo, alin ang pinakakapani-paniwala? Pumili ng isa.\n[Of the words you just chose, which one do you believe the most?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Sạch khuẩn",
+              "text": "1. Walang bacteria (Bacteria-free)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Kháng khuẩn",
+              "text": "2. Antibacterial (Antibacterial)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Tinh khiết",
+              "text": "3. Purong-puro (Pure)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Hợp vệ sinh",
+              "text": "4. Malinis at hygienic (Hygienic)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. An toàn",
+              "text": "5. Ligtas (Safe)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Không mùi",
+              "text": "6. Walang amoy (Odour-free)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3540,56 +3547,56 @@
         {
           "id": "Q628",
           "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng kết nối thông minh/IoT: theo dõi và nhận thông báo trên điện thoại (cửa mở, mức tiêu thụ điện, nhắc bảo trì...). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nAng Smart Connectivity/IoT ay nagbibigay ng alerts sa phone, halimbawa kapag bukas ang pinto, mataas ang konsumo ng kuryente o kailangan ng maintenance. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nSmart connectivity/IoT feature: monitor and get phone alerts (door left open, power usage, maintenance alerts...). How APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3621,14 +3628,14 @@
         {
           "id": "Q629",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?\nChọn tất cả các phương án phù hợp",
+          "text": "Alin sa mga benepisyo ng Smart Connectivity/IoT ang pinaka-kapaki-pakinabang para sa inyo?\n[Of the following benefits of the smart connectivity/IoT feature, which do you find MOST USEFUL?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Cảnh báo khi cửa bị mở (ngăn thất thoát hơi lạnh/thực phẩm bị hỏng)",
+              "text": "1. May alert kapag naiwanang bukas ang pinto, para maiwasan ang paglabas ng lamig o pagkasira ng pagkain (Alert when the door is left open (prevents cold air loss/spoiled food))",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3636,7 +3643,7 @@
               "is_header": false
             },
             {
-              "text": "2. Theo dõi mức tiêu thụ điện hàng tháng",
+              "text": "2. Nakikita ang buwanang konsumo ng kuryente (Tracking monthly power usage)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3644,7 +3651,7 @@
               "is_header": false
             },
             {
-              "text": "3. Theo dõi từ xa đối với nhà nhiều tầng, không cần đi đến kiểm tra trực tiếp",
+              "text": "3. Nasusubaybayan ang refrigerator gamit ang phone kahit nasa ibang palapag (Remote monitoring for multi-story homes, no need to walk over and check)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3652,7 +3659,7 @@
               "is_header": false
             },
             {
-              "text": "4. Không có lợi ích nào thực sự hữu ích",
+              "text": "4. Wala sa mga ito ang kapaki-pakinabang para sa akin (No benefit feels truly useful)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -3685,64 +3692,57 @@
         {
           "id": "Q630",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị tất cả tính năng nêu trên, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm?",
+          "text": "Kung may refrigerator na may apat na feature na ito, magkano ang handa ninyong bayaran? Kailangang kunin ng interviewer ang diperensya sa presyong ito at sa kasalukuyang presyo na sinabi ng respondent sa S6, at ipaalam sa respondent ang diperensya.\n[If there were a refrigerator equipped with all these 4 features, how much would you be willing to pay for it?\nInterviewer need to calculate the differece betweeen current ref price (Answer of S6) and above price. Also, tell the price difference to the customers.]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 60 triệu đồng",
+              "text": "1. Mas mababa sa PHP 100,000 (Under 100,000 PHP)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Từ 60 – 70 triệu đồng",
+              "text": "2. PHP 100,000–115,000",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Từ 71 – 80 triệu đồng",
+              "text": "3. PHP 116,000–130,000",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Từ 81 – 90 triệu đồng",
+              "text": "4. PHP 131,000–145,000",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Từ 91 – 100 triệu đồng",
+              "text": "5. PHP 146,000–160,000",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Từ 101 – 110 triệu đồng",
+              "text": "6. PHP 161,000–175,000",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Từ 111 – 120 triệu đồng",
+              "text": "7. Higit sa PHP 175,000 (Over 175,000 PHP)",
               "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Trên 120 triệu đồng",
-              "code": "8",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -3773,7 +3773,7 @@
         {
           "id": "Q631",
           "type": "OPEN_GRID",
-          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này?",
+          "text": "Aling mga feature ang nagbibigay ng halaga sa dagdag na presyong handa ninyong bayaran?\n[Please explain which functional elements, value in this price difference.]",
           "note": "",
           "media": "",
           "record": false,
@@ -3781,23 +3781,23 @@
           "answers": [],
           "topics": [
             {
-              "text": "1. VHF (Rã đông nhanh)",
+              "text": "1. VFF Quick Defrost/ [1. VFF Quick Defrost]",
               "code": "1"
             },
             {
-              "text": "2. Auto Ice (Làm đá nhanh)",
+              "text": "2. Auto Ice/ [2. Auto Ice]",
               "code": "2"
             },
             {
-              "text": "3. Kết nối thông minh / IoT",
+              "text": "3. Smart Connectivity / IoT/ [3. Smart Connectivity / IoT]",
               "code": "3"
             },
             {
-              "text": "4. Thiết kế nội thất tối màu",
+              "text": "4. Inner Design/ [4. Inner Design]",
               "code": "4"
             },
             {
-              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
+              "text": "5. Prime Fresh/ [5. Prime Fresh]",
               "code": "5"
             }
           ],
@@ -3824,7 +3824,7 @@
         {
           "id": "Q701",
           "type": "RANKING",
-          "text": "[SHOWPHOTO]\nVui lòng xếp hạng các thương hiệu tủ lạnh dưới đây theo mức độ ưu tiên của anh/chị khi lựa chọn tủ lạnh.\nTừ 1 là Ưu tiên cao nhất đến 6 là Ưu tiên thấp nhất",
+          "text": "[IPAKITA ANG LARAWAN]\nAyusin ang mga brand na ito mula 1 hanggang 6 ayon sa pinakaimportante sa inyo kapag pumipili ng refrigerator. Ang 1 ang pinakaimportante at ang 6 ang hindi gaanong importante.\n[[SHOWPHOTO]\nPlease rank the following refrigerator brands from 1 to 6 according to your priority when choosing a refrigerator.\n1 = highest priority / 6 = lowest priority]",
           "note": "",
           "media": "",
           "record": false,
@@ -3871,7 +3871,7 @@
               "is_header": false
             },
             {
-              "text": "6. Aqua",
+              "text": "6. Fujidenzo",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -3904,42 +3904,42 @@
         {
           "id": "Q702",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh, giữa “thương hiệu uy tín” và “xuất xứ của thương hiệu”, yếu tố nào quan trọng hơn đối với anh/chị?",
+          "text": "Kapag pumipili ng refrigerator, alin ang mas mahalaga sa inyo: ang kilala at pinagkakatiwalaang brand o ang bansang pinagmulan nito?\n[When choosing a refrigerator, which is more important to you: a reputable brand or the brand’s country of origin?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Xuất xứ quan trọng hơn nhiều – Tôi ưu tiên thương hiệu có xuất xứ mà tôi tin tưởng, ngay cả khi thương hiệu đó không quen thuộc",
+              "text": "1. Mas mahalaga ang bansang pinagmulan; mas pipiliin ko ang brand mula sa bansang pinagkakatiwalaan ko kahit hindi ko pa kilala ang brand. (Country of origin is much more important – I prioritize brands from countries of origin that I trust, even if the brand itself is not familiar to me.)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Xuất xứ quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về xuất xứ của thương hiệu đó",
+              "text": "2. Mas mahalaga nang kaunti ang bansang pinagmulan kaysa sa pangalan ng brand. (Country of origin is slightly more important – I consider both factors, but place more importance on the brand’s country of origin.)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Cả hai quan trọng như nhau – Tôi cân nhắc đồng thời độ uy tín của thương hiệu và xuất xứ",
+              "text": "3. Pareho silang mahalaga. (Both are equally important – I consider both the reputation of the brand and its country of origin equally.)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Thương hiệu uy tín quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về độ uy tín của thương hiệu",
+              "text": "4. Mas mahalaga nang kaunti ang pangalan at reputasyon ng brand. (Brand reputation is slightly more important – I consider both factors, but place more importance on the brand’s reputation.)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Thương hiệu uy tín quan trọng hơn nhiều – Miễn là tôi tin tưởng thương hiệu, xuất xứ không ảnh hưởng đến quyết định của tôi",
+              "text": "5. Mas mahalaga ang kilala at pinagkakatiwalaang brand; hindi gaanong mahalaga kung saang bansa ito nagmula. (Brand reputation is much more important – As long as I consider the brand reputable, its country of origin does not affect my decision.)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -3971,7 +3971,7 @@
         {
           "id": "HD6",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các Tính Năng Thông Minh của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các Tính Năng Thông Minh được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\nLúc này PVV mở [SHOWPHOTO Q801-Q804] để đáp viên đọc.\n",
+          "text": "PANUTO PARA SA INTERVIEWER:\nSabihin sa respondent: “Susunod, nais ko kayong tanungin ng ilang katanungan tungkol sa Smart Function features ng refrigerator na ito.\nMaglaan muna ng sandali upang tingnan ang Smart Function features na ipinapakita rito. Pagkatapos, tatanungin ko kayo tungkol sa inyong mga saloobin at opinyon tungkol sa mga ito.”\n[INTERVIEWER INSTRUCTION: \nInterviewers say to respondent: \n“Next, I’d like to ask you a few questions about the Smart Function features of this refrigerator.\nPlease take a moment to look at the Smart Function features shown here. Then, I’ll ask you for your thoughts and opinions about them.”]",
           "note": "",
           "media": "",
           "record": false,
@@ -4003,56 +4003,56 @@
         {
           "id": "Q801",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nDựa trên các Tính Năng Thông Minh được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nBatay sa mga Smart Function na ipinakita, gaano ninyo nagustuhan ang mga ito?\n[[SHOW PHOTO]\nBased on the Smart Function features shown above, how appealing do you find these features?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5, Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4084,56 +4084,56 @@
         {
           "id": "Q802",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu có các tính năng Tính Năng Thông Minh này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nKung may ganitong Smart Function, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf these Smart Function features were available, how willing would you be to connect the refrigerator to your smartphone and actively use these functions?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không sẵn lòng",
+              "text": "1. Talagang ayaw kong gawin (Not willing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không sẵn lòng",
+              "text": "2. Ayaw kong gawin (Unwilling)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không sẵn lòng",
+              "text": "3. Medyo ayaw kong gawin (Somewhat unwilling)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Hindi tiyak / neutral (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi sẵn lòng",
+              "text": "5. Medyo handa akong gawin (Somewhat willing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Sẵn lòng",
+              "text": "6. Handa akong gawin (Willing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn sẵn lòng",
+              "text": "7. Lubos akong handang gawin (Very willing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4165,7 +4165,7 @@
         {
           "id": "Q803",
           "type": "OPEN",
-          "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên.",
+          "text": "[IPAKITA ANG LARAWAN]\nAno ang pangunahing dahilan ng sagot ninyo?\n[[SHOW PHOTO] \nPlease explain the main reasons for your answer above]",
           "note": "",
           "media": "",
           "record": false,
@@ -4197,14 +4197,14 @@
         {
           "id": "Q804",
           "type": "MULTI",
-          "text": "[SHOWCARD][SHOWPHOTO]\nAnh/Chị có lo ngại nào về việc sử dụng các tính năng Tính Năng Thông Minh kết nối với điện thoại thông minh không?\nChọn tất cả các phương án phù hợp",
+          "text": "[IPAKITA ANG LARAWAN]\nMay mga bagay ba kayong ikinababahala sa paggamit ng Smart Function na konektado sa smartphone?\n[[SHOW PHOTO]\nDo you have any concerns about using Smart Function features connected to a smartphone?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tôi không thấy đủ lợi ích",
+              "text": "1. Hindi sapat ang pakinabang para sa akin (I do not see enough benefit)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4212,7 +4212,7 @@
               "is_header": false
             },
             {
-              "text": "2. Việc thiết lập có thể phức tạp",
+              "text": "2. Baka mahirap i-set up (The setup may be complicated)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4220,7 +4220,7 @@
               "is_header": false
             },
             {
-              "text": "3. Tôi không thích điều khiển thiết bị gia dụng qua điện thoại thông minh",
+              "text": "3. Mas gusto kong hindi gamitin ang phone para kontrolin ang appliances (I prefer not to control appliances through my smartphone)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4228,7 +4228,7 @@
               "is_header": false
             },
             {
-              "text": "4. Lo ngại về quyền riêng tư hoặc bảo mật dữ liệu",
+              "text": "4. Nag-aalala ako sa privacy o seguridad ng data (Privacy or data security concerns)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4236,7 +4236,7 @@
               "is_header": false
             },
             {
-              "text": "5. Lo ngại về độ tin cậy hoặc vấn đề kỹ thuật",
+              "text": "5. Baka magkaroon ng aberya o technical problem (Concerns about reliability or technical issues)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4244,7 +4244,7 @@
               "is_header": false
             },
             {
-              "text": "6. Có thể tôi sẽ không sử dụng các chức năng thường xuyên",
+              "text": "6. Baka hindi ko rin ito madalas gamitin (I may not use the functions regularly)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -4252,7 +4252,7 @@
               "is_header": false
             },
             {
-              "text": "7. Không có lo ngại",
+              "text": "7. Wala akong alalahanin (No concerns)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4260,7 +4260,7 @@
               "is_header": false
             },
             {
-              "text": "8. Khác (vui lòng ghi rõ:...)",
+              "text": "8. Iba pa (pakitukoy) (Other (please specify))",
               "code": "8",
               "media": "",
               "is_other": true,
@@ -4292,8 +4292,8 @@
         },
         {
           "id": "HD7",
-          "type": "SINGLE",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung một thương hiệu có Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Smart App và sử dụng các tính năng Tính Năng Thông Minh, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n• Linh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n• Gia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n• Các quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.",
+          "type": "EMPTY",
+          "text": "PANUTO PARA SA INTERVIEWER:\nSabihin sa respondent: “Ngayon, isipin ninyo na may brand na nag-aalok ng Home Appliance Rewards Program. Kapag ikinonekta ninyo ang refrigerator sa Smart App at ginamit ang Smart Functions nito, awtomatiko kayong makakaipon ng reward points habang tumatagal. Maaari ninyong gamitin ang mga points para sa:\n- Replacement parts at accessories (hal. filters at iba pang consumable items)\n- Extended warranty, maintenance at repair services\n- Exclusive member benefits at priority access sa mga bagong produkto\nPakitingnan muna nang mabuti ang program na ito, at pagkatapos ay magtatanong ako ng ilang bagay tungkol dito.”\n[INTERVIEWER INSTRUCTION: \nInterviewers say to respondent: \n“Now, I’d like you to imagine that a brand offers a Home Appliance Rewards Program.\nBy connecting your refrigerator to the Smart App and using its Smart Functions, you can automatically earn reward points over time.\nThese points can be redeemed for:\n- Replacement parts and accessories (e.g., filters and other consumable items)\n- Extended warranty, maintenance, and repair services\n- Exclusive member benefits and priority access to new products\nPlease take a moment to review this program, and then I’ll ask you a few questions about it.”]",
           "note": "",
           "media": "",
           "record": false,
@@ -4324,56 +4324,56 @@
         {
           "id": "Q901",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nAnh/Chị thấy Chương trình Tích Điểm Đổi Quà hấp dẫn ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang Smart Rewards Program?\n[[SHOW PHOTO]\nHow appealing do you find Smart Regards Program?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Hindi ko talaga nagustuhan (Not appealing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hindi ko nagustuhan (Not appealing)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không hấp dẫn",
+              "text": "3. Medyo hindi ko nagustuhan (Somewhat not appealing)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4. Sakto lang / wala akong partikular na opinyon (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5. Medyo nagustuhan ko (Somewhat appealing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Hấp dẫn",
+              "text": "6. Nagustuhan ko (Appealing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Rất hấp dẫn",
+              "text": "7. Gustong-gusto ko (Very appealing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4405,56 +4405,56 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu một thương hiệu triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[IPAKITA ANG LARAWAN]\nKung Panasonic ang mag-aalok ng Smart Rewards Program na ito, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf Panasonic offered this Smart Rewards Program, how willing would you be to connect your refrigerator to your smartphone and actively use these functions?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1.Hoàn toàn không sẵn lòng",
+              "text": "1. Talagang ayaw kong gawin (Not willing at all)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2.Không sẵn lòng",
+              "text": "2. Ayaw kong gawin (Unwilling)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không sẵn lòng",
+              "text": "3. Medyo ayaw kong gawin (Somewhat unwilling)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4.Bình thường",
+              "text": "4. Hindi tiyak / neutral (Neutral)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5.Hơi sẵn lòng",
+              "text": "5. Medyo handa akong gawin (Somewhat willing)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6.Sẵn lòng",
+              "text": "6. Handa akong gawin (Willing)",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn sẵn lòng",
+              "text": "7. Lubos akong handang gawin (Very willing)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4486,7 +4486,7 @@
         {
           "id": "Q903",
           "type": "OPEN",
-          "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên. ",
+          "text": "[IPAKITA ANG LARAWAN]\nAno ang pangunahing dahilan ng sagot ninyo?\n[[SHOW PHOTO] \nPlease explain the main reasons for your answer above]",
           "note": "",
           "media": "",
           "record": false,
@@ -4518,49 +4518,49 @@
         {
           "id": "Q904",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
+          "text": "[IPAKITA ANG LARAWAN]\nAno ang pangunahing dahilan kung bakit mahihikayat kayong ikonekta ang refrigerator sa programang ito?\n[[SHOW PHOTO]\nWhat is the main reason this program would encourage you to connect your refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Cơ hội tiết kiệm tiền cho các lần mua sắm trong tương lai",
+              "text": "1. Makakatipid sa mga susunod na bibilhin (Opportunity to save money on future purchases)",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Giảm chi phí sửa chữa và bảo trì",
+              "text": "2. Mas mura ang repair at maintenance (Reduced repair and maintenance costs)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Cảm giác được nhận thưởng khi sử dụng thiết bị",
+              "text": "3. May reward dahil ginagamit ko ang appliance (Feeling rewarded for using the appliance)",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Giá trị gia tăng từ các Tính Năng Thông Minh",
+              "text": "4. May dagdag na pakinabang ang Smart Functions (Additional value from Smart Functions)",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Niềm tin vào hệ sinh thái của thương hiệu đó",
+              "text": "5. Tiwala ako sa mga produkto at serbisyo ng brand (Trust in the brand ecosystem)",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ:…)",
+              "text": "6. Iba pa (Other)",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -4592,7 +4592,7 @@
         {
           "id": "End",
           "type": "EMPTY",
-          "text": "KẾT THÚC VÀ CẢM ƠN",
+          "text": "THANK YOU!",
           "note": "",
           "media": "",
           "record": false,
