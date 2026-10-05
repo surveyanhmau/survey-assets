@@ -1076,7 +1076,7 @@
         {
           "id": "HD1",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của 2 mẫu tủ lạnh A và B.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước 2 mẫu tủ lạnh A và B sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của 2 mẫu tủ lạnh A và B.”",
           "note": "",
           "media": "",
           "record": false,
@@ -2023,7 +2023,7 @@
         {
           "id": "Q611",
           "type": "SINGLE",
-          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh/chị thích mẫu tủ lạnh nào hơn?",
+          "text": "[SHOWCARD]\nNếu so sánh 2 mẫu tủ lạnh A và B, anh/chị thích mẫu tủ lạnh nào hơn?",
           "note": "",
           "media": "",
           "record": false,
@@ -2650,7 +2650,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
@@ -3627,8 +3627,8 @@
         },
         {
           "id": "Q629",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?\nChọn tất cả các phương án phù hợp",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?",
           "note": "",
           "media": "",
           "record": false,
@@ -3639,7 +3639,6 @@
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3647,7 +3646,6 @@
               "code": "2",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3655,15 +3653,13 @@
               "code": "3",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "4. Không có lợi ích nào thực sự hữu ích",
+              "text": "4. Không có lợi ích nào thực sự hữu ích với tôi",
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -4263,7 +4259,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
