@@ -260,7 +260,7 @@
           "topics": [],
           "min": "0",
           "max": "999999999",
-          "unit": "tuổi",
+          "unit": "",
           "display_columns": 1,
           "no_answer": false,
           "integer_only": true,
