@@ -1923,7 +1923,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -2643,7 +2643,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
@@ -3627,7 +3627,7 @@
         },
         {
           "id": "Q629",
-          "type": "MULTI",
+          "type": "SINGLE",
           "text": "Alin sa mga benepisyo ng Smart Connectivity/IoT ang pinaka-kapaki-pakinabang para sa inyo?\n[Of the following benefits of the smart connectivity/IoT feature, which do you find MOST USEFUL?]",
           "note": "",
           "media": "",
@@ -3639,7 +3639,6 @@
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3647,7 +3646,6 @@
               "code": "2",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3655,7 +3653,6 @@
               "code": "3",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -3663,7 +3660,6 @@
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -4256,7 +4252,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_exclusive": true,
               "is_header": false
             },
             {
