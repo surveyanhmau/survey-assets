@@ -141,676 +141,9 @@
           "form": {}
         },
         {
-          "id": "Q201a",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh cho gia đình, Anh/Chị cân nhắc những yếu tố nào?\nChọn ít nhất 3 phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Dung tích tủ lạnh",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Giá/ngân sách",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Màu sắc",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Chất liệu cửa",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Thương hiệu",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Xuất xứ",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "10. Thiết kế tổng thể",
-              "code": "10",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "11. Khác (vui lòng ghi rõ:...:…)",
-              "code": "11",
-              "media": "",
-              "is_other": true,
-              "is_exclusive": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "3",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q201b",
-          "type": "RANKING",
-          "text": "[SHOWCARD]\nVui lòng xếp hạng 3 yếu tố quan trọng nhất khi lựa chọn tủ lạnh cho gia đình? ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Dung tích tủ lạnh",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Kích thước tủ lạnh (chiều rộng - chiều cao - chiều sâu)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Kiểu dáng tủ lạnh (2 cửa, 4 cửa, side-by-side, built-in...)",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Giá/ngân sách",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Màu sắc",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Chất liệu cửa",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Thương hiệu",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Xuất xứ",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Tính năng (làm đá, rã đông nhanh, kết nối thông minh...)",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "10. Thiết kế tổng thể",
-              "code": "10",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "11. Khác (vui lòng ghi rõ:...:…)",
-              "code": "11",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "3",
-          "max": "3",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q201a)",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q101",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTủ lạnh hiện tại của gia đình Anh/Chị có dung tích khoảng bao nhiêu lít? ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Dưới 400L",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. 400 - 450L",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. 450 - 500L",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. 500 - 550L",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. 550 - 600L",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. 600 - 650L",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. 650 - 700L",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Trên 700L",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q102",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nTheo Anh/Chị, dung tích tủ lạnh LÝ TƯỞNG/mong muốn nhất cho gia đình hiện nay là bao nhiêu (nếu được lựa chọn lại)?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Dưới 400L",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. 400 - 450L",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. 450 - 500L",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. 500 - 550L",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. 550 - 600L",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. 600 - 650L",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. 650 - 700L",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Trên 700L",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q103",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nVì sao Anh/Chị muốn một chiếc tủ lạnh LỚN HƠN so với tủ hiện tại? (Chọn tất cả các phương án phù hợp)",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Muốn đi mua sắm/đi chợ ít lần hơn và lưu trữ nhiều thực phẩm hơn mỗi lần",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Lên kế hoạch/chuẩn bị cho tương lai (có con, bố mẹ chuyển đến ở cùng, gia đình đông hơn)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Các mẫu tủ lạnh lớn có thiết kế đẹp hơn và phù hợp với không gian bếp hơn",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Cần lưu trữ thực phẩm/đồ đông lạnh do người thân từ quê gửi lên",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Giá tủ lạnh lớn không còn là rào cản như trước",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Mọi người đều đang sử dụng tủ lạnh Multi-Door",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Khác (vui lòng ghi rõ:...)",
-              "code": "7",
-              "media": "",
-              "is_other": true,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Không có lý do cụ thể",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "if(Answer(Q102)<=Answer(Q101)){QuestionHide()}",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q104",
-          "type": "SINGLE",
-          "text": "[SHOWPHOTO]\nTrong các cách phối màu tủ lạnh với tủ bếp dưới đây, Anh/Chị THÍCH cách nào NHẤT?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Tương phản nổi bật - màu tủ lạnh khác biệt, nổi bật so với tủ bếp",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Hài hòa/đồng bộ - màu tủ lạnh gần với màu tủ bếp, tạo cảm giác hòa vào tổng thể",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Thể hiện phong cách cá nhân - màu tủ lạnh độc đáo, khác biệt, mang dấu ấn cá nhân",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Phong cách truyền thống (tủ gỗ, tủ lạnh màu bạc hoặc đen)",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Không thích cách nào trong số những cách này",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q105",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong các màu tủ lạnh dưới đây, Anh/Chị THÍCH màu nào NHẤT? ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Đen",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Trắng ngà",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Bạc/Kim loại",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Pastel (hồng, xanh nhạt...)",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Bespoke - có thể tùy chỉnh, nhiều màu sắc",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Vân gỗ",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Khác (vui lòng ghi rõ:...)",
-              "code": "7",
-              "media": "",
-              "is_other": true,
-              "is_header": false
-            },
-            {
-              "text": "8. Không có màu yêu thích cụ thể",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q106",
-          "type": "SINGLE",
-          "text": "[SHOWPHOTO]\nTủ lạnh hiện tại của Anh/Chị được lắp đặt như thế nào? ",
+          "text": "[SHOWPHOTO]\nTủ lạnh hiện tại của Anh/Chị được lắp đặt như thế nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -868,67 +201,7 @@
           "form": {}
         },
         {
-          "id": "Q202",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nKhông gian bếp hiện tại của gia đình Anh/Chị được bố trí như thế nào?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Bếp mở thông với phòng khách/phòng ăn (không gian mở)",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Bếp tách biệt hoàn toàn với phòng khách/phòng ăn (ngăn bằng tường/cửa)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Bếp mở một phần (đảo bếp/quầy bar hoặc vách ngăn thấp)",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Khác (vui lòng ghi rõ:...)",
-              "code": "4",
-              "media": "",
-              "is_other": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q203",
+          "id": "Q201",
           "type": "MULTI",
           "text": "[SHOWCARD]\nĐiều nào dưới đây mô tả đúng nhất ý nghĩa của một chiếc tủ lạnh đối với Anh/Chị?\nChọn tối đa 3 phương án phù hợp nhất ",
           "note": "",
@@ -1056,351 +329,9 @@
           "form": {}
         },
         {
-          "id": "Q204",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nAnh/Chị có biết chính xác chiều sâu (từ trước ra sau) của tủ bếp/khu vực đặt tủ lạnh không?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Có, tôi biết chính xác con số",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Tôi biết ước chừng nhưng không nhớ chính xác",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Không biết/Chưa từng để ý",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q205",
-          "type": "SINGLE",
-          "text": "[Lưu ý: PVV hỏi dưới dạng câu hỏi mở - để người trả lời tự đưa ra con số, sau đó người phỏng vấn ghi nhận theo danh sách đáp án]\nChiều sâu mặt bàn bếp của gia đình Anh/Chị là bao nhiêu?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "50 cm",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "60 cm",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "65 cm",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "70 cm",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "75 cm",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "80 cm",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "Khác (vui lòng ghi rõ:...)",
-              "code": "7",
-              "media": "",
-              "is_other": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "if(!Contains(Q204,[1])){QuestionHide()}",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q206",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nAi là người quyết định/đề xuất CHIỀU SÂU của tủ bếp nhà Anh/Chị?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Tôi và gia đình tự đề xuất dựa trên nhu cầu của mình",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Tôi đề xuất dựa trên các ý tưởng cải tạo nhà trên Facebook hoặc TikTok",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Kiến trúc sư/nhà thiết kế đề xuất, tôi đồng ý với kích thước tiêu chuẩn",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Thợ mộc/xưởng làm theo kích thước thông thường của họ",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Không nhớ/Không chắc chắn",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q207",
-          "type": "SINGLE",
-          "text": "[SHOW PHOTO]\nTủ lạnh HIỆN TẠI của Anh/Chị NHÔ RA khỏi tủ bếp xung quanh ở mức nào?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Không nhô ra chút nào, hoàn toàn phẳng với tủ bếp",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Nhô ra một chút, không đáng kể",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Nhô ra ở mức vừa phải, có thể chấp nhận",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Nhô ra khá nhiều",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Nhô ra nhiều, gây vướng và trông không đẹp",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "99. Không áp dụng (tủ lạnh được đặt độc lập, không đặt cạnh tủ bếp)",
-              "code": "99",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q208",
-          "type": "SINGLE",
-          "text": "[SHOW PHOTO]\nĐối với tủ lạnh được đặt trong/cạnh hệ tủ bếp, Anh/Chị CÓ THỂ CHẤP NHẬN mức độ nhô ra bao nhiêu vẫn cảm thấy ổn, không bị khó chịu?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Không thể chấp nhận nhô ra (phải hoàn toàn phẳng với tủ bếp)",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Nhô ra dưới 5cm",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Nhô ra 5-10cm",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Nhô ra hơn 10cm cũng được",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Không quan tâm đến điều này",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q301",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong quá trình tìm hiểu để mua tủ lạnh, Anh/Chị đã thực hiện những hoạt động nào dưới đây? -Chọn tất cả các phương án phù hợp ",
+          "text": "[SHOWCARD]\nTrong quá trình tìm hiểu để mua tủ lạnh, Anh/Chị đã thực hiện những hoạt động nào dưới đây?\nChọn tất cả các phương án phù hợp",
           "note": "",
           "media": "",
           "record": false,
@@ -1439,7 +370,7 @@
               "is_header": false
             },
             {
-              "text": "5. Nhắn tin trực tiếp cho người dùng thực tế để hỏi",
+              "text": "5. Hỏi ý kiến bạn bè/ gia đình/ đồng nghiệp",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1502,7 +433,7 @@
           "form": {}
         },
         {
-          "id": "Q209",
+          "id": "Q202",
           "type": "SINGLE",
           "text": "[SHOWCARD]\nKhi cải tạo/xây dựng bếp mới cho ngôi nhà hiện tại, Anh/Chị có nhận tư vấn từ kiến trúc sư/nhà thiết kế nội thất (cá nhân hoặc công ty) không?",
           "note": "",
@@ -1511,36 +442,15 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1. CÓ, thuê kiến trúc sư hoặc công ty thiết kế nội thất để được tư vấn chính thức (có trả phí)",
+              "text": "1. Có",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Có, hỏi Anh/Chị, bạn bè/người thân có kinh nghiệm để được tư vấn không chính thức (không trả phí)",
+              "text": "2. Không",
               "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. KHÔNG, chỉ có thợ/nhà thầu thi công theo yêu cầu, không tư vấn thiết kế",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. KHÔNG, tôi và gia đình tự lên ý tưởng và quyết định mọi thứ",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. KHÔNG, bếp đã được chủ đầu tư/chủ nhà trước thiết kế sẵn, không cải tạo/thiết kế lại",
-              "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -1561,6 +471,66 @@
           },
           "logic": {
             "on_enter": "if(!Contains(Q301,[6])){QuestionHide()}",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q203",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nAi là người quyết định hoặc đề xuất kích thước tủ bếp, bao gồm cả khu vực đặt tủ lạnh?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Tôi tìm kiếm các mẫu tủ bếp phổ biến trên Facebook, TikTok hoặc AI",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Tôi thuê đơn vị thiết kế/thợ mộc và làm theo thiết kế của họ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tôi dựa vào kích thước tiêu chuẩn của tủ bếp theo kinh nghiệm của bản thân",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Không nhớ/Không chắc",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "3",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
             "on_next": "",
             "rules": []
           },
@@ -1683,77 +653,6 @@
             "on_enter": "",
             "on_next": "",
             "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q210",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nTrong quá trình thiết kế/thi công bếp, Anh/Chị ưu tiên yếu tố kích thước nào của tủ bếp hơn? - Chọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Chiều rộng",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Chiều cao",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Chiều sâu",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Không ưu tiên yếu tố nào cụ thể/tuân theo kích thước tiêu chuẩn",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "if(!Contains(Q303,[2])){QuestionHide()}",
-            "on_next": "",
-            "rules": [
-              {
-                "condition": "Contains(CurrentQuestion(),[1])&&Contains(CurrentQuestion(),[2])&&Contains(CurrentQuestion(),[3])\n",
-                "action": "Hard",
-                "message": "Nếu tick cả 3 đáp án (Rộng, Cao, Sâu) có nghĩa là không ưu tiên yếu tố nào",
-                "goto": ""
-              }
-            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -2055,90 +954,9 @@
           "form": {}
         },
         {
-          "id": "Q501",
-          "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị đồng ý ở mức độ nào với phát biểu sau: \n“Theo tôi, tủ lạnh âm tường là tủ lạnh được đặt bên trong khoang tủ bếp.”  ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Hoàn toàn không đồng ý",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Không đồng ý",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Hơi không đồng ý",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Bình thường",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Hơi đồng ý",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Đồng ý",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Hoàn toàn đồng ý",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD1",
+          "id": "HD0",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên.\nSau đó, PVV nói:\n“Bây giờ em muốn hỏi Anh/Chị một vài câu hỏi về tủ lạnh âm tường. Đây là phần mô tả về dòng sản phẩm này. Em sẽ đọc qua một lần, Anh/Chị vui lòng đọc theo và xem kỹ nội dung cùng em nhé.”\nSau khi đọc xong, PVV xác nhận rằng đáp viên đã hiểu đầy đủ thông tin trước khi tiếp tục hỏi các câu hỏi tiếp theo.",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên. Lúc này PVV mở [SHOWPHOTO Q501], trong đó có phần giới thiệu về khái niệm tủ âm tường.\nSau đó, PVV nói:\n“Bây giờ em muốn hỏi Anh/Chị một vài câu hỏi về tủ lạnh âm tường. Đây là phần mô tả về dòng sản phẩm này. Em sẽ đọc qua một lần, Anh/Chị vui lòng đọc theo và xem kỹ nội dung cùng em nhé.”\nSau khi đọc xong, PVV xác nhận rằng đáp viên đã hiểu đầy đủ thông tin trước khi tiếp tục hỏi các câu hỏi tiếp theo.",
           "note": "",
           "media": "",
           "record": false,
@@ -2168,90 +986,9 @@
           "form": {}
         },
         {
-          "id": "Q502",
-          "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nAnh/Chị thích ý tưởng tủ lạnh âm tường này ở mức độ nào?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Hoàn toàn không thích",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Rất không thích",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Hơi không thích",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Không thích cũng không ghét",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Hơi thích",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Rất thích",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Hoàn toàn yêu thích",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q503",
+          "id": "Q501",
           "type": "MULTI",
-          "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp",
+          "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp\n",
           "note": "",
           "media": "",
           "record": false,
@@ -2282,7 +1019,7 @@
               "is_header": false
             },
             {
-              "text": "4.  Tận mắt nhìn thấy tại nhà bạn bè/dự án nhà mẫu/trong phim",
+              "text": "4. Tận mắt nhìn thấy tại nhà bạn bè/dự án nhà mẫu/trong phim",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -2290,7 +1027,7 @@
               "is_header": false
             },
             {
-              "text": "5.  Được kiến trúc sư/nhà thiết kế giới thiệu",
+              "text": "5. Được kiến trúc sư/nhà thiết kế giới thiệu",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -2337,178 +1074,9 @@
           "form": {}
         },
         {
-          "id": "Q504a",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi cân nhắc lắp đặt tủ lạnh âm tường (nằm vừa hoàn toàn trong hệ tủ bếp), Anh/Chị có NHỮNG LO NGẠI gì? \nChọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Khó vệ sinh khu vực khe hở",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Không có lo ngại thực sự",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q504b",
-          "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong số đó, điều gì khiến Anh/Chị lo lắng nhất?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Tủ/ô tủ hiện tại không đủ lớn, cần sửa chữa/làm lại với chi phí cao",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Nếu sau này cần thay tủ lạnh, khó tìm mẫu mới có kích thước phù hợp",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Lo nhiệt từ tủ lạnh có thể làm hỏng tủ bếp xung quanh hoặc giảm tuổi thọ tủ lạnh",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Khó vệ sinh khu vực khe hở",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Lo làm trầy tủ bếp khi kéo tủ lạnh ra để vệ sinh",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Không yên tâm về an toàn/thiếu thông tin kỹ thuật rõ ràng",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Không có lo ngại thực sự",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "if(!Contains(Q504a,[1,2,3,4,5,6])){QuestionHide();};\nFilterAnswerByAnswer(CurrentQuestion(),Q504a);\n",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD2a",
+          "id": "HD1",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên\nLúc này PVV mở [SHOWPHOTO Q502-Q503], trong đó có phần giới thiệu về khái niệm tủ âm tường\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của 2 mẫu tủ lạnh A và B.”",
           "note": "",
           "media": "",
           "record": false,
@@ -2538,89 +1106,58 @@
           "form": {}
         },
         {
-          "id": "HD2b",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n-\tBước 1: Đưa đáp viên đọc thông tin giới thiệu về sản phẩm thông quan SHOWPHOTO để họ nắm thông tin và tính năng sản phẩm. PVV nói: \"Mời anh chị tham khảo thông tin về mẫu tủ lạnh A này thông qua bản giới thiệu sau đây\"\n-\tBước 2: Quan sát ngoại thất tủ lạnh - PVV nói: \"Mời anh chị quan sát bên ngoài của mẫu tủ lạnh A này\n-\tBước 3: Quan sát nội thất KHÔNG CÓ thực phẩm mẫu - PVV nói: \"Tiếp theo em sẽ mở chiếc tủ lạnh này ra, anh chị quan sát bên trong tủ lạnh dùm em nhé\" \n-\tBước 4: Quan sát nội thất CÓ thực phẩm mẫu - PVV nói: \"Tiếp theo, em sẽ đặt 1 vài món thực phẩm vào tủ lạnh để anh chị quan sát thêm nhé\"\nPVV lấy 1 số thực phẩm mẫu đã được chuẩn bị sẵn đặt vào tủ lạnh cho đáp viên quan sát.\n-\tPVV tiếp tục nói: \"Dạ rồi, bây giờ em sẽ hỏi anh chị 1 vài câu hỏi về mẫu tủ lạnh A này nhé ạ\"",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q601",
           "type": "SINGLE",
-          "text": "[SHOWCARD TABLET]\nẤn tượng ĐẦU TIÊN của Anh/Chị về thiết kế chiếc tủ lạnh này là gì?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh A hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không thích",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Rất không thích",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Hơi không thích",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Không thích cũng không ghét",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi thích",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Rất thích",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn yêu thích",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2651,8 +1188,135 @@
         },
         {
           "id": "Q602",
-          "type": "OPEN",
-          "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
+          "type": "SINGLE",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh B hấp dẫn ở mức độ nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hấp dẫn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hấp dẫn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Hơi không hấp dẫn",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Bình thường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Hơi hấp dẫn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Hấp dẫn",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Rất hấp dẫn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q603",
+          "type": "SINGLE",
+          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh chị thích mẫu tủ lạnh nào hơn?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Mẫu A",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Mẫu B",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD2",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN – QUAN SÁT MOCK-UP SẢN PHẨM:\nPVV hướng dẫn đáp viên đứng đối diện với mẫu tủ lạnh A, sau đó thực hiện các bước sau:\n\nBước 2: Giới thiệu thông tin sản phẩm. Lúc này, PVV mở [SHOWPHOTO trước Q604] để đáp viên nắm được thông tin và các tính năng của sản phẩm. PVV nói: “Anh/chị vui lòng xem qua thông tin về mẫu tủ lạnh A trong phần giới thiệu sau đây nhé.”\nSau khi đáp viên đọc xong, PVV chuyển sang Bước 3.\n\nBước 3: Quan sát bên trong tủ lạnh, tủ lạnh KHÔNG CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU bên trong. PVV nói: “Tiếp theo, em sẽ mở tủ lạnh ra. Anh/chị vui lòng quan sát bên trong giúp em nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -2682,162 +1346,58 @@
           "form": {}
         },
         {
-          "id": "Q603",
-          "type": "MULTI",
-          "text": "[SHOWCARD TABLET]\nAnh/Chị ĐỒNG Ý với những phát biểu nào dưới đây về chiếc tủ lạnh có nội thất màu đen mà Anh/Chị vừa xem?\nChọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Cảm giác tối và u ám, khiến thực phẩm trông kém tươi",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Cảm giác độc đáo và hiện đại hơn",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Cảm thấy đây là thiết kế dẫn đầu trong phân khúc cao cấp",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Khó nhìn thấy bụi/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vệ sinh",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Có cảm giác hấp thụ nhiều nhiệt hơn, có thể tiêu thụ nhiều điện hơn",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Cảm giác độc đáo, hiện đại và cao cấp hơn nội thất trắng thông thường",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Nội thất màu đen sẽ ít bị ố vàng/phai màu theo thời gian hơn màu trắng",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Đồng bộ với màu bên ngoài của tủ lạnh",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Không có nhận xét cụ thể",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q604",
           "type": "SINGLE",
-          "text": "[SHOWCARD TABLET]\nNếu một thương hiệu tủ lạnh đáng tin cậy ra mắt phiên bản có nội thất màu đen này, Anh/Chị có khả năng cân nhắc mua sản phẩm ở mức nào nếu gia đình Anh/Chị cần một chiếc tủ lạnh mới?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Chắc chắn sẽ không mua",
+              "text": "1. Hoàn toàn không hấp dẫn",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Rất có thể sẽ không mua",
+              "text": "2. Không hấp dẫn",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Có thể sẽ không mua",
+              "text": "3. Hơi không hấp dẫn",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Có thể mua hoặc không",
+              "text": "4. Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Có thể sẽ mua",
+              "text": "5. Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Rất có thể sẽ mua",
+              "text": "6. Hấp dẫn",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Chắc chắn sẽ mua",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -2868,8 +1428,8 @@
         },
         {
           "id": "Q605",
-          "type": "MULTI",
-          "text": "[SHOWCARD TABLET]\nDưới đây là một số tên gọi đề xuất cho dòng tủ lạnh có nội thất màu đen. Anh/Chị vui lòng chọn 2 tên mà Anh/Chị cảm thấy phù hợp nhất với dòng tủ lạnh này.",
+          "type": "OPEN",
+          "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
           "note": "",
           "media": "",
           "record": false,
@@ -2955,261 +1515,41 @@
           "form": {}
         },
         {
+          "id": "HD2b",
+          "type": "EMPTY",
+          "text": "Bước 4: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ cắm điện cho tủ lạnh. Anh/chị vui lòng quan sát nhé.”",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q606",
-          "type": "OPEN",
-          "text": "Vì sao anh/chị chọn 2 tên này?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD2c",
-          "type": "EMPTY",
-          "text": "Hướng dẫn: PVV dắt đáp viên đến trước mẫu tủ lạnh B, sau đó nói: “Em mời anh chị quán sát mẫu tủ lạnh B này bao gồm bên ngoài và bên trong luôn. Sau đó em sẽ hỏi anh chị vài câu hỏi nhé ạ”.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q606A",
           "type": "SINGLE",
-          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh chị thích mẫu tủ lạnh nào hơn?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Mẫu A",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Mẫu B",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD2d",
-          "type": "EMPTY",
-          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa rồi cả 2 mẫu tủ lạnh này nhen ạ”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q607",
-          "type": "SINGLE",
-          "text": "[SHOWCARD TABLET]\nSau khi xem tủ lạnh được trưng bày trong phòng tối với thực phẩm mẫu, Anh/chị thích sản phẩm nào hơn? ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Mẫu A",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Mẫu B",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q608",
-          "type": "OPEN",
-          "text": "Giải thích vì sao?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD3",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên quay lại bàn phỏng vấn và tiếp tục thực hiện các nội dung phỏng vấn còn lại.\nPVV nói: “Tiếp theo, em mời Anh/Chị quay lại bàn phỏng vấn để tiếp tục phần phỏng vấn còn lại nhé.”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q609",
-          "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nHãy cùng tìm hiểu một tính năng có tên VHF (Rã đông nhanh): tính năng này rã đông thực phẩm (thịt, cá) trong khoảng 15 phút, giữ màu tươi của thực phẩm, không để lại nước trên thực phẩm và cho phép Anh/Chị chế biến ngay. Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -3258,7 +1598,7 @@
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn hấp dẫn",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3288,9 +1628,370 @@
           "form": {}
         },
         {
+          "id": "HD2c",
+          "type": "EMPTY",
+          "text": "Bước 5: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ đặt một số thực phẩm mẫu vào trong tủ lạnh để anh/chị có thể quan sát kỹ hơn nhé.”\n\nPVV đặt các thực phẩm mẫu đã được chuẩn bị sẵn vào trong tủ lạnh để đáp viên quan sát\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q607",
+          "type": "SINGLE",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện và đặt thực phẩm bên trong hấp dẫn ở mức độ nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hấp dẫn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hấp dẫn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Hơi không hấp dẫn",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Bình thường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Hơi hấp dẫn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Hấp dẫn",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Rất hấp dẫn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q608",
+          "type": "MULTI",
+          "text": "[SHOWCARD]\nAnh/Chị ĐỒNG Ý với những phát biểu nào dưới đây về chiếc tủ lạnh có nội thất tối màu mà Anh/Chị vừa xem?\nChọn tất cả các phương án phù hợp",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Cảm giác độc đáo, hiện đại hơn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Mang cảm giác là một thiết kế dẫn đầu trong phân khúc cao cấp",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Cảm giác độc đáo, hiện đại và cao cấp hơn so với nội thất màu trắng thông thường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Màu sắc bên trong đồng bộ với màu sắc bên ngoài của tủ lạnh",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Mang cảm giác “old-money”: tinh tế, cổ điển và sang trọng",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Nội thất màu đen sẽ ít bị ngả vàng/phai màu theo thời gian hơn so với màu trắng",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Cảm giác tối và u ám, khiến thực phẩm trông kém tươi ngon hơn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Khó nhìn thấy bụi bẩn/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vấn đề vệ sinh",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Có cảm giác nội thất màu đen hấp thụ nhiệt nhiều hơn, có thể tiêu tốn nhiều điện hơn",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "10. Không có nhận xét cụ thể",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q609",
+          "type": "MULTI",
+          "text": "[SHOWCARD]\nDưới đây là một số tên gọi đề xuất cho dòng tủ lạnh có nội thất tối màu. Anh/Chị vui lòng chọn 2 tên mà Anh/Chị cảm thấy phù hợp nhất với dòng tủ lạnh này.\n[Chọn 2 tên]",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Midnight Gray Interior",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Dark Elegance",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Food gallery",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Food Showcase",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Kuro View",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Noir View",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. LUMA",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Food Atelier",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Tôi không hiểu / Tôi không thích tên gọi nào",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "2",
+          "max": "2",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q610",
           "type": "OPEN",
-          "text": "Vì sao Anh/Chị cảm thấy như vậy về tính năng VHF (Rã đông nhanh)?",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD3",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên đứng trước mẫu tủ lạnh B (tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU bên trong), sau đó nói: “Bây giờ em sẽ mở tủ lạnh này. Anh/chị vui lòng quan sát phần nội thất bên trong mẫu tủ này nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi nhé ạ”",
           "note": "",
           "media": "",
           "record": false,
@@ -3322,21 +2023,21 @@
         {
           "id": "Q611",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nSau khi rã đông thịt/cá, Anh/Chị muốn ngăn VHF giữ thực phẩm ở trạng thái nào? ",
+          "text": "Nếu so sánh 2 mẫu tủ lạnh A và B, anh/chị thích mẫu tủ lạnh nào hơn?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Sau khi rã đông, ngăn chuyển sang giữ nhiệt độ/trạng thái Prime Fresh (ngăn đông mềm), khoảng -3°C. Thực phẩm được giữ tươi ngon đến 7 ngày, dễ dàng cắt thái và chế biến ngay.",
+              "text": "1. Mẫu A",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Sau khi rã đông, nếu Anh/Chị vẫn để thịt trong ngăn mà không lấy ra, thịt sẽ dần trở lại trạng thái đông đá sau 12–24 giờ.",
+              "text": "2. Mẫu B",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3366,9 +2067,339 @@
           "form": {}
         },
         {
+          "id": "HD3b",
+          "type": "EMPTY",
+          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa cho cả 2 mẫu tủ lạnh này nhen ạ”",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q612",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nSau khi xem tủ lạnh được trưng bày trong phòng tối với thực phẩm mẫu, anh/chị thích mẫu sản phẩm nào hơn?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Mẫu A",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Mẫu B",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q613",
+          "type": "OPEN",
+          "text": "Vì sao anh/chị thích sản phẩm đó hơn? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD3c",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên quay lại bàn phỏng vấn và tiếp tục thực hiện các nội dung phỏng vấn còn lại.\nPVV nói: “Tiếp theo, em mời Anh/Chị quay lại bàn phỏng vấn để tiếp tục phần phỏng vấn còn lại nhé.”\nHƯỚNG DẪN PHỎNG VẤN VIÊN: PVV giới thiệu cho đáp viên về tính năng VHF. Lúc này, PVV mở [SHOWPHOTO Q614].\nPVV nói: “Bây giờ, em xin giới thiệu với anh/chị một tính năng có tên là VHF (Rã đông nhanh). Tính năng này giúp rã đông thực phẩm (thịt, cá) trong khoảng 15 phút, giữ được màu sắc tươi ngon của thực phẩm, không làm thực phẩm bị đọng nước và có thể chế biến ngay sau khi rã đông. Anh/chị vui lòng dành chút thời gian đọc kỹ thông tin về tính năng này trong hình ảnh được hiển thị ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài ý kiến về tính năng này.”\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q614",
+          "type": "SINGLE",
+          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nAnh/Chị thấy tính năng VHF (Rã đông nhanh) này HẤP DẪN ở mức độ nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hấp dẫn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hấp dẫn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Hơi không hấp dẫn",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Bình thường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Hơi hấp dẫn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Hấp dẫn",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Rất hấp dẫn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q615",
+          "type": "OPEN",
+          "text": "Vì sao Anh/Chị cảm thấy như vậy về tính năng VHF (Rã đông nhanh)?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD4",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị [SHOWPHOTO Q616] thể hiện vị trí ngăn VHF.\nPVV nói: “Bây giờ, em muốn hỏi anh/chị về vị trí ngăn VHF mà anh/chị ưu tiên. Có 2 phương án được thể hiện trong hình ảnh này, anh/chị vui lòng xem qua nhé.”\nSau khi đáp viên xem xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q616",
+          "type": "SINGLE",
+          "text": "[SHOWPHOTO] [SHOWCARD]\nAnh/chị muốn ngăn VHF (Rã đông nhanh) được đặt tại vị trí nào trong tủ lạnh?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Ngăn VHF được đặt trong ngăn Prime Fresh / ngăn đông mềm",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Ngăn VHF được đặt trong ngăn đông",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q617",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nAnh/Chị sẽ sử dụng chức năng VHF cho những loại thực phẩm nào?",
+          "text": "[SHOWCARD]\nAnh/chị sẽ sử dụng chức năng VHF (Rã đông nhanh) cho những loại thực phẩm nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -3415,7 +2446,7 @@
               "is_header": false
             },
             {
-              "text": "6. Khác (vui lòng ghi rõ): ________",
+              "text": "6. Khác (vui lòng ghi rõ)",
               "code": "6",
               "media": "",
               "is_other": true,
@@ -3446,9 +2477,9 @@
           "form": {}
         },
         {
-          "id": "Q613",
+          "id": "Q618",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nào anh chị sẽ dùng đến tính năng này?",
+          "text": "[SHOWCARD]\nKhi nào anh/chị sẽ dùng đến tính năng này?",
           "note": "",
           "media": "",
           "record": false,
@@ -3511,7 +2542,7 @@
               "is_header": false
             },
             {
-              "text": "8. Khác (vui lòng ghi rõ): _______",
+              "text": "8. Khác (vui lòng ghi rõ)",
               "code": "8",
               "media": "",
               "is_other": true,
@@ -3542,9 +2573,9 @@
           "form": {}
         },
         {
-          "id": "Q614",
+          "id": "Q619",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nVui lòng cho biết các cảm nhận của anh chị về tính năng này?",
+          "text": "[SHOWCARD]\nVui lòng cho biết các cảm nhận của anh/chị về tính năng này?\nChọn tất cả các phương án phù hợp ",
           "note": "",
           "media": "",
           "record": false,
@@ -3619,11 +2650,11 @@
               "code": "9",
               "media": "",
               "is_other": false,
-              "is_exclusive": true,
+              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "10. Khác (vui lòng ghi rõ): ________",
+              "text": "10. Khác (vui lòng ghi rõ)",
               "code": "10",
               "media": "",
               "is_other": true,
@@ -3654,9 +2685,252 @@
           "form": {}
         },
         {
-          "id": "Q615",
+          "id": "Q620a",
+          "type": "MULTI",
+          "text": "[SHOWCARD]\nAnh/chị cảm thấy thông điệp nào dưới đây phù hợp với bản thân?\nChọn tất cả các phương án phù hợp ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. VHF – Tiết kiệm thời gian mà vẫn đảm bảo chất lượng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. VHF – Thưởng thức độ tươi ngon mà không cần chờ đợi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. VHF – Rã đông theo nhu cầu mà vẫn giữ trọn độ tươi ngon",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. VHF – Tiện lợi tức thì, giữ trọn độ tươi ngon",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. VHF – Tươi ngon như vừa mới mua, ngay cả sau khi rã đông",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. VHF – Rã đông như một Đầu bếp chuyên nghiệp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không có thông điệp nào phù hợp với tôi",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q620b",
           "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng Auto Ice: tự động làm đá nhanh trong 45 phút (thay vì khoảng 90 phút thông thường). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
+          "text": "[SHOWCARD]\nTrong số đó, anh/chị cảm thấy thông điệp nào PHÙ HỢP VỚI BẢN THÂN NHẤT?\nChọn 1 phương án",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. VHF – Tiết kiệm thời gian mà vẫn đảm bảo chất lượng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. VHF – Thưởng thức độ tươi ngon mà không cần chờ đợi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. VHF – Rã đông theo nhu cầu mà vẫn giữ trọn độ tươi ngon",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. VHF – Tiện lợi tức thì, giữ trọn độ tươi ngon",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. VHF – Tươi ngon như vừa mới mua, ngay cả sau khi rã đông",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. VHF – Rã đông như một Đầu bếp chuyên nghiệp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(Q620a,[7])){QuestionHide();};\nFilterAnswerByAnswer(CurrentQuestion(),Q620a);",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q621",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nAnh/chị sẵn sàng chi thêm bao nhiêu cho tính năng VHF (Rã đông nhanh) này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Từ 3.5 – 4 triệu đồng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 4 – 5 triệu đồng",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 5 – 6 triệu đồng",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 6 – 7 triệu đồng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 7 – 10 triệu đồng",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 10 triệu đồng",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Tôi không sẵn sàng chi thêm",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q622",
+          "type": "SINGLE",
+          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng Tự động làm đá nhanh: tính năng có thể tạo ra một mẻ đá trong khoảng 45 phút (so với khoảng 120 phút của chu trình làm đá thông thường). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -3705,7 +2979,7 @@
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn hấp dẫn",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3735,7 +3009,543 @@
           "form": {}
         },
         {
-          "id": "Q616",
+          "id": "Q623",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nAnh/chị sẵn sàng chi thêm bao nhiêu cho tính năng Tự động làm đá nhanh này? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 500 nghìn đồng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 500 nghìn – 1 triệu đồng",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 1 – 2 triệu đồng",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 2 – 3 triệu đồng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 3 – 4 triệu đồng",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Tôi không sẵn sàng chi thêm",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD5",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên: “Bây giờ, em muốn hỏi anh/chị về các ý tưởng truyền thông cho tính năng Tự động làm đá nhanh này. Anh/chị vui lòng dành chút thời gian đọc kỹ nội dung và thông điệp trong 3 hình ảnh được thể hiện ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi về các nội dung này.” Lúc này, PVV chuẩn bị [SHOWPHOTO Q624] gồm 3 trang.\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q624",
+          "type": "SINGLE",
+          "text": "[SHOWPHOTO] [SHOWCARD]\nTrong 3 ý tưởng truyền thông về tính năng tự động làm đá nhanh được thể hiện trong 3 hình ảnh trên, anh/chị thích thông điệp nào nhất?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Ý tưởng A",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Ý tưởng B",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Ý tưởng C",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q625a",
+          "type": "MULTI",
+          "text": "[SHOWCARD]\nTrong các thông điệp dưới đây về tính năng làm đá, thông điệp nào anh/chị thấy hấp dẫn?\nChọn TẤT CẢ các phương án phù hợp.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Đá được làm từ nguồn nước sạch (nước đã được lọc)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hệ thống làm đá có khả năng tự làm sạch",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Đá không có mùi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Lấy đá không cần chạm tay",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Mang lại sự an tâm cho gia đình tôi",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Đảm bảo vệ sinh đã được kiểm chứng (thông qua thử nghiệm hoặc chứng nhận)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không có thông điệp nào hấp dẫn tôi",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q625b",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nTrong số các thông điệp anh/chị đã chọn, thông điệp nào hấp dẫn anh/chị NHẤT?\nChọn MỘT phương án.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Đá được làm từ nguồn nước sạch (nước đã được lọc)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hệ thống làm đá có khả năng tự làm sạch",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Đá không có mùi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Lấy đá không cần chạm tay",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Mang lại sự an tâm cho gia đình tôi",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Đảm bảo vệ sinh đã được kiểm chứng (thông qua thử nghiệm hoặc chứng nhận)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(Q625a,[7])){QuestionHide();};\nFilterAnswerByAnswer(CurrentQuestion(),Q625a);\n",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q626",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nTrong các điểm dưới đây, điểm nào khiến anh/chị tin tưởng NHẤT rằng đá được làm ra đảm bảo vệ sinh?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Bộ lọc than hoạt tính",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hộp chứa nước kháng khuẩn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tự động vệ sinh hệ thống làm đá",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q627a",
+          "type": "MULTI",
+          "text": "[SHOWCARD]\nKhi nói về đá được làm từ tủ lạnh, cách diễn đạt nào dưới đây khiến anh/chị cảm thấy đáng tin cậy hơn?\nChọn TẤT CẢ các phương án phù hợp",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Sạch khuẩn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Kháng khuẩn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tinh khiết",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Hợp vệ sinh",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. An toàn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Không mùi",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không có cách diễn đạt nào đáng tin cậy",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q627b",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nTrong số những cách diễn đạt anh/chị vừa chọn, cách diễn đạt nào khiến anh/chị tin tưởng NHẤT?\nChọn MỘT phương án.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Sạch khuẩn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Kháng khuẩn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tinh khiết",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Hợp vệ sinh",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. An toàn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Không mùi",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(Q627a,[7])){QuestionHide();};\nFilterAnswerByAnswer(CurrentQuestion(),Q627a);\n",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q628",
           "type": "SINGLE",
           "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng kết nối thông minh/IoT: theo dõi và nhận thông báo trên điện thoại (cửa mở, mức tiêu thụ điện, nhắc bảo trì...). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
           "note": "",
@@ -3786,7 +3596,7 @@
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn hấp dẫn",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -3816,7 +3626,7 @@
           "form": {}
         },
         {
-          "id": "Q617",
+          "id": "Q629",
           "type": "MULTI",
           "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?\nChọn tất cả các phương án phù hợp",
           "note": "",
@@ -3880,203 +3690,66 @@
           "form": {}
         },
         {
-          "id": "Q618a",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nNhững tính năng nào dưới đây khiến Anh/Chị cảm thấy hấp dẫn?\nChọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. VHF (rã đông nhanh)",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Kết nối thông minh / IoT",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Thiết kế nội thất màu đen",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q618b",
-          "type": "RANKING",
-          "text": "[SHOWCARD]\nVui lòng xếp hạng mức độ hấp dẫn của các tính năng trên với anh chị, với 1 là hấp dẫn nhất, 2 là hấp dẫn thứ 2, 3 là hấp dẫn thứ 3, 4 là hấp dẫn thứ 4, 5 là ít hấp dẫn nhất",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. VHF (rã đông nhanh)",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Quick 45 minutes Auto Ice (làm đá nhanh 45 phút)",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Kết nối thông minh / IoT",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Thiết kế nội thất màu đen",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "5",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),Q618a)",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q619",
+          "id": "Q630",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị cả 4 tính năng này, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm? ",
+          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị tất cả tính năng nêu trên, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Dưới 50 triệu VND",
+              "text": "1. Dưới 60 triệu đồng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. 50-60 triệu VND",
+              "text": "2. Từ 60 – 70 triệu đồng",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. 61-70 triệu VND",
+              "text": "3. Từ 71 – 80 triệu đồng",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. 71-80 triệu VND",
+              "text": "4. Từ 81 – 90 triệu đồng",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. 81-90 triệu VND",
+              "text": "5. Từ 91 – 100 triệu đồng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. 91-100 triệu VND",
+              "text": "6. Từ 101 – 110 triệu đồng",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "7. Trên 100 triệu VND",
+              "text": "7. Từ 111 – 120 triệu đồng",
               "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Trên 120 triệu đồng",
+              "code": "8",
               "media": "",
               "is_other": false,
               "is_header": false
@@ -4105,26 +3778,46 @@
           "form": {}
         },
         {
-          "id": "Q620",
-          "type": "NUMBER_GRID",
-          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này.",
+          "id": "Q631",
+          "type": "OPEN_GRID",
+          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [],
-          "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "topics": [
+            {
+              "text": "1. VHF (Rã đông nhanh)",
+              "code": "1"
+            },
+            {
+              "text": "2. Auto Ice (Làm đá nhanh)",
+              "code": "2"
+            },
+            {
+              "text": "3. Kết nối thông minh / IoT",
+              "code": "3"
+            },
+            {
+              "text": "4. Thiết kế nội thất tối màu",
+              "code": "4"
+            },
+            {
+              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
+              "code": "5"
+            }
+          ],
+          "min": "",
+          "max": "",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
-          "integer_only": false,
+          "integer_only": true,
           "realtime": false,
           "realcam": false,
           "options": {
-            "topic_random": false,
-            "search": false
+            "topic_random": false
           },
           "logic": {
             "on_enter": "",
@@ -4132,71 +3825,20 @@
             "rules": []
           },
           "conjoint": {},
-          "number_grid": {
-            "headers": {
-              "topic": "Chức năng",
-              "before": [],
-              "code": "Giá trị",
-              "after": [
-                "Đơn vị"
-              ]
-            },
-            "rows": [
-              {
-                "topic": "VHF (rã đông nhanh)",
-                "before": [],
-                "code": 1,
-                "after": [
-                  "Triệu đồng"
-                ]
-              },
-              {
-                "topic": "Auto Ice (Làm đá nhanh 45 phút)",
-                "before": [],
-                "code": 2,
-                "after": [
-                  "Triệu đồng"
-                ]
-              },
-              {
-                "topic": "Kết nối thông minh / IoT",
-                "before": [],
-                "code": 3,
-                "after": [
-                  "Triệu đồng"
-                ]
-              },
-              {
-                "topic": "Thiết kế nội thất màu đen",
-                "before": [],
-                "code": 4,
-                "after": [
-                  "Triệu đồng"
-                ]
-              },
-              {
-                "topic": "Prime Fresh",
-                "before": [],
-                "code": 5,
-                "after": [
-                  "Triệu đồng"
-                ]
-              }
-            ]
-          },
+          "number_grid": {},
           "form": {}
         },
         {
           "id": "Q701",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nghĩ đến thương hiệu tủ lạnh PANASONIC, điều gì xuất hiện trong tâm trí Anh/Chị?\nChọn tất cả các phương án phù hợp",
+          "type": "RANKING",
+          "text": "[SHOWPHOTO]\nVui lòng xếp hạng các thương hiệu tủ lạnh dưới đây theo mức độ ưu tiên của anh/chị khi lựa chọn tủ lạnh.\nTừ 1 là Ưu tiên cao nhất đến 6 là Ưu tiên thấp nhất",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đáng tin cậy, bền bỉ",
+              "text": "1. Panasonic",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -4204,7 +3846,7 @@
               "is_header": false
             },
             {
-              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
+              "text": "2. Hitachi",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -4212,7 +3854,7 @@
               "is_header": false
             },
             {
-              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. LG",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -4220,7 +3862,7 @@
               "is_header": false
             },
             {
-              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Toshiba",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -4228,7 +3870,7 @@
               "is_header": false
             },
             {
-              "text": "5. Công nghệ/tính năng hiện đại",
+              "text": "5. Samsung",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4236,41 +3878,17 @@
               "is_header": false
             },
             {
-              "text": "6. Thiết kế đẹp, hợp xu hướng",
+              "text": "6. Aqua",
               "code": "6",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
               "is_header": false
-            },
-            {
-              "text": "7. Giá cao hơn mức trung bình",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Không có ấn tượng cụ thể",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
             }
           ],
           "topics": [],
-          "min": "1",
-          "max": "999",
+          "min": "6",
+          "max": "6",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -4292,89 +3910,52 @@
         },
         {
           "id": "Q702",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nghĩ đến thương hiệu tủ lạnh TOSHIBA, điều gì xuất hiện trong tâm trí Anh/Chị?\nChọn tất cả các phương án phù hợp ",
+          "type": "SINGLE",
+          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh, giữa “thương hiệu uy tín” và “xuất xứ của thương hiệu”, yếu tố nào quan trọng hơn đối với anh/chị?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Đáng tin cậy, bền bỉ",
+              "text": "1. Xuất xứ quan trọng hơn nhiều – Tôi ưu tiên thương hiệu có xuất xứ mà tôi tin tưởng, ngay cả khi thương hiệu đó không quen thuộc",
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
+              "text": "2. Xuất xứ quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về xuất xứ của thương hiệu đó",
               "code": "2",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
+              "text": "3. Cả hai quan trọng như nhau – Tôi cân nhắc đồng thời độ uy tín của thương hiệu và xuất xứ",
               "code": "3",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
+              "text": "4. Thương hiệu uy tín quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về độ uy tín của thương hiệu",
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "5. Công nghệ/tính năng hiện đại",
+              "text": "5. Thương hiệu uy tín quan trọng hơn nhiều – Miễn là tôi tin tưởng thương hiệu, xuất xứ không ảnh hưởng đến quyết định của tôi",
               "code": "5",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Thiết kế đẹp, hợp xu hướng",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Giá cao hơn mức trung bình",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Không có ấn tượng cụ thể",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "1",
-          "max": "999",
+          "min": "",
+          "max": "",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -4395,217 +3976,9 @@
           "form": {}
         },
         {
-          "id": "Q703",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nghĩ đến thương hiệu tủ lạnh LG, điều gì xuất hiện trong tâm trí Anh/Chị?\nChọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Đáng tin cậy, bền bỉ",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Thương hiệu Hàn Quốc lâu đời, đáng tin cậy",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Công nghệ/tính năng hiện đại",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Thiết kế đẹp, hợp xu hướng",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Giá cao hơn mức trung bình",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Không có ấn tượng cụ thể",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q704",
-          "type": "MULTI",
-          "text": "[SHOWCARD]\nKhi nghĩ đến thương hiệu tủ lạnh Hitachi, điều gì xuất hiện trong tâm trí Anh/Chị?\nChọn tất cả các phương án phù hợp",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [
-            {
-              "text": "1. Đáng tin cậy, bền bỉ",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Thương hiệu Nhật Bản lâu đời, đáng tin cậy",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "3. Mức giá hợp lý so với chất lượng nhận được",
-              "code": "3",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "4. Dịch vụ hậu mãi/bảo hành tốt",
-              "code": "4",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "5. Công nghệ/tính năng hiện đại",
-              "code": "5",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Thiết kế đẹp, hợp xu hướng",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Giá cao hơn mức trung bình",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Có phần chậm hơn các thương hiệu khác về công nghệ/tính năng mới",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Không có ấn tượng cụ thể",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "1",
-          "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD4",
+          "id": "HD6",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các tính năng Smart Function của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các tính năng Smart Function được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\nLúc này PVV mở [SHOWPHOTO Q801-Q804] để đáp viên đọc",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các Tính Năng Thông Minh của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các Tính Năng Thông Minh được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\nLúc này PVV mở [SHOWPHOTO Q801-Q804] để đáp viên đọc.\n",
           "note": "",
           "media": "",
           "record": false,
@@ -4637,7 +4010,7 @@
         {
           "id": "Q801",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nDựa trên các tính năng Smart Function được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
+          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nDựa trên các Tính Năng Thông Minh được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -4672,7 +4045,7 @@
               "is_header": false
             },
             {
-              "text": "5. Hơi hấp dẫn",
+              "text": "5, Hơi hấp dẫn",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4686,7 +4059,7 @@
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn hấp dẫn",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -4718,7 +4091,7 @@
         {
           "id": "Q802",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nNếu có các tính năng Smart Function này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu có các tính năng Tính Năng Thông Minh này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -4799,7 +4172,7 @@
         {
           "id": "Q803",
           "type": "OPEN",
-          "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên. ",
+          "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên.",
           "note": "",
           "media": "",
           "record": false,
@@ -4831,7 +4204,7 @@
         {
           "id": "Q804",
           "type": "MULTI",
-          "text": "[SHOWCARD][SHOWPHOTO]\nAnh/Chị có lo ngại nào về việc sử dụng các tính năng Smart Function kết nối với điện thoại thông minh không?\nChọn tất cả các phương án phù hợp ",
+          "text": "[SHOWCARD][SHOWPHOTO]\nAnh/Chị có lo ngại nào về việc sử dụng các tính năng Tính Năng Thông Minh kết nối với điện thoại thông minh không?\nChọn tất cả các phương án phù hợp",
           "note": "",
           "media": "",
           "record": false,
@@ -4890,7 +4263,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
-              "is_exclusive": true,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -4925,9 +4298,9 @@
           "form": {}
         },
         {
-          "id": "HD5",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung Panasonic có một Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Panasonic Smart và sử dụng các tính năng Smart Function, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n•\tLinh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n•\tGia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n•\tCác quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm Panasonic mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc",
+          "id": "HD7",
+          "type": "SINGLE",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung một thương hiệu có Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Smart App và sử dụng các tính năng Tính Năng Thông Minh, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n• Linh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n• Gia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n• Các quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.",
           "note": "",
           "media": "",
           "record": false,
@@ -4958,7 +4331,7 @@
         {
           "id": "Q901",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nAnh/Chị thấy Chương trình Tích Điểm Đổi Quà của Panasonic hấp dẫn ở mức độ nào?",
+          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nAnh/Chị thấy Chương trình Tích Điểm Đổi Quà hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -5007,7 +4380,7 @@
               "is_header": false
             },
             {
-              "text": "7. Hoàn toàn hấp dẫn",
+              "text": "7. Rất hấp dẫn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -5039,21 +4412,21 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM][SHOWPHOTO]\nNếu Panasonic triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu một thương hiệu triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không sẵn lòng",
+              "text": "1.Hoàn toàn không sẵn lòng",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không sẵn lòng",
+              "text": "2.Không sẵn lòng",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -5067,21 +4440,21 @@
               "is_header": false
             },
             {
-              "text": "4. Bình thường",
+              "text": "4.Bình thường",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Hơi sẵn lòng",
+              "text": "5.Hơi sẵn lòng",
               "code": "5",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "6. Sẵn lòng",
+              "text": "6.Sẵn lòng",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -5152,7 +4525,7 @@
         {
           "id": "Q904",
           "type": "SINGLE",
-          "text": "[SHOWCARD][SHOWPHOTO]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
+          "text": "[SHOWPHOTO] [SHOWCARD]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
           "note": "",
           "media": "",
           "record": false,
@@ -5180,14 +4553,14 @@
               "is_header": false
             },
             {
-              "text": "4. Giá trị gia tăng từ các tính năng Smart Function",
+              "text": "4. Giá trị gia tăng từ các Tính Năng Thông Minh",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Niềm tin vào hệ sinh thái Panasonic",
+              "text": "5. Niềm tin vào hệ sinh thái của thương hiệu đó",
               "code": "5",
               "media": "",
               "is_other": false,
