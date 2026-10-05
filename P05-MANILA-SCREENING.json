@@ -1560,7 +1560,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "if(Contains(CurrentQuestion(),[5,6])){SetAnswer(S20,[2])}",
+            "on_next": "if(Contains(CurrentQuestion(),[4,5,6])){SetAnswer(S20,[2])}",
             "rules": [
               {
                 "condition": "Contains(CurrentQuestion(),[1,2,3,7])",
