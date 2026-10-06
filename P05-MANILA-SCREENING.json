@@ -2140,6 +2140,70 @@
           "form": {}
         },
         {
+          "id": "Model",
+          "type": "MEDIA",
+          "text": "Kunan ng interviewer ng larawan ang model ng refrigerator. (Model. Interviewer to take a photo of the refrigerator model.)",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "10",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Sticker/Label",
+          "type": "MEDIA",
+          "text": "Kunan ng interviewer ng larawan ang sticker/label ng refrigerator. (Sticker/Label. Interviewer to take a photo of the refrigerator sticker/label.)",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "10",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "End",
           "type": "EMPTY",
           "text": "THANK YOU!",
