@@ -196,7 +196,7 @@
         {
           "id": "Q201",
           "type": "MULTI",
-          "text": "Alin sa mga sumusunod ang pinakaangkop na paglalarawan sa kahulugan ng refrigerator para sa inyo? Pumili ng hanggang 3.\n[Which of the following best describes what a refrigerator means to you? - Choose up to 3 best]",
+          "text": "[SHOWCARD]\nAlin sa mga sumusunod ang pinakaangkop na paglalarawan sa kahulugan ng refrigerator para sa inyo? Pumili ng hanggang 3.\n[Which of the following best describes what a refrigerator means to you? - Choose up to 3 best]",
           "note": "",
           "media": "",
           "record": false,
@@ -324,7 +324,7 @@
         {
           "id": "Q301",
           "type": "MULTI",
-          "text": "Habang naghahanap kayo ng refrigerator na bibilhin, alin sa mga sumusunod ang ginawa ninyo? Piliin ang lahat ng naaangkop.\n[While researching to buy a refrigerator, which of the following did you do? - Select all that apply]",
+          "text": "[SHOWCARD]\nHabang naghahanap kayo ng refrigerator na bibilhin, alin sa mga sumusunod ang ginawa ninyo? Piliin ang lahat ng naaangkop.\n[While researching to buy a refrigerator, which of the following did you do? - Select all that apply]",
           "note": "",
           "media": "",
           "record": false,
@@ -428,7 +428,7 @@
         {
           "id": "Q202",
           "type": "SINGLE",
-          "text": "Noong nagpagawa o nagpa-renovate kayo ng kusina, humingi ba kayo ng tulong o payo sa interior designer (tao o kumpanya)?\n[When renovating/building a new kitchen for your current home, did you get advice from an interior designer (person or company)?]",
+          "text": "[SHOWCARD]\nNoong nagpagawa o nagpa-renovate kayo ng kusina, humingi ba kayo ng tulong o payo sa interior designer (tao o kumpanya)?\n[When renovating/building a new kitchen for your current home, did you get advice from an interior designer (person or company)?]",
           "note": "",
           "media": "",
           "record": false,
@@ -474,7 +474,7 @@
         {
           "id": "Q203",
           "type": "SINGLE",
-          "text": "Sino ang nagpasya sa sukat ng kitchen cabinets, kasama ang puwang para sa refrigerator?\n[Who decided/suggest dimension of your kitchen cabinet including fridge area?]",
+          "text": "[SHOWCARD]\nSino ang nagpasya sa sukat ng kitchen cabinets, kasama ang puwang para sa refrigerator?\n[Who decided/suggest dimension of your kitchen cabinet including fridge area?]",
           "note": "",
           "media": "",
           "record": false,
@@ -534,7 +534,7 @@
         {
           "id": "Q302",
           "type": "SINGLE",
-          "text": "Saan po ninyo binili ang refrigerator ninyo?\n[Where did you purchase your fridge?]",
+          "text": "[SHOWCARD]\nSaan po ninyo binili ang refrigerator ninyo?\n[Where did you purchase your fridge?]",
           "note": "",
           "media": "",
           "record": false,
@@ -601,7 +601,7 @@
         {
           "id": "Q303",
           "type": "SINGLE",
-          "text": "Alin dito ang nangyari sa bahay ninyo?\n[Which order best describes your family's situation?]",
+          "text": "[SHOWCARD]\nAlin dito ang nangyari sa bahay ninyo?\n[Which order best describes your family's situation?]",
           "note": "",
           "media": "",
           "record": false,
@@ -654,7 +654,7 @@
         {
           "id": "Q401",
           "type": "SINGLE",
-          "text": "Kung may architect o interior designer kayo, gaano kalaki ang naging epekto ng payo nila sa pagpili ninyo ng refrigerator?\n[If you used an architect/interior designer, how much did they influence your refrigerator choice?]",
+          "text": "[SHOWCARD]\nKung may architect o interior designer kayo, gaano kalaki ang naging epekto ng payo nila sa pagpili ninyo ng refrigerator?\n[If you used an architect/interior designer, how much did they influence your refrigerator choice?]",
           "note": "",
           "media": "",
           "record": false,
@@ -735,7 +735,7 @@
         {
           "id": "Q402",
           "type": "MULTI",
-          "text": "Paano nakaapekto ang architect o designer sa desisyon ninyo?\n[In what way did the architect/designer influence your decision?]",
+          "text": "[SHOWCARD]\nPaano nakaapekto ang architect o designer sa desisyon ninyo?\n[In what way did the architect/designer influence your decision?]",
           "note": "",
           "media": "",
           "record": false,
@@ -815,7 +815,7 @@
         {
           "id": "Q403",
           "type": "SINGLE",
-          "text": "Gaano kalaki ang naging epekto ng salesperson sa tindahan sa huli ninyong desisyon?\n[How much did the store salesperson influence your FINAL decision?]",
+          "text": "[SHOWCARD]\nGaano kalaki ang naging epekto ng salesperson sa tindahan sa huli ninyong desisyon?\n[How much did the store salesperson influence your FINAL decision?]",
           "note": "",
           "media": "",
           "record": false,
@@ -896,7 +896,7 @@
         {
           "id": "Q404",
           "type": "SINGLE",
-          "text": "Bago kayo pumunta sa tindahan, gaano na kayo kasigurado sa refrigerator na gusto ninyong bilhin?\n[Before going to the store, how clearly had you already decided on the model/brand you wanted to buy?]",
+          "text": "[SHOWCARD]\nBago kayo pumunta sa tindahan, gaano na kayo kasigurado sa refrigerator na gusto ninyong bilhin?\n[Before going to the store, how clearly had you already decided on the model/brand you wanted to buy?]",
           "note": "",
           "media": "",
           "record": false,
@@ -981,7 +981,7 @@
         {
           "id": "Q501",
           "type": "MULTI",
-          "text": "[IPAKITA ANG LARAWAN]\nSaan ninyo unang narinig o nakita ang tungkol sa built-in/slot-in refrigerator—refrigerator na halos eksaktong kasya sa kitchen cabinets at halos walang pagitan?\n[[SHOW PHOTO]\nWhere did you first learn about the \"built-in/slot-in\" refrigerator concept (a refrigerator that fits fully into the kitchen cabinets, almost no gap)?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nSaan ninyo unang narinig o nakita ang tungkol sa built-in/slot-in refrigerator—refrigerator na halos eksaktong kasya sa kitchen cabinets at halos walang pagitan?\n[[SHOW PHOTO][SHOWCARD]\nWhere did you first learn about the \"built-in/slot-in\" refrigerator concept (a refrigerator that fits fully into the kitchen cabinets, almost no gap)?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1101,7 +1101,7 @@
         {
           "id": "Q601",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang itsura ng Model A?\n[[SHOW PHOTO]\nDo you find the design of Model A appealing?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang itsura ng Model A?\n[[SHOW PHOTO][SHOWCARD]\nDo you find the design of Model A appealing?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1182,7 +1182,7 @@
         {
           "id": "Q602",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang itsura ng Model B?\n[[SHOW PHOTO]\nDo you find the design of Model B appealing?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang itsura ng Model B?\n[[SHOW PHOTO][SHOWCARD]\nDo you find the design of Model B appealing?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1263,7 +1263,7 @@
         {
           "id": "Q603",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nSa dalawang refrigerator na ito, Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO]\nComparing the two refrigerator models A and B, which one do you prefer?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nSa dalawang refrigerator na ito, Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO][SHOWCARD]\nComparing the two refrigerator models A and B, which one do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1341,7 +1341,7 @@
         {
           "id": "Q604",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design ng refrigerator na ito?\n[[SHOW PHOTO]\nDo you find the dark-inner design of this refrigerator appealing?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang dark-inner design ng refrigerator na ito?\n[[SHOW PHOTO][SHOWCARD]\nDo you find the dark-inner design of this refrigerator appealing?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1422,7 +1422,7 @@
         {
           "id": "Q605",
           "type": "OPEN",
-          "text": "[IPAKITA ANG LARAWAN]\nBakit po iyon ang naging sagot ninyo?\n[[SHOW PHOTO]\nWhy do you feel that way?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nBakit po iyon ang naging sagot ninyo?\n[[SHOW PHOTO][SHOWCARD]\nWhy do you feel that way?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1542,7 +1542,7 @@
         {
           "id": "Q606",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design habang nakasaksak ang refrigerator?\n[[SHOW PHOTO]\nDo you find the dark-inner design of this refrigerator after being plugged appealing?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang dark-inner design habang nakasaksak ang refrigerator?\n[[SHOW PHOTO][SHOWCARD]\nDo you find the dark-inner design of this refrigerator after being plugged appealing?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1655,7 +1655,7 @@
         {
           "id": "Q607",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang dark-inner design kapag nakasaksak ang refrigerator at may pagkain sa loob?\n[[SHOW PHOTO]\nDo you find the Dark-Inner design of this refrigerator after being plugged with some food displayed appealing?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang dark-inner design kapag nakasaksak ang refrigerator at may pagkain sa loob?\n[[SHOW PHOTO][SHOWCARD]\nDo you find the Dark-Inner design of this refrigerator after being plugged with some food displayed appealing?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1736,7 +1736,7 @@
         {
           "id": "Q608",
           "type": "MULTI",
-          "text": "Alin sa mga pahayag na ito ang sang-ayon kayo tungkol sa refrigerator na may dark inner design?\n[Which of the following statements do you AGREE with about the Dark-Inner refrigerator you just saw?]",
+          "text": "[SHOWCARD]\nAlin sa mga pahayag na ito ang sang-ayon kayo tungkol sa refrigerator na may dark inner design?\n[Which of the following statements do you AGREE with about the Dark-Inner refrigerator you just saw?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1848,7 +1848,7 @@
         {
           "id": "Q609",
           "type": "MULTI",
-          "text": "Alin sa mga pangalan ang pinakabagay sa Dark-Inner concept? Pumili ng 2.\n[Please find following Name Concept for Dark inner. Choose 2 names you feel most similar to this Dark inner concept. - Choose 2 answers]",
+          "text": "[SHOWCARD]\nAlin sa mga pangalan ang pinakabagay sa Dark-Inner concept? Pumili ng 2.\n[Please find following Name Concept for Dark inner. Choose 2 names you feel most similar to this Dark inner concept. - Choose 2 answers]",
           "note": "",
           "media": "",
           "record": false,
@@ -2016,7 +2016,7 @@
         {
           "id": "Q611",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nSa dalawang refrigerator na Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO]\nComparing the two refrigerator models A and B, which one do you prefer?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nSa dalawang refrigerator na Model A at Model B, alin ang mas gusto ninyo?\n[[SHOW PHOTO][SHOWCARD]\nComparing the two refrigerator models A and B, which one do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2093,7 +2093,7 @@
         {
           "id": "Q612",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nKapag madilim ang kuwarto at may pagkain sa loob ng refrigerator, alin ang mas gusto ninyong lighting?\n[[SHOW PHOTO]\nAfter seeing this fridge condition in dark room with fake food, which lightning condition do you prefer?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nKapag madilim ang kuwarto at may pagkain sa loob ng refrigerator, alin ang mas gusto ninyong lighting?\n[[SHOW PHOTO][SHOWCARD]\nAfter seeing this fridge condition in dark room with fake food, which lightning condition do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2201,7 +2201,7 @@
         {
           "id": "Q614",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nHow APPEALING do you find this feature?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO][SHOWCARD]\nHow APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2346,7 +2346,7 @@
         {
           "id": "Q616",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nSaan ninyo mas gustong ilagay ang VHF compartment?\n[[SHOWPHOTO]\nWhere do you want VHF compartment to be placed?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nSaan ninyo mas gustong ilagay ang VHF compartment?\n[[SHOWPHOTO][SHOWCARD]\nWhere do you want VHF compartment to be placed?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2392,7 +2392,7 @@
         {
           "id": "Q617",
           "type": "MULTI",
-          "text": "Anong mga pagkain ang gagamitin ninyo sa VHF function? Piliin ang lahat ng naaangkop.\n[For which types of food would you use this VHF function? (Select all that apply)]",
+          "text": "[SHOWCARD]\nAnong mga pagkain ang gagamitin ninyo sa VHF function? Piliin ang lahat ng naaangkop.\n[For which types of food would you use this VHF function? (Select all that apply)]",
           "note": "",
           "media": "",
           "record": false,
@@ -2472,7 +2472,7 @@
         {
           "id": "Q618",
           "type": "MULTI",
-          "text": "Kailan ninyo gagamitin ang function na ito? Piliin ang lahat ng naaangkop.\n[When would you use this function?]",
+          "text": "[SHOWCARD]\nKailan ninyo gagamitin ang function na ito? Piliin ang lahat ng naaangkop.\n[When would you use this function?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2568,7 +2568,7 @@
         {
           "id": "Q619",
           "type": "MULTI",
-          "text": "Ano ang magiging pakinabang sa inyo ng function na ito? Pumili ng hanggang 3.\n[What feelings would you get from using this function? (Select up to 3)]",
+          "text": "[SHOWCARD]\nAno ang magiging pakinabang sa inyo ng function na ito? Pumili ng hanggang 3.\n[What feelings would you get from using this function? (Select up to 3)]",
           "note": "",
           "media": "",
           "record": false,
@@ -2680,7 +2680,7 @@
         {
           "id": "Q620a",
           "type": "MULTI",
-          "text": "Narito ang ilang mensahe tungkol sa VHF.\nAlin sa mga mensahe ang madaling maiugnay sa inyong pangangailangan? Piliin ang lahat ng naaangkop.\n[Below are several communication messages about VHF. ]\nWhich communication messages you find relatable to you? - select all that apply ",
+          "text": "[SHOWCARD]\nNarito ang ilang mensahe tungkol sa VHF.\nAlin sa mga mensahe ang madaling maiugnay sa inyong pangangailangan? Piliin ang lahat ng naaangkop.\n[Below are several communication messages about VHF. ]\nWhich communication messages you find relatable to you? - select all that apply ",
           "note": "",
           "media": "",
           "record": false,
@@ -2768,7 +2768,7 @@
         {
           "id": "Q620b",
           "type": "SINGLE",
-          "text": "Narito ang ilang mensahe tungkol sa VHF.\nSa mga pinili ninyo, alin ang pinakaangkop sa inyo? Pumili ng isa.\n[Below are several communication messages about VHF. ]\nIn which, which communication messages you find THE MOST relatable to you? -select ONE answer",
+          "text": "[SHOWCARD]\nNarito ang ilang mensahe tungkol sa VHF.\nSa mga pinili ninyo, alin ang pinakaangkop sa inyo? Pumili ng isa.\n[Below are several communication messages about VHF. ]\nIn which, which communication messages you find THE MOST relatable to you? -select ONE answer",
           "note": "",
           "media": "",
           "record": false,
@@ -2842,7 +2842,7 @@
         {
           "id": "Q621",
           "type": "SINGLE",
-          "text": "Magkano ang dagdag na handa ninyong bayaran para sa VHF feature na ito?\n[How much extra would you be willing to pay for this VHF feature?]",
+          "text": "[SHOWCARD]\nMagkano ang dagdag na handa ninyong bayaran para sa VHF feature na ito?\n[How much extra would you be willing to pay for this VHF feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2930,7 +2930,7 @@
         {
           "id": "Q622",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nAng Auto Ice ay kayang gumawa ng isang batch ng yelo sa loob ng mga 45 minuto, kumpara sa karaniwang 120 minuto. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nAuto Ice feature: a feature that can produce a batch of ice in approximately 45 minutes (compared to around 120 minutes for a typical ice-making cycle). How APPEALING do you find this feature?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nAng Auto Ice ay kayang gumawa ng isang batch ng yelo sa loob ng mga 45 minuto, kumpara sa karaniwang 120 minuto. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO][SHOWCARD]\nAuto Ice feature: a feature that can produce a batch of ice in approximately 45 minutes (compared to around 120 minutes for a typical ice-making cycle). How APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3011,7 +3011,7 @@
         {
           "id": "Q623",
           "type": "SINGLE",
-          "text": "Magkano ang dagdag na handa ninyong bayaran para sa feature na ito?\n[How much extra would you be willing to pay for this feature?]",
+          "text": "[SHOWCARD]\nMagkano ang dagdag na handa ninyong bayaran para sa feature na ito?\n[How much extra would you be willing to pay for this feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3117,7 +3117,7 @@
         {
           "id": "Q624",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN (3 konsepto)]\nSa 3 communication messages tungkol sa Auto Ice feature na ipinapakita sa 3 larawan, aling konsepto ang mas gusto ninyo?\n[[SHOW PHOTO (3 concept)]\nAmong 3 communication messages about Auto Ice feature shown in 3 pictures, which concept do you prefer?]",
+          "text": "[IPAKITA ANG LARAWAN (3 konsepto)][SHOWCARD]\nSa 3 communication messages tungkol sa Auto Ice feature na ipinapakita sa 3 larawan, aling konsepto ang mas gusto ninyo?\n[[SHOW PHOTO (3 concept)][SHOWCARD]\nAmong 3 communication messages about Auto Ice feature shown in 3 pictures, which concept do you prefer?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3170,7 +3170,7 @@
         {
           "id": "Q625a",
           "type": "MULTI",
-          "text": "Alin sa mga pahayag tungkol sa ice maker ang gusto ninyo? Piliin ang lahat ng naaangkop.\n[Which of the following statements about the ice maker appeal to you? Select ALL that apply. ]",
+          "text": "[SHOWCARD]\nAlin sa mga pahayag tungkol sa ice maker ang gusto ninyo? Piliin ang lahat ng naaangkop.\n[Which of the following statements about the ice maker appeal to you? Select ALL that apply. ]",
           "note": "",
           "media": "",
           "record": false,
@@ -3258,7 +3258,7 @@
         {
           "id": "Q625b",
           "type": "SINGLE",
-          "text": "Sa mga pinili ninyo, alin ang pinakagusto ninyo? Pumili ng isa.\n[Of the statements you selected, which ONE appeals to you the MOST?]",
+          "text": "[SHOWCARD]\nSa mga pinili ninyo, alin ang pinakagusto ninyo? Pumili ng isa.\n[Of the statements you selected, which ONE appeals to you the MOST?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3332,7 +3332,7 @@
         {
           "id": "Q626",
           "type": "SINGLE",
-          "text": "Alin dito ang pinakakapani-paniwala sa inyo bilang patunay na malinis ang yelo? Pumili ng isa.\n[Which ONE point of the following points make you most believe the ice is hygienic? - select one answer]",
+          "text": "[SHOWCARD]\nAlin dito ang pinakakapani-paniwala sa inyo bilang patunay na malinis ang yelo? Pumili ng isa.\n[Which ONE point of the following points make you most believe the ice is hygienic? - select one answer]",
           "note": "",
           "media": "",
           "record": false,
@@ -3385,7 +3385,7 @@
         {
           "id": "Q627a",
           "type": "MULTI",
-          "text": "Kapag yelo sa refrigerator ang pinag-uusapan, alin sa mga salitang ito ang mas kapani-paniwala para sa inyo? Piliin ang lahat ng naaangkop.\n[When talking about ice in the refrigerator, which of the following expressions do you find more believable? Select ALL that apply]",
+          "text": "[SHOWCARD]\nKapag yelo sa refrigerator ang pinag-uusapan, alin sa mga salitang ito ang mas kapani-paniwala para sa inyo? Piliin ang lahat ng naaangkop.\n[When talking about ice in the refrigerator, which of the following expressions do you find more believable? Select ALL that apply]",
           "note": "",
           "media": "",
           "record": false,
@@ -3473,7 +3473,7 @@
         {
           "id": "Q627b",
           "type": "SINGLE",
-          "text": "Sa mga pinili ninyo, alin ang pinakakapani-paniwala? Pumili ng isa.\n[Of the words you just chose, which one do you believe the most?]",
+          "text": "[SHOWCARD]\nSa mga pinili ninyo, alin ang pinakakapani-paniwala? Pumili ng isa.\n[Of the words you just chose, which one do you believe the most?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3547,7 +3547,7 @@
         {
           "id": "Q628",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nAng Smart Connectivity/IoT ay nagbibigay ng alerts sa phone, halimbawa kapag bukas ang pinto, mataas ang konsumo ng kuryente o kailangan ng maintenance. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO]\nSmart connectivity/IoT feature: monitor and get phone alerts (door left open, power usage, maintenance alerts...). How APPEALING do you find this feature?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nAng Smart Connectivity/IoT ay nagbibigay ng alerts sa phone, halimbawa kapag bukas ang pinto, mataas ang konsumo ng kuryente o kailangan ng maintenance. Gaano ninyo nagustuhan ang feature na ito?\n[[SHOW PHOTO][SHOWCARD]\nSmart connectivity/IoT feature: monitor and get phone alerts (door left open, power usage, maintenance alerts...). How APPEALING do you find this feature?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3628,7 +3628,7 @@
         {
           "id": "Q629",
           "type": "SINGLE",
-          "text": "Alin sa mga benepisyo ng Smart Connectivity/IoT ang pinaka-kapaki-pakinabang para sa inyo?\n[Of the following benefits of the smart connectivity/IoT feature, which do you find MOST USEFUL?]",
+          "text": "[SHOWCARD]\nAlin sa mga benepisyo ng Smart Connectivity/IoT ang pinaka-kapaki-pakinabang para sa inyo?\n[Of the following benefits of the smart connectivity/IoT feature, which do you find MOST USEFUL?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3688,7 +3688,7 @@
         {
           "id": "Q630",
           "type": "SINGLE",
-          "text": "Kung may refrigerator na may apat na feature na ito, magkano ang handa ninyong bayaran?\n[If there were a refrigerator equipped with all these 4 features, how much would you be willing to pay for it?",
+          "text": "[SHOWCARD]\nKung may refrigerator na may apat na feature na ito, magkano ang handa ninyong bayaran?\n[If there were a refrigerator equipped with all these 4 features, how much would you be willing to pay for it?",
           "note": "",
           "media": "",
           "record": false,
@@ -3900,7 +3900,7 @@
         {
           "id": "Q702",
           "type": "SINGLE",
-          "text": "Kapag pumipili ng refrigerator, alin ang mas mahalaga sa inyo: ang kilala at pinagkakatiwalaang brand o ang bansang pinagmulan nito?\n[When choosing a refrigerator, which is more important to you: a reputable brand or the brand’s country of origin?]",
+          "text": "[SHOWCARD]\nKapag pumipili ng refrigerator, alin ang mas mahalaga sa inyo: ang kilala at pinagkakatiwalaang brand o ang bansang pinagmulan nito?\n[When choosing a refrigerator, which is more important to you: a reputable brand or the brand’s country of origin?]",
           "note": "",
           "media": "",
           "record": false,
@@ -3999,7 +3999,7 @@
         {
           "id": "Q801",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nBatay sa mga Smart Function na ipinakita, gaano ninyo nagustuhan ang mga ito?\n[[SHOW PHOTO]\nBased on the Smart Function features shown above, how appealing do you find these features?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nBatay sa mga Smart Function na ipinakita, gaano ninyo nagustuhan ang mga ito?\n[[SHOW PHOTO][SHOWCARD]\nBased on the Smart Function features shown above, how appealing do you find these features?]",
           "note": "",
           "media": "",
           "record": false,
@@ -4080,7 +4080,7 @@
         {
           "id": "Q802",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nKung may ganitong Smart Function, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf these Smart Function features were available, how willing would you be to connect the refrigerator to your smartphone and actively use these functions?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nKung may ganitong Smart Function, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO][SHOWCARD]\nIf these Smart Function features were available, how willing would you be to connect the refrigerator to your smartphone and actively use these functions?]",
           "note": "",
           "media": "",
           "record": false,
@@ -4193,7 +4193,7 @@
         {
           "id": "Q804",
           "type": "MULTI",
-          "text": "[IPAKITA ANG LARAWAN]\nMay mga bagay ba kayong ikinababahala sa paggamit ng Smart Function na konektado sa smartphone?\n[[SHOW PHOTO]\nDo you have any concerns about using Smart Function features connected to a smartphone?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nMay mga bagay ba kayong ikinababahala sa paggamit ng Smart Function na konektado sa smartphone?\n[[SHOW PHOTO][SHOWCARD]\nDo you have any concerns about using Smart Function features connected to a smartphone?]",
           "note": "",
           "media": "",
           "record": false,
@@ -4320,7 +4320,7 @@
         {
           "id": "Q901",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nGaano ninyo nagustuhan ang Smart Rewards Program?\n[[SHOW PHOTO]\nHow appealing do you find Smart Regards Program?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nGaano ninyo nagustuhan ang Smart Rewards Program?\n[[SHOW PHOTO][SHOWCARD]\nHow appealing do you find Smart Regards Program?]",
           "note": "",
           "media": "",
           "record": false,
@@ -4401,7 +4401,7 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nKung isang brand ang mag-aalok ng Smart Rewards Program na ito, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO]\nIf a brand offered this Smart Rewards Program, how willing would you be to connect your refrigerator to your smartphone and actively use these functions?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nKung isang brand ang mag-aalok ng Smart Rewards Program na ito, gaano kayo kahandang ikonekta ang refrigerator sa smartphone at gamitin ang mga feature nito?\n[[SHOW PHOTO][SHOWCARD]\nIf a brand offered this Smart Rewards Program, how willing would you be to connect your refrigerator to your smartphone and actively use these functions?]",
           "note": "",
           "media": "",
           "record": false,
@@ -4514,7 +4514,7 @@
         {
           "id": "Q904",
           "type": "SINGLE",
-          "text": "[IPAKITA ANG LARAWAN]\nAno ang pangunahing dahilan kung bakit mahihikayat kayong ikonekta ang refrigerator sa programang ito?\n[[SHOW PHOTO]\nWhat is the main reason this program would encourage you to connect your refrigerator?]",
+          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nAno ang pangunahing dahilan kung bakit mahihikayat kayong ikonekta ang refrigerator sa programang ito?\n[[SHOW PHOTO][SHOWCARD]\nWhat is the main reason this program would encourage you to connect your refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
