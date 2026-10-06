@@ -220,7 +220,7 @@
         {
           "id": "S3a",
           "type": "NUMBER",
-          "text": "Anong taon ka ipinanganak? (What year were you born?)",
+          "text": "[SHOWCARD]\nAnong taon ka ipinanganak? (What year were you born?)",
           "note": "",
           "media": "",
           "record": false,
@@ -251,7 +251,7 @@
         {
           "id": "S3b",
           "type": "NUMBER",
-          "text": "Naitala ang edad ng respondent. (Respondent's age was logged.)",
+          "text": "[SHOWCARD]\nNaitala ang edad ng respondent. (Respondent's age was logged.)",
           "note": "",
           "media": "",
           "record": false,
@@ -282,7 +282,7 @@
         {
           "id": "S3c",
           "type": "SINGLE",
-          "text": "Ilang taon na po kayo?\n[Which age group do you belong to?]",
+          "text": "[SHOWCARD]\nIlang taon na po kayo?\n[Which age group do you belong to?]",
           "note": "",
           "media": "",
           "record": false,
@@ -434,7 +434,7 @@
         {
           "id": "S5b",
           "type": "SINGLE",
-          "text": "Ano po ang kasalukuyan ninyong trabaho?\n[Which group does your current job belong to?]",
+          "text": "[SHOWCARD]\nAno po ang kasalukuyan ninyong trabaho?\n[Which group does your current job belong to?]",
           "note": "",
           "media": "",
           "record": false,
@@ -508,7 +508,7 @@
         {
           "id": "S6",
           "type": "SINGLE",
-          "text": "Magkano po ang pinagsamang buwanang kita ng lahat ng nakatira sa inyong bahay?\n[What is the average total monthly income of your HOUSEHOLD (adding up income of all members)?]",
+          "text": "[SHOWCARD]\nMagkano po ang pinagsamang buwanang kita ng lahat ng nakatira sa inyong bahay?\n[What is the average total monthly income of your HOUSEHOLD (adding up income of all members)?]",
           "note": "",
           "media": "",
           "record": false,
@@ -649,7 +649,7 @@
         {
           "id": "S8",
           "type": "SINGLE",
-          "text": "Kayo po ba ang nagpapasya kung anong refrigerator ang bibilhin para sa pamilya?\n[What is your role in choosing/deciding to buy a refrigerator for your family?]",
+          "text": "[SHOWCARD]\nKayo po ba ang nagpapasya kung anong refrigerator ang bibilhin para sa pamilya?\n[What is your role in choosing/deciding to buy a refrigerator for your family?]",
           "note": "",
           "media": "",
           "record": false,
@@ -986,7 +986,7 @@
         {
           "id": "S12",
           "type": "SINGLE",
-          "text": "Kailan po ninyo binili ang refrigerator na ginagamit ninyo ngayon?\n[When did you purchase your current refrigerator?]",
+          "text": "[SHOWCARD]\nKailan po ninyo binili ang refrigerator na ginagamit ninyo ngayon?\n[When did you purchase your current refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1067,7 +1067,7 @@
         {
           "id": "S13",
           "type": "SINGLE",
-          "text": "Mga magkano po ang nagastos ninyo sa refrigerator na ginagamit ninyo ngayon?\n[About how much did your family pay for your current refrigerator?]",
+          "text": "[SHOWCARD]\nMga magkano po ang nagastos ninyo sa refrigerator na ginagamit ninyo ngayon?\n[About how much did your family pay for your current refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1161,7 +1161,7 @@
         {
           "id": "S14",
           "type": "SINGLE",
-          "text": "May plano po ba kayong bumili ng bagong refrigerator sa susunod na 12 buwan?\n[In the next 12 months, do you intend to buy a new refrigerator?]",
+          "text": "[SHOWCARD]\nMay plano po ba kayong bumili ng bagong refrigerator sa susunod na 12 buwan?\n[In the next 12 months, do you intend to buy a new refrigerator?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1221,7 +1221,7 @@
         {
           "id": "S15",
           "type": "SINGLE",
-          "text": "Ano po ang pangunahing dahilan kung bakit kailangan ninyong bumili ng refrigerator sa susunod na mga panahon?\n[What is the main reason you need to buy a refrigerator in the near future?]",
+          "text": "[SHOWCARD]\nAno po ang pangunahing dahilan kung bakit kailangan ninyong bumili ng refrigerator sa susunod na mga panahon?\n[What is the main reason you need to buy a refrigerator in the near future?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1295,7 +1295,7 @@
         {
           "id": "S16",
           "type": "SINGLE",
-          "text": "Nagsaliksik na po ba kayo tungkol sa mga refrigerator na puwede ninyong bilhin?\n[Have you researched information about refrigerators for this need?]",
+          "text": "[SHOWCARD]\nNagsaliksik na po ba kayo tungkol sa mga refrigerator na puwede ninyong bilhin?\n[Have you researched information about refrigerators for this need?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1355,7 +1355,7 @@
         {
           "id": "S17",
           "type": "MULTI",
-          "text": "Saan po kayo naghanap ng impormasyon tungkol sa refrigerator?\n[Which sources have you researched through?]\"",
+          "text": "[SHOWCARD]\nSaan po kayo naghanap ng impormasyon tungkol sa refrigerator?\n[Which sources have you researched through?]\"",
           "note": "",
           "media": "",
           "record": false,
@@ -1489,7 +1489,7 @@
         {
           "id": "S19",
           "type": "SINGLE",
-          "text": "Magkano po ang budget ninyo para sa refrigerator na balak ninyong bilhin?\n[What price range are you considering/narrowing down for the refrigerator you plan to buy?]",
+          "text": "[SHOWCARD]\nMagkano po ang budget ninyo para sa refrigerator na balak ninyong bilhin?\n[What price range are you considering/narrowing down for the refrigerator you plan to buy?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1623,7 +1623,7 @@
         {
           "id": "S21",
           "type": "MULTI",
-          "text": "Sino-sino po ang kasalukuyang kasama ninyo sa bahay? Piliin ang lahat ng naaangkop.\n[Which of the following people currently live in your household?]",
+          "text": "[SHOWCARD]\nSino-sino po ang kasalukuyang kasama ninyo sa bahay? Piliin ang lahat ng naaangkop.\n[Which of the following people currently live in your household?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1743,7 +1743,7 @@
         {
           "id": "S22",
           "type": "SINGLE_GRID",
-          "text": "Sabihin kung gaano kayo sumasang-ayon o hindi sumasang-ayon sa bawat pahayag.\n[Please indicate how strongly you agree or disagree with each of the following statements.]",
+          "text": "[SHOWCARD]\nSabihin kung gaano kayo sumasang-ayon o hindi sumasang-ayon sa bawat pahayag.\n[Please indicate how strongly you agree or disagree with each of the following statements.]",
           "note": "",
           "media": "",
           "record": false,
@@ -1863,7 +1863,7 @@
         {
           "id": "S23",
           "type": "SINGLE",
-          "text": "Ano po ang katayuan ng bahay na tinitirhan ninyo ngayon?\n[What is the current status of the home you live in?]",
+          "text": "[SHOWCARD]\nAno po ang katayuan ng bahay na tinitirhan ninyo ngayon?\n[What is the current status of the home you live in?]",
           "note": "",
           "media": "",
           "record": false,
@@ -1923,7 +1923,7 @@
         {
           "id": "S24",
           "type": "SINGLE",
-          "text": "Mga magkano po ang tinatayang halaga ng bahay ninyo ngayon?\n[Approximately what is the current market value of your home?]",
+          "text": "[SHOWCARD]\nMga magkano po ang tinatayang halaga ng bahay ninyo ngayon?\n[Approximately what is the current market value of your home?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2004,7 +2004,7 @@
         {
           "id": "S25",
           "type": "SINGLE",
-          "text": "May sariling sasakyan po ba ang pamilya ninyo?\n[Does your household own a car?]",
+          "text": "[SHOWCARD]\nMay sariling sasakyan po ba ang pamilya ninyo?\n[Does your household own a car?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2057,7 +2057,7 @@
         {
           "id": "S26a",
           "type": "OPEN",
-          "text": "Anong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
+          "text": "[SHOWCARD]\nAnong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
           "note": "",
           "media": "",
           "record": false,
@@ -2089,7 +2089,7 @@
         {
           "id": "S26b",
           "type": "SINGLE",
-          "text": "Anong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
+          "text": "[SHOWCARD]\nAnong uri ng sasakyan ang mayroon ang pamilya ninyo?\n[What type of car your household owns?]",
           "note": "",
           "media": "",
           "record": false,
