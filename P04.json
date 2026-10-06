@@ -4492,38 +4492,6 @@
           "form": {}
         },
         {
-          "id": "Q7",
-          "type": "GPS",
-          "text": "Vui lòng ghi nhận GPS",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q5",
           "type": "EMPTY",
           "text": "CẢM ƠN ANH CHỊ ĐÃ CHIA SẺ",
