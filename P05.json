@@ -1187,6 +1187,183 @@
           "form": {}
         },
         {
+          "id": "Q601a",
+          "type": "SINGLE",
+          "text": "[SHOWCARD THANG ĐIỂM]\nTrên thang điểm từ 1 đến 7, Anh/Chị đánh giá mức độ hấp dẫn của thiết kế tủ lạnh cửa kính mờ này như thế nào?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hấp dẫn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hấp dẫn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Hơi không hấp dẫn",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Bình thường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Hơi hấp dẫn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Hấp dẫn",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Rất hấp dẫn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q601b",
+          "type": "MULTI",
+          "text": "[SHOWCARD THANG ĐIỂM]\nNhững phát biểu nào dưới đây đúng với cảm nhận của Anh/Chị về cửa kính mờ này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Độc đáo và hiện đại hơn.",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Mang lại cảm giác cao cấp và sang trọng.",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Độc đáo, hiện đại và cao cấp hơn so với thiết kế mặt gương cao cấp.",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Mang phong cách tối giản hiện đại (Urban Minimalist).",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Khó kết hợp với thiết kế hoặc nội thất bếp.",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Màu sắc tạo cảm giác quá giống thép kim loại.",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Không thích bề mặt kính dạng mặt gương.",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Không có nhận xét đặc biệt nào.",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q602",
           "type": "SINGLE",
           "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh B hấp dẫn ở mức độ nào?",
@@ -1855,14 +2032,14 @@
         {
           "id": "Q609",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nDưới đây là một số tên gọi đề xuất cho dòng tủ lạnh có nội thất tối màu. Anh/Chị vui lòng chọn 2 tên mà Anh/Chị cảm thấy phù hợp nhất với dòng tủ lạnh này.\n[Chọn 2 tên]",
+          "text": "[SHOWCARD]\nDưới đây là một số tên gọi đề xuất cho dòng tủ lạnh có nội thất tối màu. Anh/Chị vui lòng chọn 2 tên mà Anh/Chị cảm thấy phù hợp nhất với dòng tủ lạnh này. \n[Chọn 2 tên]",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Midnight Gray Interior",
+              "text": "1. Midnight Gray Interior (Mít-nai Gờ-rây In-ti-ri-ờ)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1870,7 +2047,7 @@
               "is_header": false
             },
             {
-              "text": "2. Dark Elegance",
+              "text": "2. Dark Elegance (Đác E-lờ-gần)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1878,7 +2055,7 @@
               "is_header": false
             },
             {
-              "text": "3. Food gallery",
+              "text": "3. Food gallery (Phút Ga-lờ-ri)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1886,7 +2063,7 @@
               "is_header": false
             },
             {
-              "text": "4. Food Showcase",
+              "text": "4. Food Showcase (Phút Sâu-cây)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1894,7 +2071,7 @@
               "is_header": false
             },
             {
-              "text": "5. Kuro View",
+              "text": "5. Kuro View (Ku-rô Viu)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1902,7 +2079,7 @@
               "is_header": false
             },
             {
-              "text": "6. Noir View",
+              "text": "6. Noir View (Noa Viu)",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -1910,7 +2087,7 @@
               "is_header": false
             },
             {
-              "text": "7. LUMA",
+              "text": "7. LUMA (Lu-ma)",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -1918,7 +2095,7 @@
               "is_header": false
             },
             {
-              "text": "8. Food Atelier",
+              "text": "8. Food Atelier (Phút A-tơ-li-ê)",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -2360,7 +2537,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1. Ngăn VHF được đặt trong ngăn Prime Fresh / ngăn đông mềm",
+              "text": "1. Ngăn VHF được đặt trong ngăn Prime Fresh / ngăn đông mềm (Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -3907,28 +4084,28 @@
         {
           "id": "Q702",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh, giữa “thương hiệu uy tín” và “xuất xứ của thương hiệu”, yếu tố nào quan trọng hơn đối với anh/chị?",
+          "text": "[SHOWCARD]\nKhi lựa chọn tủ lạnh, giữa “thương hiệu uy tín” và “thương hiệu đến từ quốc gia nào”, yếu tố nào quan trọng hơn đối với anh/chị?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Xuất xứ quan trọng hơn nhiều – Tôi ưu tiên thương hiệu có xuất xứ mà tôi tin tưởng, ngay cả khi thương hiệu đó không quen thuộc",
+              "text": "1. Quốc gia của thương hiệu quan trọng hơn nhiều – Tôi ưu tiên thương hiệu đến từ quốc gia mà tôi tin tưởng, ngay cả khi thương hiệu đó không quen thuộc",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Xuất xứ quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về xuất xứ của thương hiệu đó",
+              "text": "2. Quốc gia của thương hiệu quan trọng hơn một chút – Tôi cân nhắc cả hai yếu tố, nhưng nghiêng về quốc gia mà thương hiệu đó đến từ",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Cả hai quan trọng như nhau – Tôi cân nhắc đồng thời độ uy tín của thương hiệu và xuất xứ",
+              "text": "3. Cả hai quan trọng như nhau – Tôi cân nhắc đồng thời độ uy tín của thương hiệu và quốc gia mà thương hiệu đó đến từ",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -3942,7 +4119,7 @@
               "is_header": false
             },
             {
-              "text": "5. Thương hiệu uy tín quan trọng hơn nhiều – Miễn là tôi tin tưởng thương hiệu, xuất xứ không ảnh hưởng đến quyết định của tôi",
+              "text": "5. Thương hiệu uy tín quan trọng hơn nhiều – Miễn là tôi tin tưởng thương hiệu, quốc gia mà thương hiệu đó đến từ không ảnh hưởng đến quyết định của tôi",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -4521,7 +4698,7 @@
         {
           "id": "Q904",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD]\nLý do chính nào khiến Chương trình Tích Điểm Đổi Quà này khuyến khích Anh/Chị kết nối tủ lạnh?",
+          "text": "[SHOWPHOTO] [SHOWCARD]\nYếu tố nào của chương trình này sẽ khuyến khích Anh/Chị kết nối tủ lạnh nhiều nhất?",
           "note": "",
           "media": "",
           "record": false,
