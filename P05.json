@@ -354,7 +354,7 @@
               "is_header": false
             },
             {
-              "text": "3. Xem video của KOL/người đánh giá",
+              "text": "3. Xem video của KOL (cây-ô-eo)/người đánh giá",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -386,7 +386,7 @@
               "is_header": false
             },
             {
-              "text": "7. Sử dụng công cụ AI (ChatGPT, Claude, Gemini...) để hỏi gợi ý tủ lạnh phù hợp",
+              "text": "7. Sử dụng công cụ AI (ChatGPT < chát-gi-pi-ti> , Claude <clốt>, Gemini < Jem-ơ-nai>...) để hỏi gợi ý tủ lạnh phù hợp",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -555,14 +555,14 @@
               "is_header": false
             },
             {
-              "text": "2. Sàn thương mại điện tử/nền tảng mua sắm online (Shopee, TikTok Shop, Lazada...)",
+              "text": "2. Sàn thương mại điện tử/nền tảng mua sắm trực tuyến (Shopee, TikTok Shop, Lazada...)",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Nhà bán hàng trên mạng xã hội (Social Commerce)",
+              "text": "3. Nhà bán hàng trên mạng xã hội",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -988,14 +988,14 @@
         {
           "id": "Q501",
           "type": "MULTI",
-          "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp\n",
+          "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh âm tường là tủ được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp\n",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tìm kiếm thông tin về nhà bếp/nhà ở trên Internet (Google, Pinterest, TikTok...) khi có nhu cầu xây mới hoặc cải tạo nhà",
+              "text": "1. Tìm kiếm thông tin về nhà bếp/nhà ở trên mạng (Google, TikTok...) khi có nhu cầu xây mới hoặc cải tạo",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1011,7 +1011,7 @@
               "is_header": false
             },
             {
-              "text": "3. Video của KOL, các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...)",
+              "text": "3. Video của KOL(cây-ô-eo), các nhóm Facebook (Nghiện Nhà, Nghiện Bếp...)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1076,7 +1076,7 @@
         {
           "id": "HD1",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé.”\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước 2 mẫu tủ lạnh A và B sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của 2 mẫu tủ lạnh A và B.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé. Đây là tủ lạnh mẫu được dùng cho buổi phỏng vấn ngày hôm nay.”\nPVV lưu ý, nếu đáp viên có hỏi hoặc nhắc đến một số chi tiết chưa hoàn thiện của tủ lạnh thì PVV giải thích: Đây là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này.\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của mẫu tủ lạnh A này nhé ạ.”",
           "note": "",
           "media": "",
           "record": false,
@@ -1189,7 +1189,7 @@
         {
           "id": "Q601a",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nTrên thang điểm từ 1 đến 7, Anh/Chị đánh giá mức độ hấp dẫn của thiết kế tủ lạnh cửa kính mờ này như thế nào?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị đánh giá mức độ hấp dẫn của thiết kế tủ lạnh cửa gương mờ này như thế nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -1270,14 +1270,14 @@
         {
           "id": "Q601b",
           "type": "MULTI",
-          "text": "[SHOWCARD THANG ĐIỂM]\nNhững phát biểu nào dưới đây đúng với cảm nhận của Anh/Chị về cửa kính mờ này?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nNhững phát biểu nào dưới đây đúng với cảm nhận của Anh/Chị về thiêt kế tủ lạnh cửa gương mờ này?",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Độc đáo và hiện đại hơn.",
+              "text": "1. Dễ dàng kết hợp với thiết kế bếp",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -1285,7 +1285,7 @@
               "is_header": false
             },
             {
-              "text": "2. Mang lại cảm giác cao cấp và sang trọng.",
+              "text": "2. Độc đáo và khác biệt với các mẫu tủ có trên thị trường",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1293,7 +1293,7 @@
               "is_header": false
             },
             {
-              "text": "3. Độc đáo, hiện đại và cao cấp hơn so với thiết kế mặt gương cao cấp.",
+              "text": "3. Thiết kế hiện đại và tân tiến",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -1301,7 +1301,7 @@
               "is_header": false
             },
             {
-              "text": "4. Mang phong cách tối giản hiện đại (Urban Minimalist).",
+              "text": "4. Cảm giác cao cấp, sang trọng",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -1309,35 +1309,11 @@
               "is_header": false
             },
             {
-              "text": "5. Khó kết hợp với thiết kế hoặc nội thất bếp.",
+              "text": "5. Khác (vui lòng ghi rõ:…)",
               "code": "5",
               "media": "",
-              "is_other": false,
+              "is_other": true,
               "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "6. Màu sắc tạo cảm giác quá giống thép kim loại.",
-              "code": "6",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Không thích bề mặt kính dạng mặt gương.",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Không có nhận xét đặc biệt nào.",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -1352,6 +1328,38 @@
           "realcam": false,
           "options": {
             "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD1b",
+          "type": "EMPTY",
+          "text": "Sau đó, PVV hướng dẫn đáp viên di chuyển sang mẫu tủ lạnh B đang được che rèm. PVV nói “Tiếp theo, anh/chị vui lòng xem qua thiết kế bên ngoài của mẫu tủ lạnh B này nhé.”",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
             "search": false
           },
           "logic": {
@@ -1525,7 +1533,7 @@
         {
           "id": "Q604",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này hấp dẫn ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất LÒNG TỦ LẠNH TỐI MÀU của tủ lạnh này hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -1726,7 +1734,7 @@
         {
           "id": "Q606",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện hấp dẫn ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất LÒNG TỦ LẠNH TỐI MÀU của tủ lạnh này sau khi cắm điện hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -1807,7 +1815,7 @@
         {
           "id": "HD2c",
           "type": "EMPTY",
-          "text": "Bước 5: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ đặt một số thực phẩm mẫu vào trong tủ lạnh để anh/chị có thể quan sát kỹ hơn nhé.”\n\nPVV đặt các thực phẩm mẫu đã được chuẩn bị sẵn vào trong tủ lạnh để đáp viên quan sát\n",
+          "text": "Bước 5: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ đặt một số thực phẩm mẫu vào trong tủ lạnh để anh/chị có thể quan sát kỹ hơn nhé.”\nPVV lần lượt đặt các thực phẩm mẫu đã được chuẩn bị sẵn vào trong tủ lạnh, và nói “Đầu tiên, em sẽ đặt chùm nho và 2 hộp sữa vào ngăn mát. Tiếp theo, em đặt thịt và cá ở 2 ngăn đông mềm ở đây.”",
           "note": "",
           "media": "",
           "record": false,
@@ -1839,7 +1847,7 @@
         {
           "id": "Q607",
           "type": "SINGLE",
-          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị cảm thấy thiết kế nội thất tối màu của tủ lạnh này sau khi cắm điện và đặt thực phẩm bên trong hấp dẫn ở mức độ nào?",
+          "text": "[SHOWCARD THANG ĐIỂM]\nAnh/Chị cảm thấy thiết kế nội thất LÒNG TỦ LẠNH TỐI MÀU của tủ lạnh này sau khi cắm điện và đặt thực phẩm bên trong hấp dẫn ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -1967,43 +1975,11 @@
               "is_header": false
             },
             {
-              "text": "6. Nội thất màu đen sẽ ít bị ngả vàng/phai màu theo thời gian hơn so với màu trắng",
+              "text": "6. Khác (vui lòng ghi rõ:…)",
               "code": "6",
               "media": "",
-              "is_other": false,
+              "is_other": true,
               "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "7. Cảm giác tối và u ám, khiến thực phẩm trông kém tươi ngon hơn",
-              "code": "7",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "8. Khó nhìn thấy bụi bẩn/vết bẩn hơn so với nội thất màu trắng, khiến tôi lo ngại về vấn đề vệ sinh",
-              "code": "8",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "9. Có cảm giác nội thất màu đen hấp thụ nhiệt nhiều hơn, có thể tiêu tốn nhiều điện hơn",
-              "code": "9",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "10. Không có nhận xét cụ thể",
-              "code": "10",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": true,
               "is_header": false
             }
           ],
@@ -2168,7 +2144,7 @@
         {
           "id": "HD3",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên đứng trước mẫu tủ lạnh B (tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU bên trong), sau đó nói: “Bây giờ em sẽ mở tủ lạnh này. Anh/chị vui lòng quan sát phần nội thất bên trong mẫu tủ này nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi nhé ạ”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên đứng trước mẫu tủ lạnh B (tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU bên trong), sau đó nói: “Bây giờ em sẽ cắm điện và mở tủ lạnh này. Anh/chị vui lòng quan sát phần nội thất bên trong mẫu tủ này nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi nhé ạ”",
           "note": "",
           "media": "",
           "record": false,
@@ -2246,7 +2222,7 @@
         {
           "id": "HD3b",
           "type": "EMPTY",
-          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa cho cả 2 mẫu tủ lạnh này nhen ạ”",
+          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa cho cả 2 mẫu tủ lạnh này nhen ạ”\nPVV hướng dẫn đáp viên đứng giữa để quan sát được đồng thời 2 mẫu tủ lạnh.",
           "note": "",
           "media": "",
           "record": false,
@@ -3262,7 +3238,7 @@
         {
           "id": "HD5",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên: “Bây giờ, em muốn hỏi anh/chị về các ý tưởng truyền thông cho tính năng Tự động làm đá nhanh này. Anh/chị vui lòng dành chút thời gian đọc kỹ nội dung và thông điệp trong 3 hình ảnh được thể hiện ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi về các nội dung này.” Lúc này, PVV chuẩn bị [SHOWPHOTO Q624] gồm 3 trang.\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nLúc này, PVV chuẩn bị [SHOWPHOTO Q624] gồm 3 trang. PVV nói với đáp viên: “Bây giờ, em muốn hỏi anh/chị về các ý tưởng truyền thông cho tính năng Tự động làm đá nhanh này. Anh/chị vui lòng dành chút thời gian đọc kỹ nội dung và thông điệp trong 3 hình ảnh được thể hiện ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi về các nội dung này.” \nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.",
           "note": "",
           "media": "",
           "record": false,
@@ -3724,7 +3700,7 @@
         {
           "id": "Q628",
           "type": "SINGLE",
-          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng kết nối thông minh/IoT: theo dõi và nhận thông báo trên điện thoại (cửa mở, mức tiêu thụ điện, nhắc bảo trì...). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
+          "text": "[SHOW PHOTO] [SHOWCARD THANG ĐIỂM]\nTính năng kết nối thông minh/IoT (Ai-ô-Ti): theo dõi và nhận thông báo trên điện thoại (cửa mở, mức tiêu thụ điện, nhắc bảo trì...). Anh/Chị thấy tính năng này HẤP DẪN ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -3805,7 +3781,7 @@
         {
           "id": "Q629",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?",
+          "text": "[SHOWCARD]\nTrong các lợi ích của tính năng kết nối thông minh/IoT (Ai-ô-Ti) dưới đây, lợi ích nào Anh/Chị thấy HỮU ÍCH NHẤT?",
           "note": "",
           "media": "",
           "record": false,
@@ -3865,7 +3841,7 @@
         {
           "id": "Q630",
           "type": "SINGLE",
-          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị tất cả tính năng nêu trên, Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm?",
+          "text": "[SHOWCARD]\nNếu có một chiếc tủ lạnh được trang bị tất cả tính năng nêu trên (VHF-Rã đông nhanh, Tự động làm đá nhanh, Kết nối thông minh, Thiết kế nội thất lòng tủ tối màu, Ngăn đông mềm), Anh/Chị sẵn sàng trả bao nhiêu cho sản phẩm?",
           "note": "",
           "media": "",
           "record": false,
@@ -3965,19 +3941,19 @@
               "code": "1"
             },
             {
-              "text": "2. Auto Ice (Làm đá nhanh)",
+              "text": "2. Auto Ice (Au-tô Ai) (Làm đá nhanh)",
               "code": "2"
             },
             {
-              "text": "3. Kết nối thông minh / IoT",
+              "text": "3. Kết nối thông minh / IoT (Ai-ô-Ti)",
               "code": "3"
             },
             {
-              "text": "4. Thiết kế nội thất tối màu",
+              "text": "4. Thiết kế nội thất lòng tủ tối màu",
               "code": "4"
             },
             {
-              "text": "5. Prime Fresh (giải thích Prime Fresh: ngăn đông mềm có thể giữ thịt cá tươi sống trong 7 ngày, khi cần dùng dễ dàng cắt thái và không cần rã đông)",
+              "text": "5. Prime Fresh (Pờ-rai-m Phờ-rét) (Ngăn đông mềm)",
               "code": "5"
             }
           ],
@@ -4473,7 +4449,7 @@
         {
           "id": "HD7",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Bây giờ, em muốn Anh/Chị thử hình dung một thương hiệu có Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Smart App và sử dụng các tính năng Tính Năng Thông Minh, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n• Linh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n• Gia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n• Các quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.\n“Bây giờ, em muốn Anh/Chị thử hình dung một thương hiệu có Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Smart App (Sờ-mát Áp) và sử dụng các tính năng Tính Năng Thông Minh, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n• Linh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n• Gia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n• Các quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.",
           "note": "",
           "media": "",
           "record": false,
@@ -4585,7 +4561,7 @@
         {
           "id": "Q902",
           "type": "SINGLE",
-          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu một thương hiệu triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn sàng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng này ở mức độ nào?",
+          "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nNếu một thương hiệu triển khai Chương trình Tích Điểm Đổi Quà này, Anh/Chị sẵn lòng kết nối tủ lạnh với điện thoại thông minh và chủ động sử dụng các chức năng trên ứng dụng ĐỂ TÍCH ĐIỂM ở mức độ nào?",
           "note": "",
           "media": "",
           "record": false,
