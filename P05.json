@@ -141,6 +141,59 @@
           "form": {}
         },
         {
+          "id": "Route",
+          "type": "SINGLE",
+          "text": "PVV chọn thứ tự phỏng vấn bảng câu hỏi",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Route 1: Phần 1 -> Phần 2 -> Phần 3",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Route 2: Phần 2 -> Phần 3 -> Phần 1",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(Route,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "HD1"
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "Q101",
           "type": "SINGLE",
           "text": "[SHOWPHOTO]\nTủ lạnh hiện tại của Anh/Chị được lắp đặt như thế nào?",
@@ -1067,7 +1120,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(Route,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "End"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -4739,7 +4799,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(Route,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "Q101"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
