@@ -124,6 +124,18 @@
                     "action": "Hard",
                     "message": "PVV ghi nhận chính xác số điện thoại đáp viên",
                     "goto": ""
+                  },
+                  {
+                    "condition": "CheckDuplicate(\"TTDV#5\",Answer(CurrentQuestion()))==1",
+                    "action": "Hard",
+                    "message": "Số điện thoại đã tồn tại",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "CheckDuplicate(\"TTDV#5\",Answer(CurrentQuestion()))==9",
+                    "action": "Hard",
+                    "message": "Không có mạng",
+                    "goto": ""
                   }
                 ]
               },
@@ -194,13 +206,13 @@
                     "goto": ""
                   },
                   {
-                    "condition": "CheckDuplicate(CurrentQuestion())==1",
+                    "condition": "CheckDuplicate(\"S0A\",Answer(CurrentQuestion()))==1",
                     "action": "Hard",
                     "message": "Biển số xe đã tồn tại",
                     "goto": ""
                   },
                   {
-                    "condition": "CheckDuplicate(CurrentQuestion())==9",
+                    "condition": "CheckDuplicate(\"S0A\",Answer(CurrentQuestion()))==9",
                     "action": "Hard",
                     "message": "Vui lòng kết nối mạng để kiểm tra biển số xe",
                     "goto": ""
