@@ -126,13 +126,13 @@
                     "goto": ""
                   },
                   {
-                    "condition": "CheckDuplicate(\"TTDV#5\",Answer(CurrentQuestion()))==1",
+                    "condition": "CheckDuplicate(\"TTDV#5\",AnswerChoice(CurrentQuestion(),5))==1",
                     "action": "Hard",
                     "message": "Số điện thoại đã tồn tại",
                     "goto": ""
                   },
                   {
-                    "condition": "CheckDuplicate(\"TTDV#5\",Answer(CurrentQuestion()))==9",
+                    "condition": "CheckDuplicate(\"TTDV#5\",AnswerChoice(CurrentQuestion(),5))==9",
                     "action": "Hard",
                     "message": "Không có mạng",
                     "goto": ""
