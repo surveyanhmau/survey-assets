@@ -1129,7 +1129,7 @@
         {
           "id": "HD1",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé. Đây là tủ lạnh mẫu được dùng cho buổi phỏng vấn ngày hôm nay.”\nPVV lưu ý, nếu đáp viên có hỏi hoặc nhắc đến một số chi tiết chưa hoàn thiện của tủ lạnh thì PVV giải thích: Đây là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này.\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của mẫu tủ lạnh A này nhé ạ.”",
+          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé. Đây là tủ lạnh mẫu được dùng cho buổi phỏng vấn ngày hôm nay. Vì là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này giúp em ạ”\nPVV lưu ý, nếu đáp viên có hỏi hoặc nhắc đến một số chi tiết chưa hoàn thiện của tủ lạnh thì PVV giải thích: Đây là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này.\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của mẫu tủ lạnh A này nhé ạ.”",
           "note": "",
           "media": "",
           "record": false,
@@ -1540,6 +1540,38 @@
           "realcam": false,
           "options": {
             "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q603a",
+          "type": "OPEN",
+          "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
             "search": false
           },
           "logic": {
