@@ -1480,7 +1480,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "Contains(S7,[1]){QuestionHide()}",
+                "on_enter": "if(Contains(S7,[1])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -1784,7 +1784,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "Contains(S7,[2,3,4]){QuestionHide()}",
+                "on_enter": "if(Contains(S7,[2,3,4])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
