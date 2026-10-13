@@ -12,7 +12,63 @@
         "loop_random": false,
         "iterations": []
       },
-      "questions": [],
+      "questions": [
+        {
+          "id": "TTDV",
+          "type": "FORM",
+          "text": "Phỏng vấn viên ghi nhận thông tin đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {
+            "fields": [
+              {
+                "code": "1",
+                "text": "Họ tên đáp viên",
+                "type": "text"
+              },
+              {
+                "code": "2",
+                "text": "Địa chỉ",
+                "type": "text"
+              },
+              {
+                "code": "3",
+                "text": "Số điện thoại",
+                "type": "text"
+              },
+              {
+                "code": "4",
+                "text": "Họ tên PVV",
+                "type": "text"
+              }
+            ]
+          }
+        }
+      ],
       "children": []
     }
   ]
