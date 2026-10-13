@@ -52,7 +52,7 @@
               },
               {
                 "code": "2",
-                "text": "Họ tên PVV",
+                "text": "Họ tên PVV/ Nhân viên bán hàng",
                 "type": "text"
               }
             ]
@@ -362,6 +362,20 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Xe Vinfast khác (ghi rõ nhãn hiệu và tên xe)",
+              "code": "5",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            },
+            {
+              "text": "Xe khác (ghi rõ nhãn hiệu và tên xe)",
+              "code": "6",
+              "media": "",
+              "is_other": true,
               "is_header": false
             }
           ],
@@ -1480,7 +1494,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(S7,[1])){QuestionHide()}",
+                "on_enter": "if(Contains(S7,[1,5])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -1784,7 +1798,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(S7,[2,3,4])){QuestionHide()}",
+                "on_enter": "if(Contains(S7,[2,3,4,6])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
