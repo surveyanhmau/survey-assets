@@ -1174,6 +1174,70 @@
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Thời gian sạc pin nhanh",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Hệ thống trạm sạc rộng khắp, thuận tiện",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Có thể sạc pin tại nhà",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Dung lượng pin lớn, tuổi thọ pin cao",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Độ an toàn và độ tin cậy của xe",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chính sách bảo hành xe và pin tốt",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Ưu đãi về thuế, phí và chính sách hỗ trợ xe điện",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Tác động tích cực đến môi trường",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -1808,8 +1872,8 @@
             },
             {
               "id": "HV1",
-              "type": "OPEN",
-              "text": "Quãng đường hiện tại sau bao xa, anh phải sạc pin cho chiếc xe của mình",
+              "type": "NUMBER",
+              "text": "Quãng đường hiện tại sau bao xa, anh phải sạc pin cho chiếc xe của mình (Kilomet)",
               "note": "",
               "media": "",
               "record": false,
@@ -1818,7 +1882,7 @@
               "topics": [],
               "min": "1",
               "max": "999999999",
-              "unit": "Km",
+              "unit": "Kilomet",
               "display_columns": 1,
               "no_answer": false,
               "integer_only": true,
@@ -1840,8 +1904,8 @@
             },
             {
               "id": "HV2",
-              "type": "OPEN",
-              "text": "Anh mong muốn chiếc xe của mình chạy được quãng đường bao xa sau 1 lần sạc",
+              "type": "NUMBER",
+              "text": "Anh mong muốn chiếc xe của mình chạy được quãng đường bao xa sau 1 lần sạc (kilomet)",
               "note": "",
               "media": "",
               "record": false,
@@ -1850,7 +1914,7 @@
               "topics": [],
               "min": "1",
               "max": "999999999",
-              "unit": "Km",
+              "unit": "Kilomet",
               "display_columns": 1,
               "no_answer": false,
               "integer_only": true,
@@ -1871,17 +1935,17 @@
             },
             {
               "id": "HV3",
-              "type": "OPEN",
-              "text": "Anh sạc pin trong bao lâu trong một lần sạc",
+              "type": "NUMBER",
+              "text": "Anh sạc pin trong bao lâu trong một lần sạc (phút)",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [],
               "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
+              "min": "1",
+              "max": "999999999",
+              "unit": "Phút",
               "display_columns": 1,
               "no_answer": false,
               "integer_only": true,
@@ -1903,17 +1967,17 @@
             },
             {
               "id": "HV4",
-              "type": "OPEN",
-              "text": "Anh mong muốn chiếc xe của mình được sạc đầy sau bao lâu",
+              "type": "NUMBER",
+              "text": "Anh mong muốn chiếc xe của mình được sạc đầy sau bao lâu (phút)",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [],
               "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
+              "min": "1",
+              "max": "999999999",
+              "unit": "Phút",
               "display_columns": 1,
               "no_answer": false,
               "integer_only": true,
@@ -2048,7 +2112,7 @@
             {
               "id": "HV6",
               "type": "MULTI",
-              "text": "Mục đích sử dụng xe ô tô chủ yếu của anh/chị là gì?",
+              "text": "Mục đích sử dụng xe ô tô chủ yếu của anh/chị là gì?\n(tối đa 3 mục đích chính)",
               "note": "",
               "media": "",
               "record": false,
@@ -2137,7 +2201,7 @@
               ],
               "topics": [],
               "min": "1",
-              "max": "999",
+              "max": "3",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
@@ -2692,7 +2756,7 @@
             {
               "id": "L4",
               "type": "MULTI",
-              "text": "Từ khóa nào dưới đây miêu tả tính cách và thói quen của bạn?",
+              "text": "Từ khóa nào dưới đây miêu tả tính cách và thói quen của bạn?\n(Tối đa 3 từ khóa)",
               "note": "Có thể chọn nhiều đáp án",
               "media": "",
               "record": false,
@@ -2845,7 +2909,7 @@
               ],
               "topics": [],
               "min": "1",
-              "max": "999",
+              "max": "3",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
@@ -3091,7 +3155,7 @@
               "form": {}
             },
             {
-              "id": "Option",
+              "id": "L6",
               "type": "MULTI",
               "text": "Đâu là những tính năng phải có trên xe EV \n(tối đa 10 tính năng)",
               "note": "",
@@ -3623,6 +3687,38 @@
               "realcam": false,
               "options": {
                 "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "L7",
+              "type": "NUMBER",
+              "text": "Nếu bây giờ mua lại chiếc xe hiện tại của anh chị, anh chị mong muốn mức giá nào phù hợp & xứng đáng với chiếc xe này (Đơn vị triệu đồng)",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999999999",
+              "unit": "Triệu đồng",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": false,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
                 "search": false
               },
               "logic": {
