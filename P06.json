@@ -52,21 +52,280 @@
               },
               {
                 "code": "2",
-                "text": "Địa chỉ",
-                "type": "text"
-              },
-              {
-                "code": "3",
-                "text": "Số điện thoại",
-                "type": "text"
-              },
-              {
-                "code": "4",
                 "text": "Họ tên PVV",
                 "type": "text"
               }
             ]
           }
+        },
+        {
+          "id": "S0A",
+          "type": "OPEN",
+          "text": "PVV ghi nhận biển số xe của đáp viên sau khi đã check thông tin",
+          "note": "Biển số xe viết hoa toàn bộ VD: 30A12345",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Regex(Answer(CurrentQuestion()), \"^[0-9]{2}[A-Z]{1,2}[0-9]{4,5}$\")",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận chính xác biển số xe",
+                "goto": ""
+              },
+              {
+                "condition": "CheckDuplicate(\"S0A\",Answer(CurrentQuestion()))==1",
+                "action": "Hard",
+                "message": "Biển số xe đã được phỏng vấn",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S1",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận nơi phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Hồ Chí Minh",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Thái Nguyên",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghệ An",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Đắk Lắk",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Cần Thơ",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Khác",
+              "code": "7",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận giới tính ĐV",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4",
+          "type": "NUMBER",
+          "text": "Hãy cho biết năm sinh của bạn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1966",
+          "max": "2008",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "var a = 2026 - Answer(S4);\nif(a<=27){SetAnswer(S4A,[\"2\"]);};\nif((a<=43)&&(a>=28)){SetAnswer(S4A,[\"3\"]);};\nif(a>=44){SetAnswer(S4A,[\"4\"]);};",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4A",
+          "type": "SINGLE",
+          "text": "Hệ thống tự động ghi nhận nhóm tuổi của đáp viên từ câu S4",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "Dưới 18 tuổi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "18 - 27 tuổi (Gen Z)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "28 - 43 tuổi (Gen Y - Millennials)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "44 - 59 tuổi (Gen X)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "60 tuổi trở lên",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
       "children": []
