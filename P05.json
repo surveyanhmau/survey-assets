@@ -2197,7 +2197,7 @@
         {
           "id": "Q610",
           "type": "OPEN",
-          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "text": "Vì sao anh/chị chọn 2 tên này?\n{0}",
           "note": "",
           "media": "",
           "record": false,
@@ -2218,7 +2218,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "SetQuestionText(CurrentQuestion(),AnswerText(Q609))",
             "on_next": "",
             "rules": []
           },
@@ -4014,7 +4014,7 @@
         {
           "id": "Q631",
           "type": "OPEN_GRID",
-          "text": "Vui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này?",
+          "text": "[SHOWCARD]\nVui lòng cho biết Anh/Chị định giá bao nhiêu cho từng tính năng này?",
           "note": "",
           "media": "",
           "record": false,
