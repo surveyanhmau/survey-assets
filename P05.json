@@ -2218,7 +2218,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "SetQuestionText(CurrentQuestion(),AnswerText(Q609))",
+            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q609)])",
             "on_next": "",
             "rules": []
           },
