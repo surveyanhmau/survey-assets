@@ -1846,6 +1846,54 @@
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Lo ngại độ bền và tuổi thọ của xe",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo ngại độ bền và tuổi thọ của pin",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo ngại chi phí thay thế pin cao",
+                  "code": "37",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Chưa tin tưởng vào mức độ an toàn của pin và hệ thống điện",
+                  "code": "38",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Hệ thống trạm sạc chưa thuận tiện hoặc chưa tương thích với nhu cầu sử dụng",
+                  "code": "39",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thời gian sạc pin chưa phù hợp với thói quen sử dụng",
+                  "code": "40",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
