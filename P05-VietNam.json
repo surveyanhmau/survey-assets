@@ -2,20 +2,6 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
-      "record": false,
-      "hide_back": false,
-      "on_enter": "",
-      "loop": {
-        "enabled_loop": false,
-        "loop_random": false,
-        "iterations": []
-      },
-      "questions": [],
-      "children": []
-    },
-    {
       "id": "Recruit",
       "name": "Recruit",
       "record": false,
@@ -121,38 +107,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "HD1",
-          "type": "EMPTY",
-          "text": "Xin chào anh/chị. Tên tôi là______từ công ty GCOMM. GCOMM là một công ty nghiên cứu thị trường độc lập, chúng tôi chuyên thực hiện các cuộc khảo sát về nhiều sản phẩm/ngành hàng khác nhau. Hiện chúng tôi đang tiến hành một nghiên cứu về ngành hàng tủ lạnh. Rất mong nhận được sự giúp đỡ của anh/chị bằng cách trả lời các câu hỏi sau. Xin cám ơn anh/chị.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
         },
         {
           "id": "S1",
@@ -979,70 +933,6 @@
           "realcam": false,
           "options": {
             "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Model",
-          "type": "MEDIA",
-          "text": "PVV chụp hình Model tủ lạnh",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "1",
-          "max": "2",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Tem",
-          "type": "MEDIA",
-          "text": "PVV chụp hình tem tủ lạnh",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "1",
-          "max": "2",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
             "search": false
           },
           "logic": {
@@ -2216,38 +2106,6 @@
           "conjoint": {},
           "number_grid": {},
           "form": {}
-        },
-        {
-          "id": "End",
-          "type": "EMPTY",
-          "text": "PHỎNG VẤN VIÊN CẢM ƠN ĐÁP VIÊN",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
         }
       ],
       "children": []
@@ -2264,38 +2122,6 @@
         "iterations": []
       },
       "questions": [
-        {
-          "id": "GioiThieu",
-          "type": "EMPTY",
-          "text": "Chào anh/chị, hôm nay em mời anh chị đến đây để nhờ các anh chị trả lời một số câu hỏi về không gian nhà bếp và các thiết bị điện gia dụng sử dụng trong nhà bếp. Sẽ không có câu trả lời đúng hay sai, em chỉ muốn ghi nhận ý kiến, quan điểm của các anh chị. Vậy nên anh chị thoải mái chia sẻ cùng em nhé.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
         {
           "id": "Q101",
           "type": "SINGLE",
@@ -3110,38 +2936,6 @@
           "form": {}
         },
         {
-          "id": "HD0",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị 02 bản tài liệu giới thiệu về khái niệm tủ lạnh âm tường, 01 bản cho PVV và 01 bản cho đáp viên. Lúc này PVV mở [SHOWPHOTO Q501], trong đó có phần giới thiệu về khái niệm tủ âm tường.\nSau đó, PVV nói:\n“Bây giờ em muốn hỏi Anh/Chị một vài câu hỏi về tủ lạnh âm tường. Đây là phần mô tả về dòng sản phẩm này. Em sẽ đọc qua một lần, Anh/Chị vui lòng đọc theo và xem kỹ nội dung cùng em nhé.”\nSau khi đọc xong, PVV xác nhận rằng đáp viên đã hiểu đầy đủ thông tin trước khi tiếp tục hỏi các câu hỏi tiếp theo.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q501",
           "type": "MULTI",
           "text": "[SHOW PHOTO] [SHOWCARD]\nAnh/Chị biết đến khái niệm “tủ lạnh âm tường” lần đầu tiên từ đâu? (Tủ lạnh âm tường là tủ được lắp vừa khít với hệ tủ bếp, gần như không có khoảng cách)\nChọn tất cả các phương án phù hợp\n",
@@ -3277,38 +3071,6 @@
                 "goto": "Q701"
               }
             ]
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD1",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV mời đáp viên di chuyển đến khu vực trưng bày mẫu tủ lạnh.\nPVV nói: “Bây giờ em mời Anh/Chị đi cùng em để xem một mẫu tủ lạnh hoàn toàn mới và trả lời một vài câu hỏi nhé. Đây là tủ lạnh mẫu được dùng cho buổi phỏng vấn ngày hôm nay. Vì là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này giúp em ạ”\nPVV lưu ý, nếu đáp viên có hỏi hoặc nhắc đến một số chi tiết chưa hoàn thiện của tủ lạnh thì PVV giải thích: Đây là hàng mẫu nên còn một số chi tiết có thể chưa được hoàn thiện, anh/chị vui lòng bỏ qua những chi tiết này.\n\nHƯỚNG DẪN PHỎNG VẤN VIÊN QUAN SÁT MẪU:\nPhỏng vấn viên dắt đáp viên đứng trước mẫu tủ lạnh A, sau đó:\n\nBước 1: Quan sát bên ngoài sản phẩm. PVV nói: “Anh/chị vui lòng quan sát bên ngoài của mẫu tủ lạnh A này nhé ạ.”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
@@ -3549,38 +3311,6 @@
           "form": {}
         },
         {
-          "id": "HD1b",
-          "type": "EMPTY",
-          "text": "Sau đó, PVV hướng dẫn đáp viên di chuyển sang mẫu tủ lạnh B đang được che rèm. PVV nói “Tiếp theo, anh/chị vui lòng xem qua thiết kế bên ngoài của mẫu tủ lạnh B này nhé.”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q602",
           "type": "SINGLE",
           "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế của mẫu tủ lạnh B hấp dẫn ở mức độ nào?",
@@ -3711,38 +3441,6 @@
           "id": "Q603a",
           "type": "OPEN",
           "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD2",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN – QUAN SÁT MOCK-UP SẢN PHẨM:\nPVV hướng dẫn đáp viên đứng đối diện với mẫu tủ lạnh A, sau đó thực hiện các bước sau:\n\nBước 2: Giới thiệu thông tin sản phẩm. Lúc này, PVV mở [SHOWPHOTO trước Q604] để đáp viên nắm được thông tin và các tính năng của sản phẩm. PVV nói: “Anh/chị vui lòng xem qua thông tin về mẫu tủ lạnh A trong phần giới thiệu sau đây nhé.”\nSau khi đáp viên đọc xong, PVV chuyển sang Bước 3.\n\nBước 3: Quan sát bên trong tủ lạnh, tủ lạnh KHÔNG CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU bên trong. PVV nói: “Tiếp theo, em sẽ mở tủ lạnh ra. Anh/chị vui lòng quan sát bên trong giúp em nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -3941,38 +3639,6 @@
           "form": {}
         },
         {
-          "id": "HD2b",
-          "type": "EMPTY",
-          "text": "Bước 4: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và KHÔNG CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ cắm điện cho tủ lạnh. Anh/chị vui lòng quan sát nhé.”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q606",
           "type": "SINGLE",
           "text": "[SHOWCARD THANG ĐIỂM]\nAnh/chị cảm thấy thiết kế nội thất LÒNG TỦ LẠNH TỐI MÀU của tủ lạnh này sau khi cắm điện hấp dẫn ở mức độ nào?",
@@ -4042,38 +3708,6 @@
           "realcam": false,
           "options": {
             "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD2c",
-          "type": "EMPTY",
-          "text": "Bước 5: Quan sát bên trong tủ lạnh, tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU. PVV nói: “Tiếp theo, em sẽ đặt một số thực phẩm mẫu vào trong tủ lạnh để anh/chị có thể quan sát kỹ hơn nhé.”\nPVV lần lượt đặt các thực phẩm mẫu đã được chuẩn bị sẵn vào trong tủ lạnh, và nói “Đầu tiên, em sẽ đặt chùm nho và 2 hộp sữa vào ngăn mát. Tiếp theo, em đặt thịt và cá ở 2 ngăn đông mềm ở đây.”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
             "search": false
           },
           "logic": {
@@ -4383,38 +4017,6 @@
           "form": {}
         },
         {
-          "id": "HD3",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên đứng trước mẫu tủ lạnh B (tủ đã CẮM ĐIỆN và CÓ THỰC PHẨM MẪU bên trong), sau đó nói: “Bây giờ em sẽ cắm điện và mở tủ lạnh này. Anh/chị vui lòng quan sát phần nội thất bên trong mẫu tủ này nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi nhé ạ”",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q611",
           "type": "SINGLE",
           "text": "[SHOWCARD]\nNếu so sánh 2 mẫu tủ lạnh A và B, anh/chị thích mẫu tủ lạnh nào hơn?",
@@ -4438,37 +4040,6 @@
               "is_header": false
             }
           ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD3b",
-          "type": "EMPTY",
-          "text": "Hướng dẫn: PVV nói: “Bây giờ em sẽ tắt điện căn phòng này, nhờ anh chị quan sát 1 lần nữa cho cả 2 mẫu tủ lạnh này nhen ạ”\nPVV hướng dẫn đáp viên đứng giữa để quan sát được đồng thời 2 mẫu tủ lạnh.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
           "topics": [],
           "min": "",
           "max": "",
@@ -4541,37 +4112,6 @@
           "id": "Q613",
           "type": "OPEN",
           "text": "Vì sao anh/chị thích sản phẩm đó hơn? ",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD3c",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV hướng dẫn đáp viên quay lại bàn phỏng vấn và tiếp tục thực hiện các nội dung phỏng vấn còn lại.\nPVV nói: “Tiếp theo, em mời Anh/Chị quay lại bàn phỏng vấn để tiếp tục phần phỏng vấn còn lại nhé.”\nHƯỚNG DẪN PHỎNG VẤN VIÊN: PVV giới thiệu cho đáp viên về tính năng VHF. Lúc này, PVV mở [SHOWPHOTO Q614].\nPVV nói: “Bây giờ, em xin giới thiệu với anh/chị một tính năng có tên là VHF (Rã đông nhanh). Tính năng này giúp rã đông thực phẩm (thịt, cá) trong khoảng 15 phút, giữ được màu sắc tươi ngon của thực phẩm, không làm thực phẩm bị đọng nước và có thể chế biến ngay sau khi rã đông. Anh/chị vui lòng dành chút thời gian đọc kỹ thông tin về tính năng này trong hình ảnh được hiển thị ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài ý kiến về tính năng này.”\nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.\n",
           "note": "",
           "media": "",
           "record": false,
@@ -4684,38 +4224,6 @@
           "id": "Q615",
           "type": "OPEN",
           "text": "Vì sao Anh/Chị cảm thấy như vậy về tính năng VHF (Rã đông nhanh)?",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD4",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN: PVV chuẩn bị [SHOWPHOTO Q616] thể hiện vị trí ngăn VHF.\nPVV nói: “Bây giờ, em muốn hỏi anh/chị về vị trí ngăn VHF mà anh/chị ưu tiên. Có 2 phương án được thể hiện trong hình ảnh này, anh/chị vui lòng xem qua nhé.”\nSau khi đáp viên xem xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.",
           "note": "",
           "media": "",
           "record": false,
@@ -5465,38 +4973,6 @@
           "realcam": false,
           "options": {
             "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD5",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nLúc này, PVV chuẩn bị [SHOWPHOTO Q624] gồm 3 trang. PVV nói với đáp viên: “Bây giờ, em muốn hỏi anh/chị về các ý tưởng truyền thông cho tính năng Tự động làm đá nhanh này. Anh/chị vui lòng dành chút thời gian đọc kỹ nội dung và thông điệp trong 3 hình ảnh được thể hiện ở đây nhé. Sau đó, em sẽ hỏi anh/chị một vài câu hỏi về các nội dung này.” \nSau khi đáp viên đọc xong, PVV xác nhận đáp viên đã hiểu đầy đủ thông tin trước khi chuyển sang phần câu hỏi.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
             "search": false
           },
           "logic": {
@@ -6373,38 +5849,6 @@
           "form": {}
         },
         {
-          "id": "HD6",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\n“Tiếp theo, em muốn hỏi Anh/Chị một vài câu hỏi về các Tính Năng Thông Minh của tủ lạnh này.\nAnh/Chị vui lòng dành một chút thời gian xem qua các Tính Năng Thông Minh được thể hiện ở đây. Sau đó, em sẽ hỏi ý kiến và suy nghĩ của Anh/Chị về các tính năng này nhé.”\nLúc này PVV mở [SHOWPHOTO Q801-Q804] để đáp viên đọc.\n",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
           "id": "Q801",
           "type": "SINGLE",
           "text": "[SHOWPHOTO] [SHOWCARD THANG ĐIỂM]\nDựa trên các Tính Năng Thông Minh được giới thiệu ở trên, Anh/Chị thấy các tính năng này hấp dẫn ở mức độ nào?",
@@ -6675,37 +6119,6 @@
           "topics": [],
           "min": "1",
           "max": "999",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HD7",
-          "type": "EMPTY",
-          "text": "HƯỚNG DẪN PHỎNG VẤN VIÊN:\nPVV nói với đáp viên:\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.\n“Bây giờ, em muốn Anh/Chị thử hình dung một thương hiệu có Chương trình Tích điểm Đổi quà cho các sản phẩm gia dụng.\nBằng cách kết nối tủ lạnh của Anh/Chị với Ứng dụng Smart App (Sờ-mát Áp) và sử dụng các tính năng Tính Năng Thông Minh, Anh/Chị có thể tự động tích lũy điểm thưởng theo thời gian.\nCác điểm thưởng này có thể được đổi để nhận:\t\n• Linh kiện thay thế và phụ kiện (ví dụ: bộ lọc và các vật tư tiêu hao khác)\n• Gia hạn bảo hành, dịch vụ bảo trì và sửa chữa\n• Các quyền lợi dành riêng cho thành viên và quyền ưu tiên tiếp cận các sản phẩm mới\nAnh/Chị vui lòng dành một chút thời gian xem qua chương trình này, sau đó em sẽ hỏi Anh/Chị một vài câu hỏi về chương trình nhé.”\nLúc này PVV mở [SHOWPHOTO Q901-Q904] để đáp viên đọc.",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "",
-          "max": "",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
