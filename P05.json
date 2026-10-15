@@ -2173,7 +2173,7 @@
             }
           ],
           "topics": [],
-          "min": "2",
+          "min": "1",
           "max": "2",
           "unit": "",
           "display_columns": 1,
@@ -2188,7 +2188,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "(!Contains(CurrentQuestion(),[9]))&&(GetAnswerCount(CurrentQuestion())<2)",
+                "action": "Hard",
+                "message": "Chọn tối thiểu 2 đáp án",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -2218,7 +2225,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q609)])",
+            "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q609)]);\nif(Contains(Q609,[9])){QuestionHide()};",
             "on_next": "",
             "rules": []
           },
