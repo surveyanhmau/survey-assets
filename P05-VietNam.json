@@ -7575,7 +7575,7 @@
         },
         {
           "id": "Q803-code",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên.",
           "note": "",
           "media": "",
@@ -7587,6 +7587,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7594,6 +7595,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7601,6 +7603,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7608,6 +7611,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7615,6 +7619,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7622,6 +7627,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7629,6 +7635,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7636,6 +7643,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7643,6 +7651,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7650,6 +7659,7 @@
               "code": "10",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7657,6 +7667,7 @@
               "code": "11",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7664,6 +7675,7 @@
               "code": "12",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7671,6 +7683,7 @@
               "code": "13",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7678,6 +7691,7 @@
               "code": "14",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7685,6 +7699,7 @@
               "code": "15",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7692,6 +7707,7 @@
               "code": "16",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7699,6 +7715,7 @@
               "code": "17",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7706,6 +7723,7 @@
               "code": "18",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7713,6 +7731,7 @@
               "code": "19",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7720,12 +7739,13 @@
               "code": "999",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -7747,7 +7767,7 @@
         },
         {
           "id": "Q903-code",
-          "type": "SINGLE",
+          "type": "MULTI",
           "text": "Vui lòng giải thích những lý do chính cho câu trả lời trên.",
           "note": "",
           "media": "",
@@ -7759,6 +7779,7 @@
               "code": "1",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7766,6 +7787,7 @@
               "code": "2",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7773,6 +7795,7 @@
               "code": "3",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7780,6 +7803,7 @@
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7787,6 +7811,7 @@
               "code": "5",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7794,6 +7819,7 @@
               "code": "6",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7801,6 +7827,7 @@
               "code": "7",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7808,6 +7835,7 @@
               "code": "8",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7815,6 +7843,7 @@
               "code": "9",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7822,6 +7851,7 @@
               "code": "10",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7829,6 +7859,7 @@
               "code": "11",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7836,6 +7867,7 @@
               "code": "12",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7843,6 +7875,7 @@
               "code": "13",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7850,6 +7883,7 @@
               "code": "14",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7857,6 +7891,7 @@
               "code": "15",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -7864,12 +7899,13 @@
               "code": "999",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
               "is_header": false
             }
           ],
           "topics": [],
-          "min": "",
-          "max": "",
+          "min": "1",
+          "max": "999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
