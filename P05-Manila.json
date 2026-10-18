@@ -2,8 +2,22 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
+      "id": "Recruit",
+      "name": "Recruit",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [],
+      "children": []
+    },
+    {
+      "id": "Main",
+      "name": "Main",
       "record": false,
       "hide_back": false,
       "on_enter": "",
