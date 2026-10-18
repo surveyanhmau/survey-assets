@@ -2938,7 +2938,7 @@
         {
           "id": "Q501",
           "type": "MULTI",
-          "text": "[IPAKITA ANG LARAWAN][SHOWCARD]\nSaan ninyo unang narinig o nakita ang tungkol sa built-in/slot-in refrigerator—refrigerator na halos eksaktong kasya sa kitchen cabinets at halos walang pagitan?\n[[SHOW PHOTO][SHOWCARD]\nWhere did you first learn about the \"built-in/slot-in\" refrigerator concept (a refrigerator that fits fully into the kitchen cabinets, almost no gap)?]",
+          "text": "Where did you first learn about the \"built-in/slot-in\" refrigerator concept?",
           "note": "",
           "media": "",
           "record": false,
@@ -4415,7 +4415,7 @@
         {
           "id": "Q620a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nNarito ang ilang mensahe tungkol sa VHF.\nAlin sa mga mensahe ang madaling maiugnay sa inyong pangangailangan? Piliin ang lahat ng naaangkop.\n[Below are several communication messages about VHF. ]\nWhich communication messages you find relatable to you? - select all that apply ",
+          "text": "Which communication messages you find relatable to you?",
           "note": "",
           "media": "",
           "record": false,
@@ -5088,7 +5088,7 @@
         {
           "id": "Q627a",
           "type": "MULTI",
-          "text": "[SHOWCARD]\nKapag yelo sa refrigerator ang pinag-uusapan, alin sa mga salitang ito ang mas kapani-paniwala para sa inyo? Piliin ang lahat ng naaangkop.\n[When talking about ice in the refrigerator, which of the following expressions do you find more believable? Select ALL that apply]",
+          "text": "When talking about ice in the refrigerator, which of the following expressions do you find more believable?",
           "note": "",
           "media": "",
           "record": false,
