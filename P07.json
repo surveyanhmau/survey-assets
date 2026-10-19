@@ -162,8 +162,8 @@
         },
         {
           "id": "Q1",
-          "type": "SINGLE",
-          "text": "",
+          "type": "EMPTY",
+          "text": "test",
           "note": "",
           "media": "",
           "record": false,
