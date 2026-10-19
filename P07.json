@@ -2,8 +2,8 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
+      "id": "Recruit",
+      "name": "Recruit",
       "record": false,
       "hide_back": false,
       "on_enter": "",
@@ -12,7 +12,179 @@
         "loop_random": false,
         "iterations": []
       },
-      "questions": [],
+      "questions": [
+        {
+          "id": "GiaiDoan",
+          "type": "SINGLE",
+          "text": "Pvv chọn giai đoạn phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Recuit",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Main",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "MSBCH",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận mã số bảng câu hỏi",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Main",
+      "name": "Main",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "StartMain",
+          "type": "EMPTY",
+          "text": "111",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Chap-End",
+      "name": "Chap-End",
+      "record": false,
+      "hide_back": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "End",
+          "type": "EMPTY",
+          "text": "CẢM ƠN VÀ KẾT THÚC",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
       "children": []
     }
   ]
