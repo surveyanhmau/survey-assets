@@ -161,9 +161,9 @@
           }
         },
         {
-          "id": "Q2",
-          "type": "SINGLE",
-          "text": "test 1",
+          "id": "HD1",
+          "type": "EMPTY",
+          "text": "Xin chào Chị, tên tôi là_________ từ công ty nghiên cứu thị trường Gcomm. Gcomm là một công ty độc lập về nghiên cứu thị trường chuyên thực hiện các cuộc khảo sát về nhiều sản phẩm/ ngành hàng khác nhau. Hiện nay chúng tôi đang tiến hành một nghiên cứu về ngành sữa. Rất mong nhận được sự giúp đỡ của Chị bằng cách trả lời các câu hỏi sau. \nXin cám ơn Anh/Chị.",
           "note": "",
           "media": "",
           "record": false,
@@ -214,9 +214,69 @@
           "form": {}
         },
         {
-          "id": "Q3",
-          "type": "MULTI",
-          "text": "test 2",
+          "id": "S1",
+          "type": "SINGLE",
+          "text": "PVV TỰ GHI NHẬN\nPVV ghi nhận khu vực thực hiện?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hồ Chí Minh",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Khác (Ghi rõ:…)",
+              "code": "99",
+              "media": "",
+              "is_other": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,99])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2a",
+          "type": "NUMBER",
+          "text": "PVV HỎI\nVui lòng cho biết chị sinh năm nào?",
           "note": "",
           "media": "",
           "record": false,
@@ -231,7 +291,7 @@
               "is_header": false
             },
             {
-              "text": "d",
+              "text": "b",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -239,7 +299,7 @@
               "is_header": false
             },
             {
-              "text": "f",
+              "text": "c",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -247,10 +307,617 @@
               "is_header": false
             },
             {
-              "text": "c",
+              "text": "d",
               "code": "4",
               "media": "",
               "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1956",
+          "max": "1976",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "var age = 2026 - Answer(CurrentQuestion());\nif(age<=50){SetAnswer(S2,[2])};\nif(age>50){SetAnswer(S2,[3])};",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "SINGLE",
+          "text": "PVV TỰ GHI NHẬN\nPVV ghi nhận nhóm tuổi tương ứng dựa vào tuổi tính được?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. Dưới 40 tuổi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 40 – 50 tuổi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 51 - 60 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Trên 60 tuổi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3",
+          "type": "SINGLE",
+          "text": "PVV TỰ GHI NHẬN\nPVV ghi nhận giới tính của đáp viên?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4",
+          "type": "SINGLE",
+          "text": "SHOWCARD\nVui lòng cho biết trình độ học vấn cao nhất của chị?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Không đi học",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Chưa học xong tiểu học",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tốt nghiệp tiểu học",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Tốt nghiệp phổ thông cơ sở (cấp 2)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Tốt nghiệp phổ thông trung học (cấp 3)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Tốt nghiệp trung cấp/ cao đẳng/ đại học/sau đại học",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Từ chối trả lời",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,99])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S5",
+          "type": "SINGLE",
+          "text": "SHOWCARD\nVui lòng cho biết mức thu nhập trung bình hàng tháng của gia đình chị trong 6 tháng gần đây?",
+          "note": "Định nghĩa Thu nhập hộ gia đình: Thu nhập hộ gia đình là tổng thu nhập của tất cả các thành viên trong gia đình đang cùng sinh sống trong một hộ, bao gồm lương doanh nghiệp, thu nhập từ kinh doanh buôn bán và các nguồn thu nhập khác nếu có (Ví dụ:cho thuê bất động sản,,...), trước khi trừ các chi phí sinh hoạt.",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Thu nhập hộ gia đình dưới 20,000,000 VND/Tháng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Thu nhập hộ gia đình từ 20,000,000 VND – 30,000,000 VND/Tháng",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Thu nhập hộ gia đình 30,000,001 VND – 40,000,000 VND/Tháng",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Thu nhập hộ gia đình Trên 40,000,000 VND/Tháng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S6",
+          "type": "MULTI",
+          "text": "SHOWCARD \nVui lòng cho biết có bất cứ thành viên nào trong gia đình chị có làm việc trong một trong các lĩnh vực sau đây không?\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Công ty quảng cáo hoặc bộ phận quảng cáo",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Công ty nghiên cứu thị trường hoặc bộ phận nghiên cứu thị trường",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Lĩnh vực truyền thông đại chúng (truyền hình, phát thanh, báo chí)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Công ty sản xuất/chế biến/phân phối sản phẩm sữa và chế phẩm từ sữa",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Các siêu thị/ cửa hàng tiện lợi/cửa hàng bán lẻ/tạp hóa có bán sữa và các chế phẩm từ sữa",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Căn tin trường học",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Không có ai làm trong các lĩnh vực kể trên",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,3,4,5,6])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S7",
+          "type": "SINGLE",
+          "text": "PVV HỎI\nVui lòng cho biết chị có tham gia bất kỳ cuộc phỏng vấn nghiên cứu thị trường nào trong vòng 1 tháng qua không?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S8",
+          "type": "MULTI",
+          "text": "SHOWCARD\nVui lòng cho biết hiện nay chị có đang gặp phải một số vấn đề về sức khỏe nào sau đây không?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Bệnh dị ứng hoặc phải kiêng một số loại thức ăn (đặc biệt thức ăn làm từ sữa, bột mì, đường )",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Đang điều trị cảm, cúm, sốt, ho, viêm phế quản, đau họng, viêm xoang",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Đang gặp các vấn đề về tiêu hóa, tiết niệu",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. (khó tiêu, đầy hơi, táo bón, tiêu chảy, hội chứng trào ngược dạ dày thực quản,…)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Vấn đề về vị giác (nêm, nếm mùi vị thực phẩm)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Vấn đề về khứu giác (ngửi mùi vị thực phẩm)",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,3,4,5])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S9",
+          "type": "MULTI",
+          "text": "SHOWPHOTO\nTrong 3 tháng qua, chị có uống các loại đồ uống nào sau đây?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nước ngọt có ga (Coca Cola, Pepsi, 7up, Xá xị….)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Sữa trái cây (Nuvi, KUN, TH true JUICE milk,  …)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Sữa tươi có đường/ít đường/không đường đóng hộp (Vinamilk, TH True Milk, KUN, NutiFood, Cô Gái Hà Lan,…)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Sữa chua uống (KUN, Yomost, SUSU, TH True Yogurt, Nuvi,)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Nước trái cây đóng chai/hộp/túi (Vfresh, Twister, Minute Maid…)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Ca Cao Lúa Mạch (MILO, KUN, Ovaltine, Nuvi...)",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Sữa đậu nành đóng hộp/chai/túi (Fami, Vinasoy, Nuti,…)",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Sữa hạt đóng hộp/chai/túi (Vinamilk 9 loại hạt, Nutifood 20 loại hạt, 137 Degrees, Oatside, Varna, Sahmyook…)",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (ghi rõ:……………………………………………)",
+              "code": "97",
+              "media": "",
+              "is_other": true,
               "is_exclusive": false,
               "is_header": false
             }
@@ -271,85 +938,92 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[8])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
           "form": {}
         },
         {
-          "id": "Q4",
-          "type": "RANKING",
-          "text": "test 3",
+          "id": "S10",
+          "type": "SINGLE",
+          "text": "SHOWCARD\nTrong tháng 3 qua, tần suất chị uống các sản phẩm sữa hạt đóng hộp/chai/túi là như thế nào? ",
           "note": "",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "a",
+              "text": "1. Dưới 1 lần/tuần",
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "b",
+              "text": "2. 1 lần/ tuần",
               "code": "2",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "c",
+              "text": "3. 2 lần/ tuần",
               "code": "3",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
-              "text": "d",
+              "text": "4. 3 lần/ tuần",
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 4 lần/ tuần",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. 5 lần/ tuần",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. 6 lần/ tuần",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. 7 lần/tuần",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Nhiều hơn 7 lần/tuần",
+              "code": "9",
+              "media": "",
+              "is_other": false,
               "is_header": false
             }
           ],
-          "topics": [],
-          "min": "1",
-          "max": "4",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "Q1",
-          "type": "EMPTY",
-          "text": "test",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
           "topics": [],
           "min": "",
           "max": "",
@@ -368,7 +1042,522 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "true",
+                "condition": "Contains(CurrentQuestion(),[1,2])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S11a",
+          "type": "MULTI",
+          "text": "SHOWPHOTO\nVui lòng cho biết chị có uống nhãn hiệu sữa hạt nào dưới đây trong vòng 3 tháng qua?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Vinamilk 9 loại hạt",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nutifood 20 loại hạt",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 137 Degrees",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Oatside",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Blue Diamond",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S11b",
+          "type": "SINGLE",
+          "text": "SHOWPHOTO\nTrong đó, đâu là nhãn hiệu sữa hạt chị uống thường xuyên nhất trong 3 tháng qua?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Vinamilk 9 loại hạt",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nutifood 20 loại hạt",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 137 Degrees",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Oatside",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Blue Diamond",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),S11a)",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S12a",
+          "type": "MULTI",
+          "text": "SHOWPHOTO\nVui lòng cho biết chị có uống sản phẩm sữa hạt nào của nhãn hiệu Vinamilk trong vòng 3 tháng qua?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Chín loại hạt – Ít đường",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Chín loại hạt – Không đường",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Cao Đạm – Ít đường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Cao Đạm – Không đường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Đậu nành óc chó – Ít đường",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Đậu nành mè đen – Ít đường",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Sữa yến mạch – Vị truyền thống",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Đậu nành hạnh nhân – Ít đường",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Đậu nành đậu đỏ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S12b",
+          "type": "SINGLE",
+          "text": "SHOWPHOTO\nTrong đó, đâu là sản phẩm sữa hạt mà chị uống thường xuyên nhất trong 3 tháng qua? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Chín loại hạt – Ít đường",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Chín loại hạt – Không đường",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Cao Đạm – Ít đường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Cao Đạm – Không đường",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Đậu nành óc chó – Ít đường",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Đậu nành mè đen – Ít đường",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Sữa yến mạch – Vị truyền thống",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. Đậu nành hạnh nhân – Ít đường",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Đậu nành đậu đỏ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(CurrentQuestion(),S12a)",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S13",
+          "type": "SINGLE",
+          "text": "SHOWCARD\nNhận định nào sau đây miêu tả đúng nhất vai trò của chị trong việc đưa ra quyết định lựa chọn nhãn hiệu sữa hạt mà chị đang sử dụng?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Tôi là người quyết định chính trong việc lựa chọn nhãn hiệu và trực tiếp đi mua",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Tôi không phải là người quyết đinh chính trong việc lựa chọn nhãn hiệu nhưng là người trực tiếp đi mua",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Tôi không phải là người quyết định chính trong việc lựa chọn nhãn hiệu, cũng không phải người trực tiếp đi mua",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[3])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S14",
+          "type": "SINGLE",
+          "text": "PVV HỎI:\nHiện công ty chúng tôi đang tiến hành cuộc khảo sát thị trường và muốn mời chị đến công ty chúng tôi tham gia cuộc khảo sát này cùng chúng tôi. \nXin cho biết chị có sẵn lòng tham gia cuộc khảo sát này vào ngày …….... Tại …………………..……với chúng tôi?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[2])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              },
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
                 "action": "Goto",
                 "message": "",
                 "goto": "End"
