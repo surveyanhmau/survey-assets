@@ -23,14 +23,14 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Recuit",
+              "text": "Giai đoạn 1 - Recuit",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "Main",
+              "text": "Giai đoạn 2 - Main",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -82,6 +82,107 @@
             "search": false
           },
           "logic": {
+            "on_enter": "if(Contains(GiaiDoan),[2]){Recall(MSBCH,\"TTDV#1)}",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(GiaiDoan,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "PVV-Main"
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "TTDV",
+          "type": "FORM",
+          "text": "PVV ghi nhận thông tin đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận chính xác số điện thoại",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {
+            "fields": [
+              {
+                "code": "1",
+                "text": "Họ và tên đáp viên",
+                "type": "text"
+              },
+              {
+                "code": "2",
+                "text": "Địa chỉ",
+                "type": "text"
+              },
+              {
+                "code": "3",
+                "text": "Số điện thoại",
+                "type": "number",
+                "unit": ""
+              },
+              {
+                "code": "4",
+                "text": "Tên PVV Recruit",
+                "type": "text"
+              }
+            ]
+          }
+        },
+        {
+          "id": "Q2",
+          "type": "SINGLE",
+          "text": "",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
             "on_enter": "",
             "on_next": "",
             "rules": []
@@ -106,9 +207,9 @@
       },
       "questions": [
         {
-          "id": "StartMain",
-          "type": "EMPTY",
-          "text": "111",
+          "id": "PVV-Main",
+          "type": "OPEN",
+          "text": "Ghi nhận tên phỏng vấn viên ngồi bàn",
           "note": "",
           "media": "",
           "record": false,
