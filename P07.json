@@ -262,7 +262,7 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[1,99])",
+                "condition": "Contains(CurrentQuestion(),[2,99])",
                 "action": "Hard",
                 "message": "ĐÓNG",
                 "goto": ""
