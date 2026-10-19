@@ -161,7 +161,7 @@
           }
         },
         {
-          "id": "Q2",
+          "id": "Q1",
           "type": "SINGLE",
           "text": "",
           "note": "",
@@ -185,7 +185,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "true",
+                "action": "Goto",
+                "message": "",
+                "goto": "End"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
