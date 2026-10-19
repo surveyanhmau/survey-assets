@@ -82,7 +82,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Contains(GiaiDoan,[2])){Recall(MSBCH,\"TTDV#1)}",
+            "on_enter": "if(Contains(GiaiDoan,[2])){Recall(MSBCH,\"TTDV#1\")}",
             "on_next": "",
             "rules": [
               {
