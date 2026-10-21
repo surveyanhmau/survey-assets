@@ -6,6 +6,7 @@
       "name": "Recruit",
       "record": false,
       "hide_back": false,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -1576,6 +1577,7 @@
       "name": "Main",
       "record": false,
       "hide_back": false,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -1614,15 +1616,732 @@
           "conjoint": {},
           "number_grid": {},
           "form": {}
+        },
+        {
+          "id": "ROUTE",
+          "type": "SINGLE",
+          "text": "Phỏng vấn viên lựa chọn Route sẽ phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Route 1: Đánh giá 4 mẫu thử: Hỏi từ phần 1 => hết phần 8 (Q100 -> R201)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "Route 1: Đánh giá 2 mẫu thử: Hỏi từ phần 1 => hết phần 7 (Q100 -> Q704)",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD2",
+          "type": "EMPTY",
+          "text": "PHẦN MỞ ĐẦU:\nPVV nói: “Chào chị, hôm nay em mời chị đến đây để hỏi chị một số câu hỏi về các sản phẩm sữa hạt hoàn toàn mới.\nỞ đây không có câu trả lời nào đúng hay sai, em chỉ muốn biết ý của chị về sản phẩm sữa hạt mà chị sẽ uống. Do đó, chị nghĩ gì thì cứ nói như vậy.”",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HDP1",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN: \nPVV nói: “Sau đây em sẽ mời chị thử các sản phẩm sữa hạt hoàn toàn mới. Chị chờ một chút, em đi lấy.”\nPVV nói: “Chị giúp em ăn một miếng củ sắn và uống một chút nước lọc” (Ăn củ sắn trước rồi mới uống nước)\nSau khi đáp viên ăn/uống thanh vị, PVV nói: “Chị giúp em lắc nhẹ hộp sữa, sau đó uống khoảng 2 đến 3 lần hút, mình uống vừa đủ để cảm nhận sản phẩm, chứ đừng uống nhiều sẽ no quá, hôm nay mình thử tới 2 sản phẩm lận. Trong khi uống mình lưu ý cảm nhận hương vị sản phẩm giúp em.”\n\nPVV lưu ý:\nPVV lấy sản phẩm theo Rotation\nTrong suốt quá trình tham gia phỏng vấn, PVV nhắc nhở đáp viên không ăn hoặc uống bất kỳ sản phẩm/ thức ăn gì ngoài sản phẩm/ thực phẩm để thanh vị và sản phẩm mẫu. \nBàn phỏng vấn phải sạch sẽ, chỉ để 1 mẫu thử trên bàn khi phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
-      "children": []
+      "children": [
+        {
+          "id": "P1",
+          "name": "P1",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "L1D",
+                "index": 1
+              },
+              {
+                "name": "V1H",
+                "index": 2
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "Q100",
+              "type": "SINGLE",
+              "text": "PVV lựa chọn sản phẩm thử",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "L1D",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "V1H",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetAnswer(CurrentQuestion(),[LoopIndex()])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q101",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nCâu nào nói lên đúng nhất mức độ THÍCH/KHÔNG THÍCH của chị về TỔNG THỂ HƯƠNG VỊ (Vị, mùi hương, hậu vị,…) của sản phẩm sữa hạt này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q102a",
+              "type": "OPEN_GRID",
+              "text": "PVV HỎI\nChị thấy THÍCH sản phẩm sữa hạt này ở điểm nào?\n (PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\n\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \nĐầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi Hương, Vị, Hậu Vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà đáp viên thích? (ví dụ: thích vì mùi thơm của sữa, vị ngọt vừa phải,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [
+                {
+                  "text": "MÙI HƯƠNG",
+                  "code": "1"
+                },
+                {
+                  "text": "VỊ",
+                  "code": "2"
+                },
+                {
+                  "text": "HẬU VỊ",
+                  "code": "3"
+                },
+                {
+                  "text": "KHÁC",
+                  "code": "4"
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "topic_random": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q102b",
+              "type": "OPEN_GRID",
+              "text": "PVV HỎI\nChị thấy KHÔNG THÍCH  sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\n\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \nĐầu tiên PVV để trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi, Vị, Hậu vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời không thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà chị thích? (ví dụ: mùi sữa quá nồng,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [
+                {
+                  "text": "MÙI HƯƠNG",
+                  "code": "1"
+                },
+                {
+                  "text": "VỊ",
+                  "code": "2"
+                },
+                {
+                  "text": "HẬU VỊ",
+                  "code": "3"
+                },
+                {
+                  "text": "KHÁC",
+                  "code": "4"
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "topic_random": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q102c",
+              "type": "OPEN",
+              "text": "PVV HỎI\nChị cảm nhận được các loại hạt nào trong hộp sữa chị vừa thử? [OE]\n(Probe 2 lần đến khi đáp viên nói hết các vị hạt họ cảm nhận được)",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q103",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nCâu nào nói lên đúng nhất mức độ THÍCH/KHÔNG THÍCH của chị về MÙI HƯƠNG TRONG KHI UỐNG của sản phẩm sữa hạt này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q104",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nVề VỊ NGỌT của sản phẩm sữa hạt này thì chị đánh giá như thế nào?\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít ngọt so với ý của tôi",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít ngọt so với ý của tôi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Ngọt vừa phải / Phù hợp với ý của tôi",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều ngọt so với ý của tôi",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều ngọt so với ý của tôi",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q105",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nVề VỊ BÉO của sản phẩm sữa này thì chị đánh giá như thế nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít béo so với ý của tôi",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít béo so với ý của tôi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Béo vừa phải / Phù hợp với ý của tôi",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều béo so với ý của tôi",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều béo so với ý của tôi",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q106",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nCâu nào nói lên đúng nhất mức độ THÍCH/KHÔNG THÍCH của chị về HẬU VỊ của sản phẩm sữa hạt này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q107",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nCâu nào nói lên đúng nhất Ý ĐỊNH MUA của chị dành cho sản phẩm sữa hạt mà chị vừa được thử?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "(Contains(Q101_1,[5])&&Contains(Q107_1,[1,2]))||(Contains(Q101_2,[5])&&Contains(Q107_2,[1,2]))||(Contains(Q101_1,[1])&&Contains(Q107_1,[4,5]))||(Contains(Q101_2,[1])&&Contains(Q107_2,[4,5]))",
+                    "action": "Hard",
+                    "message": "Sai logic với Q101",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        }
+      ]
     },
     {
       "id": "Chap-End",
       "name": "Chap-End",
       "record": false,
       "hide_back": false,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
