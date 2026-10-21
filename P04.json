@@ -6,6 +6,7 @@
       "name": "Root",
       "record": false,
       "hide_back": false,
+      "random_question": true,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -111,14 +112,7 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": [
-              {
-                "condition": "1==1",
-                "action": "Goto",
-                "message": "",
-                "goto": "MaSo"
-              }
-            ]
+            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
