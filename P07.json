@@ -1866,16 +1866,10 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "condition": "Contains(Q101,[1,2,3])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "Q102b_1"
-                  },
-                  {
-                    "condition": "Contains(Q101_2,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q102b_2"
+                    "goto": "Q102b"
                   }
                 ]
               },
@@ -1926,16 +1920,10 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "condition": "Contains(Q101,[1,2,3])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "Q102c_1"
-                  },
-                  {
-                    "condition": "Contains(Q101_2,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q102c_2"
+                    "goto": "Q102c"
                   }
                 ]
               },
@@ -1986,16 +1974,10 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "condition": "Contains(Q101,[1,2,3])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "Q102a_1"
-                  },
-                  {
-                    "condition": "Contains(Q101_2,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q102a_2"
+                    "goto": "Q102a"
                   }
                 ]
               },
@@ -2510,6 +2492,21 @@
               "form": {}
             }
           ],
+          "children": []
+        },
+        {
+          "id": "P3",
+          "name": "P3",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
           "children": []
         }
       ]
