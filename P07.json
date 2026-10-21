@@ -3592,7 +3592,7 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Answered(Q501b)<Answered(Q501a)",
+                    "condition": "Answer(Q501b)<Answer(Q501a)",
                     "action": "Hard",
                     "message": "SAI LOGIC",
                     "goto": ""
@@ -3785,7 +3785,7 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Answered(Q501c)>Answered(Q501a)",
+                    "condition": "Answer(Q501c)>Answer(Q501a)",
                     "action": "Hard",
                     "message": "SAI LOGIC",
                     "goto": ""
