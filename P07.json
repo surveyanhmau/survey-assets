@@ -5341,11 +5341,26 @@
                   "id": "R100",
                   "type": "SINGLE",
                   "text": "IT Hiển thị mã sản phẩm theo Rotation để PVV lựa chọn tương ứng",
-                  "note": "R5\nK3",
+                  "note": "",
                   "media": "",
                   "record": false,
                   "readonly": true,
-                  "answers": [],
+                  "answers": [
+                    {
+                      "text": "R5",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "K3",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
                   "topics": [],
                   "min": "",
                   "max": "",
