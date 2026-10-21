@@ -1640,7 +1640,7 @@
               "is_header": false
             },
             {
-              "text": "Route 1: Đánh giá 2 mẫu thử: Hỏi từ phần 1 => hết phần 7 (Q100 -> Q704)",
+              "text": "Route 2: Đánh giá 2 mẫu thử: Hỏi từ phần 1 => hết phần 7 (Q100 -> Q704)",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -1741,7 +1741,7 @@
           "record": false,
           "hide_back": false,
           "random_question": false,
-          "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
+          "on_enter": "",
           "loop": {
             "enabled_loop": true,
             "loop_random": false,
@@ -2497,6 +2497,584 @@
         {
           "id": "P3",
           "name": "P3",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HD3-1",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN:\nPVV chuẩn bị 2 bảng mô tả ý tưởng sản phẩm, PVV giữ 1 bản, đưa một bản cho đáp viên.\nPVV nói: “Đây là bản mô tả ý tưởng về một sản phẩm sữa. Đầu tiên, em sẽ đọc cho anh/chị nghe về phần giới thiệu sản phẩm sữa này. Sau đó, anh/chị sẽ có thời gian để đọc lại bảng giới thiệu sản phẩm.”\nPVV đọc bảng mô tả ý tưởng sản phẩm cho đáp viên nghe, và cho đáp viên 1 phút để đọc lại. \nKhi đáp viên đã đọc xong, PVV nói: “Tiếp theo, em sẽ hỏi anh/chị một số câu hỏi về một ý tưởng sản phẩm mới”",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q301",
+              "type": "SINGLE",
+              "text": "SHOWCARD & SHOW CONCEPT\nCâu nào nói lên đúng nhất mức độ THÍCH/KHÔNG THÍCH của chị về Ý TƯỞNG của sản phẩm sữa hạt này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q302",
+              "type": "SINGLE",
+              "text": "SHOWCARD \nCâu nào nói lên đúng nhất mức độ PHÙ HỢP về Ý TƯỞNG của sản phẩm sữa hạt này với nhu cầu sử dụng của chị? ",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không phù hợp",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không phù hợp",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Phù hợp",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Hoàn toàn phù hợp",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q303",
+              "type": "SINGLE",
+              "text": "SHOWCARD \nCâu nào nói lên đúng nhất Ý ĐỊNH MUA của chị nếu Ý TƯỞNG sản phẩm này được bán tại nơi chị thường mua sữa hạt với mức giá mà chị chấp nhận được?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q304a",
+              "type": "MULTI",
+              "text": "SHOWCARD\nTrong các tên gọi được đề xuất cho sản phẩm sữa hạt mới sau đây, chị THÍCH những tên gọi nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. DEMI (Đề-mi)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. AURA (Au-ra)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. RICA (Ri-ca)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. AVERA (A-vê-ra)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. AVA (A-va)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. VIVA (Vi-va)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. VELIA (Ve-li-a)",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. VEGA (Vê-ga)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. NURA (Nu-ra)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. NORA (Nô-ra)",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. LORA (Lo-ra)",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. Không thích tên nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q304b",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nTrong đó, đâu là tên gọi chị THÍCH NHẤT?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. DEMI (Đề-mi)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. AURA (Au-ra)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. RICA (Ri-ca)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. AVERA (A-vê-ra)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. AVA (A-va)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. VIVA (Vi-va)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. VELIA (Ve-li-a)",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. VEGA (Vê-ga)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. NURA (Nu-ra)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. NORA (Nô-ra)",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. LORA (Lo-ra)",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Contains(Q304a,[99])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "P4",
+          "name": "P4",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HD4-1",
+              "type": "EMPTY",
+              "text": "Hướng dẫn PVV: PVV lấy bao bì sản phẩm cần đánh giá và đặt lên bàn\n- PVV nói: “Đây là loại bao bì sử dụng cho các sản phẩm sữa như anh/chị vừa thử, mời chị quan sát giúp em. Sau đó, em sẽ hỏi chị một số câu hỏi để đánh giá về bao bì này”\n- PVV đưa bao bì cho đáp viên xem & quan sát. Sau đó hỏi các câu hỏi sau.",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "P5",
+          "name": "P5",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
+          "children": []
+        },
+        {
+          "id": "P6",
+          "name": "P6",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
+          "children": []
+        },
+        {
+          "id": "P7",
+          "name": "P7",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
+          "children": []
+        },
+        {
+          "id": "P8",
+          "name": "P8",
           "record": false,
           "hide_back": false,
           "random_question": false,
