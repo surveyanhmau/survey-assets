@@ -1615,7 +1615,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
             "on_next": "",
             "rules": []
           },
@@ -1864,7 +1864,20 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102b_1"
+                  },
+                  {
+                    "condition": "Contains(Q101_2,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102b_2"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -1873,7 +1886,7 @@
             {
               "id": "Q102a",
               "type": "OPEN_GRID",
-              "text": "PVV HỎI\nChị thấy THÍCH sản phẩm sữa hạt này ở điểm nào?\n (PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\n\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \nĐầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi Hương, Vị, Hậu Vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà đáp viên thích? (ví dụ: thích vì mùi thơm của sữa, vị ngọt vừa phải,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
+              "text": "PVV HỎI\nChị thấy THÍCH sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \nĐầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi Hương, Vị, Hậu Vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà đáp viên thích? (ví dụ: thích vì mùi thơm của sữa, vị ngọt vừa phải,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
               "note": "",
               "media": "",
               "record": false,
@@ -1911,7 +1924,20 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102c_1"
+                  },
+                  {
+                    "condition": "Contains(Q101_2,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102c_2"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -1920,7 +1946,7 @@
             {
               "id": "Q102b",
               "type": "OPEN_GRID",
-              "text": "PVV HỎI\nChị thấy KHÔNG THÍCH  sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\n\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \nĐầu tiên PVV để trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi, Vị, Hậu vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời không thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà chị thích? (ví dụ: mùi sữa quá nồng,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV\n",
+              "text": "PVV HỎI\nChị thấy KHÔNG THÍCH  sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \nĐầu tiên PVV để trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi, Vị, Hậu vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời không thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà chị thích? (ví dụ: mùi sữa quá nồng,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV\n",
               "note": "",
               "media": "",
               "record": false,
@@ -1958,7 +1984,20 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Contains(Q101_1,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102a_1"
+                  },
+                  {
+                    "condition": "Contains(Q101_2,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q102a_2"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -2065,7 +2104,7 @@
             {
               "id": "Q104",
               "type": "SINGLE",
-              "text": "SHOWCARD\nVề VỊ NGỌT của sản phẩm sữa hạt này thì chị đánh giá như thế nào?\n",
+              "text": "SHOWCARD\nVề VỊ NGỌT của sản phẩm sữa hạt này thì chị đánh giá như thế nào?",
               "note": "",
               "media": "",
               "record": false,
@@ -2412,6 +2451,59 @@
                 "on_enter": "if(Answer(MSBCH)%2==1){SetQuestionText(CurrentQuestion(),[\"L1D\",\"V1H\"])};\nif(Answer(MSBCH)%2==0){SetQuestionText(CurrentQuestion(),[\"V1H\",\"L1D\"])};",
                 "on_next": "",
                 "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q201",
+              "type": "SINGLE",
+              "text": "PVV HỎI\nTrong 2 sản phẩm sữa chị vừa được thử, chị THÍCH sản phẩm nào hơn?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "L1D",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "V1H",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "((Answer(Q101_1)>Answer(Q101_2))&&Contains(CurrentQuestion(),[2]))||((Answer(Q101_1)<Answer(Q101_2))&&Contains(CurrentQuestion(),[1]))\n",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
