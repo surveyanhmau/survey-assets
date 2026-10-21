@@ -6,7 +6,7 @@
       "name": "Root",
       "record": false,
       "hide_back": false,
-      "random_question": true,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
