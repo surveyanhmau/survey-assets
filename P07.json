@@ -1880,8 +1880,8 @@
             {
               "id": "Q102a",
               "type": "OPEN_GRID",
-              "text": "PVV HỎI\nChị thấy THÍCH sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \nĐầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi Hương, Vị, Hậu Vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà đáp viên thích? (ví dụ: thích vì mùi thơm của sữa, vị ngọt vừa phải,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
-              "note": "",
+              "text": "PVV HỎI\nChị thấy THÍCH sản phẩm sữa hạt này ở điểm nào?",
+              "note": "(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \nĐầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi Hương, Vị, Hậu Vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà đáp viên thích? (ví dụ: thích vì mùi thơm của sữa, vị ngọt vừa phải,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1934,8 +1934,8 @@
             {
               "id": "Q102b",
               "type": "OPEN_GRID",
-              "text": "PVV HỎI\nChị thấy KHÔNG THÍCH  sản phẩm sữa hạt này ở điểm nào?\n(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \nĐầu tiên PVV để trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi, Vị, Hậu vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời không thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà chị thích? (ví dụ: mùi sữa quá nồng,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV\n",
-              "note": "",
+              "text": "PVV HỎI\nChị thấy KHÔNG THÍCH  sản phẩm sữa hạt này ở điểm nào?",
+              "note": "(PVV probe thêm 2 lần “Còn gì nữa không” để đáp viên trả lời hết ý).\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \nĐầu tiên PVV để trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \nSau đó probe cho từng yếu tố được liệt kê bên dưới (Mùi, Vị, Hậu vị, Khác)\nNếu không được đề cập, PVV hỏi lại và khai thác kỹ các ý còn chung chung chưa rõ. Ví dụ: nếu đáp viên trả lời không thích vì vị ngọt, mùi thơm,… > cần khai thác rõ ý vị ngọt/ mùi thơm của sữa này như thế nào mà chị thích? (ví dụ: mùi sữa quá nồng,…) \nLưu ý ghi nhận theo đúng ý của đáp viên, không chuyển ngữ theo ý của PVV",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1988,7 +1988,7 @@
             {
               "id": "Q102c",
               "type": "OPEN",
-              "text": "PVV HỎI\nChị cảm nhận được các loại hạt nào trong hộp sữa chị vừa thử? [OE]\n(Probe 2 lần đến khi đáp viên nói hết các vị hạt họ cảm nhận được)",
+              "text": "PVV HỎI\nChị cảm nhận được các loại hạt nào trong hộp sữa chị vừa thử?\n(Probe 2 lần đến khi đáp viên nói hết các vị hạt họ cảm nhận được)",
               "note": "",
               "media": "",
               "record": false,
@@ -2968,7 +2968,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(Q304a,[99])){QuestionHide()}",
+                "on_enter": "if(Contains(Q304a,[99])){QuestionHide()};\nFilterAnswerByAnswer(Q304b,Q304a);",
                 "on_next": "",
                 "rules": []
               },
@@ -3023,6 +3023,190 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
+            },
+            {
+              "id": "Q401",
+              "type": "SINGLE",
+              "text": "SHOWCARD & SHOW BAO BÌ\nCâu nào nói lên đúng nhất mức độ THÍCH/KHÔNG THÍCH của chị về BAO BÌ của sản phẩm sữa hạt này?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q401,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q402b"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q402a",
+              "type": "OPEN",
+              "text": "SHOW BAO BÌ\nChị thấy THÍCH bao bì sản phẩm sữa hạt này ở điểm nào?\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q401,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "HD5-1"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q402b",
+              "type": "OPEN",
+              "text": "SHOW BAO BÌ\nChị thấy KHÔNG THÍCH hoặc CHƯA HÀI LÒNG với bao bì sản phẩm sữa hạt này ở điểm nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q401,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q402a"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD5-1",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN:\nPPV: PVV đặt lần lượt theo thứ tự từ trái sang phải của đáp viên: sản phẩm mà đáp viên thích nhất => ‎ ý tưởng sản phẩm => Bao bì và nói:\nPVV nói: “Giả sử với sản phẩm mà anh chị thích nhất sẽ được giới thiệu như trong ý tưởng sản phẩm mà chị đã xem và bao bì tương ưng như thế này. Anh chị giúp em trả lời một số câu hỏi về giá bán cho sản phẩm nhé.\"",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
             }
           ],
           "children": []
@@ -3039,7 +3223,612 @@
             "loop_random": false,
             "iterations": []
           },
-          "questions": [],
+          "questions": [
+            {
+              "id": "Q501a",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết, nếu sản phẩm này được bán ở nơi chị vẫn thường mua, vui lòng cho biết chị SẴN SÀNG MUA sản phẩm này với mức giá bao nhiêu cho 1 hộp 180ml?",
+              "note": "Hướng dẫn PVV:\nPVV để đáp viên tự trả lời dưới dạng câu hỏi mở \nSau đó dò và ghi nhận giá theo các code có sẵn\nNếu đáp viên trả lời theo khoảng giá (ví dụ: 10.000 – 15.000 VNĐ), PVV nhờ đáp viên đưa ra 1 con số cụ thể",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Dưới 5,000 đồng",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 6,000 đồng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 7,000 đồng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 8,000 đồng",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 9,000 đồng",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 10,000 đồng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 11,000 đồng",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. 12,000 đồng",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. 13,000 đồng",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. 14,000 đồng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. 15,000 đồng",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. 16,000 đồng",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. 17,000 đồng",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. 18,000 đồng",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. 19,000 đồng",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. 20,000 đồng",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. 21,000 đồng",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. 22,000 đồng",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. 23,000 đồng",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. 24,000 đồng",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. 25,000 đồng",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Trên 26,000 đồng (Ghi rõ:…)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q501b",
+              "type": "SINGLE",
+              "text": "Mức giá CAO NHẤT chị có thể mua sản phẩm này là bao nhiêu cho 1 hộp 180ml?",
+              "note": "Hướng dẫn PVV:\nPVV để đáp viên tự trả lời dưới dạng câu hỏi mở \nSau đó dò và ghi nhận giá theo các code có sẵn\nNếu đáp viên trả lời theo khoảng giá (ví dụ: 10.000 – 15.000 VNĐ), PVV nhờ đáp viên đưa ra 1 con số cụ thể",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Dưới 5,000 đồng",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 6,000 đồng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 7,000 đồng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 8,000 đồng",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 9,000 đồng",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 10,000 đồng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 11,000 đồng",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. 12,000 đồng",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. 13,000 đồng",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. 14,000 đồng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. 15,000 đồng",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. 16,000 đồng",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. 17,000 đồng",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. 18,000 đồng",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. 19,000 đồng",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. 20,000 đồng",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. 21,000 đồng",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. 22,000 đồng",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. 23,000 đồng",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. 24,000 đồng",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. 25,000 đồng",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Trên 26,000 đồng (Ghi rõ:…)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answered(Q501b)<Answered(Q501a)",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q501c",
+              "type": "SINGLE",
+              "text": "Mức giá nào THẤP NHẤT mà anh chị có thể mua mà không nghi ngờ về chất lượng sản phẩm cho 1 hộp 180ml?",
+              "note": "Hướng dẫn PVV:\nPVV để đáp viên tự trả lời dưới dạng câu hỏi mở \nSau đó dò và ghi nhận giá theo các code có sẵn\nNếu đáp viên trả lời theo khoảng giá (ví dụ: 10.000 – 15.000 VNĐ), PVV nhờ đáp viên đưa ra 1 con số cụ thể",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Dưới 5,000 đồng",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 6,000 đồng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 7,000 đồng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 8,000 đồng",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 9,000 đồng",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 10,000 đồng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 11,000 đồng",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. 12,000 đồng",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. 13,000 đồng",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. 14,000 đồng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. 15,000 đồng",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. 16,000 đồng",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. 17,000 đồng",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. 18,000 đồng",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. 19,000 đồng",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. 20,000 đồng",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. 21,000 đồng",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. 22,000 đồng",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. 23,000 đồng",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. 24,000 đồng",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. 25,000 đồng",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Trên 26,000 đồng (Ghi rõ:…)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answered(Q501c)>Answered(Q501a)",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD5-2",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: PVV thu dọn cất gọn toàn bộ vật dụng trên bàn và chuyển sang phần tiếp theo",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
           "children": []
         },
         {
@@ -3054,7 +3843,206 @@
             "loop_random": false,
             "iterations": []
           },
-          "questions": [],
+          "questions": [
+            {
+              "id": "HD6-1",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN:\nPVV nói: “Phần tiếp theo, em xin phép hỏi chị 1 vài câu hỏi về quà tặng khuyến mãi nhé”",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q601K",
+              "type": "SINGLE",
+              "text": "SHOWPHOTO\nCâu nào nói lên đúng nhất mức độ yêu thích của chị về Chương trình khuyến mãi Mua 3 lốc sữa hạt sẽ nhận được món quà 1 trong các món quà sau đây?\nMón quà <blue>K</blue>",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q601M",
+              "type": "SINGLE",
+              "text": "SHOWPHOTO\nCâu nào nói lên đúng nhất mức độ yêu thích của chị về Chương trình khuyến mãi Mua 3 lốc sữa hạt sẽ nhận được món quà 1 trong các món quà sau đây?\nMón quà <blue>M</blue>",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD6-2",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: PVV đặt lần lượt các mẫu quà tặng theo chiều từ trái qua phải của đáp viên\nThứ tự món quà: {0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
           "children": []
         },
         {
