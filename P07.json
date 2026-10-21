@@ -70,8 +70,8 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1",
-          "max": "999999999",
+          "min": "1001",
+          "max": "1055",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -91,6 +91,12 @@
                 "action": "Goto",
                 "message": "",
                 "goto": "PVV-Main"
+              },
+              {
+                "condition": "Contains(GiaiDoan,[1])&&(CheckDuplicate(\"MSBCH\",Answer(MSBCH))==1)",
+                "action": "Hard",
+                "message": "MSBCH của bạn trùng với bài đã làm",
+                "goto": ""
               }
             ]
           },
@@ -1719,7 +1725,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
+            "on_enter": "",
             "on_next": "",
             "rules": []
           },
@@ -1735,7 +1741,7 @@
           "record": false,
           "hide_back": false,
           "random_question": false,
-          "on_enter": "",
+          "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
           "loop": {
             "enabled_loop": true,
             "loop_random": false,
@@ -2326,6 +2332,86 @@
                     "goto": ""
                   }
                 ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HDP1-2",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: \nPVV để gọn sản phẩm đã thử lên góc bàn, khuất tầm mắt đáp viên và chuyển qua sản phẩm tiếp theo.\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "P2",
+          "name": "P2",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HDP2",
+              "type": "EMPTY",
+              "text": "Hướng dẫn:\nPVV đặt lại 2 mẫu thử lên bàn, với thứ tự thử tương ứng với sản phẩm từ trái qua phải của đáp viên.  \nPVV mời đáp viên ăn củ sắn và uống nước thanh vị rồi thử lại sản phẩm test đầu tiên, sau đó tiếp tục ăn củ sắn và uống nước thanh vị rồi thử sản phẩm test thứ hai. \n\nSản phẩm thử 1: {0}\nSản phẩm thử 2: {1}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Answer(MSBCH)%2==1){SetQuestionText(CurrentQuestion(),[\"L1D\",\"V1H\"])};\nif(Answer(MSBCH)%2==0){SetQuestionText(CurrentQuestion(),[\"V1H\",\"L1D\"])};",
+                "on_next": "",
+                "rules": []
               },
               "conjoint": {},
               "number_grid": {},
