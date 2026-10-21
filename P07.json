@@ -3870,7 +3870,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q601M"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -3937,7 +3944,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "HD6-2"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -4004,7 +4018,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q601K"
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -4034,6 +4055,483 @@
                 "search": false
               },
               "logic": {
+                "on_enter": "if(Answer(MSBCH)%2==1){SetQuestionText(CurrentQuestion(),[\"K -> M\"])};\nif(Answer(MSBCH)%2==0){SetQuestionText(CurrentQuestion(),[\"M -> K\"])};\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q602",
+              "type": "SINGLE",
+              "text": "PVV HỎI\nTrong 2 quà tặng của chương trình khuyến mãi Mua 3 lốc có thể được tặng chị vừa xem, chị thích quà tặng nào hơn",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "K",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "M",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD6-3",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: PVV đặt món quà được xếp hạng 1: {0} trước mặt đáp viên và cất gọn các món quà còn lại sau đó tiếp tục hỏi",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q602)])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q603",
+              "type": "SINGLE",
+              "text": "SHOWCARD \nCâu nào nói lên đúng nhất Ý ĐỊNH MUA của chị nếu chương trình khuyến mãi Mua 3 lốc tặng quà chị thích nhất được áp dụng khi mua sản phẩm tại nơi chị thường mua sữa hạt với mức giá chị chấp nhận được?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD6-4",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: Rồi mình quên hết các món quà vừa rồi hen chị, em có 1 số quà tặng khác nhờ chị đánh giá",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q604S"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q604A",
+              "type": "SINGLE",
+              "text": "SHOWPHOTO\nCâu nào nói lên đúng nhất mức độ yêu thích của chị về Chương trình khuyến mãi Mua 1 thùng sữa hạt sẽ nhận được 1 trong các món quà sau đây?\nMón quà <blue>A</blue>",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q605"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q604S",
+              "type": "SINGLE",
+              "text": "SHOWPHOTO\nCâu nào nói lên đúng nhất mức độ yêu thích của chị về Chương trình khuyến mãi Mua 1 thùng sữa hạt sẽ nhận được 1 trong các món quà sau đây?\nMón quà <blue>S</blue>",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answer(MSBCH)%2==0",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q604A"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q605",
+              "type": "SINGLE",
+              "text": "PVV HỎI\nTrong 2 quà tặng của chương trình khuyến mãi Mua 1 thùng có thể được tặng chị vừa xem, chị thích quà tặng nào hơn",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "A",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "S",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD6-5",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: PVV đặt món quà được xếp hạng 1: {0} trước mặt đáp viên và cất gọn các món quà còn lại sau đó tiếp tục hỏi",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q605)])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q606",
+              "type": "SINGLE",
+              "text": "SHOWCARD \nCâu nào nói lên đúng nhất Ý ĐỊNH MUA của chị nếu chương trình khuyến mãi Mua 1 thùng tặng quà chị thích nhất được áp dụng khi mua sản phẩm tại nơi chị thường mua sữa hạt với mức giá chị chấp nhận được?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể mua hoặc không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
                 "on_enter": "",
                 "on_next": "",
                 "rules": []
@@ -4057,7 +4555,710 @@
             "loop_random": false,
             "iterations": []
           },
-          "questions": [],
+          "questions": [
+            {
+              "id": "HD7-1",
+              "type": "EMPTY",
+              "text": "PVV nói: “Phần cuối cùng, em sẽ có một số câu hỏi về thói quen mua hàng của mình\"",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q701a",
+              "type": "MULTI",
+              "text": "SHOWCARD\nĐộng lực nào khiến chị sử dụng sữa hạt?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Vì tốt cho sức khỏe",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Để bổ sung dinh dưỡng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Để kiểm soát cân nặng/giữ dáng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Vì dễ tiêu hóa hoặc không dung nạp sữa bò (lactose)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Vì thích hương vị của sữa hạt",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Vì ưu tiên thực phẩm có nguồn gốc thực vật/thành phần tự nhiên",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Phù hợp với lối sống lành mạnh hoặc ăn chay",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tiện lợi khi sử dụng (uống nhanh, mang theo...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Theo lời khuyên của bác sĩ/chuyên gia hoặc người thân",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Giá cả phù hợp",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (ghi rõ: ________)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q701b",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nTrong đó, đâu là động lực quan trọng nhất?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Vì tốt cho sức khỏe",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Để bổ sung dinh dưỡng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Để kiểm soát cân nặng/giữ dáng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Vì dễ tiêu hóa hoặc không dung nạp sữa bò (lactose)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Vì thích hương vị của sữa hạt",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Vì ưu tiên thực phẩm có nguồn gốc thực vật/thành phần tự nhiên",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Phù hợp với lối sống lành mạnh hoặc ăn chay",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tiện lợi khi sử dụng (uống nhanh, mang theo...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Theo lời khuyên của bác sĩ/chuyên gia hoặc người thân",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Giá cả phù hợp",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (ghi rõ: ________)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(Q701b,Q701a)",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q702",
+              "type": "MULTI",
+              "text": "Vậy lý do anh chị sử dụng sữa hạt của Vinamilk 9 loại hạt là gì?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tin tưởng thương hiệu Vinamilk",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Thành phần 9 loại hạt bổ dưỡng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tốt cho sức khỏe",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hương vị ngon, hợp khẩu vị",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Dinh dưỡng phù hợp nhu cầu",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Thành phần tự nhiên, phù hợp lối sống lành mạnh",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Giá cả phù hợp",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Dễ mua, dễ tìm",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Được người thân/bạn bè giới thiệu",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Bị thu hút bởi quảng cáo/KOLs",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Đã dùng thử và hài lòng",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Bao bì đẹp, tiện lợi",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Có khuyến mãi/ưu đãi",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Không có thương hiệu phù hợp hơn",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (ghi rõ: ________)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q703",
+              "type": "MULTI",
+              "text": "SHOWCARD\nSữa được làm từ hạt nào sau đây anh chị sẽ cho SỮA HẠT CAO CẤP? ",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Óc chó",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hạnh nhân",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Mắc-ca",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Đậu xanh",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Yến Mạch",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Đậu đỏ",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Đậu đen",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Đậu gà",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Hạt điều",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (Ghi rõ: …)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. Không có thành phần nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q704a",
+              "type": "MULTI",
+              "text": "SHOWCARD\nChị thường mua sản phẩm sữa hạt ở đâu?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Siêu thị/Siêu thị mini (Co.opmart, GO!, AEON, Lotte Mart, WinMart+, Bách Hóa Xanh,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Cửa hàng tiện lợi (Circle K, GS25, FamilyMart,…)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Cửa hàng tạp hóa",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Cửa hàng/đại lý chuyên bán sữa",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sàn thương mại điện tử (Shopee, Lazada, Tiki, TikTok Shop,...)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Kênh online khác (Website/App của siêu thị hoặc thương hiệu, ứng dụng giao hàng, mạng xã hội,...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (Ghi rõ:...)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q704b",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nTrong đó, đâu là nơi chị mua sữa hạt thường xuyên nhất?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Siêu thị/Siêu thị mini (Co.opmart, GO!, AEON, Lotte Mart, WinMart+, Bách Hóa Xanh,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Cửa hàng tiện lợi (Circle K, GS25, FamilyMart,…)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Cửa hàng tạp hóa",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Cửa hàng/đại lý chuyên bán sữa",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sàn thương mại điện tử (Shopee, Lazada, Tiki, TikTok Shop,...)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Kênh online khác (Website/App của siêu thị hoặc thương hiệu, ứng dụng giao hàng, mạng xã hội,...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác (Ghi rõ:...)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(Q704b,Q704a)",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
           "children": []
         },
         {
