@@ -534,7 +534,7 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[1,99])",
+                "condition": "Contains(CurrentQuestion(),[1,2,99])",
                 "action": "Hard",
                 "message": "ĐÓNG",
                 "goto": ""
@@ -786,7 +786,7 @@
               "is_header": false
             },
             {
-              "text": "3. Đang gặp các vấn đề về tiêu hóa, tiết niệu",
+              "text": "3. Đang gặp các vấn đề về tiêu hóa, tiết niệu (khó tiêu, đầy hơi, táo bón, tiêu chảy, hội chứng trào ngược dạ dày thực quản,…)",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -794,7 +794,7 @@
               "is_header": false
             },
             {
-              "text": "4. (khó tiêu, đầy hơi, táo bón, tiêu chảy, hội chứng trào ngược dạ dày thực quản,…)",
+              "text": "4. Vấn đề về vị giác (nêm, nếm mùi vị thực phẩm)",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -802,7 +802,7 @@
               "is_header": false
             },
             {
-              "text": "5. Vấn đề về vị giác (nêm, nếm mùi vị thực phẩm)",
+              "text": "5. Vấn đề về khứu giác (ngửi mùi vị thực phẩm)",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -810,7 +810,7 @@
               "is_header": false
             },
             {
-              "text": "99. Vấn đề về khứu giác (ngửi mùi vị thực phẩm)",
+              "text": "99. Chưa / Không có",
               "code": "99",
               "media": "",
               "is_other": false,
