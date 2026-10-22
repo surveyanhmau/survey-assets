@@ -2361,6 +2361,38 @@
             {
               "id": "HDP1-2",
               "type": "EMPTY",
+              "text": "Hướng dẫn: PVV để gọn sản phẩm đã thử lên góc bàn, khuất tầm mắt đáp viên và chuyển qua sản phẩm tiếp theo.\n\nChị giúp em ăn một miếng củ sắn và uống một chút nước lọc. Ăn củ sắn trước rồi mới uống nước. \n\nChị giúp em lắc nhẹ hộp sữa, sau đó uống khoảng 2 đến 3 lần hút, mình uống vừa đủ để cảm nhận sản phẩm, chứ đừng uống nhiều sẽ no quá, hôm nay mình thử tới 2 sản phẩm lận. Trong khi uống mình lưu ý cảm nhận hương vị sản phẩm giúp em.”",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((Answer(MSBCH)%2==1)&&(LoopIndex()==2)){QuestionHide()};\nif((Answer(MSBCH)%2==0)&&(LoopIndex()==1)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HDP1-3",
+              "type": "EMPTY",
               "text": "Hướng dẫn: \nPVV để gọn sản phẩm đã thử lên góc bàn, khuất tầm mắt đáp viên và chuyển qua sản phẩm tiếp theo.\n",
               "note": "",
               "media": "",
@@ -2382,7 +2414,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "if((Answer(MSBCH)%2==1)&&(LoopIndex()==1)){QuestionHide()};\nif((Answer(MSBCH)%2==0)&&(LoopIndex()==2)){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4103,7 +4135,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "((Answer(Q601K)>Answer(Q601M))&&Contains(CurrentQuestion(),[2]))||((Answer(Q601M)>Answer(Q601K))&&Contains(CurrentQuestion(),[1]))\n",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -4435,7 +4474,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "((Answer(Q604A)>Answer(Q604S))&&Contains(CurrentQuestion(),[2]))||((Answer(Q604S)>Answer(Q604A))&&Contains(CurrentQuestion(),[1]))",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -5816,7 +5862,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "",
+                    "on_enter": "if((Answer(MSBCH)%2==1)&&(LoopIndex()==2)){QuestionHide()};\nif((Answer(MSBCH)%2==0)&&(LoopIndex()==1)){QuestionHide()};\n",
                     "on_next": "",
                     "rules": []
                   },
@@ -5840,6 +5886,38 @@
                 "iterations": []
               },
               "questions": [
+                {
+                  "id": "HD8-3",
+                  "type": "EMPTY",
+                  "text": "Hướng dẫn: PVV đặt lần lượt 2 mẫu thử trước mặt đáp viên theo thứ tự từ tương ứng từ trái qua phải, bên trái là sản phẩm thử lần 1, bên phải là sản phẩm thử lần 2. Sau đó hỏi",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
                 {
                   "id": "R201",
                   "type": "SINGLE",
