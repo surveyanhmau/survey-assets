@@ -1473,7 +1473,7 @@
               "is_header": false
             },
             {
-              "text": "2. Tôi không phải là người quyết đinh chính trong việc lựa chọn nhãn hiệu nhưng là người trực tiếp đi mua",
+              "text": "2. Tôi là người quyết định chính trong việc lựa chọn nhãn hiệu nhưng không trực tiếp đi mua",
               "code": "2",
               "media": "",
               "is_other": false,
@@ -3239,7 +3239,7 @@
             {
               "id": "HD5-1",
               "type": "EMPTY",
-              "text": "HƯỚNG DẪN:\nPPV: PVV đặt lần lượt theo thứ tự từ trái sang phải của đáp viên: sản phẩm mà đáp viên thích nhất => ‎ ý tưởng sản phẩm => Bao bì và nói:\nPVV nói: “Giả sử với sản phẩm mà anh chị thích nhất sẽ được giới thiệu như trong ý tưởng sản phẩm mà chị đã xem và bao bì tương ưng như thế này. Anh chị giúp em trả lời một số câu hỏi về giá bán cho sản phẩm nhé.\"",
+              "text": "HƯỚNG DẪN:\nPPV: PVV đặt lần lượt theo thứ tự từ trái sang phải của đáp viên: sản phẩm mà đáp viên thích nhất => ‎ ý tưởng sản phẩm => Bao bì và nói:\nPVV nói: “Giả sử với sản phẩm mà anh chị thích nhất sẽ được giới thiệu như trong ý tưởng sản phẩm mà chị đã xem và bao bì tương ứng như thế này. Anh chị giúp em trả lời một số câu hỏi về giá bán cho sản phẩm nhé.\"",
               "note": "",
               "media": "",
               "record": false,
