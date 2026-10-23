@@ -6416,7 +6416,271 @@
           "form": {}
         },
         {
-          "id": "Q603a-code",
+          "id": "Q603a-code-A",
+          "type": "MULTI",
+          "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Nhìn hiện đại, sang trọng và đẳng cấp",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có 6 cánh tạo cảm giác to hơn nên chứa được nhiều đồ hơn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có nhiều chế độ cần ngăn nào mở ngăn đó mà không cần mở hết ngăn",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Các chi tiết tối giản không bị rốt mắt",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Gương mở độc lập hơn không bị trùng lặp trông đẹp mắt",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế chỗ lấy nước sâu dễ để ly lấy nước",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế cánh phải mới lạ độc đáo có thể soi gương",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế đẹp hơn",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc đen nhám nhìn sang trọng hơn",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Cánh cửa tiện nghi đẹp hơn",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế mặt kính nhìn thấy thức ăn bên trong",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu đen nhìn sạch sẽ không bám vân tay",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế gọn hơn",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế tích hợp công nghệ smart cảm giác nhiều tính năng",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết lế phù hợp với quầy kệ bếp",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc hiện đại hơn, mới lạ hơn",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có 3 đoạn ngăn nhìn sang và khác biệt",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ngăn to hơn nên để được nhiều đồ hơn",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tủ lạnh có màn hình led phía trước",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màn hình cảm ứng dễ dàng thao tác",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Cửa tủ góc cạnh vuông vức hơn",
+              "code": "21",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ngăn lấy nước đá to hơn",
+              "code": "22",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế mặt ngoài dễ lau chùi hơn",
+              "code": "23",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Các ngăn to hơn",
+              "code": "24",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Chiều cao phù hợp với tôi",
+              "code": "25",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế bề mặt cánh cửa bóng hơn",
+              "code": "26",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mặt sau sơn trơn láng cảm giác bền không bị oxi hóa",
+              "code": "27",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tính năng làm đá tự động và ở ngoài dễ lấy",
+              "code": "28",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q603a-code-B",
           "type": "MULTI",
           "text": "Vì sao Anh/Chị lại cảm thấy như vậy?",
           "note": "",
@@ -6992,7 +7256,7 @@
           "form": {}
         },
         {
-          "id": "Q610-code",
+          "id": "Q610-code-1",
           "type": "MULTI",
           "text": "Vì sao anh/chị chọn 2 tên này?",
           "note": "",
@@ -7192,7 +7456,1623 @@
           "form": {}
         },
         {
-          "id": "Q613-code",
+          "id": "Q610-code-2",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-3",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-4",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-5",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-6",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-7",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q610-code-8",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị chọn 2 tên này?",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Có màu tối lịch sự",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Là màu đen",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì thiết kế bên trong có màu đen",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có khoang chứa đồ rộng rãi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi phù hợp với màu xám của tủ lạnh",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên nghĩ thiên về mặt trăng liên quan đến tủ lạnh",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Vì tên ngắn dễ đọc dễ nhớ",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách giống thực phẩm tươi và sạch sẽ",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nghe nhẹ nhàng, thân thiện và gần gũi",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thấy phù hợp với bản thân",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên giống như bầu trời đêm",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q613-code-A",
+          "type": "MULTI",
+          "text": "Vì sao anh/chị thích sản phẩm đó hơn? ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Sau khi tắt điện nhìn sản phẩm rõ ràng không bị chói",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Khi tắt điện nhìn đẹp hơn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Sắp xếp có ánh kim làm rõ nội thất bên trong tủ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ánh sáng của tủ đủ dùng mà không cần bật điện nên tiết kiệm điện",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nội thất bên trong tủ nhìn hiện đại và thu hút hơn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế giữa các ngăn nhìn rộng hơn và chia làm 2 dễ phân loại thực phẩm hơn",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Nhìn sang trọng hơn, tinh tế hơn",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Đèn sáng hơn dễ lấy đồ ăn hơn",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế khay chắc chắn hơn",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ánh đèn thiết kế đẹp mắt",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có thể nhìn thấy đồ bên trong dễ dàng",
+              "code": "11",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Thiết kế phù hợp với sở thích của tôi",
+              "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Có chế độ làm đá bào và khử khuẩn",
+              "code": "13",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ánh sáng đồng đều hơn",
+              "code": "14",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Phía sau tủ là màn hình led sẽ sáng và sang hơn",
+              "code": "15",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ngăn rã đông tích hợp với ngăn phía trong nên tiện hơn không phải mở nhiều",
+              "code": "16",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu nền đen xám bên trong tủ lạnh nhìn sạch sẽ hơn",
+              "code": "17",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Cảm giác sảng khoái hơn",
+              "code": "18",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ngăn cấp đông mềm có ánh sáng rõ hơn",
+              "code": "19",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Ngăn đông mềm độc lập với các ngăn khác",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màn hình nền trắng phía sau mới lạ",
+              "code": "21",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Dải đèn nhiều hơn từ trên xuống dưới từ trong ra ngoài",
+              "code": "22",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Không có",
+              "code": "999",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q613-code-B",
           "type": "MULTI",
           "text": "Vì sao anh/chị thích sản phẩm đó hơn? ",
           "note": "",
