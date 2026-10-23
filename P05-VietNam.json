@@ -6,6 +6,7 @@
       "name": "Recruit",
       "record": false,
       "hide_back": false,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -2115,6 +2116,7 @@
       "name": "Main",
       "record": false,
       "hide_back": false,
+      "random_question": false,
       "on_enter": "",
       "loop": {
         "enabled_loop": false,
@@ -6583,7 +6585,7 @@
               "is_header": false
             },
             {
-              "text": "Cửa tủ góc canh vuông vức hơn",
+              "text": "Cửa tủ góc cạnh vuông vức hơn",
               "code": "21",
               "media": "",
               "is_other": false,
@@ -6687,7 +6689,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Màu sắc tối không dễ phát hiện nấm mốc và độ tươi",
+              "text": "Màu tối không dễ lộ vết bẩn",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -6727,7 +6729,7 @@
               "is_header": false
             },
             {
-              "text": "Nhìn tủ thấy rộng phù hợp với không gian",
+              "text": "Màu tối mang tính thẩm mỹ cao",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -6735,7 +6737,7 @@
               "is_header": false
             },
             {
-              "text": "Màu tối mang tính thẩm mỹ cao",
+              "text": "Thiết kế bên trong rộng rãi phù hợp với nhu cầu sử dụng",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -6743,7 +6745,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế bên trong rộng rãi phù hợp với nhu cầu sử dụng",
+              "text": "Thiết kế nội thất bên trong sang trọng và hiện đại",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -6751,7 +6753,7 @@
               "is_header": false
             },
             {
-              "text": "Không gian sang trọng và hiện đại",
+              "text": "Gam màu lạnh làm nổi bật thức ăn",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -6759,7 +6761,7 @@
               "is_header": false
             },
             {
-              "text": "Gam màu lạnh làm nổi bật thức ăn",
+              "text": "Màu sắc tối giản cảm giác chắc chắn",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -6767,7 +6769,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc sang trọng và hiện đại",
+              "text": "Tiết kiệm năng lượng",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -6775,7 +6777,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc tối giản cảm giác chắc chắn",
+              "text": "Phù hợp với những nơi cao cấp",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -6783,7 +6785,7 @@
               "is_header": false
             },
             {
-              "text": "Tiết kiệm năng lượng",
+              "text": "Nhiều tính năng riêng biệt",
               "code": "13",
               "media": "",
               "is_other": false,
@@ -6791,7 +6793,7 @@
               "is_header": false
             },
             {
-              "text": "Phù hợp với những nơi cao cấp",
+              "text": "Màu sáng cho không gian thêm rộng",
               "code": "14",
               "media": "",
               "is_other": false,
@@ -6799,7 +6801,7 @@
               "is_header": false
             },
             {
-              "text": "Nhiều tính năng riêng biệt",
+              "text": "Trông lịch sự hơn",
               "code": "15",
               "media": "",
               "is_other": false,
@@ -6807,7 +6809,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sáng cho không gian thêm rộng",
+              "text": "Trông dịu mắt dễ chịu",
               "code": "16",
               "media": "",
               "is_other": false,
@@ -6815,7 +6817,7 @@
               "is_header": false
             },
             {
-              "text": "Trông lịch sự hơn",
+              "text": "Phù hợp với sở thích cá nhân",
               "code": "17",
               "media": "",
               "is_other": false,
@@ -6823,7 +6825,7 @@
               "is_header": false
             },
             {
-              "text": "Trông dịu mắt dễ chịu",
+              "text": "Có công nghệ Nanoe X và ion bạc khử khuẩn",
               "code": "18",
               "media": "",
               "is_other": false,
@@ -6831,7 +6833,7 @@
               "is_header": false
             },
             {
-              "text": "Phù hợp với sở thích cá nhân",
+              "text": "Màu đen bắt mắt",
               "code": "19",
               "media": "",
               "is_other": false,
@@ -6839,7 +6841,7 @@
               "is_header": false
             },
             {
-              "text": "Ấn tượng với biểu tượng Nano và ion bạc khử khuẩn",
+              "text": "Có giá bằng kính cường lực để rượu sang trọng, cố định không bị đổ rượu",
               "code": "20",
               "media": "",
               "is_other": false,
@@ -6847,7 +6849,7 @@
               "is_header": false
             },
             {
-              "text": "Màu đen bắt mắt",
+              "text": "Có ngăn to để chứa rau củ với công nghệ fresh safe",
               "code": "21",
               "media": "",
               "is_other": false,
@@ -6855,7 +6857,7 @@
               "is_header": false
             },
             {
-              "text": "Nhiền ngăn tiện lợi dễ chia đồ ăn",
+              "text": "Có 2 ngăn đông mềm giúp chế biến nhanh và vẫn giữ độ tươi ngon",
               "code": "22",
               "media": "",
               "is_other": false,
@@ -6863,7 +6865,7 @@
               "is_header": false
             },
             {
-              "text": "Có giá bằng kính cường lực để rượu sang trọng, cố định không bị đổ rượu",
+              "text": "Có ngăn đông mềm nhanh và tiện lợi",
               "code": "23",
               "media": "",
               "is_other": false,
@@ -6871,7 +6873,7 @@
               "is_header": false
             },
             {
-              "text": "Có ngăn to để chứa rau củ với công nghệ fresh safe",
+              "text": "Ngăn cấp đông nhanh",
               "code": "24",
               "media": "",
               "is_other": false,
@@ -6879,7 +6881,7 @@
               "is_header": false
             },
             {
-              "text": "Có 2 ngăn rã đông giúp chế biến nhanh và vẫn giữ độ tươi ngon",
+              "text": "Có đồ bằng inox để chai nước gọn",
               "code": "25",
               "media": "",
               "is_other": false,
@@ -6887,7 +6889,7 @@
               "is_header": false
             },
             {
-              "text": "Có ngăn cấp đông mềm nhanh và tiện lợi",
+              "text": "Màu sắc bên trong và bên ngoài đồng nhất",
               "code": "26",
               "media": "",
               "is_other": false,
@@ -6895,7 +6897,7 @@
               "is_header": false
             },
             {
-              "text": "Có đồ bằng inox để chai nước gọn",
+              "text": "Bên trong có gương tấm có chữ Nano để đồ dễ nhìn hơn",
               "code": "27",
               "media": "",
               "is_other": false,
@@ -6903,7 +6905,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc bên trong và bên ngoài đồng nhất",
+              "text": "Thiết kế chưa hài hòa, lộn xộn và hơi rườm rà",
               "code": "28",
               "media": "",
               "is_other": false,
@@ -6911,7 +6913,7 @@
               "is_header": false
             },
             {
-              "text": "Bên trong có gương tấm có chữ Nano để đồ dễ nhìn hơn",
+              "text": "Khó vệ sinh và khó phát hiện bẩn",
               "code": "29",
               "media": "",
               "is_other": false,
@@ -6919,7 +6921,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế chưa hài hòa, lôn xộn và hơi rườm rà",
+              "text": "Màu tối không hấp dẫn không đồng nhất với màu nền tường",
               "code": "30",
               "media": "",
               "is_other": false,
@@ -6927,7 +6929,7 @@
               "is_header": false
             },
             {
-              "text": "Khó vệ sinh và khó phát hiện bẩn",
+              "text": "Các bản lề hộc tủ kéo dễ dàng và ron tủ lạnh chắc chắn",
               "code": "31",
               "media": "",
               "is_other": false,
@@ -6935,7 +6937,7 @@
               "is_header": false
             },
             {
-              "text": "Màu tối không hấp dẫn không đồng nhất với màu nền tường",
+              "text": "Màu sắc mới lạ",
               "code": "32",
               "media": "",
               "is_other": false,
@@ -6943,8 +6945,16 @@
               "is_header": false
             },
             {
-              "text": "Các bản lề hộc tủ kéo dễ dàng và ron tủ lạnh chắc chắn",
+              "text": "Màu sắc đặc biệt",
               "code": "33",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Màu sắc sáng tạo",
+              "code": "34",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -7031,7 +7041,7 @@
               "is_header": false
             },
             {
-              "text": "Tên nghe sang trọng phù hợp với tủ lạnh",
+              "text": "Tên nghe sang trọng phù hợp với tủ lạnh cao cấp",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -7071,7 +7081,7 @@
               "is_header": false
             },
             {
-              "text": "Mang phong cách đồ ăn tươi ngon đảm bảo",
+              "text": "Thấy phù hợp với bản thân",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -7079,7 +7089,7 @@
               "is_header": false
             },
             {
-              "text": "Thấy phù hợp với bản thân",
+              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -7087,7 +7097,7 @@
               "is_header": false
             },
             {
-              "text": "Tên thường được chọn cho dòng tủ lạnh cao cấp",
+              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
               "code": "13",
               "media": "",
               "is_other": false,
@@ -7095,7 +7105,7 @@
               "is_header": false
             },
             {
-              "text": "Tên mang phong cách hiện đại, mới lạ, các tính, huyền bí",
+              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
               "code": "14",
               "media": "",
               "is_other": false,
@@ -7103,7 +7113,7 @@
               "is_header": false
             },
             {
-              "text": "Tên gọi đúng với chiếc tủ lạnh sang trọng và tinh tế",
+              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
               "code": "15",
               "media": "",
               "is_other": false,
@@ -7111,7 +7121,7 @@
               "is_header": false
             },
             {
-              "text": "Tên gọi nhận biết được màu sắc của tủ lạnh",
+              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
               "code": "16",
               "media": "",
               "is_other": false,
@@ -7119,7 +7129,7 @@
               "is_header": false
             },
             {
-              "text": "Có sự kết hợp giữa màu sắc bên trong tủ lạnh và ánh sáng giúp quan sát thực phẩm bên trong",
+              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
               "code": "17",
               "media": "",
               "is_other": false,
@@ -7127,7 +7137,7 @@
               "is_header": false
             },
             {
-              "text": "Màu sắc màn đêm dịu mắt dễ nhìn đồ ăn",
+              "text": "Tên giống như bầu trời đêm",
               "code": "18",
               "media": "",
               "is_other": false,
@@ -7135,7 +7145,7 @@
               "is_header": false
             },
             {
-              "text": "Mang cảm giác có chiều sâu đúng với cảm giác khi nhìn tủ",
+              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
               "code": "19",
               "media": "",
               "is_other": false,
@@ -7143,32 +7153,8 @@
               "is_header": false
             },
             {
-              "text": "Tên gọi làm nổi bật thức ăn nên đọc dễ hiểu",
-              "code": "20",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "Tên giống như bầu trời đêm",
-              "code": "21",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "Tên phù hợp với không gian bên trong tủ lạnh",
-              "code": "22",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
               "text": "Tên gọi giống như bộ sưu tập đồ ăn đa dạng",
-              "code": "23",
+              "code": "20",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -7303,7 +7289,7 @@
               "is_header": false
             },
             {
-              "text": "Vẫn nhìn rõ thực phẩm trong bóng tối",
+              "text": "Thiết kế phù hợp với sở thích của tôi",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -7311,7 +7297,7 @@
               "is_header": false
             },
             {
-              "text": "Thiết kế phù hợp với sở thích của tôi",
+              "text": "Có chế độ làm đá bào và khử khuẩn",
               "code": "13",
               "media": "",
               "is_other": false,
@@ -7319,7 +7305,7 @@
               "is_header": false
             },
             {
-              "text": "Có chế độ làm đá bào và khử khuẩn",
+              "text": "Ánh sáng đồng đều hơn",
               "code": "14",
               "media": "",
               "is_other": false,
@@ -7327,7 +7313,7 @@
               "is_header": false
             },
             {
-              "text": "Ánh sáng đồng đều hơn",
+              "text": "Phía sau tủ là màn hình led sẽ sáng và sang hơn",
               "code": "15",
               "media": "",
               "is_other": false,
@@ -7335,7 +7321,7 @@
               "is_header": false
             },
             {
-              "text": "Phía sau tủ là màn hình led sẽ sáng và sang hơn",
+              "text": "Ngăn rã đông tích hợp với ngăn phía trong nên tiện hơn không phải mở nhiều",
               "code": "16",
               "media": "",
               "is_other": false,
@@ -7343,7 +7329,7 @@
               "is_header": false
             },
             {
-              "text": "Ngăn rã đông tích hợp với ngăn phía trong nên tiện hơn không phải mở nhiều",
+              "text": "Màu nền đen xám bên trong tủ lạnh nhìn sạch sẽ hơn",
               "code": "17",
               "media": "",
               "is_other": false,
@@ -7351,7 +7337,7 @@
               "is_header": false
             },
             {
-              "text": "Màu nền đen xám bên trong tủ lạnh nhìn sạch sẽ hơn",
+              "text": "Cảm giác sảng khoái hơn",
               "code": "18",
               "media": "",
               "is_other": false,
@@ -7359,7 +7345,7 @@
               "is_header": false
             },
             {
-              "text": "Cảm giác sảng khoái hơn",
+              "text": "Ngăn cấp đông mềm có ánh sáng rõ hơn",
               "code": "19",
               "media": "",
               "is_other": false,
@@ -7367,7 +7353,7 @@
               "is_header": false
             },
             {
-              "text": "Ngăn cấp đông mềm có ánh sáng rõ hơn",
+              "text": "Ngăn đông mềm độc lập với các ngăn khác",
               "code": "20",
               "media": "",
               "is_other": false,
@@ -7375,7 +7361,7 @@
               "is_header": false
             },
             {
-              "text": "Làm nổi bật sản phẩm dễ tìm hơn",
+              "text": "Màn hình nền trắng phía sau mới lạ",
               "code": "21",
               "media": "",
               "is_other": false,
@@ -7383,24 +7369,8 @@
               "is_header": false
             },
             {
-              "text": "Ngăn đông mềm độc lập với các ngăn khác",
-              "code": "22",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "Màn hình nền trắng phía sau mới lạ",
-              "code": "23",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
               "text": "Dải đèn nhiều hơn từ trên xuống dưới từ trong ra ngoài",
-              "code": "24",
+              "code": "22",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -7463,7 +7433,7 @@
               "is_header": false
             },
             {
-              "text": "Rã đông nhanh hơn bảo quản thịt tươi ngon hơn",
+              "text": "Rã đông nhanh hơn",
               "code": "3",
               "media": "",
               "is_other": false,
@@ -7471,7 +7441,7 @@
               "is_header": false
             },
             {
-              "text": "Không bị chảy nước nhiều nhỏ giọt",
+              "text": "Bảo quản thịt tươi ngon hơn",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -7479,7 +7449,7 @@
               "is_header": false
             },
             {
-              "text": "Đảm bảo vệ sinh",
+              "text": "Không bị chảy nước nhiều nhỏ giọt",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -7487,7 +7457,7 @@
               "is_header": false
             },
             {
-              "text": "Chế biến được nhanh hơn",
+              "text": "Đảm bảo vệ sinh",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -7495,7 +7465,7 @@
               "is_header": false
             },
             {
-              "text": "Hữu ích cho cuộc sống và bếp của gia đình",
+              "text": "Chế biến được nhanh hơn",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -7503,7 +7473,7 @@
               "is_header": false
             },
             {
-              "text": "Tính năng mới lạ",
+              "text": "Hữu ích cho cuộc sống và bếp của gia đình",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -7511,7 +7481,7 @@
               "is_header": false
             },
             {
-              "text": "Sóng radio giữ được thực phẩm luôn tươi mới",
+              "text": "Tính năng mới lạ",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -7519,7 +7489,7 @@
               "is_header": false
             },
             {
-              "text": "Không cần dùng nhiều thiết bị để rã đông",
+              "text": "Sóng radio giữ được thực phẩm luôn tươi mới",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -7527,7 +7497,7 @@
               "is_header": false
             },
             {
-              "text": "Tính năng mới phù hợp với mong muốn của tôi",
+              "text": "Không cần dùng lò vi sóng để rã đông",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -7535,8 +7505,16 @@
               "is_header": false
             },
             {
-              "text": "Sau khi rã đông thực phẩm vẫn duy trì trạng thái đông mềm rất tiện lợi khi chế biến",
+              "text": "Tính năng mới phù hợp với mong muốn của tôi",
               "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Sau khi rã đông thực phẩm vẫn duy trì trạng thái đông mềm rất tiện lợi khi chế biến",
+              "code": "13",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -7607,7 +7585,7 @@
               "is_header": false
             },
             {
-              "text": "Tiết kiệm năng lượng do lâu không dùng sẽ tốt hơn là chỉ khi vắng nhà",
+              "text": "Bảo quản thực phẩm lâu và hiệu quả hơn",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -7615,7 +7593,7 @@
               "is_header": false
             },
             {
-              "text": "Mình sẵn sàng khi không có nhà",
+              "text": "Có app tốt hơn cho việc theo dõi, bảo trì và cảnh bảo",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -7623,7 +7601,7 @@
               "is_header": false
             },
             {
-              "text": "Đảm bảo cho thực phẩm lâu hơn và hiệu quả hơn",
+              "text": "Phù hợp với nhiều thời điểm trong ngày",
               "code": "6",
               "media": "",
               "is_other": false,
@@ -7631,7 +7609,7 @@
               "is_header": false
             },
             {
-              "text": "Có app tốt hơn cho việc theo dõi, bảo trì và cảnh bảo",
+              "text": "Khi không tiện có thể điểu khiển rã đông",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -7639,7 +7617,7 @@
               "is_header": false
             },
             {
-              "text": "Phù hợp với nhiều thời điểm trong ngày",
+              "text": "Có thể điều chỉnh nhiệt độ từng ngăn để tiết kiệm điện",
               "code": "8",
               "media": "",
               "is_other": false,
@@ -7647,7 +7625,7 @@
               "is_header": false
             },
             {
-              "text": "Khi không tiện có thể điểu khiển rã đông",
+              "text": "Tiết kiệm thời gian và chi phí",
               "code": "9",
               "media": "",
               "is_other": false,
@@ -7655,7 +7633,7 @@
               "is_header": false
             },
             {
-              "text": "Có thể điều chỉnh nhiệt độ từng ngăn để tiết kiệm điện",
+              "text": "Nó rất tiện lợi và hiện đại",
               "code": "10",
               "media": "",
               "is_other": false,
@@ -7663,7 +7641,7 @@
               "is_header": false
             },
             {
-              "text": "Tiết kiệm thời gian và chi phí",
+              "text": "Mong muốn ngôi nhà sử dụng các thiết bị thông minh và quản lí từ xa dễ dàng hơn",
               "code": "11",
               "media": "",
               "is_other": false,
@@ -7671,7 +7649,7 @@
               "is_header": false
             },
             {
-              "text": "Nó rất tiện lợi và hiện đại",
+              "text": "Giúp quản lý thay cho công việc bận rộn",
               "code": "12",
               "media": "",
               "is_other": false,
@@ -7679,7 +7657,7 @@
               "is_header": false
             },
             {
-              "text": "Mong muốn ngôi nhà sử dụng các thiết bị thông minh và quản lí từ xa dễ dàng hơn",
+              "text": "Nó có thể chủ động làm đá, tắt mở",
               "code": "13",
               "media": "",
               "is_other": false,
@@ -7687,7 +7665,7 @@
               "is_header": false
             },
             {
-              "text": "Giúp quản lý thay cho công việc bận rộn",
+              "text": "Tính năng mới giúp chủ động hơn trong việc nấu nướng",
               "code": "14",
               "media": "",
               "is_other": false,
@@ -7695,7 +7673,7 @@
               "is_header": false
             },
             {
-              "text": "Nó có thể chủ động làm đá, tắt mở",
+              "text": "Kiểm soát được mức tiêu thụ điện",
               "code": "15",
               "media": "",
               "is_other": false,
@@ -7703,7 +7681,7 @@
               "is_header": false
             },
             {
-              "text": "Tính năng mới giúp chủ động hơn trong việc nấu nướng",
+              "text": "Trên app hiển thị tiết kiệm điện",
               "code": "16",
               "media": "",
               "is_other": false,
@@ -7711,24 +7689,8 @@
               "is_header": false
             },
             {
-              "text": "Kiểm soát được mức tiêu thụ điện",
-              "code": "17",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
-              "text": "Trên app hiển thị tiết kiệm điện",
-              "code": "18",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
-            },
-            {
               "text": "Có nhiều tính năng rất ấn tượng ( chế độ rời khỏi nhà, chế độ tiết kiệm điện, chế độ mua sắm…)",
-              "code": "19",
+              "code": "17",
               "media": "",
               "is_other": false,
               "is_exclusive": false,
@@ -7775,7 +7737,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "Tỉ lệ tích điểm phải đủ xứng đáng để cài đặt ( mua 10 tủ lạnh mới được 1 lần bảo dưỡng thì không đáng)",
+              "text": "Tỷ lệ tích điểm chưa đủ hấp dẫn, lâu, phải mua nhiều",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -7799,7 +7761,7 @@
               "is_header": false
             },
             {
-              "text": "Mong muốn có tính năng thông minh để quản lý, sử dụng tủ lạnh tốt hơn",
+              "text": "Mong muốn có tính năng thông minh để quản lý tủ lạnh tốt hơn",
               "code": "4",
               "media": "",
               "is_other": false,
@@ -7863,7 +7825,7 @@
               "is_header": false
             },
             {
-              "text": "Tích điểm đổi quà thấy bị động và bị giám sát",
+              "text": "Lo ngại cảm giác bị theo dõi/ tham gia một cách thụ động",
               "code": "12",
               "media": "",
               "is_other": false,
