@@ -98,7 +98,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "GetQuan(AnswerText(Q1),\"Quận\",\"Huyện\")",
                 "on_next": "",
                 "rules": []
               },
@@ -130,7 +130,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "GetPhuong(Answer(Q2),\"Phường\")",
                 "on_next": "",
                 "rules": []
               },
