@@ -2798,69 +2798,69 @@
               "type": "SINGLE_GRID",
               "text": "SHOW TABLET\nPVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”\nBây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.  \n\nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”\n",
               "note": "",
-              "media": "",
+              "media": "Q15-1.png Q15-12.png Q15-3.png",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Hoàn toàn không đồng ý",
+                  "text": "Hoàn toàn không đồng ý",
                   "code": "1",
                   "is_other": false
                 },
                 {
-                  "text": "2. Không đồng ý",
+                  "text": "Không đồng ý",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "3. Không đồng ý cũng không phản đối",
+                  "text": "Không đồng ý cũng không phản đối",
                   "code": "3",
                   "is_other": false
                 },
                 {
-                  "text": "4. Đồng ý",
+                  "text": "Đồng ý",
                   "code": "4",
                   "is_other": false
                 },
                 {
-                  "text": "5. Hoàn toàn đồng ý",
+                  "text": "Hoàn toàn đồng ý",
                   "code": "5",
                   "is_other": false
                 },
                 {
-                  "text": "98.",
-                  "code": "98",
+                  "text": "98",
+                  "code": "6",
                   "is_other": false
                 }
               ],
               "topics": [
                 {
-                  "text": "1. Nhãn hiệu cao cấp",
+                  "text": "1. Biểu tượng của sự ngon miệng",
                   "code": "1",
                   "is_other": false
                 },
                 {
-                  "text": "2. Nhãn hiệu thể hiện sự quan tâm/ yêu thương",
+                  "text": "2. Nhãn hiệu cao cấp",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "3. Biểu tượng của sự ngon miệng",
+                  "text": "3. Nhãn hiệu thể hiện sự chu đáo/ quan tâm/ yêu thương",
                   "code": "3",
                   "is_other": false
                 },
                 {
-                  "text": "4. Nhãn hiệu cam kết về nguyên liệu chất lượng cao",
+                  "text": "4. Nhãn hiệu đáng tin",
                   "code": "4",
                   "is_other": false
                 },
                 {
-                  "text": "5. Nhãn hiệu giúp các bé luôn khỏe trong – đẹp ngoài",
+                  "text": "5. Nhãn hiệu của sự thông minh hóm hỉnh",
                   "code": "5",
                   "is_other": false
                 },
                 {
-                  "text": "6. Biểu tượng của dinh dưỡng đúng và đủ",
+                  "text": "6. Nhãn hiệu được các chuyên gia khuyên dùng",
                   "code": "6",
                   "is_other": false
                 }
