@@ -2418,7 +2418,7 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "!Contains(Q8,Answer(Q6))",
+                    "condition": "!Contains(Q8,[Answer(Q6)])",
                     "action": "Hard",
                     "message": "SAI LOGIC",
                     "goto": ""
