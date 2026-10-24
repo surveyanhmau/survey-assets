@@ -2038,7 +2038,7 @@
                   "text": "97. Khác, ghi rõ: ……………………………………………",
                   "code": "97",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 }
