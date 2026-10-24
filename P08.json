@@ -370,8 +370,8 @@
             {
               "id": "S4",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nGia đình Bạn có đang nuôi bé mèo TÂY nào từ 1 TUỔI trở lên không?",
-              "note": "",
+              "text": "Gia đình Bạn có đang nuôi bé mèo TÂY nào từ 1 TUỔI trở lên không?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -423,8 +423,8 @@
             {
               "id": "S5",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nGia đình Bạn đang nuôi bao nhiêu bé mèo TÂY nào từ 1 TUỔI trở lên?",
-              "note": "",
+              "text": "Gia đình Bạn đang nuôi bao nhiêu bé mèo TÂY nào từ 1 TUỔI trở lên?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -497,8 +497,8 @@
             {
               "id": "S6",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nCó bé mèo TÂY nào từ 1 TUỔI trở lên có ăn pate dạng gói có nhãn hiệu không?",
-              "note": "",
+              "text": "Có bé mèo TÂY nào từ 1 TUỔI trở lên có ăn pate dạng gói có nhãn hiệu không?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -550,8 +550,8 @@
             {
               "id": "S7",
               "type": "OPEN",
-              "text": "SHOW TABLET\n{0}",
-              "note": "",
+              "text": "{0}",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -582,8 +582,8 @@
             {
               "id": "S8",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nBé mèo {0} ăn pate dạng gói có nhãn hiệu với mức độ thường xuyên như thế nào?",
-              "note": "",
+              "text": "Bé mèo {0} ăn pate dạng gói có nhãn hiệu với mức độ thường xuyên như thế nào?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -677,8 +677,8 @@
             {
               "id": "S9",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nBé mèo {0} ăn pate dạng gói có nhãn hiệu với mức độ thường xuyên {1} được bao lâu rồi?",
-              "note": "",
+              "text": "Bé mèo {0} ăn pate dạng gói có nhãn hiệu với mức độ thường xuyên {1} được bao lâu rồi?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -758,8 +758,8 @@
             {
               "id": "S10",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nTrong gia đình Bạn, ai là người quyết định chính trong việc mua thực phẩm cho bé mèo {0}?",
-              "note": "",
+              "text": "Trong gia đình Bạn, ai là người quyết định chính trong việc mua thực phẩm cho bé mèo {0}?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -818,8 +818,8 @@
             {
               "id": "S11a",
               "type": "SINGLE",
-              "text": "SHOW TABLET & KHÔNG ĐỌC LÊN CÁC LỰA CHỌN\nBạn vui lòng cho biết thu nhập hàng tháng của cả hộ gia đình bạn, bao gồm tất cả các nguồn như: lương, thưởng, trợ cấp, và các thu nhập khác sau khi đã trừ thuế là khoảng bao nhiêu?",
-              "note": "",
+              "text": "Bạn vui lòng cho biết thu nhập hàng tháng của cả hộ gia đình bạn, bao gồm tất cả các nguồn như: lương, thưởng, trợ cấp, và các thu nhập khác sau khi đã trừ thuế là khoảng bao nhiêu?",
+              "note": "SHOW TABLET & KHÔNG ĐỌC LÊN CÁC LỰA CHỌN",
               "media": "",
               "record": false,
               "readonly": false,
@@ -959,8 +959,8 @@
             {
               "id": "S12",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn hoặc bất kỳ thành viên nào trong gia đình bạn có làm việc trong những lĩnh vực sau đây không?",
-              "note": "",
+              "text": "Bạn hoặc bất kỳ thành viên nào trong gia đình bạn có làm việc trong những lĩnh vực sau đây không?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1115,8 +1115,8 @@
             {
               "id": "S14",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nXin cho biết trình độ học vấn cao nhất của bạn/em?",
-              "note": "",
+              "text": "Xin cho biết trình độ học vấn cao nhất của bạn/em?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1205,8 +1205,8 @@
             {
               "id": "Q1",
               "type": "MULTI",
-              "text": "SHOW TABLET\nTrong 1 tháng qua Bạn có mua những sản phẩm <u>thức ăn đóng gói có nhãn hiệu cho mèo</u> nào cho mèo nhà Bạn ăn?",
-              "note": "",
+              "text": "Trong 1 tháng qua Bạn có mua những sản phẩm <u>thức ăn đóng gói có nhãn hiệu cho mèo</u> nào cho mèo nhà Bạn ăn?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1332,8 +1332,8 @@
             {
               "id": "Q2",
               "type": "MULTI",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC TÊN NHÃN HIỆU & CODE)\nBạn có biết/nghe nói đến nhãn hiệu thức ăn cho mèo này không?\n\nPVV lần lượt hỏi từng nhãn hiệu cho đến hết.\nPROBE 1 LẦN: Ngoài những nhãn hiệu kể trên, thì bạn còn biết những nhãn hiệu thức ăn cho mèo nào khác nữa? ",
-              "note": "",
+              "text": "Bạn có biết/nghe nói đến nhãn hiệu thức ăn cho mèo này không?\nPVV lần lượt hỏi từng nhãn hiệu cho đến hết.\nPROBE 1 LẦN: Ngoài những nhãn hiệu kể trên, thì bạn còn biết những nhãn hiệu thức ăn cho mèo nào khác nữa?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC TÊN NHÃN HIỆU & CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1341,7 +1341,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1349,7 +1349,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1357,7 +1357,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1365,7 +1365,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1373,7 +1373,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1381,7 +1381,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1389,7 +1389,7 @@
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1397,7 +1397,7 @@
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1405,7 +1405,7 @@
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1413,7 +1413,7 @@
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1421,7 +1421,7 @@
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1429,7 +1429,7 @@
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1437,7 +1437,7 @@
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1445,7 +1445,7 @@
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1453,7 +1453,7 @@
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1461,7 +1461,7 @@
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1469,7 +1469,7 @@
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1477,7 +1477,7 @@
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1516,8 +1516,8 @@
             {
               "id": "Q3",
               "type": "MULTI",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nTrong các nhãn hiệu thức ăn cho mèo sau đây, nhãn hiệu nào Bạn đã từng mua cho mèo nhà Bạn ăn?",
-              "note": "",
+              "text": "Trong các nhãn hiệu thức ăn cho mèo sau đây, nhãn hiệu nào Bạn đã từng mua cho mèo nhà Bạn ăn?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1525,7 +1525,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1533,7 +1533,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1541,7 +1541,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1549,7 +1549,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1557,7 +1557,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1565,7 +1565,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1573,7 +1573,7 @@
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1581,7 +1581,7 @@
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1589,7 +1589,7 @@
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1597,7 +1597,7 @@
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1605,7 +1605,7 @@
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1613,7 +1613,7 @@
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1621,7 +1621,7 @@
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1629,7 +1629,7 @@
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1637,7 +1637,7 @@
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1645,7 +1645,7 @@
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1653,7 +1653,7 @@
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1661,7 +1661,7 @@
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1700,8 +1700,8 @@
             {
               "id": "Q4",
               "type": "MULTI",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nNhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tháng qua?",
-              "note": "",
+              "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tháng qua?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1709,7 +1709,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1717,7 +1717,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1725,7 +1725,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1733,7 +1733,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1741,7 +1741,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1749,7 +1749,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1757,7 +1757,7 @@
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1765,7 +1765,7 @@
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1773,7 +1773,7 @@
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1781,7 +1781,7 @@
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1789,7 +1789,7 @@
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1797,7 +1797,7 @@
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1805,7 +1805,7 @@
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1813,7 +1813,7 @@
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1821,7 +1821,7 @@
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1829,7 +1829,7 @@
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1837,7 +1837,7 @@
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1845,7 +1845,7 @@
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1884,8 +1884,8 @@
             {
               "id": "Q5",
               "type": "MULTI",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nNhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tuần qua?",
-              "note": "",
+              "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tuần qua?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1893,7 +1893,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1901,7 +1901,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1909,7 +1909,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1917,7 +1917,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1925,7 +1925,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1933,7 +1933,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1941,7 +1941,7 @@
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1949,7 +1949,7 @@
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1957,7 +1957,7 @@
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1965,7 +1965,7 @@
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1973,7 +1973,7 @@
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1981,7 +1981,7 @@
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1989,7 +1989,7 @@
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -1997,7 +1997,7 @@
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2005,7 +2005,7 @@
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2013,7 +2013,7 @@
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2021,7 +2021,7 @@
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2029,7 +2029,7 @@
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2068,8 +2068,8 @@
             {
               "id": "Q6",
               "type": "SINGLE",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nNhãn hiệu nào Bạn mua cho mèo nhà Bạn ăn thường xuyên nhất?",
-              "note": "",
+              "text": "Nhãn hiệu nào Bạn mua cho mèo nhà Bạn ăn thường xuyên nhất?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2077,126 +2077,126 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_header": false
                 },
@@ -2233,8 +2233,8 @@
             {
               "id": "Q8",
               "type": "MULTI",
-              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nBạn có cân nhắc mua nhãn hiệu nào sau đây trong tương lai?",
-              "note": "",
+              "text": "Bạn có cân nhắc mua nhãn hiệu nào sau đây trong tương lai?",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2242,7 +2242,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2250,7 +2250,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2258,7 +2258,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2266,7 +2266,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2274,7 +2274,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2282,7 +2282,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2290,7 +2290,7 @@
                 {
                   "text": "7. Reflex",
                   "code": "7",
-                  "media": "",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2298,7 +2298,7 @@
                 {
                   "text": "8. ANF",
                   "code": "8",
-                  "media": "",
+                  "media": "Q2-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2306,7 +2306,7 @@
                 {
                   "text": "9. Minino",
                   "code": "9",
-                  "media": "",
+                  "media": "Q2-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2314,7 +2314,7 @@
                 {
                   "text": "10. S2 Pet",
                   "code": "10",
-                  "media": "",
+                  "media": "Q2-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2322,7 +2322,7 @@
                 {
                   "text": "11. Catsrang",
                   "code": "11",
-                  "media": "",
+                  "media": "Q2-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2330,7 +2330,7 @@
                 {
                   "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2338,7 +2338,7 @@
                 {
                   "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2346,7 +2346,7 @@
                 {
                   "text": "14. Snappy Tom",
                   "code": "14",
-                  "media": "",
+                  "media": "Q2-14.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2354,7 +2354,7 @@
                 {
                   "text": "15. PetQ",
                   "code": "15",
-                  "media": "",
+                  "media": "Q2-15.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2362,7 +2362,7 @@
                 {
                   "text": "16. King's Pet",
                   "code": "16",
-                  "media": "",
+                  "media": "Q2-16.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2370,7 +2370,7 @@
                 {
                   "text": "17. Mr.Vet",
                   "code": "17",
-                  "media": "",
+                  "media": "Q2-17.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2378,7 +2378,7 @@
                 {
                   "text": "18. Wanpy",
                   "code": "18",
-                  "media": "",
+                  "media": "Q2-18.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2392,7 +2392,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "99. Không có nhãn hiệu nào",
+                  "text": "99. 99. Không có nhãn hiệu nào",
                   "code": "99",
                   "media": "",
                   "is_other": false,
@@ -2432,9 +2432,9 @@
             {
               "id": "Q10",
               "type": "MULTI",
-              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nBạn biết đến nhãn hiệu Pawtiful qua đâu?",
-              "note": "",
-              "media": "",
+              "text": "Bạn biết đến nhãn hiệu Pawtiful qua đâu?",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "media": "Q10.png",
               "record": false,
               "readonly": false,
               "answers": [
@@ -2560,9 +2560,9 @@
             {
               "id": "Q11",
               "type": "SINGLE",
-              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nBạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?",
-              "note": "",
-              "media": "",
+              "text": "Bạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "media": "Q10.png",
               "record": false,
               "readonly": false,
               "answers": [
@@ -2588,7 +2588,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "98.",
+                  "text": "98",
                   "code": "98",
                   "media": "",
                   "is_other": false,
@@ -2620,9 +2620,9 @@
             {
               "id": "Q12",
               "type": "OPEN",
-              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nVì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.",
-              "note": "",
-              "media": "",
+              "text": "Vì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "media": "Q10.png",
               "record": false,
               "readonly": false,
               "answers": [],
@@ -2652,9 +2652,9 @@
             {
               "id": "Q13",
               "type": "OPEN",
-              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nDựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì ?\nProbe cho hết ý.\n\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
-              "note": "",
-              "media": "",
+              "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì ?\nProbe cho hết ý.\n\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "media": "Q10.png",
               "record": false,
               "readonly": false,
               "answers": [],
@@ -2684,9 +2684,9 @@
             {
               "id": "Q14",
               "type": "MULTI",
-              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nTheo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?",
-              "note": "",
-              "media": "",
+              "text": "Theo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "media": "Q10.png",
               "record": false,
               "readonly": false,
               "answers": [
@@ -2796,9 +2796,9 @@
             {
               "id": "Q15",
               "type": "SINGLE_GRID",
-              "text": "SHOW TABLET\nPVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”\nBây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.  \n\nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”\n",
-              "note": "",
-              "media": "Q15-1.png Q15-12.png Q15-3.png",
+              "text": "PVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”\nBây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.  \nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”",
+              "note": "SHOW TABLET",
+              "media": "Q15-1.png;Q15-12.png;Q15-3.png",
               "record": false,
               "readonly": false,
               "answers": [
@@ -2923,8 +2923,8 @@
             {
               "id": "P1a",
               "type": "MULTI",
-              "text": "SHOW PHOTO\nTrong 1 tháng qua Bạn có MUA những nhãn hiệu pate nào cho mèo nhà Bạn ăn?",
-              "note": "",
+              "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu pate nào cho mèo nhà Bạn ăn?",
+              "note": "SHOW PHOTO",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2932,7 +2932,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "P1-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2940,7 +2940,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "P1-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2948,7 +2948,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "P1-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2956,7 +2956,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "P1-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2964,7 +2964,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "P1-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2972,7 +2972,7 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "P1-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2980,7 +2980,7 @@
                 {
                   "text": "7. Silver Spoon",
                   "code": "7",
-                  "media": "",
+                  "media": "P1-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2988,7 +2988,7 @@
                 {
                   "text": "8. Bite Of Wild",
                   "code": "8",
-                  "media": "",
+                  "media": "P1-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2996,7 +2996,7 @@
                 {
                   "text": "9. Snappy Tom",
                   "code": "9",
-                  "media": "",
+                  "media": "P1-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3004,7 +3004,7 @@
                 {
                   "text": "10. PetQ",
                   "code": "10",
-                  "media": "",
+                  "media": "P1-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3012,7 +3012,7 @@
                 {
                   "text": "11. King's Pet",
                   "code": "11",
-                  "media": "",
+                  "media": "P1-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3020,7 +3020,7 @@
                 {
                   "text": "12. Mr.Vet",
                   "code": "12",
-                  "media": "",
+                  "media": "P1-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3028,7 +3028,7 @@
                 {
                   "text": "13. Wanpy",
                   "code": "13",
-                  "media": "",
+                  "media": "P1-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3067,8 +3067,8 @@
             {
               "id": "P1b",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nTrong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
-              "note": "",
+              "text": "Trong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3076,91 +3076,91 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "P1-1.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "",
+                  "media": "P1-2.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "",
+                  "media": "P1-3.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "",
+                  "media": "P1-4.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "",
+                  "media": "P1-5.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "",
+                  "media": "P1-6.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "7. Silver Spoon",
                   "code": "7",
-                  "media": "",
+                  "media": "P1-7.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "8. Bite Of Wild",
                   "code": "8",
-                  "media": "",
+                  "media": "P1-8.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "9. Snappy Tom",
                   "code": "9",
-                  "media": "",
+                  "media": "P1-9.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "10. PetQ",
                   "code": "10",
-                  "media": "",
+                  "media": "P1-10.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "11. King's Pet",
                   "code": "11",
-                  "media": "",
+                  "media": "P1-11.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "12. Mr.Vet",
                   "code": "12",
-                  "media": "",
+                  "media": "P1-12.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "13. Wanpy",
                   "code": "13",
-                  "media": "",
+                  "media": "P1-13.png",
                   "is_other": false,
                   "is_header": false
                 },
@@ -3229,8 +3229,8 @@
             {
               "id": "P3",
               "type": "MULTI",
-              "text": "SHOW TABLET\nCó những điều gì sau đây bạn mong muốn ở sản phẩm pate cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
-              "note": "",
+              "text": "Có những điều gì sau đây bạn mong muốn ở sản phẩm pate cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3309,8 +3309,8 @@
             {
               "id": "P5a",
               "type": "MULTI",
-              "text": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE\nỞ đây có một số yếu tố người tiêu dùng cân nhắc khi mua pate cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua pate cho mèo ?\nProbe lần 1: Còn yếu tố nào nữa?\n",
-              "note": "",
+              "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua pate cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua pate cho mèo ?\nProbe lần 1: Còn yếu tố nào nữa?",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3453,8 +3453,8 @@
             {
               "id": "P5b",
               "type": "MULTI",
-              "text": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE\nTrong đó, 3 yếu tố nào quan trọng nhất?",
-              "note": "",
+              "text": "Trong đó, 3 yếu tố nào quan trọng nhất?",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3597,8 +3597,8 @@
             {
               "id": "P6",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn thường mua Pate cho mèo ở đâu?",
-              "note": "",
+              "text": "Bạn thường mua Pate cho mèo ở đâu?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3669,8 +3669,8 @@
             {
               "id": "P7a",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn thường mua Pate cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
-              "note": "",
+              "text": "Bạn thường mua Pate cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3895,8 +3895,8 @@
             {
               "id": "P8",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nMức độ thường xuyên Bạn MUA Pate cho mèo như thế nào?",
-              "note": "",
+              "text": "Mức độ thường xuyên Bạn MUA Pate cho mèo như thế nào?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3993,8 +3993,8 @@
             {
               "id": "H1a",
               "type": "MULTI",
-              "text": "SHOW TABLET\nTrong 1 tháng qua Bạn có MUA những nhãn hiệu hạt cho mèo nào cho mèo nhà Bạn ăn?",
-              "note": "",
+              "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu hạt cho mèo nào cho mèo nhà Bạn ăn?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4002,7 +4002,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "P1-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4010,7 +4010,7 @@
                 {
                   "text": "2. Me-O",
                   "code": "2",
-                  "media": "",
+                  "media": "P1-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4018,7 +4018,7 @@
                 {
                   "text": "3. Whiskas",
                   "code": "3",
-                  "media": "",
+                  "media": "P1-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4026,7 +4026,7 @@
                 {
                   "text": "4. Reflex",
                   "code": "4",
-                  "media": "",
+                  "media": "P1-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4034,7 +4034,7 @@
                 {
                   "text": "5. Catsrang",
                   "code": "5",
-                  "media": "",
+                  "media": "P1-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4042,7 +4042,7 @@
                 {
                   "text": "6. PetQ",
                   "code": "6",
-                  "media": "",
+                  "media": "P1-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4050,7 +4050,7 @@
                 {
                   "text": "7. Silver Spoon",
                   "code": "7",
-                  "media": "",
+                  "media": "P1-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4058,7 +4058,7 @@
                 {
                   "text": "8. S2 Pet",
                   "code": "8",
-                  "media": "",
+                  "media": "P1-8.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4066,7 +4066,7 @@
                 {
                   "text": "9. Bite Of Wild",
                   "code": "9",
-                  "media": "",
+                  "media": "P1-9.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4074,7 +4074,7 @@
                 {
                   "text": "10. Minino",
                   "code": "10",
-                  "media": "",
+                  "media": "P1-10.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4082,7 +4082,7 @@
                 {
                   "text": "11. ANF",
                   "code": "11",
-                  "media": "",
+                  "media": "P1-11.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4090,7 +4090,7 @@
                 {
                   "text": "12. Mr.Vet",
                   "code": "12",
-                  "media": "",
+                  "media": "P1-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4129,8 +4129,8 @@
             {
               "id": "H1b",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nTrong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
-              "note": "",
+              "text": "Trong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4138,84 +4138,84 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "",
+                  "media": "P1-1.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "2. Me-O",
                   "code": "2",
-                  "media": "",
+                  "media": "P1-2.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "3. Whiskas",
                   "code": "3",
-                  "media": "",
+                  "media": "P1-3.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "4. Reflex",
                   "code": "4",
-                  "media": "",
+                  "media": "P1-4.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "5. Catsrang",
                   "code": "5",
-                  "media": "",
+                  "media": "P1-5.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "6. PetQ",
                   "code": "6",
-                  "media": "",
+                  "media": "P1-6.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "7. Silver Spoon",
                   "code": "7",
-                  "media": "",
+                  "media": "P1-7.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "8. S2 Pet",
                   "code": "8",
-                  "media": "",
+                  "media": "P1-8.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "9. Bite Of Wild",
                   "code": "9",
-                  "media": "",
+                  "media": "P1-9.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "10. Minino",
                   "code": "10",
-                  "media": "",
+                  "media": "P1-10.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "11. ANF",
                   "code": "11",
-                  "media": "",
+                  "media": "P1-11.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "12. Mr.Vet",
                   "code": "12",
-                  "media": "",
+                  "media": "P1-12.png",
                   "is_other": false,
                   "is_header": false
                 },
@@ -4284,8 +4284,8 @@
             {
               "id": "H3",
               "type": "MULTI",
-              "text": "SHOW TABLET\nCó những điều gì sau đây bạn mong muốn ở sản phẩm hạt cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
-              "note": "",
+              "text": "Có những điều gì sau đây bạn mong muốn ở sản phẩm hạt cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4364,8 +4364,8 @@
             {
               "id": "H5a",
               "type": "MULTI",
-              "text": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE\nỞ đây có một số yếu tố người tiêu dùng cân nhắc khi mua hạt cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua hạt cho mèo ?\n\nProbe lần 1: Còn yếu tố nào nữa?\n",
-              "note": "",
+              "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua hạt cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua hạt cho mèo ?\n\nProbe lần 1: Còn yếu tố nào nữa?\n",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4508,8 +4508,8 @@
             {
               "id": "H5b",
               "type": "MULTI",
-              "text": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE\nTrong đó, 3 yếu tố nào quan trọng nhất?",
-              "note": "",
+              "text": "Trong đó, 3 yếu tố nào quan trọng nhất?",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4652,8 +4652,8 @@
             {
               "id": "H6",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn thường mua Hạt cho mèo ở đâu?",
-              "note": "",
+              "text": "Bạn thường mua Hạt cho mèo ở đâu?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -4724,8 +4724,8 @@
             {
               "id": "H7a",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn thường mua Hạt cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
-              "note": "",
+              "text": "Bạn thường mua Hạt cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5150,8 +5150,8 @@
             {
               "id": "H8",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nMức độ thường xuyên Bạn đi mua Hạt cho mèo như thế nào?",
-              "note": "",
+              "text": "Mức độ thường xuyên Bạn đi mua Hạt cho mèo như thế nào?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5217,8 +5217,8 @@
             {
               "id": "H9",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nMức độ thường xuyên Bạn cho mèo nhà bạn ăn hạt như thế nào ?",
-              "note": "",
+              "text": "Mức độ thường xuyên Bạn cho mèo nhà bạn ăn hạt như thế nào ?",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5312,8 +5312,8 @@
             {
               "id": "D1",
               "type": "SINGLE",
-              "text": "SHOW TABLET \nXin cho biết trình độ học vấn cao nhất của bạn?\n",
-              "note": "",
+              "text": "Xin cho biết trình độ học vấn cao nhất của bạn?",
+              "note": "SHOW TABLET ",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5379,8 +5379,8 @@
             {
               "id": "D2",
               "type": "SINGLE",
-              "text": "SHOW TABLET - PVV SHOW TABLET CHO ĐV CHỌN SAU ĐÓ RECONFIRM LẠI CODE ĐÁP VIÊN TRẢ LỜI\nVui lòng cho biết nghề nghiệp của chị là gì?",
-              "note": "",
+              "text": "Vui lòng cho biết nghề nghiệp của chị là gì?",
+              "note": "SHOW TABLET - PVV SHOW TABLET CHO ĐV CHỌN SAU ĐÓ RECONFIRM LẠI CODE ĐÁP VIÊN TRẢ LỜI",
               "media": "",
               "record": false,
               "readonly": false,
