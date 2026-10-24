@@ -2424,7 +2424,7 @@
                     "goto": ""
                   },
                   {
-                    "condition": "Contains(Q8,Answer(Q6))",
+                    "condition": "Contains(Q8,Answer(Q5))",
                     "action": "Hard",
                     "message": "Test 1",
                     "goto": ""
