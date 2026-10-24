@@ -2416,7 +2416,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "!Contains(Q8,[Answer(Q6)])",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -2425,7 +2432,7 @@
             {
               "id": "Q10",
               "type": "MULTI",
-              "text": "SHOW TABLET\nBạn biết đến nhãn hiệu Pawtiful qua đâu?\n",
+              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nBạn biết đến nhãn hiệu Pawtiful qua đâu?",
               "note": "",
               "media": "",
               "record": false,
@@ -2512,7 +2519,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Clip review của người nổi tiếng/ reviewer trên các nền tảng MXH",
+                  "text": "11. Clip review của người nổi tiếng/ reviewer trên các nền tảng mạng xã hội",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -2551,9 +2558,9 @@
               "form": {}
             },
             {
-              "id": "Q11c",
+              "id": "Q11",
               "type": "SINGLE",
-              "text": "SHOW TABLET\nBạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?",
+              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nBạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?",
               "note": "",
               "media": "",
               "record": false,
@@ -2613,7 +2620,7 @@
             {
               "id": "Q12",
               "type": "OPEN",
-              "text": "Vì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.",
+              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nVì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.",
               "note": "",
               "media": "",
               "record": false,
@@ -2645,7 +2652,7 @@
             {
               "id": "Q13",
               "type": "OPEN",
-              "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì ?\nProbe cho hết ý.\n\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
+              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nDựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì ?\nProbe cho hết ý.\n\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
               "note": "",
               "media": "",
               "record": false,
@@ -2677,7 +2684,7 @@
             {
               "id": "Q14",
               "type": "MULTI",
-              "text": "SHOW TABLET\nTheo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?",
+              "text": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL\nTheo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?",
               "note": "",
               "media": "",
               "record": false,
@@ -2748,6 +2755,14 @@
                   "is_header": false
                 },
                 {
+                  "text": "97. Khác (ghi rõ: ……..)",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "99.",
                   "code": "99",
                   "media": "",
@@ -2771,6 +2786,101 @@
               },
               "logic": {
                 "on_enter": "if(!Contains(Q2,[2])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q15",
+              "type": "SINGLE_GRID",
+              "text": "SHOW TABLET\nPVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”\nBây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.  \n\nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không đồng ý",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Không đồng ý",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Không đồng ý cũng không phản đối",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Đồng ý",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Hoàn toàn đồng ý",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "98.",
+                  "code": "98",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "1. Nhãn hiệu cao cấp",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Nhãn hiệu thể hiện sự quan tâm/ yêu thương",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Biểu tượng của sự ngon miệng",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Nhãn hiệu cam kết về nguyên liệu chất lượng cao",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Nhãn hiệu giúp các bé luôn khỏe trong – đẹp ngoài",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "6. Biểu tượng của dinh dưỡng đúng và đủ",
+                  "code": "6",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
@@ -2813,7 +2923,7 @@
             {
               "id": "P1a",
               "type": "MULTI",
-              "text": "SHOW TABLET\nTrong 1 tháng qua Bạn có MUA những nhãn hiệu pate nào cho mèo nhà Bạn ăn?",
+              "text": "SHOW PHOTO\nTrong 1 tháng qua Bạn có MUA những nhãn hiệu pate nào cho mèo nhà Bạn ăn?",
               "note": "",
               "media": "",
               "record": false,
@@ -3820,7 +3930,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "Ít hơn 1 lần/tháng",
+                  "text": "Ít thường xuyên hơn 1 lần/tháng",
                   "code": "5",
                   "media": "",
                   "is_other": false,
@@ -5075,7 +5185,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "Ít hơn 1 lần/tháng",
+                  "text": "Ít thường xuyên hơn 1 lần/tháng",
                   "code": "5",
                   "media": "",
                   "is_other": false,
