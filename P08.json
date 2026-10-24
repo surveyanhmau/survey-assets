@@ -2415,12 +2415,24 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "",
+                "on_next": "var a = [1,2,3];\nif(Contains(Q8,a)){SetAnswer(Q10,[1])}",
                 "rules": [
                   {
-                    "condition": "!Contains(Q8,[Answer(Q6)])",
+                    "condition": "!Contains(Q8,Answer(Q6))",
                     "action": "Hard",
                     "message": "SAI LOGIC",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "Contains(Q8,Answer(Q7))",
+                    "action": "Hard",
+                    "message": "Test 1",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "Contains(Q8,[1,2,3])",
+                    "action": "Hard",
+                    "message": "Test 2",
                     "goto": ""
                   }
                 ]
