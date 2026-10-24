@@ -2653,7 +2653,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!(Contains(Q2,[2])&&!Contains(Q8[2]))){QuestionHide()}",
+                "on_enter": "if(!(Contains(Q2,[2])&&!Contains(Q8,[2]))){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
