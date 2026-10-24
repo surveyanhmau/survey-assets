@@ -4,7 +4,7 @@
     {
       "id": "Root",
       "name": "Root",
-      "record": false,
+      "record": true,
       "hide_back": false,
       "random_question": false,
       "on_enter": "",
