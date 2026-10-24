@@ -113,7 +113,8 @@
                   {
                     "code": "3",
                     "text": "Số điện thoại",
-                    "type": "text"
+                    "type": "number",
+                    "unit": ""
                   }
                 ]
               }
