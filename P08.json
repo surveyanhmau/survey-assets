@@ -188,7 +188,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "GetQuan(AnswerText(Q1),\"Quận\")",
+                "on_enter": "GetQuan(AnswerText(S1),\"Quận\")",
                 "on_next": "",
                 "rules": []
               },
@@ -220,7 +220,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "GetPhuong(Answer(Q2),\"Phường\")",
+                "on_enter": "GetPhuong(Answer(Quan),\"Phường\")",
                 "on_next": "",
                 "rules": []
               },
@@ -1873,6 +1873,190 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(Q4,Q3)",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q5",
+              "type": "MULTI",
+              "text": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI\nNhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tuần qua?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Royal Canin",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Pawtiful",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Me-O",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Whiskas",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Nekko",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. CIAO",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Reflex",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. ANF",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Minino",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. S2 Pet",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Catsrang",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Silver Spoon",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Bite Of Wild",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Snappy Tom",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. PetQ",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. King's Pet",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Mr.Vet",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Wanpy",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác, ghi rõ: ……………………………………………",
+                  "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(Q5,Q4)",
                 "on_next": "",
                 "rules": []
               },
