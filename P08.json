@@ -2415,7 +2415,7 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "var a = [1,2,3];\nif(Contains(Q8,a)){SetAnswer(Q10,[1])}",
+                "on_next": "var a = [4,5,6];\nif(Contains(Q8,a)){SetAnswer(Q10,[1])}",
                 "rules": [
                   {
                     "condition": "!Contains(Q8,Answer(Q6))",
