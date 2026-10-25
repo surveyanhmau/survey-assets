@@ -5028,7 +5028,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(Q605)])",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerTextRank(Q605,1)])",
                 "on_next": "",
                 "rules": []
               },
