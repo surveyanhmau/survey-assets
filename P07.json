@@ -6031,6 +6031,201 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "P9",
+          "name": "P9",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HDP9",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN\nPVV nói: “Tiếp theo, em sẽ hỏi chị một vài câu hỏi về tên gọi dự kiến cho một sản phẩm mới. Chị cứ chia sẻ những suy nghĩ và cảm nhận đầu tiên của mình khi nghe đến từng tên gọi giúp em nhé.”",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "L101",
+              "type": "OPEN",
+              "text": "PVV HỎI\nVới một sản phẩm được mô tả là sữa hạt với 3 loại hạt (Óc chó, Hạnh nhân, Yến mạch) kết hợp với rau củ, bổ sung Canxi và chất xơ, khi nhắc đến tên gọi “Sữa hạt công thức”, chị liên tưởng đến điều gì?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "L102",
+              "type": "OPEN",
+              "text": "PVV HỎI\nVới một sản phẩm được mô tả là Sữa hạt với 3 loại hạt (Óc chó, Hạnh nhân, Yến mạch) kết hợp với rau củ, bổ sung Canxi và chất xơ, khi nhắc đến tên gọi “Bột ngũ cốc”, chị liên tưởng đến điều gì?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "L103a",
+              "type": "SINGLE",
+              "text": "SHOWCARD\nTheo chị, tên gọi nào dưới đây PHÙ HỢP NHẤT với sản phẩm được mô tả ở trên?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Sữa hạt công thức",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Bột ngũ cốc",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Khác (Ghi rõ tên gọi đề xuất: …)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "L103b",
+              "type": "OPEN",
+              "text": "SHOWCARD\nVì sao chị lựa chọn tên gọi này {0}?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),AnswerText(L103a))",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
         }
       ]
     },
