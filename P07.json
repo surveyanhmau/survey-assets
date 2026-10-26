@@ -83,7 +83,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Contains(GiaiDoan,[2])){Recall(MSBCH,\"TTDV#1\")}",
+            "on_enter": "",
             "on_next": "",
             "rules": [
               {
@@ -91,12 +91,6 @@
                 "action": "Goto",
                 "message": "",
                 "goto": "PVV-Main"
-              },
-              {
-                "condition": "Contains(GiaiDoan,[1])&&(CheckDuplicate(\"MSBCH\",Answer(MSBCH))==1)",
-                "action": "Hard",
-                "message": "MSBCH của bạn trùng với bài đã làm",
-                "goto": ""
               }
             ]
           },
