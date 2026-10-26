@@ -1609,7 +1609,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
+            "on_enter": "",
             "on_next": "",
             "rules": []
           },
@@ -1711,7 +1711,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "",
+            "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
             "on_next": "",
             "rules": [
               {
