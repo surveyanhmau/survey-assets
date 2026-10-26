@@ -1650,6 +1650,45 @@
           "form": {}
         },
         {
+          "id": "Main-Sdt",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận số điện thoại đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "0",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(Answer(CurrentQuestion())<300000000)||(Answer(CurrentQuestion())>999999999)\n",
+                "action": "Hard",
+                "message": "SĐT không chính xác",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "ROUTE",
           "type": "SINGLE",
           "text": "Phỏng vấn viên lựa chọn Route sẽ phỏng vấn",
