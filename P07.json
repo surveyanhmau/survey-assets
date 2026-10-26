@@ -1644,7 +1644,7 @@
             "on_next": "",
             "rules": [
               {
-                "condition": "CheckDuplicate(\"MSBCH\",Answer(CurrentQuestion()))",
+                "condition": "CheckDuplicate(\"MSBCH\",Answer(CurrentQuestion()))==1",
                 "action": "Hard",
                 "message": "Trùng MSBCH",
                 "goto": ""
