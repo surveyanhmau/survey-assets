@@ -6672,7 +6672,7 @@
             {
               "id": "L101",
               "type": "OPEN",
-              "text": "PVV HỎI\nVới một sản phẩm được mô tả là sữa hạt với 3 loại hạt (Óc chó, Hạnh nhân, Yến mạch) kết hợp với rau củ, bổ sung Canxi và chất xơ, khi nhắc đến tên gọi “Sữa hạt công thức”, chị liên tưởng đến điều gì?",
+              "text": "PVV HỎI\nKhi nhắc đến tên gọi “Sữa hạt công thức”, chị liên tưởng đến điều gì?",
               "note": "",
               "media": "",
               "record": false,
@@ -6704,7 +6704,7 @@
             {
               "id": "L102",
               "type": "OPEN",
-              "text": "PVV HỎI\nVới một sản phẩm được mô tả là sữa hạt với 3 loại hạt (óc chó, hạnh nhân, yến mạch) kết hợp với rau củ, bổ sung Canxi và chất xơ, khi nhắc đến tên gọi \"Bột ngũ cốc\", chị liên tưởng đến điều gì?",
+              "text": "PVV HỎI\nKhi nhắc đến tên gọi “Bột ngũ cốc”, chị liên tưởng đến điều gì?",
               "note": "",
               "media": "",
               "record": false,
@@ -6735,7 +6735,7 @@
             {
               "id": "L103a",
               "type": "SINGLE",
-              "text": "SHOWCARD\nTheo chị, tên gọi nào dưới đây PHÙ HỢP NHẤT với sản phẩm được mô tả ở trên?",
+              "text": "SHOWCARD\nTheo chị, tên gọi nào dưới đây PHÙ HỢP NHẤT với sản phẩm được mô tả là sữa hạt với 3 loại hạt (Óc chó, Hạnh nhân, Yến mạch) kết hợp với rau củ, bổ sung Canxi và chất xơ?",
               "note": "",
               "media": "",
               "record": false,
@@ -6788,7 +6788,7 @@
             {
               "id": "L103b",
               "type": "OPEN",
-              "text": "SHOWCARD\nVì sao chị lựa chọn tên gọi này {0}?",
+              "text": "SHOWCARD\nVì sao chị lựa chọn tên gọi này?\n{0}",
               "note": "",
               "media": "",
               "record": false,
