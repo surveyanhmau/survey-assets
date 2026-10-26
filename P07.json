@@ -1618,6 +1618,38 @@
           "form": {}
         },
         {
+          "id": "Main-TenDV",
+          "type": "OPEN",
+          "text": "PVV ghi nhận tên đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "ROUTE",
           "type": "SINGLE",
           "text": "Phỏng vấn viên lựa chọn Route sẽ phỏng vấn",
