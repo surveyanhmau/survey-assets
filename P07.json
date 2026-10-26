@@ -54,16 +54,23 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(GiaiDoan,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "PVV-Main"
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
           "form": {}
         },
         {
-          "id": "MSBCH",
+          "id": "ID-Recruit",
           "type": "NUMBER",
-          "text": "PVV ghi nhận mã số bảng câu hỏi",
+          "text": "PVV ghi nhận ID Recruit",
           "note": "",
           "media": "",
           "record": false,
@@ -71,7 +78,7 @@
           "answers": [],
           "topics": [],
           "min": "1001",
-          "max": "1055",
+          "max": "9999",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -85,14 +92,7 @@
           "logic": {
             "on_enter": "",
             "on_next": "",
-            "rules": [
-              {
-                "condition": "Contains(GiaiDoan,[2])",
-                "action": "Goto",
-                "message": "",
-                "goto": "PVV-Main"
-              }
-            ]
+            "rules": []
           },
           "conjoint": {},
           "number_grid": {},
@@ -1612,6 +1612,44 @@
             "on_enter": "if(Answer(MSBCH)%2==1){LoopRandom(P1,[1,2])};\nif(Answer(MSBCH)%2==0){LoopRandom(P1,[2,1])};",
             "on_next": "",
             "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "MSBCH",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận mã số bảng câu hỏi",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1001",
+          "max": "1055",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "CheckDuplicate(\"MSBCH\",Answer(CurrentQuestion()))",
+                "action": "Hard",
+                "message": "Trùng MSBCH",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
