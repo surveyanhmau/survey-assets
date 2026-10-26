@@ -5731,6 +5731,14 @@
                   "is_other": false,
                   "is_exclusive": true,
                   "is_header": false
+                },
+                {
+                  "text": "10. Đậu phộng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -6760,6 +6768,27 @@
                   "code": "9",
                   "media": "",
                   "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Sữa hạt cao cấp",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Sữa dinh dưỡng từ hạt",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sữa hạt ngũ cốc",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
                   "is_header": false
                 }
               ],
