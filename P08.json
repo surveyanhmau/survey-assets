@@ -3339,7 +3339,7 @@
             {
               "id": "P5a",
               "type": "MULTI",
-              "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua pate cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua pate cho mèo ?\nProbe lần 1: Còn yếu tố nào nữa?",
+              "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua pate cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với bạn khi mua pate cho mèo ?\nProbe lần 1: Còn yếu tố nào nữa?",
               "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
