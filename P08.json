@@ -159,7 +159,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[2])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -497,7 +504,7 @@
             {
               "id": "S6",
               "type": "SINGLE",
-              "text": "Có bé mèo TÂY nào từ 1 TUỔI trở lên có ăn pate dạng gói có nhãn hiệu không?",
+              "text": "Có bé mèo TÂY nào từ 1 TUỔI trở lên có ăn <u>pate dạng gói có nhãn hiệu</u> không?",
               "note": "SHOW TABLET",
               "media": "",
               "record": false,
@@ -550,7 +557,7 @@
             {
               "id": "S7",
               "type": "OPEN",
-              "text": "{0}",
+              "text": "<no>{0}</no>",
               "note": "SHOW TABLET",
               "media": "",
               "record": false,
@@ -1506,7 +1513,7 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "",
+                "on_next": "ClearAnswer(Q3)",
                 "rules": []
               },
               "conjoint": {},
@@ -1690,7 +1697,7 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(Q3,Q2)",
-                "on_next": "",
+                "on_next": "ClearAnswer(Q4)",
                 "rules": []
               },
               "conjoint": {},
@@ -1874,7 +1881,7 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(Q4,Q3)",
-                "on_next": "",
+                "on_next": "ClearAnswer(Q5);\nClearAnswer(P1a)\n\n",
                 "rules": []
               },
               "conjoint": {},
@@ -2058,7 +2065,7 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(Q5,Q4)",
-                "on_next": "",
+                "on_next": "ClearAnswer(Q6)",
                 "rules": []
               },
               "conjoint": {},
@@ -2463,7 +2470,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "4. Các bài đăng trên mạng xã hội",
+                  "text": "4. Các bài đăng trên mạng xã hội (Tiktok/Facebook/Youtube/Threads/….)",
                   "code": "4",
                   "media": "",
                   "is_other": false,
@@ -2519,7 +2526,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Clip review của người nổi tiếng/ reviewer trên các nền tảng mạng xã hội",
+                  "text": "11. Clip review của người nổi tiếng/ reviewer trên các nền tảng mạng xã hội (Tiktok/Facebook/Youtube/Threads/….)",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -3065,7 +3072,7 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(P1a,Q4)",
-                "on_next": "if(GetAnswerCount(P1a)==1){SetAnswer(P1b,Answer(P1a))};\nFilterAnswerByAnswer(P1b,P1a)",
+                "on_next": "ClearAnswer(P1b);\nif(GetAnswerCount(P1a)==1){SetAnswer(P1b,Answer(P1a))};\nFilterAnswerByAnswer(P1b,P1a)",
                 "rules": []
               },
               "conjoint": {},
@@ -3466,7 +3473,7 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "",
+                "on_next": "ClearAnswer(P5b)",
                 "rules": []
               },
               "conjoint": {},
@@ -3763,7 +3770,7 @@
             },
             {
               "id": "P7b",
-              "type": "OPEN_GRID",
+              "type": "NUMBER_GRID",
               "text": "Trung bình mỗi lần mua, bạn thường mua bao nhiêu?",
               "note": "",
               "media": "",
@@ -3792,8 +3799,8 @@
                   "code": "97"
                 }
               ],
-              "min": "",
-              "max": "",
+              "min": "1",
+              "max": "999999999",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
@@ -3801,7 +3808,8 @@
               "realtime": false,
               "realcam": false,
               "options": {
-                "topic_random": false
+                "topic_random": false,
+                "search": false
               },
               "logic": {
                 "on_enter": "FilterTopicByAnswer(P7b,P7a)",
@@ -3809,7 +3817,46 @@
                 "rules": []
               },
               "conjoint": {},
-              "number_grid": {},
+              "number_grid": {
+                "headers": {
+                  "topic": "Topic",
+                  "before": [],
+                  "code": "Code",
+                  "after": []
+                },
+                "rows": [
+                  {
+                    "topic": "1. Gói/túi",
+                    "before": [],
+                    "code": 1,
+                    "after": []
+                  },
+                  {
+                    "topic": "2. Lon",
+                    "before": [],
+                    "code": 2,
+                    "after": []
+                  },
+                  {
+                    "topic": "3. Khay",
+                    "before": [],
+                    "code": 3,
+                    "after": []
+                  },
+                  {
+                    "topic": "4. Hộp",
+                    "before": [],
+                    "code": 4,
+                    "after": []
+                  },
+                  {
+                    "topic": "97. Khác, ghi rõ:...",
+                    "before": [],
+                    "code": 97,
+                    "after": []
+                  }
+                ]
+              },
               "form": {}
             },
             {
@@ -3999,7 +4046,7 @@
               "questions": [
                 {
                   "id": "HD2",
-                  "type": "TIME",
+                  "type": "EMPTY",
                   "text": "PVV NÓI: “BÂY GIỜ TÔI SẼ HỎI BẠN MỘT SỐ CÂU HỎI VỀ SẢN PHẨM HẠT CHO MÈO”",
                   "note": "",
                   "media": "",
@@ -4165,7 +4212,7 @@
                   },
                   "logic": {
                     "on_enter": "",
-                    "on_next": "if(GetAnswerCount(H1a)==1){SetAnswer(H1b,Answer(H1a))};\nFilterAnswerByAnswer(H1b,H1a)",
+                    "on_next": "ClearAnswer(H1b);\nif(GetAnswerCount(H1a)==1){SetAnswer(H1b,Answer(H1a))};\nFilterAnswerByAnswer(H1b,H1a)",
                     "rules": []
                   },
                   "conjoint": {},
@@ -4384,7 +4431,15 @@
                       "is_header": false
                     },
                     {
-                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "text": "6. Chưa có các dòng sản phẩm hỗ trợ chuyên biệt (đường tiết niệu/sỏi thận/búi lông/…)",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: …",
                       "code": "97",
                       "media": "",
                       "is_other": true,
@@ -4393,10 +4448,10 @@
                     },
                     {
                       "text": "98.",
-                      "code": "6",
+                      "code": "98",
                       "media": "",
                       "is_other": false,
-                      "is_exclusive": false,
+                      "is_exclusive": true,
                       "is_header": false
                     }
                   ],
@@ -4504,7 +4559,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "10. Size hạt có nhiều kích cỡ khác nhau",
+                      "text": "10. Hình dáng/size hạt phù hợp sở thích mèo",
                       "code": "10",
                       "media": "",
                       "is_other": false,
@@ -4536,8 +4591,16 @@
                       "is_header": false
                     },
                     {
-                      "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
+                      "text": "14. Bao bì kín/ có khóa kéo/chia làm nhiều túi nhỏ bên trong túi lớn/… để giúp bảo quản hạt sau khi mở túi",
                       "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Có nguồn gốc xuất xứ từ quốc gia nổi tiếng/đang tin cậy về thức ăn cho thú cưng",
+                      "code": "15",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -4559,7 +4622,7 @@
                   },
                   "logic": {
                     "on_enter": "",
-                    "on_next": "",
+                    "on_next": "ClearAnswer(H5b)",
                     "rules": []
                   },
                   "conjoint": {},
@@ -4648,7 +4711,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "10. Size hạt có nhiều kích cỡ khác nhau",
+                      "text": "10. Hình dáng/size hạt phù hợp sở thích mèo",
                       "code": "10",
                       "media": "",
                       "is_other": false,
@@ -4680,8 +4743,16 @@
                       "is_header": false
                     },
                     {
-                      "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
+                      "text": "14. Bao bì kín/ có khóa kéo/chia làm nhiều túi nhỏ bên trong túi lớn/… để giúp bảo quản hạt sau khi mở túi",
                       "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Có nguồn gốc xuất xứ từ quốc gia nổi tiếng/đang tin cậy về thức ăn cho thú cưng",
+                      "code": "15",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -4744,7 +4815,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "4. Mua Online",
+                      "text": "4. Mua Online trên Zalo/ Mạng xã hội",
                       "code": "4",
                       "media": "",
                       "is_other": false,
@@ -4752,7 +4823,23 @@
                       "is_header": false
                     },
                     {
-                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "text": "5. Mua qua shop chính hãng của nhãn hàng trên sàn thương mại điện tử",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Mua qua Pet shop trên sàn thương mại điện tử",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: …",
                       "code": "97",
                       "media": "",
                       "is_other": true,
@@ -5343,6 +5430,73 @@
                     {
                       "text": "3 lần/ ngày hoặc nhiều hơn",
                       "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H10",
+                  "type": "SINGLE",
+                  "text": "Giả sử có nhãn hiệu thức ăn cho mèo có nguồn gốc xuất xứ từ Trung Quốc thì ý định mua của bạn đối với nhãn hiệu đó như thế nào?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Chắc chắn sẽ không mua",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Có thể sẽ không mua",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Có thể mua cũng có thể không",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Có thể sẽ mua",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Chắc chắn sẽ mua",
+                      "code": "5",
                       "media": "",
                       "is_other": false,
                       "is_header": false
