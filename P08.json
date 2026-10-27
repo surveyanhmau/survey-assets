@@ -3819,9 +3819,9 @@
               "conjoint": {},
               "number_grid": {
                 "headers": {
-                  "topic": "Topic",
+                  "topic": "",
                   "before": [],
-                  "code": "Code",
+                  "code": "",
                   "after": []
                 },
                 "rows": [
