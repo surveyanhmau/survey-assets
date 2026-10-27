@@ -2432,7 +2432,7 @@
             {
               "id": "Q10",
               "type": "MULTI",
-              "text": "Bạn biết đến nhãn hiệu Pawtiful qua đâu?\n<img P1-2.png>",
+              "text": "Bạn biết đến nhãn hiệu Pawtiful qua đâu?\n<img Q2-2.png>",
               "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
               "media": "",
               "record": false,
@@ -2560,7 +2560,7 @@
             {
               "id": "Q11",
               "type": "SINGLE",
-              "text": "Bạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?\n<img P1-2.png>",
+              "text": "Bạn đã từng mua nhãn hiệu Pawtiful bao nhiêu lần rồi?\n<img Q2-2.png>",
               "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
               "media": "",
               "record": false,
@@ -2620,7 +2620,7 @@
             {
               "id": "Q12",
               "type": "OPEN",
-              "text": "Vì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.\n<img P1-2.png>",
+              "text": "Vì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?\nProbe cho hết ý.\n<img Q2-2.png>",
               "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
               "media": "",
               "record": false,
@@ -2652,7 +2652,7 @@
             {
               "id": "Q13",
               "type": "OPEN",
-              "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì?\nProbe cho hết ý.\n<img P1-2.png>\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
+              "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì?\nProbe cho hết ý.\n<img Q2-2.png>\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
               "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
               "media": "",
               "record": false,
@@ -2684,7 +2684,7 @@
             {
               "id": "Q14",
               "type": "MULTI",
-              "text": "Theo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?\n<img P1-2.png>",
+              "text": "Theo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?\n<img Q2-2.png>",
               "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
               "media": "",
               "record": false,
