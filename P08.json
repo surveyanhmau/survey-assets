@@ -1333,7 +1333,7 @@
               "id": "Q2",
               "type": "MULTI",
               "text": "Bạn có biết/nghe nói đến nhãn hiệu thức ăn cho mèo này không?\nPVV lần lượt hỏi từng nhãn hiệu cho đến hết.\nPROBE 1 LẦN: Ngoài những nhãn hiệu kể trên, thì bạn còn biết những nhãn hiệu thức ăn cho mèo nào khác nữa?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC TÊN NHÃN HIỆU & CODE)",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1517,7 +1517,7 @@
               "id": "Q3",
               "type": "MULTI",
               "text": "Trong các nhãn hiệu thức ăn cho mèo sau đây, nhãn hiệu nào Bạn đã từng mua cho mèo nhà Bạn ăn?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1701,7 +1701,7 @@
               "id": "Q4",
               "type": "MULTI",
               "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tháng qua?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1851,7 +1851,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
+                  "text": "97. Khác, ghi rõ: ...",
                   "code": "97",
                   "media": "",
                   "is_other": false,
@@ -1885,7 +1885,7 @@
               "id": "Q5",
               "type": "MULTI",
               "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tuần qua?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2069,7 +2069,7 @@
               "id": "Q6",
               "type": "SINGLE",
               "text": "Nhãn hiệu nào Bạn mua cho mèo nhà Bạn ăn thường xuyên nhất?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
+              "note": "",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2234,7 +2234,7 @@
               "id": "Q8",
               "type": "MULTI",
               "text": "Bạn có cân nhắc mua nhãn hiệu nào sau đây trong tương lai?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI",
+              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2932,7 +2932,7 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "P1-1.png",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2940,7 +2940,7 @@
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "P1-2.png",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2948,7 +2948,7 @@
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "P1-3.png",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2956,7 +2956,7 @@
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "P1-4.png",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2964,7 +2964,7 @@
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "P1-5.png",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -2972,72 +2972,80 @@
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "P1-6.png",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 },
                 {
-                  "text": "7. Silver Spoon",
+                  "text": "7. Reflex",
                   "code": "7",
-                  "media": "P1-7.png",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 },
                 {
-                  "text": "8. Bite Of Wild",
-                  "code": "8",
-                  "media": "P1-8.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Snappy Tom",
-                  "code": "9",
-                  "media": "P1-9.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. PetQ",
-                  "code": "10",
-                  "media": "P1-10.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. King's Pet",
-                  "code": "11",
-                  "media": "P1-11.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Mr.Vet",
+                  "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "P1-12.png",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 },
                 {
-                  "text": "13. Wanpy",
+                  "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "P1-13.png",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 },
                 {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
+                  "text": "14. Snappy Tom",
+                  "code": "14",
+                  "media": "Q2-14.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. PetQ",
+                  "code": "15",
+                  "media": "Q2-15.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. King's Pet",
+                  "code": "16",
+                  "media": "Q2-16.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Mr.Vet",
+                  "code": "17",
+                  "media": "Q2-17.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Wanpy",
+                  "code": "18",
+                  "media": "Q2-18.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác, ghi rõ: …",
                   "code": "97",
                   "media": "",
-                  "is_other": true,
+                  "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -3056,7 +3064,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "FilterAnswerByAnswer(P1a,Q4)",
                 "on_next": "if(GetAnswerCount(P1a)==1){SetAnswer(P1b,Answer(P1a))};\nFilterAnswerByAnswer(P1b,P1a)",
                 "rules": []
               },
@@ -3076,96 +3084,103 @@
                 {
                   "text": "1. Royal Canin",
                   "code": "1",
-                  "media": "P1-1.png",
+                  "media": "Q2-1.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "2. Pawtiful",
                   "code": "2",
-                  "media": "P1-2.png",
+                  "media": "Q2-2.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "3. Me-O",
                   "code": "3",
-                  "media": "P1-3.png",
+                  "media": "Q2-3.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "4. Whiskas",
                   "code": "4",
-                  "media": "P1-4.png",
+                  "media": "Q2-4.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "5. Nekko",
                   "code": "5",
-                  "media": "P1-5.png",
+                  "media": "Q2-5.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
                   "text": "6. CIAO",
                   "code": "6",
-                  "media": "P1-6.png",
+                  "media": "Q2-6.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "7. Silver Spoon",
+                  "text": "7. Reflex",
                   "code": "7",
-                  "media": "P1-7.png",
+                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "8. Bite Of Wild",
-                  "code": "8",
-                  "media": "P1-8.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Snappy Tom",
-                  "code": "9",
-                  "media": "P1-9.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. PetQ",
-                  "code": "10",
-                  "media": "P1-10.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. King's Pet",
-                  "code": "11",
-                  "media": "P1-11.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Mr.Vet",
+                  "text": "12. Silver Spoon",
                   "code": "12",
-                  "media": "P1-12.png",
+                  "media": "Q2-12.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "13. Wanpy",
+                  "text": "13. Bite Of Wild",
                   "code": "13",
-                  "media": "P1-13.png",
+                  "media": "Q2-13.png",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
+                  "text": "14. Snappy Tom",
+                  "code": "14",
+                  "media": "Q2-14.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. PetQ",
+                  "code": "15",
+                  "media": "Q2-15.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. King's Pet",
+                  "code": "16",
+                  "media": "Q2-16.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Mr.Vet",
+                  "code": "17",
+                  "media": "Q2-17.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Wanpy",
+                  "code": "18",
+                  "media": "Q2-18.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác, ghi rõ: …",
                   "code": "97",
                   "media": "",
                   "is_other": false,
@@ -3229,7 +3244,7 @@
             {
               "id": "P3",
               "type": "MULTI",
-              "text": "Có những điều gì sau đây bạn mong muốn ở sản phẩm pate cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
+              "text": "Có những vấn đề gì bạn lo ngại ở sản phẩm pate cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa giải quyết được?",
               "note": "SHOW TABLET",
               "media": "",
               "record": false,
@@ -3281,6 +3296,14 @@
                   "media": "",
                   "is_other": true,
                   "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "98.",
+                  "code": "98",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
                   "is_header": false
                 }
               ],
@@ -3958,1577 +3981,1633 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
-            },
-            {
-              "id": "HD2",
-              "type": "EMPTY",
-              "text": "PVV NÓI: “BÂY GIỜ TÔI SẼ HỎI BẠN MỘT SỐ CÂU HỎI VỀ SẢN PHẨM HẠT CHO MÈO”",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H1a",
-              "type": "MULTI",
-              "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu hạt cho mèo nào cho mèo nhà Bạn ăn?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Royal Canin",
-                  "code": "1",
-                  "media": "H1-1.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Me-O",
-                  "code": "2",
-                  "media": "H1-2.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Whiskas",
-                  "code": "3",
-                  "media": "H1-3.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Reflex",
-                  "code": "4",
-                  "media": "H1-4.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Catsrang",
-                  "code": "5",
-                  "media": "H1-5.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. PetQ",
-                  "code": "6",
-                  "media": "H1-6.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Silver Spoon",
-                  "code": "7",
-                  "media": "H1-7.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. S2 Pet",
-                  "code": "8",
-                  "media": "H1-8.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Bite Of Wild",
-                  "code": "9",
-                  "media": "H1-9.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Minino",
-                  "code": "10",
-                  "media": "H1-10.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. ANF",
-                  "code": "11",
-                  "media": "H1-11.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Mr.Vet",
-                  "code": "12",
-                  "media": "H1-12.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "if(GetAnswerCount(H1a)==1){SetAnswer(H1b,Answer(H1a))};\nFilterAnswerByAnswer(H1b,H1a)",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H1b",
-              "type": "SINGLE",
-              "text": "Trong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Royal Canin",
-                  "code": "1",
-                  "media": "H1-1.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Me-O",
-                  "code": "2",
-                  "media": "H1-2.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Whiskas",
-                  "code": "3",
-                  "media": "H1-3.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Reflex",
-                  "code": "4",
-                  "media": "H1-4.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Catsrang",
-                  "code": "5",
-                  "media": "H1-5.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. PetQ",
-                  "code": "6",
-                  "media": "H1-6.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Silver Spoon",
-                  "code": "7",
-                  "media": "H1-7.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. S2 Pet",
-                  "code": "8",
-                  "media": "H1-8.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Bite Of Wild",
-                  "code": "9",
-                  "media": "H1-9.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Minino",
-                  "code": "10",
-                  "media": "H1-10.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. ANF",
-                  "code": "11",
-                  "media": "H1-11.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Mr.Vet",
-                  "code": "12",
-                  "media": "H1-12.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(GetAnswerCount(H1a)==1){QuestionHide()}\n",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H2",
-              "type": "OPEN",
-              "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\nProbe cho hết ý.",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b)])",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H3",
-              "type": "MULTI",
-              "text": "Có những điều gì sau đây bạn mong muốn ở sản phẩm hạt cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa đáp ứng được?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Nhiều tinh bột/ chất độn",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Nhiều muối",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Ăn khó tiêu",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Nhiều chất bảo quản",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Để lâu dễ bị mốc (do mèo ăn ít)",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H5a",
-              "type": "MULTI",
-              "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua hạt cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua hạt cho mèo ?\n\nProbe lần 1: Còn yếu tố nào nữa?\n",
-              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Nhãn hiệu phổ biến",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Dễ tìm mua",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Giá cả hợp lý",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Có chương trình khuyến mãi",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Có nhiều dòng phù hợp với từng giai đoạn tuổi mèo (mèo con/ mèo trưởng thành/ mèo già)",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. Có các dòng sản phẩm chuyên biệt, trị bệnh",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Có túi nhỏ dùng thử",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. Sản phẩm không độn nhiều tinh bột/ phụ gia/ các chất độn",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Sản phẩm không có muối/ ít muối",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Size hạt có nhiều kích cỡ khác nhau",
-                  "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. Sản phẩm có tỉ lệ đạm/ protein cao",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Công thức  Sản phẩm được tính toán đủ chất/ hoàn chỉnh",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "13. Sản phẩm được bổ sung thêm khoáng chất/ vitamin",
-                  "code": "13",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
-                  "code": "14",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": true,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H5b",
-              "type": "MULTI",
-              "text": "Trong đó, 3 yếu tố nào quan trọng nhất?",
-              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Nhãn hiệu phổ biến",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Dễ tìm mua",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Giá cả hợp lý",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Có chương trình khuyến mãi",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Có nhiều dòng phù hợp với từng giai đoạn tuổi mèo (mèo con/ mèo trưởng thành/ mèo già)",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. Có các dòng sản phẩm chuyên biệt, trị bệnh",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Có túi nhỏ dùng thử",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. Sản phẩm không độn nhiều tinh bột/ phụ gia/ các chất độn",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Sản phẩm không có muối/ ít muối",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Size hạt có nhiều kích cỡ khác nhau",
-                  "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. Sản phẩm có tỉ lệ đạm/ protein cao",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Công thức  Sản phẩm được tính toán đủ chất/ hoàn chỉnh",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "13. Sản phẩm được bổ sung thêm khoáng chất/ vitamin",
-                  "code": "13",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
-                  "code": "14",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "3",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": true,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "FilterAnswerByAnswer(H5b,H5a)",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H6",
-              "type": "MULTI",
-              "text": "Bạn thường mua Hạt cho mèo ở đâu?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Cửa hàng chuyên bán sản phẩm cho thú cưng",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Cửa hàng tiện lợi",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Siêu thị",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Mua Online",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H7a",
-              "type": "MULTI",
-              "text": "Bạn thường mua Hạt cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Gói 300g",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Gói 350g",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Gói 400g",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Gói 500g",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Gói 800g",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. Gói 1 Kg",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Gói 1.1 Kg",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. Gói 1.2 Kg",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Gói 1.5 Kg",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Gói 2 Kg",
-                  "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. Gói 2.5 Kg",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Gói 3 Kg",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "13. Gói 4 Kg",
-                  "code": "13",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "14. Gói 5 Kg",
-                  "code": "14",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b)])",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H7b",
-              "type": "OPEN_GRID",
-              "text": "Trung bình mỗi lần mua, bạn thường mua bao nhiêu?",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [
-                {
-                  "text": "1. Gói 300g",
-                  "code": "1"
-                },
-                {
-                  "text": "2. Gói 350g",
-                  "code": "2"
-                },
-                {
-                  "text": "3. Gói 400g",
-                  "code": "3"
-                },
-                {
-                  "text": "4. Gói 500g",
-                  "code": "4"
-                },
-                {
-                  "text": "5. Gói 800g",
-                  "code": "5"
-                },
-                {
-                  "text": "6. Gói 1 Kg",
-                  "code": "6"
-                },
-                {
-                  "text": "7. Gói 1.1 Kg",
-                  "code": "7"
-                },
-                {
-                  "text": "8. Gói 1.2 Kg",
-                  "code": "8"
-                },
-                {
-                  "text": "9. Gói 1.5 Kg",
-                  "code": "9"
-                },
-                {
-                  "text": "10. Gói 2 Kg",
-                  "code": "10"
-                },
-                {
-                  "text": "11. Gói 2.5 Kg",
-                  "code": "11"
-                },
-                {
-                  "text": "12. Gói 3 Kg",
-                  "code": "12"
-                },
-                {
-                  "text": "13. Gói 4 Kg",
-                  "code": "13"
-                },
-                {
-                  "text": "14. Gói 5 Kg",
-                  "code": "14"
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97"
-                }
-              ],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "topic_random": false
-              },
-              "logic": {
-                "on_enter": "FilterTopicByAnswer(H7b,H7a)",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H7c",
-              "type": "NUMBER_GRID",
-              "text": "Giá tiền từng đơn vị là bao nhiêu? (ĐƠN VỊ TÍNH LÀ ĐỒNG)",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [
-                {
-                  "text": "1. Gói/túi",
-                  "code": "1"
-                },
-                {
-                  "text": "2. Lon",
-                  "code": "2"
-                },
-                {
-                  "text": "3. Khay",
-                  "code": "3"
-                },
-                {
-                  "text": "4. Hộp",
-                  "code": "4"
-                },
-                {
-                  "text": "97. Khác, ghi rõ: ……………………………………………",
-                  "code": "97"
-                }
-              ],
-              "min": "1",
-              "max": "999999999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "FilterTopicByAnswer(P7c,P7a)",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {
-                "headers": {
-                  "topic": "",
-                  "before": [],
-                  "code": "",
-                  "after": [
-                    ""
-                  ]
-                },
-                "rows": [
-                  {
-                    "topic": "1. Gói 300g",
-                    "before": [],
-                    "code": 1,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "2. Gói 350g",
-                    "before": [],
-                    "code": 2,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "3. Gói 400g",
-                    "before": [],
-                    "code": 3,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "4. Gói 500g",
-                    "before": [],
-                    "code": 4,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "5. Gói 800g",
-                    "before": [],
-                    "code": 5,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "6. Gói 1 Kg",
-                    "before": [],
-                    "code": 6,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "7. Gói 1.1 Kg",
-                    "before": [],
-                    "code": 7,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "8. Gói 1.2 Kg",
-                    "before": [],
-                    "code": 8,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "9. Gói 1.5 Kg",
-                    "before": [],
-                    "code": 9,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "10. Gói 2 Kg",
-                    "before": [],
-                    "code": 10,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "11. Gói 2.5 Kg",
-                    "before": [],
-                    "code": 11,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "12. Gói 3 Kg",
-                    "before": [],
-                    "code": 12,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "13. Gói 4 Kg",
-                    "before": [],
-                    "code": 13,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "14. Gói 5 Kg",
-                    "before": [],
-                    "code": 14,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "97. Khác, ghi rõ: ……………………………………………",
-                    "before": [],
-                    "code": 97,
-                    "after": [
-                      "Đồng"
-                    ]
-                  }
-                ]
-              },
-              "form": {}
-            },
-            {
-              "id": "H8",
-              "type": "SINGLE",
-              "text": "Mức độ thường xuyên Bạn đi mua Hạt cho mèo như thế nào?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1 lần/tuần thường xuyên hơn",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3 lần/tháng",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2 lần/tháng",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "1 lần/tháng",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Ít thường xuyên hơn 1 lần/tháng",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "H9",
-              "type": "SINGLE",
-              "text": "Mức độ thường xuyên Bạn cho mèo nhà bạn ăn hạt như thế nào ?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1 lần/tuần hoặc ít thường xuyên hơn",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2 lần/tuần",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3 lần/tuần",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4 lần/tuần",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5 lần/tuần",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6 lần/tuần",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "1 lần/ ngày",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2 lần/ ngày",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3 lần/ ngày hoặc nhiều hơn",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "D1",
-              "type": "SINGLE",
-              "text": "Xin cho biết trình độ học vấn cao nhất của bạn?",
-              "note": "SHOW TABLET ",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 1",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 2",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 3",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Không đi học",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "D2",
-              "type": "SINGLE",
-              "text": "Vui lòng cho biết nghề nghiệp của chị là gì?",
-              "note": "SHOW TABLET - PVV SHOW TABLET CHO ĐV CHỌN SAU ĐÓ RECONFIRM LẠI CODE ĐÁP VIÊN TRẢ LỜI",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Chủ công ty/doanh nghiệp (Làm chủ, người sáng lập công ty, doanh nghiệp)",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Chủ cửa hàng/chủ cơ sở kinh doanh nhỏ lẻ (có đăng ký kinh doanh, có nhân viên)",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Nghề chuyên môn (bác sĩ, giáo viên, kỹ sư, IT…)",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Cấp bậc quản lý (nhân viên văn phòng/nhân viên nhà nước )",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Cấp bậc nhân viên (nhân viên văn phòng/ nhà nước/ khách sạn/ lễ tân/ bán hàng, điện lực/ thu ngân/ bất động sản…)",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. Công nhân ( làm nhà máy, xí nghiệp, xưởng…)",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Buôn bán nhỏ lẻ ( tự buôn bán/ tự quản lý, không đăng ký)",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. Lao động tự do (thợ chụp hình/ xe ôm/ grap/ tài xế/ khuân vác/ thợ làm móng/ thợ cắt tóc/ thợ may/ giữ trẻ….)",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Thất nghiệp",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Nội trợ",
-                  "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. Sinh viên / học sinh",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Nghỉ hưu",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "13. Chăn nuôi/ làm nông",
-                  "code": "13",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "14. Bộ đội/ Dân phòng",
-                  "code": "14",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "15. Bảo vệ",
-                  "code": "15",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "97. Khác, ghi rõ:_______________",
-                  "code": "97",
-                  "media": "",
-                  "is_other": true,
-                  "is_header": false
-                },
-                {
-                  "text": "96.",
-                  "code": "96",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
             }
           ],
-          "children": []
+          "children": [
+            {
+              "id": "P4",
+              "name": "P4",
+              "record": false,
+              "hide_back": false,
+              "random_question": false,
+              "on_enter": "if(!Contains(Q1,[1])){ChapterHide()}",
+              "loop": {
+                "enabled_loop": false,
+                "loop_random": false,
+                "iterations": []
+              },
+              "questions": [
+                {
+                  "id": "HD2",
+                  "type": "TIME",
+                  "text": "PVV NÓI: “BÂY GIỜ TÔI SẼ HỎI BẠN MỘT SỐ CÂU HỎI VỀ SẢN PHẨM HẠT CHO MÈO”",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H1a",
+                  "type": "MULTI",
+                  "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu hạt cho mèo nào cho mèo nhà Bạn ăn?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Royal Canin",
+                      "code": "1",
+                      "media": "Q2-1.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Me-O",
+                      "code": "3",
+                      "media": "Q2-3.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Whiskas",
+                      "code": "4",
+                      "media": "Q2-4.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. CIAO",
+                      "code": "6",
+                      "media": "Q2-6.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Reflex",
+                      "code": "7",
+                      "media": "Q2-7.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. ANF",
+                      "code": "8",
+                      "media": "Q2-8.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Minino",
+                      "code": "9",
+                      "media": "Q2-9.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. S2 Pet",
+                      "code": "10",
+                      "media": "Q2-10.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Catsrang",
+                      "code": "11",
+                      "media": "Q2-11.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Silver Spoon",
+                      "code": "12",
+                      "media": "Q2-12.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Bite Of Wild",
+                      "code": "13",
+                      "media": "Q2-13.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. PetQ",
+                      "code": "15",
+                      "media": "Q2-15.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Mr.Vet",
+                      "code": "17",
+                      "media": "Q2-17.png",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: …",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "if(GetAnswerCount(H1a)==1){SetAnswer(H1b,Answer(H1a))};\nFilterAnswerByAnswer(H1b,H1a)",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H1b",
+                  "type": "SINGLE",
+                  "text": "Trong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Royal Canin",
+                      "code": "1",
+                      "media": "Q2-1.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Me-O",
+                      "code": "3",
+                      "media": "Q2-3.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Whiskas",
+                      "code": "4",
+                      "media": "Q2-4.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. CIAO",
+                      "code": "6",
+                      "media": "Q2-6.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Reflex",
+                      "code": "7",
+                      "media": "Q2-7.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. ANF",
+                      "code": "8",
+                      "media": "Q2-8.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Minino",
+                      "code": "9",
+                      "media": "Q2-9.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. S2 Pet",
+                      "code": "10",
+                      "media": "Q2-10.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Catsrang",
+                      "code": "11",
+                      "media": "Q2-11.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Silver Spoon",
+                      "code": "12",
+                      "media": "Q2-12.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Bite Of Wild",
+                      "code": "13",
+                      "media": "Q2-13.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. PetQ",
+                      "code": "15",
+                      "media": "Q2-15.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Mr.Vet",
+                      "code": "17",
+                      "media": "Q2-17.png",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: …",
+                      "code": "97",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "if(GetAnswerCount(H1a)==1){QuestionHide()}\n",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H2",
+                  "type": "OPEN",
+                  "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\nProbe cho hết ý.",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H3",
+                  "type": "MULTI",
+                  "text": "Có những vấn đề gì bạn lo ngại ở sản phẩm hạt cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa giải quyết được?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Nhiều tinh bột/ chất độn",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Nhiều muối",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Ăn khó tiêu",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Nhiều chất bảo quản",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Để lâu dễ bị mốc (do mèo ăn ít)",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "98.",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H5a",
+                  "type": "MULTI",
+                  "text": "Ở đây có một số yếu tố người tiêu dùng cân nhắc khi mua hạt cho mèo.\nBạn vui lòng đọc hết tất cả các yếu tố này và chọn tất cả các yếu tố mà Bạn cho rằng là quan trọng với chị khi mua hạt cho mèo ?\n\nProbe lần 1: Còn yếu tố nào nữa?\n",
+                  "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Nhãn hiệu phổ biến",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Dễ tìm mua",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Giá cả hợp lý",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Có chương trình khuyến mãi",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Có nhiều dòng phù hợp với từng giai đoạn tuổi mèo (mèo con/ mèo trưởng thành/ mèo già)",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Có các dòng sản phẩm chuyên biệt, trị bệnh",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Có túi nhỏ dùng thử",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Sản phẩm không độn nhiều tinh bột/ phụ gia/ các chất độn",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Sản phẩm không có muối/ ít muối",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Size hạt có nhiều kích cỡ khác nhau",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Sản phẩm có tỉ lệ đạm/ protein cao",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Công thức  Sản phẩm được tính toán đủ chất/ hoàn chỉnh",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Sản phẩm được bổ sung thêm khoáng chất/ vitamin",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": true,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H5b",
+                  "type": "MULTI",
+                  "text": "Trong đó, 3 yếu tố nào quan trọng nhất?",
+                  "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Nhãn hiệu phổ biến",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Dễ tìm mua",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Giá cả hợp lý",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Có chương trình khuyến mãi",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Có nhiều dòng phù hợp với từng giai đoạn tuổi mèo (mèo con/ mèo trưởng thành/ mèo già)",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Có các dòng sản phẩm chuyên biệt, trị bệnh",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Có túi nhỏ dùng thử",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Sản phẩm không độn nhiều tinh bột/ phụ gia/ các chất độn",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Sản phẩm không có muối/ ít muối",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Size hạt có nhiều kích cỡ khác nhau",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Sản phẩm có tỉ lệ đạm/ protein cao",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Công thức  Sản phẩm được tính toán đủ chất/ hoàn chỉnh",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Sản phẩm được bổ sung thêm khoáng chất/ vitamin",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Bao bì kín/ có khóa kéo để giúp bảo quản hạt sau khi mở túi",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "3",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": true,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "FilterAnswerByAnswer(H5b,H5a)",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H6",
+                  "type": "MULTI",
+                  "text": "Bạn thường mua Hạt cho mèo ở đâu?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Cửa hàng chuyên bán sản phẩm cho thú cưng",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Cửa hàng tiện lợi",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Siêu thị",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Mua Online",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H7a",
+                  "type": "MULTI",
+                  "text": "Bạn thường mua Hạt cho mèo nhãn hiệu {0} ở dạng bao bì nào?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Gói 300g",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Gói 350g",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Gói 400g",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Gói 500g",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Gói 800g",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Gói 1 Kg",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Gói 1.1 Kg",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Gói 1.2 Kg",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Gói 1.5 Kg",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Gói 2 Kg",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Gói 2.5 Kg",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Gói 3 Kg",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Gói 4 Kg",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Gói 5 Kg",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b)])",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H7b",
+                  "type": "OPEN_GRID",
+                  "text": "Trung bình mỗi lần mua, bạn thường mua bao nhiêu?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [
+                    {
+                      "text": "1. Gói 300g",
+                      "code": "1"
+                    },
+                    {
+                      "text": "2. Gói 350g",
+                      "code": "2"
+                    },
+                    {
+                      "text": "3. Gói 400g",
+                      "code": "3"
+                    },
+                    {
+                      "text": "4. Gói 500g",
+                      "code": "4"
+                    },
+                    {
+                      "text": "5. Gói 800g",
+                      "code": "5"
+                    },
+                    {
+                      "text": "6. Gói 1 Kg",
+                      "code": "6"
+                    },
+                    {
+                      "text": "7. Gói 1.1 Kg",
+                      "code": "7"
+                    },
+                    {
+                      "text": "8. Gói 1.2 Kg",
+                      "code": "8"
+                    },
+                    {
+                      "text": "9. Gói 1.5 Kg",
+                      "code": "9"
+                    },
+                    {
+                      "text": "10. Gói 2 Kg",
+                      "code": "10"
+                    },
+                    {
+                      "text": "11. Gói 2.5 Kg",
+                      "code": "11"
+                    },
+                    {
+                      "text": "12. Gói 3 Kg",
+                      "code": "12"
+                    },
+                    {
+                      "text": "13. Gói 4 Kg",
+                      "code": "13"
+                    },
+                    {
+                      "text": "14. Gói 5 Kg",
+                      "code": "14"
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "code": "97"
+                    }
+                  ],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false
+                  },
+                  "logic": {
+                    "on_enter": "FilterTopicByAnswer(H7b,H7a)",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H7c",
+                  "type": "NUMBER_GRID",
+                  "text": "Giá tiền từng đơn vị là bao nhiêu? (ĐƠN VỊ TÍNH LÀ ĐỒNG)",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [
+                    {
+                      "text": "1. Gói/túi",
+                      "code": "1"
+                    },
+                    {
+                      "text": "2. Lon",
+                      "code": "2"
+                    },
+                    {
+                      "text": "3. Khay",
+                      "code": "3"
+                    },
+                    {
+                      "text": "4. Hộp",
+                      "code": "4"
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ: ……………………………………………",
+                      "code": "97"
+                    }
+                  ],
+                  "min": "1",
+                  "max": "999999999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "FilterTopicByAnswer(P7c,P7a)",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "1. Gói 300g",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "2. Gói 350g",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "3. Gói 400g",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "4. Gói 500g",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "5. Gói 800g",
+                        "before": [],
+                        "code": 5,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "6. Gói 1 Kg",
+                        "before": [],
+                        "code": 6,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "7. Gói 1.1 Kg",
+                        "before": [],
+                        "code": 7,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "8. Gói 1.2 Kg",
+                        "before": [],
+                        "code": 8,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "9. Gói 1.5 Kg",
+                        "before": [],
+                        "code": 9,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "10. Gói 2 Kg",
+                        "before": [],
+                        "code": 10,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "11. Gói 2.5 Kg",
+                        "before": [],
+                        "code": 11,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "12. Gói 3 Kg",
+                        "before": [],
+                        "code": 12,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "13. Gói 4 Kg",
+                        "before": [],
+                        "code": 13,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "14. Gói 5 Kg",
+                        "before": [],
+                        "code": 14,
+                        "after": [
+                          "Đồng"
+                        ]
+                      },
+                      {
+                        "topic": "97. Khác, ghi rõ: ……………………………………………",
+                        "before": [],
+                        "code": 97,
+                        "after": [
+                          "Đồng"
+                        ]
+                      }
+                    ]
+                  },
+                  "form": {}
+                },
+                {
+                  "id": "H8",
+                  "type": "SINGLE",
+                  "text": "Mức độ thường xuyên Bạn đi mua Hạt cho mèo như thế nào?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1 lần/tuần thường xuyên hơn",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3 lần/tháng",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2 lần/tháng",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "1 lần/tháng",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Ít thường xuyên hơn 1 lần/tháng",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "H9",
+                  "type": "SINGLE",
+                  "text": "Mức độ thường xuyên Bạn cho mèo nhà bạn ăn hạt như thế nào ?",
+                  "note": "SHOW TABLET",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1 lần/tuần hoặc ít thường xuyên hơn",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2 lần/tuần",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3 lần/tuần",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4 lần/tuần",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5 lần/tuần",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6 lần/tuần",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "1 lần/ ngày",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2 lần/ ngày",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3 lần/ ngày hoặc nhiều hơn",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "P7",
+              "name": "P7",
+              "record": false,
+              "hide_back": false,
+              "random_question": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": false,
+                "loop_random": false,
+                "iterations": []
+              },
+              "questions": [
+                {
+                  "id": "D1",
+                  "type": "SINGLE",
+                  "text": "Xin cho biết trình độ học vấn cao nhất của bạn?",
+                  "note": "SHOW TABLET ",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "Đang học/ tốt nghiệp chương trình cấp 1",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Đang học/ tốt nghiệp chương trình cấp 2",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Đang học/ tốt nghiệp chương trình cấp 3",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Đang học/ tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Không đi học",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "D2",
+                  "type": "SINGLE",
+                  "text": "Vui lòng cho biết nghề nghiệp của chị là gì?",
+                  "note": "SHOW TABLET - PVV SHOW TABLET CHO ĐV CHỌN SAU ĐÓ RECONFIRM LẠI CODE ĐÁP VIÊN TRẢ LỜI",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Chủ công ty/doanh nghiệp (Làm chủ, người sáng lập công ty, doanh nghiệp)",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Chủ cửa hàng/chủ cơ sở kinh doanh nhỏ lẻ (có đăng ký kinh doanh, có nhân viên)",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Nghề chuyên môn (bác sĩ, giáo viên, kỹ sư, IT…)",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Cấp bậc quản lý (nhân viên văn phòng/nhân viên nhà nước )",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Cấp bậc nhân viên (nhân viên văn phòng/ nhà nước/ khách sạn/ lễ tân/ bán hàng, điện lực/ thu ngân/ bất động sản…)",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Công nhân ( làm nhà máy, xí nghiệp, xưởng…)",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Buôn bán nhỏ lẻ ( tự buôn bán/ tự quản lý, không đăng ký)",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Lao động tự do (thợ chụp hình/ xe ôm/ grap/ tài xế/ khuân vác/ thợ làm móng/ thợ cắt tóc/ thợ may/ giữ trẻ….)",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Thất nghiệp",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Nội trợ",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Sinh viên / học sinh",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Nghỉ hưu",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Chăn nuôi/ làm nông",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Bộ đội/ Dân phòng",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Bảo vệ",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác, ghi rõ:_______________",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "96.",
+                      "code": "96",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                }
+              ],
+              "children": []
+            }
+          ]
         },
         {
           "id": "ChapEnd",
