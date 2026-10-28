@@ -8389,7 +8389,7 @@
               "is_header": false
             },
             {
-              "text": "neat & well-organized",
+              "text": "Neat & well-organized",
               "code": "7",
               "media": "",
               "is_other": false,
@@ -8491,6 +8491,22 @@
               "is_other": false,
               "is_exclusive": false,
               "is_header": false
+            },
+            {
+              "text": "Model B too bright / glaring / overwhelming",
+              "code": "20",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "Model B Dim / food at the back hard to see",
+              "code": "21",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
             }
           ],
           "topics": [],
@@ -8573,7 +8589,7 @@
               "is_header": false
             },
             {
-              "text": "neat & well-organized",
+              "text": "Neat & well-organized",
               "code": "7",
               "media": "",
               "is_other": false,
