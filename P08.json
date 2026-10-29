@@ -3151,7 +3151,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a= \"\";\nvar b=\"\";\na=Answer(P1b);\nb=\"<img Q2-\"+a+\".png\">\nSetQuestionText(CurrentQuestion(),[AnswerText(P1b),b])",
+                "on_enter": "var a= \"\";\nvar b=\"\";\na=ToString(Answer(P1b));\nb=\"<img Q2-\"+a+\".png\">\nSetQuestionText(CurrentQuestion(),[AnswerText(P1b),b])",
                 "on_next": "",
                 "rules": []
               },
