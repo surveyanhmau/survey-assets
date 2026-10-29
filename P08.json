@@ -3130,7 +3130,7 @@
             {
               "id": "P2",
               "type": "OPEN",
-              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-{1}.png>\nProbe cho hết ý.",
+              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-<no>{1}</no>.png>\nProbe cho hết ý.",
               "note": "SHOW PHOTO NHÃN HIỆU ĐƯỢC CHỌN",
               "media": "",
               "record": false,
@@ -3151,7 +3151,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var i=0;\nvar a=0;\nfor(i=0; i<20;i=i+1){\nif(Contains(P1b,i)){a=i;}\n}\nSetQuestionText(CurrentQuestion(),[AnswerText(P1b),a])",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(P1b),Answer(P1b)])",
                 "on_next": "",
                 "rules": []
               },
