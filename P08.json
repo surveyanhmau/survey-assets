@@ -3151,7 +3151,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a= \"\";\nvar b=\"\";\na=ToString(Answer(P1b));\nb=\"<img Q2-\"+a+\".png\">\nSetQuestionText(CurrentQuestion(),[AnswerText(P1b),b])",
+                "on_enter": "var i=0;\nvar a=\"\";\nfor(i=0; i<20;i=i+1){\nif(Contains(P1b,i)){a=\"<img Q2-\"+i+\".png>\";}\n}\nSetQuestionText(CurrentQuestion(),[AnswerText(P1b),a])",
                 "on_next": "",
                 "rules": []
               },
