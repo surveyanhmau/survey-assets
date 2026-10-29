@@ -3119,7 +3119,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(GetAnswerCount(P1a)==1){QuestionHide()}",
+                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
@@ -4237,7 +4237,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "if(GetAnswerCount(H1a)==1){QuestionHide()}\n",
+                    "on_enter": "\n",
                     "on_next": "",
                     "rules": []
                   },
