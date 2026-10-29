@@ -578,7 +578,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a = \"Trong các bé mèo đó, bé ăn pate dạng gói có nhãn hiệu nhiều NHẤT tên là gì?\\nPVV lưu ý: Nếu đáp viên nói các bé mèo ăn như nhau thì hỏi và nhận tên của 1 trong các bé đó.\";\nvar b = \"Bé mèo của bạn tên là gì?\";\nif(Contains(S5,[1])){SetQuestionText(S7,[b])};\nif(!Contains(S5,[1])){SetQuestionText(S7,[a])};",
+                "on_enter": "var a = \"Trong các bé mèo đó, bé ăn pate dạng gói có nhãn hiệu nhiều NHẤT tên là gì?\\nPVV lưu ý: Nếu đáp viên nói các bé mèo ăn như nhau thì hỏi và nhập tên của 1 trong các bé đó.\";\nvar b = \"Bé mèo của bạn tên là gì?\";\nif(Contains(S5,[1])){SetQuestionText(S7,[b])};\nif(!Contains(S5,[1])){SetQuestionText(S7,[a])};",
                 "on_next": "",
                 "rules": []
               },
@@ -1118,80 +1118,6 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
-            },
-            {
-              "id": "S14",
-              "type": "SINGLE",
-              "text": "Xin cho biết trình độ học vấn cao nhất của bạn/em?",
-              "note": "SHOW TABLET",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 1",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 2",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp chương trình cấp 3",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Đang học/ tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "Không đi học",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(CurrentQuestion(),[5])",
-                    "action": "Hard",
-                    "message": "NGƯNG",
-                    "goto": ""
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
             }
           ],
           "children": []
@@ -1212,8 +1138,8 @@
             {
               "id": "Q1",
               "type": "MULTI",
-              "text": "Trong 1 tháng qua Bạn có mua những sản phẩm <u>thức ăn đóng gói có nhãn hiệu cho mèo</u> nào cho mèo nhà Bạn ăn?",
-              "note": "SHOW TABLET",
+              "text": "Trong 1 tháng qua Bạn có mua những sản phẩm <u>thức ăn đóng gói có nhãn hiệu cho mèo</u> nào sau đây?",
+              "note": "SHOW TABLET - PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1339,7 +1265,7 @@
             {
               "id": "Q2",
               "type": "MULTI",
-              "text": "Bạn có biết/nghe nói đến nhãn hiệu thức ăn cho mèo này không?\nPVV lần lượt hỏi từng nhãn hiệu cho đến hết.\nPROBE 1 LẦN: Ngoài những nhãn hiệu kể trên, thì bạn còn biết những nhãn hiệu thức ăn cho mèo nào khác nữa?",
+              "text": "Bạn có biết/nghe nói đến nhãn hiệu <u>thức ăn cho mèo</u> này không?\nPVV lần lượt hỏi từng nhãn hiệu cho đến hết.\nPROBE 1 LẦN: Ngoài những nhãn hiệu kể trên, thì bạn còn biết những nhãn hiệu <u>thức ăn cho mèo</u> nào khác nữa?",
               "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
@@ -1513,7 +1439,7 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "ClearAnswer(Q3)",
+                "on_next": "ClearAnswer(Q3);\nClearAnswer(Q8);",
                 "rules": []
               },
               "conjoint": {},
@@ -1523,7 +1449,7 @@
             {
               "id": "Q3",
               "type": "MULTI",
-              "text": "Trong các nhãn hiệu thức ăn cho mèo sau đây, nhãn hiệu nào Bạn đã từng mua cho mèo nhà Bạn ăn?",
+              "text": "Trong các nhãn hiệu <u>thức ăn cho mèo</u> sau đây, nhãn hiệu nào Bạn đã từng mua cho mèo nhà Bạn ăn?",
               "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
@@ -1708,7 +1634,7 @@
               "id": "Q4",
               "type": "MULTI",
               "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tháng qua?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -1892,7 +1818,7 @@
               "id": "Q5",
               "type": "MULTI",
               "text": "Nhãn hiệu nào Bạn đã mua cho mèo nhà Bạn ăn trong 1 tuần qua?",
-              "note": "PVV CHỈ VÀO TỪNG NHÃN HIỆU ĐỂ HỎI (ĐỌC CODE)",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2076,7 +2002,7 @@
               "id": "Q6",
               "type": "SINGLE",
               "text": "Nhãn hiệu nào Bạn mua cho mèo nhà Bạn ăn thường xuyên nhất?",
-              "note": "",
+              "note": "SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2421,7 +2347,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "FilterAnswerByAnswer(Q8,Q2)",
                 "on_next": "",
                 "rules": [
                   {
@@ -2440,7 +2366,7 @@
               "id": "Q10",
               "type": "MULTI",
               "text": "Bạn biết đến nhãn hiệu Pawtiful qua đâu?\n<img Q2-2.png>",
-              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL - SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2692,7 +2618,7 @@
               "id": "Q14",
               "type": "MULTI",
               "text": "Theo bạn, nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn thông điệp gì về sản phẩm?\n<img Q2-2.png>",
-              "note": "SHOW PHOTO LOGO NHÃN HIỆU PAWTIFUL",
+              "note": "SHOW TABLET - SHOW TABLET CHO ĐV CHỌN RỒI PVV RECONFIRM CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2931,7 +2857,7 @@
               "id": "P1a",
               "type": "MULTI",
               "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu pate nào cho mèo nhà Bạn ăn?",
-              "note": "SHOW PHOTO",
+              "note": "SHOW PHOTO - PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC CODE)",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2980,14 +2906,6 @@
                   "text": "6. CIAO",
                   "code": "6",
                   "media": "Q2-6.png",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Reflex",
-                  "code": "7",
-                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -3083,7 +3001,7 @@
               "id": "P1b",
               "type": "SINGLE",
               "text": "Trong đó, nhãn hiệu nào Bạn MUA thường xuyên nhất?",
-              "note": "SHOW TABLET",
+              "note": "SHOW PHOTO",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3127,13 +3045,6 @@
                   "text": "6. CIAO",
                   "code": "6",
                   "media": "Q2-6.png",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Reflex",
-                  "code": "7",
-                  "media": "Q2-7.png",
                   "is_other": false,
                   "is_header": false
                 },
@@ -3219,8 +3130,8 @@
             {
               "id": "P2",
               "type": "OPEN",
-              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\nProbe cho hết ý.",
-              "note": "",
+              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n{1}\nProbe cho hết ý.",
+              "note": "SHOW PHOTO NHÃN HIỆU ĐƯỢC CHỌN",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3240,7 +3151,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(P1b)])",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(P1b),\"<img>Q2-\"+Answer(P1b)+\".png\"])",
                 "on_next": "",
                 "rules": []
               },
@@ -3890,8 +3801,8 @@
                   "code": "97"
                 }
               ],
-              "min": "1",
-              "max": "999999999",
+              "min": "1000",
+              "max": "999999",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
@@ -4079,7 +3990,7 @@
                   "id": "H1a",
                   "type": "MULTI",
                   "text": "Trong 1 tháng qua Bạn có MUA những nhãn hiệu hạt cho mèo nào cho mèo nhà Bạn ăn?",
-                  "note": "SHOW TABLET",
+                  "note": "SHOW TABLET - PVV CHỈ VÀO TỪNG NHÃN HIỆU VÀ HỎI (ĐỌC CODE)",
                   "media": "",
                   "record": false,
                   "readonly": false,
@@ -4104,14 +4015,6 @@
                       "text": "4. Whiskas",
                       "code": "4",
                       "media": "Q2-4.png",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "6. CIAO",
-                      "code": "6",
-                      "media": "Q2-6.png",
                       "is_other": false,
                       "is_exclusive": false,
                       "is_header": false
@@ -4250,13 +4153,6 @@
                       "is_header": false
                     },
                     {
-                      "text": "6. CIAO",
-                      "code": "6",
-                      "media": "Q2-6.png",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
                       "text": "7. Reflex",
                       "code": "7",
                       "media": "Q2-7.png",
@@ -4352,8 +4248,8 @@
                 {
                   "id": "H2",
                   "type": "OPEN",
-                  "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\nProbe cho hết ý.",
-                  "note": "",
+                  "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n{1}\nProbe cho hết ý.",
+                  "note": "SHOW PHOTO NHÃN HIỆU ĐƯỢC CHỌN",
                   "media": "",
                   "record": false,
                   "readonly": false,
@@ -4373,7 +4269,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b)])",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b),\"<img>Q2-\"+Answer(H1b)+\".png\"])",
                     "on_next": "",
                     "rules": []
                   },
@@ -5023,7 +4919,7 @@
                 },
                 {
                   "id": "H7b",
-                  "type": "OPEN_GRID",
+                  "type": "NUMBER_GRID",
                   "text": "Trung bình mỗi lần mua, bạn thường mua bao nhiêu?",
                   "note": "",
                   "media": "",
@@ -5092,8 +4988,8 @@
                       "code": "97"
                     }
                   ],
-                  "min": "",
-                  "max": "",
+                  "min": "1",
+                  "max": "999999999",
                   "unit": "",
                   "display_columns": 1,
                   "no_answer": false,
@@ -5101,7 +4997,8 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "topic_random": false
+                    "topic_random": false,
+                    "search": false
                   },
                   "logic": {
                     "on_enter": "FilterTopicByAnswer(H7b,H7a)",
@@ -5109,7 +5006,138 @@
                     "rules": []
                   },
                   "conjoint": {},
-                  "number_grid": {},
+                  "number_grid": {
+                    "headers": {
+                      "topic": "",
+                      "before": [],
+                      "code": "",
+                      "after": [
+                        ""
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "topic": "1. Gói 300g",
+                        "before": [],
+                        "code": 1,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "2. Gói 350g",
+                        "before": [],
+                        "code": 2,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "3. Gói 400g",
+                        "before": [],
+                        "code": 3,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "4. Gói 500g",
+                        "before": [],
+                        "code": 4,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "5. Gói 800g",
+                        "before": [],
+                        "code": 5,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "6. Gói 1 Kg",
+                        "before": [],
+                        "code": 6,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "7. Gói 1.1 Kg",
+                        "before": [],
+                        "code": 7,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "8. Gói 1.2 Kg",
+                        "before": [],
+                        "code": 8,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "9. Gói 1.5 Kg",
+                        "before": [],
+                        "code": 9,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "10. Gói 2 Kg",
+                        "before": [],
+                        "code": 10,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "11. Gói 2.5 Kg",
+                        "before": [],
+                        "code": 11,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "12. Gói 3 Kg",
+                        "before": [],
+                        "code": 12,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "13. Gói 4 Kg",
+                        "before": [],
+                        "code": 13,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "14. Gói 5 Kg",
+                        "before": [],
+                        "code": 14,
+                        "after": [
+                          "Gói"
+                        ]
+                      },
+                      {
+                        "topic": "97. Khác, ghi rõ: ……………………………………………",
+                        "before": [],
+                        "code": 97,
+                        "after": [
+                          "Gói"
+                        ]
+                      }
+                    ]
+                  },
                   "form": {}
                 },
                 {
@@ -5143,8 +5171,8 @@
                       "code": "97"
                     }
                   ],
-                  "min": "1",
-                  "max": "999999999",
+                  "min": "1000",
+                  "max": "999999",
                   "unit": "",
                   "display_columns": 1,
                   "no_answer": false,
@@ -5156,7 +5184,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "FilterTopicByAnswer(P7c,P7a)",
+                    "on_enter": "FilterTopicByAnswer(H7c,H7a)",
                     "on_next": "",
                     "rules": []
                   },
