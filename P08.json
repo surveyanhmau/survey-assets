@@ -3151,7 +3151,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(P1b),\"<img>Q2-\"+Answer(P1b)+\".png\"])",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(P1b),\"<img Q2-\"+Answer(P1b)+\".png>\"])",
                 "on_next": "",
                 "rules": []
               },
@@ -4269,7 +4269,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b),\"<img>Q2-\"+Answer(H1b)+\".png\"])",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(H1b),\"<img Q2-\"+Answer(H1b)+\".png>\"])\n",
                     "on_next": "",
                     "rules": []
                   },
