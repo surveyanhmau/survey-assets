@@ -2729,8 +2729,8 @@
             {
               "id": "Q15",
               "type": "SINGLE_GRID",
-              "text": "Bây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.\n<img Q15.jpg>\nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”",
-              "note": "SHOW TABLET\nPVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”",
+              "text": "Bây giờ tôi sẽ đọc lên một số nhận định về nhãn hiệu Pawtiful, Bạn hãy cho biết mức độ đồng ý hay không đồng ý của bạn về từng nhận định như thế nào. Ở đây không có câu trả lời đúng hay sai, bạn hãy trả lời dựa trên cảm nhận của bạn về nhãn hiệu này.\nPVV nói: “Đây là hình ảnh quảng cáo của nhãn hiệu thức ăn cho mèo Pawtiful, bạn hãy xem kỹ sau đó tôi sẽ hỏi bạn một số câu hỏi”\n<img Q15.jpg>\nPVV bắt đầu mỗi nhận định với: “Pawtiful là …”",
+              "note": "SHOW TABLET",
               "media": "",
               "record": false,
               "readonly": false,
