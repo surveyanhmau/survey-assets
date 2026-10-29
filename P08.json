@@ -2990,7 +2990,7 @@
               },
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(P1a,Q4)",
-                "on_next": "if(GetAnswerCount(P1a)==1){SetAnswer(P1b,Answer(P1a))};\nFilterAnswerByAnswer(P1b,P1a)",
+                "on_next": "FilterAnswerByAnswer(P1b,P1a);\nif(GetAnswerCount(P1a)==1){SetAnswer(P1b,[Answer(P1a)])};",
                 "rules": []
               },
               "conjoint": {},
@@ -3130,7 +3130,7 @@
             {
               "id": "P2",
               "type": "OPEN",
-              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-<no>{1}</no>.png>\nProbe cho hết ý.",
+              "text": "Vì sao Bạn MUA nhãn hiệu pate {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-{1}.png>\nProbe cho hết ý.",
               "note": "SHOW PHOTO NHÃN HIỆU ĐƯỢC CHỌN",
               "media": "",
               "record": false,
@@ -4115,7 +4115,7 @@
                   },
                   "logic": {
                     "on_enter": "",
-                    "on_next": "if(GetAnswerCount(H1a)==1){SetAnswer(H1b,Answer(H1a))};\nFilterAnswerByAnswer(H1b,H1a)",
+                    "on_next": "if(GetAnswerCount(H1a)==1){SetAnswer(H1b,[Answer(H1a)])};\nFilterAnswerByAnswer(H1b,H1a)",
                     "rules": []
                   },
                   "conjoint": {},
@@ -4248,7 +4248,7 @@
                 {
                   "id": "H2",
                   "type": "OPEN",
-                  "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-<no>{1}</no>.png>\nProbe cho hết ý.",
+                  "text": "Vì sao Bạn MUA nhãn hiệu hạt {0} cho mèo nhà Bạn ăn thương xuyên nhất?\n<img Q2-{1}.png>\nProbe cho hết ý.",
                   "note": "SHOW PHOTO NHÃN HIỆU ĐƯỢC CHỌN",
                   "media": "",
                   "record": false,
