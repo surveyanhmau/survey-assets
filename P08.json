@@ -5852,6 +5852,38 @@
           },
           "questions": [
             {
+              "id": "HinhPV",
+              "type": "MEDIA",
+              "text": "PVV chụp hình nơi phỏng vấn",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "1",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": true,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
               "id": "GPS-End",
               "type": "GPS",
               "text": "PVV ghi nhận GPS",
