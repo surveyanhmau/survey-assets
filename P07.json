@@ -4359,8 +4359,8 @@
                 }
               ],
               "topics": [],
-              "min": "1",
-              "max": "999",
+              "min": "3",
+              "max": "3",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
