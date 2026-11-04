@@ -1862,6 +1862,150 @@
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "99. 99. Không có nhãn hiệu nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -2040,8 +2184,152 @@
                   "is_header": false
                 },
                 {
-                  "text": "97. Khác, ghi rõ: ...",
+                  "text": "97. Khác, ghi rõ: ……………………………………………",
                   "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. 99. Không có nhãn hiệu nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -2230,6 +2518,150 @@
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "99. 99. Không có nhãn hiệu nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -2392,6 +2824,132 @@
                 {
                   "text": "97. Khác, ghi rõ: ……………………………………………",
                   "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. 99. Không có nhãn hiệu nào",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -3751,6 +4309,14 @@
                   "is_header": false
                 },
                 {
+                  "text": "7. Reflex",
+                  "code": "7",
+                  "media": "Q2-7.png",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "12. Silver Spoon",
                   "code": "12",
                   "media": "Q2-12.png",
@@ -3809,6 +4375,142 @@
                 {
                   "text": "97. Khác, ghi rõ: …",
                   "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -3889,6 +4591,13 @@
                   "is_header": false
                 },
                 {
+                  "text": "7. Reflex",
+                  "code": "7",
+                  "media": "Q2-7.png",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
                   "text": "12. Silver Spoon",
                   "code": "12",
                   "media": "Q2-12.png",
@@ -3940,6 +4649,125 @@
                 {
                   "text": "97. Khác, ghi rõ: …",
                   "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -5818,6 +6646,125 @@
                     {
                       "text": "97. Khác, ghi rõ: …",
                       "code": "97",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "20. Nhãn hiệu Keos",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "21. Nhãn hiệu Nutrience",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "22. Nhãn hiệu Purina",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "23. Nhãn hiệu Cat Eye",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "25. Nhãn hiệu Natural Core",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "26. Nhãn hiệu Gemon",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                      "code": "27",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "28. Nhãn hiệu Teb City",
+                      "code": "28",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "29. Nhãn hiệu Taste of Wild",
+                      "code": "29",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "30. Nhãn hiệu Nutri Plan",
+                      "code": "30",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "31. Nhãn hiệu Kucinta",
+                      "code": "31",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "32. Nhãn hiệu Alphapet",
+                      "code": "32",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "33. Nhãn hiệu Charm",
+                      "code": "33",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "34. Nhãn hiệu Hello Cat",
+                      "code": "34",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "35. Nhãn hiệu Catpy",
+                      "code": "35",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "36. Nhãn hiệu Indigo",
+                      "code": "36",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "37. Nhãn hiệu Cat's On",
+                      "code": "37",
                       "media": "",
                       "is_other": false,
                       "is_header": false
