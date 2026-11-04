@@ -477,6 +477,55 @@
                   "media": "",
                   "is_other": true,
                   "is_header": false
+                },
+                {
+                  "text": "6 bé",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7 bé",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8 bé",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9 bé",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10 bé",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15 bé",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "50 bé",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -1231,6 +1280,46 @@
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Thức ăn sống",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Ức gà đóng gói",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Gel dinh dưỡng",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thanh dinh dưỡng vitamin",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Dầu cá",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -1451,6 +1540,142 @@
                   "code": "97",
                   "media": "",
                   "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
+                  "media": "",
+                  "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -2362,6 +2587,142 @@
                   "is_other": false,
                   "is_exclusive": true,
                   "is_header": false
+                },
+                {
+                  "text": "20. Nhãn hiệu Keos",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Nhãn hiệu Nutrience",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Nhãn hiệu Purina",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Nhãn hiệu Cat Eye",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Nhãn hiệu Natural Core",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Nhãn hiệu Gemon",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "28. Nhãn hiệu Teb City",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "29. Nhãn hiệu Taste of Wild",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "30. Nhãn hiệu Nutri Plan",
+                  "code": "30",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "31. Nhãn hiệu Kucinta",
+                  "code": "31",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "32. Nhãn hiệu Alphapet",
+                  "code": "32",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "33. Nhãn hiệu Charm",
+                  "code": "33",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "34. Nhãn hiệu Hello Cat",
+                  "code": "34",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "35. Nhãn hiệu Catpy",
+                  "code": "35",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "36. Nhãn hiệu Indigo",
+                  "code": "36",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "37. Nhãn hiệu Cat's On",
+                  "code": "37",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -2497,6 +2858,14 @@
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Biết qua sàn thương mại điện tử",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -2614,6 +2983,278 @@
               "form": {}
             },
             {
+              "id": "Q12-code",
+              "type": "MULTI",
+              "text": "Vì sao Bạn không cân nhắc mua nhãn hiệu Pawtiful trong tương lai?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Mèo kén ăn",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Mèo không thích / không ăn",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Mèo lúc ăn lúc không",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "51. Mèo ăn quen sản phẩm / nhãn hiệu hiện tại",
+                  "code": "51",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "52. Mèo ưu tiên ăn Nekko",
+                  "code": "52",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "53. Mèo quen vị cũ",
+                  "code": "53",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "54. Còn thay đổi thử nhiều loại để tìm loại hợp",
+                  "code": "54",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "55. Đang dùng ổn và ưu tiên Purina",
+                  "code": "55",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "56. Sản phẩm hiện tại đang dùng tốt nên chưa đổi",
+                  "code": "56",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "101. Thành phần sữa dê không hợp với đường tiêu hóa của mèo",
+                  "code": "101",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "102. Cho rằng loại đang dùng có nhiều thịt thật hơn",
+                  "code": "102",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "151. Ít hương vị để lựa chọn",
+                  "code": "151",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "201. Mèo quen dạng nhuyễn / kem",
+                  "code": "201",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "202. Mèo không thích pate dạng creamy",
+                  "code": "202",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "203. Mèo không thích dạng thạch",
+                  "code": "203",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "251. Mèo bị tiêu chảy khi dùng",
+                  "code": "251",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "252. Lo mèo bị dị ứng",
+                  "code": "252",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "301. Giá thành cao",
+                  "code": "301",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "302. Chưa có ưu đãi / deal tốt",
+                  "code": "302",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "351. Chỉ có gói, thiếu dạng lon mong muốn",
+                  "code": "351",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "352. Chưa bắt mắt",
+                  "code": "352",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "401. Chưa phổ biến / khó thấy và khó mua",
+                  "code": "401",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "451. Chưa tìm hiểu kỹ nhãn hiệu",
+                  "code": "451",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "452. Chưa cho mèo sử dụng / dùng thử",
+                  "code": "452",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "453. Nhãn hiệu còn mới trên thị trường",
+                  "code": "453",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "454. Chỉ biết nhãn hiệu có súp thưởng",
+                  "code": "454",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "455. Chưa biết rõ thành phần",
+                  "code": "455",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "501. Đại trà / thiếu khác biệt",
+                  "code": "501",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "551. Còn sản phẩm được tặng chưa dùng hết",
+                  "code": "551",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "552. Nhìn không chân thật",
+                  "code": "552",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
               "id": "Q13",
               "type": "OPEN",
               "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì?\nProbe cho hết ý.\n<img Q2-2.png>\nNẾU ĐÁP VIÊN KHÔNG BIẾT/ KHÔNG NHỚ THÌ NHẬP CODE 999",
@@ -2638,6 +3279,174 @@
               },
               "logic": {
                 "on_enter": "if(!Contains(Q2,[2])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q13-code",
+              "type": "MULTI",
+              "text": "Dựa trên những gì bạn biết/nghe nói về nhãn nhiệu Pawtiful, theo bạn thông điệp mà nhãn hiệu Pawtiful muốn truyền đạt đến những người nuôi mèo như bạn là gì?\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tiêu hóa khỏe / bụng khỏe, bụng êm",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "51. Dưỡng lông khỏe / bóng mượt mềm",
+                  "code": "51",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "52. Giúp mèo có ngoại hình xinh đẹp",
+                  "code": "52",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "101. Bổ sung chất dinh dưỡng",
+                  "code": "101",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "102. Có thành phần sữa dê",
+                  "code": "102",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "103. Cung cấp protein / đạm",
+                  "code": "103",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "104. Cung cấp taurine",
+                  "code": "104",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "151. Giúp mèo dễ ăn / ăn ngon, không kén",
+                  "code": "151",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "201. Chăm sóc sức khỏe / giúp mèo khỏe mạnh",
+                  "code": "201",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "202. Giúp mèo tăng cân",
+                  "code": "202",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "251. Có nhiều mùi vị để thay đổi",
+                  "code": "251",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "301. Thức ăn mềm",
+                  "code": "301",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "351. Dễ sử dụng",
+                  "code": "351",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "401. Tên Pawtiful gợi liên tưởng beautiful",
+                  "code": "401",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "402. Paw gợi móng vuốt / thú cưng",
+                  "code": "402",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "451. Không có pate dạng lon",
+                  "code": "451",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "999. Không biết / không nhớ thông điệp",
+                  "code": "999",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
@@ -3191,6 +4000,510 @@
               "form": {}
             },
             {
+              "id": "P2-code",
+              "type": "MULTI",
+              "text": "Vì sao Bạn MUA nhãn hiệu pate cho mèo nhà Bạn ăn thường xuyên nhất?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Mùi thơm / hương vị thơm ngon",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Vị cá/cá ngừ/hải sản ngừ thơm",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Hương vị rau củ",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thơm mùi thịt cá hộp",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Thơm mùi sữa dê",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Mùi hương thu hút mèo",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "51. Pate mềm dễ nhai",
+                  "code": "51",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "52. Pate dạng sệt kết cấu sẽ mềm mịn hơn",
+                  "code": "52",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "53. Pate dạng lỏng dễ ăn, dễ nuốt",
+                  "code": "53",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "54. Dạng thịt trong sốt / gravy mèo thích ăn",
+                  "code": "54",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "55. Dạng thịt xé sợi cho mèo cảm giác nhai tự nhiên như ăn thịt cá thật",
+                  "code": "55",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "56. Pate dạng thạch có kết cấu mềm vừa phải",
+                  "code": "56",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "101. Có rau củ / trái cây",
+                  "code": "101",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "102. Có sữa dê",
+                  "code": "102",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "103. Làm từ thịt/cá thật/ không dùng bột thịt/ nhiều thịt",
+                  "code": "103",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "104. Có hạt hỗn hợp (khô gà sấy, trứng,..)",
+                  "code": "104",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "105. Có loại tự nhiên không gia vị/Không hương liệu",
+                  "code": "105",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "151. Cung cấp đầy đủ dưỡng chất",
+                  "code": "151",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "152. Hàm lượng đạm cao",
+                  "code": "152",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "153. Nhiều dinh dưỡng / hàm lượng dinh dưỡng cao",
+                  "code": "153",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "201. Tốt cho tiêu hóa / tiêu hóa dễ/ Không bị tiêu chảy/ đầy bụng/ phân không lỏng",
+                  "code": "201",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "202. Giúp mèo kém ăn ăn tốt hơn",
+                  "code": "202",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "203. Lông bóng / mượt hơn/ giảm rụng lông/ tiêu búi lông",
+                  "code": "203",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "204. Giúp tăng cân / bớt còi",
+                  "code": "204",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "205. Hỗ trợ miễn dịch",
+                  "code": "205",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "206. Hỗ trợ đường tiết niệu",
+                  "code": "206",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "207. Mèo khỏe hơn",
+                  "code": "207",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "251. Mèo thích ăn / ăn ngon / hợp khẩu vị/ hào hứng ăn/ ăn ngay khi cho",
+                  "code": "251",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "252. Mèo ăn nhiều hơn/ thường xuyên hơn/ ăn không chán/ ăn liên tục",
+                  "code": "252",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "253. Ăn hết / không bỏ thừa",
+                  "code": "253",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "254. Mèo chỉ ăn loại này / từ chối loại khác",
+                  "code": "254",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "301. Đã ăn quen / dùng từ nhỏ",
+                  "code": "301",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "302. Phù hợp mọi lứa tuổi mèo",
+                  "code": "302",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "303. Dùng dòng dành cho mèo mẹ và mèo con",
+                  "code": "303",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "351. Đa dạng hương vị",
+                  "code": "351",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "352. Đa dạng sản phẩm / nhiều dòng sản phẩm",
+                  "code": "352",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "353. Sản phẩm chất lượng",
+                  "code": "353",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "401. Nhãn hiệu phổ biến / nhiều người sử dụng",
+                  "code": "401",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "402. Nhãn hiệu lâu đời",
+                  "code": "402",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "403. Nhãn hiệu yêu thích",
+                  "code": "403",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "404. Xuất xứ châu Âu",
+                  "code": "404",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "405. Thương hiệu uy tín",
+                  "code": "405",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "406. Thương hiệu lớn",
+                  "code": "406",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "451. Giá hợp lý / vừa túi tiền",
+                  "code": "451",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "452. Giá rẻ",
+                  "code": "452",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "453. Có khuyến mãi / giảm giá",
+                  "code": "453",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "454. Mua được nhận quà",
+                  "code": "454",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "501. Lượng trong gói nhiều / đủ ăn no",
+                  "code": "501",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "502. Bao bì tiện dụng",
+                  "code": "502",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "503. Bao bì bắt mắt",
+                  "code": "503",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "504. Dạng lon thường sẽ được tiệc trùng ở nhiệt độ cao sẽ không có chất bảo quản tốt cho mèo hơn",
+                  "code": "504",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "505. Có pack lớn mua giá sẽ tiết kiệm hơn",
+                  "code": "505",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "551. Dễ tìm mua",
+                  "code": "551",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "552. Chủ trại giới thiệu",
+                  "code": "552",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "553. Người khác giới thiệu / khuyên dùng",
+                  "code": "553",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "554. Mua tại / tham gia sự kiện của nhãn hàng",
+                  "code": "554",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "555. Chuyên gia khuyên dùng",
+                  "code": "555",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "601. Tiện lợi",
+                  "code": "601",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "602. Có công dụng chính xác như hãng đưa ra",
+                  "code": "602",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
               "id": "P3",
               "type": "MULTI",
               "text": "Có những vấn đề gì bạn lo ngại ở sản phẩm pate cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa giải quyết được?",
@@ -3253,6 +4566,86 @@
                   "media": "",
                   "is_other": false,
                   "is_exclusive": true,
+                  "is_header": false
+                },
+                {
+                  "text": "Pate mặn",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Không chắc chắn về thành phần",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo chất bảo quản ảnh hưởng sức khỏe",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo mèo rụng lông",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo mèo bị tiêu chảy",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo mèo bị ngộ độc",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lo ngại hàng giả",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Không rõ độ tươi của pate",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Bao bì thiếu zip để bảo quản phần thừa",
+                  "code": "28",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khó bảo quản pate",
+                  "code": "29",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
                   "is_header": false
                 }
               ],
@@ -3628,6 +5021,30 @@
                   "code": "97",
                   "media": "",
                   "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Mua tại sự kiện / hội chợ thú cưng",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Mua trực tiếp tại công ty bán sản phẩm",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Mua tại cơ sở thú y",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -4145,6 +5562,142 @@
                       "is_other": true,
                       "is_exclusive": false,
                       "is_header": false
+                    },
+                    {
+                      "text": "20. Nhãn hiệu Keos",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "21. Nhãn hiệu Nutrience",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "22. Nhãn hiệu Purina",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "23. Nhãn hiệu Cat Eye",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "25. Nhãn hiệu Natural Core",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "26. Nhãn hiệu Gemon",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "27. Nhãn hiệu Farmina/Nhãn hiệu N&D",
+                      "code": "27",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "28. Nhãn hiệu Teb City",
+                      "code": "28",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "29. Nhãn hiệu Taste of Wild",
+                      "code": "29",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "30. Nhãn hiệu Nutri Plan",
+                      "code": "30",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "31. Nhãn hiệu Kucinta",
+                      "code": "31",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "32. Nhãn hiệu Alphapet",
+                      "code": "32",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "33. Nhãn hiệu Charm",
+                      "code": "33",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "34. Nhãn hiệu Hello Cat",
+                      "code": "34",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "35. Nhãn hiệu Catpy",
+                      "code": "35",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "36. Nhãn hiệu Indigo",
+                      "code": "36",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "37. Nhãn hiệu Cat's On",
+                      "code": "37",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
@@ -4325,6 +5878,518 @@
                   "form": {}
                 },
                 {
+                  "id": "H2-code",
+                  "type": "MULTI",
+                  "text": "Vì sao Bạn MUA nhãn hiệu hạt cho mèo nhà Bạn ăn thường xuyên nhất?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Mùi thơm / thơm ngon",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Mùi cá thơm",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Mùi thịt thơm/ mùi gà thơm/ mùi ruốc gà thơm",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "51. Có nhân / topping",
+                      "code": "51",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "52. Kích thước hạt nhỏ dễ nhai",
+                      "code": "52",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "53. Hạt mềm dễ ăn",
+                      "code": "53",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "54. Hạt giòn giúp mèo thích thú khi nhai",
+                      "code": "54",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "55. Có hạt hỗn hợp (hạt có thêm khô gà sấy, gan sấy..)",
+                      "code": "55",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "101. Có thịt/ có gà sấy",
+                      "code": "101",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "102. Không có chất độn/ ít độn tinh bột/ ngũ cốc",
+                      "code": "102",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "103. Có cá",
+                      "code": "103",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "104. Có rau củ / trái cây sấy khô",
+                      "code": "104",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "105. Có sữa",
+                      "code": "105",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "151. Giàu đạm / hàm lượng protein cao",
+                      "code": "151",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "152. Đầy đủ dưỡng chất",
+                      "code": "152",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "153. Tỷ lệ đạm hợp lý trên 30%",
+                      "code": "153",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "154. Có nhiều thành phần hỗ trợ sức khỏe cho mèo mà thức ăn tươi không có",
+                      "code": "154",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "201. Tiêu hóa ổn / tốt cho tiêu hóa/ đi vệ sinh ổn, đều đặn/ không đau bụng/ tiêu chảy",
+                      "code": "201",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "202. Giúp tăng cân",
+                      "code": "202",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "203. Dưỡng lông",
+                      "code": "203",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "204. Hỗ trợ vấn đề tiết niệu",
+                      "code": "204",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "205. Giảm mùi hôi khi đi vệ sinh",
+                      "code": "205",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "206. Ăn không bị dị ứng",
+                      "code": "206",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "207. Giữ cân tốt",
+                      "code": "207",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "208. Ăn không bị bệnh thận",
+                      "code": "208",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "209. Giúp mèo không mất nước",
+                      "code": "209",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "251. Mèo thích ăn/ hợp khẩu vị/ hào hứng khi ăn/ cho là ăn ngay/ đòi ăn/ kích thích ăn",
+                      "code": "251",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "301. Đã dùng từ nhỏ",
+                      "code": "301",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "302. Ăn quen, không muốn đổi loại",
+                      "code": "302",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "326. Dùng được cho mèo nhiều lứa tuổi",
+                      "code": "326",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "327. Phù hợp mèo có vấn đề tiết niệu",
+                      "code": "327",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "328. Phù hợp mèo lớn tuổi",
+                      "code": "328",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "329. Dễ dùng cho mèo có vấn đề răng miệng",
+                      "code": "329",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "330. Có dòng cho mèo ít vận động",
+                      "code": "330",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "351. Nhiều hương vị để lựa chọn",
+                      "code": "351",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "352. Nhiều dòng / chức năng sản phẩm",
+                      "code": "352",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "401. Thương hiệu nổi tiếng/nhiều người dùng",
+                      "code": "401",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "402. Xuất xứ Thổ Nhĩ Kỳ",
+                      "code": "402",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "403. Xuất xứ châu Âu",
+                      "code": "403",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "404. Nguồn gốc xuất xứ rõ ràng",
+                      "code": "404",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "405. Thương hiệu uy tín",
+                      "code": "405",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "406. Thương hiệu lâu năm",
+                      "code": "406",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "451. Giá hợp lý / phải chăng",
+                      "code": "451",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "452. Có giảm giá / sale",
+                      "code": "452",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "453. Giá rẻ",
+                      "code": "453",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "501. Gói lớn / đóng gói nhiều kilôgam",
+                      "code": "501",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "502. Bao bì bắt mắt",
+                      "code": "502",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "503. Thành phần/hàm lượng dinh dưỡng được trình bày rõ ràng",
+                      "code": "503",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "551. Nghe review về sản phẩm",
+                      "code": "551",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "552. Chủ trại giới thiệu",
+                      "code": "552",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "553. Được khuyên dùng trên mạng xã hội",
+                      "code": "553",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "554. Được chuyên gia khuyên dùng",
+                      "code": "554",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "555. Bác sĩ khuyên dùng",
+                      "code": "555",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "556. Mua chung theo bạn đang dùng",
+                      "code": "556",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "601. Mua kèm sản phẩm cùng thương hiệu",
+                      "code": "601",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "602. Mua đại / lựa chọn ngẫu nhiên",
+                      "code": "602",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "603. Muốn cho mèo ăn sang",
+                      "code": "603",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "604. Dễ tìm mua",
+                      "code": "604",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "605. Sản phẩm chất lượng tốt",
+                      "code": "605",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "606. Có hiệu quả rõ rệt",
+                      "code": "606",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
                   "id": "H3",
                   "type": "MULTI",
                   "text": "Có những vấn đề gì bạn lo ngại ở sản phẩm hạt cho mèo nhưng các nhãn hiệu trên thị trường hiện tại chưa giải quyết được?",
@@ -4395,6 +6460,62 @@
                       "media": "",
                       "is_other": false,
                       "is_exclusive": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Hạt quá cứng",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Thành phần không giống mô tả",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Thông tin thành phần không rõ ràng",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Lo mèo bị tiêu chảy",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Lo mèo bị ói",
+                      "code": "24",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Lo sản phẩm không như quảng cáo",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Chưa đủ dinh dưỡng trọn vẹn cho mèo phát triển",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
                       "is_header": false
                     }
                   ],
@@ -4786,6 +6907,30 @@
                       "code": "97",
                       "media": "",
                       "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Mua tại sự kiện / hội chợ thú cưng",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Mua trực tiếp tại công ty bán sản phẩm",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Mua tại cơ sở thú y",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
                       "is_exclusive": false,
                       "is_header": false
                     }
