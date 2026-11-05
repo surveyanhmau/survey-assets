@@ -1800,6 +1800,12 @@
                 "action": "Hard",
                 "message": "Đối tượng 2 chỉ biết đến Tiktok Paylate chứ chưa từng sử dụng phải chọn code 1-2-3-4-5",
                 "goto": ""
+              },
+              {
+                "condition": "Contains(Q18,[1])&&Contains(Q20,[1,2,3,4])",
+                "action": "Hard",
+                "message": "Sai logic, ở Q18 đang ghi nhận có tài khoản Tiktok Paylate",
+                "goto": ""
               }
             ]
           },
@@ -1904,7 +1910,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3,4,5])",
                 "action": "Hard",
-                "message": "Đáp viên cần có nhu cầu vay tiền cao",
+                "message": "Đáp viên cần có nhu cầu vay tiền cao code 1-2",
                 "goto": ""
               }
             ]
@@ -1978,7 +1984,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3,4,5])",
                 "action": "Hard",
-                "message": "Đáp viên quan tâm nhiều tới hình thức thanh toán trả góp",
+                "message": "Đáp viên quan tâm nhiều tới hình thức thanh toán trả góp code 1-2",
                 "goto": ""
               }
             ]
@@ -2052,7 +2058,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[3,4,5])",
                 "action": "Hard",
-                "message": "Đáp viên quan tâm nhiều tới hình thức \"Mua ngay, trả sau\"",
+                "message": "Đáp viên quan tâm nhiều tới hình thức \"Mua ngay, trả sau\" code 1-2",
                 "goto": ""
               }
             ]
