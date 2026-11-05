@@ -376,7 +376,7 @@
               {
                 "condition": "Contains(CurrentQuestion(),[1,6,7,8])",
                 "action": "Hard",
-                "message": "Tuyển nhân viên đang tạo ra thu nhập, trong đó có ít nhất 1 đáp viên là doanh nhân siêu nhỏ",
+                "message": "Tuyển đáp viên là người đang tạo ra thu nhập code 2-3-4-5, trong đó có ít nhất 1 đáp viên là doanh nhân siêu nhỏ code 5",
                 "goto": ""
               }
             ]
@@ -572,6 +572,59 @@
             {
               "text": "12. > 100,000,000 VNĐ",
               "code": "12",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6])){SetAnswer(QuotaThuNhap,[1])};\nif(Contains(CurrentQuestion(),[7,8,9])){SetAnswer(QuotaThuNhap,[2])};\nif(Contains(CurrentQuestion(),[10,11,12])){SetAnswer(QuotaThuNhap,[3])};",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "QuotaThuNhap",
+          "type": "SINGLE",
+          "text": "",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. Thấp: ≤ 20,000,000 VNĐ",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Trung bình: 20,000,000 - 40,000,000 VNĐ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Cao: Trên 40,000,000 VNĐ",
+              "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
