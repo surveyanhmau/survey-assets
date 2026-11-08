@@ -1,5 +1,5 @@
 {
-  "functions": "",
+  "functions": "function Rotation(){\nvar a=[];\nif(Answer(IDMain)==1101){a=[1,2,4];};\nif(Answer(IDMain)==1102){a=[2,4,1];};\nif(Answer(IDMain)==1103){a=[4,1,2];};\nif(Answer(IDMain)==1104){a=[1,2,4];};\nif(Answer(IDMain)==1105){a=[2,4,1];};\nif(Answer(IDMain)==1106){a=[4,1,2];};\nif(Answer(IDMain)==1107){a=[1,2,4];};\nif(Answer(IDMain)==1108){a=[2,4,1];};\nif(Answer(IDMain)==1109){a=[4,1,2];};\nif(Answer(IDMain)==1110){a=[1,2,4];};\nif(Answer(IDMain)==1111){a=[2,4,1];};\nif(Answer(IDMain)==1112){a=[4,1,2];};\nif(Answer(IDMain)==1113){a=[1,2,4];};\nif(Answer(IDMain)==1114){a=[2,4,1];};\nif(Answer(IDMain)==1115){a=[4,1,2];};\nif(Answer(IDMain)==1116){a=[1,2,4];};\nif(Answer(IDMain)==1117){a=[2,4,1];};\nif(Answer(IDMain)==1118){a=[4,1,2];};\nif(Answer(IDMain)==1119){a=[1,2,4];};\nif(Answer(IDMain)==1120){a=[2,4,1];};\nif(Answer(IDMain)==1201){a=[2,3,5];};\nif(Answer(IDMain)==1202){a=[3,5,2];};\nif(Answer(IDMain)==1203){a=[5,2,3];};\nif(Answer(IDMain)==1204){a=[2,3,5];};\nif(Answer(IDMain)==1205){a=[3,5,2];};\nif(Answer(IDMain)==1206){a=[5,2,3];};\nif(Answer(IDMain)==1207){a=[2,3,5];};\nif(Answer(IDMain)==1208){a=[3,5,2];};\nif(Answer(IDMain)==1209){a=[5,2,3];};\nif(Answer(IDMain)==1210){a=[2,3,5];};\nif(Answer(IDMain)==1211){a=[3,5,2];};\nif(Answer(IDMain)==1212){a=[5,2,3];};\nif(Answer(IDMain)==1213){a=[2,3,5];};\nif(Answer(IDMain)==1214){a=[3,5,2];};\nif(Answer(IDMain)==1215){a=[5,2,3];};\nif(Answer(IDMain)==1216){a=[2,3,5];};\nif(Answer(IDMain)==1217){a=[3,5,2];};\nif(Answer(IDMain)==1218){a=[5,2,3];};\nif(Answer(IDMain)==1219){a=[2,3,5];};\nif(Answer(IDMain)==1220){a=[3,5,2];};\nif(Answer(IDMain)==1301){a=[3,4,6];};\nif(Answer(IDMain)==1302){a=[4,6,3];};\nif(Answer(IDMain)==1303){a=[6,3,4];};\nif(Answer(IDMain)==1304){a=[3,4,6];};\nif(Answer(IDMain)==1305){a=[4,6,3];};\nif(Answer(IDMain)==1306){a=[6,3,4];};\nif(Answer(IDMain)==1307){a=[3,4,6];};\nif(Answer(IDMain)==1308){a=[4,6,3];};\nif(Answer(IDMain)==1309){a=[6,3,4];};\nif(Answer(IDMain)==1310){a=[3,4,6];};\nif(Answer(IDMain)==1311){a=[4,6,3];};\nif(Answer(IDMain)==1312){a=[6,3,4];};\nif(Answer(IDMain)==1313){a=[3,4,6];};\nif(Answer(IDMain)==1314){a=[4,6,3];};\nif(Answer(IDMain)==1315){a=[6,3,4];};\nif(Answer(IDMain)==1316){a=[3,4,6];};\nif(Answer(IDMain)==1317){a=[4,6,3];};\nif(Answer(IDMain)==1318){a=[6,3,4];};\nif(Answer(IDMain)==1319){a=[3,4,6];};\nif(Answer(IDMain)==1320){a=[4,6,3];};\nif(Answer(IDMain)==1401){a=[4,5,7];};\nif(Answer(IDMain)==1402){a=[5,7,4];};\nif(Answer(IDMain)==1403){a=[7,4,5];};\nif(Answer(IDMain)==1404){a=[4,5,7];};\nif(Answer(IDMain)==1405){a=[5,7,4];};\nif(Answer(IDMain)==1406){a=[7,4,5];};\nif(Answer(IDMain)==1407){a=[4,5,7];};\nif(Answer(IDMain)==1408){a=[5,7,4];};\nif(Answer(IDMain)==1409){a=[7,4,5];};\nif(Answer(IDMain)==1410){a=[4,5,7];};\nif(Answer(IDMain)==1411){a=[5,7,4];};\nif(Answer(IDMain)==1412){a=[7,4,5];};\nif(Answer(IDMain)==1413){a=[4,5,7];};\nif(Answer(IDMain)==1414){a=[5,7,4];};\nif(Answer(IDMain)==1415){a=[7,4,5];};\nif(Answer(IDMain)==1416){a=[4,5,7];};\nif(Answer(IDMain)==1417){a=[5,7,4];};\nif(Answer(IDMain)==1418){a=[7,4,5];};\nif(Answer(IDMain)==1419){a=[4,5,7];};\nif(Answer(IDMain)==1420){a=[5,7,4];};\nif(Answer(IDMain)==1501){a=[5,6,8];};\nif(Answer(IDMain)==1502){a=[6,8,5];};\nif(Answer(IDMain)==1503){a=[8,5,6];};\nif(Answer(IDMain)==1504){a=[5,6,8];};\nif(Answer(IDMain)==1505){a=[6,8,5];};\nif(Answer(IDMain)==1506){a=[8,5,6];};\nif(Answer(IDMain)==1507){a=[5,6,8];};\nif(Answer(IDMain)==1508){a=[6,8,5];};\nif(Answer(IDMain)==1509){a=[8,5,6];};\nif(Answer(IDMain)==1510){a=[5,6,8];};\nif(Answer(IDMain)==1511){a=[6,8,5];};\nif(Answer(IDMain)==1512){a=[8,5,6];};\nif(Answer(IDMain)==1513){a=[5,6,8];};\nif(Answer(IDMain)==1514){a=[6,8,5];};\nif(Answer(IDMain)==1515){a=[8,5,6];};\nif(Answer(IDMain)==1516){a=[5,6,8];};\nif(Answer(IDMain)==1517){a=[6,8,5];};\nif(Answer(IDMain)==1518){a=[8,5,6];};\nif(Answer(IDMain)==1519){a=[5,6,8];};\nif(Answer(IDMain)==1520){a=[6,8,5];};\nif(Answer(IDMain)==1601){a=[6,7,1];};\nif(Answer(IDMain)==1602){a=[7,1,6];};\nif(Answer(IDMain)==1603){a=[1,6,7];};\nif(Answer(IDMain)==1604){a=[6,7,1];};\nif(Answer(IDMain)==1605){a=[7,1,6];};\nif(Answer(IDMain)==1606){a=[1,6,7];};\nif(Answer(IDMain)==1607){a=[6,7,1];};\nif(Answer(IDMain)==1608){a=[7,1,6];};\nif(Answer(IDMain)==1609){a=[1,6,7];};\nif(Answer(IDMain)==1610){a=[6,7,1];};\nif(Answer(IDMain)==1611){a=[7,1,6];};\nif(Answer(IDMain)==1612){a=[1,6,7];};\nif(Answer(IDMain)==1613){a=[6,7,1];};\nif(Answer(IDMain)==1614){a=[7,1,6];};\nif(Answer(IDMain)==1615){a=[1,6,7];};\nif(Answer(IDMain)==1616){a=[6,7,1];};\nif(Answer(IDMain)==1617){a=[7,1,6];};\nif(Answer(IDMain)==1618){a=[1,6,7];};\nif(Answer(IDMain)==1619){a=[6,7,1];};\nif(Answer(IDMain)==1620){a=[7,1,6];};\nif(Answer(IDMain)==1701){a=[7,8,2];};\nif(Answer(IDMain)==1702){a=[8,2,7];};\nif(Answer(IDMain)==1703){a=[2,7,8];};\nif(Answer(IDMain)==1704){a=[7,8,2];};\nif(Answer(IDMain)==1705){a=[8,2,7];};\nif(Answer(IDMain)==1706){a=[2,7,8];};\nif(Answer(IDMain)==1707){a=[7,8,2];};\nif(Answer(IDMain)==1708){a=[8,2,7];};\nif(Answer(IDMain)==1709){a=[2,7,8];};\nif(Answer(IDMain)==1710){a=[7,8,2];};\nif(Answer(IDMain)==1711){a=[8,2,7];};\nif(Answer(IDMain)==1712){a=[2,7,8];};\nif(Answer(IDMain)==1713){a=[7,8,2];};\nif(Answer(IDMain)==1714){a=[8,2,7];};\nif(Answer(IDMain)==1715){a=[2,7,8];};\nif(Answer(IDMain)==1716){a=[7,8,2];};\nif(Answer(IDMain)==1717){a=[8,2,7];};\nif(Answer(IDMain)==1718){a=[2,7,8];};\nif(Answer(IDMain)==1719){a=[7,8,2];};\nif(Answer(IDMain)==1720){a=[8,2,7];};\nif(Answer(IDMain)==1801){a=[8,1,3];};\nif(Answer(IDMain)==1802){a=[1,3,8];};\nif(Answer(IDMain)==1803){a=[3,8,1];};\nif(Answer(IDMain)==1804){a=[8,1,3];};\nif(Answer(IDMain)==1805){a=[1,3,8];};\nif(Answer(IDMain)==1806){a=[3,8,1];};\nif(Answer(IDMain)==1807){a=[8,1,3];};\nif(Answer(IDMain)==1808){a=[1,3,8];};\nif(Answer(IDMain)==1809){a=[3,8,1];};\nif(Answer(IDMain)==1810){a=[8,1,3];};\nif(Answer(IDMain)==1811){a=[1,3,8];};\nif(Answer(IDMain)==1812){a=[3,8,1];};\nif(Answer(IDMain)==1813){a=[8,1,3];};\nif(Answer(IDMain)==1814){a=[1,3,8];};\nif(Answer(IDMain)==1815){a=[3,8,1];};\nif(Answer(IDMain)==1816){a=[8,1,3];};\nif(Answer(IDMain)==1817){a=[1,3,8];};\nif(Answer(IDMain)==1818){a=[3,8,1];};\nif(Answer(IDMain)==1819){a=[8,1,3];};\nif(Answer(IDMain)==1820){a=[1,3,8];};\nif(Answer(IDMain)==2101){a=[1,2,4];};\nif(Answer(IDMain)==2102){a=[2,4,1];};\nif(Answer(IDMain)==2103){a=[4,1,2];};\nif(Answer(IDMain)==2104){a=[1,2,4];};\nif(Answer(IDMain)==2105){a=[2,4,1];};\nif(Answer(IDMain)==2106){a=[4,1,2];};\nif(Answer(IDMain)==2107){a=[1,2,4];};\nif(Answer(IDMain)==2108){a=[2,4,1];};\nif(Answer(IDMain)==2109){a=[4,1,2];};\nif(Answer(IDMain)==2110){a=[1,2,4];};\nif(Answer(IDMain)==2111){a=[2,4,1];};\nif(Answer(IDMain)==2112){a=[4,1,2];};\nif(Answer(IDMain)==2113){a=[1,2,4];};\nif(Answer(IDMain)==2114){a=[2,4,1];};\nif(Answer(IDMain)==2115){a=[4,1,2];};\nif(Answer(IDMain)==2116){a=[1,2,4];};\nif(Answer(IDMain)==2117){a=[2,4,1];};\nif(Answer(IDMain)==2118){a=[4,1,2];};\nif(Answer(IDMain)==2119){a=[1,2,4];};\nif(Answer(IDMain)==2120){a=[2,4,1];};\nif(Answer(IDMain)==2201){a=[2,3,5];};\nif(Answer(IDMain)==2202){a=[3,5,2];};\nif(Answer(IDMain)==2203){a=[5,2,3];};\nif(Answer(IDMain)==2204){a=[2,3,5];};\nif(Answer(IDMain)==2205){a=[3,5,2];};\nif(Answer(IDMain)==2206){a=[5,2,3];};\nif(Answer(IDMain)==2207){a=[2,3,5];};\nif(Answer(IDMain)==2208){a=[3,5,2];};\nif(Answer(IDMain)==2209){a=[5,2,3];};\nif(Answer(IDMain)==2210){a=[2,3,5];};\nif(Answer(IDMain)==2211){a=[3,5,2];};\nif(Answer(IDMain)==2212){a=[5,2,3];};\nif(Answer(IDMain)==2213){a=[2,3,5];};\nif(Answer(IDMain)==2214){a=[3,5,2];};\nif(Answer(IDMain)==2215){a=[5,2,3];};\nif(Answer(IDMain)==2216){a=[2,3,5];};\nif(Answer(IDMain)==2217){a=[3,5,2];};\nif(Answer(IDMain)==2218){a=[5,2,3];};\nif(Answer(IDMain)==2219){a=[2,3,5];};\nif(Answer(IDMain)==2220){a=[3,5,2];};\nif(Answer(IDMain)==2301){a=[3,4,6];};\nif(Answer(IDMain)==2302){a=[4,6,3];};\nif(Answer(IDMain)==2303){a=[6,3,4];};\nif(Answer(IDMain)==2304){a=[3,4,6];};\nif(Answer(IDMain)==2305){a=[4,6,3];};\nif(Answer(IDMain)==2306){a=[6,3,4];};\nif(Answer(IDMain)==2307){a=[3,4,6];};\nif(Answer(IDMain)==2308){a=[4,6,3];};\nif(Answer(IDMain)==2309){a=[6,3,4];};\nif(Answer(IDMain)==2310){a=[3,4,6];};\nif(Answer(IDMain)==2311){a=[4,6,3];};\nif(Answer(IDMain)==2312){a=[6,3,4];};\nif(Answer(IDMain)==2313){a=[3,4,6];};\nif(Answer(IDMain)==2314){a=[4,6,3];};\nif(Answer(IDMain)==2315){a=[6,3,4];};\nif(Answer(IDMain)==2316){a=[3,4,6];};\nif(Answer(IDMain)==2317){a=[4,6,3];};\nif(Answer(IDMain)==2318){a=[6,3,4];};\nif(Answer(IDMain)==2319){a=[3,4,6];};\nif(Answer(IDMain)==2320){a=[4,6,3];};\nif(Answer(IDMain)==2401){a=[4,5,7];};\nif(Answer(IDMain)==2402){a=[5,7,4];};\nif(Answer(IDMain)==2403){a=[7,4,5];};\nif(Answer(IDMain)==2404){a=[4,5,7];};\nif(Answer(IDMain)==2405){a=[5,7,4];};\nif(Answer(IDMain)==2406){a=[7,4,5];};\nif(Answer(IDMain)==2407){a=[4,5,7];};\nif(Answer(IDMain)==2408){a=[5,7,4];};\nif(Answer(IDMain)==2409){a=[7,4,5];};\nif(Answer(IDMain)==2410){a=[4,5,7];};\nif(Answer(IDMain)==2411){a=[5,7,4];};\nif(Answer(IDMain)==2412){a=[7,4,5];};\nif(Answer(IDMain)==2413){a=[4,5,7];};\nif(Answer(IDMain)==2414){a=[5,7,4];};\nif(Answer(IDMain)==2415){a=[7,4,5];};\nif(Answer(IDMain)==2416){a=[4,5,7];};\nif(Answer(IDMain)==2417){a=[5,7,4];};\nif(Answer(IDMain)==2418){a=[7,4,5];};\nif(Answer(IDMain)==2419){a=[4,5,7];};\nif(Answer(IDMain)==2420){a=[5,7,4];};\nif(Answer(IDMain)==2501){a=[5,6,8];};\nif(Answer(IDMain)==2502){a=[6,8,5];};\nif(Answer(IDMain)==2503){a=[8,5,6];};\nif(Answer(IDMain)==2504){a=[5,6,8];};\nif(Answer(IDMain)==2505){a=[6,8,5];};\nif(Answer(IDMain)==2506){a=[8,5,6];};\nif(Answer(IDMain)==2507){a=[5,6,8];};\nif(Answer(IDMain)==2508){a=[6,8,5];};\nif(Answer(IDMain)==2509){a=[8,5,6];};\nif(Answer(IDMain)==2510){a=[5,6,8];};\nif(Answer(IDMain)==2511){a=[6,8,5];};\nif(Answer(IDMain)==2512){a=[8,5,6];};\nif(Answer(IDMain)==2513){a=[5,6,8];};\nif(Answer(IDMain)==2514){a=[6,8,5];};\nif(Answer(IDMain)==2515){a=[8,5,6];};\nif(Answer(IDMain)==2516){a=[5,6,8];};\nif(Answer(IDMain)==2517){a=[6,8,5];};\nif(Answer(IDMain)==2518){a=[8,5,6];};\nif(Answer(IDMain)==2519){a=[5,6,8];};\nif(Answer(IDMain)==2520){a=[6,8,5];};\nif(Answer(IDMain)==2601){a=[6,7,1];};\nif(Answer(IDMain)==2602){a=[7,1,6];};\nif(Answer(IDMain)==2603){a=[1,6,7];};\nif(Answer(IDMain)==2604){a=[6,7,1];};\nif(Answer(IDMain)==2605){a=[7,1,6];};\nif(Answer(IDMain)==2606){a=[1,6,7];};\nif(Answer(IDMain)==2607){a=[6,7,1];};\nif(Answer(IDMain)==2608){a=[7,1,6];};\nif(Answer(IDMain)==2609){a=[1,6,7];};\nif(Answer(IDMain)==2610){a=[6,7,1];};\nif(Answer(IDMain)==2611){a=[7,1,6];};\nif(Answer(IDMain)==2612){a=[1,6,7];};\nif(Answer(IDMain)==2613){a=[6,7,1];};\nif(Answer(IDMain)==2614){a=[7,1,6];};\nif(Answer(IDMain)==2615){a=[1,6,7];};\nif(Answer(IDMain)==2616){a=[6,7,1];};\nif(Answer(IDMain)==2617){a=[7,1,6];};\nif(Answer(IDMain)==2618){a=[1,6,7];};\nif(Answer(IDMain)==2619){a=[6,7,1];};\nif(Answer(IDMain)==2620){a=[7,1,6];};\nif(Answer(IDMain)==2701){a=[7,8,2];};\nif(Answer(IDMain)==2702){a=[8,2,7];};\nif(Answer(IDMain)==2703){a=[2,7,8];};\nif(Answer(IDMain)==2704){a=[7,8,2];};\nif(Answer(IDMain)==2705){a=[8,2,7];};\nif(Answer(IDMain)==2706){a=[2,7,8];};\nif(Answer(IDMain)==2707){a=[7,8,2];};\nif(Answer(IDMain)==2708){a=[8,2,7];};\nif(Answer(IDMain)==2709){a=[2,7,8];};\nif(Answer(IDMain)==2710){a=[7,8,2];};\nif(Answer(IDMain)==2711){a=[8,2,7];};\nif(Answer(IDMain)==2712){a=[2,7,8];};\nif(Answer(IDMain)==2713){a=[7,8,2];};\nif(Answer(IDMain)==2714){a=[8,2,7];};\nif(Answer(IDMain)==2715){a=[2,7,8];};\nif(Answer(IDMain)==2716){a=[7,8,2];};\nif(Answer(IDMain)==2717){a=[8,2,7];};\nif(Answer(IDMain)==2718){a=[2,7,8];};\nif(Answer(IDMain)==2719){a=[7,8,2];};\nif(Answer(IDMain)==2720){a=[8,2,7];};\nif(Answer(IDMain)==2801){a=[8,1,3];};\nif(Answer(IDMain)==2802){a=[1,3,8];};\nif(Answer(IDMain)==2803){a=[3,8,1];};\nif(Answer(IDMain)==2804){a=[8,1,3];};\nif(Answer(IDMain)==2805){a=[1,3,8];};\nif(Answer(IDMain)==2806){a=[3,8,1];};\nif(Answer(IDMain)==2807){a=[8,1,3];};\nif(Answer(IDMain)==2808){a=[1,3,8];};\nif(Answer(IDMain)==2809){a=[3,8,1];};\nif(Answer(IDMain)==2810){a=[8,1,3];};\nif(Answer(IDMain)==2811){a=[1,3,8];};\nif(Answer(IDMain)==2812){a=[3,8,1];};\nif(Answer(IDMain)==2813){a=[8,1,3];};\nif(Answer(IDMain)==2814){a=[1,3,8];};\nif(Answer(IDMain)==2815){a=[3,8,1];};\nif(Answer(IDMain)==2816){a=[8,1,3];};\nif(Answer(IDMain)==2817){a=[1,3,8];};\nif(Answer(IDMain)==2818){a=[3,8,1];};\nif(Answer(IDMain)==2819){a=[8,1,3];};\nif(Answer(IDMain)==2820){a=[1,3,8];};\nreturn a;\n}",
   "chapters": [
     {
       "id": "Recruit",
@@ -1418,9 +1418,74 @@
                 "action": "Hard",
                 "message": "ĐÓNG",
                 "goto": ""
-              },
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HinhDV",
+          "type": "MEDIA",
+          "text": "PVV chụp hình đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "1",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HinhSP",
+          "type": "MEDIA",
+          "text": "PVV chụp hình sản phẩm của đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "2",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
               {
-                "condition": "Contains(CurrentQuestion(),[1])",
+                "condition": "Contains(S12,[1])",
                 "action": "Goto",
                 "message": "",
                 "goto": "End"
@@ -1489,8 +1554,84 @@
           "readonly": false,
           "answers": [],
           "topics": [],
-          "min": "1000",
-          "max": "9999",
+          "min": "1101",
+          "max": "2820",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "LoopVisible(Chapter1,Rotation());\nLoopRandom(Chapter1,Rotation());",
+            "rules": [
+              {
+                "condition": "((Answer(IDMain)%100)==0)||((Answer(IDMain)%100)>20)||((Answer(IDMain)>1820)&&(Answer(IDMain)<2101))",
+                "action": "Hard",
+                "message": "ID không chính xác",
+                "goto": ""
+              },
+              {
+                "condition": "CheckDuplicate(\"IDMain\",Answer(IDMain))==1",
+                "action": "Hard",
+                "message": "ID đã trùng với bài khác",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD2",
+          "type": "EMPTY",
+          "text": "PHẦN MỞ ĐẦU:\n• PVV nói: “Chào em. Hôm nay em có khỏe không? Anh/chị mời em đến đây để hỏi em một số câu hỏi về trải nghiệm ăn bánh hoàn toàn mới.\n• Ở đây không có câu trả lời nào đúng hay sai, anh/chị chỉ muốn biết ý của em về sản phẩm bánh mà em sẽ ăn. Do đó, em nghĩ gì thì cứ nói như vậy với anh/chị nhé.”\n\nPVV lấy ví dụ cho bé về cách lựa chọn mức độ yêu thích bằng ví dụ về đồ ăn trước, sau đó mới bắt đầu -> Dùng ICON showcard\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD3",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN\no PVV giới thiệu: “Hôm nay, em sẽ được trải nghiệm một cách ăn bánh hoàn toàn mới. Khi ăn, em sẽ nhận được một gói gia vị bí mật mà mình chưa biết trước bên trong là vị gì. Em sẽ tự tay mở gói gia vị, rắc lên bánh, sau đó lắc nhẹ để gia vị phủ đều lên bánh. Mỗi gói gia vị có thể mang đến một hương vị bất ngờ khác nhau. Em chờ một chút để anh/chị đi lấy nha” \no Tiếp theo, PVV vừa hướng dẫn đáp viên vừa nói: “Ở đây chị có 1 gói bánh và 1 gói gia vị bí mật. Bây giờ, em hãy mở gói bánh ra, sau đó hãy thử mở gói gia vị này nhé! Tiếp theo, em rắc hết phần gia vị trong gói lên bánh, sau đó giữ bánh lại và lắc nhẹ để gia vị phủ đều lên bánh nha.”\no PVV lưu ý:\n  ● PVV chuẩn bị 1 bộ trải nghiệm gồm 1 bánh, 1 gói gia vị, 1 kéo được đặt trên 1 khay nhỏ cho mỗi đáp viên.\n  ● Hướng dẫn trẻ tự tay mở gói, rắc gia vị và lắc bánh. PVV KHÔNG thực hiện dùm cho đáp viên.\n  ● Đây chỉ là hoạt động chỏ trẻ trải nghiệm việc lắc bánh với gia vị. Đáp viên KHÔNG ăn mẫu bánh này.\n\nSau khi đáp viên đã thực hiện xong, PVV nói “Bây giờ, anh/chị sẽ hỏi em một số câu hỏi về trải nghiệm vừa rồi nhé.”\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
           "unit": "",
           "display_columns": 1,
           "no_answer": false,
@@ -1510,9 +1651,1552 @@
           "conjoint": {},
           "number_grid": {},
           "form": {}
+        },
+        {
+          "id": "Q100",
+          "type": "SINGLE",
+          "text": "Em cảm thấy như thế nào về trải nghiệm lắc bánh với gia vị bí mật này?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+          "note": "SHOWICON",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không thú vị",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không thú vị",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Bình thường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Thú vị",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Rất thú vị",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q101",
+          "type": "SINGLE",
+          "text": "Nhìn chung, em cảm thấy mẫu bánh sau khi được rắc gia vị trông hấp dẫn ở mức độ nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
+          "note": "SHOWICON",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hấp dẫn",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hấp dẫn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Bình thường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Hấp dẫn",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Rất hấp dẫn",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q102",
+          "type": "SINGLE",
+          "text": "Khi mở gói gia vị mà chưa biết bên trong là vị gì, em cảm thấy thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
+          "note": "SHOWICON",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hoàn toàn không hào hứng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không hào hứng lắm",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Bình thường",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Hơi hào hứng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Rất hào hứng",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "HD4",
+          "type": "EMPTY",
+          "text": "HƯỚNG DẪN:\nPVV nói: “Chị xin phép cất phần bánh em vừa trải nghiệm lắc gia vị này và đi lấy 1 sản phẩm mới hoàn toàn để nhờ em đánh giá tiếp. Em chờ chị 1 chút nhé.”\n\nPVV lấy phần bánh và toàn bộ dụng cụ bé đã sử dụng cất vào khu pha chế mẫu.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q200",
+          "type": "OPEN_GRID",
+          "text": "IT HIỆN LẠI CODE VỊ TEST THEO ROTATION",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [],
+          "topics": [
+            {
+              "text": "Sản phẩm thử lần 1",
+              "code": "1"
+            },
+            {
+              "text": "Sản phẩm thử lần 2",
+              "code": "2"
+            },
+            {
+              "text": "Sản phẩm thử lần 3",
+              "code": "3"
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "topic_random": false
+          },
+          "logic": {
+            "on_enter": "if(Answer(IDMain)==1101){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1102){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1103){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1104){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1105){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1106){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1107){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1108){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1109){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1110){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1111){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1112){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1113){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1114){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1115){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1116){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1117){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1118){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1119){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1120){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1201){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1202){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1203){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1204){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1205){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1206){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1207){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1208){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1209){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1210){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1211){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1212){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1213){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1214){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1215){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1216){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1217){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1218){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1219){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1220){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1301){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1302){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1303){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1304){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1305){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1306){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1307){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1308){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1309){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1310){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1311){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1312){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1313){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1314){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1315){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1316){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1317){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1318){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1319){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1320){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1401){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1402){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1403){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1404){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1405){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1406){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1407){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1408){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1409){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1410){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1411){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1412){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1413){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1414){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1415){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1416){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1417){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1418){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1419){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1420){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==1501){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1502){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1503){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1504){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1505){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1506){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1507){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1508){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1509){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1510){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1511){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1512){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1513){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1514){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1515){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1516){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1517){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1518){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1519){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1520){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==1601){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1602){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1603){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1604){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1605){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1606){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1607){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1608){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1609){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1610){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1611){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1612){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1613){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1614){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1615){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1616){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1617){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1618){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1619){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1620){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==1701){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1702){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1703){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1704){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1705){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1706){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1707){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1708){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1709){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1710){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1711){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1712){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1713){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1714){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1715){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1716){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1717){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1718){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1719){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==1720){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==1801){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1802){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1803){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1804){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1805){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1806){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1807){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1808){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1809){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1810){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1811){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1812){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1813){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1814){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1815){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1816){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1817){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==1818){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==1819){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==1820){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2101){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2102){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2103){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2104){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2105){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2106){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2107){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2108){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2109){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2110){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2111){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2112){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2113){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2114){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2115){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2116){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2117){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2118){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2119){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2120){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2201){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2202){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2203){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2204){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2205){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2206){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2207){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2208){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2209){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2210){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2211){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2212){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2213){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2214){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2215){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2216){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2217){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2218){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2219){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2220){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2301){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2302){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2303){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2304){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2305){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2306){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2307){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2308){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2309){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2310){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2311){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2312){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2313){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2314){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2315){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2316){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2317){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2318){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2319){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2320){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2401){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2402){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2403){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2404){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2405){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2406){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2407){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2408){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2409){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2410){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2411){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2412){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2413){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2414){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2415){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2416){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2417){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2418){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F4\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2419){SetAnswerChoice(Q200,1,\"F4\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2420){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F4\");};\nif(Answer(IDMain)==2501){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2502){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2503){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2504){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2505){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2506){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2507){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2508){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2509){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2510){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2511){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2512){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2513){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2514){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2515){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2516){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2517){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2518){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F5\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2519){SetAnswerChoice(Q200,1,\"F5\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2520){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F5\");};\nif(Answer(IDMain)==2601){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2602){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2603){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2604){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2605){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2606){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2607){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2608){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2609){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2610){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2611){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2612){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2613){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2614){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2615){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2616){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2617){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2618){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F6\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2619){SetAnswerChoice(Q200,1,\"F6\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2620){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F6\");};\nif(Answer(IDMain)==2701){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2702){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2703){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2704){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2705){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2706){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2707){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2708){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2709){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2710){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2711){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2712){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2713){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2714){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2715){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2716){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2717){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2718){SetAnswerChoice(Q200,1,\"F2\");SetAnswerChoice(Q200,2,\"F7\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2719){SetAnswerChoice(Q200,1,\"F7\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F2\");};\nif(Answer(IDMain)==2720){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F2\");SetAnswerChoice(Q200,3,\"F7\");};\nif(Answer(IDMain)==2801){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2802){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2803){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2804){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2805){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2806){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2807){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2808){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2809){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2810){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2811){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2812){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2813){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2814){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2815){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2816){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2817){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};\nif(Answer(IDMain)==2818){SetAnswerChoice(Q200,1,\"F3\");SetAnswerChoice(Q200,2,\"F8\");SetAnswerChoice(Q200,3,\"F1\");};\nif(Answer(IDMain)==2819){SetAnswerChoice(Q200,1,\"F8\");SetAnswerChoice(Q200,2,\"F1\");SetAnswerChoice(Q200,3,\"F3\");};\nif(Answer(IDMain)==2820){SetAnswerChoice(Q200,1,\"F1\");SetAnswerChoice(Q200,2,\"F3\");SetAnswerChoice(Q200,3,\"F8\");};",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
         }
       ],
-      "children": []
+      "children": [
+        {
+          "id": "Chapter1",
+          "name": "Chapter1",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "F1",
+                "index": 1
+              },
+              {
+                "name": "F2",
+                "index": 2
+              },
+              {
+                "name": "F3",
+                "index": 3
+              },
+              {
+                "name": "F4",
+                "index": 4
+              },
+              {
+                "name": "F5",
+                "index": 5
+              },
+              {
+                "name": "F6",
+                "index": 6
+              },
+              {
+                "name": "F7",
+                "index": 7
+              },
+              {
+                "name": "F8",
+                "index": 8
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "HD5",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN\no PVV nói: “Em giúp anh/chị ăn 1 miếng sắn rồi uống một chút nước lọc để thanh vị trước đã nhé”\no Sau khi đáp viên ăn/uống thanh vị, PVV nói: “Đây là mẫu bánh đã được lắc với một loại gia vị bí mật. Em hãy ăn một vài miếng để cảm nhận hương vị của bánh nhé, lưu ý là ăn tối đa 1/3 bánh thôi để tránh no quá vì hôm nay mình thử 3 sản phẩm lận nha.”\n\no PVV lưu ý:\n  ● PVV lấy bánh đã được lắc với vị {0}\n  ● Trong suốt quá trình tham gia phỏng vấn, PVV nhắc nhở đáp viên không ăn hoặc uống bất kỳ sản phẩm/ thức ăn gì ngoài sản phẩm/ thực phẩm để thanh vị và sản phẩm mẫu\n  ● Bàn phỏng vấn phải sạch sẽ, chỉ để 1 mẫu thử trên bàn khi phỏng vấn\n\nPVV đảm bảo đáp viên đã thử xong trước khi đi vào phần câu hỏi.",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q201",
+              "type": "SINGLE",
+              "text": "Sau khi ăn thử, em THÍCH sự kết hợp giữa gia vị này và mẫu bánh ở mức độ nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Thích",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q201,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q202b"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q202a",
+              "type": "OPEN_GRID",
+              "text": "Em THÍCH điều gì ở sự kết hợp giữa gia vị này với mẫu bánh mà em vừa ăn thử?\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \n ● Đầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \n ● Nếu 2 lần mà em trả lời: “Dạ hết rồi anh/chị” thì không cần hỏi tiếp để tránh trường hợp bé cảm thấy mệt.\n ● Lưu ý ghi nhận theo đúng ý của bé, không chuyển ngữ theo ý của PVV",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [
+                {
+                  "text": "VỊ",
+                  "code": "1"
+                },
+                {
+                  "text": "MÙI",
+                  "code": "2"
+                },
+                {
+                  "text": "KẾT CẤU BÁNH",
+                  "code": "3"
+                },
+                {
+                  "text": "KHÁC",
+                  "code": "4"
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "topic_random": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q201,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q203"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q202b",
+              "type": "OPEN_GRID",
+              "text": "Em KHÔNG THÍCH điều gì ở sự kết hợp giữa gia vị này với mẫu bánh mà em vừa ăn thử?\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \n ● Đầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \n ● Nếu 2 lần mà em trả lời: “Dạ hết rồi anh/chị” thì không cần hỏi tiếp để tránh trường hợp bé cảm thấy mệt.\n ● Lưu ý ghi nhận theo đúng ý của bé, không chuyển ngữ theo ý của PVV",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [
+                {
+                  "text": "VỊ",
+                  "code": "1"
+                },
+                {
+                  "text": "MÙI",
+                  "code": "2"
+                },
+                {
+                  "text": "KẾT CẤU BÁNH",
+                  "code": "3"
+                },
+                {
+                  "text": "KHÁC",
+                  "code": "4"
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "topic_random": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(Q201,[1,2,3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "Q202a"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q203",
+              "type": "SINGLE",
+              "text": "Em cảm nhận mức độ chua khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít chua so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít chua so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Chua vừa phải / Phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều chua so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều chua so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((LoopIndex()==6)||(LoopIndex()==7)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q204",
+              "type": "SINGLE",
+              "text": "Em cảm nhận mức độ mặn khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít mặn so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít mặn so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Mặn vừa phải / phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều mặn so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều mặn so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((LoopIndex()==6)||(LoopIndex()==7)||(LoopIndex()==2)||(LoopIndex()==5)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q205",
+              "type": "SINGLE",
+              "text": "Em cảm nhận mức độ cay khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít cay so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít cay so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Cay vừa phải / phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều cay so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều cay so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if((LoopIndex()==8)||(LoopIndex()==7)||(LoopIndex()==2)||(LoopIndex()==5)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q206",
+              "type": "SINGLE",
+              "text": "Em cảm nhận về vị phô mai khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít vị phô mai so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít vị phô mai so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Vị phô mai vừa phải / phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều vị phô mai so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều vị phô mai so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!(LoopIndex()==6)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q207",
+              "type": "SINGLE",
+              "text": "Em cảm nhận mức độ cay nồng/cay ấm khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Độ nồng/cay ít hơn nhiều so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Độ nồng/cay hơi ít so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Độ nồng/cay vừa phải/ phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Độ nồng/cay hơi nhiều so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Độ nồng/cay quá nhiều so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!(LoopIndex()==7)){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q208",
+              "type": "SINGLE",
+              "text": "Sau khi ăn thử bánh, em đánh giá như thế nào về lượng gia vị được rắc lên bánh?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá ít so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi ít so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Vừa phải/ phù hợp với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi nhiều so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá nhiều so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q209",
+              "type": "SINGLE",
+              "text": "Em đánh giá mức độ phù hợp về vị khi kết hơp bánh Choco với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không phù hợp",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không phù hợp",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bình thường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Phù hợp",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Rất phù hợp",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q210",
+              "type": "OPEN",
+              "text": "Sau khi ăn thử, em đoán loại gia vị được rắc lên bánh có vị gì?\nCode thử {0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD6",
+              "type": "EMPTY",
+              "text": "Hướng dẫn PVV: \nLúc này, PVV sẽ tiết lộ cho bé tên loại gia vị rắc lên bánh. PVV nói: \n\nBây giờ anh/ chị sẽ tiết lộ cho em biết nhé, loại gia vị bí mật được rắc lên bánh ở đây chính là vị {0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội\"]);};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q211",
+              "type": "SINGLE",
+              "text": "Sau khi em biết đây là vị gì rồi, em cảm nhận như thế nào về vị {0} được rắc lên mẫu bánh em vừa thử? \nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWICON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá nhạt so với ý của em",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi nhạt so với ý của em",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Vừa phải so với ý của em",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi đậm so với ý của em",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá đậm so với ý của em",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội\"]);};\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q212",
+              "type": "SINGLE",
+              "text": "Loại bánh này sẽ được bán kèm nhiều gói gia vị bí mật khác nhau mà khi mua em sẽ không biết đó là vị gì.\nSau khi ăn thử bánh lắc gia vị này, em có muốn MUA hoặc XIN BA MẸ MUA để khám phá thêm các vị khác không?\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWCARD",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không mua",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không mua",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể mua hoặc có thể không mua",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ mua",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ mua",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD7",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN\n<no>{0}</no>",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=Rotation()[2];\nSetQuestionText(CurrentQuestion(),[\"PVV để gọn sản phẩm đã thử khuất tầm mắt đáp viên và chuyển qua sản phẩm tiếp theo.\"]);\nif(LoopIndex()==a){SetQuestionText(CurrentQuestion(),[\"PVV để gọn sản phẩm đã thử khuất tầm mắt đáp viên\"]);}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter2",
+          "name": "Chapter2",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HD8",
+              "type": "EMPTY",
+              "text": "HƯỚNG DẪN\no PVV đặt lại các mẫu thử lên bàn, với thứ tự thử tương ứng với sản phẩm từ trái qua phải của đáp viên. \no PVV nói: “Bây giờ nhờ em ăn thử lại lần lượt 3 sản phẩm bánh này giúp anh/chị”\no PVV mời đáp viên uống nước thanh vị rồi thử lại sản phẩm test đầu tiên, sau đó lại uống nước thanh vị rồi thử tiếp sản phẩm test thứ 2, sau đó lại uống nước thanh vị rồi thử tiếp sản phẩm test thứ 3.\nVị thử 1: {0}\nVị thử 2: {1}\nVị thử 3: {2}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nif(Rotation()[0]==1){a1=\"Muối ớt xoài\";};\nif(Rotation()[0]==2){a1=\"Thơm;};\nif(Rotation()[0]==3){a1=\"Muối ớt me\";};\nif(Rotation()[0]==4){a1=\"Muối ớt tắc\";};\nif(Rotation()[0]==5){a1=\"Cam\";};\nif(Rotation()[0]==6){a1=\"Phô mai cay\";};\nif(Rotation()[0]==7){a1=\"Quế\";};\nif(Rotation()[0]==8){a1=\"Muối xí muội\";};\nif(Rotation()[1]==1){a2=\"Muối ớt xoài\";};\nif(Rotation()[1]==2){a2=\"Thơm;};\nif(Rotation()[1]==3){a2=\"Muối ớt me\";};\nif(Rotation()[1]==4){a2=\"Muối ớt tắc\";};\nif(Rotation()[1]==5){a2=\"Cam\";};\nif(Rotation()[1]==6){a2=\"Phô mai cay\";};\nif(Rotation()[1]==7){a2=\"Quế\";};\nif(Rotation()[1]==8){a2=\"Muối xí muội\";};\nif(Rotation()[2]==1){a3=\"Muối ớt xoài\";};\nif(Rotation()[2]==2){a3=\"Thơm;};\nif(Rotation()[2]==3){a3=\"Muối ớt me\";};\nif(Rotation()[2]==4){a3=\"Muối ớt tắc\";};\nif(Rotation()[2]==5){a3=\"Cam\";};\nif(Rotation()[2]==6){a3=\"Phô mai cay\";};\nif(Rotation()[2]==7){a3=\"Quế\";};\nif(Rotation()[2]==8){a3=\"Muối xí muội\";};\nSetQuestionText(CurrentQuestion(),[a1,a2,a3]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q301",
+              "type": "RANKING",
+              "text": "Trong 3 mẫu bánh em vừa thử, em hãy xếp hạng theo mức độ yêu thích: sự kết hợp giữa bánh và gia vị em thích nhất, sự kết hợp em thích thứ hai và sự kết hợp em thích thứ ba\n- Mẫu thích nhất: Ghi số 1\n- Mẫu thích nhì: Ghi số 2\n- Mẫu thích ba: Ghi số 3",
+              "note": "PVV HỎI",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Muối ớt xoài",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Thơm",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Muối ớt me",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Muối ớt tắc",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Cam",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Phô mai cay",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Quế",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Muối xí muội",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "3",
+              "max": "3",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "AnswerVisible(CurrentQuestion(),Rotation());",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Answer(\"Q201_\"+AnswerRank(CurrentQuestion(),1))<Answer(\"Q201_\"+AnswerRank(CurrentQuestion(),2))",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "Answer(\"Q201_\"+AnswerRank(CurrentQuestion(),2))<Answer(\"Q201_\"+AnswerRank(CurrentQuestion(),3))",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q302a",
+              "type": "OPEN",
+              "text": "Vì sao em thích sự kết hợp giữa bánh và gia vị này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ nhất.",
+              "note": "PVV HỎI",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),AnswerTextRank(Q301,1));",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q302b",
+              "type": "OPEN",
+              "text": "Vì sao em ít thích sự kết hợp giữa bánh và gia vị này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ ba.",
+              "note": "PVV HỎI",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),AnswerTextRank(Q301,3));",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD9",
+              "type": "EMPTY",
+              "text": "Hướng dẫn: PVV đặt sản phẩm bé thích nhất lên phía trước, chỉ tay vào sản phẩm và hỏi",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q303",
+              "type": "SINGLE",
+              "text": "Đối với mẫu bánh em vừa xếp hạng 1 (mẫu em thích nhất), em dự định sử dụng sản phẩm bánh này như thế nào so với loại bánh em đang thường xuyên ăn ở nhà?\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "note": "SHOWCARD",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Thay thế hoàn toàn loại bánh pie hiện tại bằng loại bánh này",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Ăn kết hợp song song cả hai loại bánh (vẫn duy trì thói quen ăn bánh pie hiện tại)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tiếp tục sử dụng loại bánh pie hiện tại, không thay đổi sang loại bánh này",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        }
+      ]
     },
     {
       "id": "ChapEnd",
