@@ -520,7 +520,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "FilterLoopByAnswer("S5loop,S4)",
+            "on_next": "FilterLoopByAnswer(S5loop,S4)",
             "rules": []
           },
           "conjoint": {},
