@@ -770,7 +770,88 @@
               "media": "",
               "record": false,
               "readonly": true,
-              "answers": [],
+              "answers": [
+                {
+                  "text": "1. Người con thứ nhất",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Người con thứ 2",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Người con thứ 3",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Người con thứ 4",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Người còn thứ 5",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Người con thứ 6",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Người con thứ 7",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Người con thứ 8",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Người con thứ 9",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Người con thứ 10",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
               "topics": [],
               "min": "1",
               "max": "999",
