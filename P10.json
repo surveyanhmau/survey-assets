@@ -2119,7 +2119,7 @@
               "id": "Q1",
               "type": "MULTI",
               "text": "Ngoài trường mà con của anh/chị đang theo học, thì anh/chị có biết/nghe nói đến các trường nào khác dưới đây?",
-              "note": "",
+              "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
               "media": "",
               "record": false,
               "readonly": false,
@@ -2696,6 +2696,1421 @@
               "realcam": false,
               "options": {
                 "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "QuestionHide()",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q1b",
+              "type": "MULTI",
+              "text": "Trong đó, những trường nào anh/chị đã từng HOẶC đang tìm hiểu thông tin cho bé {0} theo học?",
+              "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Trường mầm non 1/6",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Trường mầm non Chánh Mỹ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trường mầm non Đoàn Thị Liên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Trường mầm non Hoa Hướng Dương",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Trường mầm non Hoa Mai",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Trường mầm non Hoa Phượng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trường mầm non Hoa Lan – Cơ sở 1",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Trường mầm non Hoa Lan – Cơ sở 2",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Trường mầm non Hoa Lan – Cơ sở 3",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Mầm non Hoa Sen",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. SIS Bình Dương (Hệ mầm non)",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Trường Việt Hoa International (Hệ mầm non)",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Trường Việt Anh (Hệ mầm non)",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Petrus Ký - Cơ sở 1 (Hệ mầm non)",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Trường tiểu học Nguyễn Du",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Trường tiểu học Phú Hòa 1",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Trường tiểu học Chánh Nghĩa",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Trường tiểu học Trần Phú - Cơ sở 1",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Trường tiểu học Trần Phú - Cơ sở 2",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Trường tiểu học Lê Hồng Phong",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Elite School (Hệ tiểu học)",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Ngô Thời Nhiệm (Hệ tiểu học)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Marie Curie (Hệ tiểu học)",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "24. SIS Bình Dương (Hệ tiểu học)",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Trường Việt Hoa International (Hệ tiểu học)",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Trường Việt Anh (Hệ tiểu học)",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Trường Petrus Ký - Cơ sở 1 (Hệ tiểu học)",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "974",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "975",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "976",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nFilterAnswerByAnswer(Q1b,Q1a);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q1c",
+              "type": "MULTI",
+              "text": "Trường nào anh/chị đã từng HOẶC đang có dự định cho bé {0} theo học?",
+              "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Trường mầm non 1/6",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Trường mầm non Chánh Mỹ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trường mầm non Đoàn Thị Liên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Trường mầm non Hoa Hướng Dương",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Trường mầm non Hoa Mai",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Trường mầm non Hoa Phượng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trường mầm non Hoa Lan – Cơ sở 1",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Trường mầm non Hoa Lan – Cơ sở 2",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Trường mầm non Hoa Lan – Cơ sở 3",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Mầm non Hoa Sen",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. SIS Bình Dương (Hệ mầm non)",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Trường Việt Hoa International (Hệ mầm non)",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Trường Việt Anh (Hệ mầm non)",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Petrus Ký - Cơ sở 1 (Hệ mầm non)",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Trường tiểu học Nguyễn Du",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Trường tiểu học Phú Hòa 1",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Trường tiểu học Chánh Nghĩa",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Trường tiểu học Trần Phú - Cơ sở 1",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Trường tiểu học Trần Phú - Cơ sở 2",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Trường tiểu học Lê Hồng Phong",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Elite School (Hệ tiểu học)",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Ngô Thời Nhiệm (Hệ tiểu học)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Marie Curie (Hệ tiểu học)",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "24. SIS Bình Dương (Hệ tiểu học)",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Trường Việt Hoa International (Hệ tiểu học)",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Trường Việt Anh (Hệ tiểu học)",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Trường Petrus Ký - Cơ sở 1 (Hệ tiểu học)",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "974",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "975",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "976",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nFilterAnswerByAnswer(CurrentQuestion(),Q1b)",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q2",
+              "type": "SINGLE",
+              "text": "KHÔNG HỎI: DP AUTO CODE TỪ Q1",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. Người có dự định cho con học trường tư",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Người từng tìm hiểu nhưng không dự định cho con học trường tư",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Người không có dự định cho con học trường tư",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[1])};\nif(Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])&&!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[2])};\nif(!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[3])};\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q3",
+              "type": "MULTI",
+              "text": "Vì sao anh/chị không có dự định cho bé {0} học ở các trường tư thục?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q4",
+              "type": "MULTI",
+              "text": "Vì sao anh/chị đã từng HOẶC đang có dự định cho bé {0} học ở các trường tư thục?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[1])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q5",
+              "type": "MULTI",
+              "text": "Vì sao anh/chị quyết định cho bé {0} học ở {1}?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q6",
+              "type": "SINGLE",
+              "text": "Trường {0} mà bé {1} học là hệ thống trường gì?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA CODE CHO ĐÁP VIÊN CHỌN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Trường tư thục bình thường",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Trường tư thục song ngữ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trường quốc tế",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q7",
+              "type": "OPEN",
+              "text": "Theo anh/chị, điểm khác biệt giữa hệ thống trường tư thục song ngữ và trường quốc tế là gì?\nPVV lưu ý: Nếu đáp viên trả lời không có thì hỏi lại là “Bên em muốn biết điểm khác biệt dù là nhỏ nhất theo ý anh/chị”, nếu đáp viên vẫn xác nhận là không có thì ghi nhận “Không có” và đi tiếp.",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q8a",
+              "type": "MULTI",
+              "text": "Trường {0} mà bé {1} học có những chương trình, dịch vụ hoặc đặc điểm nào sau đây?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chương trình song ngữ Việt Nam - Tiếng Anh",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Chương trình quốc tế (Cambridge, IB, Edexcel, hoặc tương đương)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Giáo viên nước ngoài giảng dạy thường xuyên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lớp học sĩ số nhỏ",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chương trình STEM/Robotics/Coding",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Hoạt động ngoại khóa đa dạng (thể thao, nghệ thuật, âm nhạc...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Câu lạc bộ tiếng Anh hoặc ngoại ngữ khác",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Kỹ năng mềm (thuyết trình, lãnh đạo, tư duy phản biện...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Tư vấn tâm lý học đường",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Dịch vụ bán trú",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Dịch vụ xe đưa đón học sinh",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Suất ăn và dinh dưỡng tại trường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Ứng dụng/cổng thông tin để phụ huynh theo dõi việc học của con",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Hỗ trợ luyện thi chứng chỉ tiếng Anh quốc tế (IELTS, Cambridge...)",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Chương trình hướng nghiệp hoặc tư vấn du học",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Cơ sở vật chất cao cấp (hồ bơi, nhà thi đấu, phòng lab, thư viện hiện đại...)",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Chương trình trao đổi hoặc giao lưu quốc tế",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Hỗ trợ học tập cá nhân hóa cho từng học sinh",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "5",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q8b",
+              "type": "MULTI",
+              "text": "Đâu là 5 chương trình, dịch vụ hoặc đặc điểm quan trọng nhất khiến anh/chị quyết định cho bé {0} học tại trường này?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chương trình song ngữ Việt Nam - Tiếng Anh",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Chương trình quốc tế (Cambridge, IB, Edexcel, hoặc tương đương)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Giáo viên nước ngoài giảng dạy thường xuyên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lớp học sĩ số nhỏ",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chương trình STEM/Robotics/Coding",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Hoạt động ngoại khóa đa dạng (thể thao, nghệ thuật, âm nhạc...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Câu lạc bộ tiếng Anh hoặc ngoại ngữ khác",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Kỹ năng mềm (thuyết trình, lãnh đạo, tư duy phản biện...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Tư vấn tâm lý học đường",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Dịch vụ bán trú",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Dịch vụ xe đưa đón học sinh",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Suất ăn và dinh dưỡng tại trường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Ứng dụng/cổng thông tin để phụ huynh theo dõi việc học của con",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Hỗ trợ luyện thi chứng chỉ tiếng Anh quốc tế (IELTS, Cambridge...)",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Chương trình hướng nghiệp hoặc tư vấn du học",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Cơ sở vật chất cao cấp (hồ bơi, nhà thi đấu, phòng lab, thư viện hiện đại...)",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Chương trình trao đổi hoặc giao lưu quốc tế",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Hỗ trợ học tập cá nhân hóa cho từng học sinh",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "5",
+              "max": "5",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q9",
+              "type": "NUMBER",
+              "text": "Mức học phí hàng tháng của bé {0} khi theo học tại trường {1} là khoản bao nhiêu?\nPVV lưu ý: Ghi nhận đơn vị theo Việt Nam Đồng",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "100000",
+              "max": "999999999",
+              "unit": "Đồng",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9),AnswerText(a)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q10",
+              "type": "MULTI",
+              "text": "Ngoài học phí thì hàng tháng anh/chị còn phải chi thêm cho các khoản phụ phí nào để phục vụ việc học của bé {0}?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Học thêm bổ túc các môn học chính",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Học anh văn",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Học ngoại ngữ khác",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Học thêm các lớp ngoại khóa (VD: Học đàn, học hát, học võ, họ vẽ,…)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Phương tiện/ Xe đưa đón con đi học",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Đồng phục",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Sách vở, dụng cụ học tập",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Ăn uống (Ăn sáng/ ăn trưa/ ăn chiều)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "98.",
+                  "code": "98",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q11",
+              "type": "NUMBER",
+              "text": "Tổng chi phí anh/chị phải chi hàng tháng cho những khoản phụ phí trên là bao nhiêu?\nPVV lưu ý: Ghi nhận đơn vị theo Việt Nam Đồng",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "100000",
+              "max": "999999999",
+              "unit": "Đồng",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
                 "search": false
               },
               "logic": {
