@@ -469,7 +469,6 @@
               "code": "1",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -477,7 +476,6 @@
               "code": "2",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -485,7 +483,6 @@
               "code": "3",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -493,7 +490,6 @@
               "code": "4",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
               "is_header": false
             },
             {
@@ -501,7 +497,41 @@
               "code": "5",
               "media": "",
               "is_other": false,
-              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. 6 người con",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. 7 người con",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. 8 người con",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. 9 người con",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "10. 10 người con",
+              "code": "10",
+              "media": "",
+              "is_other": false,
               "is_header": false
             }
           ],
@@ -520,7 +550,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "FilterLoopByAnswer(S5loop,S4)",
+            "on_next": "if(Contains(CurrentQuestion(),[1])){LoopVisible(S5loop,[1])};\nif(Contains(CurrentQuestion(),[2])){LoopVisible(S5loop,[1,2])};\nif(Contains(CurrentQuestion(),[3])){LoopVisible(S5loop,[1,2,3])};\nif(Contains(CurrentQuestion(),[4])){LoopVisible(S5loop,[1,2,3,4])};\nif(Contains(CurrentQuestion(),[5])){LoopVisible(S5loop,[1,2,3,4,5])};\nif(Contains(CurrentQuestion(),[6])){LoopVisible(S5loop,[1,2,3,4,5,6])};\nif(Contains(CurrentQuestion(),[7])){LoopVisible(S5loop,[1,2,3,4,5,6,7])};\nif(Contains(CurrentQuestion(),[8])){LoopVisible(S5loop,[1,2,3,4,5,6,7,8])};\nif(Contains(CurrentQuestion(),[9])){LoopVisible(S5loop,[1,2,3,4,5,6,7,8,9])};\nif(Contains(CurrentQuestion(),[10])){LoopVisible(S5loop,[1,2,3,4,5,6,7,8,9,10])};",
             "rules": []
           },
           "conjoint": {},
@@ -733,17 +763,17 @@
           },
           "questions": [
             {
-              "id": "S6",
-              "type": "SINGLE",
-              "text": "",
+              "id": "S5Recode",
+              "type": "MULTI",
+              "text": "NHỮNG BÉ TRONG ĐỘ TUỔI TỪ 18 THÁNG ĐẾN DƯỚI 8 TUỔI",
               "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
               "media": "",
               "record": false,
-              "readonly": false,
+              "readonly": true,
               "answers": [],
               "topics": [],
-              "min": "",
-              "max": "",
+              "min": "1",
+              "max": "999",
               "unit": "",
               "display_columns": 1,
               "no_answer": false,
@@ -755,7 +785,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8,9])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
                 "on_next": "",
                 "rules": []
               },
