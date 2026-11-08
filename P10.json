@@ -550,7 +550,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "",
+            "on_next": "FilterLoopByAnswer(S5-loop,S4)",
             "rules": []
           },
           "conjoint": {},
@@ -565,7 +565,7 @@
           "record": false,
           "hide_back": false,
           "random_question": false,
-          "on_enter": "FilterLoopByAnswer(S5-loop,S4)",
+          "on_enter": "",
           "loop": {
             "enabled_loop": true,
             "loop_random": false,
@@ -647,7 +647,7 @@
             {
               "id": "S5",
               "type": "SINGLE",
-              "text": "Nhóm tuổi của {0}",
+              "text": "Nhóm tuổi của {0}{1}",
               "note": "",
               "media": "",
               "record": false,
