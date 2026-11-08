@@ -1418,6 +1418,12 @@
                 "action": "Hard",
                 "message": "ĐÓNG",
                 "goto": ""
+              },
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Goto",
+                "message": "",
+                "goto": "End"
               }
             ]
           },
