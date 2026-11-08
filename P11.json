@@ -2,8 +2,8 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
+      "id": "Recruit",
+      "name": "Recruit",
       "record": false,
       "hide_back": false,
       "random_question": false,
@@ -13,7 +13,1547 @@
         "loop_random": false,
         "iterations": []
       },
-      "questions": [],
+      "questions": [
+        {
+          "id": "GiaiDoan",
+          "type": "SINGLE",
+          "text": "PVV chọn giai đoạn phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Giai đoạn 1: Recruit",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Giai đoạn 2: Main",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "IDRecruit",
+          "type": "NUMBER",
+          "text": "PVV <no>{0}</no>",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1",
+          "max": "999999999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(GiaiDoan,[1])){SetQuestionText(CurrentQuestion(),[\"ghi nhận ID Recruit đáp viên\"])};\nif(Contains(GiaiDoan,[2])){\nSetQuestionText(CurrentQuestion(),[\"chọn ID đáp viên để bắt đầu phỏng vấn tại CLT\"]);\nRecall(IDRecruit,\"TTDV#1\");\n};\n",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(GiaiDoan,[2])",
+                "action": "Goto",
+                "message": "",
+                "goto": "PVV-Main"
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "TTDV",
+          "type": "FORM",
+          "text": "",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận chính xác SĐT",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {
+            "fields": [
+              {
+                "code": "1",
+                "text": "Họ và tên đáp viên",
+                "type": "text"
+              },
+              {
+                "code": "2",
+                "text": "Địa chỉ",
+                "type": "text"
+              },
+              {
+                "code": "3",
+                "text": "Số điện thoại đáp viên",
+                "type": "number",
+                "unit": ""
+              },
+              {
+                "code": "4",
+                "text": "Tên PVV Recruit",
+                "type": "text"
+              }
+            ]
+          }
+        },
+        {
+          "id": "HD1",
+          "type": "EMPTY",
+          "text": "Xin chào Anh/Chị, tên tôi là_________ từ công ty nghiên cứu thị trường Gcomm. Gcomm là một công ty độc lập về nghiên cứu thị trường chuyên thực hiện các cuộc khảo sát về nhiều sản phẩm/ ngành hàng khác nhau. Hiện nay chúng tôi đang tiến hành một nghiên cứu về ngành bánh cho các bé. Rất mong nhận được sự giúp đỡ của Anh/Chị bằng cách trả lời các câu hỏi sau. \nXin cám ơn Anh/Chị.\n",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S1",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận khu vực thực hiện?",
+          "note": "PVV TỰ GHI NHẬN",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Hồ Chí Minh",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hà Nội",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Khác",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[99])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận giới tính bé tham gia phỏng vấn",
+          "note": "PVV TỰ GHI NHẬN",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3a",
+          "type": "NUMBER",
+          "text": "Vui lòng cho biết bé sinh năm nào?",
+          "note": "PVV HỎI NGƯỜI GIÁM HỘ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "2016",
+          "max": "2020",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3b",
+          "type": "NUMBER",
+          "text": "PVV ghi nhận tuổi của đáp viên",
+          "note": "PVV TỰ GHI NHẬN",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [],
+          "topics": [],
+          "min": "6",
+          "max": "10",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "var age=2026-Answer(S3a);\nSetAnswer(S3b,age);",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3c",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận nhóm tuổi tương ứng dựa vào tuổi tính được?",
+          "note": "PVV TỰ GHI NHẬN",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. Dưới 6 tuổi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 6 - 7 tuổi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 8 - 10 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Trên 10 tuổi",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Answer(S3b)<8){SetAnswer(S3c,[2])};\nif(Answer(S3b)>7){SetAnswer(S3c,[3])};\n",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4a",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết bé đang học lớp mấy?",
+          "note": "SHOWCARD – HỎI NGƯỜI GIÁM HỘ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới lớp 1",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Lớp 1",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Lớp 2",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Lớp 3",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Lớp 4",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Lớp 5",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Trên lớp 5",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,99])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4b",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết mức thu nhập hiện tại của gia đình anh/chị mỗi tháng là khoảng bao nhiêu?",
+          "note": "SHOWCARD - HỎI NGƯỜI GIÁM HỘ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Từ 10.000.000 VNĐ trở xuống - Class F",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 10.000.001 – 15.000.000 VNĐ - Class E",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 15.000.001 – 20.000.000 VNĐ - Class D",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. 20.000.001 – 30.000.000 VNĐ - Class C",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 30.000.001 – 40.000.000 VNĐ - Class B",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Cao hơn 40.000.000 VNĐ - Class A",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,3])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S5",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết bé có tham gia bất kỳ cuộc phỏng vấn nghiên cứu thị trường nào trong vòng 3 tháng qua không?",
+          "note": "PVV HỎI NGƯỜI GIÁM HỘ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S6",
+          "type": "MULTI",
+          "text": "Vui lòng cho biết hiện nay bé có đang gặp phải một số vấn đề về sức khỏe nào sau đây không?",
+          "note": "SHOWCARD – HỎI NGƯỜI GIÁM HỘ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Bệnh dị ứng hoặc phải kiêng một số loại thức ăn (đặc biệt thức ăn làm từ sữa, bột mì, đường, trái cây)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Đang điều trị cảm, cúm, sốt, ho, viêm phế quản, đau họng, viêm xoang",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Đang gặp các vấn đề về tiêu hóa, tiết niệu (khó tiêu, đầy hơi, táo bón, tiêu chảy, hội chứng trào ngược dạ dày thực quản,…)",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Vấn đề về vị giác (nêm, nếm mùi vị thực phẩm)",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Vấn đề về khứu giác (ngửi mùi vị thực phẩm)",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "99. Chưa / Không có",
+              "code": "99",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": true,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,3,4,5])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S7",
+          "type": "MULTI",
+          "text": "Trong 3 tháng qua, con có ăn các loại bánh nào sau đây?",
+          "note": "SHOWPHOTO – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Bánh Pie (Bánh Pie là loại bánh bông lan mềm, đóng gói riêng từng chiếc, có thể có nhân marshmallow, kem hoặc mứt, bên ngoài được phủ hoặc nhúng sô-cô-la / lớp phủ có hương vị)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Bánh quy khô hoặc giòn",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Bánh bông lan không có lớp phủ",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Bánh cuộn",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Bánh mì ngọt",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Bánh ngọt tươi mua tại tiệm / cửa hàng bánh",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (ghi rõ:……………………………………………)",
+              "code": "97",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S8",
+          "type": "SINGLE",
+          "text": "Trong tháng 3 qua, tần suất con ăn các sản phẩm bánh pie là như thế nào?",
+          "note": "SHOWCARD – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 1 lần/tuần",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 1 lần/ tuần",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 2 lần/ tuần",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. 3 lần/ tuần",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 4 lần/ tuần",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. 5 lần/ tuần",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. 6 lần/ tuần",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. 7 lần/tuần",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. Nhiều hơn 7 lần/tuần",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S9a",
+          "type": "MULTI",
+          "text": "Con có ăn các bánh pie của những nhãn hiệu nào dưới đây trong vòng 3 tháng qua?",
+          "note": "SHOWPHOTO – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Orion ChocoPie",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Lotte ChocoPie",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Phạm Nguyên Choco PN",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Mini Pie Orienko",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Crown ChocoPie",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. ChocoPie CW",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Doowee Donut",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": true,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "ClearAnswer(S9b)",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S9b",
+          "type": "MULTI",
+          "text": "Con có ăn các bánh pie của những nhãn hiệu nào dưới đây trong vòng 1 tháng qua?",
+          "note": "SHOWPHOTO – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Orion ChocoPie",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Lotte ChocoPie",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Phạm Nguyên Choco PN",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Mini Pie Orienko",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Crown ChocoPie",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "6. ChocoPie CW",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Doowee Donut",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": false,
+              "is_exclusive": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "1",
+          "max": "999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(S9b,S9a)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S9c",
+          "type": "SINGLE",
+          "text": "Trong đó, đâu là nhãn hiệu bánh pie con dùng nhiều nhất trong vòng 1 tháng qua?",
+          "note": "SHOWPHOTO – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Orion ChocoPie",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Lotte ChocoPie",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Phạm Nguyên Choco PN",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Mini Pie Orienko",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Crown ChocoPie",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. ChocoPie CW",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. Doowee Donut",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "FilterAnswerByAnswer(S9c,S9b)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S10",
+          "type": "SINGLE_GRID",
+          "text": "Tần suất con ăn bánh là bao nhiêu lần 1 tuần?",
+          "note": "SHOWCARD TẦN SUẤT + SHOWPHOTO – HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "Dưới 1 lần/tuần",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "1 lần/ tuần",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "2 lần/ tuần",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "3 lần/ tuần",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "4 lần/ tuần",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "5 lần/ tuần",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "6 lần/ tuần",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "7 lần/tuần",
+              "code": "8",
+              "is_other": false
+            },
+            {
+              "text": "Nhiều hơn 7 lần/tuần",
+              "code": "9",
+              "is_other": false
+            }
+          ],
+          "topics": [
+            {
+              "text": "1. Orion ChocoPie",
+              "code": "1",
+              "is_other": false
+            },
+            {
+              "text": "2. Lotte ChocoPie",
+              "code": "2",
+              "is_other": false
+            },
+            {
+              "text": "3. Phạm Nguyên Choco PN",
+              "code": "3",
+              "is_other": false
+            },
+            {
+              "text": "4. Mini Pie Orienko",
+              "code": "4",
+              "is_other": false
+            },
+            {
+              "text": "5. Crown ChocoPie",
+              "code": "5",
+              "is_other": false
+            },
+            {
+              "text": "6. ChocoPie CW",
+              "code": "6",
+              "is_other": false
+            },
+            {
+              "text": "7. Doowee Donut",
+              "code": "7",
+              "is_other": false
+            },
+            {
+              "text": "97. Khác (Ghi rõ:…)",
+              "code": "97",
+              "is_other": false
+            }
+          ],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "flip_table": false,
+            "two_state": false
+          },
+          "logic": {
+            "on_enter": "FilterTopicByAnswer(S10,S9b)",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S11",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận đối tượng phỏng vấn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": true,
+          "answers": [
+            {
+              "text": "1. Doowee user",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Doowee non-user",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(S9b,[7])&&!ContainsChoice(S10,7,[1])){SetAnswer(S11,[1])};\nif(!Contains(S9b,[7])){SetAnswer(S11,[2])};",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S12",
+          "type": "SINGLE",
+          "text": "Hiện công ty chúng tôi đang tiến hành cuộc khảo sát thị trường và muốn mời con đến công ty chúng tôi tham gia cuộc khảo sát này cùng chúng tôi. \nXin cho biết con có sẵn lòng tham gia cuộc khảo sát này vào ngày …….... Tại …………………..……với chúng tôi?",
+          "note": "PVV HỎI BÉ",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Có",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Không",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[2])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "Main",
+      "name": "Main",
+      "record": false,
+      "hide_back": false,
+      "random_question": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "PVV-Main",
+          "type": "OPEN",
+          "text": "Ghi nhận tên phỏng vấn viên ngồi bàn",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "IDMain",
+          "type": "NUMBER",
+          "text": "PVV ngồi bàn ghi nhận mã số bài tại CLT để lựa chọn xoay vòng",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "1000",
+          "max": "9999",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ChapEnd",
+      "name": "ChapEnd",
+      "record": false,
+      "hide_back": false,
+      "random_question": false,
+      "on_enter": "",
+      "loop": {
+        "enabled_loop": false,
+        "loop_random": false,
+        "iterations": []
+      },
+      "questions": [
+        {
+          "id": "End",
+          "type": "EMPTY",
+          "text": "<no>{0}</no>",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "if(Contains(GiaiDoan,[1])){SetQuestionText(CurrentQuestion(),[\"CẢM ƠN VÀ HẸN ĐÁP VIÊN THEO KẾ HOẠCH\"])};\nif(Contains(GiaiDoan,[2])){SetQuestionText(CurrentQuestion(),[\"PPV KẾT THÚC PHỎNG VẤN VÀ TẶNG QUÀ CHO ĐÁP VIÊN!\"])};\n",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
       "children": []
     }
   ]
