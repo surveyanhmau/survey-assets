@@ -2404,7 +2404,7 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "var a=[];\na=a+Answer(Q1);\nfor(var i=1;i<11;i=i+1){\n\ta=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a)",
+                "on_next": "var a=[];\na=a+Answer(Q1);\nfor(var i=1;i<11;i=i+1){\n\ta=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);\nSetAnswerOther(Q1a,971,OtherAnswerText(Q1,971));\nSetAnswerOther(Q1a,972,OtherAnswerText(Q1,972));\nSetAnswerOther(Q1a,973,OtherAnswerText(Q1,973));\nSetAnswerOther(Q1a,974,OtherAnswerText(Q1,974));\nSetAnswerOther(Q1a,975,OtherAnswerText(Q1,975));\nSetAnswerOther(Q1a,976,OtherAnswerText(Q1,976));",
                 "rules": []
               },
               "conjoint": {},
@@ -2536,7 +2536,7 @@
                   "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
                   "code": "971",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2544,7 +2544,7 @@
                   "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
                   "code": "972",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2552,7 +2552,7 @@
                   "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
                   "code": "973",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2664,7 +2664,7 @@
                   "text": "974. Trường tiểu học khác: Ghi rõ: …",
                   "code": "974",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2672,7 +2672,7 @@
                   "text": "975. Trường tiểu học khác: Ghi rõ: …",
                   "code": "975",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2680,7 +2680,7 @@
                   "text": "976. Trường tiểu học khác: Ghi rõ: …",
                   "code": "976",
                   "media": "",
-                  "is_other": false,
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 }
