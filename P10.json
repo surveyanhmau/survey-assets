@@ -2,8 +2,8 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
+      "id": "Full",
+      "name": "Full",
       "record": false,
       "hide_back": false,
       "random_question": false,
@@ -13,8 +13,783 @@
         "loop_random": false,
         "iterations": []
       },
-      "questions": [],
-      "children": []
+      "questions": [
+        {
+          "id": "GT",
+          "type": "EMPTY",
+          "text": "LỜI GIỚI THIỆU (Cho tất cả các đáp viên)\n\nXin chào Bạn, tôi tên là ………………………, là phỏng vấn viên của công ty dịch vụ và tư vấn Alphanalyst Research, công ty chuyên nghiệp về nghiên cứu thị trường tại Việt Nam. Chúng tôi hiện đang tiến hành một cuộc thăm dò ý kiến đánh giá của người tiêu dùng cho nghành hàng Giáo dục. \n\nNhững thông tin Bạn cung cấp cho chúng tôi để hoàn tất bảng câu hỏi này sẽ được bảo mật và chỉ được dùng cho mục đích nghiên cứu thị trường. Những thông tin này cũng sẽ không được cung cấp cho bất kì một bên nào khác khi chưa có sự cho phép của bạn. \n\nNgược lại, Bạn không thảo luận, trao đổi, tiết lộ cho bất kỳ người nào (bao gồm bạn bè và người thân) về tất cả những thông tin liên quan đến khái niệm, ý tưởng, nội dung được đề cập trong cuộc khảo sát.\n\nChúng tôi rất mong Bạn dành chút thời gian cho tôi thực hiện cuộc phỏng vấn này.",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "topic_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "GPS-Start",
+          "type": "GPS",
+          "text": "PVV ghi nhận GPS",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "TTDV",
+          "type": "FORM",
+          "text": "PVV ghi nhận thông tin đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
+                "action": "Hard",
+                "message": "Vui lòng ghi nhận chính xác SĐT đáp viên",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {
+            "fields": [
+              {
+                "code": "1",
+                "text": "Họ và tên đáp viên",
+                "type": "text"
+              },
+              {
+                "code": "2",
+                "text": "Địa chỉ",
+                "type": "text"
+              },
+              {
+                "code": "3",
+                "text": "Số điện thoại",
+                "type": "number",
+                "unit": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "S0a",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận loại phiếu",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Main",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Booster 1: Cha mẹ có con từ 18 tháng – dưới 3 tuổi",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Booster 2: Cha mẹ có con từ 4-5 tuổi",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S0b",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận phường",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Phú Lợi",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hiệp Thành",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Chánh Nghĩa",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Phú Hòa",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S1",
+          "type": "SINGLE",
+          "text": "PVV ghi nhận giới tính đáp viên",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Nam",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Nữ",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S2",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết thu nhập sau thuế hàng tháng hộ gia đình của anh/chị là bao nhiêu?",
+          "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Dưới 60,000,000 đồng",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Từ 60,000,001 – 80,000,000 đồng",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Từ 80,000,001 – 100,000,000 đồng",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Từ 100,000,001 – 120,000,000 đồng",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Từ 120,000,001 – 150,000,000 đồng",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. Trên 150,000,000 đồng",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "98. Từ chối",
+              "code": "98",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,98])",
+                "action": "Hard",
+                "message": "NGƯNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S3",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết tình trạng hôn nhân hiện tại của anh/chị?",
+          "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Độc thân",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Đã có gia đình nhưng chưa có con",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Độc thân/từng có gia đình, có con",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Đã có gia đình và có con",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "98. Từ chối",
+              "code": "98",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": [
+              {
+                "condition": "Contains(CurrentQuestion(),[1,2,98])",
+                "action": "Hard",
+                "message": "NGƯNG",
+                "goto": ""
+              }
+            ]
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "S4",
+          "type": "SINGLE",
+          "text": "Anh/chị có tổng cộng bao nhiêu người con?",
+          "note": "SHOWTABLET – PVV GHI NHẬN THEO CÂU TRẢ LỜI CỦA ĐÁP VIÊN",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. 1 người con",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. 2 người con",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. 3 người con",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. 4 người con",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. 5 người con",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "6. 6 người con",
+              "code": "6",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "7. 7 người con",
+              "code": "7",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "8. 8 người con",
+              "code": "8",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "9. 9 người con",
+              "code": "9",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "10. 10 người con",
+              "code": "10",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "S5-loop",
+          "name": "S5-loop",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "FilterLoopByAnswer(S5-loop,S4)",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "Người con thứ nhất",
+                "index": 1
+              },
+              {
+                "name": "Người con thứ 2",
+                "index": 2
+              },
+              {
+                "name": "Người con thứ 3",
+                "index": 3
+              },
+              {
+                "name": "Người con thứ 4",
+                "index": 4
+              },
+              {
+                "name": "Người còn thứ 5",
+                "index": 5
+              },
+              {
+                "name": "Người con thứ 6",
+                "index": 6
+              },
+              {
+                "name": "Người con thứ 7",
+                "index": 7
+              },
+              {
+                "name": "Người con thứ 8",
+                "index": 8
+              },
+              {
+                "name": "Người con thứ 9",
+                "index": 9
+              },
+              {
+                "name": "Người con thứ 10",
+                "index": 10
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "S5a",
+              "type": "NUMBER",
+              "text": "Con của anh/chị sinh năm bao nhiêu?\n{0}",
+              "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1960",
+              "max": "2026",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "S5",
+              "type": "SINGLE",
+              "text": "Nhóm tuổi của {0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. Dưới 18 tháng tuổi",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 18 tháng – dưới 2 tuổi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 2 đến dưới 3 tuổi",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 3 – dưới 4 tuổi",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 4 – dưới 5 tuổi",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 5 – dưới 6 tuổi",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 6 – dưới 7 tuổi",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. 7 – dưới 8 tuổi",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Từ 8 tuổi trở lên",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter1",
+          "name": "Chapter1",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "S6",
+              "type": "SINGLE",
+              "text": "",
+              "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        }
+      ]
     }
   ]
 }
