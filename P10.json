@@ -733,7 +733,14 @@
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "CheckS5()<1",
+                    "action": "Hard",
+                    "message": "Không có bé nào trong độ tuổi 18 tháng tuổi đến 7 tuổi",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
