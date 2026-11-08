@@ -2928,7 +2928,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nif(Rotation()[0]==1){a1=\"Muối ớt xoài\";};\nif(Rotation()[0]==2){a1=\"Thơm;};\nif(Rotation()[0]==3){a1=\"Muối ớt me\";};\nif(Rotation()[0]==4){a1=\"Muối ớt tắc\";};\nif(Rotation()[0]==5){a1=\"Cam\";};\nif(Rotation()[0]==6){a1=\"Phô mai cay\";};\nif(Rotation()[0]==7){a1=\"Quế\";};\nif(Rotation()[0]==8){a1=\"Muối xí muội\";};\nif(Rotation()[1]==1){a2=\"Muối ớt xoài\";};\nif(Rotation()[1]==2){a2=\"Thơm;};\nif(Rotation()[1]==3){a2=\"Muối ớt me\";};\nif(Rotation()[1]==4){a2=\"Muối ớt tắc\";};\nif(Rotation()[1]==5){a2=\"Cam\";};\nif(Rotation()[1]==6){a2=\"Phô mai cay\";};\nif(Rotation()[1]==7){a2=\"Quế\";};\nif(Rotation()[1]==8){a2=\"Muối xí muội\";};\nif(Rotation()[2]==1){a3=\"Muối ớt xoài\";};\nif(Rotation()[2]==2){a3=\"Thơm;};\nif(Rotation()[2]==3){a3=\"Muối ớt me\";};\nif(Rotation()[2]==4){a3=\"Muối ớt tắc\";};\nif(Rotation()[2]==5){a3=\"Cam\";};\nif(Rotation()[2]==6){a3=\"Phô mai cay\";};\nif(Rotation()[2]==7){a3=\"Quế\";};\nif(Rotation()[2]==8){a3=\"Muối xí muội\";};\nSetQuestionText(CurrentQuestion(),[a1,a2,a3]);",
+                "on_enter": "var a1=\"F\"+Rotation()[0];\nvar a2=\"F\"+Rotation()[1];\nvar a3=\"F\"+Rotation()[2];\nSetQuestionText(CurrentQuestion(),[a1,a2,a3]);",
                 "on_next": "",
                 "rules": []
               },
