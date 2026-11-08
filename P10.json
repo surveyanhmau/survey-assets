@@ -4196,6 +4196,1225 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
+            },
+            {
+              "id": "Q12",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết mức độ thích của anh/chị đối với trường {0} mà bé {1} đang theo học?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Rất không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Hơi không thích",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Không thích cũng không ghét",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Hơi thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Thích",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Rất thích",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q13a",
+              "type": "OPEN",
+              "text": "Anh/chị thích điểm gì về ngôi trường này?",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q12,[5,6,7])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q13b",
+              "type": "OPEN",
+              "text": "Còn điểm gì anh/chị chưa thích về ngôi trường này, dù là nhỏ nhất?",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q12,[1,2,3,4])){QuestionHide()}\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q14a",
+              "type": "MULTI",
+              "text": "Anh/chị thường tìm hiểu thông tin về các trường tư thục qua các nguồn nào sau đây?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Các hội nhóm/ bài đăng trên Facebook",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Các bài đăng của người nổi tiếng/ KOL/influencer trên Facebook",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Các nhóm cộng đồng/ phụ huynh trên Facebook",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Clip/video đánh giá/ giới thiệu trên Tiktok",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Clip/video đánh giá/ giới thiệu trên Youtube",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tìm kiếm thông tin trên google",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trang web chính thức của trường",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Thông tin trường do kết quả AI trả về",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Quảng cáo trên tivi",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Các trang báo mạng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Các trang diễn đàn về giáo dục",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Quảng cáo trên các Billboard/băng rôn ngoài đường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Quảng cáo trên các màn hình trong thang máy/ tòa nhà/ trung tâm thương mại",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Người thân/ bạn bè giới thiệu",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Nhân viên tư vấn của trường",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Giới thiệu của các phụ huynh khác có con học ở trường này",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Giới thiệu về trường trong các buổi hội thảo",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Q14b",
+              "type": "SINGLE",
+              "text": "Nguồn thông tin nào là quan trọng nhất với anh chị?",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Các hội nhóm/ bài đăng trên Facebook",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Các bài đăng của người nổi tiếng/ KOL/influencer trên Facebook",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Các nhóm cộng đồng/ phụ huynh trên Facebook",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Clip/video đánh giá/ giới thiệu trên Tiktok",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Clip/video đánh giá/ giới thiệu trên Youtube",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tìm kiếm thông tin trên google",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trang web chính thức của trường",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Thông tin trường do kết quả AI trả về",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Quảng cáo trên tivi",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Các trang báo mạng",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Các trang diễn đàn về giáo dục",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Quảng cáo trên các Billboard/băng rôn ngoài đường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Quảng cáo trên các màn hình trong thang máy/ tòa nhà/ trung tâm thương mại",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Người thân/ bạn bè giới thiệu",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Nhân viên tư vấn của trường",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Giới thiệu của các phụ huynh khác có con học ở trường này",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Giới thiệu về trường trong các buổi hội thảo",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q14b,Q14a);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "HD1",
+              "type": "EMPTY",
+              "text": "PVV nói:\nBây giờ, em xin phép nhờ anh/chị xem bản mô tả ý tưởng về một ngôi trường tư thục sẽ được xây dựng trong tương lai. Anh chị vui lòng dành ít phút để xem kĩ và sau đó cho em biết ý kiến đánh giá của mình đối với ngôi trường mới này.",
+              "note": "PVV LƯU Ý: ĐỌC LÊN CÙNG VỚI ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C1",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết mức độ thích tổng quan của anh/chị đối với thông tin về ngôi trường mới trong bản ý tưởng này?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Rất không thích",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không thích",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Hơi không thích",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Không thích cũng không ghét",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Hơi thích",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Thích",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Rất thích",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(C1,[1,2,3,4])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "C2b"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C2a",
+              "type": "OPEN",
+              "text": "Anh/chị thích điểm gì về ngôi trường trong bản mô tả ý tưởng này?",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(C1,[1,2,3,4])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "C3"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C2b",
+              "type": "OPEN",
+              "text": "Còn điểm gì anh/chị chưa thích về ngôi trường trong bản mô tả ý tưởng này, dù là nhỏ nhất?",
+              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(C1,[1,2,3,4])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "C2a"
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C3",
+              "type": "SINGLE",
+              "text": "Ý định cho bé {0} theo học tại ngôi trường trong bản ý tưởng này của anh/chị là như thế nào? Lưu ý, ở đây em chỉ muốn hỏi ý kiến về khả năng dự định trong tương lai của anh/chị sau khi xem qua bản mô tả ý tưởng, không nhất thiết phải là thực hiện hay không trong thời gian gần.",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không cho họ",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không cho học",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể cho học hoặc không",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ cho học",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ cho học",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C4",
+              "type": "SINGLE",
+              "text": "So sánh với ngôi trường mà bé {0} đang học thì anh chị đánh giá ngôi trường trong bản mô tả ý tưởng này như thế nào?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Hoàn toàn không tốt bằng",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Hơi không tốt bằng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Ngang nhau",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Hơi tốt hơn một chút",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Tôt hơn rất nhiều",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C5",
+              "type": "SINGLE_GRID",
+              "text": "Anh/chị đánh giá mức độ hấp dẫn/thu hút của các yếu tố sau về ngôi trường trong bản mô tả ý tưởng này là như thế nào?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Hoàn toàn không hấp dẫn/thu hút",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Hơi không hấp dẫn/thu hút",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Bình thường",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Hơi hấp dẫn/thu hút",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Rất hấp dẫn/thu hút",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "1. Chương trình giáo dục song ngữ toàn diện, có chiều sâu theo lộ trình tăng dần từ tiền tiểu học đến trung học phổ thông",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Phát triển tư duy song ngữ ở trẻ thay vì học song song 2 ngôn ngữ trong cùng 1 môn học",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Phát triển sự tự nhận thức ở trẻ - Giúp trẻ tự lập",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Phát triển tư duy phản biện của trẻ",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Phát triển ký năng xây dựng sức khỏe thể chất và tinh thần cho trẻ",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "6. Phát triển kỹ năng xây dựng các mối quan hệ tích cực",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "7. Phát triển kỹ năng quản lý tài chính cho trẻ",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "8. Khám phá thế mạnh và giúp trẻ xây dựng định hướng trong tương lai",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "9. Chương trình học chuẩn CAMBRIDGE chuẩn quốc tế",
+                  "code": "9",
+                  "is_other": false
+                },
+                {
+                  "text": "10. Chương trình học phát triển kỹ năng sống",
+                  "code": "10",
+                  "is_other": false
+                },
+                {
+                  "text": "11. Chương trình học phát triển kỹ năng quản lý tài chính cá nhân",
+                  "code": "11",
+                  "is_other": false
+                },
+                {
+                  "text": "12. Định hướng lĩnh vực học tập chuyên sâu cho trẻ trong 3 hướng: Công nghệ, Kinh doanh, hoặc Khoa học Xã hội & Nhân văn",
+                  "code": "12",
+                  "is_other": false
+                },
+                {
+                  "text": "13. Định hướng đầu ra có bằng tốt nghiệp THPT và chứng chỉ Cambridge và A-level",
+                  "code": "13",
+                  "is_other": false
+                },
+                {
+                  "text": "14. Đơn vị đầu tư giàu kinh nghiệm và có tính cam kết cao",
+                  "code": "14",
+                  "is_other": false
+                },
+                {
+                  "text": "15. Hiệu trưởng sáng lập giàu kinh nghiệm",
+                  "code": "15",
+                  "is_other": false
+                },
+                {
+                  "text": "16. Đội ngũ giao viên giỏi, giàu kinh nghiệm",
+                  "code": "16",
+                  "is_other": false
+                },
+                {
+                  "text": "17. Hệ thống phòng học, phòng chức năng chuyên biệt",
+                  "code": "17",
+                  "is_other": false
+                },
+                {
+                  "text": "18. Lớp học quy mô nhỏ - sỉ số tối đa 25 học sinh/lớp",
+                  "code": "18",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C6",
+              "type": "NUMBER_GRID",
+              "text": "Theo anh chị thì mức học phí hàng tháng của ngôi trường trong bảng mô tả ý tưởng này là bao nhiêu là phù hợp cho từng cấp học?\nPVV lưu ý: \n- Ghi nhận đơn vị theo Việt Nam Đồng\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "100000",
+              "max": "999999999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "(AnswerChoice(CurrentQuestion(),1)>AnswerChoice(CurrentQuestion(),2))||(AnswerChoice(CurrentQuestion(),2)>AnswerChoice(CurrentQuestion(),3))||(AnswerChoice(CurrentQuestion(),3)>AnswerChoice(CurrentQuestion(),4))||",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {
+                "headers": {
+                  "topic": "",
+                  "before": [],
+                  "code": "",
+                  "after": [
+                    ""
+                  ]
+                },
+                "rows": [
+                  {
+                    "topic": "Tiền tiểu học/ mầm non",
+                    "before": [],
+                    "code": 1,
+                    "after": [
+                      "Đồng"
+                    ]
+                  },
+                  {
+                    "topic": "Tiểu học",
+                    "before": [],
+                    "code": 2,
+                    "after": [
+                      "Đồng"
+                    ]
+                  },
+                  {
+                    "topic": "Trung học cơ sở",
+                    "before": [],
+                    "code": 3,
+                    "after": [
+                      "Đồng"
+                    ]
+                  },
+                  {
+                    "topic": "Trung học phổ thông",
+                    "before": [],
+                    "code": 4,
+                    "after": [
+                      "Đồng"
+                    ]
+                  }
+                ]
+              },
+              "form": {}
+            },
+            {
+              "id": "D1",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết công việc hiện tại của anh/chị là gì?",
+              "note": "SHOWTABLET – PVV GHI NHẬN THEO CÂU TRẢ LỜI CỦA ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Học sinh/Sinh viên",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nhân viên văn phòng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Công việc liên quan đến nghệ thuật (như diễn viên, ca sĩ, họa sĩ, người mẫu, vv.)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nội trợ",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Kinh doanh nhỏ (tại nhà/ở chợ)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Chủ cửa hàng/doanh nghiệp lớn có nhân viên",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Quản lý cấp cao (CEO/giám đốc/phó giám đốc)",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Quản lý cấp trung (quản lý/trợ lý quản lý)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Nhân viên có tay nghề / Chuyên viên (bác sĩ, y tá, kỹ sư, luật sư, vv)",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Nhân viên Nhà nước / Chính phủ",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Nghỉ hưu/Đang tìm việc",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác: Ghi rõ …",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "End",
+              "type": "EMPTY",
+              "text": "CÁM ƠN VÀ KẾT THÚC!",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
             }
           ],
           "children": []
