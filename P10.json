@@ -520,7 +520,7 @@
           },
           "logic": {
             "on_enter": "",
-            "on_next": "FilterLoopByAnswer(S5-loop,S4)",
+            "on_next": "FilterLoopByAnswer("S5loop,S4)",
             "rules": []
           },
           "conjoint": {},
@@ -530,8 +530,8 @@
       ],
       "children": [
         {
-          "id": "S5-loop",
-          "name": "S5-loop",
+          "id": "S5loop",
+          "name": "S5loop",
           "record": false,
           "hide_back": false,
           "random_question": false,
