@@ -867,7 +867,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
-                "on_next": "FilterLoopByAnswer(S6loop,CurrentQuestion())",
+                "on_next": "FilterLoopByAnswer(S6loop,S5Recode)",
                 "rules": []
               },
               "conjoint": {},
@@ -883,7 +883,7 @@
           "record": false,
           "hide_back": false,
           "random_question": false,
-          "on_enter": "Người con thứ nhất[c]1\nNgười con thứ 2[c]2\nNgười con thứ 3[c]3\nNgười con thứ 4[c]4\nNgười còn thứ 5[c]5\nNgười con thứ 6[c]6\nNgười con thứ 7[c]7\nNgười con thứ 8[c]8\nNgười con thứ 9[c]9\nNgười con thứ 10[c]10",
+          "on_enter": "",
           "loop": {
             "enabled_loop": true,
             "loop_random": false,
@@ -1133,7 +1133,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\n",
-                "on_next": "FilterLoopByAnswer(S7loop,CurrentQuestion())",
+                "on_next": "FilterLoopByAnswer(S7loop,S6Recode)",
                 "rules": []
               },
               "conjoint": {},
