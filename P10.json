@@ -457,7 +457,7 @@
         },
         {
           "id": "S4",
-          "type": "MULTI",
+          "type": "SINGLE",
           "text": "Anh/chị có tổng cộng bao nhiêu người con?",
           "note": "SHOWTABLET – PVV GHI NHẬN THEO CÂU TRẢ LỜI CỦA ĐÁP VIÊN",
           "media": "",
