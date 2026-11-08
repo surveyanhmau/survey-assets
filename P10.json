@@ -867,7 +867,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
-                "on_next": "FilterLoopByAnswer(S6loop,S5Recode)",
+                "on_next": "FilterLoopByAnswer(S6loop,CurrentQuestion())",
                 "rules": []
               },
               "conjoint": {},
@@ -1133,7 +1133,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\n",
-                "on_next": "FilterLoopByAnswer(S7loop,S6Recode)",
+                "on_next": "FilterLoopByAnswer(S7loop,CurrentQuestion())",
                 "rules": []
               },
               "conjoint": {},
@@ -1526,7 +1526,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
                 "on_next": "",
                 "rules": [
                   {
@@ -1565,7 +1565,78 @@
               "media": "",
               "record": false,
               "readonly": false,
-              "answers": [],
+              "answers": [
+                {
+                  "text": "1. Người con thứ nhất - {0} - {1} - {2}",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Người con thứ 2 - {0} - {1} - {2}",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Người con thứ 3 - {0} - {1} - {2}",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Người con thứ 4 - {0} - {1} - {2}",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Người còn thứ 5 - {0} - {1} - {2}",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Người con thứ 6 - {0} - {1} - {2}",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Người con thứ 7 - {0} - {1} - {2}",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Người con thứ 8 - {0} - {1} - {2}",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Người con thứ 9 - {0} - {1} - {2}",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Người con thứ 10 - {0} - {1} - {2}",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
               "topics": [],
               "min": "",
               "max": "",
