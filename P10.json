@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=0;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
+  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=0;i<=a;i=i+1){\n\t\tvar q=\"S5_\"+i;\n\t\tif(Contains(q,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -731,7 +731,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),CheckS5()])",
                 "on_next": "",
                 "rules": [
                   {
