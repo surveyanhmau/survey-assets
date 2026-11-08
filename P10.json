@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
+  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S5Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -866,7 +866,721 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8,9])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
+                "on_next": "FilterLoopByAnswer(S6loop,S5Recode)",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "S6loop",
+          "name": "S6loop",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "Người con thứ nhất[c]1\nNgười con thứ 2[c]2\nNgười con thứ 3[c]3\nNgười con thứ 4[c]4\nNgười còn thứ 5[c]5\nNgười con thứ 6[c]6\nNgười con thứ 7[c]7\nNgười con thứ 8[c]8\nNgười con thứ 9[c]9\nNgười con thứ 10[c]10",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "Người con thứ nhất",
+                "index": 1
+              },
+              {
+                "name": "Người con thứ 2",
+                "index": 2
+              },
+              {
+                "name": "Người con thứ 3",
+                "index": 3
+              },
+              {
+                "name": "Người con thứ 4",
+                "index": 4
+              },
+              {
+                "name": "Người còn thứ 5",
+                "index": 5
+              },
+              {
+                "name": "Người con thứ 6",
+                "index": 6
+              },
+              {
+                "name": "Người con thứ 7",
+                "index": 7
+              },
+              {
+                "name": "Người con thứ 8",
+                "index": 8
+              },
+              {
+                "name": "Người con thứ 9",
+                "index": 9
+              },
+              {
+                "name": "Người con thứ 10",
+                "index": 10
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "S6",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết những người con trong độ tuổi từ 18 tháng đến dưới 8 tuổi của anh/chị hiện đang học lớp mấy?\n{0}",
+              "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chưa đi học",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nhà trẻ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Mầm non",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lớp 1",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Lớp 2",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Lớp 3 trở lên",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "CheckS6()<1",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter3",
+          "name": "Chapter3",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "S6Recode",
+              "type": "MULTI",
+              "text": "NHỮNG BÉ TRONG ĐỘ TUỔI TỪ 18 THÁNG ĐẾN DƯỚI 8 TUỔI CÓ ĐI HỌC",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. Người con thứ nhất",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Người con thứ 2",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Người con thứ 3",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Người con thứ 4",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Người còn thứ 5",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Người con thứ 6",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Người con thứ 7",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Người con thứ 8",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Người con thứ 9",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Người con thứ 10",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\n",
+                "on_next": "FilterLoopByAnswer(S7loop,S6Recode)",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "S7loop",
+          "name": "S7loop",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": true,
+            "loop_random": false,
+            "iterations": [
+              {
+                "name": "Người con thứ nhất",
+                "index": 1
+              },
+              {
+                "name": "Người con thứ 2",
+                "index": 2
+              },
+              {
+                "name": "Người con thứ 3",
+                "index": 3
+              },
+              {
+                "name": "Người con thứ 4",
+                "index": 4
+              },
+              {
+                "name": "Người còn thứ 5",
+                "index": 5
+              },
+              {
+                "name": "Người con thứ 6",
+                "index": 6
+              },
+              {
+                "name": "Người con thứ 7",
+                "index": 7
+              },
+              {
+                "name": "Người con thứ 8",
+                "index": 8
+              },
+              {
+                "name": "Người con thứ 9",
+                "index": 9
+              },
+              {
+                "name": "Người con thứ 10",
+                "index": 10
+              }
+            ]
+          },
+          "questions": [
+            {
+              "id": "S7a",
+              "type": "SINGLE",
+              "text": "Những người con trong độ tuổi từ 18 tháng đến dưới 8 tuổi của anh/chị hiện đang học ở trường nào?\n{0}",
+              "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "100. Trường mầm non/nhà trẻ",
+                  "code": "100",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": true
+                },
+                {
+                  "text": "1. Trường mầm non 1/6",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Trường mầm non Chánh Mỹ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trường mầm non Đoàn Thị Liên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Trường mầm non Hoa Hướng Dương",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Trường mầm non Hoa Mai",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Trường mầm non Hoa Phượng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trường mầm non Hoa Lan – Cơ sở 1",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Trường mầm non Hoa Lan – Cơ sở 2",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Trường mầm non Hoa Lan – Cơ sở 3",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Mầm non Hoa Sen",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. SIS Bình Dương (Hệ mầm non)",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Trường Việt Hoa International (Hệ mầm non)",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Trường Việt Anh (Hệ mầm non)",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Petrus Ký - Cơ sở 1 (Hệ mầm non)",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "200. Trường tiểu học",
+                  "code": "200",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": true
+                },
+                {
+                  "text": "15. Trường tiểu học Nguyễn Du",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Trường tiểu học Phú Hòa 1",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Trường tiểu học Chánh Nghĩa",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Trường tiểu học Trần Phú - Cơ sở 1",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Trường tiểu học Trần Phú - Cơ sở 2",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Trường tiểu học Lê Hồng Phong",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Elite School (Hệ tiểu học)",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Ngô Thời Nhiệm (Hệ tiểu học)",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Marie Curie (Hệ tiểu học)",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "24. SIS Bình Dương (Hệ tiểu học)",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Trường Việt Hoa International (Hệ tiểu học)",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "26. Trường Việt Anh (Hệ tiểu học)",
+                  "code": "26",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "27. Trường Petrus Ký - Cơ sở 1 (Hệ tiểu học)",
+                  "code": "27",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "974",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "975",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "code": "976",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar i=LoopIndex();\nif(Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,11,12,13,14,971,972,973])};\nif(Contains(\"S6_\"+i,[4,5])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,21,22,23,24,25,26,27,974,975,976])};",
+                "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20])){SetAnswer(S7b,[4])};\n",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "S7b",
+              "type": "SINGLE",
+              "text": "KHÔNG HỎI: DP SANG CODE TỪ CÂU S7a\n{0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. Trường mầm non hệ công lập",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Trường mầm non hệ tư thục",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trường tiểu học hệ công lập",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Trường tiểu học hệ tư thục",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "CheckS7()<1",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter2",
+          "name": "Chapter2",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "S8",
+              "type": "SINGLE",
+              "text": "PVV tự chọn bé thỏa quota phù hợp",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nfor(var i=1;i<11;i=i+1){\na1=AnswerText(\"S5_\"+i);\na2=AnswerText(\"S6_\"+i);\na3=AnswerText(\"S7b_\"+i);\nSetAnswerText(CurrentQuestion(),i,[a1,a2,a3]);\n};",
                 "on_next": "",
                 "rules": []
               },
