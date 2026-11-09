@@ -5385,6 +5385,38 @@
               "form": {}
             },
             {
+              "id": "GPS-End",
+              "type": "GPS",
+              "text": "PVV ghi nhận GPS",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
               "id": "End",
               "type": "EMPTY",
               "text": "CÁM ƠN VÀ KẾT THÚC!",
