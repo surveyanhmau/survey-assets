@@ -1428,7 +1428,7 @@
         {
           "id": "HinhDV",
           "type": "MEDIA",
-          "text": "PVV chụp hình đáp viên",
+          "text": "PVV chụp hình đáp viên cầm sản phẩm",
           "note": "",
           "media": "",
           "record": false,
@@ -1452,45 +1452,6 @@
             "on_enter": "",
             "on_next": "",
             "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "HinhSP",
-          "type": "MEDIA",
-          "text": "PVV chụp hình sản phẩm của đáp viên",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": false,
-          "answers": [],
-          "topics": [],
-          "min": "1",
-          "max": "2",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "topic_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "",
-            "on_next": "",
-            "rules": [
-              {
-                "condition": "Contains(S12,[1])",
-                "action": "Goto",
-                "message": "",
-                "goto": "End"
-              }
-            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -2714,7 +2675,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội\"]);};",
+                "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài (F1)\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm (F2)\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me (F3)\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc (F4)\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam (F5)\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay (F6)\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế (F7)\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội (F8)\"]);};",
                 "on_next": "",
                 "rules": []
               },
