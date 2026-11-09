@@ -1453,7 +1453,7 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar i=LoopIndex();\nif(Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,11,12,13,14,971,972,973])};\nif(Contains(\"S6_\"+i,[4,5])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,21,22,23,24,25,26,27,974,975,976])};",
-                "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20])){SetAnswer(S7b,[4])};\n",
+                "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27])){SetAnswer(S7b,[4])};\n",
                 "rules": []
               },
               "conjoint": {},
@@ -1806,7 +1806,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. Giáo dục chất lượng",
+                  "text": "3. Chất lượng Giáo dục",
                   "code": "3",
                   "media": "",
                   "is_other": false,
@@ -1822,7 +1822,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "5. Phát triển nhân cách",
+                  "text": "5. Tiếng Anh thành thạo",
                   "code": "5",
                   "media": "",
                   "is_other": false,
@@ -1830,7 +1830,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "6. Giá trị đạo đức",
+                  "text": "6. Phát triển nhân cách",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -1838,7 +1838,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "7. An toàn tài chính",
+                  "text": "7. Giá trị đạo đức",
                   "code": "7",
                   "media": "",
                   "is_other": false,
@@ -1846,7 +1846,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "8. Kỹ năng sống",
+                  "text": "8. An toàn tài chính",
                   "code": "8",
                   "media": "",
                   "is_other": false,
@@ -1854,7 +1854,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "9. Tính tự lập",
+                  "text": "9. Kỹ năng sống",
                   "code": "9",
                   "media": "",
                   "is_other": false,
@@ -1862,7 +1862,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "10. Hạnh phúc và sự hài lòng với cuộc sống",
+                  "text": "10. Tính tự lập",
                   "code": "10",
                   "media": "",
                   "is_other": false,
@@ -1870,7 +1870,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Sự tự tin",
+                  "text": "11. Hạnh phúc và sự hài lòng với cuộc sống",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -1878,7 +1878,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "12. Kỹ năng giao tiếp xã hội",
+                  "text": "12. Sự tự tin",
                   "code": "12",
                   "media": "",
                   "is_other": false,
@@ -1886,7 +1886,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "13. Kỹ năng lãnh đạo",
+                  "text": "13. Kỹ năng giao tiếp xã hội",
                   "code": "13",
                   "media": "",
                   "is_other": false,
@@ -1894,7 +1894,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "14. Sáng tạo và đổi mới",
+                  "text": "14. Kỹ năng lãnh đạo",
                   "code": "14",
                   "media": "",
                   "is_other": false,
@@ -1902,7 +1902,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "15. Tư duy phản biện",
+                  "text": "15. Sáng tạo và đổi mới",
                   "code": "15",
                   "media": "",
                   "is_other": false,
@@ -1910,7 +1910,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "16. Bạn bè và các mối quan hệ xã hội tốt",
+                  "text": "16. Tư duy phản biện",
                   "code": "16",
                   "media": "",
                   "is_other": false,
@@ -1918,7 +1918,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "17. An toàn và được bảo vệ",
+                  "text": "17. Bạn bè và các mối quan hệ xã hội tốt",
                   "code": "17",
                   "media": "",
                   "is_other": false,
@@ -1926,7 +1926,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "18. Khả năng thích nghi",
+                  "text": "18. An toàn và được bảo vệ",
                   "code": "18",
                   "media": "",
                   "is_other": false,
@@ -1934,8 +1934,40 @@
                   "is_header": false
                 },
                 {
-                  "text": "19. Khả năng giải quyết vấn đề",
+                  "text": "19. Khả năng thích nghi",
                   "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Khả năng giải quyết vấn đề",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Có sự can đảm",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Có cuộc sống cân bằng trong tương lai",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Sống có mục đích",
+                  "code": "23",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -3323,7 +3355,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. Người không có dự định cho con học trường tư",
+                  "text": "3. Người chưa từng tìm hiểu cho con học trường tư",
                   "code": "3",
                   "media": "",
                   "is_other": false,
@@ -3344,7 +3376,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[1])};\nif(Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])&&!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[2])};\nif(!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[3])};\n",
+                "on_enter": "if(Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[1])};\nif(Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])&&!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[2])};\nif(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[3])};",
                 "on_next": "",
                 "rules": []
               },
@@ -3362,7 +3394,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. 1",
+                  "text": "1. Học phí vượt quá khả năng chi trả của gia đình",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -3370,7 +3402,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "2. 2",
+                  "text": "2. Các khoản chi phí liên quan (ăn uống, xe đưa đón, hoạt động ngoại khóa...) vượt quá khả năng chi trả của gia đình",
                   "code": "2",
                   "media": "",
                   "is_other": false,
@@ -3378,10 +3410,162 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. 3",
+                  "text": "3. Tôi chưa thực sự tin tưởng vào chất lượng giáo dục và kết quả học tập mà các trường tư thục có thể mang lại",
                   "code": "3",
                   "media": "",
                   "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Tôi lo ngại phương pháp giảng dạy của đội ngũ giáo viên không giúp con tôi phát triển kỹ năng và tính cách như tôi kỳ vọng",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Tôi lo ngại năng lực quản lý của nhà trường chưa đáp ứng kỳ vọng",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tôi chưa thấy bằng chứng rõ ràng cho thấy học sinh trường tư thục có kết quả đầu ra tốt hơn các lựa chọn giáo dục khác",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Tôi lo ngại môi trường học tập của trường không phù hợp với tính cách, năng lực hoặc nhu cầu phát triển của con",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tôi lo ngại con phải chịu áp lực học tập, áp lực thành tích hoặc khối lượng học tập quá lớn",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Tôi lo ngại môi trường bạn bè và các mối quan hệ xã hội tại trường có thể không phù hợp với con",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Tôi lo ngại về mức độ an toàn, kỷ luật và sự quan tâm chăm sóc học sinh của nhà trường",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Vị trí trường hoặc việc đưa đón con đi học hàng ngày không thuận tiện cho gia đình",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Tôi lo ngại về uy tín, tính ổn định hoặc định hướng phát triển lâu dài của nhà trường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Mô hình giáo dục của trường tư thục không phù hợp với quan điểm hoặc định hướng giáo dục của gia đình tôi",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Con tôi đang học ổn định tại trường hiện tại và gia đình chưa có nhu cầu chuyển trường",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Tôi lo ngại con sẽ gặp khó khăn trong việc theo kịp các môn học được giảng dạy bằng tiếng Anh",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Gia đình gặp khó khăn trong việc hỗ trợ con học tập tại nhà bằng tiếng Anh",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Tôi lo ngại chương trình song ngữ làm giảm sự tập trung vào tiếng Việt hoặc chương trình giáo dục quốc gia",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Tôi lo ngại chất lượng giáo viên nước ngoài hoặc giáo viên giảng dạy bằng tiếng Anh không đáp ứng kỳ vọng",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Tôi chưa có đủ thông tin đáng tin cậy để đánh giá và so sánh các trường song ngữ",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -3400,7 +3584,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};\nvar a=0;\na=Answer(S8);\nif(Answer(\"S5_\"+a)<4){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -3418,7 +3602,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. 1",
+                  "text": "1. Chất lượng giáo dục được đánh giá cao",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -3426,7 +3610,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "2. 2",
+                  "text": "2. Chương trình học giúp học sinh phát triển toàn diện về học thuật, kỹ năng, và phẩm chất cá nhân",
                   "code": "2",
                   "media": "",
                   "is_other": false,
@@ -3434,10 +3618,210 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. 3",
+                  "text": "3. Đội ngũ giáo viên có chuyên môn và năng lực giảng dạy tốt",
                   "code": "3",
                   "media": "",
                   "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Môi trường học tập phù hợp với tính cách và nhu cầu phát triển của con",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sĩ số lớp học ít giúp học sinh được quan tâm và hỗ trợ nhiều hơn",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhà trường quan tâm đến sự phát triển cá nhân, kỹ năng sống, sự an toàn và sức khỏe tinh thần của học sinh",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Môi trường học tập an toàn, kỷ luật và tích cực",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Cơ sở vật chất và điều kiện học tập tốt",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Trường có nhiều hoạt động ngoại khóa, thể thao và phát triển kỹ năng",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Trường có thành tích học tập và kết quả đầu ra tốt",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Trường có uy tín và thương hiệu tốt",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Phụ huynh hoặc người quen có những đánh giá tích cực về trường",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Trường có định hướng giáo dục phù hợp với quan điểm nuôi dạy con của gia đình",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Nhà trường thường xuyên kết nối và phối hợp với phụ huynh trong quá trình giáo dục học sinh",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Trường có khả năng chuẩn bị tốt cho các bậc học cao hơn hoặc tương lai của con",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Vị trí trường thuận tiện cho việc đưa đón hoặc sinh hoạt của gia đình",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Trường có dịch vụ Xe (Bus) đưa đón học sinh từ nhà tới trường và ngược lại",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Học phí được xem là hợp lý so với những giá trị mà trường mang lại",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Chương trình song ngữ giúp con có lợi thế học tập và nghề nghiệp trong tương lai",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Môi trường học tập đa văn hóa giúp mở rộng tư duy và trải nghiệm của học sinh",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Trường chú trọng phát triển kỹ năng mềm, tư duy phản biện và khả năng hội nhập",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "22. Trường có lộ trình rõ ràng giúp học sinh đạt được các chứng chỉ hoặc chuẩn năng lực tiếng Anh quốc tế",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "23. Trường có khả năng chuẩn bị tốt cho việc du học hoặc theo học các chương trình quốc tế trong tương lai",
+                  "code": "23",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "24. Trường có đơn vị liên kết quốc tế uy tín",
+                  "code": "24",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "25. Trường có các chương trình học bổng hấp dẫn",
+                  "code": "25",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -3474,7 +3858,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. 1",
+                  "text": "1. Chất lượng giáo dục tổng thể của nhà trường tốt",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -3482,7 +3866,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "2. 2",
+                  "text": "2. Thành tích học tập và kết quả đầu ra của học sinh tốt",
                   "code": "2",
                   "media": "",
                   "is_other": false,
@@ -3490,10 +3874,178 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. 3",
+                  "text": "3. Đội ngũ giáo viên có chuyên môn và năng lực giảng dạy tốt",
                   "code": "3",
                   "media": "",
                   "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Môi trường học tập phù hợp với tính cách và nhu cầu phát triển của con",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Giáo viên tận tâm chăm sóc và hỗ trợ từng học sinh phát triển cá nhân",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Môi trường học tập an toàn, tích cực và có tính kỷ luật",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Chương trình học giúp học sinh phát triển toàn diện cả học thuật, kỹ năng và phẩm chất cá nhân",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Sĩ số lớp học ít giúp con được quan tâm nhiều hơn",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Trường có danh tiếng và uy tín cao",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Phụ huynh đang có con theo học tại trường có đánh giá (review) tích cực",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Triết lý giáo dục phù hợp với quan điểm nuôi dạy con của gia đình",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Sự gắn kết và phối hợp hiệu quả giữa nhà trường và phụ huynh",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Cơ sở vật chất và điều kiện học tập tốt",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Trường có nhiều hoạt động ngoại khóa, thể thao và phát triển kỹ năng",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Trường có định hướng rõ ràng và khả năng chuẩn bị tốt cho các bậc học tiếp theo và tương lai của con",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Học phí được đánh giá là hợp lý so với giá trị nhận được",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Vị trí trường thuận tiện cho gia đình",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Con thích và mong muốn được học tại trường",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Tôi có trải nghiệm tích cực trong quá trình tham quan, tìm hiểu hoặc tuyển sinh của nhà trường",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Đội ngũ lãnh đạo Nhà trường có uy tín và năng lực",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Học sinh được học các môn văn hóa bằng Tiếng Anh",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "971. Khác: Ghi rõ …",
+                  "code": "971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "972. Khác: Ghi rõ …",
+                  "code": "972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "973. Khác: Ghi rõ …",
+                  "code": "973",
+                  "media": "",
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 }
@@ -3759,6 +4311,22 @@
                   "is_header": false
                 },
                 {
+                  "text": "19. Chương trình học phát triển Kĩ năng sống",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Chương trình giáo dục phẩm chất",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "971. Khác: Ghi rõ …",
                   "code": "971",
                   "media": "",
@@ -3959,6 +4527,22 @@
                   "is_header": false
                 },
                 {
+                  "text": "19. Chương trình học phát triển Kĩ năng sống",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Chương trình giáo dục phẩm chất",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "971. Khác: Ghi rõ …",
                   "code": "971",
                   "media": "",
@@ -4047,7 +4631,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Học thêm bổ túc các môn học chính",
+                  "text": "1. Cơ sở vật chất và trang thiết bị",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -4055,7 +4639,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "2. Học anh văn",
+                  "text": "2. Học thêm bổ túc các môn học chính",
                   "code": "2",
                   "media": "",
                   "is_other": false,
@@ -4063,7 +4647,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. Học ngoại ngữ khác",
+                  "text": "3. Học anh văn",
                   "code": "3",
                   "media": "",
                   "is_other": false,
@@ -4071,7 +4655,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "4. Học thêm các lớp ngoại khóa (VD: Học đàn, học hát, học võ, họ vẽ,…)",
+                  "text": "4. Học ngoại ngữ khác",
                   "code": "4",
                   "media": "",
                   "is_other": false,
@@ -4079,7 +4663,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "5. Phương tiện/ Xe đưa đón con đi học",
+                  "text": "5. Học thêm các lớp ngoại khóa (VD: Học đàn, học hát, học võ, họ vẽ,…)",
                   "code": "5",
                   "media": "",
                   "is_other": false,
@@ -4087,7 +4671,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "6. Đồng phục",
+                  "text": "6. Phương tiện/ Xe (Bus) đưa đón con đi học",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -4095,7 +4679,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "7. Sách vở, dụng cụ học tập",
+                  "text": "7. Đồng phục",
                   "code": "7",
                   "media": "",
                   "is_other": false,
@@ -4103,8 +4687,16 @@
                   "is_header": false
                 },
                 {
-                  "text": "8. Ăn uống (Ăn sáng/ ăn trưa/ ăn chiều)",
+                  "text": "8. Sách vở, dụng cụ học tập",
                   "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Ăn uống (Ăn sáng/ ăn trưa/ ăn chiều)",
+                  "code": "9",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -4352,7 +4944,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Các hội nhóm/ bài đăng trên Facebook",
+                  "text": "1. Các trang Fanpage của trường/ Bài đăng trên Facebook",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -4376,7 +4968,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "4. Clip/video đánh giá/ giới thiệu trên Tiktok",
+                  "text": "4. Clip/video quảng cáo hoặc đánh giá (review)/ giới thiệu trên Tiktok",
                   "code": "4",
                   "media": "",
                   "is_other": false,
@@ -4384,7 +4976,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "5. Clip/video đánh giá/ giới thiệu trên Youtube",
+                  "text": "5. Clip/video quảng cáo hoặc đánh giá (review)/ giới thiệu trên Youtube",
                   "code": "5",
                   "media": "",
                   "is_other": false,
@@ -4392,7 +4984,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "6. Tìm kiếm thông tin trên google",
+                  "text": "6. Tìm kiếm thông tin trên Google",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -4456,7 +5048,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "14. Người thân/ bạn bè giới thiệu",
+                  "text": "14. Giới thiệu của người thân gia đình/ bạn bè",
                   "code": "14",
                   "media": "",
                   "is_other": false,
@@ -4544,7 +5136,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Các hội nhóm/ bài đăng trên Facebook",
+                  "text": "1. Các trang Fanpage của trường/ Bài đăng trên Facebook",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -4565,21 +5157,21 @@
                   "is_header": false
                 },
                 {
-                  "text": "4. Clip/video đánh giá/ giới thiệu trên Tiktok",
+                  "text": "4. Clip/video quảng cáo hoặc đánh giá (review)/ giới thiệu trên Tiktok",
                   "code": "4",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "5. Clip/video đánh giá/ giới thiệu trên Youtube",
+                  "text": "5. Clip/video quảng cáo hoặc đánh giá (review)/ giới thiệu trên Youtube",
                   "code": "5",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "6. Tìm kiếm thông tin trên google",
+                  "text": "6. Tìm kiếm thông tin trên Google",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -4635,7 +5227,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "14. Người thân/ bạn bè giới thiệu",
+                  "text": "14. Giới thiệu của người thân gia đình/ bạn bè",
                   "code": "14",
                   "media": "",
                   "is_other": false,
@@ -5079,88 +5671,93 @@
                   "is_other": false
                 },
                 {
-                  "text": "2. Phát triển tư duy song ngữ ở trẻ thay vì học song song 2 ngôn ngữ trong cùng 1 môn học",
+                  "text": "2. Phát triển tư duy song ngữ ở trẻ thay vì chỉ học Tiếng Anh",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "3. Phát triển sự tự nhận thức ở trẻ - Giúp trẻ tự lập",
+                  "text": "3. Chương trình học tích hợp 1 lần, thay vì phải học cùng 1 môn học 2 lần bằng 2 ngôn ngữ",
                   "code": "3",
                   "is_other": false
                 },
                 {
-                  "text": "4. Phát triển tư duy phản biện của trẻ",
+                  "text": "4. Phát triển sự tự nhận thức ở trẻ - Giúp trẻ tự lập",
                   "code": "4",
                   "is_other": false
                 },
                 {
-                  "text": "5. Phát triển ký năng xây dựng sức khỏe thể chất và tinh thần cho trẻ",
+                  "text": "5. Phát triển tư duy phản biện của trẻ",
                   "code": "5",
                   "is_other": false
                 },
                 {
-                  "text": "6. Phát triển kỹ năng xây dựng các mối quan hệ tích cực",
+                  "text": "6. Phát triển kỹ năng xây dựng sức khỏe thể chất và tinh thần cho trẻ",
                   "code": "6",
                   "is_other": false
                 },
                 {
-                  "text": "7. Phát triển kỹ năng quản lý tài chính cho trẻ",
+                  "text": "7. Phát triển kỹ năng xây dựng các mối quan hệ tích cực",
                   "code": "7",
                   "is_other": false
                 },
                 {
-                  "text": "8. Khám phá thế mạnh và giúp trẻ xây dựng định hướng trong tương lai",
+                  "text": "8. Phát triển kỹ năng quản lý tài chính cho trẻ",
                   "code": "8",
                   "is_other": false
                 },
                 {
-                  "text": "9. Chương trình học chuẩn CAMBRIDGE chuẩn quốc tế",
+                  "text": "9. Khám phá thế mạnh và giúp trẻ xây dựng định hướng trong tương lai",
                   "code": "9",
                   "is_other": false
                 },
                 {
-                  "text": "10. Chương trình học phát triển kỹ năng sống",
+                  "text": "10. Chương trình học chuẩn CAMBRIDGE chuẩn quốc tế",
                   "code": "10",
                   "is_other": false
                 },
                 {
-                  "text": "11. Chương trình học phát triển kỹ năng quản lý tài chính cá nhân",
+                  "text": "11. Chương trình học phát triển kỹ năng sống",
                   "code": "11",
                   "is_other": false
                 },
                 {
-                  "text": "12. Định hướng lĩnh vực học tập chuyên sâu cho trẻ trong 3 hướng: Công nghệ, Kinh doanh, hoặc Khoa học Xã hội & Nhân văn",
+                  "text": "12. Chương trình học phát triển kỹ năng quản lý tài chính cá nhân",
                   "code": "12",
                   "is_other": false
                 },
                 {
-                  "text": "13. Định hướng đầu ra có bằng tốt nghiệp THPT và chứng chỉ Cambridge và A-level",
+                  "text": "13. Định hướng lĩnh vực học tập chuyên sâu cho trẻ trong 3 hướng: Công nghệ, Kinh doanh, hoặc Khoa học Xã hội & Nhân văn",
                   "code": "13",
                   "is_other": false
                 },
                 {
-                  "text": "14. Đơn vị đầu tư giàu kinh nghiệm và có tính cam kết cao",
+                  "text": "14. Định hướng đầu ra có bằng tốt nghiệp THPT và chứng chỉ Cambridge và A-level",
                   "code": "14",
                   "is_other": false
                 },
                 {
-                  "text": "15. Hiệu trưởng sáng lập giàu kinh nghiệm",
+                  "text": "15. Đơn vị đầu tư giàu kinh nghiệm và có tính cam kết cao",
                   "code": "15",
                   "is_other": false
                 },
                 {
-                  "text": "16. Đội ngũ giao viên giỏi, giàu kinh nghiệm",
+                  "text": "16. Hiệu trưởng sáng lập giàu kinh nghiệm",
                   "code": "16",
                   "is_other": false
                 },
                 {
-                  "text": "17. Hệ thống phòng học, phòng chức năng chuyên biệt",
+                  "text": "17. Đội ngũ giáo viên giỏi, giàu kinh nghiệm",
                   "code": "17",
                   "is_other": false
                 },
                 {
-                  "text": "18. Lớp học quy mô nhỏ - sỉ số tối đa 25 học sinh/lớp",
+                  "text": "18. Hệ thống phòng học, phòng chức năng chuyên biệt",
                   "code": "18",
+                  "is_other": false
+                },
+                {
+                  "text": "19. Lớp học quy mô nhỏ - sĩ số tối đa 25 học sinh/lớp",
+                  "code": "19",
                   "is_other": false
                 }
               ],
