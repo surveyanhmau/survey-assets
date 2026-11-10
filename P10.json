@@ -3852,7 +3852,7 @@
               "id": "Q5",
               "type": "MULTI",
               "text": "Vì sao anh/chị quyết định cho bé {0} học ở {1}?",
-              "note": "",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5301,7 +5301,7 @@
             {
               "id": "HD1",
               "type": "EMPTY",
-              "text": "PVV nói:\nBây giờ, em xin phép nhờ anh/chị xem bản mô tả ý tưởng về một ngôi trường tư thục sẽ được xây dựng trong tương lai. Anh chị vui lòng dành ít phút để xem kĩ và sau đó cho em biết ý kiến đánh giá của mình đối với ngôi trường mới này.",
+              "text": "PVV nói:\nBây giờ, em xin phép nhờ anh/chị xem bản mô tả ý tưởng về một ngôi trường tư thục sẽ được xây dựng trong tương lai. Anh chị vui lòng dành ít phút để xem kĩ và sau đó cho em biết ý kiến đánh giá của mình đối với ngôi trường mới này.\n<img 1.jpg>\n<img 2.jpg>",
               "note": "PVV LƯU Ý: ĐỌC LÊN CÙNG VỚI ĐÁP VIÊN",
               "media": "",
               "record": false,
@@ -5771,7 +5771,7 @@
               "realcam": false,
               "options": {
                 "answer_random": false,
-                "topic_random": false,
+                "topic_random": true,
                 "flip_table": false,
                 "two_state": false
               },
