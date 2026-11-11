@@ -1140,7 +1140,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\nif(GetAnswerCount(S7Recode)==0){SetAnswer(S7Recode,[99])};",
+                "on_enter": "var a=[];\nvar b=0;\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i];b=b+1};\n};\nSetAnswer(S7Recode,a);\nif(b==0){SetAnswer(S7Recode,[99])};",
                 "on_next": "FilterLoopByAnswer(S7loop,S7Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop)};",
                 "rules": []
               },
