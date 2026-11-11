@@ -637,7 +637,38 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
-                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);\nif(a>=10){SetAnswer(S5,[9])};",
+                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);\nif(a>=10){SetAnswer(S5,[9])};\nif(Answer(S5a)!=2025){QuestionHide(S5b);ClearAnswer(S5b);};",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "S5b",
+              "type": "NUMBER",
+              "text": "Con của anh/chị sinh tháng mấy năm 2025?\n{0}",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "12",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Answer(CurrentQuestion())>=5){SetAnswer(S5,[1])};\nif(Answer(CurrentQuestion())<5){SetAnswer(S5,[2])};\n",
+                "on_next": "",
                 "rules": []
               },
               "conjoint": {},
@@ -1141,7 +1172,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nvar b=0;\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i];b=b+1};\n};\nSetAnswer(S7Recode,a);\nif(b==0){SetAnswer(S7Recode,[99])};",
-                "on_next": "FilterLoopByAnswer(S7loop,S7Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop)};",
+                "on_next": "FilterLoopByAnswer(S7loop,S7Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop),ClearChapter(S7loop)};",
                 "rules": []
               },
               "conjoint": {},
