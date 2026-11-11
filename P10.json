@@ -763,7 +763,7 @@
           },
           "questions": [
             {
-              "id": "S5Recode",
+              "id": "S6Recode",
               "type": "MULTI",
               "text": "NHỮNG BÉ TRONG ĐỘ TUỔI TỪ 18 THÁNG ĐẾN DƯỚI 8 TUỔI",
               "note": "SHOWTABLET – PVV HỎI LẦN LƯỢT CHO TỪNG NGƯỜI CON",
@@ -1029,7 +1029,7 @@
           },
           "questions": [
             {
-              "id": "S6Recode",
+              "id": "S7Recode",
               "type": "MULTI",
               "text": "NHỮNG BÉ TRONG ĐỘ TUỔI TỪ 18 THÁNG ĐẾN DƯỚI 8 TUỔI CÓ ĐI HỌC",
               "note": "",
@@ -1141,7 +1141,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\nif(GetAnswerCount(S6Recode)==0){SetAnswer(S6Recode,[99])};",
-                "on_next": "FilterLoopByAnswer(S7loop,S6Recode)",
+                "on_next": "FilterLoopByAnswer(S7loop,S6Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop)};",
                 "rules": []
               },
               "conjoint": {},
@@ -1460,7 +1460,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar i=LoopIndex();\nif(Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,11,12,13,14,971,972,973])};\nif(Contains(\"S6_\"+i,[4,5])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,21,22,23,24,25,26,27,974,975,976])};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar i=LoopIndex();\nif(Contains(\"S5_\"+i,[2,3,4,5,6])&&Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,11,12,13,14,971,972,973])};\nif(Contains(\"S5_\"+i,[7,8])&&Contains(\"S6_\"+i,[4,5])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,21,22,23,24,25,26,27,974,975,976])};",
                 "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27])){SetAnswer(S7b,[4])};\n",
                 "rules": []
               },
