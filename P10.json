@@ -2187,9 +2187,9 @@
               "form": {}
             },
             {
-              "id": "Q1",
+              "id": "Q1a",
               "type": "MULTI",
-              "text": "Ngoài trường mà con của anh/chị đang theo học, thì anh/chị có biết/nghe nói đến các trường nào khác dưới đây?",
+              "text": "Anh/chị có biết/nghe nói đến các trường nào khác dưới đây?",
               "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
               "media": "",
               "record": false,
@@ -2458,301 +2458,13 @@
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "1",
-              "max": "999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "var a=[];\na=a+Answer(Q1);\nfor(var i=1;i<11;i=i+1){\n\ta=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);\nSetAnswerOther(Q1a,971,OtherAnswerText(Q1,971));\nSetAnswerOther(Q1a,972,OtherAnswerText(Q1,972));\nSetAnswerOther(Q1a,973,OtherAnswerText(Q1,973));\nSetAnswerOther(Q1a,974,OtherAnswerText(Q1,974));\nSetAnswerOther(Q1a,975,OtherAnswerText(Q1,975));\nSetAnswerOther(Q1a,976,OtherAnswerText(Q1,976));",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q1a",
-              "type": "MULTI",
-              "text": "",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": true,
-              "answers": [
+                },
                 {
-                  "text": "1. Trường mầm non 1/6",
-                  "code": "1",
+                  "text": "98.",
+                  "code": "98",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Trường mầm non Chánh Mỹ",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Trường mầm non Đoàn Thị Liên",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Trường mầm non Hoa Hướng Dương",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Trường mầm non Hoa Mai",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "6. Trường mầm non Hoa Phượng",
-                  "code": "6",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "7. Trường mầm non Hoa Lan – Cơ sở 1",
-                  "code": "7",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "8. Trường mầm non Hoa Lan – Cơ sở 2",
-                  "code": "8",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "9. Trường mầm non Hoa Lan – Cơ sở 3",
-                  "code": "9",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "10. Mầm non Hoa Sen",
-                  "code": "10",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "11. SIS Bình Dương (Hệ mầm non)",
-                  "code": "11",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "12. Trường Việt Hoa International (Hệ mầm non)",
-                  "code": "12",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "13. Trường Việt Anh (Hệ mầm non)",
-                  "code": "13",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "14. Petrus Ký - Cơ sở 1 (Hệ mầm non)",
-                  "code": "14",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
-                  "code": "971",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
-                  "code": "972",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
-                  "code": "973",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "15. Trường tiểu học Nguyễn Du",
-                  "code": "15",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "16. Trường tiểu học Phú Hòa 1",
-                  "code": "16",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "17. Trường tiểu học Chánh Nghĩa",
-                  "code": "17",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "18. Trường tiểu học Trần Phú - Cơ sở 1",
-                  "code": "18",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "19. Trường tiểu học Trần Phú - Cơ sở 2",
-                  "code": "19",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "20. Trường tiểu học Lê Hồng Phong",
-                  "code": "20",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "21. Elite School (Hệ tiểu học)",
-                  "code": "21",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "22. Ngô Thời Nhiệm (Hệ tiểu học)",
-                  "code": "22",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "23. Marie Curie (Hệ tiểu học)",
-                  "code": "23",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "24. SIS Bình Dương (Hệ tiểu học)",
-                  "code": "24",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "25. Trường Việt Hoa International (Hệ tiểu học)",
-                  "code": "25",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "26. Trường Việt Anh (Hệ tiểu học)",
-                  "code": "26",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "27. Trường Petrus Ký - Cơ sở 1 (Hệ tiểu học)",
-                  "code": "27",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
-                  "code": "974",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
-                  "code": "975",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
-                  "code": "976",
-                  "media": "",
-                  "is_other": true,
-                  "is_exclusive": false,
+                  "is_exclusive": true,
                   "is_header": false
                 }
               ],
@@ -2770,7 +2482,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "QuestionHide()",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\n\ta=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);",
                 "on_next": "",
                 "rules": []
               },
@@ -2782,7 +2494,7 @@
               "id": "Q1b",
               "type": "MULTI",
               "text": "Trong đó, những trường nào anh/chị đã từng HOẶC đang tìm hiểu thông tin cho bé {0} theo học?",
-              "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
+              "note": "SHOWTABLET – PVV CHO ĐÁP VIÊN CHỌN CODE PHÙ HỢP VÀ ĐỌC XÁC NHẬN CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3077,8 +2789,8 @@
             {
               "id": "Q1c",
               "type": "MULTI",
-              "text": "Trường nào anh/chị đã từng HOẶC đang có dự định cho bé {0} theo học?",
-              "note": "SHOWTABLET – PVV CÓ KHÔNG CHO TỪNG TRƯỜNG",
+              "text": "Trường nào anh/chị đã từng HOẶC đang có dự định cho bé {0} theo học sau khi đã tìm hiểu thông tin?",
+              "note": "SHOWTABLET – PVV CHO ĐÁP VIÊN CHỌN CODE PHÙ HỢP VÀ ĐỌC XÁC NHẬN CODE",
               "media": "",
               "record": false,
               "readonly": false,
@@ -3380,7 +3092,7 @@
               "readonly": true,
               "answers": [
                 {
-                  "text": "1. Người có dự định cho con học trường tư",
+                  "text": "1. Người có dự định/đã/đang cho con học trường tư",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -4156,7 +3868,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nvar a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
                 "on_next": "",
                 "rules": []
               },
@@ -4188,7 +3900,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -4788,7 +4500,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nvar a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -4820,7 +4532,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
