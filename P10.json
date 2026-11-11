@@ -5372,7 +5372,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nvar a=\"S7b_\"+Answer(S8);\nif(!Contains(a,[1,2,3,4])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
