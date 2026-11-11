@@ -867,7 +867,7 @@
               },
               "logic": {
                 "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);",
-                "on_next": "FilterLoopByAnswer(S6loop,S6Recode)",
+                "on_next": "FilterLoopByAnswer(S6loop,S6Recode);\nFilterAnswerByAnswer(S8,S6Recode);",
                 "rules": []
               },
               "conjoint": {},
@@ -1645,7 +1645,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nfor(var i=1;i<11;i=i+1){\na1=AnswerText(\"S5_\"+i);\na2=AnswerText(\"S6_\"+i);\na3=AnswerText(\"S7b_\"+i);\nSetAnswerText(CurrentQuestion(),i,[a1,a2,a3]);};\nFilterAnswerByAnswer(S8,S6Recode);",
+                "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nfor(var i=1;i<11;i=i+1){\na1=AnswerText(\"S5_\"+i);\na2=AnswerText(\"S6_\"+i);\na3=AnswerText(\"S7b_\"+i);\nSetAnswerText(CurrentQuestion(),i,[a1,a2,a3]);};",
                 "on_next": "",
                 "rules": []
               },
