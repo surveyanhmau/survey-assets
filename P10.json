@@ -637,7 +637,7 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
-                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);\nif(a>=10){SetAnswer(S5,[9]);};",
+                "on_next": "",
                 "rules": []
               },
               "conjoint": {},
