@@ -667,7 +667,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!(Answer(S5a)==2025)){QuestionHide();};\nSetQuestionText(CurrentQuestion(),[LoopName()]);",
+                "on_enter": "if(!(Answer(S5a)==2025)){QuestionHide();};\nSetQuestionText(CurrentQuestion(),[LoopName()]);\nif(Answer(S5b)>4){SetAnswer(S5,[1])};",
                 "on_next": "",
                 "rules": []
               },
