@@ -667,7 +667,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!(Answer(S5a)==2025)){QuestionHide();};\nSetQuestionText(CurrentQuestion(),[LoopName()]);\nif(Answer(S5b)>4){SetAnswer(S5,[1])};",
+                "on_enter": "if(!(Answer(S5a)==2025)){QuestionHide();};\nSetQuestionText(CurrentQuestion(),[LoopName()]);",
                 "on_next": "",
                 "rules": []
               },
@@ -762,7 +762,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
+                "on_enter": "var a = 2027 - Answer(S5a);\nSetAnswer(S5,[a]);\nif((a==2)&&(Answer(S5b)>5)){SetAnswer(S5,[1]);};\nif(a>=10){SetAnswer(S5,[9]);};\nSetQuestionText(CurrentQuestion(),[LoopName()])",
                 "on_next": "",
                 "rules": [
                   {
