@@ -866,8 +866,8 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S5Recode,a);",
-                "on_next": "FilterLoopByAnswer(S6loop,S5Recode)",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S5_\"+i,[2,3,4,5,6,7,8])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);",
+                "on_next": "FilterLoopByAnswer(S6loop,S6Recode)",
                 "rules": []
               },
               "conjoint": {},
@@ -1140,8 +1140,8 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\nif(GetAnswerCount(S6Recode)==0){SetAnswer(S6Recode,[99])};",
-                "on_next": "FilterLoopByAnswer(S7loop,S6Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop)};",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\nif(Contains(\"S6_\"+i,[2,3,4,5])){a=a+[i]};\n};\nSetAnswer(S6Recode,a);\nif(GetAnswerCount(S7Recode)==0){SetAnswer(S7Recode,[99])};",
+                "on_next": "FilterLoopByAnswer(S7loop,S7Recode);\nif(Contains(S7Recode,[99])){ChapterHide(S7loop)};",
                 "rules": []
               },
               "conjoint": {},
