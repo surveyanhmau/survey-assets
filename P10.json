@@ -637,7 +637,7 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
-                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);\nif(a>=10){SetAnswer(S5,[9]);};\nif(a>2){QuestionHide(S5b);ClearAnswer(S5b);};\nif(a<2){QuestionHide(S5b);ClearAnswer(S5b);};",
+                "on_next": "var a = 2027 - Answer(CurrentQuestion());\nSetAnswer(S5,[a]);\nif(a>=10){SetAnswer(S5,[9]);};",
                 "rules": []
               },
               "conjoint": {},
@@ -667,7 +667,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a = 12 - Answer(CurrentQuestion());\nif(a>=7){SetAnswer(S5,[2])};\nif(a<7){SetAnswer(S5,[1])};\nSetQuestionText(CurrentQuestion(),[LoopName()]);",
+                "on_enter": "if(!(Answer(S5a)==2025)){QuestionHide();};\nSetQuestionText(CurrentQuestion(),[LoopName()]);",
                 "on_next": "",
                 "rules": []
               },
