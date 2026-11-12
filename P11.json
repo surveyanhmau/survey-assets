@@ -209,13 +209,6 @@
               "is_header": false
             },
             {
-              "text": "2. Hà Nội",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
               "text": "99. Khác",
               "code": "99",
               "media": "",
@@ -1016,7 +1009,14 @@
           "logic": {
             "on_enter": "",
             "on_next": "ClearAnswer(S9b)",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[7])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -1112,7 +1112,14 @@
           "logic": {
             "on_enter": "FilterAnswerByAnswer(S9b,S9a)",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[7])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -1320,7 +1327,14 @@
           "logic": {
             "on_enter": "FilterTopicByAnswer(S10,S9b)",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "ContainsChoice(CurrentQuestion(),7,[1])",
+                "action": "Hard",
+                "message": "ĐÓNG",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -1328,52 +1342,6 @@
         },
         {
           "id": "S11",
-          "type": "SINGLE",
-          "text": "PVV ghi nhận đối tượng phỏng vấn",
-          "note": "",
-          "media": "",
-          "record": false,
-          "readonly": true,
-          "answers": [
-            {
-              "text": "1. Doowee user",
-              "code": "1",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            },
-            {
-              "text": "2. Doowee non-user",
-              "code": "2",
-              "media": "",
-              "is_other": false,
-              "is_header": false
-            }
-          ],
-          "topics": [],
-          "min": "",
-          "max": "",
-          "unit": "",
-          "display_columns": 1,
-          "no_answer": false,
-          "integer_only": true,
-          "realtime": false,
-          "realcam": false,
-          "options": {
-            "answer_random": false,
-            "search": false
-          },
-          "logic": {
-            "on_enter": "if(Contains(S9b,[7])&&!ContainsChoice(S10,7,[1])){SetAnswer(S11,[1])};\nif(!Contains(S9b,[7])){SetAnswer(S11,[2])};",
-            "on_next": "",
-            "rules": []
-          },
-          "conjoint": {},
-          "number_grid": {},
-          "form": {}
-        },
-        {
-          "id": "S12",
           "type": "SINGLE",
           "text": "Hiện công ty chúng tôi đang tiến hành cuộc khảo sát thị trường và muốn mời con đến công ty chúng tôi tham gia cuộc khảo sát này cùng chúng tôi. \nXin cho biết con có sẵn lòng tham gia cuộc khảo sát này vào ngày …….... Tại …………………..……với chúng tôi?",
           "note": "PVV HỎI BÉ",
