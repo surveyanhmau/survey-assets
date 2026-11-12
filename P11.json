@@ -2160,7 +2160,7 @@
             {
               "id": "Q301",
               "type": "RANKING",
-              "text": "Trong 3 mẫu bánh em vừa thử, em hãy xếp hạng theo mức độ yêu thích: sự kết hợp giữa bánh và gia vị em thích nhất, sự kết hợp em thích thứ hai và sự kết hợp em thích thứ ba\n- Mẫu thích nhất: Ghi số 1\n- Mẫu thích nhì: Ghi số 2\n- Mẫu thích ba: Ghi số 3",
+              "text": "Trong 3 mẫu bánh em vừa thử, em hãy xếp hạng theo mức độ yêu thích theo thứ tự: Thích nhất, thích thứ hai, thích thứ 3\n\nPVV lưu ý: Nếu bé chỉ chọn mẫu thích nhất nhưng không xếp hạng 2 mẫu còn lại, PVV có thể hỏi theo hướng “Vậy đâu là mẫu bánh con không thích nhất?” -> PVV xếp hạng 3 cho mẫu bánh bé không thích nhất ",
               "note": "PVV HỎI",
               "media": "",
               "record": false,
@@ -2269,7 +2269,7 @@
             {
               "id": "Q302",
               "type": "OPEN",
-              "text": "Vì sao em thích sự kết hợp giữa bánh và gia vị này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ nhất.",
+              "text": "Vì sao em thích sự kết hợp giữa bánh và loại bột bí mật này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ nhất.",
               "note": "PVV HỎI",
               "media": "",
               "record": false,
