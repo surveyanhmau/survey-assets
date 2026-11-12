@@ -1560,7 +1560,7 @@
         {
           "id": "HD2",
           "type": "EMPTY",
-          "text": "PHẦN MỞ ĐẦU:\n• PVV nói: “Chào em. Hôm nay em có khỏe không? Anh/chị mời em đến đây để hỏi em một số câu hỏi về trải nghiệm ăn bánh hoàn toàn mới.\n• Ở đây không có câu trả lời nào đúng hay sai, anh/chị chỉ muốn biết ý của em về sản phẩm bánh mà em sẽ ăn. Do đó, em nghĩ gì thì cứ nói như vậy với anh/chị nhé.”\n\nPVV lấy ví dụ cho bé về cách lựa chọn mức độ yêu thích bằng ví dụ về đồ ăn trước, sau đó mới bắt đầu -> Dùng ICON showcard\n",
+          "text": "PHẦN MỞ ĐẦU:\n• PVV nói: “Chào em. Hôm nay em có khỏe không? Anh/chị mời em đến đây để hỏi em một số câu hỏi về trải nghiệm ăn bánh hoàn toàn mới.\n• Ở đây không có câu trả lời nào đúng hay sai, anh/chị chỉ muốn biết ý của em về sản phẩm bánh mà em sẽ ăn. Do đó, em nghĩ gì thì cứ nói như vậy với anh/chị nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -1591,7 +1591,7 @@
         {
           "id": "HD3",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN\no PVV giới thiệu: “Hôm nay, em sẽ được trải nghiệm một cách ăn bánh hoàn toàn mới. Khi ăn, em sẽ nhận được một gói gia vị bí mật mà mình chưa biết trước bên trong là vị gì. Em sẽ tự tay mở gói gia vị, rắc lên bánh, sau đó lắc nhẹ để gia vị phủ đều lên bánh. Mỗi gói gia vị có thể mang đến một hương vị bất ngờ khác nhau. Em chờ một chút để anh/chị đi lấy nha” \no Tiếp theo, PVV vừa hướng dẫn đáp viên vừa nói: “Ở đây chị có 1 gói bánh và 1 gói gia vị bí mật. Bây giờ, em hãy mở gói bánh ra, sau đó hãy thử mở gói gia vị này nhé! Tiếp theo, em rắc hết phần gia vị trong gói lên bánh, sau đó giữ bánh lại và lắc nhẹ để gia vị phủ đều lên bánh nha.”\no PVV lưu ý:\n  ● PVV chuẩn bị 1 bộ trải nghiệm gồm 1 bánh, 1 gói gia vị, 1 kéo được đặt trên 1 khay nhỏ cho mỗi đáp viên.\n  ● Hướng dẫn trẻ tự tay mở gói, rắc gia vị và lắc bánh. PVV KHÔNG thực hiện dùm cho đáp viên.\n  ● Đây chỉ là hoạt động chỏ trẻ trải nghiệm việc lắc bánh với gia vị. Đáp viên KHÔNG ăn mẫu bánh này.\n\nSau khi đáp viên đã thực hiện xong, PVV nói “Bây giờ, anh/chị sẽ hỏi em một số câu hỏi về trải nghiệm vừa rồi nhé.”\n",
+          "text": "HƯỚNG DẪN\no PVV giới thiệu: “Hôm nay, em sẽ được trải nghiệm một cách ăn bánh hoàn toàn mới. Khi ăn, em sẽ nhận được một gói bột lắc bí mật mà mình chưa biết trước bên trong là vị gì. Em sẽ tự tay mở gói bột lắc, rắc lên bánh, sau đó lắc nhẹ để bột lắc phủ đều lên bánh. Mỗi gói bột lắc có thể mang đến một hương vị bất ngờ khác nhau. Em chờ một chút để anh/chị đi lấy nha” \no Tiếp theo, PVV vừa hướng dẫn đáp viên vừa nói: “Ở đây chị có 1 gói bánh và 1 gói bột lắc bí mật. Bây giờ, em hãy mở gói bánh ra, sau đó hãy thử mở gói bột lắc này nhé! Tiếp theo, em rắc hết phần bột lắc trong gói lên bánh, sau đó giữ bánh lại và lắc nhẹ để bột lắc phủ đều lên bánh nha.”\no PVV lưu ý:\n● PVV chuẩn bị 1 bộ trải nghiệm gồm 1 bánh, 1 gói bột lắc, 1 kéo được đặt trên 1 khay nhỏ cho mỗi đáp viên.\n● Hướng dẫn trẻ tự tay mở gói, rắc bột lắc và lắc bánh. PVV KHÔNG thực hiện dùm cho đáp viên.\n● Đây chỉ là hoạt động chỏ trẻ trải nghiệm việc lắc bánh với bột lắc. Đáp viên KHÔNG ăn mẫu bánh này.\n\nSau khi đáp viên đã thực hiện xong, PVV nói “Bây giờ, anh/chị sẽ hỏi em một số câu hỏi về trải nghiệm vừa rồi nhé.”",
           "note": "",
           "media": "",
           "record": false,
@@ -1623,42 +1623,42 @@
         {
           "id": "Q100",
           "type": "SINGLE",
-          "text": "Em cảm thấy như thế nào về trải nghiệm lắc bánh với gia vị bí mật này?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+          "text": "Em cảm thấy như thế nào về trải nghiệm lắc bánh với bột bí mật này?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
           "note": "SHOWICON",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không thú vị",
+              "text": "1. Không vui tí nào😞",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không thú vị",
+              "text": "2. Không vui 🙁",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Bình thường",
+              "text": "3. Bình thường 😐",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Thú vị",
+              "text": "4. Vui 🙂",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Rất thú vị",
+              "text": "5. Rất rất vui 😄",
               "code": "5",
               "media": "",
               "is_other": false,
