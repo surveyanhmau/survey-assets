@@ -2013,21 +2013,21 @@
             {
               "id": "Q201",
               "type": "SINGLE",
-              "text": "Sau khi ăn thử bánh kết hợp với bột lắc bí mật này, em thấy mức độ ngon thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
+              "text": "Mức độ yêu thích của em sau khi ăn thử bánh kết hợp với bột lắc bí mật này là như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
               "note": "SHOWICON",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Hoàn toàn không ngon😞",
+                  "text": "1. Hoàn toàn không thích 😞",
                   "code": "1",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "2. Không ngon 🙁",
+                  "text": "2. Không thích 🙁",
                   "code": "2",
                   "media": "",
                   "is_other": false,
@@ -2041,14 +2041,14 @@
                   "is_header": false
                 },
                 {
-                  "text": "4. Ngon🙂",
+                  "text": "4. Thích 🙂",
                   "code": "4",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "5. Rất ngon 😄",
+                  "text": "5. Rất thích 😄",
                   "code": "5",
                   "media": "",
                   "is_other": false,
