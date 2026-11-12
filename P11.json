@@ -1690,42 +1690,42 @@
         {
           "id": "Q101",
           "type": "SINGLE",
-          "text": "Nhìn chung, em cảm thấy mẫu bánh sau khi được rắc gia vị trông hấp dẫn ở mức độ nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
+          "text": "Mức độ tò mò của em về trải nghiệm lắc bánh với bột bí mật này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
           "note": "SHOWICON",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hấp dẫn",
+              "text": "1. Không tò mò chút nào😞",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hấp dẫn",
+              "text": "2. Hơi không tò mò 🙁",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Bình thường",
+              "text": "3. Bình thường 😐",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Hấp dẫn",
+              "text": "4. Tò mò 🙂",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Rất hấp dẫn",
+              "text": "5. Rất tò mò 😄",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1757,42 +1757,109 @@
         {
           "id": "Q102",
           "type": "SINGLE",
-          "text": "Khi mở gói gia vị mà chưa biết bên trong là vị gì, em cảm thấy thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
+          "text": "Mức độ hào hứng muốn trải nghiệm lắc bánh với bột bí mật này của em như thế nào? [SA]\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
           "note": "SHOWICON",
           "media": "",
           "record": false,
           "readonly": false,
           "answers": [
             {
-              "text": "1. Hoàn toàn không hào hứng",
+              "text": "1. Không hào hứng chút nào😞",
               "code": "1",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "2. Không hào hứng lắm",
+              "text": "2. Hơi không hào hứng 🙁",
               "code": "2",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "3. Bình thường",
+              "text": "3. Bình thường 😐",
               "code": "3",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "4. Hơi hào hứng",
+              "text": "4. Hào hứng 🙂",
               "code": "4",
               "media": "",
               "is_other": false,
               "is_header": false
             },
             {
-              "text": "5. Rất hào hứng",
+              "text": "5. Rất hào hứng 😄",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
+          "id": "Q103",
+          "type": "SINGLE",
+          "text": "Em cảm thấy trải nghiệm vừa rồi (bao gồm việc mở gói bánh, mở gói gia vị, rắc gia vị lên bánh và lắc bánh) dễ thực hiện ở mức độ nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+          "note": "SHOWICON",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Rất khó thực hiện😞",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Hơi khó thực hiện 🙁",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Bình thường 😐",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Dễ thực hiện 🙂",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Rất dễ thực hiện 😄",
               "code": "5",
               "media": "",
               "is_other": false,
@@ -1824,7 +1891,7 @@
         {
           "id": "HD4",
           "type": "EMPTY",
-          "text": "HƯỚNG DẪN:\nPVV nói: “Chị xin phép cất phần bánh em vừa trải nghiệm lắc gia vị này và đi lấy 1 sản phẩm mới hoàn toàn để nhờ em đánh giá tiếp. Em chờ chị 1 chút nhé.”\n\nPVV lấy phần bánh và toàn bộ dụng cụ bé đã sử dụng cất vào khu pha chế mẫu.",
+          "text": "HƯỚNG DẪN:\nPVV nói: “Chị xin phép cất phần bánh em vừa trải nghiệm lắc bột lắc này và đi lấy 1 sản phẩm mới hoàn toàn để nhờ em đánh giá tiếp. Em chờ chị 1 chút nhé.”\nPVV lấy phần bánh và toàn bộ dụng cụ bé đã sử dụng cất vào khu pha chế mẫu.",
           "note": "",
           "media": "",
           "record": false,
@@ -1947,7 +2014,7 @@
             {
               "id": "HD5",
               "type": "EMPTY",
-              "text": "HƯỚNG DẪN\no PVV nói: “Em giúp anh/chị ăn 1 miếng sắn rồi uống một chút nước lọc để thanh vị trước đã nhé”\no Sau khi đáp viên ăn/uống thanh vị, PVV nói: “Đây là mẫu bánh đã được lắc với một loại gia vị bí mật. Em hãy ăn một vài miếng để cảm nhận hương vị của bánh nhé, lưu ý là ăn tối đa 1/3 bánh thôi để tránh no quá vì hôm nay mình thử 3 sản phẩm lận nha.”\n\no PVV lưu ý:\n  ● PVV lấy bánh đã được lắc với vị {0}\n  ● Trong suốt quá trình tham gia phỏng vấn, PVV nhắc nhở đáp viên không ăn hoặc uống bất kỳ sản phẩm/ thức ăn gì ngoài sản phẩm/ thực phẩm để thanh vị và sản phẩm mẫu\n  ● Bàn phỏng vấn phải sạch sẽ, chỉ để 1 mẫu thử trên bàn khi phỏng vấn\n\nPVV đảm bảo đáp viên đã thử xong trước khi đi vào phần câu hỏi.",
+              "text": "HƯỚNG DẪN\no\tPVV nói: “Em giúp anh/chị ăn 1 miếng sắn rồi uống một chút nước lọc để thanh vị trước đã nhé”\no\tSau khi đáp viên ăn/uống thanh vị, PVV nói: “Đây là mẫu bánh đã được lắc với một loại bột lắc bí mật. Em hãy ăn một vài miếng để cảm nhận hương vị của bánh nhé, lưu ý là ăn tối đa 1/3 bánh thôi để tránh no quá vì hôm nay mình thử 3 sản phẩm lận nha.”\no\tPVV lưu ý:\n●\tPVV lấy bánh đã được lắc với từng vị: {0}\n●\tTrong suốt quá trình tham gia phỏng vấn, PVV nhắc nhở đáp viên không ăn hoặc uống bất kỳ sản phẩm/ thức ăn gì ngoài sản phẩm/ thực phẩm để thanh vị và sản phẩm mẫu\n●\tBàn phỏng vấn phải sạch sẽ, chỉ để 1 mẫu thử trên bàn khi phỏng vấn",
               "note": "",
               "media": "",
               "record": false,
@@ -1968,689 +2035,6 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q201",
-              "type": "SINGLE",
-              "text": "Sau khi ăn thử, em THÍCH sự kết hợp giữa gia vị này và mẫu bánh ở mức độ nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\n\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Hoàn toàn không thích",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Không thích",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Bình thường",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Thích",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Rất thích",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(Q201,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q202b"
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q202a",
-              "type": "OPEN_GRID",
-              "text": "Em THÍCH điều gì ở sự kết hợp giữa gia vị này với mẫu bánh mà em vừa ăn thử?\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên thích: \n ● Đầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \n ● Nếu 2 lần mà em trả lời: “Dạ hết rồi anh/chị” thì không cần hỏi tiếp để tránh trường hợp bé cảm thấy mệt.\n ● Lưu ý ghi nhận theo đúng ý của bé, không chuyển ngữ theo ý của PVV",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [
-                {
-                  "text": "VỊ",
-                  "code": "1"
-                },
-                {
-                  "text": "MÙI",
-                  "code": "2"
-                },
-                {
-                  "text": "KẾT CẤU BÁNH",
-                  "code": "3"
-                },
-                {
-                  "text": "KHÁC",
-                  "code": "4"
-                }
-              ],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "topic_random": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(Q201,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q203"
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q202b",
-              "type": "OPEN_GRID",
-              "text": "Em KHÔNG THÍCH điều gì ở sự kết hợp giữa gia vị này với mẫu bánh mà em vừa ăn thử?\nLưu ý: PVV ghi ra càng chi tiết càng tốt tất cả những điều đáp viên không thích: \n ● Đầu tiên PVV để đáp viên trả lời một cách tự nhiên & ghi nhận vào ô thông tin tương ứng. \n ● Nếu 2 lần mà em trả lời: “Dạ hết rồi anh/chị” thì không cần hỏi tiếp để tránh trường hợp bé cảm thấy mệt.\n ● Lưu ý ghi nhận theo đúng ý của bé, không chuyển ngữ theo ý của PVV",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [
-                {
-                  "text": "VỊ",
-                  "code": "1"
-                },
-                {
-                  "text": "MÙI",
-                  "code": "2"
-                },
-                {
-                  "text": "KẾT CẤU BÁNH",
-                  "code": "3"
-                },
-                {
-                  "text": "KHÁC",
-                  "code": "4"
-                }
-              ],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "topic_random": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(Q201,[1,2,3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "Q202a"
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q203",
-              "type": "SINGLE",
-              "text": "Em cảm nhận mức độ chua khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Quá ít chua so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Hơi ít chua so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Chua vừa phải / Phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Hơi nhiều chua so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Quá nhiều chua so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if((LoopIndex()==6)||(LoopIndex()==7)){QuestionHide()};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q204",
-              "type": "SINGLE",
-              "text": "Em cảm nhận mức độ mặn khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Quá ít mặn so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Hơi ít mặn so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Mặn vừa phải / phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Hơi nhiều mặn so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Quá nhiều mặn so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if((LoopIndex()==6)||(LoopIndex()==7)||(LoopIndex()==2)||(LoopIndex()==5)){QuestionHide()};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q205",
-              "type": "SINGLE",
-              "text": "Em cảm nhận mức độ cay khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Quá ít cay so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Hơi ít cay so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Cay vừa phải / phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Hơi nhiều cay so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Quá nhiều cay so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if((LoopIndex()==8)||(LoopIndex()==7)||(LoopIndex()==2)||(LoopIndex()==5)){QuestionHide()};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q206",
-              "type": "SINGLE",
-              "text": "Em cảm nhận về vị phô mai khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Quá ít vị phô mai so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Hơi ít vị phô mai so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Vị phô mai vừa phải / phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Hơi nhiều vị phô mai so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Quá nhiều vị phô mai so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(!(LoopIndex()==6)){QuestionHide()};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q207",
-              "type": "SINGLE",
-              "text": "Em cảm nhận mức độ cay nồng/cay ấm khi ăn thử bánh kết hợp với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Độ nồng/cay ít hơn nhiều so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Độ nồng/cay hơi ít so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Độ nồng/cay vừa phải/ phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Độ nồng/cay hơi nhiều so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Độ nồng/cay quá nhiều so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(!(LoopIndex()==7)){QuestionHide()};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q208",
-              "type": "SINGLE",
-              "text": "Sau khi ăn thử bánh, em đánh giá như thế nào về lượng gia vị được rắc lên bánh?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Quá ít so với ý của em",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Hơi ít so với ý của em",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Vừa phải/ phù hợp với ý của em",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Hơi nhiều so với ý của em",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Quá nhiều so với ý của em",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q209",
-              "type": "SINGLE",
-              "text": "Em đánh giá mức độ phù hợp về vị khi kết hơp bánh Choco với gia vị này như thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWICON",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Hoàn toàn không phù hợp",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Không phù hợp",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Bình thường",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Phù hợp",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Rất phù hợp",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q210",
-              "type": "OPEN",
-              "text": "Sau khi ăn thử, em đoán loại gia vị được rắc lên bánh có vị gì?\nCode thử {0}",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()])",
                 "on_next": "",
                 "rules": []
               },
@@ -2691,44 +2075,44 @@
               "form": {}
             },
             {
-              "id": "Q211",
+              "id": "Q201",
               "type": "SINGLE",
-              "text": "Sau khi em biết đây là vị gì rồi, em cảm nhận như thế nào về vị {0} được rắc lên mẫu bánh em vừa thử? \nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
+              "text": "Sau khi ăn thử bánh kết hợp với bột lắc bí mật này, em thấy mức độ ngon thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
               "note": "SHOWICON",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Quá nhạt so với ý của em",
+                  "text": "1. Hoàn toàn không ngon😞",
                   "code": "1",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "2. Hơi nhạt so với ý của em",
+                  "text": "2. Không ngon 🙁",
                   "code": "2",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "3. Vừa phải so với ý của em",
+                  "text": "3. Bình thường 😐",
                   "code": "3",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "4. Hơi đậm so với ý của em",
+                  "text": "4. Ngon🙂",
                   "code": "4",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "5. Quá đậm so với ý của em",
+                  "text": "5. Rất ngon 😄",
                   "code": "5",
                   "media": "",
                   "is_other": false,
@@ -2750,73 +2134,6 @@
               },
               "logic": {
                 "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội\"]);};\n",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q212",
-              "type": "SINGLE",
-              "text": "Loại bánh này sẽ được bán kèm nhiều gói gia vị bí mật khác nhau mà khi mua em sẽ không biết đó là vị gì.\nSau khi ăn thử bánh lắc gia vị này, em có muốn MUA hoặc XIN BA MẸ MUA để khám phá thêm các vị khác không?\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWCARD",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Chắc chắn sẽ không mua",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Có thể sẽ không mua",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Có thể mua hoặc có thể không mua",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Có thể sẽ mua",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Chắc chắn sẽ mua",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
@@ -3014,7 +2331,7 @@
               "form": {}
             },
             {
-              "id": "Q302a",
+              "id": "Q302",
               "type": "OPEN",
               "text": "Vì sao em thích sự kết hợp giữa bánh và gia vị này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ nhất.",
               "note": "PVV HỎI",
@@ -3038,122 +2355,6 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),AnswerTextRank(Q301,1));",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q302b",
-              "type": "OPEN",
-              "text": "Vì sao em ít thích sự kết hợp giữa bánh và gia vị này nhất {0}?\nLưu ý: Khi đặt câu hỏi, người phỏng vấn cần chỉ vào mẫu được xếp hạng thứ ba.",
-              "note": "PVV HỎI",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),AnswerTextRank(Q301,3));",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "HD9",
-              "type": "EMPTY",
-              "text": "Hướng dẫn: PVV đặt sản phẩm bé thích nhất lên phía trước, chỉ tay vào sản phẩm và hỏi",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q303",
-              "type": "SINGLE",
-              "text": "Đối với mẫu bánh em vừa xếp hạng 1 (mẫu em thích nhất), em dự định sử dụng sản phẩm bánh này như thế nào so với loại bánh em đang thường xuyên ăn ở nhà?\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.",
-              "note": "SHOWCARD",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Thay thế hoàn toàn loại bánh pie hiện tại bằng loại bánh này",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Ăn kết hợp song song cả hai loại bánh (vẫn duy trì thói quen ăn bánh pie hiện tại)",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Tiếp tục sử dụng loại bánh pie hiện tại, không thay đổi sang loại bánh này",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
                 "on_next": "",
                 "rules": []
               },
