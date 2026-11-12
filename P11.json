@@ -2043,38 +2043,6 @@
               "form": {}
             },
             {
-              "id": "HD6",
-              "type": "EMPTY",
-              "text": "Hướng dẫn PVV: \nLúc này, PVV sẽ tiết lộ cho bé tên loại gia vị rắc lên bánh. PVV nói: \n\nBây giờ anh/ chị sẽ tiết lộ cho em biết nhé, loại gia vị bí mật được rắc lên bánh ở đây chính là vị {0}",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(LoopIndex()==1){SetQuestionText(CurrentQuestion(),[\"Muối ớt xoài (F1)\"]);};\nif(LoopIndex()==2){SetQuestionText(CurrentQuestion(),[\"Thơm (F2)\"]);};\nif(LoopIndex()==3){SetQuestionText(CurrentQuestion(),[\"Muối ớt me (F3)\"]);};\nif(LoopIndex()==4){SetQuestionText(CurrentQuestion(),[\"Muối ớt tắc (F4)\"]);};\nif(LoopIndex()==5){SetQuestionText(CurrentQuestion(),[\"Cam (F5)\"]);};\nif(LoopIndex()==6){SetQuestionText(CurrentQuestion(),[\"Phô mai cay (F6)\"]);};\nif(LoopIndex()==7){SetQuestionText(CurrentQuestion(),[\"Quế (F7)\"]);};\nif(LoopIndex()==8){SetQuestionText(CurrentQuestion(),[\"Muối xí muội (F8)\"]);};",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
               "id": "Q201",
               "type": "SINGLE",
               "text": "Sau khi ăn thử bánh kết hợp với bột lắc bí mật này, em thấy mức độ ngon thế nào?\nỞ đây anh/chị có 5 mức độ: Một là …;  hai là …; ba là …; bốn là…; năm là …, em chọn câu trả lời nào thì chỉ tay vào câu trả lời tương ứng giúp anh/chị nha.\nLưu ý: Lúc đọc showcard thì PVV nhớ chỉ tay vào từng câu trả lời tương ứng.\n",
