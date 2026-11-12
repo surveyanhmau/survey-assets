@@ -2067,6 +2067,73 @@
               "form": {}
             },
             {
+              "id": "S14",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết ai là người ra quyết định chính trong việc chọn trường cho con của Anh/Chị học?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA MỘT LẦN DANH SÁCH CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tôi là người ra quyết định chính",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Tôi cùng người khác đồng quyết định",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tôi có tham gia góp ý nhưng không phải người quyết định",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Tôi không tham gia vào việc quyết định chọn trường cho con",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[3,4])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
               "id": "S12",
               "type": "SINGLE",
               "text": "Vui lòng cho biết anh/chị có tham gia bất kỳ cuộc hội thảo/ khảo sát nghiên cứu thị trường nào về ngành Giáo dục trong 3 tháng trở lại đây không?",
@@ -2457,14 +2524,6 @@
                   "media": "",
                   "is_other": true,
                   "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "98.",
-                  "code": "98",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": true,
                   "is_header": false
                 }
               ],
@@ -3868,7 +3927,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nvar a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
                 "on_next": "",
                 "rules": []
               },
@@ -4500,7 +4559,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nvar a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -4543,7 +4602,7 @@
             {
               "id": "Q12",
               "type": "SINGLE",
-              "text": "Vui lòng cho biết mức độ thích của anh/chị đối với trường {0} mà bé {1} đang theo học?",
+              "text": "Vui lòng cho biết mức độ hài lòng của anh/chị đối với trường {0} mà bé {1} đang theo học?",
               "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
               "media": "",
               "record": false,
@@ -4624,7 +4683,7 @@
             {
               "id": "Q13a",
               "type": "OPEN",
-              "text": "Anh/chị thích điểm gì về ngôi trường này?",
+              "text": "Anh/chị HÀI LÒNG điểm gì về ngôi trường này?",
               "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
               "media": "",
               "record": false,
@@ -4656,7 +4715,7 @@
             {
               "id": "Q13b",
               "type": "OPEN",
-              "text": "Còn điểm gì anh/chị chưa thích về ngôi trường này, dù là nhỏ nhất?",
+              "text": "Còn điểm gì anh/chị CHƯA HÀI LÒNG về ngôi trường này, dù là nhỏ nhất?",
               "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
               "media": "",
               "record": false,
@@ -4678,6 +4737,38 @@
               },
               "logic": {
                 "on_enter": "if(!Contains(Q12,[1,2,3,4])){QuestionHide()}\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C7a",
+              "type": "NUMBER",
+              "text": "Vui lòng cho biết khoảng cách từ nhà anh/chị đến trường trường {0} nơi bé {1} đang theo học?\nLưu ý: Anh/chị chỉ cần ước lượng số KM.",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999999999",
+              "unit": "KM",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": false,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);",
                 "on_next": "",
                 "rules": []
               },
@@ -5614,6 +5705,70 @@
                   }
                 ]
               },
+              "form": {}
+            },
+            {
+              "id": "C7b",
+              "type": "NUMBER",
+              "text": "Theo anh/chị, dịch vụ xe đưa đón nên được triển khai trong bán kính tối đa bao nhiêu km để đáp ứng tốt nhất nhu cầu đưa đón con của anh/chị khi theo học tại trường tư thục song ngữ?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999999999",
+              "unit": "KM",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": false,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C8",
+              "type": "OPEN",
+              "text": "Anh/chị có bất kỳ nguyện vọng, mong muốn HOẶC nhu cầu nào về các dịch vụ mà một trường tư thục song ngữ cần phải có để khiến anh/chị muốn cho con theo học ở trường này? Lưu ý, ở đây không có câu trả lời đúng hoặc sai, em chỉ muốn ghi nhận tất cả những mong muốn của anh/chị về tất cả các khía cạnh (Cơ sở vật chất, hệ thống giáo dục, đội ngũ giáo viên, …) để giúp xây dựng nên một trường học đúng theo nhu cầu của mình.\n",
+              "note": "PROBE HẾT Ý",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
               "form": {}
             },
             {
