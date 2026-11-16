@@ -213,6 +213,11 @@
                     "text": "Số điện thoại",
                     "type": "number",
                     "unit": ""
+                  },
+                  {
+                    "code": "4",
+                    "text": "Tên PVV Recruit",
+                    "type": "text"
                   }
                 ]
               }
@@ -8560,19 +8565,19 @@
                     "condition": "Contains(GiaiDoan,[2])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "HD1"
+                    "goto": "D1-PVV"
                   },
                   {
                     "condition": "Contains(GiaiDoan,[3])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "HD2"
+                    "goto": "D2-PVV"
                   },
                   {
                     "condition": "Contains(GiaiDoan,[4])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "HD3"
+                    "goto": "D3-PVV"
                   }
                 ]
               },
@@ -8595,6 +8600,38 @@
                 "iterations": []
               },
               "questions": [
+                {
+                  "id": "D1-PVV",
+                  "type": "OPEN",
+                  "text": "Tên PVV bàn ngày 1",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
                 {
                   "id": "HD1",
                   "type": "EMPTY",
@@ -10067,6 +10104,37 @@
               },
               "questions": [
                 {
+                  "id": "D2-PVV",
+                  "type": "OPEN",
+                  "text": "Tên PVV bàn ngày 2",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
                   "id": "HD2",
                   "type": "EMPTY",
                   "text": "PVV DẪN ĐÁP VIÊN ĐI RỬA TAY VỚI NƯỚC SẠCH TẠI KHU VỰC CHỈ ĐỊNH (LƯU Ý KHÔNG RỬA TAY VỚI BẤT KỲ DẠNG XÀ BÔNG, CỒN XỊT, DUNG DỊCH RỬA TAY NÀO)",
@@ -11538,6 +11606,38 @@
                 "iterations": []
               },
               "questions": [
+                {
+                  "id": "D3-PVV",
+                  "type": "OPEN",
+                  "text": "Tên PVV bàn ngày 3",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
                 {
                   "id": "HD3",
                   "type": "EMPTY",
