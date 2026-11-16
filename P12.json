@@ -8481,12 +8481,44 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "GPS-Recruit-End",
+              "type": "GPS",
+              "text": "PVV ghi nhận GPS",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(I2,[1])",
+                    "condition": "true",
                     "action": "Goto",
                     "message": "",
-                    "goto": "GPS-End"
+                    "goto": "End"
                   }
                 ]
               },
@@ -8534,8 +8566,8 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
-                "on_next": "",
+                "on_enter": "if(Contains(GiaiDoan,[3,4])){QuestionReadonly()};",
+                "on_next": "LoopRandom(CLT1loop,MangSP1());\nLoopRandom(CLT2loop,MangSP2());\nLoopRandom(CLT3loop,MangSP3());",
                 "rules": [
                   {
                     "condition": "((Answer(CurrentQuestion())>1030)&&(Answer(CurrentQuestion())<2001))||\n((Answer(CurrentQuestion())>2030)&&(Answer(CurrentQuestion())<10001))||\n((Answer(CurrentQuestion())>10030)&&(Answer(CurrentQuestion())<20001))",
@@ -8654,7 +8686,7 @@
                     {
                       "id": "HD11",
                       "type": "EMPTY",
-                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 1\nGIAI ĐOẠN: DAMP\n",
+                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 1\nGIAI ĐOẠN: DAMP",
                       "note": "",
                       "media": "",
                       "record": false,
@@ -8675,9 +8707,1343 @@
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),\"\"]);",
+                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);",
                         "on_next": "",
                         "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD12",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “BÂY GIỜ EM NHỜ CHỊ MỞ HẲN NẮP LY NÀY RA VÀ NGỬI MÙI KHĂN TRONG LY, SAU ĐÓ EM SẼ HỎI CHỊ MỘT VÀI CÂU HỎI LIÊN QUAN ĐẾN VIỆC ĐÁNH GIÁ MÙI HƯƠNG NÀY. TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CŨNG CÓ THỂ MỞ NẮP LY VÀ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI ",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()>1){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD13",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “TIẾP THEO EM NHỜ CHỊ TIẾP TỤC NGỬI VÀ ĐÁNH GIÁ MÙI NÀY, LƯU Ý LÀ TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CÓ THỂ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()==1){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q1",
+                      "type": "SINGLE",
+                      "text": "Nhìn chung, MỨC ĐỘ THÍCH của chị đối với MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Rất không thích",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Không thích",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Hơi không thích",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Không thích cũng không ghét",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hơi thích",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Thích",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Rất thích",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q1a",
+                      "type": "OPEN",
+                      "text": "Mùi hương bột giặt này khiến chị SUY NGHĨ/LIÊN TƯỞNG đến điều gì, ở đây không có câu trả lời đúng hoặc sai, chị cứ thoải mái chia sẻ bất cứ điều/liên tưởng nào chị nghĩ tới, có thể là màu sắc/ cảm xúc/ ký ức/ địa điểm HOẶC bát kỳ 1 sản phẩm nào đó.? \n\nPROBE HẾT Ý",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q2",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá NỒNG ĐỘ/ ĐỘ MẠNH CỦA MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Quá nhẹ so với ý tôi",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Hơi nhẹ so với ý tôi",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Vừa phải đúng với ý tôi",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Hơi mạnh so với ý tôi",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Quá mạnh so với ý tôi",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q3",
+                      "type": "MULTI",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Kháng khuẩn/Diệt khuẩn",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Nhân tạo",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Chân thật",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Cảm giác được quan tâm/ chăm sóc",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hóa chất",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Sạch sẽ",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Thoải mái",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Tự tin",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Khác biệt",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Thân thiện với môi trường",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Tràn đầy năng lượng",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Tươi mát/ tươi mới",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Phi giới tính",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Nhẹ nhàng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Hạnh phúc",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Gắt/ nồng",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Tốt cho sức khỏe",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Nặng nề",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Vệ sinh",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Chống/ loại bỏ mùi hôi",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Hiện đại",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "23. Tự nhiên",
+                          "code": "23",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "24. Mới mẻ",
+                          "code": "24",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "25. Hoài cổ/ hoài niệm",
+                          "code": "25",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "26. Cao cấp/ Sang trọng",
+                          "code": "26",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "27. Trong lành/ tinh khiết",
+                          "code": "27",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "28. Thư giãn",
+                          "code": "28",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "29. Mềm mại",
+                          "code": "29",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "30. Phù hợp cho cả gia đình",
+                          "code": "30",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q4",
+                      "type": "MULTI",
+                      "text": "Chị hãy chọn ra một HOẶC một số nhận định sau đây là phù hợp với câu nói “SAU KHI NGỬI MÙI HƯƠNG NÀY, TÔI TƯỞNG TƯỢNG LÀ SẢN PHẨM BỘT GIẶT NÀY SẼ …”",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Làm sạch hiệu quả",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Giúp tôi ngăn chặn và trung hòa mùi hôi trên quần áo",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Làm sạch một cách nhẹ nhàng",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Diệt sạch vi trùng, kháng khuẩn và/hoặc khử trùng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mang đến sự tươi mát yên tâm cho cả gia đình",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Có sự thoáng mát / sự tươi mới như ở ngoài trời",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Bảo vệ quần áo của tôi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Không gây hại cho tôi và gia đình",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Làm cho quần áo của tôi mềm mại",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Chăm sóc cho tôi và làn da",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Làm cho quần áo của tôi trông mới lâu hơn",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Làm cho tôi cảm thấy thật tuyệt khi mặc những bộ quần áo đó",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Có mùi giặt giũ tự nhiên chân thật",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Là sản phẩm cao cấp",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Có mùi hương làm thăng hoa tâm trạng và làm cho tôi cảm thấy tốt",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Cho tôi trải nghiệm thú vị",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Giúp tôi trốn đến nơi tôi yêu thích",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Kết nối tôi với thiên nhiên",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mới mẻ và có mùi hương khác biệt",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Không gây hại và an toàn cho hành tinh",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q5",
+                      "type": "SINGLE_GRID",
+                      "text": "MỨC ĐỘ ĐỒNG Ý của chị là như thế nào đối với mỗi nhận định sau đây khi nói về mùi hương của bột giặt trong khăn chị vừa ngửi?",
+                      "note": "SHOW TABLET THANG ĐIỂM VÀ NHẬN ĐỊNH\nPVV HỎI CHO TỪNG NHẬN ĐỊNH",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "Hoàn toàn không đồng ý",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi không đồng ý",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Có thể đồng ý hoặc không",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi đồng ý",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hoàn toàn đồng ý",
+                          "code": "5",
+                          "is_other": false
+                        }
+                      ],
+                      "topics": [
+                        {
+                          "text": "1. Bột giặt này giúp quần áo lưu lại hương thơm lâu dài",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "2. Bột giặt giúp quần áo luôn thơm tho khi mặc trên người",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "3. Bột giặt giúp loại bỏ/ trung hòa mùi hôi khó chịu trên quần áo",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "4. Mùi hương bột giặt đã đủ thơm không cần dùng thêm nước xả vải",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "5. Bột giặt này giúp lan tỏa mùi hương dễ chịu quanh khu vực giặt giũ",
+                          "code": "5",
+                          "is_other": false
+                        },
+                        {
+                          "text": "6. Chăm sóc cho tôi và làn da",
+                          "code": "6",
+                          "is_other": false
+                        },
+                        {
+                          "text": "7. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "7",
+                          "is_other": false
+                        }
+                      ],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": true,
+                        "flip_table": false,
+                        "two_state": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q6",
+                      "type": "MULTI",
+                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Mùi chất tẩy",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Mùi cam/ quýt",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Mùi béo/ kem",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Mùi hóa chất",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Mùi tạo cảm giác ăn được/ ngon miệng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mùi hương hoa",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Mùi trái cây",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Mùi cây cỏ/xanh tươi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Mùi thảo mộc",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Mùi thuốc/ dược phẩm",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Mùi bạc hà",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mùi xạ hương",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Mùi nước hoa",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Mùi phấn",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Mùi xà phòng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Mùi gia vị",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Mùi ngọt ngào",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Mùi hương nhiệt đới",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Mùi Vani",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mùi gỗ",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Mùi hoa oải hương",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Mùi mát mẻ",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HDQ7",
+                      "type": "EMPTY",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
+                      "note": "SHOWTABLET BẢNG MÀU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q7",
+                      "type": "NUMBER_GRID",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "1",
+                      "max": "42",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),2))||(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),3))||(AnswerChoice(CurrentQuestion(),2)==AnswerChoice(CurrentQuestion(),3))\n",
+                            "action": "Hard",
+                            "message": "Không được chọn mã mầu trùng nhau",
+                            "goto": ""
+                          }
+                        ]
+                      },
+                      "conjoint": {},
+                      "number_grid": {
+                        "headers": {
+                          "topic": "",
+                          "before": [],
+                          "code": "",
+                          "after": []
+                        },
+                        "rows": [
+                          {
+                            "topic": "Màu thứ nhất",
+                            "before": [],
+                            "code": 1,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ hai",
+                            "before": [],
+                            "code": 2,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ ba",
+                            "before": [],
+                            "code": 3,
+                            "after": []
+                          }
+                        ]
+                      },
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q8",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá MÙI HƯƠNG BỘT GIẶT của khăn trong ly này so với sản phẩm chị đang dùng thường xuyên nhất tại nhà của mình như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Tệ hơn sản phẩm tôi đang dùng rất nhiều",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Tệ hơn sản phẩm tôi đang dùng tại nhà một chút",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Tương tự như sản phẩm tôi đang dùng tại nhà",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Tốt hơn sản phẩm tôi đang dùng tại nhà 1 chút",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Tốt hơn sản phẩm tôi đang dùng tại nhà rất nhiều",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D1-Q9",
+                      "type": "MULTI",
+                      "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
+                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. OMO",
+                          "code": "1",
+                          "media": "q9-1.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. SURF",
+                          "code": "2",
+                          "media": "q9-2.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. ARIEL",
+                          "code": "3",
+                          "media": "q9-3.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. LIX",
+                          "code": "7",
+                          "media": "q9-4.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. ABA",
+                          "code": "8",
+                          "media": "q9-5.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. NET",
+                          "code": "9",
+                          "media": "q9-6.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "99.",
+                          "code": "99",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": true,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "CLT1End",
+                  "name": "CLT1End",
+                  "record": false,
+                  "hide_back": false,
+                  "random_question": false,
+                  "on_enter": "",
+                  "loop": {
+                    "enabled_loop": false,
+                    "loop_random": false,
+                    "iterations": []
+                  },
+                  "questions": [
+                    {
+                      "id": "GPS-D1-End",
+                      "type": "GPS",
+                      "text": "PVV ghi nhận GPS",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "true",
+                            "action": "Goto",
+                            "message": "",
+                            "goto": "End"
+                          }
+                        ]
                       },
                       "conjoint": {},
                       "number_grid": {},
@@ -8733,7 +10099,1432 @@
                   "form": {}
                 }
               ],
-              "children": []
+              "children": [
+                {
+                  "id": "CLT2loop",
+                  "name": "CLT2loop",
+                  "record": false,
+                  "hide_back": false,
+                  "random_question": false,
+                  "on_enter": "",
+                  "loop": {
+                    "enabled_loop": true,
+                    "loop_random": false,
+                    "iterations": [
+                      {
+                        "name": "SG63",
+                        "index": 1
+                      },
+                      {
+                        "name": "SH29",
+                        "index": 2
+                      },
+                      {
+                        "name": "ST78",
+                        "index": 3
+                      },
+                      {
+                        "name": "SF72",
+                        "index": 4
+                      },
+                      {
+                        "name": "SK30",
+                        "index": 5
+                      },
+                      {
+                        "name": "SB40",
+                        "index": 6
+                      },
+                      {
+                        "name": "SN29",
+                        "index": 7
+                      },
+                      {
+                        "name": "SP79",
+                        "index": 8
+                      },
+                      {
+                        "name": "SS40",
+                        "index": 9
+                      },
+                      {
+                        "name": "SO24",
+                        "index": 10
+                      }
+                    ]
+                  },
+                  "questions": [
+                    {
+                      "id": "HD11#1",
+                      "type": "EMPTY",
+                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 2\nGIAI ĐOẠN: DAMP",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD12#1",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU VÀ ĐŨA KHUẤY ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “BÂY GIỜ EM NHỜ CHỊ MỞ HẲN NẮP LY NÀY RA, DÙNG ĐŨA KHUẤY KHUẤY ĐỀU KHĂN 1 VÒNG TRONG DUNG DỊCH, SAU ĐÓ MÓC KHĂN LÊN, THỰC HIỆN ĐỘNG TÁC NÀY 3 LẦN RỒI NGỬI MÙI KHĂN TRONG LY, SAU ĐÓ EM SẼ HỎI CHỊ MỘT VÀI CÂU HỎI LIÊN QUAN ĐẾN VIỆC ĐÁNH GIÁ MÙI HƯƠNG NÀY. TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CŨNG CÓ THỂ MỞ NẮP LY VÀ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI ",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()>1){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD13#1",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU VÀ ĐŨA KHUẤY ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “TIẾP THEO EM NHỜ CHỊ TIẾP TỤC NGỬI VÀ ĐÁNH GIÁ MÙI NÀY, CHỊ HÃY DÙNG ĐŨA KHUẤY KHUẤY ĐỀU KHĂN 1 VÒNG TRONG DUNG DỊCH, SAU ĐÓ MÓC KHĂN LÊN, THỰC HIỆN ĐỘNG TÁC NÀY 3 LẦN RỒI NGỬI MÙI KHĂN TRONG LY, LƯU Ý LÀ TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CÓ THỂ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI ",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()==1){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q1",
+                      "type": "SINGLE",
+                      "text": "Nhìn chung, MỨC ĐỘ THÍCH của chị đối với MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Rất không thích",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Không thích",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Hơi không thích",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Không thích cũng không ghét",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hơi thích",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Thích",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Rất thích",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q1a",
+                      "type": "OPEN",
+                      "text": "Mùi hương bột giặt này khiến chị SUY NGHĨ/LIÊN TƯỞNG đến điều gì, ở đây không có câu trả lời đúng hoặc sai, chị cứ thoải mái chia sẻ bất cứ điều/liên tưởng nào chị nghĩ tới, có thể là màu sắc/ cảm xúc/ ký ức/ địa điểm HOẶC bát kỳ 1 sản phẩm nào đó.? \n\nPROBE HẾT Ý",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q2",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá NỒNG ĐỘ/ ĐỘ MẠNH CỦA MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Quá nhẹ so với ý tôi",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Hơi nhẹ so với ý tôi",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Vừa phải đúng với ý tôi",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Hơi mạnh so với ý tôi",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Quá mạnh so với ý tôi",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q3",
+                      "type": "MULTI",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Kháng khuẩn/Diệt khuẩn",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Nhân tạo",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Chân thật",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Cảm giác được quan tâm/ chăm sóc",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hóa chất",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Sạch sẽ",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Thoải mái",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Tự tin",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Khác biệt",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Thân thiện với môi trường",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Tràn đầy năng lượng",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Tươi mát/ tươi mới",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Phi giới tính",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Nhẹ nhàng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Hạnh phúc",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Gắt/ nồng",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Tốt cho sức khỏe",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Nặng nề",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Vệ sinh",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Chống/ loại bỏ mùi hôi",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Hiện đại",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "23. Tự nhiên",
+                          "code": "23",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "24. Mới mẻ",
+                          "code": "24",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "25. Hoài cổ/ hoài niệm",
+                          "code": "25",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "26. Cao cấp/ Sang trọng",
+                          "code": "26",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "27. Trong lành/ tinh khiết",
+                          "code": "27",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "28. Thư giãn",
+                          "code": "28",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "29. Mềm mại",
+                          "code": "29",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "30. Phù hợp cho cả gia đình",
+                          "code": "30",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q4",
+                      "type": "MULTI",
+                      "text": "Chị hãy chọn ra một HOẶC một số nhận định sau đây là phù hợp với câu nói “SAU KHI NGỬI MÙI HƯƠNG NÀY, TÔI TƯỞNG TƯỢNG LÀ SẢN PHẨM BỘT GIẶT NÀY SẼ …”",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Làm sạch hiệu quả",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Giúp tôi ngăn chặn và trung hòa mùi hôi trên quần áo",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Làm sạch một cách nhẹ nhàng",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Diệt sạch vi trùng, kháng khuẩn và/hoặc khử trùng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mang đến sự tươi mát yên tâm cho cả gia đình",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Có sự thoáng mát / sự tươi mới như ở ngoài trời",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Bảo vệ quần áo của tôi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Không gây hại cho tôi và gia đình",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Làm cho quần áo của tôi mềm mại",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Chăm sóc cho tôi và làn da",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Làm cho quần áo của tôi trông mới lâu hơn",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Làm cho tôi cảm thấy thật tuyệt khi mặc những bộ quần áo đó",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Có mùi giặt giũ tự nhiên chân thật",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Là sản phẩm cao cấp",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Có mùi hương làm thăng hoa tâm trạng và làm cho tôi cảm thấy tốt",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Cho tôi trải nghiệm thú vị",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Giúp tôi trốn đến nơi tôi yêu thích",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Kết nối tôi với thiên nhiên",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mới mẻ và có mùi hương khác biệt",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Không gây hại và an toàn cho hành tinh",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q5",
+                      "type": "SINGLE_GRID",
+                      "text": "MỨC ĐỘ ĐỒNG Ý của chị là như thế nào đối với mỗi nhận định sau đây khi nói về mùi hương của bột giặt trong khăn chị vừa ngửi?",
+                      "note": "SHOW TABLET THANG ĐIỂM VÀ NHẬN ĐỊNH\nPVV HỎI CHO TỪNG NHẬN ĐỊNH",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "Hoàn toàn không đồng ý",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi không đồng ý",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Có thể đồng ý hoặc không",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi đồng ý",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hoàn toàn đồng ý",
+                          "code": "5",
+                          "is_other": false
+                        }
+                      ],
+                      "topics": [
+                        {
+                          "text": "1. Bột giặt này giúp quần áo lưu lại hương thơm lâu dài",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "2. Bột giặt giúp quần áo luôn thơm tho khi mặc trên người",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "3. Bột giặt giúp loại bỏ/ trung hòa mùi hôi khó chịu trên quần áo",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "4. Mùi hương bột giặt đã đủ thơm không cần dùng thêm nước xả vải",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "5. Bột giặt này giúp lan tỏa mùi hương dễ chịu quanh khu vực giặt giũ",
+                          "code": "5",
+                          "is_other": false
+                        },
+                        {
+                          "text": "6. Chăm sóc cho tôi và làn da",
+                          "code": "6",
+                          "is_other": false
+                        },
+                        {
+                          "text": "7. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "7",
+                          "is_other": false
+                        }
+                      ],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": true,
+                        "flip_table": false,
+                        "two_state": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q6",
+                      "type": "MULTI",
+                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Mùi chất tẩy",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Mùi cam/ quýt",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Mùi béo/ kem",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Mùi hóa chất",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Mùi tạo cảm giác ăn được/ ngon miệng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mùi hương hoa",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Mùi trái cây",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Mùi cây cỏ/xanh tươi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Mùi thảo mộc",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Mùi thuốc/ dược phẩm",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Mùi bạc hà",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mùi xạ hương",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Mùi nước hoa",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Mùi phấn",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Mùi xà phòng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Mùi gia vị",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Mùi ngọt ngào",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Mùi hương nhiệt đới",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Mùi Vani",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mùi gỗ",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Mùi hoa oải hương",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Mùi mát mẻ",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HDQ7#1",
+                      "type": "EMPTY",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
+                      "note": "SHOWTABLET BẢNG MÀU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q7",
+                      "type": "NUMBER_GRID",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "1",
+                      "max": "42",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),2))||(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),3))||(AnswerChoice(CurrentQuestion(),2)==AnswerChoice(CurrentQuestion(),3))\n",
+                            "action": "Hard",
+                            "message": "Không được chọn mã mầu trùng nhau",
+                            "goto": ""
+                          }
+                        ]
+                      },
+                      "conjoint": {},
+                      "number_grid": {
+                        "headers": {
+                          "topic": "",
+                          "before": [],
+                          "code": "",
+                          "after": []
+                        },
+                        "rows": [
+                          {
+                            "topic": "Màu thứ nhất",
+                            "before": [],
+                            "code": 1,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ hai",
+                            "before": [],
+                            "code": 2,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ ba",
+                            "before": [],
+                            "code": 3,
+                            "after": []
+                          }
+                        ]
+                      },
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q8",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá MÙI HƯƠNG BỘT GIẶT của khăn trong ly này so với sản phẩm chị đang dùng thường xuyên nhất tại nhà của mình như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Tệ hơn sản phẩm tôi đang dùng rất nhiều",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Tệ hơn sản phẩm tôi đang dùng tại nhà một chút",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Tương tự như sản phẩm tôi đang dùng tại nhà",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Tốt hơn sản phẩm tôi đang dùng tại nhà 1 chút",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Tốt hơn sản phẩm tôi đang dùng tại nhà rất nhiều",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D2-Q9",
+                      "type": "MULTI",
+                      "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
+                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. OMO",
+                          "code": "1",
+                          "media": "q9-1.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. SURF",
+                          "code": "2",
+                          "media": "q9-2.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. ARIEL",
+                          "code": "3",
+                          "media": "q9-3.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. LIX",
+                          "code": "7",
+                          "media": "q9-4.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. ABA",
+                          "code": "8",
+                          "media": "q9-5.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. NET",
+                          "code": "9",
+                          "media": "q9-6.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "99.",
+                          "code": "99",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": true,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "CLT2End",
+                  "name": "CLT2End",
+                  "record": false,
+                  "hide_back": false,
+                  "random_question": false,
+                  "on_enter": "",
+                  "loop": {
+                    "enabled_loop": false,
+                    "loop_random": false,
+                    "iterations": []
+                  },
+                  "questions": [
+                    {
+                      "id": "GPS-D2-End",
+                      "type": "GPS",
+                      "text": "PVV ghi nhận GPS",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "flip_table": false,
+                        "two_state": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "true",
+                            "action": "Goto",
+                            "message": "",
+                            "goto": "End"
+                          }
+                        ]
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    }
+                  ],
+                  "children": []
+                }
+              ]
             },
             {
               "id": "CLT3",
@@ -8780,7 +11571,1511 @@
                   "form": {}
                 }
               ],
-              "children": []
+              "children": [
+                {
+                  "id": "CLT3loop",
+                  "name": "CLT3loop",
+                  "record": false,
+                  "hide_back": false,
+                  "random_question": false,
+                  "on_enter": "",
+                  "loop": {
+                    "enabled_loop": true,
+                    "loop_random": false,
+                    "iterations": [
+                      {
+                        "name": "DC95",
+                        "index": 1
+                      },
+                      {
+                        "name": "DW63",
+                        "index": 2
+                      },
+                      {
+                        "name": "DL16",
+                        "index": 3
+                      },
+                      {
+                        "name": "DE72",
+                        "index": 4
+                      },
+                      {
+                        "name": "DA04",
+                        "index": 5
+                      },
+                      {
+                        "name": "SC73",
+                        "index": 6
+                      },
+                      {
+                        "name": "SW04",
+                        "index": 7
+                      },
+                      {
+                        "name": "SL55",
+                        "index": 8
+                      },
+                      {
+                        "name": "SE80",
+                        "index": 9
+                      },
+                      {
+                        "name": "SA43",
+                        "index": 10
+                      }
+                    ]
+                  },
+                  "questions": [
+                    {
+                      "id": "HD11#2",
+                      "type": "EMPTY",
+                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 3\nGIAI ĐOẠN: DAMP",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD12#2",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “BÂY GIỜ EM NHỜ CHỊ MỞ HẲN NẮP LY NÀY RA VÀ NGỬI MÙI KHĂN TRONG LY, SAU ĐÓ EM SẼ HỎI CHỊ MỘT VÀI CÂU HỎI LIÊN QUAN ĐẾN VIỆC ĐÁNH GIÁ MÙI HƯƠNG NÀY. TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CŨNG CÓ THỂ MỞ NẮP LY VÀ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI ",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()>5){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD13#2",
+                      "type": "EMPTY",
+                      "text": "1.\tPVV LẤY ĐÚNG MẪU VÀ ĐŨA KHUẤY ĐANG ĐƯỢC ĐÁNH GIÁ ĐỂ LÊN BÀN TRƯỚC MẶT ĐÁP VIÊN\n2.\tPVV NHỜ ĐÁP VIÊN ĐEO GĂNG TAY VÀ NGỬI KHĂN GIẤY KHÔNG MÙI\n3.\tSAU KHI ĐÁP VIÊN XÁC NHẬN KHÔNG CÒN MÙI NÀO TRONG MŨI THÌ MỚI BẮT ĐẦU CHO ĐÁNH GIÁ.\n4.\tPVV NÓI: “BÂY GIỜ EM NHỜ CHỊ MỞ HẲN NẮP LY NÀY RA, DÙNG ĐŨA KHUẤY KHUẤY ĐỀU KHĂN 1 VÒNG TRONG DUNG DỊCH, SAU ĐÓ MÓC KHĂN LÊN, THỰC HIỆN ĐỘNG TÁC NÀY 3 LẦN RỒI NGỬI MÙI KHĂN TRONG LY, SAU ĐÓ EM SẼ HỎI CHỊ MỘT VÀI CÂU HỎI LIÊN QUAN ĐẾN VIỆC ĐÁNH GIÁ MÙI HƯƠNG NÀY. TRONG QUÁ TRÌNH PHỎNG VẤN, CHỊ CŨNG CÓ THỂ MỞ NẮP LY VÀ NGỬI LẠI MÙI HƯƠNG BẤT CỨ KHI NÀO NẾU MUỐN”\n5.\tPVV NHẮC ĐÁP VIÊN ĐÓNG NẮP KÍN SAU MỖI LẦN NGỬI ",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "if(LoopOrder()<6){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q1",
+                      "type": "SINGLE",
+                      "text": "Nhìn chung, MỨC ĐỘ THÍCH của chị đối với MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Rất không thích",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Không thích",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Hơi không thích",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Không thích cũng không ghét",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hơi thích",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Thích",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Rất thích",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q1a",
+                      "type": "OPEN",
+                      "text": "Mùi hương bột giặt này khiến chị SUY NGHĨ/LIÊN TƯỞNG đến điều gì, ở đây không có câu trả lời đúng hoặc sai, chị cứ thoải mái chia sẻ bất cứ điều/liên tưởng nào chị nghĩ tới, có thể là màu sắc/ cảm xúc/ ký ức/ địa điểm HOẶC bát kỳ 1 sản phẩm nào đó.? \n\nPROBE HẾT Ý",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q2",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá NỒNG ĐỘ/ ĐỘ MẠNH CỦA MÙI HƯƠNG BỘT GIẶT của khăn trong ly này như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Quá nhẹ so với ý tôi",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Hơi nhẹ so với ý tôi",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Vừa phải đúng với ý tôi",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Hơi mạnh so với ý tôi",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Quá mạnh so với ý tôi",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q3",
+                      "type": "MULTI",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Kháng khuẩn/Diệt khuẩn",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Nhân tạo",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Chân thật",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Cảm giác được quan tâm/ chăm sóc",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Hóa chất",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Sạch sẽ",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Thoải mái",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Tự tin",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Khác biệt",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Thân thiện với môi trường",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Tràn đầy năng lượng",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Tươi mát/ tươi mới",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Phi giới tính",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Nhẹ nhàng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Hạnh phúc",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Gắt/ nồng",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Tốt cho sức khỏe",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Nặng nề",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Vệ sinh",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Chống/ loại bỏ mùi hôi",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Hiện đại",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "23. Tự nhiên",
+                          "code": "23",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "24. Mới mẻ",
+                          "code": "24",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "25. Hoài cổ/ hoài niệm",
+                          "code": "25",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "26. Cao cấp/ Sang trọng",
+                          "code": "26",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "27. Trong lành/ tinh khiết",
+                          "code": "27",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "28. Thư giãn",
+                          "code": "28",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "29. Mềm mại",
+                          "code": "29",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "30. Phù hợp cho cả gia đình",
+                          "code": "30",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q4",
+                      "type": "MULTI",
+                      "text": "Chị hãy chọn ra một HOẶC một số nhận định sau đây là phù hợp với câu nói “SAU KHI NGỬI MÙI HƯƠNG NÀY, TÔI TƯỞNG TƯỢNG LÀ SẢN PHẨM BỘT GIẶT NÀY SẼ …”",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Làm sạch hiệu quả",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Giúp tôi ngăn chặn và trung hòa mùi hôi trên quần áo",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Làm sạch một cách nhẹ nhàng",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Diệt sạch vi trùng, kháng khuẩn và/hoặc khử trùng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mang đến sự tươi mát yên tâm cho cả gia đình",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Có sự thoáng mát / sự tươi mới như ở ngoài trời",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Bảo vệ quần áo của tôi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Không gây hại cho tôi và gia đình",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Làm cho quần áo của tôi mềm mại",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Chăm sóc cho tôi và làn da",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Làm cho quần áo của tôi trông mới lâu hơn",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Làm cho tôi cảm thấy thật tuyệt khi mặc những bộ quần áo đó",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Có mùi giặt giũ tự nhiên chân thật",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Là sản phẩm cao cấp",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Có mùi hương làm thăng hoa tâm trạng và làm cho tôi cảm thấy tốt",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Cho tôi trải nghiệm thú vị",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Giúp tôi trốn đến nơi tôi yêu thích",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Kết nối tôi với thiên nhiên",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mới mẻ và có mùi hương khác biệt",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Không gây hại và an toàn cho hành tinh",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q5",
+                      "type": "SINGLE_GRID",
+                      "text": "MỨC ĐỘ ĐỒNG Ý của chị là như thế nào đối với mỗi nhận định sau đây khi nói về mùi hương của bột giặt trong khăn chị vừa ngửi?",
+                      "note": "SHOW TABLET THANG ĐIỂM VÀ NHẬN ĐỊNH\nPVV HỎI CHO TỪNG NHẬN ĐỊNH",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "Hoàn toàn không đồng ý",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi không đồng ý",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Có thể đồng ý hoặc không",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hơi đồng ý",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "Hoàn toàn đồng ý",
+                          "code": "5",
+                          "is_other": false
+                        }
+                      ],
+                      "topics": [
+                        {
+                          "text": "1. Bột giặt này giúp quần áo lưu lại hương thơm lâu dài",
+                          "code": "1",
+                          "is_other": false
+                        },
+                        {
+                          "text": "2. Bột giặt giúp quần áo luôn thơm tho khi mặc trên người",
+                          "code": "2",
+                          "is_other": false
+                        },
+                        {
+                          "text": "3. Bột giặt giúp loại bỏ/ trung hòa mùi hôi khó chịu trên quần áo",
+                          "code": "3",
+                          "is_other": false
+                        },
+                        {
+                          "text": "4. Mùi hương bột giặt đã đủ thơm không cần dùng thêm nước xả vải",
+                          "code": "4",
+                          "is_other": false
+                        },
+                        {
+                          "text": "5. Bột giặt này giúp lan tỏa mùi hương dễ chịu quanh khu vực giặt giũ",
+                          "code": "5",
+                          "is_other": false
+                        },
+                        {
+                          "text": "6. Chăm sóc cho tôi và làn da",
+                          "code": "6",
+                          "is_other": false
+                        },
+                        {
+                          "text": "7. Giúp quần áo của tôi có mùi hương sạch sẽ",
+                          "code": "7",
+                          "is_other": false
+                        }
+                      ],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": true,
+                        "flip_table": false,
+                        "two_state": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q6",
+                      "type": "MULTI",
+                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Mùi chất tẩy",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Mùi cam/ quýt",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Mùi béo/ kem",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Mùi hóa chất",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Mùi tạo cảm giác ăn được/ ngon miệng",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Mùi hương hoa",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Mùi trái cây",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. Mùi cây cỏ/xanh tươi",
+                          "code": "8",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. Mùi thảo mộc",
+                          "code": "9",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "10. Mùi thuốc/ dược phẩm",
+                          "code": "10",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "11. Mùi bạc hà",
+                          "code": "11",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "12. Mùi xạ hương",
+                          "code": "12",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "13. Mùi nước hoa",
+                          "code": "13",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "14. Mùi phấn",
+                          "code": "14",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "15. Mùi xà phòng",
+                          "code": "15",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "16. Mùi gia vị",
+                          "code": "16",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "17. Mùi ngọt ngào",
+                          "code": "17",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "18. Mùi hương nhiệt đới",
+                          "code": "18",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "19. Mùi Vani",
+                          "code": "19",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "20. Mùi gỗ",
+                          "code": "20",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "21. Mùi hoa oải hương",
+                          "code": "21",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "22. Mùi mát mẻ",
+                          "code": "22",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": true,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HDQ7#2",
+                      "type": "EMPTY",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
+                      "note": "SHOWTABLET BẢNG MÀU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q7",
+                      "type": "NUMBER_GRID",
+                      "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "1",
+                      "max": "42",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),2))||(AnswerChoice(CurrentQuestion(),1)==AnswerChoice(CurrentQuestion(),3))||(AnswerChoice(CurrentQuestion(),2)==AnswerChoice(CurrentQuestion(),3))\n",
+                            "action": "Hard",
+                            "message": "Không được chọn mã mầu trùng nhau",
+                            "goto": ""
+                          }
+                        ]
+                      },
+                      "conjoint": {},
+                      "number_grid": {
+                        "headers": {
+                          "topic": "",
+                          "before": [],
+                          "code": "",
+                          "after": []
+                        },
+                        "rows": [
+                          {
+                            "topic": "Màu thứ nhất",
+                            "before": [],
+                            "code": 1,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ hai",
+                            "before": [],
+                            "code": 2,
+                            "after": []
+                          },
+                          {
+                            "topic": "Màu thứ ba",
+                            "before": [],
+                            "code": 3,
+                            "after": []
+                          }
+                        ]
+                      },
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q8",
+                      "type": "SINGLE",
+                      "text": "Chị đánh giá MÙI HƯƠNG BỘT GIẶT của khăn trong ly này so với sản phẩm chị đang dùng thường xuyên nhất tại nhà của mình như thế nào?",
+                      "note": "SHOWTABLET – ĐỌC THANG ĐIỂM",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Tệ hơn sản phẩm tôi đang dùng rất nhiều",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Tệ hơn sản phẩm tôi đang dùng tại nhà một chút",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Tương tự như sản phẩm tôi đang dùng tại nhà",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Tốt hơn sản phẩm tôi đang dùng tại nhà 1 chút",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Tốt hơn sản phẩm tôi đang dùng tại nhà rất nhiều",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q9",
+                      "type": "MULTI",
+                      "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
+                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. OMO",
+                          "code": "1",
+                          "media": "q9-1.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. SURF",
+                          "code": "2",
+                          "media": "q9-2.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. ARIEL",
+                          "code": "3",
+                          "media": "q9-3.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. LIX",
+                          "code": "7",
+                          "media": "q9-4.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "8. ABA",
+                          "code": "8",
+                          "media": "q9-5.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "9. NET",
+                          "code": "9",
+                          "media": "q9-6.jpg",
+                          "is_other": false,
+                          "is_exclusive": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "99.",
+                          "code": "99",
+                          "media": "",
+                          "is_other": false,
+                          "is_exclusive": true,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "1",
+                      "max": "999",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "D3-Q10",
+                      "type": "SINGLE",
+                      "text": "Cụm từ nào dưới đây mô tả đúng nhất ý kiến tổng thể của bạn về mùi hương của bột giặt này?",
+                      "note": "SHOWTABLET",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [
+                        {
+                          "text": "1. Rất kém",
+                          "code": "1",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "2. Kém",
+                          "code": "2",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "3. Không tốt cũng không kém",
+                          "code": "3",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "4. Khá",
+                          "code": "4",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "5. Tốt",
+                          "code": "5",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "6. Rất tốt",
+                          "code": "6",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        },
+                        {
+                          "text": "7. Xuất sắc",
+                          "code": "7",
+                          "media": "",
+                          "is_other": false,
+                          "is_header": false
+                        }
+                      ],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": [
+                          {
+                            "condition": "(Contains(\"D3-Q1\",[1,2])&&Contains(\"D3-Q10\",[4,5,6,7]))||(Contains(\"D3-Q1\",[5,6,7])&&Contains(\"D3-Q10\",[1,2]))",
+                            "action": "Hard",
+                            "message": "SAI LOGIC",
+                            "goto": ""
+                          }
+                        ]
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    }
+                  ],
+                  "children": []
+                },
+                {
+                  "id": "CLT3End",
+                  "name": "CLT3End",
+                  "record": false,
+                  "hide_back": false,
+                  "random_question": false,
+                  "on_enter": "",
+                  "loop": {
+                    "enabled_loop": false,
+                    "loop_random": false,
+                    "iterations": []
+                  },
+                  "questions": [
+                    {
+                      "id": "GPS-D3-End",
+                      "type": "GPS",
+                      "text": "PVV ghi nhận GPS",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    }
+                  ],
+                  "children": []
+                }
+              ]
             }
           ]
         },
@@ -8797,38 +13092,6 @@
             "iterations": []
           },
           "questions": [
-            {
-              "id": "GPS-End",
-              "type": "GPS",
-              "text": "PVV ghi nhận GPS",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
             {
               "id": "End",
               "type": "EMPTY",
