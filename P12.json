@@ -98,7 +98,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "SetAnswer(CurrentQuestion(),[1]);\nif(Answered(GPS-Recruit-End)){SetAnswer(CurrentQuestion(),[2])}\nif(Answered(GPS-D1-End)){SetAnswer(CurrentQuestion(),[3])}\nif(Answered(GPS-D2-End)){SetAnswer(CurrentQuestion(),[4])}",
+            "on_enter": "SetAnswer(CurrentQuestion(),[1]);\nif(Answered(\"GPS-Recruit-End\")){SetAnswer(CurrentQuestion(),[2])};\nif(Answered(\"GPS-D1-End\")){SetAnswer(CurrentQuestion(),[3])};\nif(Answered(\"GPS-D2-End\")){SetAnswer(CurrentQuestion(),[4])};",
             "on_next": "",
             "rules": []
           },
