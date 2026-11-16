@@ -187,22 +187,10 @@
                     "goto": ""
                   },
                   {
-                    "condition": "Contains(GiaiDoan,[2])",
+                    "condition": "Contains(GiaiDoan,[2,3,4])",
                     "action": "Goto",
                     "message": "",
-                    "goto": "HD1"
-                  },
-                  {
-                    "condition": "Contains(GiaiDoan,[3])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "HD2"
-                  },
-                  {
-                    "condition": "Contains(GiaiDoan,[4])",
-                    "action": "Goto",
-                    "message": "",
-                    "goto": "HD3"
+                    "goto": "ID"
                   }
                 ]
               },
@@ -8567,6 +8555,24 @@
                     "action": "Hard",
                     "message": "ID không chính xác",
                     "goto": ""
+                  },
+                  {
+                    "condition": "Contains(GiaiDoan,[2])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "HD1"
+                  },
+                  {
+                    "condition": "Contains(GiaiDoan,[3])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "HD2"
+                  },
+                  {
+                    "condition": "Contains(GiaiDoan,[4])",
+                    "action": "Goto",
+                    "message": "",
+                    "goto": "HD3"
                   }
                 ]
               },
