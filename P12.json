@@ -8465,7 +8465,7 @@
               "no_answer": false,
               "integer_only": true,
               "realtime": false,
-              "realcam": false,
+              "realcam": true,
               "options": {
                 "answer_random": false,
                 "topic_random": false,
