@@ -301,14 +301,7 @@
               "logic": {
                 "on_enter": "GetQuan(AnswerText(S1),\"Quận\",\"Huyện\",\"Thành phố\",\"Thị xã\")",
                 "on_next": "",
-                "rules": [
-                  {
-                    "condition": "",
-                    "action": "Hard",
-                    "message": "",
-                    "goto": ""
-                  }
-                ]
+                "rules": []
               },
               "conjoint": {},
               "number_grid": {},
