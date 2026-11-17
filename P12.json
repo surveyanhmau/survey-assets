@@ -10186,7 +10186,7 @@
                     {
                       "id": "HD11#1",
                       "type": "EMPTY",
-                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 2\nGIAI ĐOẠN: DAMP",
+                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 2\nGIAI ĐOẠN: SOAK",
                       "note": "",
                       "media": "",
                       "record": false,
@@ -11743,7 +11743,39 @@
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);",
+                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);\nif(LoopOrder()>5){QuestionHide()};",
+                        "on_next": "",
+                        "rules": []
+                      },
+                      "conjoint": {},
+                      "number_grid": {},
+                      "form": {}
+                    },
+                    {
+                      "id": "HD11#3",
+                      "type": "EMPTY",
+                      "text": "MÃ SẢN PHẨM ĐANG ĐÁNH GIÁ: {0}\nSẢN PHẨM THỬ THỨ: {1}\nNGÀY 3\nGIAI ĐOẠN: SOAK",
+                      "note": "",
+                      "media": "",
+                      "record": false,
+                      "readonly": false,
+                      "answers": [],
+                      "topics": [],
+                      "min": "",
+                      "max": "",
+                      "unit": "",
+                      "display_columns": 1,
+                      "no_answer": false,
+                      "integer_only": true,
+                      "realtime": false,
+                      "realcam": false,
+                      "options": {
+                        "answer_random": false,
+                        "topic_random": false,
+                        "search": false
+                      },
+                      "logic": {
+                        "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName(),LoopOrder()]);\nif(LoopOrder()<6){QuestionHide()};",
                         "on_next": "",
                         "rules": []
                       },
