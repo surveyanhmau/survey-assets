@@ -294,6 +294,73 @@
           "form": {}
         },
         {
+          "id": "S15",
+          "type": "SINGLE",
+          "text": "Vui lòng cho biết nhà anh/chị đang ở thường xuyên nhất hiện tại là dạng bất động sản nào dưới đây ",
+          "note": "",
+          "media": "",
+          "record": false,
+          "readonly": false,
+          "answers": [
+            {
+              "text": "1. Căn hộ chung cư cao cấp (Có đa dạng tiện ích như Hồ bơi, Phòng Gym, Công viên nội khu, …)",
+              "code": "1",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "2. Căn hộ chung cư tiêu chuẩn/phổ thông",
+              "code": "2",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "3. Nhà đất/ nhà phố trong khu dân cư hiện hữu",
+              "code": "3",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "4. Nhà đất/ nhà phố trong khu dân cư cao cấp/ Compound",
+              "code": "4",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            },
+            {
+              "text": "5. Nhà ở xã hội",
+              "code": "5",
+              "media": "",
+              "is_other": false,
+              "is_header": false
+            }
+          ],
+          "topics": [],
+          "min": "",
+          "max": "",
+          "unit": "",
+          "display_columns": 1,
+          "no_answer": false,
+          "integer_only": true,
+          "realtime": false,
+          "realcam": false,
+          "options": {
+            "answer_random": false,
+            "search": false
+          },
+          "logic": {
+            "on_enter": "",
+            "on_next": "",
+            "rules": []
+          },
+          "conjoint": {},
+          "number_grid": {},
+          "form": {}
+        },
+        {
           "id": "S2",
           "type": "SINGLE",
           "text": "Vui lòng cho biết thu nhập sau thuế hàng tháng hộ gia đình của anh/chị là bao nhiêu?",
@@ -2070,13 +2137,13 @@
               "id": "S14",
               "type": "SINGLE",
               "text": "Vui lòng cho biết ai là người ra quyết định chính trong việc chọn trường cho con của Anh/Chị học?",
-              "note": "SHOWTABLET – PVV ĐỌC QUA MỘT LẦN DANH SÁCH CHO ĐÁP VIÊN",
+              "note": "SHOWTABLET – PVV ĐỂ ĐÁP VIÊN TỰ ĐỌC VÀ CHỌN CÂU TRẢ LỜI PHÙ HỢP",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Tôi là người ra quyết định chính",
+                  "text": "1. Tôi là người quyết định chính",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -2090,15 +2157,8 @@
                   "is_header": false
                 },
                 {
-                  "text": "3. Tôi có tham gia góp ý nhưng không phải người quyết định",
+                  "text": "3. Người khác trong gia đình quyết định cho việc học của con tôi",
                   "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Tôi không tham gia vào việc quyết định chọn trường cho con",
-                  "code": "4",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -2122,7 +2182,7 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(CurrentQuestion(),[3,4])",
+                    "condition": "Contains(CurrentQuestion(),[3])",
                     "action": "Hard",
                     "message": "NGƯNG",
                     "goto": ""
@@ -2837,7 +2897,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nFilterAnswerByAnswer(Q1b,Q1a);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(Q1b,Q1a);",
                 "on_next": "",
                 "rules": []
               },
@@ -3133,7 +3193,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nFilterAnswerByAnswer(CurrentQuestion(),Q1b)",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(CurrentQuestion(),Q1b)",
                 "on_next": "",
                 "rules": []
               },
@@ -3394,7 +3454,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};\nvar a=0;\na=Answer(S8);\nif(Answer(\"S5_\"+a)<4){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};\nvar a=0;\na=Answer(S8);\nif(Answer(\"S5_\"+a)<4){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -3650,7 +3710,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(Q2,[1])){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(Q2,[1])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -3874,7 +3934,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -3927,39 +3987,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}\n",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q7",
-              "type": "OPEN",
-              "text": "Theo anh/chị, điểm khác biệt giữa hệ thống trường tư thục song ngữ và trường quốc tế là gì?\nPVV lưu ý: Nếu đáp viên trả lời không có thì hỏi lại là “Bên em muốn biết điểm khác biệt dù là nhỏ nhất theo ý anh/chị”, nếu đáp viên vẫn xác nhận là không có thì ghi nhận “Không có” và đi tiếp.",
-              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -4175,7 +4203,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4391,7 +4419,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);",
                 "on_next": "",
                 "rules": []
               },
@@ -4423,7 +4451,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9),AnswerText(a)]);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);",
                 "on_next": "",
                 "rules": []
               },
@@ -4559,7 +4587,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -4672,7 +4700,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4681,71 +4709,7 @@
               "form": {}
             },
             {
-              "id": "Q13a",
-              "type": "OPEN",
-              "text": "Anh/chị HÀI LÒNG điểm gì về ngôi trường này?",
-              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(!Contains(Q12,[5,6,7])){QuestionHide()}",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "Q13b",
-              "type": "OPEN",
-              "text": "Còn điểm gì anh/chị CHƯA HÀI LÒNG về ngôi trường này, dù là nhỏ nhất?",
-              "note": "HỎI TẤT CẢ - PROBE HẾT Ý",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "if(!Contains(Q12,[1,2,3,4])){QuestionHide()}\n",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "C7a",
+              "id": "Q15",
               "type": "NUMBER",
               "text": "Vui lòng cho biết khoảng cách từ nhà anh/chị đến trường trường {0} nơi bé {1} đang theo học?\nLưu ý: Anh/chị chỉ cần ước lượng số KM.",
               "note": "",
@@ -4768,7 +4732,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);",
                 "on_next": "",
                 "rules": []
               },
@@ -5143,7 +5107,7 @@
             {
               "id": "HD1",
               "type": "EMPTY",
-              "text": "PVV nói:\nBây giờ, em xin phép nhờ anh/chị xem bản mô tả ý tưởng về một ngôi trường tư thục sẽ được xây dựng trong tương lai. Anh chị vui lòng dành ít phút để xem kĩ và sau đó cho em biết ý kiến đánh giá của mình đối với ngôi trường mới này.\n<img 1.jpg>\n<img 2.jpg>",
+              "text": "PVV nói:\nBÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM BẢN MÔ TẢ Ý TƯỞNG CHƯA BAO GỒM HỌC PHÍ VỀ MỘT NGÔI TRƯỜNG TƯ THỤC SẼ ĐƯỢC XÂY DỰNG TRONG TƯƠNG LAI. ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.\n<img 1.jpg>\n<img 2.jpg>",
               "note": "PVV LƯU Ý: ĐỌC LÊN CÙNG VỚI ĐÁP VIÊN",
               "media": "",
               "record": false,
@@ -5396,7 +5360,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);",
                 "on_next": "",
                 "rules": []
               },
@@ -5463,7 +5427,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(S9)]);\nvar a=\"S7b_\"+Answer(S8);\nif(!Contains(a,[1,2,3,4])){QuestionHide()}",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nvar a=\"S7b_\"+Answer(S8);\nif(!Contains(a,[1,2,3,4])){QuestionHide()}",
                 "on_next": "",
                 "rules": []
               },
@@ -5508,47 +5472,47 @@
               ],
               "topics": [
                 {
-                  "text": "1. Chương trình giáo dục song ngữ toàn diện, có chiều sâu theo lộ trình tăng dần từ tiền tiểu học đến trung học phổ thông",
+                  "text": "1. Phát triển tư duy song ngữ ở trẻ thay vì chỉ học Tiếng Anh",
                   "code": "1",
                   "is_other": false
                 },
                 {
-                  "text": "2. Phát triển tư duy song ngữ ở trẻ thay vì chỉ học Tiếng Anh",
+                  "text": "2. Phát triển sự tự nhận thức ở trẻ - Giúp trẻ tự lập",
                   "code": "2",
                   "is_other": false
                 },
                 {
-                  "text": "3. Chương trình học tích hợp 1 lần, thay vì phải học cùng 1 môn học 2 lần bằng 2 ngôn ngữ",
+                  "text": "3. Phát triển tư duy phản biện của trẻ",
                   "code": "3",
                   "is_other": false
                 },
                 {
-                  "text": "4. Phát triển sự tự nhận thức ở trẻ - Giúp trẻ tự lập",
+                  "text": "4. Phát triển kỹ năng xây dựng sức khỏe thể chất và tinh thần cho trẻ",
                   "code": "4",
                   "is_other": false
                 },
                 {
-                  "text": "5. Phát triển tư duy phản biện của trẻ",
+                  "text": "5. Phát triển kỹ năng xây dựng các mối quan hệ tích cực",
                   "code": "5",
                   "is_other": false
                 },
                 {
-                  "text": "6. Phát triển kỹ năng xây dựng sức khỏe thể chất và tinh thần cho trẻ",
+                  "text": "6. Phát triển kỹ năng quản lý tài chính cho trẻ",
                   "code": "6",
                   "is_other": false
                 },
                 {
-                  "text": "7. Phát triển kỹ năng xây dựng các mối quan hệ tích cực",
+                  "text": "7. Khám phá thế mạnh và giúp trẻ xây dựng định hướng trong tương lai",
                   "code": "7",
                   "is_other": false
                 },
                 {
-                  "text": "8. Phát triển kỹ năng quản lý tài chính cho trẻ",
+                  "text": "8. Chương trình giáo dục song ngữ toàn diện, có chiều sâu theo lộ trình tăng dần từ tiền tiểu học đến trung học phổ thông",
                   "code": "8",
                   "is_other": false
                 },
                 {
-                  "text": "9. Khám phá thế mạnh và giúp trẻ xây dựng định hướng trong tương lai",
+                  "text": "9. Chương trình học tích hợp 1 lần, thay vì phải học cùng 1 môn học 2 lần bằng 2 ngôn ngữ",
                   "code": "9",
                   "is_other": false
                 },
@@ -5568,38 +5532,48 @@
                   "is_other": false
                 },
                 {
-                  "text": "13. Định hướng lĩnh vực học tập chuyên sâu cho trẻ trong 3 hướng: Công nghệ, Kinh doanh, hoặc Khoa học Xã hội & Nhân văn",
+                  "text": "13. Học sinh chủ động khám phá thế mạnh của bản thân từ bậc Tiểu học, từng bước định hướng sở thích và tự lựa chọn một trong ba lĩnh vực để học chuyên sâu từ lớp 11: Công nghệ, Kinh doanh hoặc Khoa học Xã hội & Nhân văn",
                   "code": "13",
                   "is_other": false
                 },
                 {
-                  "text": "14. Định hướng đầu ra có bằng tốt nghiệp THPT và chứng chỉ Cambridge và A-level",
+                  "text": "14. Học sinh tốt nghiệp với bằng tốt nghiệp THPT Việt Nam và chứng chỉ A-Level (Cambridge)\\nLưu ý: “Cambridge là chương trình giáo dục quốc tế của Anh, được thiết kế theo lộ trình xuyên suốt từ Tiểu học đến hết Trung học phổ thông. Học sinh lần lượt học các cấp Cambridge Primary, Lower Secondary, IGCSE và A-Level, trong đó A-Level cho phép học sinh lựa chọn môn học phù hợp với định hướng đại học. Chứng chỉ A-Level được nhiều trường đại học trên thế giới công nhận, mở rộng cơ hội học tập quốc tế cho học sinh.”",
                   "code": "14",
                   "is_other": false
                 },
                 {
-                  "text": "15. Đơn vị đầu tư giàu kinh nghiệm và có tính cam kết cao",
+                  "text": "15. Phát triển tinh thần chủ động, có mục tiêu rõ ràng cho trẻ",
                   "code": "15",
                   "is_other": false
                 },
                 {
-                  "text": "16. Hiệu trưởng sáng lập giàu kinh nghiệm",
+                  "text": "16. Đơn vị đầu tư giàu kinh nghiệm và có tính cam kết cao",
                   "code": "16",
                   "is_other": false
                 },
                 {
-                  "text": "17. Đội ngũ giáo viên giỏi, giàu kinh nghiệm",
+                  "text": "17. Hiệu trưởng sáng lập giàu kinh nghiệm",
                   "code": "17",
                   "is_other": false
                 },
                 {
-                  "text": "18. Hệ thống phòng học, phòng chức năng chuyên biệt",
+                  "text": "18. Đội ngũ giáo viên giỏi, giàu kinh nghiệm",
                   "code": "18",
                   "is_other": false
                 },
                 {
-                  "text": "19. Lớp học quy mô nhỏ - sĩ số tối đa 25 học sinh/lớp",
+                  "text": "19. Hệ thống phòng học, phòng chức năng chuyên biệt",
                   "code": "19",
+                  "is_other": false
+                },
+                {
+                  "text": "20. Lớp học quy mô nhỏ - sĩ số tối đa 25 học sinh/lớp",
+                  "code": "20",
+                  "is_other": false
+                },
+                {
+                  "text": "21. Đội ngũ giáo viên được liên tục đào tạo để đáp ứng tiêu chuẩn chất lượng giảng dạy của Nhà trường.",
+                  "code": "21",
                   "is_other": false
                 }
               ],
@@ -5627,123 +5601,10 @@
               "form": {}
             },
             {
-              "id": "C6",
-              "type": "NUMBER_GRID",
-              "text": "Theo anh chị thì mức học phí hàng tháng của ngôi trường trong bảng mô tả ý tưởng này là bao nhiêu là phù hợp cho từng cấp học?\nPVV lưu ý: \n- Ghi nhận đơn vị theo Việt Nam Đồng\n",
+              "id": "HD2",
+              "type": "EMPTY",
+              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ. ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: ĐỌC LÊN CÙNG VỚI ĐÁP VIÊN",
               "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "100000",
-              "max": "999999999",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "(AnswerChoice(CurrentQuestion(),1)>AnswerChoice(CurrentQuestion(),2))||(AnswerChoice(CurrentQuestion(),2)>AnswerChoice(CurrentQuestion(),3))||(AnswerChoice(CurrentQuestion(),3)>AnswerChoice(CurrentQuestion(),4))||",
-                    "action": "Hard",
-                    "message": "SAI LOGIC",
-                    "goto": ""
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {
-                "headers": {
-                  "topic": "",
-                  "before": [],
-                  "code": "",
-                  "after": [
-                    ""
-                  ]
-                },
-                "rows": [
-                  {
-                    "topic": "Tiền tiểu học/ mầm non",
-                    "before": [],
-                    "code": 1,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "Tiểu học",
-                    "before": [],
-                    "code": 2,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "Trung học cơ sở",
-                    "before": [],
-                    "code": 3,
-                    "after": [
-                      "Đồng"
-                    ]
-                  },
-                  {
-                    "topic": "Trung học phổ thông",
-                    "before": [],
-                    "code": 4,
-                    "after": [
-                      "Đồng"
-                    ]
-                  }
-                ]
-              },
-              "form": {}
-            },
-            {
-              "id": "C7b",
-              "type": "NUMBER",
-              "text": "Theo anh/chị, dịch vụ xe đưa đón nên được triển khai trong bán kính tối đa bao nhiêu km để đáp ứng tốt nhất nhu cầu đưa đón con của anh/chị khi theo học tại trường tư thục song ngữ?",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "1",
-              "max": "999999999",
-              "unit": "KM",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": false,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),AnswerText(S9)]);",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "C8",
-              "type": "OPEN",
-              "text": "Anh/chị có bất kỳ nguyện vọng, mong muốn HOẶC nhu cầu nào về các dịch vụ mà một trường tư thục song ngữ cần phải có để khiến anh/chị muốn cho con theo học ở trường này? Lưu ý, ở đây không có câu trả lời đúng hoặc sai, em chỉ muốn ghi nhận tất cả những mong muốn của anh/chị về tất cả các khía cạnh (Cơ sở vật chất, hệ thống giáo dục, đội ngũ giáo viên, …) để giúp xây dựng nên một trường học đúng theo nhu cầu của mình.\n",
-              "note": "PROBE HẾT Ý",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5759,6 +5620,975 @@
               "realcam": false,
               "options": {
                 "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C9",
+              "type": "SINGLE",
+              "text": "Ý định cho bé {0} theo học tại ngôi trường trong bản ý tưởng đã bao gồm học phí qua thời gian này của anh/chị là như thế nào?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Chắc chắn sẽ không cho học",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Có thể sẽ không cho học",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Có thể cho học hoặc không",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Có thể sẽ cho học",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chắc chắn sẽ cho học",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C10",
+              "type": "SINGLE_GRID",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Quá rẻ đến mức nghi ngờ chất lượng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Rẻ đến mức nghi ngờ chất lượng",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Hợp lý",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Mắc",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Quá mắc",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "1. Mầm non – Lớp 3",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Lớp 4 - 5",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Lớp 6 - 8",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Lớp 9 - 10",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Lớp 11 - 12",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C11-1",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Mầm non – Lớp 3</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,1,[3,4,5])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C11-2",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 4 - 5</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,2,[3,4,5])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C11-3",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 6 - 8</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,3,[3,4,5])){QuestionHide()}\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C11-4",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 9 - 10</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,4,[3,4,5])){QuestionHide()}\n",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C11-5",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 11 - 12</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,5,[3,4,5])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C12-1",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Mầm non – Lớp 3</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,1,[1,2,3])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C12-2",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 4 - 5</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,2,[1,2,3])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C12-3",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 6 - 8</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,3,[1,2,3])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C12-4",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 9 - 10</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,4,[1,2,3])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C12-5",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 11 - 12</blue>",
+              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 5%",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10%",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15%",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20%",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25%",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nhiều hơn 25%: Ghi rõ …",
+                  "code": "6",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(ContainsChoice(C10,5,[1,2,3])){QuestionHide()}",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C13",
+              "type": "SINGLE",
+              "text": "Anh/chị có dự định cho bé {0} sử dụng dịch vụ xe đưa đón của trường này không? ",
+              "note": "KHÔNG SHOWTABLET – PVV GHI NHẬN THEO CÂU TRẢ LỜI CỦA ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Có",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C3,[3,4,5])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C14",
+              "type": "NUMBER",
+              "text": "Theo anh/chị, dịch vụ xe đưa đón nên được triển khai trong bán kính tối đa bao nhiêu km để đáp ứng tốt nhất nhu cầu đưa đón con của anh/chị khi theo học tại trường tư thục song ngữ?\n\nNOTE: PVV GHI NHẬN SỐ KM",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "0",
+              "max": "999999999",
+              "unit": "KM",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": false,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
                 "topic_random": false,
                 "search": false
               },
@@ -5766,6 +6596,264 @@
                 "on_enter": "",
                 "on_next": "",
                 "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C15",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của chi phí thuê dịch vụ đưa đón này như thế nào: <blue>20,000,000 VNĐ/năm</blue>?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA MỨC GIÁ VÀ THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá rẻ",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Rẻ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Hợp lý",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Mắc",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá mắc",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C16",
+              "type": "NUMBER",
+              "text": "Theo anh/chị, mức giá hàng năm cho dịch vụ xe đưa đón học sinh của trường nên là bao nhiêu thì hợp lý?\nNOTE: \nPVV GHI NHẬN SỐ VND",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999999999",
+              "unit": "VND",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Contains(C15,[3])){QuestionHide()};",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "(Contains(C15,[1,2])&&(Answer(CurrentQuestion())<20000001))||(Contains(C15,[4,5])&&(Answer(CurrentQuestion())>19999999))\n",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C17",
+              "type": "SINGLE",
+              "text": "Anh/chị có dự định cho bé {0} ăn uống tại trường này không?",
+              "note": "KHÔNG SHOWTABLET – PVV GHI NHẬN THEO CÂU TRẢ LỜI CỦA ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Có",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C3,[3,4,5])){QuestionHide()};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C18",
+              "type": "SINGLE",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của chi phí ăn uống tại trường này như thế nào: <blue>25,000,000 VNĐ/năm</blue>?",
+              "note": "SHOWTABLET – PVV ĐỌC QUA MỨC GIÁ VÀ THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quá rẻ",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Rẻ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Hợp lý",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Mắc",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quá mắc",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "C19",
+              "type": "NUMBER",
+              "text": "Theo anh/chị, mức giá hàng năm cho dịch vụ ăn/uống tại trường nên là bao nhiêu thì hợp lý?\nNOTE: \nPVV GHI NHẬN SỐ VND\n",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1",
+              "max": "999999999",
+              "unit": "VND",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Contains(C18,[3])){QuestionHide()};",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "(Contains(C18,[1,2])&&(Answer(CurrentQuestion())<25000001))||(Contains(C18,[4,5])&&(Answer(CurrentQuestion())>24999999))",
+                    "action": "Hard",
+                    "message": "SAI LOGIC",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
