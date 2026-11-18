@@ -987,7 +987,7 @@
                       "id": "D1-Q3",
                       "type": "MULTI",
                       "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -1081,7 +1081,7 @@
                           "is_header": false
                         },
                         {
-                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "text": "12. Mang lại cảm giác dễ chịu",
                           "code": "12",
                           "media": "",
                           "is_other": false,
@@ -1243,7 +1243,7 @@
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
@@ -1433,11 +1433,11 @@
                           "is_header": false
                         },
                         {
-                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "text": "22.",
                           "code": "22",
                           "media": "",
                           "is_other": false,
-                          "is_exclusive": false,
+                          "is_exclusive": true,
                           "is_header": false
                         }
                       ],
@@ -1561,8 +1561,8 @@
                     {
                       "id": "D1-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -1770,7 +1770,7 @@
                       "id": "HDQ7",
                       "type": "EMPTY",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
-                      "note": "SHOWTABLET BẢNG MÀU",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -1802,7 +1802,7 @@
                       "id": "D1-Q7",
                       "type": "NUMBER_GRID",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
-                      "note": "",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -1934,7 +1934,7 @@
                       "id": "D1-Q9",
                       "type": "MULTI",
                       "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
-                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "note": "SHOWPHOTO LOGO NHÃN HIỆU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -2136,7 +2136,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -2239,7 +2239,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -2403,7 +2403,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -2839,7 +2839,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -8366,7 +8366,7 @@
                   "realcam": false,
                   "options": {
                     "answer_random": false,
-                    "topic_random": true,
+                    "topic_random": false,
                     "flip_table": false,
                     "two_state": false
                   },
@@ -8455,7 +8455,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -8663,7 +8663,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": true,
+                    "answer_random": false,
                     "search": false
                   },
                   "logic": {
@@ -8804,7 +8804,14 @@
                   "logic": {
                     "on_enter": "",
                     "on_next": "",
-                    "rules": []
+                    "rules": [
+                      {
+                        "condition": "ContainsChoice(S18,1,[1,2])&&ContainsChoice(S18,2,[1,2])&&ContainsChoice(S18,3,[1,2])&&ContainsChoice(S18,4,[1,2])&&ContainsChoice(S18,5,[1,2])&&ContainsChoice(S18,6,[1,2])&&ContainsChoice(S18,7,[1,2])&&ContainsChoice(S18,8,[1,2])&&ContainsChoice(S18,9,[1,2])&&ContainsChoice(S18,10,[1,2])&&ContainsChoice(S18,11,[1,2])&&ContainsChoice(S18,12,[1,2])",
+                        "action": "Hard",
+                        "message": "NGƯNG",
+                        "goto": ""
+                      }
+                    ]
                   },
                   "conjoint": {},
                   "number_grid": {},
@@ -9453,7 +9460,7 @@
                     "on_next": "",
                     "rules": [
                       {
-                        "condition": "Contains(S12,[2])&&!Contains(CurrentQuestion(),[11])",
+                        "condition": "Contains(S11,[2,3,4])&&!Contains(CurrentQuestion(),[11])",
                         "action": "Hard",
                         "message": "SAI LOGIC",
                         "goto": ""
@@ -9691,6 +9698,14 @@
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "99. Không có",
+                      "code": "99",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": true,
                       "is_header": false
                     }
                   ],
@@ -10495,7 +10510,7 @@
                       "id": "D2-Q3",
                       "type": "MULTI",
                       "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -10589,7 +10604,7 @@
                           "is_header": false
                         },
                         {
-                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "text": "12. Mang lại cảm giác dễ chịu",
                           "code": "12",
                           "media": "",
                           "is_other": false,
@@ -10751,7 +10766,7 @@
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
@@ -10941,11 +10956,11 @@
                           "is_header": false
                         },
                         {
-                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "text": "22.",
                           "code": "22",
                           "media": "",
                           "is_other": false,
-                          "is_exclusive": false,
+                          "is_exclusive": true,
                           "is_header": false
                         }
                       ],
@@ -11069,8 +11084,8 @@
                     {
                       "id": "D2-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -11278,7 +11293,7 @@
                       "id": "HDQ7#1",
                       "type": "EMPTY",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
-                      "note": "SHOWTABLET BẢNG MÀU",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -11310,7 +11325,7 @@
                       "id": "D2-Q7",
                       "type": "NUMBER_GRID",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
-                      "note": "",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -11442,7 +11457,7 @@
                       "id": "D2-Q9",
                       "type": "MULTI",
                       "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
-                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "note": "SHOWPHOTO LOGO NHÃN HIỆU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -12063,7 +12078,7 @@
                       "id": "D3-Q3",
                       "type": "MULTI",
                       "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -12157,7 +12172,7 @@
                           "is_header": false
                         },
                         {
-                          "text": "12. Mang lại cảm giac dễ chịu",
+                          "text": "12. Mang lại cảm giác dễ chịu",
                           "code": "12",
                           "media": "",
                           "is_other": false,
@@ -12319,7 +12334,7 @@
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
@@ -12509,11 +12524,11 @@
                           "is_header": false
                         },
                         {
-                          "text": "22. Không có nhận định nào kể trên (Không show tablet)",
+                          "text": "22.",
                           "code": "22",
                           "media": "",
                           "is_other": false,
-                          "is_exclusive": false,
+                          "is_exclusive": true,
                           "is_header": false
                         }
                       ],
@@ -12637,8 +12652,8 @@
                     {
                       "id": "D3-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là mốt số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
-                      "note": "SHOWTABLET",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "note": "SHOWCARD",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -12846,7 +12861,7 @@
                       "id": "HDQ7#2",
                       "type": "EMPTY",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?\n<img 1.png>",
-                      "note": "SHOWTABLET BẢNG MÀU",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -12878,7 +12893,7 @@
                       "id": "D3-Q7",
                       "type": "NUMBER_GRID",
                       "text": "Bây giờ chị hãy nhìn vào bảng màu sau đây và chọn giúp em 3 MÀU mà chị thấy là PHÙ HỢP NHẤT với mùi hương nước xả vải này?",
-                      "note": "",
+                      "note": "SHOWPHOTO + BẢNG MÀU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -13010,7 +13025,7 @@
                       "id": "D3-Q9",
                       "type": "MULTI",
                       "text": "Chị nghĩ mùi hương bột giặt này phù hợp với nhãn hiệu bột giặt nào dưới đây, chị hãy chọn TỐI ĐA 3 NHÃN HIỆU chị thấy phù hợp nhất?",
-                      "note": "SHOWTABLET LOGO NHÃN HIỆU",
+                      "note": "SHOWPHOTO LOGO NHÃN HIỆU",
                       "media": "",
                       "record": false,
                       "readonly": false,
@@ -13097,7 +13112,7 @@
                     {
                       "id": "D3-Q10",
                       "type": "SINGLE",
-                      "text": "Cụm từ nào dưới đây mô tả đúng nhất ý kiến tổng thể của bạn về mùi hương của bột giặt này?",
+                      "text": "Đánh giá tổng thể của bạn về mùi hương của bột giặt này là như thế nào?",
                       "note": "SHOWTABLET",
                       "media": "",
                       "record": false,
