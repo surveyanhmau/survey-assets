@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tvar b=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[4,5])){b=b+1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\tif(b==0){kq=1;};\n\treturn kq;\n}",
+  "functions": "function SetQ1(){\nvar a=[];\nfor(var i=1;i<11;i=i+1){\na=a+[Answer(\"S7a_\"+i)];\n};\nreturn a;\n}\nfunction CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3])){kq=1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -2607,9 +2607,16 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\n\ta=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);",
+                "on_enter": "SetAnswer(Q1a,SetQ1());",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "!Contains(Q1a,[Answer(S7a_1)])||!Contains(Q1a,[Answer(S7a_2)])||!Contains(Q1a,[Answer(S7a_3)])||!Contains(Q1a,[Answer(S7a_4)])||!Contains(Q1a,[Answer(S7a_5)])||!Contains(Q1a,[Answer(S7a_6)])||!Contains(Q1a,[Answer(S7a_7)])||!Contains(Q1a,[Answer(S7a_8)])||||!Contains(Q1a,[Answer(S7a_9)])||!Contains(Q1a,[Answer(S7a_10)])",
+                    "action": "Hard",
+                    "message": "Trường mà những người con đang học (S7a) phải được chọn ở Q1a",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
