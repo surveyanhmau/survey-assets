@@ -2611,7 +2611,7 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "!Contains(Q1a,[Answer(S7a_1)])",
+                    "condition": "(!Contains(Q1a,[Answer(S7a_1)]))||(!Contains(Q1a,[Answer(S7a_2)]))||(!Contains(Q1a,[Answer(S7a_3)]))||(!Contains(Q1a,[Answer(S7a_4)]))||(!Contains(Q1a,[Answer(S7a_5)]))||(!Contains(Q1a,[Answer(S7a_6)]))||(!Contains(Q1a,[Answer(S7a_7)]))||(!Contains(Q1a,[Answer(S7a_8)]))||(!Contains(Q1a,[Answer(S7a_9)]))||(!Contains(Q1a,[Answer(S7a_10)]))",
                     "action": "Hard",
                     "message": "Trường mà những người con đang học (S7a) phải được chọn ở Q1a",
                     "goto": ""
