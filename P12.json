@@ -986,7 +986,7 @@
                     {
                       "id": "D1-Q3",
                       "type": "MULTI",
-                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -1237,7 +1237,7 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 3,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
@@ -1247,7 +1247,7 @@
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30])};\nif(a==2){AnswerRandom(CurrentQuestion(),[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5])};\nif(a==3){AnswerRandom(CurrentQuestion(),[16,17,18,19,20,11,12,13,14,15,26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5])};\nif(a==4){AnswerRandom(CurrentQuestion(),[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5,6,7,8,9,10])};\nif(a==5){AnswerRandom(CurrentQuestion(),[26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5,16,17,18,19,20,11,12,13,14,15])};",
                         "on_next": "",
                         "rules": []
                       },
@@ -1561,7 +1561,7 @@
                     {
                       "id": "D1-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -1748,17 +1748,17 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 2,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22])};\nif(a==2){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6])};\nif(a==3){AnswerRandom(CurrentQuestion(),[13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12])};\nif(a==4){AnswerRandom(CurrentQuestion(),[19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])};\nif(a==5){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,19,20,21,22,1,2,3,4,5,6,13,14,15,16,17,18])};",
                         "on_next": "",
                         "rules": []
                       },
@@ -10509,7 +10509,7 @@
                     {
                       "id": "D2-Q3",
                       "type": "MULTI",
-                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -10760,7 +10760,7 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 3,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
@@ -10770,7 +10770,7 @@
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30])};\nif(a==2){AnswerRandom(CurrentQuestion(),[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5])};\nif(a==3){AnswerRandom(CurrentQuestion(),[16,17,18,19,20,11,12,13,14,15,26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5])};\nif(a==4){AnswerRandom(CurrentQuestion(),[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5,6,7,8,9,10])};\nif(a==5){AnswerRandom(CurrentQuestion(),[26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5,16,17,18,19,20,11,12,13,14,15])};",
                         "on_next": "",
                         "rules": []
                       },
@@ -11084,7 +11084,7 @@
                     {
                       "id": "D2-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -11271,17 +11271,17 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 2,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22])};\nif(a==2){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6])};\nif(a==3){AnswerRandom(CurrentQuestion(),[13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12])};\nif(a==4){AnswerRandom(CurrentQuestion(),[19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])};\nif(a==5){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,19,20,21,22,1,2,3,4,5,6,13,14,15,16,17,18])};",
                         "on_next": "",
                         "rules": []
                       },
@@ -12077,7 +12077,7 @@
                     {
                       "id": "D3-Q3",
                       "type": "MULTI",
-                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Dưới đây là các tính từ/cụm từ thường được dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -12328,7 +12328,7 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 3,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
@@ -12338,7 +12338,7 @@
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30])};\nif(a==2){AnswerRandom(CurrentQuestion(),[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5])};\nif(a==3){AnswerRandom(CurrentQuestion(),[16,17,18,19,20,11,12,13,14,15,26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5])};\nif(a==4){AnswerRandom(CurrentQuestion(),[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,4,5,6,7,8,9,10])};\nif(a==5){AnswerRandom(CurrentQuestion(),[26,27,28,29,30,21,22,23,24,25,6,7,8,9,10,1,2,3,4,5,16,17,18,19,20,11,12,13,14,15])};",
                         "on_next": "",
                         "rules": []
                       },
@@ -12652,7 +12652,7 @@
                     {
                       "id": "D3-Q6",
                       "type": "MULTI",
-                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?",
+                      "text": "Tiếp theo đây là một số từ có thể hoặc không thể dùng để mô tả mùi hương bột giặt mà chị vừa ngửi, chị hãy đọc kĩ sau đó chọn ra MỘT HOẶC NHIỀU TỪ PHÙ HỢP ĐỂ MÔ TẢ MÙI HƯƠNG NÀY?\n{0}",
                       "note": "SHOWCARD",
                       "media": "",
                       "record": false,
@@ -12839,17 +12839,17 @@
                       "min": "1",
                       "max": "999",
                       "unit": "",
-                      "display_columns": 1,
+                      "display_columns": 2,
                       "no_answer": false,
                       "integer_only": true,
                       "realtime": false,
                       "realcam": false,
                       "options": {
-                        "answer_random": true,
+                        "answer_random": false,
                         "search": false
                       },
                       "logic": {
-                        "on_enter": "",
+                        "on_enter": "var a = Random(5)+1;\nvar b = \"Rotation \"+a;\nSetQuestionText(CurrentQuestion(),[b]);\nif(a==1){AnswerRandom(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22])};\nif(a==2){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6])};\nif(a==3){AnswerRandom(CurrentQuestion(),[13,14,15,16,17,18,19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12])};\nif(a==4){AnswerRandom(CurrentQuestion(),[19,20,21,22,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])};\nif(a==5){AnswerRandom(CurrentQuestion(),[7,8,9,10,11,12,19,20,21,22,1,2,3,4,5,6,13,14,15,16,17,18])};",
                         "on_next": "",
                         "rules": []
                       },
