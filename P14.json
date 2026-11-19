@@ -3838,7 +3838,7 @@
               "questions": [
                 {
                   "id": "C10",
-                  "type": "MULTI",
+                  "type": "RANKING",
                   "text": "Nếu trong tương lai có một loại <blue>nước năng lượng</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại nước tăng lực hiện nay chưa đáp ứng tốt?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất.",
                   "note": "",
                   "media": "",
