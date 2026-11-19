@@ -2793,8 +2793,8 @@
                       "code": "99",
                       "media": "",
                       "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": true
+                      "is_exclusive": true,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
