@@ -4242,7 +4242,7 @@
                 {
                   "text": "12. Khác (ghi rõ):….................................",
                   "code": "12",
-                  "media": "12.jpg",
+                  "media": "",
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
@@ -4362,7 +4362,7 @@
                 {
                   "text": "12. Khác (ghi rõ):….................................",
                   "code": "12",
-                  "media": "12.jpg",
+                  "media": "",
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
@@ -4472,7 +4472,7 @@
                 {
                   "text": "12. Khác (ghi rõ):….................................",
                   "code": "12",
-                  "media": "12.jpg",
+                  "media": "",
                   "is_other": false,
                   "is_header": false
                 }
