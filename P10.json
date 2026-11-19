@@ -4471,7 +4471,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4731,7 +4731,7 @@
             {
               "id": "Q15",
               "type": "NUMBER",
-              "text": "Vui lòng cho biết khoảng cách từ nhà anh/chị đến trường trường {0} nơi bé {1} đang theo học?\nLưu ý: Anh/chị chỉ cần ước lượng số KM.",
+              "text": "Vui lòng cho biết khoảng cách từ nhà anh/chị đến trường {0} nơi bé {1} đang theo học?\nLưu ý: Anh/chị chỉ cần ước lượng số KM.",
               "note": "",
               "media": "",
               "record": false,
@@ -4752,7 +4752,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Answered(a)){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -5623,7 +5623,7 @@
             {
               "id": "HD2",
               "type": "EMPTY",
-              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.",
+              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.\n<img 3.jpg>",
               "note": "",
               "media": "",
               "record": false,
@@ -5721,7 +5721,7 @@
             {
               "id": "C10",
               "type": "SINGLE_GRID",
-              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?\n<img 3.jpg>",
               "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN, PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6733,7 +6733,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(C15,[3])){QuestionHide()};",
+                "on_enter": "if(!Contains(C15,[1,2,4,5])){QuestionHide()};",
                 "on_next": "",
                 "rules": [
                   {
@@ -6906,7 +6906,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(C18,[3])){QuestionHide()};",
+                "on_enter": "if(!Contains(C18,[1,2,4,5])){QuestionHide()};",
                 "on_next": "",
                 "rules": [
                   {
