@@ -5755,7 +5755,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!(Contains(C3,[1,2])&&Contains(C9,[4,5]))){QuestionHide()};\nif(!(Contains(C3,[4,5])&&Contains(C9,[1,2]))){QuestionHide()};\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);",
+                "on_enter": "if(!((Contains(C3,[1,2])&&Contains(C9,[4,5]))||(Contains(C3,[4,5])&&Contains(C9,[1,2])))){QuestionHide()};\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);",
                 "on_next": "",
                 "rules": []
               },
