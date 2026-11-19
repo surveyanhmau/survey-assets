@@ -4628,12 +4628,20 @@
             {
               "id": "N3",
               "type": "SINGLE",
-              "text": "",
+              "text": "Tên nào thể hiện tốt nhất \"Đây 1 loại nước uống cung cấp năng lượng mà tôi có thể dùng hàng ngày được\"?",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
-              "answers": [],
+              "answers": [
+                {
+                  "text": "1. 1",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
               "topics": [],
               "min": "",
               "max": "",
