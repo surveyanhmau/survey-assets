@@ -4238,7 +4238,7 @@
               },
               "logic": {
                 "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
-                "on_next": "if(GetAnswerCount(Q8a)<6){SetAnswer(Q8b,Answer(Q8a))};",
+                "on_next": "if(GetAnswerCount(Q8a)<6){SetAnswer(Q8b,[Answer(Q8a)])};",
                 "rules": []
               },
               "conjoint": {},
