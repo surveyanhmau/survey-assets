@@ -1185,7 +1185,7 @@
             {
               "id": "A9",
               "type": "SINGLE",
-              "text": "Với các thức uống giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?",
+              "text": "Với các thức uống {0} giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?",
               "note": "",
               "media": "",
               "record": false,
@@ -1269,7 +1269,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(A8b)]);",
                 "on_next": "",
                 "rules": [
                   {
@@ -1465,80 +1465,6 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
-            },
-            {
-              "id": "A12",
-              "type": "SINGLE",
-              "text": "Xin cho biết TRÌNH ĐỘ HỌC VẤN CAO NHẤT của anh/chị?",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. Đang học/ đã tốt nghiệp chương trình cấp 1",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "2. Đang học/ đã tốt nghiệp chương trình cấp 2",
-                  "code": "2",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "3. Đang học/ đã tốt nghiệp chương trình cấp 3",
-                  "code": "3",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "4. Đang học/ đã tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
-                  "code": "4",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                },
-                {
-                  "text": "5. Không đi học",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(CurrentQuestion(),[5])",
-                    "action": "Hard",
-                    "message": "NGƯNG",
-                    "goto": ""
-                  }
-                ]
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
             }
           ],
           "children": []
@@ -1606,7 +1532,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "text": "6. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -1614,7 +1540,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "text": "7. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                   "code": "7",
                   "media": "",
                   "is_other": false,
@@ -1622,7 +1548,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "text": "8. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                   "code": "8",
                   "media": "",
                   "is_other": false,
@@ -1630,7 +1556,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "text": "9. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                   "code": "9",
                   "media": "",
                   "is_other": false,
@@ -1638,7 +1564,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "text": "10. Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                   "code": "10",
                   "media": "",
                   "is_other": false,
@@ -1646,7 +1572,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -1654,7 +1580,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                   "code": "12",
                   "media": "",
                   "is_other": false,
@@ -1662,7 +1588,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "text": "13. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                   "code": "13",
                   "media": "",
                   "is_other": false,
@@ -1670,7 +1596,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "text": "14. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                   "code": "14",
                   "media": "",
                   "is_other": false,
@@ -1678,7 +1604,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "text": "15. Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                   "code": "15",
                   "media": "",
                   "is_other": false,
@@ -1686,7 +1612,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "text": "16. Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                   "code": "16",
                   "media": "",
                   "is_other": false,
@@ -1694,7 +1620,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "17. Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                   "code": "17",
                   "media": "",
                   "is_other": false,
@@ -1702,24 +1628,8 @@
                   "is_header": false
                 },
                 {
-                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "18. Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                   "code": "18",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                  "code": "19",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                  "code": "20",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -1810,78 +1720,68 @@
                   "is_other": false
                 },
                 {
-                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "text": "6. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                   "code": "6",
                   "is_other": false
                 },
                 {
-                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "text": "7. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                   "code": "7",
                   "is_other": false
                 },
                 {
-                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "text": "8. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                   "code": "8",
                   "is_other": false
                 },
                 {
-                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "text": "9. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                   "code": "9",
                   "is_other": false
                 },
                 {
-                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "text": "10. Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                   "code": "10",
                   "is_other": false
                 },
                 {
-                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                   "code": "11",
                   "is_other": false
                 },
                 {
-                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                   "code": "12",
                   "is_other": false
                 },
                 {
-                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "text": "13. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                   "code": "13",
                   "is_other": false
                 },
                 {
-                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "text": "14. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                   "code": "14",
                   "is_other": false
                 },
                 {
-                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "text": "15. Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                   "code": "15",
                   "is_other": false
                 },
                 {
-                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "text": "16. Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                   "code": "16",
                   "is_other": false
                 },
                 {
-                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "17. Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                   "code": "17",
                   "is_other": false
                 },
                 {
-                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "18. Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                   "code": "18",
-                  "is_other": false
-                },
-                {
-                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                  "code": "19",
-                  "is_other": false
-                },
-                {
-                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                  "code": "20",
                   "is_other": false
                 }
               ],
@@ -1990,78 +1890,68 @@
                   "is_other": false
                 },
                 {
-                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "text": "6. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                   "code": "6",
                   "is_other": false
                 },
                 {
-                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "text": "7. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                   "code": "7",
                   "is_other": false
                 },
                 {
-                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "text": "8. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                   "code": "8",
                   "is_other": false
                 },
                 {
-                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "text": "9. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                   "code": "9",
                   "is_other": false
                 },
                 {
-                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "text": "10. Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                   "code": "10",
                   "is_other": false
                 },
                 {
-                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                   "code": "11",
                   "is_other": false
                 },
                 {
-                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                   "code": "12",
                   "is_other": false
                 },
                 {
-                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "text": "13. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                   "code": "13",
                   "is_other": false
                 },
                 {
-                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "text": "14. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                   "code": "14",
                   "is_other": false
                 },
                 {
-                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "text": "15. Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                   "code": "15",
                   "is_other": false
                 },
                 {
-                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "text": "16. Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                   "code": "16",
                   "is_other": false
                 },
                 {
-                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "17. Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                   "code": "17",
                   "is_other": false
                 },
                 {
-                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "18. Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                   "code": "18",
-                  "is_other": false
-                },
-                {
-                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                  "code": "19",
-                  "is_other": false
-                },
-                {
-                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                  "code": "20",
                   "is_other": false
                 }
               ],
@@ -2107,7 +1997,7 @@
             {
               "id": "C1",
               "type": "MULTI",
-              "text": "Đâu là nhu cầu mà anh/chị thường gặp nhất trong cuộc sống hàng ngày?",
+              "text": "Đâu là nhu cầu mà anh/chị thường gặp nhất trong cuộc sống hàng ngày?\nAnh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
               "note": "",
               "media": "",
               "record": false,
@@ -2154,7 +2044,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "text": "6. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                   "code": "6",
                   "media": "",
                   "is_other": false,
@@ -2162,7 +2052,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "text": "7. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                   "code": "7",
                   "media": "",
                   "is_other": false,
@@ -2170,7 +2060,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "text": "8. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                   "code": "8",
                   "media": "",
                   "is_other": false,
@@ -2178,7 +2068,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "text": "9. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                   "code": "9",
                   "media": "",
                   "is_other": false,
@@ -2186,7 +2076,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "text": "10. Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                   "code": "10",
                   "media": "",
                   "is_other": false,
@@ -2194,7 +2084,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -2202,7 +2092,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                   "code": "12",
                   "media": "",
                   "is_other": false,
@@ -2210,7 +2100,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "text": "13. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                   "code": "13",
                   "media": "",
                   "is_other": false,
@@ -2218,7 +2108,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "text": "14. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                   "code": "14",
                   "media": "",
                   "is_other": false,
@@ -2226,7 +2116,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "text": "15. Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                   "code": "15",
                   "media": "",
                   "is_other": false,
@@ -2234,7 +2124,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "text": "16. Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                   "code": "16",
                   "media": "",
                   "is_other": false,
@@ -2242,7 +2132,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "17. Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                   "code": "17",
                   "media": "",
                   "is_other": false,
@@ -2250,24 +2140,8 @@
                   "is_header": false
                 },
                 {
-                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "18. Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                   "code": "18",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                  "code": "19",
-                  "media": "",
-                  "is_other": false,
-                  "is_exclusive": false,
-                  "is_header": false
-                },
-                {
-                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                  "code": "20",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -2330,64 +2204,56 @@
                     "index": 5
                   },
                   {
-                    "name": "Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                    "name": "Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                     "index": 6
                   },
                   {
-                    "name": "Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                    "name": "Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                     "index": 7
                   },
                   {
-                    "name": "Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                    "name": "Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                     "index": 8
                   },
                   {
-                    "name": "Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                    "name": "Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                     "index": 9
                   },
                   {
-                    "name": "Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                    "name": "Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                     "index": 10
                   },
                   {
-                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                     "index": 11
                   },
                   {
-                    "name": "Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                     "index": 12
                   },
                   {
-                    "name": "Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                    "name": "Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                     "index": 13
                   },
                   {
-                    "name": "Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                    "name": "Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                     "index": 14
                   },
                   {
-                    "name": "Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                    "name": "Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                     "index": 15
                   },
                   {
-                    "name": "Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                    "name": "Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                     "index": 16
                   },
                   {
-                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                    "name": "Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                     "index": 17
                   },
                   {
-                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                    "name": "Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                     "index": 18
-                  },
-                  {
-                    "name": "Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                    "index": 19
-                  },
-                  {
-                    "name": "Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                    "index": 20
                   }
                 ]
               },
@@ -3205,13 +3071,6 @@
                       "is_header": false
                     },
                     {
-                      "text": "21. TEA+",
-                      "code": "21",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
                       "text": "22. Trà Xanh Không Độ",
                       "code": "22",
                       "media": "",
@@ -3527,7 +3386,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "if(Contains(C5,[10])){SetAnswer(C6,[64]);QuestionReadonly(true);};\nif(!Contains(C5,[10])){QuestionReadonly(false);};\nif(Contains(C5,[1])){AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,7,8]);};\nif(Contains(C5,[2])){AnswerVisible(CurrentQuestion(),[9,10,11,12,13,14,15,16,17,18,19]);};\nif(Contains(C5,[3])){AnswerVisible(CurrentQuestion(),[20,21,22,23,24,25,26,27]);};\nif(Contains(C5,[5])){AnswerVisible(CurrentQuestion(),[28,29,30,31,32,33]);};\nif(Contains(C5,[6])){AnswerVisible(CurrentQuestion(),[34,35,36,37]);};\nif(Contains(C5,[7])){AnswerVisible(CurrentQuestion(),[38,39,40,41,42,43,44,45,46,47,48,49]);};\nif(Contains(C5,[8])){AnswerVisible(CurrentQuestion(),[50,51,52,53,54,55,56,57]);};\nif(Contains(C5,[9])){AnswerVisible(CurrentQuestion(),[58,59,60,61,62,63]);};",
+                    "on_enter": "if(Contains(C5,[10])){SetAnswer(C6,[64]);QuestionReadonly(true);};\nif(!Contains(C5,[10])){QuestionReadonly(false);};\nif(Contains(C5,[1])){AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,7,8]);};\nif(Contains(C5,[2])){AnswerVisible(CurrentQuestion(),[9,10,11,12,13,14,15,16,17,18,19]);};\nif(Contains(C5,[3])){AnswerVisible(CurrentQuestion(),[20,22,23,24,25,26,27]);};\nif(Contains(C5,[5])){AnswerVisible(CurrentQuestion(),[28,29,30,31,32,33]);};\nif(Contains(C5,[6])){AnswerVisible(CurrentQuestion(),[34,35,36,37]);};\nif(Contains(C5,[7])){AnswerVisible(CurrentQuestion(),[38,39,40,41,42,43,44,45,46,47,48,49]);};\nif(Contains(C5,[8])){AnswerVisible(CurrentQuestion(),[50,51,52,53,54,55,56,57]);};\nif(Contains(C5,[9])){AnswerVisible(CurrentQuestion(),[58,59,60,61,62,63]);};",
                     "on_next": "",
                     "rules": []
                   },
@@ -3661,7 +3520,7 @@
                 {
                   "id": "C7a",
                   "type": "NUMBER",
-                  "text": "Mức chi tiêu của anh/chị cho lần sử dụng này là bao nhiêu?\nVí dụ: 15,000 đồng thì anh/chị điền số 15, KHÔNG ĐIỀN RANGE GIÁ",
+                  "text": "Mức chi tiêu của anh/chị cho lần sử dụng này là bao nhiêu?\nAnh chị vui lòng ghi nhận số tiền dưới dạng số với đơn vị là Việt Nam Đồng, VD: #,000,000 Việt Nam Đồng",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -3670,7 +3529,7 @@
                   "topics": [],
                   "min": "1",
                   "max": "999999999",
-                  "unit": "Nghìn đồng",
+                  "unit": "VND",
                   "display_columns": 1,
                   "no_answer": false,
                   "integer_only": false,
@@ -3839,7 +3698,7 @@
                 {
                   "id": "C10",
                   "type": "RANKING",
-                  "text": "Nếu trong tương lai có một loại <blue>nước năng lượng</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại nước tăng lực hiện nay chưa đáp ứng tốt?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất.",
+                  "text": "Nếu trong tương lai có một loại <blue>thức uống</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại nước tăng lực hiện nay chưa đáp ứng tốt?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất và xếp hạng theo thứ tự mức độ mong muốn từ 1 tới 5. ",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -3886,7 +3745,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                      "text": "6. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
                       "code": "6",
                       "media": "",
                       "is_other": false,
@@ -3894,7 +3753,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                      "text": "7. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
                       "code": "7",
                       "media": "",
                       "is_other": false,
@@ -3902,7 +3761,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                      "text": "8. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
                       "code": "8",
                       "media": "",
                       "is_other": false,
@@ -3910,7 +3769,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                      "text": "9. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
                       "code": "9",
                       "media": "",
                       "is_other": false,
@@ -3918,7 +3777,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                      "text": "10. Tôi muốn kích hoạt năng lượng để nhập cuộc nhanh nhất khi bắt đầu vào việc",
                       "code": "10",
                       "media": "",
                       "is_other": false,
@@ -3926,7 +3785,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                      "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
                       "code": "11",
                       "media": "",
                       "is_other": false,
@@ -3934,7 +3793,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                      "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
                       "code": "12",
                       "media": "",
                       "is_other": false,
@@ -3942,7 +3801,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                      "text": "13. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
                       "code": "13",
                       "media": "",
                       "is_other": false,
@@ -3950,7 +3809,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                      "text": "14. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
                       "code": "14",
                       "media": "",
                       "is_other": false,
@@ -3958,7 +3817,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                      "text": "15. Tôi muốn đánh thức sự nổi loạn ngầm, dám nghĩ dám làm trong tôi",
                       "code": "15",
                       "media": "",
                       "is_other": false,
@@ -3966,7 +3825,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                      "text": "16. Tôi muốn đập tan mọi rào cản và sự gò bó thường ngày để sống thật với bản ngã mạnh mẽ nhất",
                       "code": "16",
                       "media": "",
                       "is_other": false,
@@ -3974,7 +3833,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                      "text": "17. Tôi muốn cảm nhận sự bùng nổ hưng phấn khi chiến thắng chính sự trì trệ của bản thân",
                       "code": "17",
                       "media": "",
                       "is_other": false,
@@ -3982,24 +3841,8 @@
                       "is_header": false
                     },
                     {
-                      "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                      "text": "18. Tôi muốn cảm thấy được thấu hiểu và tiếp thêm ý chí kiên cường trong những thời điểm khó khăn",
                       "code": "18",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                      "code": "19",
-                      "media": "",
-                      "is_other": false,
-                      "is_exclusive": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                      "code": "20",
                       "media": "",
                       "is_other": false,
                       "is_exclusive": false,
@@ -4036,6 +3879,370 @@
         {
           "id": "Chapter4",
           "name": "Chapter4",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "N1",
+              "type": "SINGLE",
+              "text": "Trong các tên gọi sau đây, đâu là tên gọi phù hợp nhất để mô tả loại thức uống có thể đáp ứng nhu cầu {0}?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. NƯỚC NĂNG LƯỢNG",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. NƯỚC UỐNG BẬT NĂNG LƯỢNG",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. NƯỚC TIẾP NĂNG LƯỢNG",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. NƯỚC TĂNG LỰC THẾ HỆ MỚI",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. NƯỚC NĂNG LƯỢNG PHONG CÁCH",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerTextRank(C10,1)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "N2",
+              "type": "SINGLE",
+              "text": "Trong các tên thương hiệu sau đây, đâu là tên thương hiệu phù hợp nhất với loại thức uống có thể đáp ứng nhu cầu {0}?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. BUFF",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. MANA",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. POWIN/POW-IN",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. POW-WOW",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 2 mA",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 40Hz",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. MAGIK",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. LUM",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. FORWARD",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. LIT",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerTextRank(C10,1)]);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "N3",
+              "type": "SINGLE",
+              "text": "Tên nào thể hiện tốt nhất \"Đây 1 loại nước uống cung cấp năng lượng mà tôi có thể dùng hàng ngày được\"?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Coca-Cola",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Pepsi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 7UP",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Sprite",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Red Bull",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Sting",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Wake-Up 247",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Number 1",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. C2",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. TEA+",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Trà Xanh Không Độ",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Dr Thanh",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Fuze Tea",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Búp Non/Tea 365",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Revive",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Pocari Sweat",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. G7",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. NESCAFÉ",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Vinacafé",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Café Phố",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "21. Khác: ghi rõ",
+                  "code": "21",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter5",
+          "name": "Chapter5",
           "record": false,
           "hide_back": false,
           "random_question": false,
@@ -4498,67 +4705,47 @@
               "conjoint": {},
               "number_grid": {},
               "form": {}
-            }
-          ],
-          "children": []
-        },
-        {
-          "id": "Chapter5",
-          "name": "Chapter5",
-          "record": false,
-          "hide_back": false,
-          "random_question": false,
-          "on_enter": "",
-          "loop": {
-            "enabled_loop": false,
-            "loop_random": false,
-            "iterations": []
-          },
-          "questions": [
-            {
-              "id": "HD2",
-              "type": "EMPTY",
-              "text": "Trong tương lai, một nhãn hàng mới muốn ra mắt một loại thức uống thế hệ mới với mô tả như dưới đây:",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "topic_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
             },
             {
-              "id": "N1",
+              "id": "A12",
               "type": "SINGLE",
-              "text": "Trong các tên gọi sau đây, đâu là tên gọi phù hợp nhất để mô tả loại thức uống vừa được giới thiệu?",
+              "text": "Xin cho biết TRÌNH ĐỘ HỌC VẤN CAO NHẤT của anh/chị?",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. 1",
+                  "text": "1. Đang học/ đã tốt nghiệp chương trình cấp 1",
                   "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Đang học/ đã tốt nghiệp chương trình cấp 2",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Đang học/ đã tốt nghiệp chương trình cấp 3",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Đang học/ đã tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Không đi học",
+                  "code": "5",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -4580,85 +4767,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "N2",
-              "type": "SINGLE",
-              "text": "Trong các tên thương hiệu sau đây, đâu là tên thương hiệu phù hợp nhất với loại thức uống vừa được giới thiệu?",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. 1",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
-              },
-              "conjoint": {},
-              "number_grid": {},
-              "form": {}
-            },
-            {
-              "id": "N3",
-              "type": "SINGLE",
-              "text": "Tên nào thể hiện tốt nhất \"Đây 1 loại nước uống cung cấp năng lượng mà tôi có thể dùng hàng ngày được\"?",
-              "note": "",
-              "media": "",
-              "record": false,
-              "readonly": false,
-              "answers": [
-                {
-                  "text": "1. 1",
-                  "code": "1",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
-                }
-              ],
-              "topics": [],
-              "min": "",
-              "max": "",
-              "unit": "",
-              "display_columns": 1,
-              "no_answer": false,
-              "integer_only": true,
-              "realtime": false,
-              "realcam": false,
-              "options": {
-                "answer_random": false,
-                "search": false
-              },
-              "logic": {
-                "on_enter": "",
-                "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[5])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
