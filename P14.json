@@ -762,7 +762,7 @@
             {
               "id": "A7",
               "type": "SINGLE",
-              "text": "Anh/chị có tham gia vào bất kỳ cuộc khảo sát/hội thảo nghiên cứu thị trường về ngành hàng NƯỚC UỐNG TRONG 6 THÁNG QUA không?",
+              "text": "Anh/chị có tham gia vào bất kỳ cuộc khảo sát/hội thảo nghiên cứu thị trường về ngành hàng NƯỚC UỐNG TRONG 3 THÁNG QUA không?",
               "note": "",
               "media": "",
               "record": false,
@@ -1376,13 +1376,19 @@
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "!Contains(CurrentQuestion(),[1,2,3,4,5,7,8])",
+                    "condition": "Contains(CurrentQuestion(),[7])",
                     "action": "Hard",
                     "message": "NGƯNG",
                     "goto": ""
                   },
                   {
                     "condition": "(Contains(CurrentQuestion(),[1])&&Contains(CurrentQuestion(),[2]))||(Contains(CurrentQuestion(),[3])&&Contains(CurrentQuestion(),[4]))",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "Contains(CurrentQuestion(),[8])&&Contains(CurrentQuestion(),[1,2,3,4,5,6,7])",
                     "action": "Hard",
                     "message": "NGƯNG",
                     "goto": ""
@@ -1735,7 +1741,347 @@
               },
               "logic": {
                 "on_enter": "",
-                "on_next": "FilterLoopByAnswer(Chapter6,B1);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "B2",
+              "type": "SINGLE_GRID",
+              "text": "Mức độ quan trọng của TỪNG NHU CẦU đối với anh/chị như thế nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Hoàn toàn không quan trọng",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "Không quan trọng",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "Bình thường",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "Quan trọng",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "Rất quan trọng",
+                  "code": "5",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "1. Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "code": "9",
+                  "is_other": false
+                },
+                {
+                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "code": "10",
+                  "is_other": false
+                },
+                {
+                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "code": "11",
+                  "is_other": false
+                },
+                {
+                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "code": "12",
+                  "is_other": false
+                },
+                {
+                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "code": "13",
+                  "is_other": false
+                },
+                {
+                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "code": "14",
+                  "is_other": false
+                },
+                {
+                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "code": "15",
+                  "is_other": false
+                },
+                {
+                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "code": "16",
+                  "is_other": false
+                },
+                {
+                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "code": "17",
+                  "is_other": false
+                },
+                {
+                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "code": "18",
+                  "is_other": false
+                },
+                {
+                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                  "code": "19",
+                  "is_other": false
+                },
+                {
+                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                  "code": "20",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "B3",
+              "type": "SINGLE_GRID",
+              "text": "Anh/chị thường gặp nhu cầu với tần suất như thế nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Gần như mỗi ngày",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "4-5 lần/tuần",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3-4 lần/tuần",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "2-3 lần/tuần",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "1 lần/tuần",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "2-3 lần/tháng",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "1 lần/tháng",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "Ít hơn 1 lần/tháng",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "Ít thường xuyên hơn",
+                  "code": "9",
+                  "is_other": false
+                }
+              ],
+              "topics": [
+                {
+                  "text": "1. Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "code": "9",
+                  "is_other": false
+                },
+                {
+                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "code": "10",
+                  "is_other": false
+                },
+                {
+                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "code": "11",
+                  "is_other": false
+                },
+                {
+                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "code": "12",
+                  "is_other": false
+                },
+                {
+                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "code": "13",
+                  "is_other": false
+                },
+                {
+                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "code": "14",
+                  "is_other": false
+                },
+                {
+                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "code": "15",
+                  "is_other": false
+                },
+                {
+                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "code": "16",
+                  "is_other": false
+                },
+                {
+                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "code": "17",
+                  "is_other": false
+                },
+                {
+                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "code": "18",
+                  "is_other": false
+                },
+                {
+                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                  "code": "19",
+                  "is_other": false
+                },
+                {
+                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                  "code": "20",
+                  "is_other": false
+                }
+              ],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": true,
+                "flip_table": false,
+                "two_state": false
+              },
+              "logic": {
+                "on_enter": "FilterTopicByAnswer(B3,B1);",
+                "on_next": "",
                 "rules": []
               },
               "conjoint": {},
@@ -1743,267 +2089,7 @@
               "form": {}
             }
           ],
-          "children": [
-            {
-              "id": "Chapter6",
-              "name": "Chapter6",
-              "record": false,
-              "hide_back": false,
-              "random_question": false,
-              "on_enter": "",
-              "loop": {
-                "enabled_loop": true,
-                "loop_random": true,
-                "iterations": [
-                  {
-                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
-                    "index": 1
-                  },
-                  {
-                    "name": "Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
-                    "index": 2
-                  },
-                  {
-                    "name": "Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
-                    "index": 3
-                  },
-                  {
-                    "name": "Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
-                    "index": 4
-                  },
-                  {
-                    "name": "Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
-                    "index": 5
-                  },
-                  {
-                    "name": "Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
-                    "index": 6
-                  },
-                  {
-                    "name": "Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
-                    "index": 7
-                  },
-                  {
-                    "name": "Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
-                    "index": 8
-                  },
-                  {
-                    "name": "Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
-                    "index": 9
-                  },
-                  {
-                    "name": "Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
-                    "index": 10
-                  },
-                  {
-                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
-                    "index": 11
-                  },
-                  {
-                    "name": "Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
-                    "index": 12
-                  },
-                  {
-                    "name": "Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
-                    "index": 13
-                  },
-                  {
-                    "name": "Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
-                    "index": 14
-                  },
-                  {
-                    "name": "Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
-                    "index": 15
-                  },
-                  {
-                    "name": "Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
-                    "index": 16
-                  },
-                  {
-                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
-                    "index": 17
-                  },
-                  {
-                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
-                    "index": 18
-                  },
-                  {
-                    "name": "Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
-                    "index": 19
-                  },
-                  {
-                    "name": "Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
-                    "index": 20
-                  }
-                ]
-              },
-              "questions": [
-                {
-                  "id": "B2",
-                  "type": "SINGLE",
-                  "text": "Mức độ quan trọng của NHU CẦU {0} đối với anh/chị như thế nào?",
-                  "note": "",
-                  "media": "",
-                  "record": false,
-                  "readonly": false,
-                  "answers": [
-                    {
-                      "text": "1. Hoàn toàn không quan trọng",
-                      "code": "1",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "2. Không quan trọng",
-                      "code": "2",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "3. Bình thường",
-                      "code": "3",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "4. Quan trọng",
-                      "code": "4",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "5. Rất quan trọng",
-                      "code": "5",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    }
-                  ],
-                  "topics": [],
-                  "min": "",
-                  "max": "",
-                  "unit": "",
-                  "display_columns": 1,
-                  "no_answer": false,
-                  "integer_only": true,
-                  "realtime": false,
-                  "realcam": false,
-                  "options": {
-                    "answer_random": false,
-                    "search": false
-                  },
-                  "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
-                    "on_next": "",
-                    "rules": []
-                  },
-                  "conjoint": {},
-                  "number_grid": {},
-                  "form": {}
-                },
-                {
-                  "id": "B3",
-                  "type": "SINGLE",
-                  "text": "Anh/chị thường gặp nhu cầu {0} với tần suất như thế nào?",
-                  "note": "",
-                  "media": "",
-                  "record": false,
-                  "readonly": false,
-                  "answers": [
-                    {
-                      "text": "1. Gần như mỗi ngày",
-                      "code": "1",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "2. 4-5 lần/tuần",
-                      "code": "2",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "3. 3-4 lần/tuần",
-                      "code": "3",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "4. 2-3 lần/tuần",
-                      "code": "4",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "5. 1 lần/tuần",
-                      "code": "5",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "6. 2-3 lần/tháng",
-                      "code": "6",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "7. 1 lần/tháng",
-                      "code": "7",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "8. Ít hơn 1 lần/tháng",
-                      "code": "8",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    },
-                    {
-                      "text": "9. Ít thường xuyên hơn",
-                      "code": "9",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": false
-                    }
-                  ],
-                  "topics": [],
-                  "min": "",
-                  "max": "",
-                  "unit": "",
-                  "display_columns": 1,
-                  "no_answer": false,
-                  "integer_only": true,
-                  "realtime": false,
-                  "realcam": false,
-                  "options": {
-                    "answer_random": false,
-                    "search": false
-                  },
-                  "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
-                    "on_next": "",
-                    "rules": []
-                  },
-                  "conjoint": {},
-                  "number_grid": {},
-                  "form": {}
-                }
-              ],
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "Chapter3",
@@ -2418,7 +2504,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
                     "on_next": "",
                     "rules": []
                   },
@@ -2644,6 +2730,13 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
+                    },
+                    {
+                      "text": "97. Khác (ghi rõ):…",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
@@ -2660,6 +2753,935 @@
                     "search": false
                   },
                   "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar a1=[1]+RandomArray([2,3,4,5,6]);\nvar a2=[7]+RandomArray([8,9,10,11,12,13]);\nvar a3=[14]+RandomArray([15,16,17,18]);\nvar a4=[19]+RandomArray([20,21,22]);\nvar a5=[23]+RandomArray([24,25,26,27]);\nvar a6=[28]+RandomArray([29,30])+[97];\nvar a=a1+a2+a3+a4+a5+a6;\nAnswerRandom(CurrentQuestion(),a);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C4",
+                  "type": "MULTI",
+                  "text": "Trong tình huống đó, anh/chị đang ở trạng thái hoặc hoàn cảnh nào dưới đây?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Đêm trước thức khuya / ngủ ít hơn bình thường",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Có nhiều công việc / hoạt động liên tiếp, ít thời gian nghỉ",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Đang gặp tình huống bất ngờ, không có kế hoạch trước",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Đang đối mặt với tình huống căng thẳng, áp lực hoặc xung đột",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Thời tiết nóng bức / oi ả",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Không có đủ thời gian để ăn sáng/ăn trưa....",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Khối lượng công việc / học tập nhiều hơn bình thường",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Công việc / học tập kéo dài nhiều giờ, dài hơn bình thường",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Phải làm việc / học tập vào ban đêm hoặc ngoài khung giờ thường lệ",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Có việc phải hoàn thành gấp / sát deadline",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Đang phải xử lý nhiều công việc / hoạt động cùng lúc",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Đang thực hiện công việc / hoạt động đòi hỏi sự tỉ mỉ, chính xác cao",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Đang thực hiện công việc / hoạt động đòi hỏi phải suy nghĩ, giải quyết vấn đề phức tạp",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Đang thực hiện công việc / hoạt động đòi hỏi phải sáng tạo, phát triển ý tưởng mới",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Vừa hoàn thành một công việc / nhiệm vụ và cảm thấy vui, hài lòng",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "16. Công việc / hoạt động đang diễn ra đều đều, đơn điệu, thiếu sự thú vị",
+                      "code": "16",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Có nhiều hoạt động đòi hỏi sức lực hơn ngày thường",
+                      "code": "17",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "18. Phải vận động thể chất liên tục trong thời gian dài",
+                      "code": "18",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "19. Khác (ghi rõ):…",
+                      "code": "19",
+                      "media": "",
+                      "is_other": true,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "99. Không có tình huống nào đặc biệt",
+                      "code": "99",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": true
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": true,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,19,99]);\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18])){AnswerVisible(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16],true,false);};\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18,20,21,22])){AnswerVisible(CurrentQuestion(),[17,18],true,false);};",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C5",
+                  "type": "SINGLE",
+                  "text": "Khi {0}, anh/chị đã sử dụng những loại thức uống nào dưới đây để đáp ứng nhu cầu đó?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Nước ngọt có gas (Coca cola, Pepsi, 7up, Sprite,...)",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Nước tăng lực (Red Bull, Sting, Wake Up 247, Warrior, Number 1,...)",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Trà đóng chai (C2, Tea+, Không Độ,...)",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Nước ép trái cây đóng hộp (Vinamilk, Twister,...) - không bao gồm nước ép tươi tại các quán nước",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Nước thể thao/điện giải (Pocari, Revive,...)",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Cà phê hàng quán/ take away",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Cà phê hòa tan (G7, NesCafe, Phố...)",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Cà phê đóng lon (Boss, Highland...),",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Trà sữa/Trà trái cây hàng quán",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "97. Khác (ghi rõ):….................................",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nFilterAnswerByAnswer(C5,A8b);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C6",
+                  "type": "SINGLE",
+                  "text": "Nhãn hiệu thức uống anh/chị đã sử dụng trong tình huống đó là gì?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Coca-Cola",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Pepsi",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. 7UP",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Sprite",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Fanta",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Mirinda",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Chương Dương",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Khác (ghi rõ):…....",
+                      "code": "8",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Red Bull",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Sting",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Wake-Up 247",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Number 1",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Warrior",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Monster Energy",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Carabao",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "16. Lipovitan",
+                      "code": "16",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Rồng Đỏ",
+                      "code": "17",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "18. Rockstar",
+                      "code": "18",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "19. Khác (ghi rõ):…....",
+                      "code": "19",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "20. C2",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "21. TEA+",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "22. Trà Xanh Không Độ",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "23. Dr Thanh",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "24. Fuze Tea",
+                      "code": "24",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "25. Ô Long Tea+",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "26. Búp Non/Tea 365",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "27. Khác (ghi rõ):…....",
+                      "code": "27",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "28. Tropicana Twister",
+                      "code": "28",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "29. Vinamilk",
+                      "code": "29",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "30. TH true JUICE",
+                      "code": "30",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "31. Vfresh",
+                      "code": "31",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "32. Tipco",
+                      "code": "32",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "33. Khác",
+                      "code": "33",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "34. Revive",
+                      "code": "34",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "35. Pocari Sweat",
+                      "code": "35",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "36. Aquarius",
+                      "code": "36",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "37. Khác (ghi rõ):…....",
+                      "code": "37",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "38. Highlands Coffee",
+                      "code": "38",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "39. Phúc Long",
+                      "code": "39",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "40. The Coffee House",
+                      "code": "40",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "41. Trung Nguyên Legend",
+                      "code": "41",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "42. Katinat",
+                      "code": "42",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "43. Starbucks",
+                      "code": "43",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "44. Cộng Cà Phê",
+                      "code": "44",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "45. Milano Coffee",
+                      "code": "45",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "46. Phê La",
+                      "code": "46",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "47. Cheese Coffee",
+                      "code": "47",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "48. Quán/xe cafe ven đường",
+                      "code": "48",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "49. Khác (ghi rõ):…....",
+                      "code": "49",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "50. G7",
+                      "code": "50",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "51. NESCAFÉ",
+                      "code": "51",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "52. Vinacafé",
+                      "code": "52",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "53. Café Phố",
+                      "code": "53",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "54. Wake-Up",
+                      "code": "54",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "55. MacCoffee (không bao gồm Cafe Phố)",
+                      "code": "55",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "56. Trung Nguyên Legend",
+                      "code": "56",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "57. Khác",
+                      "code": "57",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "58. BOSS Coffee",
+                      "code": "58",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "59. Birdy",
+                      "code": "59",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "60. Highlands Coffee",
+                      "code": "60",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "61. NESCAFÉ",
+                      "code": "61",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "62. Georgia",
+                      "code": "62",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "63. Khác (ghi rõ):…....",
+                      "code": "63",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "64. Trà sữa/Trà trái cây hàng quán",
+                      "code": "64",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "if(Contains(C5,[10])){SetAnswer(C6,[64]);QuestionReadonly(true);};\nif(!Contains(C5,[10])){QuestionReadonly(false);};\nif(Contains(C5,[1])){AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,7,8]);};\nif(Contains(C5,[2])){AnswerVisible(CurrentQuestion(),[9,10,11,12,13,14,15,16,17,18,19]);};\nif(Contains(C5,[3])){AnswerVisible(CurrentQuestion(),[20,21,22,23,24,25,26,27]);};\nif(Contains(C5,[5])){AnswerVisible(CurrentQuestion(),[28,29,30,31,32,33]);};\nif(Contains(C5,[6])){AnswerVisible(CurrentQuestion(),[34,35,36,37]);};\nif(Contains(C5,[7])){AnswerVisible(CurrentQuestion(),[38,39,40,41,42,43,44,45,46,47,48,49]);};\nif(Contains(C5,[8])){AnswerVisible(CurrentQuestion(),[50,51,52,53,54,55,56,57]);};\nif(Contains(C5,[9])){AnswerVisible(CurrentQuestion(),[58,59,60,61,62,63]);};",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C7",
+                  "type": "SINGLE",
+                  "text": "Anh/chị thường dùng {0} này ở đâu?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Tại nhà",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Tại nơi làm việc / văn phòng",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Tại công trường / nơi làm việc ngoài trời",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Tại trường / lớp học",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Tại căn tin hoặc khu vực nghỉ ngơi",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Tại quán cóc, xe đẩy, vỉa hè",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Tại chuỗi cà phê / quán có thương hiệu",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Trên đường đi, trên xe",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Ở nhà bạn bè, người thân",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Ngoài trời / công viên",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Ở khu du lịch, dã ngoại",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Tại quán ăn / nhà hàng",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Tại phòng tập / sân thể thao",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(C6)]);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C7a",
+                  "type": "NUMBER",
+                  "text": "Mức chi tiêu của anh/chị cho lần sử dụng này là bao nhiêu?\nVí dụ: 15,000 đồng thì anh/chị điền số 15, KHÔNG ĐIỀN RANGE GIÁ",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999999999",
+                  "unit": "Nghìn đồng",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": false,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
                     "on_enter": "",
                     "on_next": "",
                     "rules": []
@@ -2669,9 +3691,76 @@
                   "form": {}
                 },
                 {
-                  "id": "Q1",
+                  "id": "C8",
                   "type": "SINGLE",
-                  "text": "",
+                  "text": "Mức độ hài lòng của anh/chị đối với thức uống {0} với nhu cầu {1} như thế nào?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Hoàn toàn không hài lòng",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Không hài lòng",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Bình thường/ Không có ý kiến",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Hài lòng",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Rất hài lòng",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(C6),LoopName()]);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C9a",
+                  "type": "OPEN",
+                  "text": "Vì sao anh/chị chưa hài lòng với thức uống {0} hiện tại trong việc đáp ứng nhu cầu {1}?\n\nLưu ý: Vui lòng mô tả cụ thể điểm chưa hài lòng của anh/chị về thức uống này (ví dụ: hương vị, hiệu quả, thành phần, mức độ đáp ứng nhu cầu...).",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2680,6 +3769,246 @@
                   "topics": [],
                   "min": "",
                   "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(C6),LoopName()]);\nif(!Contains(C8,[1,2,3])){QuestionHide();};",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C9b",
+                  "type": "OPEN",
+                  "text": "Vì sao anh/chị không chọn uống nước tăng lực để đáp ứng nhu cầu {0}?\n\nLưu ý: Vui lòng mô tả cụ thể lý do anh/chị không chọn nước tăng lực cho nhu cầu này (ví dụ: hương vị, sức khỏe, thành phần, hiệu quả hoặc lý do khác...).",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nif(Contains(C5,[2])){QuestionHide();};",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "Chapter6",
+              "name": "Chapter6",
+              "record": false,
+              "hide_back": false,
+              "random_question": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": false,
+                "loop_random": false,
+                "iterations": []
+              },
+              "questions": [
+                {
+                  "id": "C10",
+                  "type": "MULTI",
+                  "text": "Nếu trong tương lai có một loại <blue>nước năng lượng</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại nước tăng lực hiện nay chưa đáp ứng tốt?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất.",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                      "code": "16",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                      "code": "17",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                      "code": "18",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                      "code": "19",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "5",
                   "unit": "",
                   "display_columns": 1,
                   "no_answer": false,
@@ -2716,7 +4045,461 @@
             "loop_random": false,
             "iterations": []
           },
-          "questions": [],
+          "questions": [
+            {
+              "id": "P1",
+              "type": "MULTI",
+              "text": "Câu nào sau đây nói đúng về anh/chị hiện tại?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tôi có thức khuya để học tập, làm việc, làm ca đêm, giải trí (chơi game, xem phim,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Công việc của tôi thường hao tốn sức lực, thể chất (nặng nhọc, làm ngoài trời nhiều...)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Công việc của tôi đòi hỏi phải làm việc với máy tính/thiết bị điện tử thường xuyên",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Tôi thường là một trong những người đầu tiên muốn thử món ăn, quán xá, thức uống hoặc thử trải nghiệm các xu hướng mới.",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Tôi là người quan tâm đến sức khỏe: tập thể dục/chơi thể thao, chú ý đến thành phần sản phẩm, lựa chọn sản phẩm có nguồn gốc thực vật, thực phẩm tốt cho sức khỏe,...",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tôi xem đồ ăn, thức uống không chỉ để thưởng thức mà còn là cách thể hiện bản thân và phong cách sống của mình.",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Tôi còn trẻ, làm hết sức, chơi hết mình (work hard, play harder)",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tôi muốn nỗ lực làm việc và phấn đấu hết mình khi còn trẻ để có một tương lai thoải mái, có thể mua những thứ mình thích mà không cần quá lo lắng về giá cả.",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Không có câu nào đúng với tôi",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "P2a",
+              "type": "MULTI",
+              "text": "Anh/chị có biết đến những nhãn hiệu nước tăng lực nào dưới đây?",
+              "note": "SHOWPHOTO",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Wake Up 247",
+                  "code": "1",
+                  "media": "1.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Red Bull",
+                  "code": "2",
+                  "media": "2.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Rockstar",
+                  "code": "3",
+                  "media": "3.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lipovitan",
+                  "code": "4",
+                  "media": "4.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sting Dâu",
+                  "code": "5",
+                  "media": "5.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Sting Vàng",
+                  "code": "6",
+                  "media": "6.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Rồng Đỏ",
+                  "code": "7",
+                  "media": "7.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Carabao",
+                  "code": "8",
+                  "media": "8.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Warrior",
+                  "code": "9",
+                  "media": "9.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Number 1",
+                  "code": "10",
+                  "media": "10.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Khác (ghi rõ):….................................",
+                  "code": "12",
+                  "media": "12.jpg",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(A8a,[2])){QuestionHide();};",
+                "on_next": "ClearAnswer(P2b)",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "P2b",
+              "type": "MULTI",
+              "text": "Trong 3 tháng qua, anh/chị đã từng sử dụng các loại nước tăng lực nào dưới đây?\nLưu ý: Nhãn hiệu có thể uống ít nhiều gì cũng được nhưng có sự lặp lại mỗi tháng chứ không phải rất lâu mới uống 1 lần",
+              "note": "SHOWPHOTO",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Wake Up 247",
+                  "code": "1",
+                  "media": "1.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Red Bull",
+                  "code": "2",
+                  "media": "2.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Rockstar",
+                  "code": "3",
+                  "media": "3.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lipovitan",
+                  "code": "4",
+                  "media": "4.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sting Dâu",
+                  "code": "5",
+                  "media": "5.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Sting Vàng",
+                  "code": "6",
+                  "media": "6.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Rồng Đỏ",
+                  "code": "7",
+                  "media": "7.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Carabao",
+                  "code": "8",
+                  "media": "8.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Warrior",
+                  "code": "9",
+                  "media": "9.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Number 1",
+                  "code": "10",
+                  "media": "10.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Khác (ghi rõ):….................................",
+                  "code": "12",
+                  "media": "12.jpg",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(A8a,[2])){QuestionHide();};\nFilterAnswerByAnswer(P2b,P2a);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "P2c",
+              "type": "SINGLE",
+              "text": "Nhãn hiệu nước tăng lực nào anh/chị uống thường xuyên nhất?",
+              "note": "SHOWPHOTO",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Wake Up 247",
+                  "code": "1",
+                  "media": "1.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Red Bull",
+                  "code": "2",
+                  "media": "2.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Rockstar",
+                  "code": "3",
+                  "media": "3.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lipovitan",
+                  "code": "4",
+                  "media": "4.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Sting Dâu",
+                  "code": "5",
+                  "media": "5.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Sting Vàng",
+                  "code": "6",
+                  "media": "6.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Rồng Đỏ",
+                  "code": "7",
+                  "media": "7.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Carabao",
+                  "code": "8",
+                  "media": "8.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Warrior",
+                  "code": "9",
+                  "media": "9.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Number 1",
+                  "code": "10",
+                  "media": "10.jpg",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Khác (ghi rõ):….................................",
+                  "code": "12",
+                  "media": "12.jpg",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(!Contains(A8a,[2])){QuestionHide();};\nFilterAnswerByAnswer(P2c,P2b);",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
           "children": []
         },
         {
@@ -2731,7 +4514,181 @@
             "loop_random": false,
             "iterations": []
           },
-          "questions": [],
+          "questions": [
+            {
+              "id": "HD2",
+              "type": "EMPTY",
+              "text": "Trong tương lai, một nhãn hàng mới muốn ra mắt một loại thức uống thế hệ mới với mô tả như dưới đây:",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "N1",
+              "type": "SINGLE",
+              "text": "Trong các tên gọi sau đây, đâu là tên gọi phù hợp nhất để mô tả loại thức uống vừa được giới thiệu?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 1",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "N2",
+              "type": "SINGLE",
+              "text": "Trong các tên thương hiệu sau đây, đâu là tên thương hiệu phù hợp nhất với loại thức uống vừa được giới thiệu?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. 1",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "N3",
+              "type": "SINGLE",
+              "text": "",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "End",
+              "type": "EMPTY",
+              "text": "CẢM ƠN VÀ KẾT THÚC PHỎNG VẤN",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
           "children": []
         }
       ]
