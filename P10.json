@@ -5655,7 +5655,7 @@
               "id": "C9",
               "type": "SINGLE",
               "text": "Ý định cho bé {0} theo học tại ngôi trường trong bản ý tưởng đã bao gồm học phí qua thời gian này của anh/chị là như thế nào?",
-              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5722,7 +5722,7 @@
               "id": "C10",
               "type": "SINGLE_GRID",
               "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?",
-              "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN, PVV HỎI CHO TỪNG NHÓM LỚP",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN, PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5806,8 +5806,8 @@
             {
               "id": "C11-1",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Mầm non – Lớp 3</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Mầm non – Lớp 3</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5880,8 +5880,8 @@
             {
               "id": "C11-2",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 4 - 5</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 4 - 5</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -5954,8 +5954,8 @@
             {
               "id": "C11-3",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 6 - 8</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 6 - 8</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6028,8 +6028,8 @@
             {
               "id": "C11-4",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 9 - 10</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 9 - 10</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6102,8 +6102,8 @@
             {
               "id": "C11-5",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 11 - 12</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 11 - 12</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6176,8 +6176,8 @@
             {
               "id": "C12-1",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Mầm non – Lớp 3</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Mầm non – Lớp 3</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6250,8 +6250,8 @@
             {
               "id": "C12-2",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 4 - 5</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 4 - 5</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6324,8 +6324,8 @@
             {
               "id": "C12-3",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 6 - 8</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 6 - 8</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6398,8 +6398,8 @@
             {
               "id": "C12-4",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 9 - 10</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 9 - 10</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6472,8 +6472,8 @@
             {
               "id": "C12-5",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể được điều chỉnh bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 11 - 12</blue>",
-              "note": "SHOWTABLET – PVV HỎI CHO TỪNG NHÓM LỚP",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 11 - 12</blue>",
+              "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
               "readonly": false,
@@ -6602,7 +6602,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C3,[3,4,5])){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C9,[3,4,5])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -6807,7 +6807,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C3,[3,4,5])){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(C9,[3,4,5])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
