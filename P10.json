@@ -3474,7 +3474,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};\nvar a=0;\na=Answer(S8);\nif(Answer(\"S5_\"+a)<4){QuestionHide()};",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(Q2,[2,3])){QuestionHide()};\nvar a=Answer(S8);\nif(Answer(\"S5_\"+a)<4){AnswerVisible(CurrentQuestion(),[14],false,true)};",
                 "on_next": "",
                 "rules": []
               },
@@ -5623,7 +5623,7 @@
             {
               "id": "HD2",
               "type": "EMPTY",
-              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.\n<img 3.jpg>",
+              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.",
               "note": "",
               "media": "",
               "record": false,
@@ -5721,7 +5721,7 @@
             {
               "id": "C10",
               "type": "SINGLE_GRID",
-              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?\n<img 3.jpg>",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?",
               "note": "SHOWTABLET – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN, PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
