@@ -2917,9 +2917,16 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(Q1b,Q1a);",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(Q1b,Q1a);\nvar a=[];\nfor(var i=1;i<11;i=i+1){\na=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(CurrentQuestion(),a);",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "(Answered(S7a_1)&&(!Contains(Q1b,[Answer(S7a_1)])))||(Answered(S7a_2)&&(!Contains(Q1b,[Answer(S7a_2)])))||(Answered(S7a_3)&&(!Contains(Q1b,[Answer(S7a_3)])))||(Answered(S7a_4)&&(!Contains(Q1b,[Answer(S7a_4)])))||(Answered(S7a_5)&&(!Contains(Q1b,[Answer(S7a_5)])))||(Answered(S7a_6)&&(!Contains(Q1b,[Answer(S7a_6)])))||(Answered(S7a_7)&&(!Contains(Q1b,[Answer(S7a_7)])))||(Answered(S7a_8)&&(!Contains(Q1b,[Answer(S7a_8)])))||(Answered(S7a_9)&&(!Contains(Q1b,[Answer(S7a_9)])))||(Answered(S7a_10)&&(!Contains(Q1b,[Answer(S7a_10)])))",
+                    "action": "Hard",
+                    "message": "Trường mà những người con đang học (S7a) phải được chọn ở Q1b",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -3213,9 +3220,16 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(CurrentQuestion(),Q1b)",
+                "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);\nFilterAnswerByAnswer(CurrentQuestion(),Q1b);\nvar a=[];\nfor(var i=1;i<11;i=i+1){\na=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(CurrentQuestion(),a);",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "(Answered(S7a_1)&&(!Contains(Q1c,[Answer(S7a_1)])))||(Answered(S7a_2)&&(!Contains(Q1c,[Answer(S7a_2)])))||(Answered(S7a_3)&&(!Contains(Q1c,[Answer(S7a_3)])))||(Answered(S7a_4)&&(!Contains(Q1c,[Answer(S7a_4)])))||(Answered(S7a_5)&&(!Contains(Q1c,[Answer(S7a_5)])))||(Answered(S7a_6)&&(!Contains(Q1c,[Answer(S7a_6)])))||(Answered(S7a_7)&&(!Contains(Q1c,[Answer(S7a_7)])))||(Answered(S7a_8)&&(!Contains(Q1c,[Answer(S7a_8)])))||(Answered(S7a_9)&&(!Contains(Q1c,[Answer(S7a_9)])))||(Answered(S7a_10)&&(!Contains(Q1c,[Answer(S7a_10)])))",
+                    "action": "Hard",
+                    "message": "Trường mà những người con đang học (S7a) phải được chọn ở Q1c",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -4210,7 +4224,7 @@
                 }
               ],
               "topics": [],
-              "min": "5",
+              "min": "1",
               "max": "999",
               "unit": "",
               "display_columns": 1,
@@ -4224,7 +4238,7 @@
               },
               "logic": {
                 "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
-                "on_next": "",
+                "on_next": "if(GetAnswerCount(Q8a)<6){SetAnswer(Q8b,Answer(Q8a))};",
                 "rules": []
               },
               "conjoint": {},
@@ -4439,7 +4453,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);\nif(GetAnswerCount(Q8a)<6){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -5623,7 +5637,7 @@
             {
               "id": "HD2",
               "type": "EMPTY",
-              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.",
+              "text": "PVV NÓI: ”BÂY GIỜ, EM XIN PHÉP NHỜ ANH/CHỊ XEM LẠI BẢN MÔ TẢ Ý TƯỞNG ĐÃ BAO GỒM HỌC PHÍ (GIÁ NIÊM YẾT, CHƯA BAO GỒM PHỤ PHÍ VÀ KHUYẾN MÃI). ANH CHỊ VUI LÒNG DÀNH ÍT PHÚT ĐỂ XEM KĨ VÀ SAU ĐÓ CHO EM BIẾT Ý KIẾN ĐÁNH GIÁ CỦA MÌNH ĐỐI VỚI NGÔI TRƯỜNG MỚI NÀY.”\n\nPVV LƯU Ý: \n_ ĐƯA BẢNG GIÁ CHO ĐÁP VIÊN, CHO ĐÁP VIÊN THỜI GIAN XEM QUA BẢNG GIÁ.\n_ CHỈ BẮT ĐẦU HỎI KHI ĐÁP VIÊN XÁC NHẬN ĐÃ XEM KĨ.\n<img 3.jpg>",
               "note": "",
               "media": "",
               "record": false,
@@ -5654,7 +5668,7 @@
             {
               "id": "C9",
               "type": "SINGLE",
-              "text": "Ý định cho bé {0} theo học tại ngôi trường trong bản ý tưởng đã bao gồm học phí qua thời gian này của anh/chị là như thế nào?",
+              "text": "Ý định cho bé {0} theo học tại ngôi trường trong bản ý tưởng đã bao gồm học phí qua thời gian này của anh/chị là như thế nào?\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN",
               "media": "",
               "record": false,
@@ -5721,7 +5735,7 @@
             {
               "id": "C10",
               "type": "SINGLE_GRID",
-              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?",
+              "text": "Anh/chị đánh giá mức độ mắc/rẻ của học phí hàng năm theo từng nhóm lớp học trong bản mô tả ý tưởng này như thế nào?\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV ĐỌC QUA THANG ĐIỂM 1 LẦN CHO ĐÁP VIÊN, PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -5806,7 +5820,7 @@
             {
               "id": "C11-1",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Mầm non – Lớp 3</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Mầm non – Lớp 3</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -5880,7 +5894,7 @@
             {
               "id": "C11-2",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 4 - 5</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 4 - 5</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -5954,7 +5968,7 @@
             {
               "id": "C11-3",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 6 - 8</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 6 - 8</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6028,7 +6042,7 @@
             {
               "id": "C11-4",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 9 - 10</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 9 - 10</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6102,7 +6116,7 @@
             {
               "id": "C11-5",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 11 - 12</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là rẻ và nghi ngờ chất lượng, vậy theo anh/chị thì mức giá có thể cao hơn bao nhiêu % để anh chị cảm thấy là đáng giá đồng tiền và phản ảnh đúng được chất lượng của trường?\n<blue>Lớp 11 - 12</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6176,7 +6190,7 @@
             {
               "id": "C12-1",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Mầm non – Lớp 3</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể thấp hơn bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Mầm non – Lớp 3</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6250,7 +6264,7 @@
             {
               "id": "C12-2",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 4 - 5</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể thấp hơn bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 4 - 5</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6324,7 +6338,7 @@
             {
               "id": "C12-3",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 6 - 8</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể thấp hơn bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 6 - 8</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6398,7 +6412,7 @@
             {
               "id": "C12-4",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 9 - 10</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể thấp hơn bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 9 - 10</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
@@ -6472,7 +6486,7 @@
             {
               "id": "C12-5",
               "type": "SINGLE",
-              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể tăng lên bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 11 - 12</blue>",
+              "text": "Anh/chị đánh giá mức học phí của các nhóm lớp sau là mắc, vậy theo anh/chị thì mức giá có thể thấp hơn bao nhiêu % để anh chị cảm thấy là hợp lý và phù hợp với chi phí của gia đình?\n<blue>Lớp 11 - 12</blue>\n<img 3.jpg>",
               "note": "SHOWTABLET BẢNG GIÁ VÀ THANG ĐIỂM – PVV HỎI CHO TỪNG NHÓM LỚP",
               "media": "",
               "record": false,
