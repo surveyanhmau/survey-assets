@@ -2,8 +2,8 @@
   "functions": "",
   "chapters": [
     {
-      "id": "Root",
-      "name": "Root",
+      "id": "Full",
+      "name": "Full",
       "record": false,
       "hide_back": false,
       "random_question": false,
@@ -14,7 +14,2727 @@
         "iterations": []
       },
       "questions": [],
-      "children": []
+      "children": [
+        {
+          "id": "Chapter1",
+          "name": "Chapter1",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "HD0",
+              "type": "EMPTY",
+              "text": "LỜI GIỚI THIỆU (Cho tất cả các đáp viên)\n\nXin chào Bạn, tôi tên là ………………………, là phỏng vấn viên của Alphanalyst Research, công ty chuyên nghiệp về nghiên cứu thị trường tại Việt Nam. Chúng tôi hiện đang tiến hành một cuộc thăm dò ý kiến của người tiêu dùng về các sản phẩm nước uống. Chúng tôi rất mong Bạn dành chút thời gian cho tôi thực hiện cuộc phỏng vấn này.",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "TTDV",
+              "type": "FORM",
+              "text": "PVV ghi nhận thông tin đáp viên",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "(AnswerChoice(CurrentQuestion(),3)<300000000)||(AnswerChoice(CurrentQuestion(),3)>999999999)",
+                    "action": "Hard",
+                    "message": "Vui lòng ghi nhận đúng số điện thoại",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {
+                "fields": [
+                  {
+                    "code": "1",
+                    "text": "Họ và tên ĐV",
+                    "type": "text"
+                  },
+                  {
+                    "code": "2",
+                    "text": "Địa chỉ",
+                    "type": "text"
+                  },
+                  {
+                    "code": "3",
+                    "text": "Số điện thoại",
+                    "type": "number",
+                    "unit": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "A1",
+              "type": "SINGLE",
+              "text": "PVV: Ghi nhận khu vực phỏng vấn",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Thành phố Hà Nội",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thành phố Hải Phòng",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thành phố Đà Nẵng",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thành phố Hồ Chí Minh",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Thành phố Cần Thơ",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Khác",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[6])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Quan",
+              "type": "OPEN",
+              "text": "PVV ghi nhận Quận/Huyện nơi đáp viên sống",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "GetQuan(AnswerText(A1),\"Quận\",\"Huyện\",\"Thị xã\")",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "Phuong",
+              "type": "OPEN",
+              "text": "PVV ghi nhận Phường/Xã nơi đáp viên sống",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "GetPhuong(Answer(Quan),\"Phường\",\"Xã\",\"Thị trấn\")",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A2",
+              "type": "SINGLE",
+              "text": "PVV: Ghi nhận giới tính đáp viên ",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Nam",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nữ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A3a",
+              "type": "NUMBER",
+              "text": "Vui lòng cho biết năm sinh của anh/chị?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "1981",
+              "max": "2008",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A3",
+              "type": "SINGLE",
+              "text": "Nhóm tuổi của đáp viên",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. Dưới 18 tuổi",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 18 - 24 tuổi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 25 - 30 tuổi",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 31 - 35 tuổi",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 36 - 40 tuổi",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 41 - 45 tuổi",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Trên 45 tuổi",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "var a=2026-Answer(A3a);\nif(a<=24){SetAnswer(A3,[2])};\nif((a>=25)&&(a<=30)){SetAnswer(A3,[3])};\nif((a>=31)&&(a<=35)){SetAnswer(A3,[4])};\nif((a>=36)&&(a<=40)){SetAnswer(A3,[5])};\nif(a>=41){SetAnswer(A3,[6])};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A4a",
+              "type": "SINGLE",
+              "text": "Anh/chị vui lòng cho biết thu nhập hàng tháng của cả hộ gia đình mình, bao gồm tất cả các nguồn như: lương, thưởng, trợ cấp, và các thu nhập khác sau khi đã trừ thuế là khoảng bao nhiêu?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Dưới 10,000,000 VND",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 10,000,000 – 14,999,999 VND",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 15,000,000 – 19,999,999 VND",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 20,000,000 – 24,999,999 VND",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 25,000,000 – 29,999,999 VND",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 30,000,000 – 44,999,999 VND",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 45,000,000 VND trở lên",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. Từ chối",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[99])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A4b",
+              "type": "SINGLE",
+              "text": "DP auto code class",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": true,
+              "answers": [
+                {
+                  "text": "1. E – Dưới 10,000,000 VNĐ",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. D – 10,000,000 – 14,999,999 VNĐ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. C - 15,000,000 – 19,999,999 VNĐ",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. B - 20,000,000 – 29,999,999 VNĐ",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. A - ≥30,000,000 VNĐ",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "if(Contains(A4a,[1])){SetAnswer(A4b,[1])};\nif(Contains(A4a,[2])){SetAnswer(A4b,[2])};\nif(Contains(A4a,[3])){SetAnswer(A4b,[3])};\nif(Contains(A4a,[4,5])){SetAnswer(A4b,[4])};\nif(Contains(A4a,[6,7])){SetAnswer(A4b,[5])};",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A5",
+              "type": "SINGLE",
+              "text": "Vui lòng cho biết nghề nghiệp/công việc chính của anh/chị hiện tại là gì? ",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Sinh viên",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nội trợ",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Kinh doanh, buôn bán tự do",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nhân viên văn phòng / nghề có chuyên môn",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Lao động phổ thông",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác, ghi rõ:_______________",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A6",
+              "type": "MULTI",
+              "text": "Anh/chị hoặc bất kỳ thành viên nào trong gia đình mình có làm việc trong những lĩnh vực sau đây không? ",
+              "note": "SHOW TABLET – PVV ĐỌC QUA 1 LẦN CÁC LỰA CHỌN",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Quảng cáo/ Quan hệ công chúng (PR)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Báo đài/ Truyền hình/ Đài phát thanh",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tiếp thị/ Nghiên cứu thị trường",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nhà hàng/ Bán lẻ thức ăn nhanh / Hàng rong / Quầy hàng ăn uống",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Bán sỉ/ lẻ/ phân phối các ngành hàng thực phẩm",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Công ty sản xuất các sản phẩm thực phẩm",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Bán lẻ thực phẩm (siêu thị, cửa hàng tạp hóa, cửa hàng tiện lợi, quầy hàng trong chợ...)",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "99. Không ngành nào nêu trên",
+                  "code": "99",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": true,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[99])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A7",
+              "type": "SINGLE",
+              "text": "Anh/chị có tham gia vào bất kỳ cuộc khảo sát/hội thảo nghiên cứu thị trường về ngành hàng NƯỚC UỐNG TRONG 6 THÁNG QUA không?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Có",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Không",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[1])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A8a",
+              "type": "MULTI",
+              "text": "Đâu là các loại thức uống anh/chị thường uống TRONG 3 THÁNG QUA?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Nước ngọt có gas (Coca cola, Pepsi, 7up, Sprite,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nước tăng lực (Red Bull, Sting, Wake Up 247, Warrior, Number 1,...)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trà đóng chai (C2, Tea+, Không Độ,...)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nước tinh khiết/Nước khoáng đóng chai (Aquafina, La Vie, Vĩnh Hảo,...)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Nước ép trái cây đóng hộp (Vinamilk, Twister,...) - không bao gồm nước ép tươi tại các quán nước",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nước thể thao/điện giải (Pocari, Revive,...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Cà phê hàng quán/ take away",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Cà phê hòa tan (G7, NesCafe, Phố...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Cà phê đóng lon (Boss, Highland...),",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Trà sữa/Trà trái cây hàng quán",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác: ghi rõ …",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "ClearAnswer(A8b);",
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[1,2,3,5,6,9])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A8b",
+              "type": "MULTI",
+              "text": "Trong 3 tháng qua, anh/chị đã từng sử dụng những loại thức uống nào sau đây để bổ sung năng lượng hoặc giúp bản thân tỉnh táo hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày? ",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Nước ngọt có gas (Coca cola, Pepsi, 7up, Sprite,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nước tăng lực (Red Bull, Sting, Wake Up 247, Warrior, Number 1,...)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trà đóng chai (C2, Tea+, Không Độ,...)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nước tinh khiết/Nước khoáng đóng chai (Aquafina, La Vie, Vĩnh Hảo,...)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Nước ép trái cây đóng hộp (Vinamilk, Twister,...) - không bao gồm nước ép tươi tại các quán nước",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nước thể thao/điện giải (Pocari, Revive,...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Cà phê hàng quán/ take away",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Cà phê hòa tan (G7, NesCafe, Phố...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Cà phê đóng lon (Boss, Highland...),",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Trà sữa/Trà trái cây hàng quán",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác: ghi rõ …",
+                  "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(A8b,A8a);",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[1,2,3,5,6,7,8,9,10,97])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A8c",
+              "type": "SINGLE",
+              "text": "Thức uống nào anh/chị DÙNG THƯỜNG XUYÊN NHẤT để bổ sung năng lượng hoặc giúp bản thân tỉnh táo hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Nước ngọt có gas (Coca cola, Pepsi, 7up, Sprite,...)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Nước tăng lực (Red Bull, Sting, Wake Up 247, Warrior, Number 1,...)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Trà đóng chai (C2, Tea+, Không Độ,...)",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Nước tinh khiết/Nước khoáng đóng chai (Aquafina, La Vie, Vĩnh Hảo,...)",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Nước ép trái cây đóng hộp (Vinamilk, Twister,...) - không bao gồm nước ép tươi tại các quán nước",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Nước thể thao/điện giải (Pocari, Revive,...)",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Cà phê hàng quán/ take away",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Cà phê hòa tan (G7, NesCafe, Phố...)",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Cà phê đóng lon (Boss, Highland...),",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Trà sữa/Trà trái cây hàng quán",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác: ghi rõ …",
+                  "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(A8c,A8b);",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[1,2,3,5,6,7,8,9,10,97])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A9",
+              "type": "SINGLE",
+              "text": "Với các thức uống giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Gần như mỗi ngày",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. 4-5 lần/tuần",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. 3-4 lần/tuần",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. 2-3 lần/tuần",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. 1 lần/tuần",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. 2-3 lần/tháng",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. 1 lần/tháng",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Ít hơn 1 lần/tháng",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Ít thường xuyên hơn",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[5,6,7,8,9])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A10",
+              "type": "MULTI",
+              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi như thế nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Uống thường xuyên hơn (số lần uống tăng)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Uống ít thường xuyên hơn (số lần uống giảm)",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Lượng uống nhiều hơn trong mỗi lần",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Lượng uống ít hơn trong mỗi lần",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Quan tâm thành phần/ nhãn dinh dưỡng hơn",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Thử nhiều nhãn hiệu mới lạ hơn",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Chuyển sang các nhãn hiệu ít đường/giảm đường",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Không thay đổi",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "!Contains(CurrentQuestion(),[1,2,3,4,5,7,8])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "(Contains(CurrentQuestion(),[1])&&Contains(CurrentQuestion(),[2]))||(Contains(CurrentQuestion(),[3])&&Contains(CurrentQuestion(),[4]))",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A11",
+              "type": "SINGLE",
+              "text": "Anh/chị thường mua sắm thức uống bổ sung năng lượng/tỉnh táo theo cách nào?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Mua tích trữ cho nhiều tuần/ theo tháng (mua 1 lần nhiều)",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Mua tích trữ cho đủ dùng trong 1 tuần",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Mua đủ dùng vài ngày",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Mua và dùng ngay khi cần",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Mua khi thấy thích/tiện thì mua (impulse)",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "A12",
+              "type": "SINGLE",
+              "text": "Xin cho biết TRÌNH ĐỘ HỌC VẤN CAO NHẤT của anh/chị?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Đang học/ đã tốt nghiệp chương trình cấp 1",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Đang học/ đã tốt nghiệp chương trình cấp 2",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Đang học/ đã tốt nghiệp chương trình cấp 3",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Đang học/ đã tốt nghiệp các trường đại học/ cao đẳng và các trường dạy nghề",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Không đi học",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": [
+                  {
+                    "condition": "Contains(CurrentQuestion(),[5])",
+                    "action": "Hard",
+                    "message": "NGƯNG",
+                    "goto": ""
+                  }
+                ]
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Chapter2",
+          "name": "Chapter2",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "B1",
+              "type": "MULTI",
+              "text": "Trong 3 tháng gần đây, để có thể làm việc, học tập hoặc tham gia các hoạt động hàng ngày, anh/chị đã có những nhu cầu nào dưới đây?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "999",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "FilterLoopByAnswer(Chapter6,B1);",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "Chapter6",
+              "name": "Chapter6",
+              "record": false,
+              "hide_back": false,
+              "random_question": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": true,
+                "iterations": [
+                  {
+                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                    "index": 1
+                  },
+                  {
+                    "name": "Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                    "index": 2
+                  },
+                  {
+                    "name": "Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                    "index": 3
+                  },
+                  {
+                    "name": "Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                    "index": 4
+                  },
+                  {
+                    "name": "Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                    "index": 5
+                  },
+                  {
+                    "name": "Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                    "index": 6
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                    "index": 7
+                  },
+                  {
+                    "name": "Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                    "index": 8
+                  },
+                  {
+                    "name": "Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                    "index": 9
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                    "index": 10
+                  },
+                  {
+                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                    "index": 11
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                    "index": 12
+                  },
+                  {
+                    "name": "Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                    "index": 13
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                    "index": 14
+                  },
+                  {
+                    "name": "Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                    "index": 15
+                  },
+                  {
+                    "name": "Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                    "index": 16
+                  },
+                  {
+                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                    "index": 17
+                  },
+                  {
+                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                    "index": 18
+                  },
+                  {
+                    "name": "Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                    "index": 19
+                  },
+                  {
+                    "name": "Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                    "index": 20
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "B2",
+                  "type": "SINGLE",
+                  "text": "Mức độ quan trọng của NHU CẦU {0} đối với anh/chị như thế nào?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Hoàn toàn không quan trọng",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Không quan trọng",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Bình thường",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Quan trọng",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Rất quan trọng",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "B3",
+                  "type": "SINGLE",
+                  "text": "Anh/chị thường gặp nhu cầu {0} với tần suất như thế nào?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Gần như mỗi ngày",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. 4-5 lần/tuần",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. 3-4 lần/tuần",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. 2-3 lần/tuần",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. 1 lần/tuần",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. 2-3 lần/tháng",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. 1 lần/tháng",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Ít hơn 1 lần/tháng",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Ít thường xuyên hơn",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "Chapter3",
+          "name": "Chapter3",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [
+            {
+              "id": "C1",
+              "type": "MULTI",
+              "text": "Đâu là nhu cầu mà anh/chị thường gặp nhất trong cuộc sống hàng ngày?",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "4. Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                  "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                  "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                  "code": "8",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9. Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "10. Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                  "code": "10",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "11. Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "14. Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                  "code": "14",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "1",
+              "max": "3",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": true,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "FilterAnswerByAnswer(C1,B1);",
+                "on_next": "FilterLoopByAnswer(Chapter7,C1);",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "Chapter7",
+              "name": "Chapter7",
+              "record": false,
+              "hide_back": false,
+              "random_question": false,
+              "on_enter": "",
+              "loop": {
+                "enabled_loop": true,
+                "loop_random": false,
+                "iterations": [
+                  {
+                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo ngay lập tức",
+                    "index": 1
+                  },
+                  {
+                    "name": "Tôi muốn duy trì năng lượng bền bỉ trong thời gian dài mà không bị đuối sức giữa chừng khi hoạt động kéo dài",
+                    "index": 2
+                  },
+                  {
+                    "name": "Tôi muốn tăng cường khả năng tập trung sâu để xử lý nhiều tác vụ, công việc cùng một lúc",
+                    "index": 3
+                  },
+                  {
+                    "name": "Tôi muốn tăng cường khả năng tập trung ghi nhớ để tiếp thu nhiều thông tin, công việc mới",
+                    "index": 4
+                  },
+                  {
+                    "name": "Tôi muốn tăng khả năng tập trung cao độ, giữ sự bình tĩnh để xử lý các tình huống khó",
+                    "index": 5
+                  },
+                  {
+                    "name": "Tôi muốn nguồn năng lượng mạnh mẽ cho các hoạt động công việc cường độ cao",
+                    "index": 6
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng/tỉnh táo mà không bị bồn chồn, cồn cào sau đó",
+                    "index": 7
+                  },
+                  {
+                    "name": "Tôi muốn năng lượng từ thành phần tự nhiên / sạch, không gây hại cho sức khỏe",
+                    "index": 8
+                  },
+                  {
+                    "name": "Tôi muốn giảm đường mà vẫn giữ vị ngon / không muốn nạp quá nhiều đường vào cơ thể",
+                    "index": 9
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng/tỉnh táo ở mức vừa đủ mà không ảnh hưởng đến giấc ngủ sau đó",
+                    "index": 10
+                  },
+                  {
+                    "name": "Tôi muốn được nạp năng lượng/tỉnh táo mà không gây nóng trong người, nổi mụn, sạm da,...",
+                    "index": 11
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng, bù nước bù khoáng chất chỉ trong một sản phẩm",
+                    "index": 12
+                  },
+                  {
+                    "name": "Tôi muốn tăng hiệu quả luyện tập nhờ tăng cường trao đổi chất và đốt cháy năng lượng của cơ thể",
+                    "index": 13
+                  },
+                  {
+                    "name": "Tôi muốn nạp năng lượng để nhập cuộc nhanh nhất khi bắt đầu công việc, hoạt động",
+                    "index": 14
+                  },
+                  {
+                    "name": "Tôi muốn thức uống có bổ sung thêm chất đề kháng để duy trì sức khỏe lâu dài",
+                    "index": 15
+                  },
+                  {
+                    "name": "Tôi muốn vừa nạp năng lượng vừa cảm thấy giải khát sảng khoái nhờ ga có trong đồ uống",
+                    "index": 16
+                  },
+                  {
+                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                    "index": 17
+                  },
+                  {
+                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                    "index": 18
+                  },
+                  {
+                    "name": "Tôi muốn thể hiện phong cách, hình ảnh cá nhân thông qua đồ uống tôi chọn",
+                    "index": 19
+                  },
+                  {
+                    "name": "Tôi muốn thể hiện hình ảnh chuyên nghiệp, chỉn chu thông qua đồ uống tôi chọn",
+                    "index": 20
+                  }
+                ]
+              },
+              "questions": [
+                {
+                  "id": "HD1",
+                  "type": "EMPTY",
+                  "text": "Tiếp theo, anh/chị hãy nhớ lại lần gần đây nhất anh/chị có nhu cầu {0} trong cuộc sống hàng ngày. Các câu hỏi tiếp theo sẽ liên quan đến tình huống cụ thể đó.",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "topic_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C2",
+                  "type": "SINGLE",
+                  "text": "Lần gần đây nhất anh/chị có nhu cầu {0} là vào khoảng thời gian nào trong ngày? ",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Sáng sớm (4h - 5h59 sáng)",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Buổi sáng (6h - 10h59 sáng)",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Buổi trưa (11 - 12h59 trưa)",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Đầu giờ chiều (13h - 14h59)",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Cuối chiều (15h - 17h59)",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Buổi tối (18h - 21h59)",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Đêm khuya (22h - 23h59)",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Sau nửa đêm (0h - 3h59)",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C3",
+                  "type": "SINGLE",
+                  "text": "Khi {0}, anh/chị đang làm gì hoặc chuẩn bị tham gia hoạt động gì?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Sinh hoạt & Nghỉ ngơi - NET",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "2. Vừa thức dậy sau giấc ngủ",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Đang chuẩn bị đi làm / đi học",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Đang nghỉ giữa giờ làm việc / học tập",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Vừa hoàn thành công việc / học tập",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Đang nghỉ ngơi / thư giãn một mình",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Làm việc & Học tập - NET",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "8. Đang làm việc chân tay, ngoài trời, công trường",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Đang làm việc tại văn phòng",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Đang học tập / ôn thi / làm bài tập",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Sắp tham gia sự kiện quan trọng (thi cử, phỏng vấn, thuyết trình...)",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Đang tham gia sự kiện quan trọng (thi cử, phỏng vấn, thuyết trình...)",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Sau khi tham gia sự kiện quan trọng (thi cử, phỏng vấn, thuyết trình...)",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Di chuyển - NET",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "15. Đang trên đường đi làm / đi học",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "16. Đang lái xe, chạy xe đường dài",
+                      "code": "16",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Đang di chuyển về nhà sau khi làm việc/học tập",
+                      "code": "17",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "18. Đang di chuyển đi chơi / mua sắm / làm việc cá nhân",
+                      "code": "18",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "19. Thể thao & Hoạt động thể chất  NET",
+                      "code": "19",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "20. Trước khi tập luyện / chơi thể thao",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "21. Trong khi tập luyện / chơi thể thao",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "22. Sau khi tập luyện / chơi thể thao",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "23. Giao tiếp & Giải trí xã hội - NET",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "24. Đang gặp gỡ, trò chuyện với bạn bè / đồng nghiệp",
+                      "code": "24",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "25. Đang tiếp khách / gặp đối tác / bàn công việc",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "26. Đang chơi game / esports",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "27. Đang tham gia hoạt động vui chơi, giải trí cùng người khác (party, dã ngoại,...)",
+                      "code": "27",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "28. Ăn uống - NET",
+                      "code": "28",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": true
+                    },
+                    {
+                      "text": "29. Trong bữa ăn chính (sáng / trưa / tối)",
+                      "code": "29",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "30. Sau bữa ăn chính",
+                      "code": "30",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "Q1",
+                  "type": "SINGLE",
+                  "text": "",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [],
+                  "topics": [],
+                  "min": "",
+                  "max": "",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "Chapter4",
+          "name": "Chapter4",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
+          "children": []
+        },
+        {
+          "id": "Chapter5",
+          "name": "Chapter5",
+          "record": false,
+          "hide_back": false,
+          "random_question": false,
+          "on_enter": "",
+          "loop": {
+            "enabled_loop": false,
+            "loop_random": false,
+            "iterations": []
+          },
+          "questions": [],
+          "children": []
+        }
+      ]
     }
   ]
 }
