@@ -1,5 +1,5 @@
 {
-  "functions": "",
+  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -1185,7 +1185,7 @@
             {
               "id": "A9",
               "type": "SINGLE",
-              "text": "Với các thức uống {0} giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?",
+              "text": "Với các thức uống {0} giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?\n\nLưu ý: Ở đây em đang muốn nói đến tổng tần suất sử dụng cho các loại thức uống giúp tăng năng lượng/sự tỉnh táo, không chỉ đề cập đến loại thức uống thường xuyên nhất của anh/chị.",
               "note": "",
               "media": "",
               "record": false,
@@ -1286,8 +1286,8 @@
             },
             {
               "id": "A10",
-              "type": "MULTI",
-              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi như thế nào?",
+              "type": "SINGLE",
+              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi lớn nhất như thế nào?",
               "note": "",
               "media": "",
               "record": false,
@@ -1298,7 +1298,6 @@
                   "code": "1",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1306,7 +1305,6 @@
                   "code": "2",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1314,7 +1312,6 @@
                   "code": "3",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1322,7 +1319,6 @@
                   "code": "4",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1330,7 +1326,6 @@
                   "code": "5",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1338,7 +1333,6 @@
                   "code": "6",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1346,7 +1340,6 @@
                   "code": "7",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 },
                 {
@@ -1354,7 +1347,6 @@
                   "code": "8",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
                   "is_header": false
                 }
               ],
@@ -1368,7 +1360,7 @@
               "realtime": false,
               "realcam": false,
               "options": {
-                "answer_random": true,
+                "answer_random": false,
                 "search": false
               },
               "logic": {
@@ -1377,18 +1369,6 @@
                 "rules": [
                   {
                     "condition": "Contains(CurrentQuestion(),[7])",
-                    "action": "Hard",
-                    "message": "NGƯNG",
-                    "goto": ""
-                  },
-                  {
-                    "condition": "(Contains(CurrentQuestion(),[1])&&Contains(CurrentQuestion(),[2]))||(Contains(CurrentQuestion(),[3])&&Contains(CurrentQuestion(),[4]))",
-                    "action": "Hard",
-                    "message": "NGƯNG",
-                    "goto": ""
-                  },
-                  {
-                    "condition": "Contains(CurrentQuestion(),[8])&&Contains(CurrentQuestion(),[1,2,3,4,5,6,7])",
                     "action": "Hard",
                     "message": "NGƯNG",
                     "goto": ""
@@ -1402,7 +1382,7 @@
             {
               "id": "A11",
               "type": "SINGLE",
-              "text": "Anh/chị thường mua sắm thức uống bổ sung năng lượng/tỉnh táo theo cách nào?",
+              "text": "Anh/chị thường mua sắm thức uống bổ sung năng lượng/tỉnh táo theo cách nào?\n\nLưu ý: Anh/chị chỉ chọn 1 đáp án mô tả đúng nhất cách mua sắm của mình.",
               "note": "",
               "media": "",
               "record": false,
@@ -1485,7 +1465,7 @@
             {
               "id": "B1",
               "type": "MULTI",
-              "text": "Trong 3 tháng gần đây, để có thể làm việc, học tập hoặc tham gia các hoạt động hàng ngày, anh/chị đã có những nhu cầu nào dưới đây?",
+              "text": "Đâu là những sắc thái nhu cầu về năng lượng/tỉnh táo mà bạn đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu phù hợp với mình trong 3 tháng gần đây.",
               "note": "",
               "media": "",
               "record": false,
@@ -1572,7 +1552,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -1580,7 +1560,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                   "code": "12",
                   "media": "",
                   "is_other": false,
@@ -1661,7 +1641,7 @@
             {
               "id": "B2",
               "type": "SINGLE_GRID",
-              "text": "Mức độ quan trọng của TỪNG NHU CẦU đối với anh/chị như thế nào?",
+              "text": "Mức độ quan trọng của TỪNG NHU CẦU đối với anh/chị như thế nào?\n\nLưu ý: Với mỗi nhu cầu bên dưới, anh/chị chọn 01 mức độ quan trọng phù hợp nhất. Vui lòng đánh giá tất cả các nhu cầu được liệt kê.",
               "note": "",
               "media": "",
               "record": false,
@@ -1745,12 +1725,12 @@
                   "is_other": false
                 },
                 {
-                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân",
                   "code": "11",
                   "is_other": false
                 },
                 {
-                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                   "code": "12",
                   "is_other": false
                 },
@@ -1802,7 +1782,14 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "CheckB2()==1",
+                    "action": "Hard",
+                    "message": "Anh/chị vui lòng xem lại các lựa chọn hoặc nhờ nhân viên hỗ trợ kiểm tra lại các lựa chọn của mình",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -1915,12 +1902,12 @@
                   "is_other": false
                 },
                 {
-                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân",
                   "code": "11",
                   "is_other": false
                 },
                 {
-                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                   "code": "12",
                   "is_other": false
                 },
@@ -1997,7 +1984,7 @@
             {
               "id": "C1",
               "type": "MULTI",
-              "text": "Đâu là nhu cầu mà anh/chị thường gặp nhất trong cuộc sống hàng ngày?\nAnh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
+              "text": "Trong 3 tháng gần đây, khi bạn cần năng lượng/tỉnh táo để làm việc, học tập, tham gia các hoạt động hàng ngày, đâu là 3 nhu cầu mà bạn thường gặp nhất? Anh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
               "note": "",
               "media": "",
               "record": false,
@@ -2084,7 +2071,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                  "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân",
                   "code": "11",
                   "media": "",
                   "is_other": false,
@@ -2092,7 +2079,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                  "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                   "code": "12",
                   "media": "",
                   "is_other": false,
@@ -2224,11 +2211,11 @@
                     "index": 10
                   },
                   {
-                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                    "name": "Tôi muốn tự thưởng và chiều chuộng bản thân",
                     "index": 11
                   },
                   {
-                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                    "name": "Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                     "index": 12
                   },
                   {
@@ -2293,7 +2280,7 @@
                 {
                   "id": "C2",
                   "type": "SINGLE",
-                  "text": "Lần gần đây nhất anh/chị có nhu cầu {0} là vào khoảng thời gian nào trong ngày? ",
+                  "text": "Lần gần đây nhất anh/chị có nhu cầu {0} là vào khoảng thời gian nào trong ngày?\nLưu ý: Anh/chị chỉ chọn một khung thời gian.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2381,19 +2368,12 @@
                 {
                   "id": "C3",
                   "type": "SINGLE",
-                  "text": "Khi {0}, anh/chị đang làm gì hoặc chuẩn bị tham gia hoạt động gì?",
+                  "text": "Khi {0} trong lần gần đây nhất, anh/chị đang làm gì hoặc chuẩn bị tham gia hoạt động gì?\nLưu ý: Anh/chị chỉ chọn một hoạt động.",
                   "note": "",
                   "media": "",
                   "record": false,
                   "readonly": false,
                   "answers": [
-                    {
-                      "text": "1. Sinh hoạt & Nghỉ ngơi - NET",
-                      "code": "1",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
-                    },
                     {
                       "text": "2. Vừa thức dậy sau giấc ngủ",
                       "code": "2",
@@ -2428,13 +2408,6 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
-                    },
-                    {
-                      "text": "7. Làm việc & Học tập - NET",
-                      "code": "7",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
                     },
                     {
                       "text": "8. Đang làm việc chân tay, ngoài trời, công trường",
@@ -2479,13 +2452,6 @@
                       "is_header": false
                     },
                     {
-                      "text": "14. Di chuyển - NET",
-                      "code": "14",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
-                    },
-                    {
                       "text": "15. Đang trên đường đi làm / đi học",
                       "code": "15",
                       "media": "",
@@ -2514,13 +2480,6 @@
                       "is_header": false
                     },
                     {
-                      "text": "19. Thể thao & Hoạt động thể chất  NET",
-                      "code": "19",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
-                    },
-                    {
                       "text": "20. Trước khi tập luyện / chơi thể thao",
                       "code": "20",
                       "media": "",
@@ -2540,13 +2499,6 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
-                    },
-                    {
-                      "text": "23. Giao tiếp & Giải trí xã hội - NET",
-                      "code": "23",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
                     },
                     {
                       "text": "24. Đang gặp gỡ, trò chuyện với bạn bè / đồng nghiệp",
@@ -2575,13 +2527,6 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
-                    },
-                    {
-                      "text": "28. Ăn uống - NET",
-                      "code": "28",
-                      "media": "",
-                      "is_other": false,
-                      "is_header": true
                     },
                     {
                       "text": "29. Trong bữa ăn chính (sáng / trưa / tối)",
@@ -2619,7 +2564,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar a1=[1]+RandomArray([2,3,4,5,6]);\nvar a2=[7]+RandomArray([8,9,10,11,12,13]);\nvar a3=[14]+RandomArray([15,16,17,18]);\nvar a4=[19]+RandomArray([20,21,22]);\nvar a5=[23]+RandomArray([24,25,26,27]);\nvar a6=[28]+RandomArray([29,30])+[97];\nvar a=a1+a2+a3+a4+a5+a6;\nAnswerRandom(CurrentQuestion(),a);",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nvar a1=RandomArray([2,3,4,5,6]);\nvar a2=RandomArray([8,9,10,11,12,13]);\nvar a3=RandomArray([15,16,17,18]);\nvar a4=RandomArray([20,21,22]);\nvar a5=RandomArray([24,25,26,27]);\nvar a6=RandomArray([29,30])+[97];\nvar a=a1+a2+a3+a4+a5+a6;\nAnswerRandom(CurrentQuestion(),a);",
                     "on_next": "",
                     "rules": []
                   },
@@ -2630,7 +2575,7 @@
                 {
                   "id": "C4",
                   "type": "MULTI",
-                  "text": "Trong tình huống đó, anh/chị đang ở trạng thái hoặc hoàn cảnh nào dưới đây?",
+                  "text": "Trong tình huống {0} gần nhất đó, anh/chị đang ở trạng thái hoặc hoàn cảnh nào dưới đây?\n\nLưu ý: Anh/chị có thể chọn nhiều lựa chọn phù hợp.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2811,9 +2756,28 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,19,99]);\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18])){AnswerVisible(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16],true,false);};\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18,20,21,22])){AnswerVisible(CurrentQuestion(),[17,18],true,false);};",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nAnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,19,99]);\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18])){AnswerVisible(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16],true,false);};\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18,20,21,22])){AnswerVisible(CurrentQuestion(),[17,18],true,false);};",
                     "on_next": "",
-                    "rules": []
+                    "rules": [
+                      {
+                        "condition": "Contains(CurrentQuestion(),[6])&&Contains(CurrentQuestion(),[9])",
+                        "action": "Hard",
+                        "message": "Không thể ăn sáng/ăn trưa thì không thể phải làm việc ban đêm",
+                        "goto": ""
+                      },
+                      {
+                        "condition": "Contains(CurrentQuestion(),[10,11])&&Contains(CurrentQuestion(),[15])",
+                        "action": "Hard",
+                        "message": "Code 10/11 và Code 15 không được chọn cùng nhau",
+                        "goto": ""
+                      },
+                      {
+                        "condition": "Contains(CurrentQuestion(),[17])&&Contains(CurrentQuestion(),[15])",
+                        "action": "Hard",
+                        "message": "Code 15 và Code 17 không được chọn cùng nhau.",
+                        "goto": ""
+                      }
+                    ]
                   },
                   "conjoint": {},
                   "number_grid": {},
@@ -2822,7 +2786,7 @@
                 {
                   "id": "C5",
                   "type": "SINGLE",
-                  "text": "Khi {0}, anh/chị đã sử dụng những loại thức uống nào dưới đây để đáp ứng nhu cầu đó?",
+                  "text": "Khi {0} trong lần gần đây nhất, anh/chị đã sử dụng loại thức uống nào dưới đây để đáp ứng nhu cầu đó?\n\nLưu ý: Anh/chị chỉ chọn một thức uống.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2924,7 +2888,7 @@
                 {
                   "id": "C6",
                   "type": "SINGLE",
-                  "text": "Nhãn hiệu thức uống anh/chị đã sử dụng trong tình huống đó là gì?",
+                  "text": "Nhãn hiệu thức uống anh/chị đã sử dụng trong tình huống gần đây nhất đó là gì?\n\nLưu ý: Anh/chị chỉ chọn một nhãn hiệu.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -3397,7 +3361,7 @@
                 {
                   "id": "C7",
                   "type": "SINGLE",
-                  "text": "Anh/chị thường dùng {0} này ở đâu?",
+                  "text": "Anh/chị thường dùng {0} này ở đâu?\n\nLưu ý: Anh/chị chỉ chọn một câu trả lời.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -3493,6 +3457,13 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
+                    },
+                    {
+                      "text": "97. Khác (ghi rõ)...",
+                      "code": "97",
+                      "media": "",
+                      "is_other": true,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
@@ -3505,7 +3476,7 @@
                   "realtime": false,
                   "realcam": false,
                   "options": {
-                    "answer_random": false,
+                    "answer_random": true,
                     "search": false
                   },
                   "logic": {
@@ -3520,15 +3491,15 @@
                 {
                   "id": "C7a",
                   "type": "NUMBER",
-                  "text": "Mức chi tiêu của anh/chị cho lần sử dụng này là bao nhiêu?\nAnh chị vui lòng ghi nhận số tiền dưới dạng số với đơn vị là Việt Nam Đồng, VD: #,000,000 Việt Nam Đồng",
+                  "text": "Mức chi tiêu của anh/chị cho lần sử dụng gần nhất này là bao nhiêu?\nAnh chị vui lòng ghi nhận số tiền dưới dạng số với đơn vị là Việt Nam Đồng, VD: #,000,000 Việt Nam Đồng",
                   "note": "",
                   "media": "",
                   "record": false,
                   "readonly": false,
                   "answers": [],
                   "topics": [],
-                  "min": "1",
-                  "max": "999999999",
+                  "min": "1000",
+                  "max": "200000",
                   "unit": "VND",
                   "display_columns": 1,
                   "no_answer": false,
@@ -3785,7 +3756,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân sau khi uống",
+                      "text": "11. Tôi muốn tự thưởng và chiều chuộng bản thân",
                       "code": "11",
                       "media": "",
                       "is_other": false,
@@ -3793,7 +3764,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ sau khi uống",
+                      "text": "12. Tôi muốn cải thiện tâm trạng, tràn đầy năng lượng tích cực vui vẻ",
                       "code": "12",
                       "media": "",
                       "is_other": false,
@@ -3892,43 +3863,64 @@
             {
               "id": "N1",
               "type": "SINGLE",
-              "text": "Trong các tên gọi sau đây, đâu là tên gọi phù hợp nhất để mô tả loại thức uống có thể đáp ứng nhu cầu {0}?",
+              "text": "Trong các tên gọi sau đây, đâu là tên gọi phù hợp nhất để mô tả loại thức uống có thể đáp ứng nhu cầu {0}?\nLưu ý: Anh/chị chỉ chọn một câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. NƯỚC NĂNG LƯỢNG",
+                  "text": "1. NƯỚC KÍCH HOẠT NĂNG LƯỢNG",
                   "code": "1",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "2. NƯỚC UỐNG BẬT NĂNG LƯỢNG",
+                  "text": "2. NƯỚC TĂNG LỰC THẾ HỆ MỚI",
                   "code": "2",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "3. NƯỚC TIẾP NĂNG LƯỢNG",
+                  "text": "3. NEXT-GEN ENERGY",
                   "code": "3",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "4. NƯỚC TĂNG LỰC THẾ HỆ MỚI",
+                  "text": "4. NƯỚC TĂNG LỰC 2.0",
                   "code": "4",
                   "media": "",
                   "is_other": false,
                   "is_header": false
                 },
                 {
-                  "text": "5. NƯỚC NĂNG LƯỢNG PHONG CÁCH",
+                  "text": "5. NƯỚC TĂNG LỰC THỜI THƯỢNG",
                   "code": "5",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "6. NƯỚC TĂNG LỰC BỒI BỔ /",
+                  "code": "6",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "7. ENERGY TONIC DRINK",
+                  "code": "7",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "8. NƯỚC TIẾP NĂNG LƯỢNG",
+                  "code": "8",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -3959,7 +3951,7 @@
             {
               "id": "N2",
               "type": "SINGLE",
-              "text": "Trong các tên thương hiệu sau đây, đâu là tên thương hiệu phù hợp nhất với loại thức uống có thể đáp ứng nhu cầu {0}?",
+              "text": "Trong các tên thương hiệu sau đây, đâu là tên thương hiệu phù hợp nhất với loại thức uống có thể đáp ứng nhu cầu {0}?\nLưu ý: Anh/chị chỉ chọn một câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
@@ -4061,7 +4053,7 @@
             {
               "id": "N3",
               "type": "SINGLE",
-              "text": "Tên nào thể hiện tốt nhất \"Đây 1 loại nước uống cung cấp năng lượng mà tôi có thể dùng hàng ngày được\"?",
+              "text": "Nhãn hiệu nào ở Việt Nam sẽ phù hợp nhất để ra mắt dòng sản phẩm mới này?\nLưu ý: Anh/chị chỉ chọn một câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
@@ -4225,7 +4217,7 @@
               "realtime": false,
               "realcam": false,
               "options": {
-                "answer_random": false,
+                "answer_random": true,
                 "search": false
               },
               "logic": {
@@ -4256,7 +4248,7 @@
             {
               "id": "P1",
               "type": "MULTI",
-              "text": "Câu nào sau đây nói đúng về anh/chị hiện tại?",
+              "text": "Câu nào sau đây nói đúng về anh/chị hiện tại?\nLưu ý: Anh/chị có thể chọn nhiều câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
@@ -4331,7 +4323,7 @@
                   "code": "9",
                   "media": "",
                   "is_other": false,
-                  "is_exclusive": false,
+                  "is_exclusive": true,
                   "is_header": false
                 }
               ],
@@ -4742,13 +4734,6 @@
                   "media": "",
                   "is_other": false,
                   "is_header": false
-                },
-                {
-                  "text": "5. Không đi học",
-                  "code": "5",
-                  "media": "",
-                  "is_other": false,
-                  "is_header": false
                 }
               ],
               "topics": [],
@@ -4767,14 +4752,7 @@
               "logic": {
                 "on_enter": "",
                 "on_next": "",
-                "rules": [
-                  {
-                    "condition": "Contains(CurrentQuestion(),[5])",
-                    "action": "Hard",
-                    "message": "NGƯNG",
-                    "goto": ""
-                  }
-                ]
+                "rules": []
               },
               "conjoint": {},
               "number_grid": {},
