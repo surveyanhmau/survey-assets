@@ -4,7 +4,7 @@
     {
       "id": "Full",
       "name": "Full",
-      "record": false,
+      "record": true,
       "hide_back": false,
       "random_question": false,
       "on_enter": "",
@@ -28,6 +28,38 @@
             "iterations": []
           },
           "questions": [
+            {
+              "id": "GPS-Start",
+              "type": "GPS",
+              "text": "Ghi nhận GPS",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
             {
               "id": "HD0",
               "type": "EMPTY",
@@ -942,7 +974,7 @@
             {
               "id": "A8b",
               "type": "MULTI",
-              "text": "Trong 3 tháng qua, anh/chị đã từng sử dụng những loại thức uống nào sau đây để bổ sung năng lượng hoặc giúp bản thân tỉnh táo hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày? ",
+              "text": "Trong 3 tháng qua, anh/chị đã từng sử dụng những loại thức uống nào sau đây để bổ sung năng lượng hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày?",
               "note": "",
               "media": "",
               "record": false,
@@ -1069,7 +1101,7 @@
             {
               "id": "A8c",
               "type": "SINGLE",
-              "text": "Thức uống nào anh/chị DÙNG THƯỜNG XUYÊN NHẤT để bổ sung năng lượng hoặc giúp bản thân tỉnh táo hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày?",
+              "text": "Thức uống nào anh/chị DÙNG THƯỜNG XUYÊN NHẤT để bổ sung năng lượng hơn khi làm việc, học tập hay tham gia các hoạt động hàng ngày?",
               "note": "",
               "media": "",
               "record": false,
@@ -1185,7 +1217,7 @@
             {
               "id": "A9",
               "type": "SINGLE",
-              "text": "Với các thức uống {0} giúp thêm năng lượng/sự tỉnh táo, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?\n\nLưu ý: Ở đây em đang muốn nói đến tổng tần suất sử dụng cho các loại thức uống giúp tăng năng lượng/sự tỉnh táo, không chỉ đề cập đến loại thức uống thường xuyên nhất của anh/chị.",
+              "text": "Với các thức uống {0} giúp thêm năng lượng, anh/chị sử dụng với tần suất như thế nào trong 3 tháng qua?\n\nLưu ý: Ở đây em đang muốn nói đến tổng tần suất sử dụng cho các loại thức uống giúp tăng năng lượng đang dùng, không chỉ đề cập đến loại thức uống thường xuyên nhất của anh/chị.",
               "note": "",
               "media": "",
               "record": false,
@@ -1286,71 +1318,119 @@
             },
             {
               "id": "A10",
-              "type": "SINGLE",
-              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi lớn nhất như thế nào?",
+              "type": "MULTI_GRID",
+              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi lớn nhất như thế nào?\n\nLưu ý: Anh/chị có thể chọn nhiều đáp án mô tả đúng những thay đổi trong cách sử dụng hiện nay so với 1-2 năm trước.",
               "note": "",
               "media": "",
               "record": false,
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Uống thường xuyên hơn (số lần uống tăng)",
+                  "text": "Uống thường xuyên hơn (số lần uống tăng)",
                   "code": "1",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "2. Uống ít thường xuyên hơn (số lần uống giảm)",
+                  "text": "Uống ít thường xuyên hơn (số lần uống giảm)",
                   "code": "2",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "3. Lượng uống nhiều hơn trong mỗi lần",
+                  "text": "Lượng uống nhiều hơn trong mỗi lần",
                   "code": "3",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "4. Lượng uống ít hơn trong mỗi lần",
+                  "text": "Lượng uống ít hơn trong mỗi lần",
                   "code": "4",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "5. Quan tâm thành phần/ nhãn dinh dưỡng hơn",
+                  "text": "Quan tâm thành phần/ nhãn dinh dưỡng hơn",
                   "code": "5",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "6. Thử nhiều nhãn hiệu mới lạ hơn",
+                  "text": "Thử nhiều nhãn hiệu mới lạ hơn",
                   "code": "6",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "7. Chuyển sang các nhãn hiệu ít đường/giảm đường",
+                  "text": "Chuyển sang các nhãn hiệu ít đường/giảm đường",
                   "code": "7",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": false
                 },
                 {
-                  "text": "8. Không thay đổi",
+                  "text": "Không thay đổi",
                   "code": "8",
-                  "media": "",
                   "is_other": false,
-                  "is_header": false
+                  "is_exclusive": true
                 }
               ],
-              "topics": [],
+              "topics": [
+                {
+                  "text": "1. Nước ngọt có gas (Coca cola, Pepsi, 7up, Sprite,...)",
+                  "code": "1",
+                  "is_other": false
+                },
+                {
+                  "text": "2. Nước tăng lực (Red Bull, Sting, Wake Up 247, Warrior, Number 1,...)",
+                  "code": "2",
+                  "is_other": false
+                },
+                {
+                  "text": "3. Trà đóng chai (C2, Tea+, Không Độ,...)",
+                  "code": "3",
+                  "is_other": false
+                },
+                {
+                  "text": "4. Nước tinh khiết/Nước khoáng đóng chai (Aquafina, La Vie, Vĩnh Hảo,...)",
+                  "code": "4",
+                  "is_other": false
+                },
+                {
+                  "text": "5. Nước ép trái cây đóng hộp (Vinamilk, Twister,...) - không bao gồm nước ép tươi tại các quán nước",
+                  "code": "5",
+                  "is_other": false
+                },
+                {
+                  "text": "6. Nước thể thao/điện giải (Pocari, Revive,...)",
+                  "code": "6",
+                  "is_other": false
+                },
+                {
+                  "text": "7. Cà phê hàng quán/ take away",
+                  "code": "7",
+                  "is_other": false
+                },
+                {
+                  "text": "8. Cà phê hòa tan (G7, NesCafe, Phố...)",
+                  "code": "8",
+                  "is_other": false
+                },
+                {
+                  "text": "9. Cà phê đóng lon (Boss, Highland...),",
+                  "code": "9",
+                  "is_other": false
+                },
+                {
+                  "text": "10. Trà sữa/Trà trái cây hàng quán",
+                  "code": "10",
+                  "is_other": false
+                },
+                {
+                  "text": "97. Khác: ghi rõ …",
+                  "code": "97",
+                  "is_other": false
+                }
+              ],
               "min": "1",
               "max": "999",
               "unit": "",
@@ -1361,16 +1441,17 @@
               "realcam": false,
               "options": {
                 "answer_random": false,
-                "search": false
+                "topic_random": false,
+                "flip_table": false
               },
               "logic": {
-                "on_enter": "",
+                "on_enter": "FilterTopicByAnswer(A10,A8a);",
                 "on_next": "",
                 "rules": [
                   {
-                    "condition": "Contains(CurrentQuestion(),[7])",
+                    "condition": "((ContainsChoice(A10,1,[1])&&ContainsChoice(A10,1,[2]))||(ContainsChoice(A10,1,[3])&&ContainsChoice(A10,1,[4])))||((ContainsChoice(A10,2,[1])&&ContainsChoice(A10,2,[2]))||(ContainsChoice(A10,2,[3])&&ContainsChoice(A10,2,[4])))||((ContainsChoice(A10,3,[1])&&ContainsChoice(A10,3,[2]))||(ContainsChoice(A10,3,[3])&&ContainsChoice(A10,3,[4])))||((ContainsChoice(A10,4,[1])&&ContainsChoice(A10,4,[2]))||(ContainsChoice(A10,4,[3])&&ContainsChoice(A10,4,[4])))||((ContainsChoice(A10,5,[1])&&ContainsChoice(A10,5,[2]))||(ContainsChoice(A10,5,[3])&&ContainsChoice(A10,5,[4])))||((ContainsChoice(A10,6,[1])&&ContainsChoice(A10,6,[2]))||(ContainsChoice(A10,6,[3])&&ContainsChoice(A10,6,[4])))||((ContainsChoice(A10,7,[1])&&ContainsChoice(A10,7,[2]))||(ContainsChoice(A10,7,[3])&&ContainsChoice(A10,7,[4])))||((ContainsChoice(A10,8,[1])&&ContainsChoice(A10,8,[2]))||(ContainsChoice(A10,8,[3])&&ContainsChoice(A10,8,[4])))||((ContainsChoice(A10,9,[1])&&ContainsChoice(A10,9,[2]))||(ContainsChoice(A10,9,[3])&&ContainsChoice(A10,9,[4])))||((ContainsChoice(A10,10,[1])&&ContainsChoice(A10,10,[2]))||(ContainsChoice(A10,10,[3])&&ContainsChoice(A10,10,[4])))||((ContainsChoice(A10,97,[1])&&ContainsChoice(A10,97,[2]))||(ContainsChoice(A10,97,[3])&&ContainsChoice(A10,97,[4])))",
                     "action": "Hard",
-                    "message": "NGƯNG",
+                    "message": "SAI LOGIC",
                     "goto": ""
                   }
                 ]
@@ -1382,7 +1463,7 @@
             {
               "id": "A11",
               "type": "SINGLE",
-              "text": "Anh/chị thường mua sắm thức uống bổ sung năng lượng/tỉnh táo theo cách nào?\n\nLưu ý: Anh/chị chỉ chọn 1 đáp án mô tả đúng nhất cách mua sắm của mình.",
+              "text": "Đâu là những nhu cầu về năng lượng mà đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu trong 3 tháng gần đây.",
               "note": "",
               "media": "",
               "record": false,
@@ -1984,7 +2065,7 @@
             {
               "id": "C1",
               "type": "MULTI",
-              "text": "Trong 3 tháng gần đây, khi bạn cần năng lượng/tỉnh táo để làm việc, học tập, tham gia các hoạt động hàng ngày, đâu là 3 nhu cầu mà bạn thường gặp nhất? Anh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
+              "text": "Trong 3 tháng gần đây, khi anh/chị cần năng lượng, đâu là 3 nhu cầu mà anh/chị thường gặp nhất? Anh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
               "note": "",
               "media": "",
               "record": false,
@@ -2280,7 +2361,7 @@
                 {
                   "id": "C2",
                   "type": "SINGLE",
-                  "text": "Lần gần đây nhất anh/chị có nhu cầu {0} là vào khoảng thời gian nào trong ngày?\nLưu ý: Anh/chị chỉ chọn một khung thời gian.",
+                  "text": "Lần gần đây nhất anh/chị có nhu cầu {0} là vào khoảng thời gian nào trong ngày?\nLưu ý: Anh/chị chỉ chọn một khung thời gian phù hợp với nội dung câu hỏi.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2575,7 +2656,7 @@
                 {
                   "id": "C4",
                   "type": "MULTI",
-                  "text": "Trong tình huống {0} gần nhất đó, anh/chị đang ở trạng thái hoặc hoàn cảnh nào dưới đây?\n\nLưu ý: Anh/chị có thể chọn nhiều lựa chọn phù hợp.",
+                  "text": "Trong tình huống {0} đó, anh/chị đang ở trạng thái hoặc hoàn cảnh nào dưới đây?\n\nLưu ý: Anh/chị có thể chọn nhiều lựa chọn phù hợp.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -2756,7 +2837,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nAnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,19,99]);\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18])){AnswerVisible(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16],true,false);};\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18,20,21,22])){AnswerVisible(CurrentQuestion(),[17,18],true,false);};",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[AnswerText(C3)]);\nAnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,19,99]);\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18])){AnswerVisible(CurrentQuestion(),[7,8,9,10,11,12,13,14,15,16],true,false);};\nif(Contains(C3,[8,9,10,11,12,13,15,16,17,18,20,21,22])){AnswerVisible(CurrentQuestion(),[17,18],true,false);};",
                     "on_next": "",
                     "rules": [
                       {
@@ -2877,7 +2958,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nFilterAnswerByAnswer(C5,A8b);",
+                    "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nFilterAnswerByAnswer(C5,A8a);",
                     "on_next": "",
                     "rules": []
                   },
@@ -3403,7 +3484,7 @@
                       "is_header": false
                     },
                     {
-                      "text": "6. Tại quán cóc, xe đẩy, vỉa hè",
+                      "text": "6. Tại quán cafe cóc, xe đẩy ven đường",
                       "code": "6",
                       "media": "",
                       "is_other": false,
@@ -3669,7 +3750,7 @@
                 {
                   "id": "C10",
                   "type": "RANKING",
-                  "text": "Nếu trong tương lai có một loại <blue>thức uống</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại nước tăng lực hiện nay chưa đáp ứng tốt?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất và xếp hạng theo thứ tự mức độ mong muốn từ 1 tới 5. ",
+                  "text": "Nếu trong tương lai có một loại <blue>thức uống</blue> thế hệ mới được ra mắt, anh/chị mong đợi sản phẩm này đáp ứng những nhu cầu nào mà các loại <u>NƯỚC TĂNG LỰC HIỆN NAY CHƯA ĐÁP ỨNG TỐT</u>?\nVui lòng chọn tối đa 5 nhu cầu mà anh/chị mong muốn được đáp ứng nhất và xếp hạng theo thứ tự mức độ mong muốn từ 1 tới 5. ",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -3834,7 +3915,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "",
+                    "on_enter": "var a=[99];\nfor(var i=1;i<19;i=i+1){\nif(Contains(C1,[i])&&Contains(\"C5_\"+i,[2])&&Contains(\"C8_\"+i,[4,5])){a=a+[i];};\n};\nAnswerVisible(CurrentQuestion(),a,false,true);",
                     "on_next": "",
                     "rules": []
                   },
@@ -3924,6 +4005,13 @@
                   "media": "",
                   "is_other": false,
                   "is_header": false
+                },
+                {
+                  "text": "97. Khác (Ghi rõ):…",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -3936,7 +4024,7 @@
               "realtime": false,
               "realcam": false,
               "options": {
-                "answer_random": false,
+                "answer_random": true,
                 "search": false
               },
               "logic": {
@@ -4026,6 +4114,34 @@
                   "media": "",
                   "is_other": false,
                   "is_header": false
+                },
+                {
+                  "text": "11. LOOP",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "12. RYSE",
+                  "code": "12",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "13. PUMP",
+                  "code": "13",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "97. Khác: ghi rõ",
+                  "code": "97",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -4038,7 +4154,7 @@
               "realtime": false,
               "realcam": false,
               "options": {
-                "answer_random": false,
+                "answer_random": true,
                 "search": false
               },
               "logic": {
@@ -4747,6 +4863,38 @@
               "realcam": false,
               "options": {
                 "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "GPS-End",
+              "type": "GPS",
+              "text": "Ghi nhận GPS",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "topic_random": false,
                 "search": false
               },
               "logic": {
