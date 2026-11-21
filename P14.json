@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}",
+  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}\nfunction CheckC1(){\nvar a=[];\nvar c=0;\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif(AnswerChoice(B3,i)>0){a=[i];c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((AnswerChoice(B3,i)<AnswerChoice(B3,c))&&(AnswerChoice(B3,i)>0)){a=[i],c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((AnswerChoice(B3,i)<=AnswerChoice(B3,c))&&(AnswerChoice(B3,i)>0)){a=a+[i]};\n};\nif(!Contains(C1,a)){kq=1;};\nreturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -1546,7 +1546,7 @@
             {
               "id": "B1",
               "type": "MULTI",
-              "text": "Đâu là những nhu cầu về năng lượng mà đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu đã gặp trong 3 tháng gần đây.",
+              "text": "Đâu là những nhu cầu về năng lượng mà đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu đã gặp trong 3 tháng gần đây. Anh/chị vui lòng kéo xuống để xem hết tất cả các câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
@@ -2065,7 +2065,7 @@
             {
               "id": "C1",
               "type": "MULTI",
-              "text": "Trong 3 tháng gần đây, khi anh/chị cần năng lượng, đâu là 3 nhu cầu mà anh/chị thường gặp nhất? Anh/chị vui lòng chọn nhiều nhất 3 nhu cầu quan trọng nhất đối với mình, nếu có ít hơn 3 thì anh/chị cứ chọn đúng những nhu cầu phù hợp.",
+              "text": "Trong 3 tháng gần đây, khi anh/chị cần năng lượng đâu là 3 nhu cầu mà anh/chị thường gặp nhất? Anh/chị vui lòng chọn nhiều nhất 3 nhu cầu thường gặp nhất đối với mình, nếu có ít hơn 3 thì anh/chị ưu tiên chọn nhu cầu xảy ra thường xuyên nhất đối với mình.",
               "note": "",
               "media": "",
               "record": false,
@@ -2232,7 +2232,14 @@
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(C1,B1);",
                 "on_next": "FilterLoopByAnswer(Chapter7,C1);",
-                "rules": []
+                "rules": [
+                  {
+                    "condition": "CheckC1()==1",
+                    "action": "Hard",
+                    "message": "NHU CẦU CÓ TẦN SUẤT CAO NHẤT Ở B3 BẮT BUỘC PHẢI ĐƯỢC CHỌN Ở C1",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -2449,7 +2456,7 @@
                 {
                   "id": "C3",
                   "type": "SINGLE",
-                  "text": "Khi {0} trong lần gần đây nhất, anh/chị đang làm gì hoặc chuẩn bị tham gia hoạt động gì?\nLưu ý: Anh/chị chỉ chọn một hoạt động.",
+                  "text": "Khi {0} trong lần gần đây nhất, anh/chị đang làm gì hoặc chuẩn bị tham gia hoạt động gì?\nLưu ý: Anh/chị chỉ chọn một hoạt động. Anh/chị vui lòng kéo xuống để xem hết tất cả các câu trả lời.",
                   "note": "",
                   "media": "",
                   "record": false,
@@ -4169,7 +4176,7 @@
             {
               "id": "N3",
               "type": "SINGLE",
-              "text": "Nhãn hiệu nào ở Việt Nam sẽ phù hợp nhất để ra mắt dòng sản phẩm mới này?\nLưu ý: Anh/chị chỉ chọn một câu trả lời.",
+              "text": "Nhãn hiệu nào ở Việt Nam sẽ phù hợp nhất để ra mắt dòng sản phẩm mới này?\nLưu ý: Anh/chị chỉ chọn một câu trả lời. Anh/chị vui lòng kéo xuống để xem hết tất cả các câu trả lời.",
               "note": "",
               "media": "",
               "record": false,
