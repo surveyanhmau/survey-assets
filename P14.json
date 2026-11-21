@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}\nfunction CheckC11(){\n    var a = [];\n    var c = 0;\n    for(var i = 1; i < 19; i = i + 1){\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])){\n            if(c == 0){c = i;};\n            if(AnswerChoice(B3, i) < AnswerChoice(B3, c)){ c = i; };\n            };\n    };\n    for(var i = 1; i < 19; i = i + 1){\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])){if(AnswerChoice(B3, i) <= AnswerChoice(B3, c)){a = a + [i];};};\n    };\n    if(!Contains(C1, a)){ return 1; };\n    return 0;\n}\nfunction CheckC1(){\n    var kq=0;\n    var c = 0;\n    for(var i=1;i<19; i=i+1){\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])&&(c==0)){c=i;};\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])&&(AnswerChoice(B3,i)<AnswerChoice(B3,c))){c=i;};\n    };\n    for(var j=1;j<19;j=j+1){\n        if(ContainsChoice(B3,j,[1,2,3,4,5,6,7,8,9])&&(AnswerChoice(B3,j)<=AnswerChoice(B3,c))&&(!Contains(C1,[j]))){kq=kq+1;};\n    };\n    return kq;\n}",
+  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}\nfunction CheckC1(){\n    var kq=0;\n    var c = 0;\n    for(var i=1;i<19; i=i+1){\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])&&(c==0)){c=i;};\n        if(ContainsChoice(B3, i, [1,2,3,4,5,6,7,8,9])&&(AnswerChoice(B3,i)<AnswerChoice(B3,c))){c=i;};\n    };\n    for(var j=1;j<19;j=j+1){\n        if(ContainsChoice(B3,j,[1,2,3,4,5,6,7,8,9])&&(AnswerChoice(B3,j)<=AnswerChoice(B3,c))&&(!Contains(C1,[j]))){kq=kq+1;};\n    };\n    return kq;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -2234,7 +2234,7 @@
                 "on_next": "FilterLoopByAnswer(Chapter7,C1);",
                 "rules": [
                   {
-                    "condition": "CheckC1()>0",
+                    "condition": "(CheckC1()>0)&&(GetAnswerCount(C1)<4)",
                     "action": "Hard",
                     "message": "NHU CẦU CÓ TẦN SUẤT CAO NHẤT Ở B3 BẮT BUỘC PHẢI ĐƯỢC CHỌN Ở C1",
                     "goto": ""
