@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}\nfunction CheckC1(){\nvar a=[];\nvar c=0;\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif(AnswerChoice(B3,i)>0){a=[i];c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((AnswerChoice(B3,i)<AnswerChoice(B3,c))&&(AnswerChoice(B3,i)>0)){a=[i],c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((AnswerChoice(B3,i)<=AnswerChoice(B3,c))&&(AnswerChoice(B3,i)>0)){a=a+[i]};\n};\nif(!Contains(C1,a)){kq=1;};\nreturn kq;\n}",
+  "functions": "function CheckB2(){\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif((!Contains(B1,[i]))&&(ContainsChoice(B2,i,[4,5]))){kq=1;};\n};\nreturn kq;\n}\nfunction CheckC1(){\nvar a=[];\nvar c=0;\nvar kq=0;\nfor(var i=1;i<19;i=i+1){\nif(ContainsChoice(B3,i,[1,2,3,4,5,6,7,8,9])){a=[i];c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((ToString(AnswerChoice(B3,i))<ToString(AnswerChoice(B3,c)))&&ContainsChoice(B3,i,[1,2,3,4,5,6,7,8,9])){a=[i],c=i;};\n};\nfor(var i=1;i<19;i=i+1){\nif((ToString(AnswerChoice(B3,i))<ToString(AnswerChoice(B3,c)))&&ContainsChoice(B3,i,[1,2,3,4,5,6,7,8,9])){a=a+[i]};\n};\nif(!Contains(C1,a)){kq=1;};\nreturn kq;\n}",
   "chapters": [
     {
       "id": "Full",
