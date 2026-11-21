@@ -2966,7 +2966,7 @@
                   },
                   "logic": {
                     "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nFilterAnswerByAnswer(C5,A8a);",
-                    "on_next": "if(Contains(C5,[10])){SetAnswer(C6,[64]);};",
+                    "on_next": "if(!Contains(C5,[10])){ClearAnswer(C6);};\nif(Contains(C5,[10])){SetAnswer(C6,[64]);};",
                     "rules": []
                   },
                   "conjoint": {},
