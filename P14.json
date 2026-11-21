@@ -2232,14 +2232,7 @@
               "logic": {
                 "on_enter": "FilterAnswerByAnswer(C1,B1);",
                 "on_next": "FilterLoopByAnswer(Chapter7,C1);",
-                "rules": [
-                  {
-                    "condition": "(CheckC1()>0)&&(GetAnswerCount(C1)<4)",
-                    "action": "Hard",
-                    "message": "NHU CẦU CÓ TẦN SUẤT CAO NHẤT Ở B3 BẮT BUỘC PHẢI ĐƯỢC CHỌN Ở C1",
-                    "goto": ""
-                  }
-                ]
+                "rules": []
               },
               "conjoint": {},
               "number_grid": {},
