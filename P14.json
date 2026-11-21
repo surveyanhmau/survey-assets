@@ -1319,7 +1319,7 @@
             {
               "id": "A10",
               "type": "MULTI_GRID",
-              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi lớn nhất như thế nào?\n\nLưu ý: Anh/chị có thể chọn nhiều đáp án mô tả đúng những thay đổi trong cách sử dụng hiện nay so với 1-2 năm trước.",
+              "text": "So với 1–2 năm trước, cách anh/chị SỬ DỤNG các loại thức uống này có thay đổi như thế nào?\n\nLưu ý: Anh/chị có thể chọn nhiều đáp án mô tả đúng những thay đổi trong cách sử dụng hiện nay so với 1-2 năm trước.",
               "note": "",
               "media": "",
               "record": false,
@@ -1463,7 +1463,7 @@
             {
               "id": "A11",
               "type": "SINGLE",
-              "text": "Đâu là những nhu cầu về năng lượng mà đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu trong 3 tháng gần đây.",
+              "text": "Anh/chị thường mua sắm thức uống bổ sung năng lượng theo cách nào?\n\nLưu ý: Anh/chị chỉ chọn 1 đáp án mô tả đúng nhất cách mua sắm của mình.",
               "note": "",
               "media": "",
               "record": false,
@@ -1546,7 +1546,7 @@
             {
               "id": "B1",
               "type": "MULTI",
-              "text": "Đâu là những sắc thái nhu cầu về năng lượng/tỉnh táo mà bạn đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu phù hợp với mình trong 3 tháng gần đây.",
+              "text": "Đâu là những nhu cầu về năng lượng mà đã gặp trong 3 tháng gần đây?\n\nLưu ý: Anh/chị hãy chọn tất cả các nhu cầu đã gặp trong 3 tháng gần đây.",
               "note": "",
               "media": "",
               "record": false,
@@ -2959,7 +2959,7 @@
                   },
                   "logic": {
                     "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nFilterAnswerByAnswer(C5,A8a);",
-                    "on_next": "",
+                    "on_next": "if(Contains(C5,[10])){SetAnswer(C6,[64]);};",
                     "rules": []
                   },
                   "conjoint": {},
@@ -3431,7 +3431,7 @@
                     "search": false
                   },
                   "logic": {
-                    "on_enter": "if(Contains(C5,[10])){SetAnswer(C6,[64]);QuestionReadonly(true);};\nif(!Contains(C5,[10])){QuestionReadonly(false);};\nif(Contains(C5,[1])){AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,7,8]);};\nif(Contains(C5,[2])){AnswerVisible(CurrentQuestion(),[9,10,11,12,13,14,15,16,17,18,19]);};\nif(Contains(C5,[3])){AnswerVisible(CurrentQuestion(),[20,22,23,24,25,26,27]);};\nif(Contains(C5,[5])){AnswerVisible(CurrentQuestion(),[28,29,30,31,32,33]);};\nif(Contains(C5,[6])){AnswerVisible(CurrentQuestion(),[34,35,36,37]);};\nif(Contains(C5,[7])){AnswerVisible(CurrentQuestion(),[38,39,40,41,42,43,44,45,46,47,48,49]);};\nif(Contains(C5,[8])){AnswerVisible(CurrentQuestion(),[50,51,52,53,54,55,56,57]);};\nif(Contains(C5,[9])){AnswerVisible(CurrentQuestion(),[58,59,60,61,62,63]);};",
+                    "on_enter": "if(Contains(C5,[10])){QuestionHide();};\nif(Contains(C5,[1])){AnswerVisible(CurrentQuestion(),[1,2,3,4,5,6,7,8]);};\nif(Contains(C5,[2])){AnswerVisible(CurrentQuestion(),[9,10,11,12,13,14,15,16,17,18,19]);};\nif(Contains(C5,[3])){AnswerVisible(CurrentQuestion(),[20,22,23,24,25,26,27]);};\nif(Contains(C5,[5])){AnswerVisible(CurrentQuestion(),[28,29,30,31,32,33]);};\nif(Contains(C5,[6])){AnswerVisible(CurrentQuestion(),[34,35,36,37]);};\nif(Contains(C5,[7])){AnswerVisible(CurrentQuestion(),[38,39,40,41,42,43,44,45,46,47,48,49]);};\nif(Contains(C5,[8])){AnswerVisible(CurrentQuestion(),[50,51,52,53,54,55,56,57]);};\nif(Contains(C5,[9])){AnswerVisible(CurrentQuestion(),[58,59,60,61,62,63]);};",
                     "on_next": "",
                     "rules": []
                   },
