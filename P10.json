@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3])){kq=1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}",
+  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3])){kq=1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckS8(){\nvar b=Answer(S8);\nvar c=0;\nif(Contains(\"S5_\"+b,[2,3])){c=1;};\nif(Contains(\"S5_\"+b,[4,5,6])&&Contains(\"S7b_\"+b,[1,2])){c=1;};\nif(Contains(\"S5_\"+b,[7,8])&&Contains(\"S7b_\"+b,[4])){c=1;};\nreturn c;\n}\nfunction CheckC3(){\nvar d=Answer(S8);\nvar e=0;\nif(Contains(S0a,[1])){e=1;};\nif(Contains(S0a,[2])&&Contains(\"S5_\"+d,[2,3])&&Contains(C3,[4,5])){e=1;};\nif(Contains(S0a,[3])&&Contains(\"S5_\"+d,[5,6])&&Contains(C3,[4,5])){e=1;};\nreturn e;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -1757,8 +1757,15 @@
               },
               "logic": {
                 "on_enter": "var a1=\"\";\nvar a2=\"\";\nvar a3=\"\";\nfor(var i=1;i<11;i=i+1){\na1=AnswerText(\"S5_\"+i);\na2=AnswerText(\"S6_\"+i);\na3=AnswerText(\"S7b_\"+i);\nSetAnswerText(CurrentQuestion(),i,[a1,a2,a3]);};",
-                "on_next": "",
-                "rules": []
+                "on_next": "var b=Answer(S8);\nif(Contains(\"S5_\"+b,[2,3])){SetAnswer(QuotaTuoiCon,[1])};\nif((Contains(\"S5_\"+b,[4,5,6]))&&(Contains(\"S6_\"+b,[2,3]))){SetAnswer(QuotaTuoiCon,[2])};\nif((Contains(\"S5_\"+b,[7,8]))&&(Contains(\"S6_\"+b,[4,5,6]))){SetAnswer(QuotaTuoiCon,[3])};\nif(Contains(\"S7b_\"+b,[1])){SetAnswer(QuotaLoaiTruong,[1])};\nif(Contains(\"S7b_\"+b,[2])){SetAnswer(QuotaLoaiTruong,[2])};\nif(Contains(\"S7b_\"+b,[4])){SetAnswer(QuotaLoaiTruong,[3])};",
+                "rules": [
+                  {
+                    "condition": "CheckS8()==0",
+                    "action": "Hard",
+                    "message": "Bé bạn chọn không thỏa quota nào.\nQuota 1: Bé 18 tháng - 3 tuổi\nQuota 2: Bé 3-5 tuổi đang học mầm non\nQuota 3: Bé 6-7 tuổi đang học lớp 1-2 tư thục",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -1767,7 +1774,7 @@
             {
               "id": "S9",
               "type": "OPEN",
-              "text": "Bây giờ em sẽ hỏi anh/chị về bé {0}), anh/chị vui lòng cho em biết tên bé để tiện xưng hô cho phần hỏi sau ạ.",
+              "text": "Bây giờ em sẽ hỏi anh/chị về bé {0}, anh/chị vui lòng cho em biết tên bé để tiện xưng hô cho phần hỏi sau ạ.",
               "note": "",
               "media": "",
               "record": false,
@@ -5345,7 +5352,7 @@
               "readonly": false,
               "answers": [
                 {
-                  "text": "1. Chắc chắn sẽ không cho họ",
+                  "text": "1. Chắc chắn sẽ không cho học",
                   "code": "1",
                   "media": "",
                   "is_other": false,
@@ -5395,8 +5402,15 @@
               },
               "logic": {
                 "on_enter": "SetQuestionText(CurrentQuestion(),[Answer(S9)]);",
-                "on_next": "",
-                "rules": []
+                "on_next": "var a=Answer(S8);\nif(Contains(\"S5_\"+a,[2,3])&&Contains(C3,[4,5])){SetAnswer(QuotaBooster,[1])};\nif(Contains(\"S5_\"+a,[5,6])&&Contains(C3,[4,5])){SetAnswer(QuotaBooster,[2])};",
+                "rules": [
+                  {
+                    "condition": "CheckC3()==0",
+                    "action": "Hard",
+                    "message": "Bạn đã không chọn đúng đáp viên so với phần Booster.\nBooster 1 phải chọn Đáp viên 18 tháng - 3 tuổi và C3 chọn 4/5\nBooster 2 phải chọn Đáp viên 4-5 tuổi và C3 chọn 4/5",
+                    "goto": ""
+                  }
+                ]
               },
               "conjoint": {},
               "number_grid": {},
@@ -7139,6 +7153,158 @@
               },
               "logic": {
                 "on_enter": "",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "QuotaLoaiTruong",
+              "type": "SINGLE",
+              "text": "",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "Loại trường con 3-5 tuổi - Trường Công",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Loại trường con 3-5 tuổi - Trường Tư",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Loại trường con 6-7 tuổi - Trường Tư",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "QuestionHide()",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "QuotaTuoiCon",
+              "type": "SINGLE",
+              "text": "",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Bé 18 tháng đến dưới 3 tuổi – Chưa vào mầm non",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Bé 3 – 5 tuổi – Đang học mầm non",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "3. Bé 6 – 7 tuổi – Đang học lớp 1, lớp 2",
+                  "code": "3",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "QuestionHide()",
+                "on_next": "",
+                "rules": []
+              },
+              "conjoint": {},
+              "number_grid": {},
+              "form": {}
+            },
+            {
+              "id": "QuotaBooster",
+              "type": "SINGLE",
+              "text": "",
+              "note": "",
+              "media": "",
+              "record": false,
+              "readonly": false,
+              "answers": [
+                {
+                  "text": "1. Cha mẹ có con từ 18 tháng – dưới 3 tuổi",
+                  "code": "1",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "2. Cha mẹ có con từ 4-5 tuổi",
+                  "code": "2",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                }
+              ],
+              "topics": [],
+              "min": "",
+              "max": "",
+              "unit": "",
+              "display_columns": 1,
+              "no_answer": false,
+              "integer_only": true,
+              "realtime": false,
+              "realcam": false,
+              "options": {
+                "answer_random": false,
+                "search": false
+              },
+              "logic": {
+                "on_enter": "QuestionHide()",
                 "on_next": "",
                 "rules": []
               },
