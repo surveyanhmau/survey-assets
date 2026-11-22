@@ -1762,7 +1762,7 @@
                   {
                     "condition": "CheckS8()==0",
                     "action": "Hard",
-                    "message": "Bé bạn chọn không thỏa quota nào.\nQuota 1: Bé 18 tháng - 3 tuổi\nQuota 2: Bé 3-5 tuổi đang học mầm non\nQuota 3: Bé 6-7 tuổi đang học lớp 1-2 tư thục",
+                    "message": "Bé bạn chọn không thỏa quota nào.\nQuota 1: Bé 18 tháng - 3 tuổi - chưa đi học\nQuota 2: Bé 3-5 tuổi đang học mầm non\nQuota 3: Bé 6-7 tuổi đang học lớp 1-2 tư thục",
                     "goto": ""
                   }
                 ]
