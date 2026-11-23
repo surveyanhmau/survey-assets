@@ -1,5 +1,5 @@
 {
-  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3])){kq=1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckS8(){\nvar b=Answer(S8);\nvar c=0;\nif(Contains(\"S5_\"+b,[2,3])&&Contains(\"S6_\"+b,[1])){c=1;};\nif(Contains(\"S5_\"+b,[4,5,6])&&Contains(\"S7b_\"+b,[1,2])){c=1;};\nif(Contains(\"S5_\"+b,[7,8])&&Contains(\"S7b_\"+b,[4])){c=1;};\nreturn c;\n}\nfunction CheckC3(){\nvar d=Answer(S8);\nvar e=0;\nif(Contains(S0a,[1])){e=1;};\nif(Contains(S0a,[2])&&Contains(\"S5_\"+d,[2,3])&&Contains(C3,[4,5])){e=1;};\nif(Contains(S0a,[3])&&Contains(\"S5_\"+d,[5,6])&&Contains(C3,[4,5])){e=1;};\nreturn e;\n}",
+  "functions": "function CheckS5(){\n\tvar kq=1;\n\tvar a=Answer(S4);\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,5,6,7])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckStep(){\n\tvar temp=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S6Recode,[i])){temp=i;};\n\t};\n\treturn temp;\n}\nfunction CheckS6(){\n\tvar a=CheckStep();\n\tvar kq6=1;\n\tvar kq5=0;\n\tif(LoopIndex()==a){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[1,2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S5_\"+i,[2,3,4,9])){kq5=kq5+1;};\n\t};\n\tif((kq5<1)&&(kq6>0)){\n\t\tkq6=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3,4,5])){kq6=kq6+1;};\n\t\t};\n\t};\n\treturn kq6;\n}\nfunction CheckS7(){\n\tvar a=0;\n\tfor(var i=1;i<11;i=i+1){\n\t\tif(Contains(S7Recode,[i])){a=i;};\n\t};\n\tvar kq=1;\n\tif(LoopIndex()==a){\n\t\tkq=0;\n\t\tfor(var i=1;i<=a;i=i+1){\n\t\tif(Contains(\"S6_\"+i,[2,3])){kq=1;};\n\t\tif(Contains(\"S6_\"+i,[4,5])&&Contains(\"S7b_\"+i,[1,2,4])){kq=kq+1;};\n\t\t};\n\t};\n\treturn kq;\n}\nfunction CheckS8(){\nvar b=Answer(S8);\nvar c=0;\nif(Contains(\"S5_\"+b,[2,3])&&Contains(\"S6_\"+b,[1])){c=1;};\nif(Contains(\"S5_\"+b,[4,5,6])&&Contains(\"S7b_\"+b,[1,2])){c=1;};\nif(Contains(\"S5_\"+b,[7,8])&&Contains(\"S7b_\"+b,[4])){c=1;};\nreturn c;\n}\nfunction CheckS82(){\nvar d=Answer(S8);\nvar e=0;\nif(Contains(S0a,[1])){e=1;};\nif(Contains(S0a,[2])&&Contains(\"S5_\"+d,[2,3])){e=1;};\nif(Contains(S0a,[3])&&Contains(\"S5_\"+d,[5,6])){e=1;};\nreturn e;\n}\nfunction CheckC3(){\nvar d=Answer(S8);\nvar e=0;\nif(Contains(S0a,[1])){e=1;};\nif(Contains(S0a,[2])&&Contains(\"S5_\"+d,[2,3])&&Contains(C3,[4,5])){e=1;};\nif(Contains(S0a,[3])&&Contains(\"S5_\"+d,[5,6])&&Contains(C3,[4,5])){e=1;};\nreturn e;\n}",
   "chapters": [
     {
       "id": "Full",
@@ -1396,6 +1396,27 @@
                   "is_header": false
                 },
                 {
+                  "text": "9971. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9971",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "9972. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9972",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "9973. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9973",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
                   "text": "11. SIS Bình Dương (Hệ mầm non)",
                   "code": "11",
                   "media": "",
@@ -1424,21 +1445,21 @@
                   "is_header": false
                 },
                 {
-                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "971. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "971",
                   "media": "",
                   "is_other": true,
                   "is_header": false
                 },
                 {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "972. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "972",
                   "media": "",
                   "is_other": true,
                   "is_header": false
                 },
                 {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "973. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "973",
                   "media": "",
                   "is_other": true,
@@ -1484,6 +1505,27 @@
                   "code": "20",
                   "media": "",
                   "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9974. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9974",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "9975. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9975",
+                  "media": "",
+                  "is_other": true,
+                  "is_header": false
+                },
+                {
+                  "text": "9976. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9976",
+                  "media": "",
+                  "is_other": true,
                   "is_header": false
                 },
                 {
@@ -1536,21 +1578,21 @@
                   "is_header": false
                 },
                 {
-                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "974. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "974",
                   "media": "",
                   "is_other": true,
                   "is_header": false
                 },
                 {
-                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "975. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "975",
                   "media": "",
                   "is_other": true,
                   "is_header": false
                 },
                 {
-                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "976. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "976",
                   "media": "",
                   "is_other": true,
@@ -1571,8 +1613,8 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var i=LoopIndex();\nSetQuestionText(CurrentQuestion(),[LoopName(),Answer(\"S5a_\"+i)]);\nif(Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,11,12,13,14,971,972,973])};\nif(Contains(\"S6_\"+i,[4,5])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,21,22,23,24,25,26,27,974,975,976])};",
-                "on_next": "if(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27])){SetAnswer(S7b,[4])};\n",
+                "on_enter": "var i=LoopIndex();\nSetQuestionText(CurrentQuestion(),[LoopName(),Answer(\"S5a_\"+i)]);\nif(Contains(\"S6_\"+i,[2,3])){AnswerVisible(\"S7a_\"+i,[100,1,2,3,4,5,6,7,8,9,10,9971,9972,9973,11,12,13,14,971,972,973])};\nif(Contains(\"S6_\"+i,[4,5,6])){AnswerVisible(\"S7a_\"+i,[200,15,16,17,18,19,20,9974,9975,9976,21,22,23,24,25,26,27,974,975,976])};\nif(Contains(\"S6_\"+i,[1])){SetAnswer(\"S7b_\"+i,[5])};",
+                "on_next": "var i=LoopIndex();\nif(Contains(CurrentQuestion(),[1,2,3,4,5,6,7,8,9,10,9971,9972,9973])){SetAnswer(S7b,[1])};\nif(Contains(CurrentQuestion(),[11,12,13,14,971,972,973])){SetAnswer(S7b,[2])};\nif(Contains(CurrentQuestion(),[15,16,17,18,19,20,9974,9975,9976])){SetAnswer(S7b,[3])};\nif(Contains(CurrentQuestion(),[21,22,23,24,25,26,27,974,975,976])){SetAnswer(S7b,[4])};",
                 "rules": []
               },
               "conjoint": {},
@@ -1612,6 +1654,13 @@
                 {
                   "text": "4. Trường tiểu học hệ tư thục",
                   "code": "4",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "5. Chưa đi học",
+                  "code": "5",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -1763,6 +1812,12 @@
                     "condition": "CheckS8()==0",
                     "action": "Hard",
                     "message": "Bé bạn chọn không thỏa quota nào.\nQuota 1: Bé 18 tháng - 3 tuổi - chưa đi học\nQuota 2: Bé 3-5 tuổi đang học mầm non\nQuota 3: Bé 6-7 tuổi đang học lớp 1-2 tư thục",
+                    "goto": ""
+                  },
+                  {
+                    "condition": "CheckS82()==0",
+                    "action": "Hard",
+                    "message": "Bé bạn chọn không phù hợp với phiếu Booster bạn chọn",
                     "goto": ""
                   }
                 ]
@@ -2423,6 +2478,30 @@
                   "is_header": false
                 },
                 {
+                  "text": "9971. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9971",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9972. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9972",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9973. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9973",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "11. SIS Bình Dương (Hệ mầm non)",
                   "code": "11",
                   "media": "",
@@ -2455,7 +2534,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "971. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "971",
                   "media": "",
                   "is_other": true,
@@ -2463,7 +2542,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "972. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "972",
                   "media": "",
                   "is_other": true,
@@ -2471,7 +2550,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "973. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "973",
                   "media": "",
                   "is_other": true,
@@ -2523,6 +2602,30 @@
                   "code": "20",
                   "media": "",
                   "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9974. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9974",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9975. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9975",
+                  "media": "",
+                  "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9976. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9976",
+                  "media": "",
+                  "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
                 },
@@ -2583,7 +2686,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "974. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "974",
                   "media": "",
                   "is_other": true,
@@ -2591,7 +2694,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "975. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "975",
                   "media": "",
                   "is_other": true,
@@ -2599,7 +2702,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "976. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "976",
                   "media": "",
                   "is_other": true,
@@ -2621,7 +2724,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\na=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);",
+                "on_enter": "var a=[];\nfor(var i=1;i<11;i=i+1){\na=a+[Answer(\"S7a_\"+i)];\n};\nSetAnswer(Q1a,a);\nif(Contains(S7a,[9971]))SetAnswerOther(Q1a,9971,OtherAnswerText(S7a,9971));\nif(Contains(S7a,[9972]))SetAnswerOther(Q1a,9972,OtherAnswerText(S7a,9972));\nif(Contains(S7a,[9973]))SetAnswerOther(Q1a,9973,OtherAnswerText(S7a,9973));\nif(Contains(S7a,[9974]))SetAnswerOther(Q1a,9974,OtherAnswerText(S7a,9974));\nif(Contains(S7a,[9975]))SetAnswerOther(Q1a,9975,OtherAnswerText(S7a,9975));\nif(Contains(S7a,[9976]))SetAnswerOther(Q1a,9976,OtherAnswerText(S7a,9976));\nif(Contains(S7a,[971]))SetAnswerOther(Q1a,971,OtherAnswerText(S7a,971));\nif(Contains(S7a,[972]))SetAnswerOther(Q1a,972,OtherAnswerText(S7a,972));\nif(Contains(S7a,[973]))SetAnswerOther(Q1a,973,OtherAnswerText(S7a,973));\nif(Contains(S7a,[974]))SetAnswerOther(Q1a,974,OtherAnswerText(S7a,974));\nif(Contains(S7a,[975]))SetAnswerOther(Q1a,975,OtherAnswerText(S7a,975));\nif(Contains(S7a,[976]))SetAnswerOther(Q1a,976,OtherAnswerText(S7a,976));",
                 "on_next": "",
                 "rules": [
                   {
@@ -2726,6 +2829,30 @@
                   "is_header": false
                 },
                 {
+                  "text": "9971. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9971",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9972. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9972",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9973. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9973",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "11. SIS Bình Dương (Hệ mầm non)",
                   "code": "11",
                   "media": "",
@@ -2758,7 +2885,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "971. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "971",
                   "media": "",
                   "is_other": false,
@@ -2766,7 +2893,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "972. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "972",
                   "media": "",
                   "is_other": false,
@@ -2774,7 +2901,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "973. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "973",
                   "media": "",
                   "is_other": false,
@@ -2824,6 +2951,30 @@
                 {
                   "text": "20. Trường tiểu học Lê Hồng Phong",
                   "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9974. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9974",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9975. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9975",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9976. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9976",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -2886,7 +3037,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "974. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "974",
                   "media": "",
                   "is_other": false,
@@ -2894,7 +3045,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "975. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "975",
                   "media": "",
                   "is_other": false,
@@ -2902,7 +3053,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "976. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "976",
                   "media": "",
                   "is_other": false,
@@ -3029,6 +3180,30 @@
                   "is_header": false
                 },
                 {
+                  "text": "9971. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9971",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9972. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9972",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9973. Nhà trẻ/ trường mầm non công lập khác: Ghi rõ: …",
+                  "code": "9973",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
                   "text": "11. SIS Bình Dương (Hệ mầm non)",
                   "code": "11",
                   "media": "",
@@ -3061,7 +3236,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "971. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "971. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "971",
                   "media": "",
                   "is_other": false,
@@ -3069,7 +3244,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "972. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "972. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "972",
                   "media": "",
                   "is_other": false,
@@ -3077,7 +3252,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "973. Nhà trẻ/ trường mầm non khác: Ghi rõ: …",
+                  "text": "973. Nhà trẻ/ trường mầm non tư thục khác: Ghi rõ: …",
                   "code": "973",
                   "media": "",
                   "is_other": false,
@@ -3127,6 +3302,30 @@
                 {
                   "text": "20. Trường tiểu học Lê Hồng Phong",
                   "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9974. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9974",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9975. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9975",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "9976. Nhà trẻ/ trường tiểu học công lập khác: Ghi rõ: …",
+                  "code": "9976",
                   "media": "",
                   "is_other": false,
                   "is_exclusive": false,
@@ -3189,7 +3388,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "974. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "974. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "974",
                   "media": "",
                   "is_other": false,
@@ -3197,7 +3396,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "975. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "975. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "975",
                   "media": "",
                   "is_other": false,
@@ -3205,7 +3404,7 @@
                   "is_header": false
                 },
                 {
-                  "text": "976. Trường tiểu học khác: Ghi rõ: …",
+                  "text": "976. Trường tiểu học tư thục khác: Ghi rõ: …",
                   "code": "976",
                   "media": "",
                   "is_other": false,
@@ -3287,7 +3486,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[1])};\nif(Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])&&!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[2])};\nif(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){SetAnswer(Q2,[3])};",
+                "on_enter": "if(Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){SetAnswer(Q2,[1])};\nif(Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])&&!Contains(Q1c,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){SetAnswer(Q2,[2])};\nif(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){SetAnswer(Q2,[3])};",
                 "on_next": "",
                 "rules": []
               },
@@ -3975,7 +4174,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4028,7 +4227,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4244,7 +4443,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "if(GetAnswerCount(Q8a)<6){SetAnswer(Q8b,[Answer(Q8a)])};",
                 "rules": []
               },
@@ -4460,7 +4659,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);\nif(GetAnswerCount(Q8a)<6){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};\nFilterAnswerByAnswer(Q8b,Q8a);\nif(GetAnswerCount(Q8a)<6){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4492,7 +4691,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9),AnswerText(a)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4628,7 +4827,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4660,7 +4859,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()}",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4741,7 +4940,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "var a=\"S7a_\"+Answer(S8);\nSetQuestionText(CurrentQuestion(),[AnswerText(a),Answer(S9)]);\nif(!Contains(a,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -4965,7 +5164,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};",
+                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};",
                 "on_next": "",
                 "rules": []
               },
@@ -5137,7 +5336,7 @@
                 "search": false
               },
               "logic": {
-                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27])){QuestionHide()};\nFilterAnswerByAnswer(Q14b,Q14a);",
+                "on_enter": "if(!Contains(Q1b,[11,12,13,14,21,22,23,24,25,26,27,971,972,973,974,975,976])){QuestionHide()};\nFilterAnswerByAnswer(Q14b,Q14a);",
                 "on_next": "",
                 "rules": []
               },
