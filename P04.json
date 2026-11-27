@@ -422,6 +422,18 @@
                 "action": "Hard",
                 "message": "CANCEL",
                 "goto": ""
+              },
+              {
+                "condition": "Contains(Q4,[1])&&(!Contains(Q4,[2,3]))&&Contains(Q5,[3])",
+                "action": "Hard",
+                "message": "Quota ngân hàng UOB chỉ tuyển đáp viên có tổng tài sản 100 triêu đến dưới 1 tỉ",
+                "goto": ""
+              },
+              {
+                "condition": "Contains(Q4,[2,3])&&(!Contains(Q4,[1]))&&Contains(Q5,[2])",
+                "action": "Hard",
+                "message": "Quota ngân hàng VietinBank và BIDV chỉ tuyển đáp viên có tổng tài sản trên 1 tỉ\n",
+                "goto": ""
               }
             ]
           },
@@ -511,7 +523,14 @@
           "logic": {
             "on_enter": "if(!Contains(Q4,[1])){QuestionHide()};",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "Contains(Q5,[2])&&(!Contains(Q6,[1,2]))",
+                "action": "Hard",
+                "message": "Tổng tài sản 100 triệu tới dưới 1 tỉ chỉ phù hợp với Quota ngân hàng UOB.\nỞ quota này bạn phải sử dụng sản phẩm 1 hoặc 2 trong 6 tháng qua",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
