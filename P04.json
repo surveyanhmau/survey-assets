@@ -725,14 +725,6 @@
               "is_other": false,
               "is_exclusive": false,
               "is_header": false
-            },
-            {
-              "text": "Không có ngân hàng nào phù hợp",
-              "code": "0",
-              "media": "",
-              "is_other": false,
-              "is_exclusive": false,
-              "is_header": false
             }
           ],
           "topics": [],
