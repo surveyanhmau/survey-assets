@@ -765,7 +765,7 @@
         },
         {
           "id": "End",
-          "type": "SINGLE",
+          "type": "EMPTY",
           "text": "GHI NHẬN THÔNG TIN RECRUIT HOÀN TẤT",
           "note": "",
           "media": "",
