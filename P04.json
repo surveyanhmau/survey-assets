@@ -529,6 +529,12 @@
                 "action": "Hard",
                 "message": "Tổng tài sản 100 triệu tới dưới 1 tỉ chỉ phù hợp với Quota ngân hàng UOB.\nỞ quota này bạn phải sử dụng sản phẩm 1 hoặc 2 trong 6 tháng qua",
                 "goto": ""
+              },
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "Khi có tương tác với ngân hàng thì chắc chắn phải có tài khoản thanh toán code 1, PVV chú ý với đáp viên",
+                "goto": ""
               }
             ]
           },
@@ -618,7 +624,14 @@
           "logic": {
             "on_enter": "if(!Contains(Q4,[2])){QuestionHide()};",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "Khi có tương tác với ngân hàng thì chắc chắn phải có tài khoản thanh toán code 1, PVV chú ý với đáp viên",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
@@ -706,7 +719,14 @@
           "logic": {
             "on_enter": "if(!Contains(Q4,[3])){QuestionHide()};",
             "on_next": "",
-            "rules": []
+            "rules": [
+              {
+                "condition": "!Contains(CurrentQuestion(),[1])",
+                "action": "Hard",
+                "message": "Khi có tương tác với ngân hàng thì chắc chắn phải có tài khoản thanh toán code 1, PVV chú ý với đáp viên",
+                "goto": ""
+              }
+            ]
           },
           "conjoint": {},
           "number_grid": {},
