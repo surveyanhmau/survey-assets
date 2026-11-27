@@ -451,7 +451,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tài khoản thanh toán hoặc tiết kiệm",
+              "text": "1. Tài khoản thanh toán hoặc tiết kiệm không thời hạn",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -546,7 +546,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tài khoản thanh toán hoặc tiết kiệm",
+              "text": "1. Tài khoản thanh toán hoặc tiết kiệm không thời hạn",
               "code": "1",
               "media": "",
               "is_other": false,
@@ -634,7 +634,7 @@
           "readonly": false,
           "answers": [
             {
-              "text": "1. Tài khoản thanh toán hoặc tiết kiệm",
+              "text": "1. Tài khoản thanh toán hoặc tiết kiệm không thời hạn",
               "code": "1",
               "media": "",
               "is_other": false,
