@@ -760,7 +760,7 @@
             "search": false
           },
           "logic": {
-            "on_enter": "var a1=0;\nvar a2=0;\nvar a3=0;\nif(Contains(Q4,[1])&&Contains(Q5,[2])&&Contains(Q6,[1,2])){a1=1};\nif(Contains(Q4,[2])&&Contains(Q5,[3])){a2=2};\nif(Contains(Q4,[3])&&Contains(Q5,[3])){a2=3};\nSetAnswer(CurrentQuestion(),[a1,a2,a3]);",
+            "on_enter": "var a1=0;\nvar a2=0;\nvar a3=0;\nif(Contains(Q4,[1])&&Contains(Q5,[2])&&Contains(Q6,[1,2])){a1=1};\nif(Contains(Q4,[2])&&Contains(Q5,[3])){a2=2};\nif(Contains(Q4,[3])&&Contains(Q5,[3])){a3=3};\nSetAnswer(CurrentQuestion(),[a1,a2,a3]);",
             "on_next": "",
             "rules": [
               {
