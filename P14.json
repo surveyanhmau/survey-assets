@@ -659,10 +659,31 @@
                   "is_header": false
                 },
                 {
+                  "text": "Công nhân",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lái xe",
+                  "code": "21",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Lao động tự do",
+                  "code": "22",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
                   "text": "97. Khác, ghi rõ:_______________",
                   "code": "97",
                   "media": "",
-                  "is_other": true,
+                  "is_other": false,
                   "is_header": false
                 }
               ],
@@ -940,6 +961,14 @@
                   "is_other": true,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Sữa tươi",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -1067,6 +1096,14 @@
                   "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
+                },
+                {
+                  "text": "Sữa tươi",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
+                  "is_exclusive": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -1180,6 +1217,13 @@
                 {
                   "text": "97. Khác: ghi rõ …",
                   "code": "97",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Sữa tươi",
+                  "code": "20",
                   "media": "",
                   "is_other": false,
                   "is_header": false
@@ -2821,6 +2865,78 @@
                       "is_other": false,
                       "is_exclusive": true,
                       "is_header": false
+                    },
+                    {
+                      "text": "Buồn ngủ",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Bữa ăn đã có nhiều chất dinh dưỡng",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Chạy xe đường dài",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Khát nước",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Không còn công việc, có thời gian nghỉ ngơi / thư giãn",
+                      "code": "24",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Mệt mỏi / uể oải",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Thiếu hụt calo",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Vừa hoàn thành công việc",
+                      "code": "27",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Ăn nhiều thức ăn nhanh trong ngày",
+                      "code": "28",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
@@ -3415,6 +3531,27 @@
                       "media": "",
                       "is_other": false,
                       "is_header": false
+                    },
+                    {
+                      "text": "Cà phê muối chú long",
+                      "code": "65",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Eastroc Water Boost",
+                      "code": "66",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Lặng Coffee",
+                      "code": "67",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
                     }
                   ],
                   "topics": [],
@@ -3544,6 +3681,20 @@
                       "code": "97",
                       "media": "",
                       "is_other": true,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Tại cửa hàng tiện lợi",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "Tại cửa hàng tạp hóa",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
                       "is_header": false
                     }
                   ],
@@ -3700,6 +3851,206 @@
                   "form": {}
                 },
                 {
+                  "id": "C9a-code",
+                  "type": "MULTI",
+                  "text": "Vì sao anh/chị chưa hài lòng với thức uống hiện tại trong việc đáp ứng nhu cầu được chọn ở C1?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Vị quá ngọt",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Hương vị chưa đa dạng",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Hương vị đại trà",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Không hợp khẩu vị",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Vị hơi ngọt",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. Vị nhạt",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "101. Chưa đủ tỉnh táo ngay",
+                      "code": "101",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "102. Một lúc sau mệt trở lại",
+                      "code": "102",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "103. Không có tác dụng với bản thân",
+                      "code": "103",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "104. Không tăng cường ghi nhớ",
+                      "code": "104",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "105. Không tăng cường tập trung",
+                      "code": "105",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "106. Không tốt cho sức khỏe",
+                      "code": "106",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "107. Làm tăng cân",
+                      "code": "107",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "108. Không bổ sung chất điện giải",
+                      "code": "108",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "201. Nhiều chất hóa học",
+                      "code": "201",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "202. Nhiều đường",
+                      "code": "202",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "301. Ít gas",
+                      "code": "301",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "401. Giá hơi cao",
+                      "code": "401",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "501. Chờ có thức uống lâu",
+                      "code": "501",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "601. Hậu vị ngọt lưu lâu trong cổ họng",
+                      "code": "601",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "999. KHÔNG CÓ",
+                      "code": "999",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "QuestionHide()",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
                   "id": "C9b",
                   "type": "OPEN",
                   "text": "Vì sao anh/chị không chọn uống nước tăng lực để đáp ứng nhu cầu {0}?\n\nLưu ý: Vui lòng mô tả cụ thể lý do anh/chị không chọn nước tăng lực cho nhu cầu này (ví dụ: hương vị, sức khỏe, thành phần, hiệu quả hoặc lý do khác...).",
@@ -3724,6 +4075,1142 @@
                   },
                   "logic": {
                     "on_enter": "SetQuestionText(CurrentQuestion(),[LoopName()]);\nif(Contains(C5,[2])){QuestionHide();};",
+                    "on_next": "",
+                    "rules": []
+                  },
+                  "conjoint": {},
+                  "number_grid": {},
+                  "form": {}
+                },
+                {
+                  "id": "C9b-code",
+                  "type": "MULTI",
+                  "text": "Vì sao anh/chị không chọn uống nước tăng lực để đáp ứng nhu cầu?",
+                  "note": "",
+                  "media": "",
+                  "record": false,
+                  "readonly": false,
+                  "answers": [
+                    {
+                      "text": "1. Không hợp khẩu vị/Vị không ngon",
+                      "code": "1",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "2. Vị ngọt gắt/gắt cổ",
+                      "code": "2",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "3. Uống dễ ngấy",
+                      "code": "3",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "4. Vị không đậm đà",
+                      "code": "4",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "5. Ít hương vị để lựa chọn",
+                      "code": "5",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "6. C2 có vị chua ngọt vừa phải",
+                      "code": "6",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "7. Vị chua nhiều",
+                      "code": "7",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "8. Mùi nồng/hắc",
+                      "code": "8",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "9. Vị ngọt không tự nhiên",
+                      "code": "9",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "10. Không có vị cam",
+                      "code": "10",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "11. Không có vị trà",
+                      "code": "11",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "12. Không có vị trái cây",
+                      "code": "12",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "13. Không có vị đắng như cà phê",
+                      "code": "13",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "14. Thích vị béo ngọt hơn",
+                      "code": "14",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "15. Không có vị trà xanh",
+                      "code": "15",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "16. Thích hương vị cà phê",
+                      "code": "16",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "17. Thích hương vị Pepsi",
+                      "code": "17",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "18. Thích vị Fanta",
+                      "code": "18",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "19. Thích vị ngọt của 7up hơn",
+                      "code": "19",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "20. Trà có vị chanh",
+                      "code": "20",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "21. Vị ngọt hóa học",
+                      "code": "21",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "22. Vị nhân sâm không thích hợp uống buổi sáng",
+                      "code": "22",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "23. Vị hơi đậm",
+                      "code": "23",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "24. Thích vị ngọt của nước trái cây",
+                      "code": "24",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "25. Thích vị thanh mát của trà",
+                      "code": "25",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "26. Vị ngọt ít",
+                      "code": "26",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "101. Hậu vị chua",
+                      "code": "101",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "102. Hậu vị ngọt gắt/khé cổ",
+                      "code": "102",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "103. Không thích hậu vị gas",
+                      "code": "103",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "104. Thích hậu vị ít béo của cà phê",
+                      "code": "104",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "105. Thích hậu vị đắng nhẹ của cà phê",
+                      "code": "105",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "201. Mùi không tự nhiên",
+                      "code": "201",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "202. Mùi hương không thơm",
+                      "code": "202",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "203. Không thích mùi hương tăng lực",
+                      "code": "203",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "204. Mùi hương nồng",
+                      "code": "204",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "205. Mùi hương liệu nhiều",
+                      "code": "205",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "206. Thích mùi sữa dịu nhẹ của thức uống cà phê",
+                      "code": "206",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "207. Thích hương hoa quả của nước ép",
+                      "code": "207",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "208. Thích mùi hương cà phê hơn",
+                      "code": "208",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "209. Thích hương cam của nước trái cây",
+                      "code": "209",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "210. Thích mùi thơm của trà sữa",
+                      "code": "210",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "211. Thích mùi trà xanh thơm",
+                      "code": "211",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "301. Có quá nhiều đường",
+                      "code": "301",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "302. Đường hóa học",
+                      "code": "302",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "303. Chứa chất kích thích",
+                      "code": "303",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "304. Hàm lượng caffeine cao/Chỉ có caffeine",
+                      "code": "304",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "305. Nhiều phẩm màu",
+                      "code": "305",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "306. Có chất bảo quản",
+                      "code": "306",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "307. Không có chất điện giải",
+                      "code": "307",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "308. Không có caffeine",
+                      "code": "308",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "309. Coca nhiều đường được chọn làm nguồn năng lượng",
+                      "code": "309",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "310. Có các chất hóa học/Thành phần không tự nhiên",
+                      "code": "310",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "311. Có nhiều hương liệu",
+                      "code": "311",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "312. Có nhiều phụ gia",
+                      "code": "312",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "313. Không đủ thành phần giúp tỉnh táo như cà phê",
+                      "code": "313",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "314. Lượng calo cao",
+                      "code": "314",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "315. Có chất tạo ngọt",
+                      "code": "315",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "316. Có nồng độ cao taurine",
+                      "code": "316",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "317. Có chứa nhiều phẩm màu",
+                      "code": "317",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "318. Không có nhiều topping",
+                      "code": "318",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "319. Không có nhiều chất dinh dưỡng (chất khoáng, vitamin,…)",
+                      "code": "319",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "320. Trà có lá trà tươi ủ lạnh",
+                      "code": "320",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "321. Tăng lực ít ion tốt cho sức khỏe hơn",
+                      "code": "321",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "401. Có nhiều gas/Có gas gây khó chịu khi uống",
+                      "code": "401",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "402. Không có gas",
+                      "code": "402",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "501. Không tốt cho sức khỏe",
+                      "code": "501",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "502. Suy thận khi uống nhiều/Không tốt cho thận",
+                      "code": "502",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "503. Tim đập nhanh",
+                      "code": "503",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "504. Gây mất ngủ",
+                      "code": "504",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "505. Bị dị ứng với nước tăng lực",
+                      "code": "505",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "506. Không giúp tỉnh táo hiệu quả",
+                      "code": "506",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "507. Chỉ cung cấp năng lượng trong thời gian ngắn",
+                      "code": "507",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "508. Không phù hợp với nhu cầu bản thân",
+                      "code": "508",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "509. Không hỗ trợ tốt cho luyện tập và trao đổi chất",
+                      "code": "509",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "510. Lo tăng cân/thừa cân do nước tăng lực",
+                      "code": "510",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "511. Không đáp ứng nhu cầu dinh dưỡng buổi sáng",
+                      "code": "511",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "512. Dễ gây nghiện",
+                      "code": "512",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "513. Không tốt cho xương/Gây mục xương khi uống nhiều",
+                      "code": "513",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "514. Lo uống nước tăng lực dễ tiểu đường",
+                      "code": "514",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "515. Mức năng lượng quá mạnh so với nhu cầu/Thành phần quá mạnh",
+                      "code": "515",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "516. Không bù đủ khoáng chất/chất điện giải cần thiết",
+                      "code": "516",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "517. Chỉ giảm mệt mỏi",
+                      "code": "517",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "518. Không làm giảm căng thẳng/mệt mỏi",
+                      "code": "518",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "519. Có thể làm mệt khi hoạt động",
+                      "code": "519",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "520. Dễ gây ho",
+                      "code": "520",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "521. Không tốt cho hệ tiêu hóa (cào ruột,đầy hơi…)",
+                      "code": "521",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "522. Bù nước kém",
+                      "code": "522",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "523. Không cung cấp đủ năng lượng cần thiết",
+                      "code": "523",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "524. Không cải thiện tâm trạng",
+                      "code": "524",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "525. Không giúp phát triển cơ bắp",
+                      "code": "525",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "526. Khó tập trung không đạt hiệu quả cao trong công việc/học tập",
+                      "code": "526",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "527. Không giải khát/Gây khát nước nhiều hơn",
+                      "code": "527",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "528. Không tốt cho trí não",
+                      "code": "528",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "529. Làm đau họng",
+                      "code": "529",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "530. Uống gây nhức đầu",
+                      "code": "530",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "531. Uống làm khó chơi thể thao liên tục",
+                      "code": "531",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "601. Chọn Trà Ô Long để giải nhiệt",
+                      "code": "601",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "602. Coca-Cola phù hợp nạp ít đường lấy năng lượng trước tập",
+                      "code": "602",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "603. Cà phê có hiệu quả hơn",
+                      "code": "603",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "604. Muốn thức uống phù hợp sức khỏe",
+                      "code": "604",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "605. Nước ngọt có gas giúp ăn ngon",
+                      "code": "605",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "606. Nước thể thao giúp cơ thể khỏe mạnh",
+                      "code": "606",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "607. Nước tự nhiên hiệu quả hơn vào buổi tối",
+                      "code": "607",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "608. Nước điện giải cân bằng cơ thể",
+                      "code": "608",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "609. Nước điện giải giúp không tụt huyết áp",
+                      "code": "609",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "610. Revive giúp mau khỏe",
+                      "code": "610",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "611. Trà giúp não hoạt động từ từ",
+                      "code": "611",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "701. Không mang lại cảm giác sảng khoái khi uống",
+                      "code": "701",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "702. Khó chịu miệng khi đang tập",
+                      "code": "702",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "703. Không phù hợp uống vào buổi sáng",
+                      "code": "703",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "704. Không tạo thoải mái/dễ chịu",
+                      "code": "704",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "705. Nóng cổ họng khi uống",
+                      "code": "705",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "706. Uống NTL bị đắng miệng",
+                      "code": "706",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "707. Uống nước tăng lực mau đói",
+                      "code": "707",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "708. Thích cảm giác mát/mát lạnh của nước trái cây",
+                      "code": "708",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "801. Do thói quen không sử dụng",
+                      "code": "801",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "802. Cần nước điện giải hơn nước tăng lực trước hoạt động",
+                      "code": "802",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "803. Không cần mức tỉnh táo/sung sức như buổi sáng hoặc trưa",
+                      "code": "803",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "804. Muốn hạn chế lượng đường nạp vào",
+                      "code": "804",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "805. Muốn thay đổi khẩu vị",
+                      "code": "805",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "806. Nước tăng lực không phải thức uống thiết yếu hàng ngày",
+                      "code": "806",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "807. Thời điểm đó chỉ muốn tự thưởng thay vì hiệu quả tỉnh táo",
+                      "code": "807",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "808. Vừa thức dậy cần năng lượng, chưa cần tỉnh táo tức thì",
+                      "code": "808",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "809. Ít vận động nên không dùng tăng lực",
+                      "code": "809",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "810. Thích nước ép hơn nước tăng lực",
+                      "code": "810",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "901. Không phù hợp với sức khỏe bản thân (hay hồi hộp,..)",
+                      "code": "901",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "902. Chọn cà phê vì tiết kiệm thời gian",
+                      "code": "902",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "903. Hình ảnh không sang trọng",
+                      "code": "903",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "904. Không phù hợp sau khi chơi thể thao",
+                      "code": "904",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "905. Không tiện mang nước tăng lực đi làm",
+                      "code": "905",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "906. Màu hơi đậm",
+                      "code": "906",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "907. Không phù hợp cuộc hẹn đối tác",
+                      "code": "907",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "908. Không phù hợp công việc văn phòng",
+                      "code": "908",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "909. Không thích đồ uống đóng lon",
+                      "code": "909",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "910. Thể tích nhỏ/ít",
+                      "code": "910",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "911. Thích cà phê cho trí óc, nước tăng lực dành thể chất",
+                      "code": "911",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "912. Mua ở căn tin không có nhiều lựa chọn",
+                      "code": "912",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    },
+                    {
+                      "text": "999. KHÔNG CÓ",
+                      "code": "999",
+                      "media": "",
+                      "is_other": false,
+                      "is_exclusive": false,
+                      "is_header": false
+                    }
+                  ],
+                  "topics": [],
+                  "min": "1",
+                  "max": "999",
+                  "unit": "",
+                  "display_columns": 1,
+                  "no_answer": false,
+                  "integer_only": true,
+                  "realtime": false,
+                  "realcam": false,
+                  "options": {
+                    "answer_random": false,
+                    "search": false
+                  },
+                  "logic": {
+                    "on_enter": "QuestionHide()",
                     "on_next": "",
                     "rules": []
                   },
@@ -4012,6 +5499,13 @@
                   "media": "",
                   "is_other": true,
                   "is_header": false
+                },
+                {
+                  "text": "nước điện giải",
+                  "code": "9",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
                 }
               ],
               "topics": [],
@@ -4137,10 +5631,52 @@
                   "is_header": false
                 },
                 {
-                  "text": "97. Khác: ghi rõ",
-                  "code": "97",
+                  "text": "14. Tăng lực xanh",
+                  "code": "14",
                   "media": "",
-                  "is_other": true,
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "15. redbull",
+                  "code": "15",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "16. Sting",
+                  "code": "16",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "17. focus",
+                  "code": "17",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "18. herbal recharge",
+                  "code": "18",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "19. mixue",
+                  "code": "19",
+                  "media": "",
+                  "is_other": false,
+                  "is_header": false
+                },
+                {
+                  "text": "20. Raise",
+                  "code": "20",
+                  "media": "",
+                  "is_other": false,
                   "is_header": false
                 }
               ],
@@ -4559,6 +6095,14 @@
                   "code": "12",
                   "media": "",
                   "is_other": true,
+                  "is_exclusive": false,
+                  "is_header": false
+                },
+                {
+                  "text": "Monster",
+                  "code": "11",
+                  "media": "",
+                  "is_other": false,
                   "is_exclusive": false,
                   "is_header": false
                 }
